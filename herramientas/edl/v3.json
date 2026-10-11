@@ -1,0 +1,347 @@
+{
+ "src": "../src/v3.mp4",
+ "cuts": "../work/cuts_v3.json",
+ "out": "Ajolote_3_que_lo_hace_magico",
+ "title": "¿Qué hace mágico al ajolote?",
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+8%",
+ "gap": 0.3,
+ "beats": [
+  {
+   "text": "Cuenta una leyenda azteca que un dios, para no ser sacrificado, se transformó en maíz, luego en maguey… y al final se lanzó al agua convertido en ajolote.",
+   "shots": [
+    {
+     "t": 22.8,
+     "end": 31.6,
+     "mode": "full",
+     "cx": 0.78
+    },
+    {
+     "t": 36.1,
+     "end": 39.1,
+     "mode": "fit",
+     "cx": 0.42,
+     "w": 0.8,
+     "fa": 1.78
+    },
+    {
+     "t": 46.4,
+     "end": 50.1,
+     "mode": "fit",
+     "fa": 1.78
+    },
+    {
+     "t": 51.95,
+     "end": 53.35,
+     "mode": "fit",
+     "w": 0.7,
+     "fa": 1.78
+    }
+   ]
+  },
+  {
+   "text": "Su nombre en náhuatl significa «monstruo de agua». Para la ciencia es Ambystoma mexicanum.",
+   "shots": [
+    {
+     "t": 53.85,
+     "end": 57.4,
+     "mode": "fit",
+     "fa": 1.78
+    },
+    {
+     "t": 73.2,
+     "end": 78.5,
+     "mode": "fit",
+     "z": 1.0,
+     "z2": 1.1
+    }
+   ]
+  },
+  {
+   "text": "Ese penacho son sus branquias, pero también respira por la piel, por la boca y la garganta, y con sus pulmones.",
+   "shots": [
+    {
+     "t": 83.0,
+     "end": 89.3,
+     "mode": "fit",
+     "z": 1.15,
+     "fa": 1.78
+    },
+    {
+     "t": 89.5,
+     "end": 94.9,
+     "mode": "fit",
+     "z": 1.15,
+     "fa": 1.78
+    },
+    {
+     "t": 95.1,
+     "end": 100.3,
+     "mode": "fit",
+     "z": 1.15,
+     "fa": 1.78
+    }
+   ]
+  },
+  {
+   "text": "En 1863, el zoólogo Auguste Duméril recibió seis ajolotes. Creía que eran larvas de salamandra… hasta que una hembra puso huevos.",
+   "shots": [
+    {
+     "t": 100.9,
+     "end": 111.0,
+     "mode": "full",
+     "cx": 0.5
+    },
+    {
+     "t": 111.0,
+     "end": 120.3,
+     "mode": "full",
+     "cx": 0.55
+    }
+   ]
+  },
+  {
+   "text": "Es la neotenia: aun siendo adulto conserva rasgos de cría, como branquias externas, ojos sin párpados y una cabezota de bebé.",
+   "shots": [
+    {
+     "t": 129.1,
+     "end": 134.0,
+     "mode": "fit",
+     "fa": 1.78
+    },
+    {
+     "t": 145.2,
+     "end": 156.0,
+     "mode": "fit",
+     "z": 1.05,
+     "fa": 1.78
+    }
+   ]
+  },
+  {
+   "text": "Así vive unos seis años en libertad y hasta diez en cautiverio. Rara vez completa la metamorfosis, porque su hipófisis no produce tirotropina, la hormona que la regula.",
+   "shots": [
+    {
+     "t": 165.0,
+     "end": 172.6,
+     "mode": "fit",
+     "fa": 1.78
+    },
+    {
+     "t": 191.7,
+     "end": 195.4,
+     "mode": "fit",
+     "fa": 1.78
+    },
+    {
+     "t": 196.0,
+     "end": 203.5,
+     "mode": "fit",
+     "fa": 1.78
+    }
+   ]
+  },
+  {
+   "text": "Duméril también le cortó las branquias… y volvieron a crecer. El ajolote regenera casi cualquier parte: columna, retina, corazón y hasta el cuarenta por ciento de su cerebro.",
+   "shots": [
+    {
+     "t": 203.8,
+     "end": 218.0,
+     "mode": "full",
+     "cx": 0.55
+    },
+    {
+     "t": 230.8,
+     "end": 240.0,
+     "mode": "fit",
+     "fa": 1.78
+    }
+   ]
+  },
+  {
+   "text": "En 2018 se leyó su genoma: unos treinta y dos mil millones de pares de bases, diez veces más que el humano.",
+   "shots": [
+    {
+     "t": 271.3,
+     "end": 279.9,
+     "mode": "fit",
+     "fa": 1.78
+    },
+    {
+     "t": 280.4,
+     "end": 290.2,
+     "mode": "fit",
+     "fa": 1.78
+    }
+   ]
+  },
+  {
+   "text": "Sus genes se parecen a los nuestros; lo que cambia es cómo se regulan. Y piezas clave de su regeneración, como los macrófagos y el TGF beta, también existen en nosotros.",
+   "shots": [
+    {
+     "t": 290.8,
+     "end": 293.8,
+     "mode": "fit",
+     "fa": 1.78
+    },
+    {
+     "t": 308.6,
+     "end": 311.0,
+     "mode": "fit",
+     "fa": 1.78
+    },
+    {
+     "t": 311.6,
+     "end": 320.0,
+     "mode": "fit",
+     "fa": 1.78
+    }
+   ]
+  },
+  {
+   "text": "De hecho, podemos regenerar la punta de un dedo si queda suficiente tejido de la uña. Y el ajolote, además, es muy resistente al cáncer.",
+   "shots": [
+    {
+     "t": 320.8,
+     "end": 334.9,
+     "mode": "full",
+     "cx": 0.55,
+     "safe": [
+      0,
+      0,
+      640,
+      315
+     ]
+    },
+    {
+     "t": 345.0,
+     "end": 349.3,
+     "mode": "full",
+     "cx": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Los albinos se crían sobre todo en laboratorio; en la naturaleza son negros, marrones o verde oliva.",
+   "shots": [
+    {
+     "t": 354.2,
+     "end": 355.2,
+     "mode": "fit",
+     "w": 0.35,
+     "fa": 1.78
+    },
+    {
+     "t": 362.7,
+     "end": 379.4,
+     "mode": "fit",
+     "z": 1.1,
+     "cx": 0.6,
+     "fa": 1.78
+    }
+   ]
+  },
+  {
+   "text": "El problema es que casi todos los de laboratorio descienden de aquellos seis de Duméril, y la endogamia obligó a cruzarlos con la salamandra tigre.",
+   "shots": [
+    {
+     "t": 380.0,
+     "end": 389.8,
+     "mode": "full",
+     "cx": 0.5
+    },
+    {
+     "t": 390.1,
+     "end": 392.4,
+     "mode": "fit",
+     "fa": 1.78
+    }
+   ]
+  },
+  {
+   "text": "En 1998 había seis mil ajolotes por kilómetro cuadrado en Xochimilco. Hoy se calcula que en libertad quedan entre cincuenta y mil.",
+   "shots": [
+    {
+     "t": 405.4,
+     "end": 408.3,
+     "mode": "fit",
+     "fa": 1.78
+    },
+    {
+     "t": 409.0,
+     "end": 413.0,
+     "mode": "fit",
+     "fa": 1.78
+    },
+    {
+     "t": 413.6,
+     "end": 425.0,
+     "mode": "fit",
+     "fa": 1.78
+    }
+   ]
+  },
+  {
+   "text": "Las causas: se desvió el agua de sus manantiales, el sistema de lagos perdió el noventa y ocho por ciento de su superficie, y llegaron la contaminación, la venta ilegal y peces invasores.",
+   "shots": [
+    {
+     "t": 425.0,
+     "end": 440.0,
+     "mode": "fit",
+     "fa": 1.78
+    },
+    {
+     "t": 445.0,
+     "end": 465.0,
+     "mode": "fit",
+     "fa": 1.78
+    }
+   ]
+  },
+  {
+   "text": "Para salvarlo se recuperan las chinampas, cultivos tradicionales que también le sirven de refugio.",
+   "shots": [
+    {
+     "t": 465.5,
+     "end": 481.0,
+     "mode": "fit",
+     "safe": [
+      0,
+      0,
+      640,
+      320
+     ],
+     "fa": 1.78
+    },
+    {
+     "t": 482.7,
+     "end": 488.6,
+     "mode": "full",
+     "cx": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Y en México hay otras dieciséis especies que se quedan jóvenes para siempre, todas amenazadas. Cuidar el agua es cuidar esta magia.",
+   "gap": 0.2,
+   "shots": [
+    {
+     "t": 597.5,
+     "end": 615.0,
+     "mode": "fit",
+     "z": 1.1,
+     "cx": 0.55,
+     "fa": 1.78
+    },
+    {
+     "t": 57.95,
+     "end": 61.3,
+     "mode": "fit",
+     "z": 1.0,
+     "z2": 1.12,
+     "fa": 1.78
+    }
+   ]
+  }
+ ]
+}

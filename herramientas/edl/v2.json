@@ -1,0 +1,335 @@
+{
+ "src": "../src/v2.mp4",
+ "cuts": "../work/cuts_v2b.json",
+ "out": "Ajolote_2_monstruo_de_agua",
+ "title": "Ajolote: el monstruo de agua en peligro",
+ "voice": "es-MX-JorgeNeural",
+ "rate": "-6%",
+ "gap": 0.5,
+ "safe": [
+  0,
+  0,
+  486,
+  236
+ ],
+ "beats": [
+  {
+   "text": "Puedo regenerar hasta mi cerebro, nunca dejo de ser una cría… y estoy a punto de desaparecer. ¿Sabes quién soy?",
+   "shots": [
+    {
+     "t": 9.15,
+     "end": 12.5,
+     "mode": "fit",
+     "safe": [
+      230,
+      62,
+      410,
+      190
+     ],
+     "cx": 0.6,
+     "z": 1.0,
+     "z2": 1.15,
+     "w": 1.5
+    },
+    {
+     "t": 39.0,
+     "end": 41.0,
+     "mode": "fit",
+     "safe": [
+      60,
+      0,
+      426,
+      285
+     ],
+     "cx": 0.5,
+     "z": 1.0,
+     "z2": 1.1,
+     "w": 0.8
+    }
+   ]
+  },
+  {
+   "text": "En la naturaleza, no vivo en cualquier parte. Solo existo en un único lugar del mundo: el lago de Xochimilco, en México.",
+   "shots": [
+    {
+     "t": 0.1,
+     "end": 4.65,
+     "mode": "fit",
+     "cx": 0.5,
+     "z": 1.0,
+     "z2": 1.1
+    },
+    {
+     "t": 4.98,
+     "end": 8.78,
+     "mode": "fit",
+     "cx": 0.45,
+     "z": 1.1,
+     "z2": 1.0
+    }
+   ]
+  },
+  {
+   "text": "En mi forma salvaje, mi color está entre el negro y el verde.",
+   "shots": [
+    {
+     "t": 13.1,
+     "end": 16.3,
+     "mode": "fit",
+     "safe": [
+      0,
+      0,
+      486,
+      265
+     ],
+     "cx": 0.5,
+     "z": 1.0,
+     "z2": 1.1
+    }
+   ]
+  },
+  {
+   "text": "Pero casi todo el mundo me conoce por otra versión de mí: mi forma doméstica, de color blanco.",
+   "shots": [
+    {
+     "t": 17.35,
+     "end": 20.5,
+     "mode": "fit",
+     "safe": [
+      120,
+      0,
+      366,
+      212
+     ],
+     "cx": 0.5
+    },
+    {
+     "t": 20.9,
+     "end": 24.75,
+     "mode": "fit",
+     "safe": [
+      0,
+      0,
+      486,
+      300
+     ],
+     "cx": 0.4
+    }
+   ]
+  },
+  {
+   "text": "Y tengo un superpoder. Puedo regenerar por completo mis patas, mi mandíbula, mi columna vertebral… e incluso mi cerebro.",
+   "shots": [
+    {
+     "t": 25.1,
+     "end": 29.9,
+     "mode": "fit",
+     "safe": [
+      150,
+      0,
+      336,
+      232
+     ],
+     "cx": 0.5
+    },
+    {
+     "t": 30.2,
+     "end": 34.55,
+     "mode": "full",
+     "safe": [
+      340,
+      62,
+      300,
+      298
+     ],
+     "cx": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Gracias a esas capacidades de mis células, soy uno de los animales más estudiados en la lucha contra el cáncer.",
+   "shots": [
+    {
+     "t": 34.9,
+     "end": 37.2,
+     "mode": "fit",
+     "safe": [
+      60,
+      0,
+      426,
+      285
+     ],
+     "cx": 0.5
+    },
+    {
+     "t": 41.0,
+     "end": 44.6,
+     "mode": "fit",
+     "safe": [
+      60,
+      0,
+      426,
+      285
+     ],
+     "cx": 0.5,
+     "z": 1.0,
+     "z2": 1.15
+    }
+   ]
+  },
+  {
+   "text": "Y hay algo todavía más extraño: puedo no crecer jamás. Quedarme toda la vida en mi forma de larva… y, aun así, reproducirme.",
+   "shots": [
+    {
+     "t": 44.95,
+     "end": 47.65,
+     "mode": "fit",
+     "cx": 0.4,
+     "safe": [
+      0,
+      0,
+      486,
+      225
+     ]
+    },
+    {
+     "t": 48.05,
+     "end": 51.8,
+     "mode": "fit",
+     "cx": 0.45,
+     "safe": [
+      0,
+      0,
+      486,
+      225
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Por eso, encontrarme en mi forma adulta es algo bastante raro.",
+   "shots": [
+    {
+     "t": 53.85,
+     "end": 57.0,
+     "mode": "fit",
+     "safe": [
+      0,
+      0,
+      486,
+      250
+     ],
+     "cx": 0.55,
+     "z": 1.0,
+     "z2": 1.1
+    }
+   ]
+  },
+  {
+   "text": "Mi historia viene de muy atrás. Para los aztecas, mi nombre significaba «monstruo de agua».",
+   "shots": [
+    {
+     "t": 60.4,
+     "end": 65.5,
+     "mode": "fit",
+     "safe": [
+      0,
+      0,
+      486,
+      250
+     ],
+     "cx": 0.45,
+     "z": 1.0,
+     "z2": 1.1
+    }
+   ]
+  },
+  {
+   "text": "Y me consideraban nada menos que una manifestación del dios Xólotl.",
+   "shots": [
+    {
+     "t": 65.85,
+     "end": 70.3,
+     "mode": "fit",
+     "safe": [
+      0,
+      0,
+      486,
+      200
+     ],
+     "cx": 0.55,
+     "z": 1.0,
+     "z2": 1.12
+    }
+   ]
+  },
+  {
+   "text": "Pero hoy, mi situación es grave: estoy en peligro crítico de extinción.",
+   "shots": [
+    {
+     "t": 70.62,
+     "end": 75.4,
+     "mode": "fit",
+     "safe": [
+      0,
+      0,
+      486,
+      250
+     ],
+     "cx": 0.75
+    }
+   ]
+  },
+  {
+   "text": "El lugar donde vivo se ha reducido a menos de diez kilómetros cuadrados.",
+   "shots": [
+    {
+     "t": 75.8,
+     "end": 80.25,
+     "mode": "fit",
+     "safe": [
+      0,
+      0,
+      486,
+      250
+     ],
+     "cx": 0.55,
+     "z": 1.0,
+     "z2": 1.1
+    }
+   ]
+  },
+  {
+   "text": "Soy el ajolote. Un animal único, que solo existe aquí… y que podría desaparecer.",
+   "gap": 0.3,
+   "shots": [
+    {
+     "t": 57.0,
+     "end": 60.0,
+     "mode": "fit",
+     "safe": [
+      0,
+      0,
+      486,
+      250
+     ],
+     "cx": 0.55
+    },
+    {
+     "t": 80.6,
+     "end": 85.8,
+     "mode": "fit",
+     "safe": [
+      0,
+      0,
+      486,
+      250
+     ],
+     "cx": 0.5,
+     "z": 1.0,
+     "z2": 1.15
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,294 @@
+{
+ "src": "../src/v4.mp4",
+ "cuts": "../work/cuts_v4.json",
+ "out": "Ajolote_4_10_datos",
+ "title": "10 datos increíbles del ajolote",
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+6%",
+ "safe": [
+  0,
+  66,
+  640,
+  294
+ ],
+ "beats": [
+  {
+   "text": "Parece un pez, sonríe todo el tiempo y puede regenerar partes de su cuerpo. Te presento al ajolote, y estos son diez datos que te van a sorprender.",
+   "shots": [
+    {
+     "t": 8.3,
+     "mode": "fit",
+     "cx": 0.5,
+     "z": 1.25,
+     "z2": 1.35
+    },
+    {
+     "t": 29.4,
+     "mode": "fit",
+     "cx": 0.48,
+     "z": 1.2,
+     "z2": 1.2
+    }
+   ]
+  },
+  {
+   "text": "Uno: le dicen pez caminante, pero no es un pez. Es una salamandra, un anfibio, igual que las ranas.",
+   "shots": [
+    {
+     "t": 19.7,
+     "mode": "fit",
+     "z": 1.15,
+     "cx": 0.55
+    },
+    {
+     "t": 36.2,
+     "mode": "full",
+     "cx": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Pasa toda su vida bajo el agua y conserva sus branquias, por eso parece un pez. Con sus patitas camina por el fondo de lagos y estanques.",
+   "shots": [
+    {
+     "t": 43.0,
+     "mode": "fit",
+     "z": 1.1,
+     "cx": 0.45,
+     "speed": 0.85
+    },
+    {
+     "t": 65.7,
+     "mode": "fit",
+     "z": 1.1,
+     "cx": 0.5,
+     "speed": 0.85
+    }
+   ]
+  },
+  {
+   "text": "Dos: su superpoder. Si pierde una pata, la cola, o incluso partes del corazón o del cerebro, puede volver a hacerlos crecer.",
+   "shots": [
+    {
+     "t": 47.2,
+     "mode": "fit",
+     "cx": 0.45,
+     "z": 1.15,
+     "z2": 1.15
+    },
+    {
+     "t": 57.1,
+     "mode": "full",
+     "cx": 0.55,
+     "speed": 0.8
+    }
+   ]
+  },
+  {
+   "text": "Los científicos lo estudian con la esperanza de que, algún día, esto ayude a los humanos.",
+   "shots": [
+    {
+     "t": 61.5,
+     "mode": "full",
+     "cx": 0.42
+    },
+    {
+     "t": 70.1,
+     "mode": "full",
+     "cx": 0.55
+    }
+   ]
+  },
+  {
+   "text": "Tres: es un bebé para siempre. Se queda en su forma juvenil toda la vida, algo llamado neotenia, y nunca pasa por la metamorfosis de otras salamandras.",
+   "shots": [
+    {
+     "t": 74.3,
+     "mode": "full",
+     "cx": 0.42
+    },
+    {
+     "t": 86.4,
+     "mode": "full",
+     "cx": 0.55
+    }
+   ]
+  },
+  {
+   "text": "Cuatro: hay ajolotes marrones y verdosos en la naturaleza, pero también albinos, rosados, dorados o con manchas. Y pueden cambiar un poco su tono para camuflarse.",
+   "shots": [
+    {
+     "t": 94.7,
+     "mode": "full",
+     "cx": 0.45
+    },
+    {
+     "t": 112.3,
+     "mode": "full",
+     "cx": 0.45
+    },
+    {
+     "t": 144.1,
+     "mode": "fit",
+     "z": 1.15,
+     "cx": 0.5
+    },
+    {
+     "t": 116.3,
+     "mode": "fit",
+     "z": 1.1,
+     "cx": 0.4
+    }
+   ]
+  },
+  {
+   "text": "Cinco: en libertad solo vive en un lugar del planeta, Xochimilco, en México. Y su hogar se reduce cada año por la contaminación y el crecimiento de la ciudad.",
+   "shots": [
+    {
+     "t": 135.7,
+     "mode": "full",
+     "cx": 0.5
+    },
+    {
+     "t": 140.1,
+     "mode": "full",
+     "cx": 0.45
+    },
+    {
+     "t": 178.1,
+     "mode": "full",
+     "cx": 0.45
+    }
+   ]
+  },
+  {
+   "text": "Seis: aunque parezca tierno, es carnívoro. Come gusanos, insectos y peces pequeños. No tiene dientes para masticar: aspira la comida y la traga entera.",
+   "shots": [
+    {
+     "t": 157.0,
+     "mode": "fit",
+     "cx": 0.38,
+     "speed": 0.9,
+     "z": 1.15,
+     "z2": 1.15
+    },
+    {
+     "t": 161.15,
+     "mode": "fit",
+     "cx": 0.45,
+     "speed": 0.9,
+     "z": 1.15,
+     "z2": 1.15
+    },
+    {
+     "t": 148.3,
+     "mode": "fit",
+     "cx": 0.48,
+     "z": 1.15,
+     "z2": 1.15
+    }
+   ]
+  },
+  {
+   "text": "Siete: respira de tres formas. Con sus branquias bajo el agua, con pulmones, subiendo a tomar aire, y también a través de la piel.",
+   "shots": [
+    {
+     "t": 169.65,
+     "mode": "full",
+     "cx": 0.5
+    },
+    {
+     "t": 182.45,
+     "mode": "fit",
+     "z": 1.15,
+     "cx": 0.4
+    },
+    {
+     "t": 174.1,
+     "mode": "fit",
+     "cx": 0.5,
+     "z": 1.2,
+     "z2": 1.2
+    }
+   ]
+  },
+  {
+   "text": "Ocho: siempre parece sonreír. Pero ojo, esa sonrisa esconde una mordida poderosa para atrapar su comida.",
+   "shots": [
+    {
+     "t": 203.5,
+     "mode": "full",
+     "cx": 0.5,
+     "speed": 0.9
+    },
+    {
+     "t": 207.75,
+     "mode": "full",
+     "cx": 0.55
+    }
+   ]
+  },
+  {
+   "text": "Nueve: es un gran nadador. Su cola larga y plana lo impulsa de lado a lado, y sus cuatro patas le sirven para trepar por el fondo.",
+   "shots": [
+    {
+     "t": 213.2,
+     "mode": "full",
+     "cx": 0.4
+    },
+    {
+     "t": 225.55,
+     "mode": "fit",
+     "z": 1.1,
+     "cx": 0.5
+    },
+    {
+     "t": 230.1,
+     "mode": "fit",
+     "z": 1.1,
+     "cx": 0.45
+    }
+   ]
+  },
+  {
+   "text": "Y diez: algunos brillan bajo la luz ultravioleta, gracias a una proteína de su piel. Es más común en ajolotes criados en laboratorio.",
+   "shots": [
+    {
+     "t": 236.2,
+     "mode": "full",
+     "cx": 0.62
+    },
+    {
+     "t": 243.1,
+     "mode": "fit",
+     "z": 1.1,
+     "cx": 0.45
+    },
+    {
+     "t": 250.1,
+     "mode": "full",
+     "cx": 0.5
+    }
+   ]
+  },
+  {
+   "text": "Un anfibio que nunca crece, se regenera y hasta brilla. Por eso tanta gente trabaja para salvarlo de la extinción.",
+   "gap": 0.2,
+   "shots": [
+    {
+     "t": 190.65,
+     "mode": "full",
+     "cx": 0.5,
+     "speed": 0.88
+    },
+    {
+     "t": 125.0,
+     "mode": "fit",
+     "cx": 0.5,
+     "z": 1.2,
+     "z2": 1.3
+    }
+   ]
+  }
+ ]
+}
