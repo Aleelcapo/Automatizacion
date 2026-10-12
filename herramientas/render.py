@@ -243,11 +243,20 @@ def render_fit(reg, sh, p):
 def main(edl_path, outdir, preview=False):
     edl = json.load(open(edl_path))
     base = os.path.dirname(os.path.abspath(edl_path))
-    src = Src(os.path.join(base, edl['src']) if not os.path.isabs(edl['src']) else edl['src'])
+    def P(x):
+        return x if os.path.isabs(x) else os.path.join(base, x)
+    if 'sources' in edl:
+        SRCS = {k: Src(P(v['path'])) for k, v in edl['sources'].items()}
+        CUTS = {k: (json.load(open(P(v['cuts'])))['cuts'] if v.get('cuts') else []) for k, v in edl['sources'].items()}
+        SAFE = {k: v.get('safe') for k, v in edl['sources'].items()}
+    else:
+        SRCS = {'_': Src(P(edl['src']))}
+        CUTS = {'_': json.load(open(P(edl['cuts'])))['cuts'] if edl.get('cuts') else []}
+        SAFE = {'_': edl.get('safe')}
     name = edl['out']
     tmp = os.path.join(outdir, name + '_tmp')
     os.makedirs(tmp, exist_ok=True)
-    cuts = json.load(open(edl['cuts']))['cuts'] if edl.get('cuts') else []
+
     voice = edl.get('voice', 'es-MX-JorgeNeural')
     rate = edl.get('rate', '+0%')
     lead = edl.get('lead', 0.25)
@@ -258,7 +267,7 @@ def main(edl_path, outdir, preview=False):
     audio_parts = []
     all_words = []
     for i, b in enumerate(edl['beats']):
-        words, wav = tts(b['text'], voice, rate, os.path.join(tmp, f'b{i:02d}'))
+        words, wav = tts(b['text'], voice, b.get('rate', rate), os.path.join(tmp, f'b{i:02d}'))
         a = read_wav(wav)
         a, off = trim_silence(a)
         b['start'] = t
@@ -290,6 +299,8 @@ def main(edl_path, outdir, preview=False):
             shots.append(s)
     errors = []
     for s in shots:
+        s.setdefault('src', '_')
+        cuts = CUTS[s['src']]
         for (c0, c1) in cuts:
             if c0 - 0.02 <= s['t'] <= c1 + 0.02:
                 s['t'] = round(c1 + 0.1, 3)
@@ -304,15 +315,15 @@ def main(edl_path, outdir, preview=False):
             avail = s['end'] - s['t']
             s['speed'] = min(1.0, avail / (s['n'] / FPS))
             if s['speed'] < 0.5:
-                errors.append(f"beat {s['beat']} shot@{s['t']:.2f} needs speed {s['speed']:.2f} (too slow)")
+                errors.append(f"beat {s['beat']} {s['src']} shot@{s['t']:.2f} needs speed {s['speed']:.2f} (too slow)")
         sp = s.get('speed', 1.0)
         need = s['n'] / FPS * sp
         a0, a1 = s['t'], s['t'] + need
         s['src_end'] = a1
-        for (c0, c1) in cuts:
+        for (c0, c1) in CUTS[s['src']]:
             if c1 > a0 + 0.02 and c0 < a1 - 0.02:
-                errors.append(f"beat {s['beat']} shot@{s['t']:.2f} len {need:.2f} crosses cut {c0:.2f}-{c1:.2f}")
-    report = [dict(beat=s['beat'], t=s['t'], speed=round(s.get('speed', 1.0), 2), src_end=round(s['src_end'], 2), dur=round(s['n'] / FPS, 2),
+                errors.append(f"beat {s['beat']} {s['src']} shot@{s['t']:.2f} len {need:.2f} crosses cut {c0:.2f}-{c1:.2f}")
+    report = [dict(beat=s['beat'], src=s['src'], t=s['t'], speed=round(s.get('speed', 1.0), 2), src_end=round(s['src_end'], 2), dur=round(s['n'] / FPS, 2),
                    mode=s.get('mode', 'full'), at=round(s['g0'], 2)) for s in shots]
     json.dump(dict(total=total, shots=report, errors=errors), open(os.path.join(outdir, name + '_plan.json'), 'w'), indent=1)
     if errors:
@@ -365,11 +376,12 @@ def main(edl_path, outdir, preview=False):
         if s is shots[-1]:
             n = nframes - written
         sp = s.get('speed', 1.0)
+        src = SRCS[s['src']]
         need = int(math.ceil(n / FPS * sp * src.fps)) + 2
         fr = src.frames(s['t'], need)
         if len(fr) == 0:
             raise SystemExit(f'no frames at {s["t"]}')
-        x, y, w, h = s.get('safe', edl.get('safe', [0, 0, src.w, src.h]))
+        x, y, w, h = s.get('safe') or SAFE[s['src']] or [0, 0, src.w, src.h]
         for k in range(n):
             p = k / max(1, n - 1)
             idx = min(len(fr) - 1, int(k / FPS * sp * src.fps + 1e-6))
