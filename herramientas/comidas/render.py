@@ -7,11 +7,11 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 sys.path.insert(0, os.path.dirname(__file__))
 from geo import W0, H0, lonlat_to_px
-from layout import COUNTRIES, EMPHASIS, INTRO_VIEWS
+from layout import COUNTRIES, EMPHASIS, INTRO_VIEWS, PHRASES
 
 WORK = os.environ.get('WORK', '/home/user/Automatizacion/work')
 A = os.path.join(WORK, 'assets')
-FONT = os.path.join(WORK, 'dl/font/LilitaOne-Regular.ttf')
+FONT = os.path.join(WORK, 'dl/font/Anton-Regular.ttf')
 OW, OH, FPS = 1080, 1920, 30
 OC = np.array([OW / 2, OH / 2])
 
@@ -80,7 +80,7 @@ class Timeline:
             self.segs.append(dict(key=key, c=c, para=pi, t_para=ws[0]['start'], t_name_s=names[0]['start'],
                                   t_name=names[0]['end'], t_dish=dish['start'], t_end=ws[-1]['end']))
         for s in self.segs:
-            s['fly0'] = s['t_para'] - 0.12
+            s['fly0'] = max(0.0, s['t_para'] - 0.12)
             s['fly1'] = max(s['t_name'] + 0.05, s['fly0'] + 1.5)
             if s['fly1'] - s['fly0'] > 3.2: s['fly0'] = s['fly1'] - 3.2
         for i, s in enumerate(self.segs):
@@ -156,13 +156,31 @@ class Assets:
         yy, xx = np.mgrid[0:OH, 0:OW].astype(np.float32)
         r = np.sqrt(((xx - OW / 2) / (OW * 0.62)) ** 2 + ((yy - OH / 2) / (OH * 0.60)) ** 2)
         self.vignette = (1 - 0.55 * np.clip(r - 0.35, 0, 1) ** 1.6)[..., None].astype(np.float32)
-        self.font_sub = ImageFont.truetype(FONT, 104)
-        self.font_name = ImageFont.truetype(FONT, 96)
+        self.font_sub = ImageFont.truetype(FONT, 118)
+        self.font_sub_small = ImageFont.truetype(FONT, 100)
         self.cards = {}
 
     @functools.lru_cache(maxsize=256)
     def word_img(self, text, yellow):
-        return text_sprite(text, self.font_sub, (255, 214, 10) if yellow else (255, 255, 255), stroke=7)
+        # subtítulos en MAYÚSCULAS con Anton; frases largas (nombres de platos) en una o dos líneas
+        text = text.upper()
+        col = (255, 214, 10) if yellow else (255, 255, 255)
+        spr = text_sprite(text, self.font_sub, col, stroke=8)
+        if spr.width <= 1000: return spr
+        spr = text_sprite(text, self.font_sub_small, col, stroke=7)
+        if spr.width <= 1000 or ' ' not in text: return spr
+        words = text.split(); best = None
+        for k in range(1, len(words)):
+            a, b = ' '.join(words[:k]), ' '.join(words[k:])
+            score = abs(len(a) - len(b))
+            if best is None or score < best[0]: best = (score, a, b)
+        top = text_sprite(best[1], self.font_sub_small, col, stroke=7)
+        bot = text_sprite(best[2], self.font_sub_small, col, stroke=7)
+        gap = -48
+        out = Image.new('RGBA', (max(top.width, bot.width), top.height + bot.height + gap), (0, 0, 0, 0))
+        out.alpha_composite(top, ((out.width - top.width) // 2, 0))
+        out.alpha_composite(bot, ((out.width - bot.width) // 2, top.height + gap))
+        return out
 
     @functools.lru_cache(maxsize=16)
     def name_img(self, text):
@@ -272,7 +290,7 @@ class Renderer:
         tx = ox - (a * OW / 2 + b * OH / 2); ty = oy - (d_ * OW / 2 + e * OH / 2)
         return im.transform((OW, OH), Image.AFFINE, (a, b, tx, d_, e, ty), resample=Image.BILINEAR)
 
-    def outline_layer(self, key, cam, alpha):
+    def outline_layer(self, key, cam, alpha, halo_k=0.0):
         lvl = 'fine' if cam[2] < 4500 else 'coarse'
         line = Image.new('L', (OW, OH), 0); glow = Image.new('L', (OW, OH), 0)
         dl, dg = ImageDraw.Draw(line), ImageDraw.Draw(glow)
@@ -280,9 +298,30 @@ class Renderer:
             p = [tuple(v) for v in self.to_screen(ring, cam)]
             dl.line(p + [p[0]], fill=255, width=4, joint='curve')
             dg.line(p + [p[0]], fill=255, width=14, joint='curve')
+        halo = glow.filter(ImageFilter.GaussianBlur(26))
         glow = glow.filter(ImageFilter.GaussianBlur(9))
-        g = np.maximum(np.asarray(line, np.float32), np.asarray(glow, np.float32) * 0.75) * alpha
+        g = np.maximum(np.asarray(line, np.float32), np.asarray(glow, np.float32) * 0.75)
+        g = np.maximum(g, np.asarray(halo, np.float32) * 0.9 * halo_k) * alpha
         return g
+
+    def shine(self, img, s, cam, alpha, t, period=3.0, active=0.6):
+        """Destello de luz diagonal que recorre el territorio cada pocos segundos (solo dentro de la silueta)."""
+        p = ((t - s['fly1'] - 0.7) % period) / period
+        if t < s['fly1'] + 0.7 or p > active: return
+        x0, y0, x1, y1 = s['c']['px_box']
+        sc = self.to_screen(np.array([[x0, y0], [x1, y0], [x0, y1], [x1, y1]], np.float32), cam)
+        X0, Y0 = int(max(0, sc[:, 0].min())), int(max(0, sc[:, 1].min()))
+        X1, Y1 = int(min(OW, sc[:, 0].max() + 1)), int(min(OH, sc[:, 1].max() + 1))
+        if X1 <= X0 or Y1 <= Y0: return
+        yy, xx = np.mgrid[Y0:Y1, X0:X1].astype(np.float32)
+        d = 0.65 * (xx - X0) / max(1, X1 - X0) + 0.35 * (yy - Y0) / max(1, Y1 - Y0)
+        c = -0.25 + 1.5 * smooth(p / active)
+        band = np.exp(-((d - c) / 0.06) ** 2) * 0.7
+        a = alpha[Y0:Y1, X0:X1].astype(np.float32) / 255 * band
+        arr = np.asarray(img).copy()
+        reg = arr[Y0:Y1, X0:X1, :3].astype(np.float32)
+        arr[Y0:Y1, X0:X1, :3] = (reg + (255 - reg) * a[..., None]).astype(np.uint8)
+        img.paste(Image.fromarray(arr, 'RGBA'))
 
     def frame(self, t):
         tl = self.tl
@@ -302,10 +341,12 @@ class Renderer:
                 arr = np.asarray(fl).copy()
                 arr[..., 3] = (arr[..., 3].astype(np.float32) * a_flag).astype(np.uint8)
                 img.alpha_composite(Image.fromarray(arr, 'RGBA'))
+                self.shine(img, s, cam, arr[..., 3], t)
                 if t >= s['card_in'] and t <= s['card_out']:
                     flag_alpha_for_check = np.asarray(fl)[..., 3]
             if a_out > 0:
-                g = self.outline_layer(s['key'], cam, a_out)
+                breath = 0.5 + 0.5 * math.sin(2 * math.pi * (t - s['fly1']) / 1.9)
+                g = self.outline_layer(s['key'], cam, a_out * (0.8 + 0.2 * breath), halo_k=0.35 + 0.65 * breath)
                 arr = np.asarray(img).astype(np.float32)
                 arr[..., :3] = arr[..., :3] + (255 - arr[..., :3]) * (g[..., None] / 255)
                 img = Image.fromarray(arr.clip(0, 255).astype(np.uint8), 'RGBA')
@@ -314,7 +355,6 @@ class Renderer:
         img = Image.fromarray(arr.astype(np.uint8)).convert('RGBA')
 
         for s in tl.segs:
-            self.draw_name(img, s, t)
             st = self.draw_card(img, s, t, flag_alpha_for_check)
             if st: stat.update(st)
         self.draw_subtitle(img, t)
@@ -395,7 +435,25 @@ class Renderer:
 
 SUB_Y = 1530
 
+def norm_word(s):
+    return ''.join(ch for ch in s.lower() if ch.isalnum() or ch == '-')
+
+def group_phrases(words):
+    """Une en un solo subtítulo los nombres de platos de varias palabras (p. ej. 'bistec a lo pobre')."""
+    out, i = [], 0
+    targets = [[norm_word(x) for x in p.split()] for p in PHRASES]
+    while i < len(words):
+        for tg in targets:
+            if len(tg) > 1 and [norm_word(w['text']) for w in words[i:i + len(tg)]] == tg:
+                g = words[i:i + len(tg)]
+                out.append(dict(g[0], text=' '.join(w['text'] for w in g), end=g[-1]['end'], phrase=True))
+                i += len(tg); break
+        else:
+            out.append(words[i]); i += 1
+    return out
+
 def prepare_words(words):
+    words = group_phrases(words)
     out = []
     for i, w in enumerate(words):
         shown = w['text'].strip(',.:;¡!¿?"«»')
@@ -403,7 +461,7 @@ def prepare_words(words):
         # si hay un silencio largo, la palabra desaparece poco después de terminar
         show_end = nxt - 0.02 if nxt - w['end'] < 0.45 else w['end'] + 0.25
         key = shown.lower()
-        out.append(dict(w, shown=shown, show_end=show_end, yellow=key in EMPHASIS))
+        out.append(dict(w, shown=shown, show_end=show_end, yellow=key in EMPHASIS or w.get('phrase', False)))
     return out
 
 # ----------------------------------------------------------------------------- main
@@ -420,7 +478,9 @@ def render_range(args):
 
 def load_tl(timings):
     d = json.load(open(timings))
-    return Timeline(prepare_words(d['words']), d['duration'])
+    tl = Timeline(d['words'], d['duration'])
+    tl.words = prepare_words(d['words'])
+    return tl
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()

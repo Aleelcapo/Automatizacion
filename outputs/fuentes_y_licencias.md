@@ -62,8 +62,8 @@ Las fotos sin lugar indicado muestran el plato como contexto; no se presentan co
 
 ## Tipografía
 
-**Lilita One**, de Juan Montoreano. Licencia [SIL Open Font License 1.1](https://openfontlicense.org).
-Fuente: https://github.com/google/fonts/tree/main/ofl/lilitaone
+**Anton**, de Vernon Adams y The Anton Project Authors. Se usa en mayúsculas en los subtítulos.
+Licencia [SIL Open Font License 1.1](https://openfontlicense.org). Fuente: https://github.com/google/fonts/tree/main/ofl/anton
 
 ## Sonido
 

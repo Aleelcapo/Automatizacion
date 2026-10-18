@@ -45,6 +45,9 @@ for k, c in COUNTRIES.items():
     c['px_box'] = px_box(k)
     c['arrive_box'] = ARRIVE
 
+# nombres de platos que se muestran completos en un solo subtítulo
+PHRASES = ['medialunas', 'bistec a lo pobre', 'carnitas', 'prosciutto di Parma', 'phirni', 'shabu-shabu']
+
 # palabras en amarillo (comparación en minúsculas, sin puntuación)
 EMPHASIS = {'tasteatlas', 'diez', 'argentina', 'medialunas', 'perú', 'bistec', 'pobre', 'méxico', 'carnitas',
             'italia', 'prosciutto', 'parma', 'india', 'phirni', 'japón', 'shabu-shabu'}
