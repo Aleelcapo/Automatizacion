@@ -24,5 +24,7 @@ for w in d['words']:
 if cur: cues.append(cur)
 with open(sys.argv[3], 'w', encoding='utf-8') as f:
     for i, c in enumerate(cues, 1):
-        f.write(f"{i}\n{ts(c[0]['start'])} --> {ts(c[-1]['end'] + 0.15)}\n{' '.join(w['text'] for w in c)}\n\n")
+        end = c[-1]['end'] + 0.15
+        if i < len(cues): end = min(end, cues[i][0]['start'] - 0.01)
+        f.write(f"{i}\n{ts(c[0]['start'])} --> {ts(end)}\n{' '.join(w['text'] for w in c)}\n\n")
 print(len(words), 'palabras;', len(cues), 'frases')

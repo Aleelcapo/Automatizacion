@@ -67,6 +67,11 @@ Fuente: https://github.com/google/fonts/tree/main/ofl/lilitaone
 
 ## Sonido
 
-- **Narración:** la grabación entregada por el autor (ElevenLabs). Se usa sin cambiar la velocidad ni el tono.
+- **Narración:** voz sintética, generada a pedido del autor como sustituta de la grabación de ElevenLabs.
+  - Motor: [Piper TTS](https://github.com/rhasspy/piper), con la voz **es_AR "daniela" (high)** de [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices/tree/main/es/es_AR/daniela/high).
+  - La voz se entrenó con el corpus [OpenSLR 61](https://www.openslr.org/61/), con licencia CC BY-SA 4.0.
+  - Velocidad: 1,2 (`length-scale`). Pausas entre párrafos de 0,85 s, normalización a −16 LUFS.
+  - Para que el sintetizador pronuncie bien algunas palabras usé grafías de apoyo (por ejemplo "Teist Átlas" o "bisték"). Los subtítulos mantienen la ortografía del guion.
+  - Si después grabás tu voz en ElevenLabs, el montaje se vuelve a sincronizar con esa grabación usando las mismas herramientas.
 - **Efectos:** barridos e impactos suaves sintetizados por código (`herramientas/comidas/sfx.py`). No contienen material de terceros.
 - No hay música. No se usa ningún audio del video de referencia.

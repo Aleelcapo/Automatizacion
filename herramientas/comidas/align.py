@@ -23,7 +23,7 @@ audio = np.frombuffer(raw, np.int16).astype(np.float32) / 32768
 duration = len(audio) / 16000
 model = WhisperModel(sys.argv[4] if len(sys.argv) > 4 else 'medium', device='cpu', compute_type='int8', cpu_threads=4)
 prompt = ' '.join(t['text'] for t in tokens)
-segs, info = model.transcribe(audio, language='es', word_timestamps=True, initial_prompt=prompt[:600], vad_filter=False)
+segs, info = model.transcribe(audio, language='es', word_timestamps=True, initial_prompt='TasteAtlas, medialunas, prosciutto di Parma, phirni, shabu-shabu.', vad_filter=False)
 hyp = [dict(text=w.word.strip(), start=w.start, end=w.end, p=w.probability) for s in segs for w in s.words]
 
 # "shabu-shabu" o "TasteAtlas" pueden partirse en varias palabras: se alinea por caracteres normalizados
