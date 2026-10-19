@@ -7,11 +7,13 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 sys.path.insert(0, os.path.dirname(__file__))
 from geo import W0, H0, lonlat_to_px
-from layout import COUNTRIES, EMPHASIS, INTRO_VIEWS, PHRASES
+import importlib
+_L = importlib.import_module(os.environ.get('LAYOUT', 'layout'))
+COUNTRIES, EMPHASIS, INTRO_VIEWS, PHRASES = _L.COUNTRIES, _L.EMPHASIS, _L.INTRO_VIEWS, _L.PHRASES
 
 WORK = os.environ.get('WORK', '/home/user/Automatizacion/work')
 A = os.path.join(WORK, 'assets')
-FONT = os.path.join(WORK, 'dl/font/Anton-Regular.ttf')
+FONT = os.path.join(os.environ.get('SRC_WORK', WORK), 'dl/font/Anton-Regular.ttf')
 OW, OH, FPS = 1080, 1920, 30
 OC = np.array([OW / 2, OH / 2])
 
@@ -199,14 +201,14 @@ def text_sprite(text, font, color, stroke):
     return sh
 
 # ----------------------------------------------------------------------------- tarjeta
-def make_card(path, size, focus=(0.5, 0.5)):
+def make_card(path, size, focus=(0.5, 0.5), zoom=1.0):
     """Foto recortada al rectángulo de la tarjeta (de frente, sin texto)."""
     w, h = size
     if not os.path.exists(path):
         print('AVISO: falta la foto', path, '- marcador gris solo para previsualizar', file=sys.stderr)
         return Image.new('RGB', (w, h), (90, 90, 90))
     im = Image.open(path).convert('RGB')
-    s = max(w / im.width, h / im.height)
+    s = max(w / im.width, h / im.height) * zoom
     im = im.resize((math.ceil(im.width * s), math.ceil(im.height * s)), Image.LANCZOS)
     x = int((im.width - w) * focus[0]); y = int((im.height - h) * focus[1])
     return im.crop((x, y, x + w, y + h))
@@ -238,7 +240,7 @@ class Renderer:
         self.card_photos = {}
         for s in tl.segs:
             c = s['c']; size = (c['card'][2], c['card'][3])
-            self.card_photos[s['key']] = [make_card(os.path.join(WORK, p['file']), size, p.get('focus', (0.5, 0.5))) for p in c['photos']]
+            self.card_photos[s['key']] = [make_card(os.path.join(WORK, p['file']), size, p.get('focus', (0.5, 0.5)), p.get('zoom', 1.0)) for p in c['photos']]
         self.stats = []
 
     def to_screen(self, pts, cam):

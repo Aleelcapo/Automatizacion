@@ -7,12 +7,13 @@ from PIL import Image, ImageDraw, ImageFilter
 import shapefile
 from shapely.geometry import Polygon, MultiPolygon, box
 sys.path.insert(0, os.path.dirname(__file__))
-from geo import W0, H0, lonlat_to_px
+from geo import W0, H0, LON0, SPAN, lonlat_to_px
 Image.MAX_IMAGE_PIXELS = None
 
 WORK = sys.argv[1]
-SHP = os.path.join(WORK, 'dl/geo/ne_10m_admin_0_countries.shp')
-FLAGS = os.path.join(WORK, 'dl/flags')
+SRC = os.environ.get('SRC_WORK', WORK)   # descargas compartidas (fronteras, banderas)
+SHP = os.path.join(SRC, 'dl/geo/ne_10m_admin_0_countries.shp')
+FLAGS = os.path.join(SRC, 'dl/flags')
 OUT = os.path.join(WORK, 'assets'); os.makedirs(OUT, exist_ok=True)
 
 # Recorte del territorio que se dibuja (excluye islas remotas que nunca entran en cuadro)
@@ -36,8 +37,17 @@ def rings_of(shape):
     pts, parts = shape.points, list(shape.parts) + [len(shape.points)]
     return [pts[a:b] for a, b in zip(parts[:-1], parts[1:])]
 
-def to_px(ring):
-    return np.array([lonlat_to_px(x, max(min(y, 84), -84)) for x, y in ring], np.float32)
+def to_px(ring, sh=0.0):
+    return np.array([lonlat_to_px(x + sh, max(min(y, 84), -84)) for x, y in ring], np.float32)
+
+def shifts_for(lon0, lon1):
+    """Copias (±360°) de un objeto que caen dentro de la textura."""
+    return [k * 360 for k in (-1, 0, 1, 2) if lon1 + k * 360 > LON0 and lon0 + k * 360 < LON0 + SPAN]
+
+def country_shift(clip):
+    # la copia más al este que entra completa: el recorrido avanza hacia el este dando la vuelta al mundo
+    ok = [k * 360 for k in (-1, 0, 1, 2) if clip[0] + k * 360 >= LON0 and clip[2] + k * 360 <= LON0 + SPAN]
+    return max(ok)
 
 reader = shapefile.Reader(SHP)
 fields = [f[0] for f in reader.fields[1:]]
@@ -62,7 +72,9 @@ for sr in reader.iterShapeRecords():
                 if s.is_empty or s.area < (0.0004 if lvl == 'fine' else 0.01): continue
                 gs = s.geoms if hasattr(s, 'geoms') else [s]
                 for q in gs:
-                    borders[lvl].append(to_px(list(q.exterior.coords)))
+                    lo, _, hi, _ = q.bounds
+                    for sh in shifts_for(lo, hi):
+                        borders[lvl].append(to_px(list(q.exterior.coords), sh))
     if a3 in COUNTRIES:
         country_geo[a3] = polys
 
@@ -84,6 +96,8 @@ def hexrgb(c): return tuple(int(c[i:i + 2], 16) for i in (1, 3, 5))
 
 for a3, cfg in COUNTRIES.items():
     clip = box(*cfg['clip'])
+    sh = country_shift(cfg['clip'])
+    LL = lambda lon, lat: lonlat_to_px(lon + sh, lat)
     parts = []
     for p in country_geo[a3]:
         q = p.intersection(clip)
@@ -97,7 +111,7 @@ for a3, cfg in COUNTRIES.items():
             s = p.simplify(tol, preserve_topology=True)
             if s.is_empty or s.area < 0.0005: continue
             for q in (s.geoms if hasattr(s, 'geoms') else [s]):
-                rs.append(to_px(list(q.exterior.coords)))
+                rs.append(to_px(list(q.exterior.coords), sh))
         outline[lvl] = rs
     # parche en coordenadas L0
     allpts = np.concatenate(outline['fine'])
@@ -108,12 +122,12 @@ for a3, cfg in COUNTRIES.items():
     mask = Image.new('L', (pw * SS, ph * SS), 0); md = ImageDraw.Draw(mask)
     for p in parts:
         for i, ring in enumerate([p.exterior] + list(p.interiors)):
-            r = (to_px(list(ring.coords)) - [x0, y0]) * SS
+            r = (to_px(list(ring.coords), sh) - [x0, y0]) * SS
             md.polygon([tuple(v) for v in r], fill=255 if i == 0 else 0)
     mask = mask.resize((pw, ph), Image.LANCZOS)
 
-    lx0, ly1 = lonlat_to_px(cfg['layout'][0], cfg['layout'][1])
-    lx1, ly0 = lonlat_to_px(cfg['layout'][2], cfg['layout'][3])
+    lx0, ly1 = LL(cfg['layout'][0], cfg['layout'][1])
+    lx1, ly0 = LL(cfg['layout'][2], cfg['layout'][3])
     lx0 -= x0; lx1 -= x0; ly0 -= y0; ly1 -= y0
     flag = Image.new('RGB', (pw, ph), hexrgb(cfg['colors'][0])); fd = ImageDraw.Draw(flag)
     if cfg['kind'] == 'h3':
@@ -126,7 +140,7 @@ for a3, cfg in COUNTRIES.items():
         fd.rectangle([lx0 + 2 * bw, 0, pw, ph], fill=hexrgb(cfg['colors'][2]))
     if cfg.get('emblem'):
         em = emblem_crop(a3)
-        cx, cy = lonlat_to_px(*cfg['em_at']); cx -= x0; cy -= y0
+        cx, cy = LL(*cfg['em_at']); cx -= x0; cy -= y0
         if cfg['kind'] == 'h3':
             bh = (ly1 - ly0) / 3
             s = cfg['em_size'] * bh / em.height
@@ -143,8 +157,8 @@ for a3, cfg in COUNTRIES.items():
         emr = em.resize((max(1, int(em.width * s)), max(1, int(em.height * s))), Image.LANCZOS)
         flag.paste(emr, (int(cx - emr.width / 2), int(cy - emr.height / 2)))
     if cfg['kind'] == 'jp':
-        cx, cy = lonlat_to_px(*cfg['disc_at']); cx -= x0; cy -= y0
-        r = cfg['disc_deg'] / 360 * W0 / 2
+        cx, cy = LL(*cfg['disc_at']); cx -= x0; cy -= y0
+        r = cfg['disc_deg'] * 21600 / 360 / 2
         fd.ellipse([cx - r, cy - r, cx + r, cy + r], fill=hexrgb('#BC002D'))
 
     # relieve del satélite sobre la bandera (sutil) para que parezca pegada al terreno
@@ -156,7 +170,7 @@ for a3, cfg in COUNTRIES.items():
     f = np.clip(f * (0.95 + 0.9 * hp[..., None]), 0, 1) * 0.97
     rgba = np.dstack([(f * 255).astype(np.uint8), np.asarray(mask)])
     Image.fromarray(rgba, 'RGBA').save(os.path.join(OUT, f'flag_{a3}.png'))
-    meta[a3] = dict(x0=int(x0), y0=int(y0), w=int(pw), h=int(ph))
+    meta[a3] = dict(x0=int(x0), y0=int(y0), w=int(pw), h=int(ph), shift=sh)
     with open(os.path.join(OUT, f'outline_{a3}.pkl'), 'wb') as fh:
         pickle.dump(outline, fh)
     print(a3, pw, ph, len(outline['fine']), flush=True)

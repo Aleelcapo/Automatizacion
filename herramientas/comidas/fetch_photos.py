@@ -15,8 +15,8 @@ for r in infos:
     fn = os.path.join(out, name.replace(' ', '_'))
     if not os.path.exists(fn):
         n = name.replace(' ', '_'); h = hashlib.md5(n.encode()).hexdigest()
-        u = r['url'] if r['w'] <= 1600 else \
-            f"https://upload.wikimedia.org/wikipedia/commons/thumb/{h[0]}/{h[:2]}/{urllib.parse.quote(n)}/1600px-{urllib.parse.quote(n)}"
+        u = r['url'] if r["w"] <= 1280 else \
+            f"https://upload.wikimedia.org/wikipedia/commons/thumb/{h[0]}/{h[:2]}/{urllib.parse.quote(n)}/1280px-{urllib.parse.quote(n)}"
         try:
             data = commons.get(u, tries=6)
         except Exception as e:
