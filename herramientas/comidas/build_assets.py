@@ -49,6 +49,8 @@ def country_shift(clip):
     ok = [k * 360 for k in (-1, 0, 1, 2) if clip[0] + k * 360 >= LON0 and clip[2] + k * 360 <= LON0 + SPAN]
     return max(ok)
 
+FORCED = json.loads(os.environ.get('COUNTRY_SHIFTS', '{}'))   # desplazamiento fijo por país para un recorrido concreto
+
 reader = shapefile.Reader(SHP)
 fields = [f[0] for f in reader.fields[1:]]
 iA3 = fields.index('ADM0_A3')
@@ -96,7 +98,7 @@ def hexrgb(c): return tuple(int(c[i:i + 2], 16) for i in (1, 3, 5))
 
 for a3, cfg in COUNTRIES.items():
     clip = box(*cfg['clip'])
-    sh = country_shift(cfg['clip'])
+    sh = FORCED.get(a3, country_shift(cfg['clip']))
     LL = lambda lon, lat: lonlat_to_px(lon + sh, lat)
     parts = []
     for p in country_geo[a3]:

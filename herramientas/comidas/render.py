@@ -386,7 +386,7 @@ class Renderer:
         sc = (0.86 + 0.14 * ease_out_back(u_in, 1.4)) * (1 - 0.05 * smooth(u_out))
         al = smooth(u_in * 2) * (1 - smooth(u_out))
         if al <= 0: return None
-        mix = smooth((t - s['swap']) / 0.4)
+        mix = smooth((t - s['swap']) / 0.4) if len(self.card_photos[s['key']]) > 1 else 0.0
         key = (s['key'], round(mix, 3))
         canvas, pad = card_frame(self.card_photos[s['key']], mix, (w, h))
         # balanceo pendular en función del TIEMPO GLOBAL: no se reinicia al cambiar la foto
@@ -446,7 +446,7 @@ def group_phrases(words):
     targets = [[norm_word(x) for x in p.split()] for p in PHRASES]
     while i < len(words):
         for tg in targets:
-            if len(tg) > 1 and [norm_word(w['text']) for w in words[i:i + len(tg)]] == tg:
+            if [norm_word(w['text']) for w in words[i:i + len(tg)]] == tg:
                 g = words[i:i + len(tg)]
                 out.append(dict(g[0], text=' '.join(w['text'] for w in g), end=g[-1]['end'], phrase=True))
                 i += len(tg); break
