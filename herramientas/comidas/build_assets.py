@@ -31,7 +31,15 @@ COUNTRIES = {
                 colors=['#FF6820', '#FFFFFF', '#046A38'], emblem='chakra', em_size=0.92, em_at=(79.0, 22.0)),
     'JPN': dict(clip=(122.5, 24, 146.5, 46), layout=(129.3, 30.9, 145.9, 45.6), kind='jp',
                 colors=['#FFFFFF'], disc_at=(138.3, 36.4), disc_deg=6.2),
+    # banderas completas escaladas sin deformar ('cover'), ancladas en su elemento clave
+    'ISL': dict(clip=(-25, 63, -13, 67), layout=(-25, 63, -13, 67), kind='cover', svg='Iceland', anchor=(0.36, 0.5), at=(-18.8, 64.9), colors=['#02529C']),
+    'FIN': dict(clip=(19, 59.5, 32, 70.2), layout=(19, 59.5, 32, 70.2), kind='nordic', at=(25.3, 63.6), bar=0.2, colors=['#FFFFFF', '#002F6C']),
+    'GEO': dict(clip=(39.8, 40.9, 46.8, 43.7), layout=(39.8, 40.9, 46.8, 43.7), kind='cover', svg='Georgia', anchor=(0.5, 0.5), at=(43.4, 42.2), colors=['#FFFFFF']),
+    'KAZ': dict(clip=(46, 40.4, 87.5, 55.5), layout=(46, 40.4, 87.5, 55.5), kind='cover', svg='Kazakhstan', anchor=(0.52, 0.5), at=(67.5, 48.2), colors=['#00AFCA']),
+    'ETH': dict(clip=(32.8, 3.3, 48.1, 15), layout=(32.8, 3.3, 48.1, 15), kind='cover', svg='Ethiopia', anchor=(0.5, 0.5), at=(39.5, 8.8), colors=['#FCDD09']),
+    'PHL': dict(clip=(116.5, 4.3, 127, 21.2), layout=(116.5, 4.3, 127, 21.2), kind='cover', svg='the_Philippines', anchor=(0.2, 0.5), at=(121.8, 13.0), height_frac=0.75, colors=['#0038A8', '#CE1126']),
 }
+ONLY = [k for k in os.environ.get('ONLY_COUNTRIES', '').split(',') if k]
 
 def rings_of(shape):
     pts, parts = shape.points, list(shape.parts) + [len(shape.points)]
@@ -97,6 +105,7 @@ def emblem_crop(a3):
 def hexrgb(c): return tuple(int(c[i:i + 2], 16) for i in (1, 3, 5))
 
 for a3, cfg in COUNTRIES.items():
+    if ONLY and a3 not in ONLY: continue
     clip = box(*cfg['clip'])
     sh = FORCED.get(a3, country_shift(cfg['clip']))
     LL = lambda lon, lat: lonlat_to_px(lon + sh, lat)
@@ -158,6 +167,24 @@ for a3, cfg in COUNTRIES.items():
             fd.rectangle([cx + bw / 2, 0, pw, ph], fill=hexrgb(cfg['colors'][2]))
         emr = em.resize((max(1, int(em.width * s)), max(1, int(em.height * s))), Image.LANCZOS)
         flag.paste(emr, (int(cx - emr.width / 2), int(cy - emr.height / 2)))
+    if cfg['kind'] == 'cover':
+        fim = Image.open(os.path.join(FLAGS, f"Flag_of_{cfg['svg']}.png")).convert('RGB')
+        FW, FH = fim.size; ax, ay = cfg['anchor']
+        cx, cy = LL(*cfg['at']); cx -= x0; cy -= y0
+        s = 1.02 * max(cx / (ax * FW), (pw - cx) / ((1 - ax) * FW), cy / (ay * FH), (ph - cy) / ((1 - ay) * FH))
+        if cfg.get('height_frac'):
+            # escala fija: arriba y abajo se prolongan las franjas de la bandera
+            s = cfg['height_frac'] * ph / FH
+            fd.rectangle([0, 0, pw, cy], fill=hexrgb(cfg['colors'][0]))
+            fd.rectangle([0, cy, pw, ph], fill=hexrgb(cfg['colors'][1]))
+        fim = fim.resize((int(FW * s) + 2, int(FH * s) + 2), Image.LANCZOS)
+        flag.paste(fim, (int(round(cx - ax * FW * s)), int(round(cy - ay * FH * s))))
+    if cfg['kind'] == 'nordic':
+        # cruz nórdica dibujada en proporción al país (una bandera completa quedaría casi toda cruz)
+        cx, cy = LL(*cfg['at']); cx -= x0; cy -= y0
+        t = cfg['bar'] * min(pw, ph) / 2
+        fd.rectangle([cx - t, 0, cx + t, ph], fill=hexrgb(cfg['colors'][1]))
+        fd.rectangle([0, cy - t, pw, cy + t], fill=hexrgb(cfg['colors'][1]))
     if cfg['kind'] == 'jp':
         cx, cy = LL(*cfg['disc_at']); cx -= x0; cy -= y0
         r = cfg['disc_deg'] * 21600 / 360 / 2
@@ -177,6 +204,9 @@ for a3, cfg in COUNTRIES.items():
         pickle.dump(outline, fh)
     print(a3, pw, ph, len(outline['fine']), flush=True)
 
+old_meta = os.path.join(OUT, 'flags.json')
+if ONLY and os.path.exists(old_meta):
+    meta = {**json.load(open(old_meta)), **meta}
 json.dump(meta, open(os.path.join(OUT, 'flags.json'), 'w'), indent=1)
 with open(os.path.join(OUT, 'borders.pkl'), 'wb') as fh:
     pickle.dump(borders, fh)
