@@ -8,9 +8,11 @@ sys.path.insert(0, os.path.dirname(__file__))
 import commons
 cfg = json.load(open(sys.argv[1], encoding='utf-8')); meta = json.load(open(sys.argv[2], encoding='utf-8'))
 NAMES = dict(JPN='Japón', MEX='México', PER='Perú', ARG='Argentina', ITA='Italia', IND='India',
-             ISL='Islandia', FIN='Finlandia', GEO='Georgia', KAZ='Kazajistán', ETH='Etiopía', PHL='Filipinas')
+             ISL='Islandia', FIN='Finlandia', GEO='Georgia', KAZ='Kazajistán', ETH='Etiopía', PHL='Filipinas',
+             KEN='Kenia', NPL='Nepal', KHM='Camboya', ARM='Armenia', SWE='Suecia', SEN='Senegal')
 SLUG = dict(JPN='japan', MEX='mexico', PER='peru', ARG='argentina', ITA='italy', IND='india',
-            ISL='iceland', FIN='finland', GEO='georgia', KAZ='kazakhstan', ETH='ethiopia', PHL='philippines')
+            ISL='iceland', FIN='finland', GEO='georgia', KAZ='kazakhstan', ETH='ethiopia', PHL='philippines',
+            KEN='kenya', NPL='nepal', KHM='cambodia', ARM='armenia', SWE='sweden', SEN='senegal')
 titles = ['File:' + os.path.basename(p['file']).replace('_', ' ') for s in cfg['route'] for p in s['photos']]
 info = {}
 for i in range(0, len(titles), 20):

@@ -38,6 +38,14 @@ COUNTRIES = {
     'KAZ': dict(clip=(46, 40.4, 87.5, 55.5), layout=(46, 40.4, 87.5, 55.5), kind='cover', svg='Kazakhstan', anchor=(0.52, 0.5), at=(67.5, 48.2), colors=['#00AFCA']),
     'ETH': dict(clip=(32.8, 3.3, 48.1, 15), layout=(32.8, 3.3, 48.1, 15), kind='cover', svg='Ethiopia', anchor=(0.5, 0.5), at=(39.5, 8.8), colors=['#FCDD09']),
     'PHL': dict(clip=(116.5, 4.3, 127, 21.2), layout=(116.5, 4.3, 127, 21.2), kind='cover', svg='the_Philippines', anchor=(0.2, 0.5), at=(121.8, 13.0), height_frac=0.75, colors=['#0038A8', '#CE1126']),
+    'KEN': dict(clip=(33.8, -4.8, 42, 5.1), layout=(33.8, -4.8, 42, 5.1), kind='cover', svg='Kenya', anchor=(0.5, 0.5), at=(37.9, 0.4), colors=['#006600']),
+    'KHM': dict(clip=(102.3, 10.3, 107.7, 14.8), layout=(102.3, 10.3, 107.7, 14.8), kind='cover', svg='Cambodia', anchor=(0.5, 0.5), at=(104.9, 12.6), colors=['#032EA1']),
+    'ARM': dict(clip=(43.4, 38.8, 46.7, 41.4), layout=(43.4, 38.8, 46.7, 41.4), kind='cover', svg='Armenia', anchor=(0.5, 0.5), at=(44.9, 40.2), colors=['#0033A0']),
+    'SEN': dict(clip=(-17.6, 12.2, -11.3, 16.8), layout=(-17.6, 12.2, -11.3, 16.8), kind='cover', svg='Senegal', anchor=(0.5, 0.5), at=(-14.4, 14.4), colors=['#FDEF42']),
+    'SWE': dict(clip=(10.5, 55.2, 24.3, 69.1), layout=(10.5, 55.2, 24.3, 69.1), kind='nordic', at=(15.2, 60.6), bar=0.2, colors=['#006AA7', '#FECC02']),
+    # Nepal: bandera no rectangular; carmesí con borde azul interior y la luna y el sol en proporción
+    'NPL': dict(clip=(80, 26.3, 88.3, 30.5), layout=(80, 26.3, 88.3, 30.5), kind='nepal', svg='Nepal',
+                moon_at=(82.25, 29.0), sun_at=(82.55, 27.95), em_deg=1.15, colors=['#DC143C', '#003893']),
 }
 ONLY = [k for k in os.environ.get('ONLY_COUNTRIES', '').split(',') if k]
 
@@ -185,11 +193,28 @@ for a3, cfg in COUNTRIES.items():
         t = cfg['bar'] * min(pw, ph) / 2
         fd.rectangle([cx - t, 0, cx + t, ph], fill=hexrgb(cfg['colors'][1]))
         fd.rectangle([0, cy - t, pw, cy + t], fill=hexrgb(cfg['colors'][1]))
+    if cfg['kind'] == 'nepal':
+        fim = np.asarray(Image.open(os.path.join(FLAGS, f"Flag_of_{cfg['svg']}.png")).convert('RGBA'))
+        white = (fim[..., 0] > 200) & (fim[..., 1] > 200) & (fim[..., 2] > 200) & (fim[..., 3] > 200)
+        ys, xs = np.nonzero(white); mid = (ys.min() + ys.max()) / 2
+        for part, at in ((ys < mid, cfg['moon_at']), (ys >= mid, cfg['sun_at'])):
+            y0e, y1e, x0e, x1e = ys[part].min(), ys[part].max() + 1, xs[part].min(), xs[part].max() + 1
+            a = (white[y0e:y1e, x0e:x1e] * 255).astype(np.uint8)
+            em = Image.new('RGBA', a.shape[::-1], (255, 255, 255, 255)); em.putalpha(Image.fromarray(a))
+            s = cfg['em_deg'] * 60 / em.width
+            em = em.resize((max(1, int(em.width * s)), max(1, int(em.height * s))), Image.LANCZOS)
+            cx, cy = LL(*at); cx -= x0; cy -= y0
+            flag.paste(em, (int(cx - em.width / 2), int(cy - em.height / 2)), em)
     if cfg['kind'] == 'jp':
         cx, cy = LL(*cfg['disc_at']); cx -= x0; cy -= y0
         r = cfg['disc_deg'] * 21600 / 360 / 2
         fd.ellipse([cx - r, cy - r, cx + r, cy + r], fill=hexrgb('#BC002D'))
 
+    if cfg['kind'] == 'nepal':
+        k = max(3, int(0.035 * min(pw, ph))) | 1
+        inner = mask.filter(ImageFilter.MinFilter(k))
+        edge = (np.asarray(mask, np.int16) - np.asarray(inner, np.int16)) > 60
+        fa = np.asarray(flag).copy(); fa[edge] = hexrgb(cfg['colors'][1]); flag = Image.fromarray(fa)
     # relieve del satélite sobre la bandera (sutil) para que parezca pegada al terreno
     base = L0[max(y0, 0):y1, max(x0, 0):x1].astype(np.float32).mean(axis=2)
     base = np.pad(base, ((0, ph - base.shape[0]), (0, pw - base.shape[1])), mode='edge')

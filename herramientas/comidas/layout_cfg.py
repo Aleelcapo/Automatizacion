@@ -29,6 +29,12 @@ BASE = {
     'KAZ': dict(name='Kazajistán', country_box=(60, 810, 1020, 1295), card=(240, 220, 600, 450)),
     'ETH': dict(name='Etiopía', country_box=(190, 775, 890, 1300), card=(70, 220, 580, 435)),
     'PHL': dict(name='Filipinas', country_box=(70, 300, 520, 1300), card=(580, 330, 440, 330)),
+    'KEN': dict(name='Kenia', country_box=(190, 775, 890, 1300), card=(70, 220, 580, 435)),
+    'NPL': dict(name='Nepal', country_box=(60, 810, 1020, 1295), card=(240, 220, 600, 450)),
+    'KHM': dict(name='Camboya', country_box=(130, 800, 950, 1300), card=(70, 220, 580, 435)),
+    'ARM': dict(name='Armenia', country_box=(190, 775, 890, 1300), card=(70, 220, 580, 435)),
+    'SWE': dict(name='Suecia', country_box=(70, 300, 470, 1300), card=(555, 330, 465, 350)),
+    'SEN': dict(name='Senegal', country_box=(130, 800, 950, 1300), card=(70, 220, 580, 435)),
 }
 
 INTRO_VIEWS = [tuple(v) for v in CFG['intro']]
