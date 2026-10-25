@@ -1,2 +1,5 @@
 entregas/*.zip
 entregas/zip_partes/
+herramientas/cartoon3d/node_modules/
+herramientas/cartoon3d/out/
+__pycache__/

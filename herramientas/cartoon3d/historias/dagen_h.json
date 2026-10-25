@@ -1,0 +1,1732 @@
+{
+ "out": "Caricatura3D_1_dagen_h",
+ "title": "El día que Suecia cambió de lado (Dagen H)",
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+10%",
+ "look": {
+  "skin": "white"
+ },
+ "highlight": [
+  "domingo",
+  "noche",
+  "caos"
+ ],
+ "sources": [
+  "https://es.wikipedia.org/wiki/Dagen_H",
+  "https://en.wikipedia.org/wiki/Dagen_H"
+ ],
+ "scenes": {
+  "alba": {
+   "set": {
+    "type": "street",
+    "time": "dawn",
+    "seed": "alba"
+   },
+   "actors": [
+    {
+     "id": "sven",
+     "in": "car1",
+     "look": {
+      "hair": "short",
+      "shirt": "#3f7fd0",
+      "hairColor": "#6b4226"
+     },
+     "expr": "sleepy"
+    },
+    {
+     "id": "ana",
+     "in": "car2",
+     "look": {
+      "hair": "bun",
+      "shirt": "#d0543f",
+      "hairColor": "#7a3b20"
+     },
+     "expr": "neutral"
+    },
+    {
+     "id": "olof",
+     "look": {
+      "body": "old",
+      "hair": "bald",
+      "glasses": true,
+      "mustache": true,
+      "shirt": "#7d6a5a",
+      "coat": "#5e4a3a"
+     },
+     "pos": [
+      0.6,
+      0.1,
+      -2.1
+     ],
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "car1",
+     "type": "car",
+     "pos": [
+      -7,
+      0,
+      -0.75
+     ],
+     "color": "#2f6fb5",
+     "lights": true,
+     "plate": "ABC 123"
+    },
+    {
+     "id": "car2",
+     "type": "car",
+     "pos": [
+      7.5,
+      0,
+      0.75
+     ],
+     "rot": 180,
+     "color": "#d23a3a",
+     "lights": true
+    },
+    {
+     "id": "clk",
+     "type": "clock",
+     "pos": [
+      -0.9,
+      0.1,
+      -2.35
+     ],
+     "post": true,
+     "y": 2.0,
+     "r": 0.34,
+     "time": "4:48"
+    }
+   ]
+  },
+  "fecha": {
+   "set": {
+    "type": "studio",
+    "color": "#c9dcef"
+   },
+   "actors": [
+    {
+     "id": "karin",
+     "look": {
+      "hair": "long",
+      "shirt": "#e0b84a",
+      "hairColor": "#d8b25a"
+     },
+     "pos": [
+      -0.55,
+      0,
+      0.3
+     ],
+     "rot": 20,
+     "expr": "happy"
+    }
+   ],
+   "props": [
+    {
+     "id": "cal",
+     "type": "calendar",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "post": true,
+     "y": 1.25,
+     "day": 3,
+     "month": "SEPTIEMBRE",
+     "year": "DOMINGO · 1967",
+     "hidden": true
+    },
+    {
+     "id": "flag",
+     "type": "flag",
+     "country": "sweden",
+     "pos": [
+      0.75,
+      0,
+      -0.5
+     ],
+     "poleH": 2.0
+    }
+   ]
+  },
+  "izq": {
+   "set": {
+    "type": "road",
+    "time": "day",
+    "seed": "izq"
+   },
+   "actors": [
+    {
+     "id": "lars",
+     "in": "car3",
+     "look": {
+      "hair": "cap",
+      "shirt": "#4f9a4a",
+      "hatColor": "#2d5aa0"
+     },
+     "expr": "smile"
+    }
+   ],
+   "props": [
+    {
+     "id": "car3",
+     "type": "car",
+     "pos": [
+      -5,
+      0,
+      -0.75
+     ],
+     "color": "#e0b84a"
+    },
+    {
+     "id": "car4",
+     "type": "car",
+     "pos": [
+      5,
+      0,
+      0.75
+     ],
+     "rot": 180,
+     "color": "#4f9a6a"
+    },
+    {
+     "id": "arr",
+     "type": "arrow",
+     "flat": true,
+     "pos": [
+      1.2,
+      0,
+      -0.75
+     ],
+     "len": 1.6,
+     "color": "#f2c230",
+     "hidden": true
+    },
+    {
+     "id": "uk",
+     "type": "flag",
+     "country": "uk",
+     "pos": [
+      1.5,
+      0,
+      -2.4
+     ],
+     "poleH": 1.9,
+     "hidden": true
+    }
+   ]
+  },
+  "vecinos": {
+   "set": {
+    "type": "road",
+    "time": "day",
+    "seed": "vecinos"
+   },
+   "actors": [
+    {
+     "id": "karin",
+     "look": {
+      "hair": "long",
+      "shirt": "#e0b84a",
+      "hairColor": "#d8b25a"
+     },
+     "pos": [
+      0.2,
+      0,
+      -2.0
+     ],
+     "rot": 10,
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "no",
+     "type": "flag",
+     "country": "norway",
+     "pos": [
+      -1.6,
+      0,
+      -2.6
+     ],
+     "poleH": 2.1
+    },
+    {
+     "id": "fi",
+     "type": "flag",
+     "country": "finland",
+     "pos": [
+      1.9,
+      0,
+      -2.6
+     ],
+     "poleH": 2.1
+    },
+    {
+     "id": "car5",
+     "type": "car",
+     "pos": [
+      -5,
+      0,
+      0.75
+     ],
+     "color": "#7d4fa0"
+    },
+    {
+     "id": "car6",
+     "type": "car",
+     "pos": [
+      5,
+      0,
+      -0.75
+     ],
+     "rot": 180,
+     "color": "#e07a3a"
+    }
+   ]
+  },
+  "volante": {
+   "set": {
+    "type": "studio",
+    "color": "#e8d9c2"
+   },
+   "actors": [
+    {
+     "id": "lars",
+     "in": "car7",
+     "look": {
+      "hair": "cap",
+      "shirt": "#4f9a4a",
+      "hatColor": "#2d5aa0"
+     },
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "car7",
+     "type": "car",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "color": "#2f6fb5"
+    },
+    {
+     "id": "arr2",
+     "type": "arrow",
+     "pos": [
+      -0.12,
+      1.65,
+      -0.22
+     ],
+     "rz": -90,
+     "y": 0,
+     "len": 0.8,
+     "color": "#e33b2e",
+     "hidden": true
+    }
+   ]
+  },
+  "voto": {
+   "set": {
+    "type": "studio",
+    "color": "#efe2c6"
+   },
+   "actors": [
+    {
+     "id": "sven",
+     "look": {
+      "hair": "short",
+      "shirt": "#3f7fd0",
+      "hairColor": "#6b4226"
+     },
+     "pos": [
+      -0.95,
+      0,
+      0.1
+     ],
+     "rot": 15
+    },
+    {
+     "id": "ana",
+     "look": {
+      "hair": "bun",
+      "shirt": "#d0543f",
+      "hairColor": "#7a3b20"
+     },
+     "pos": [
+      -0.3,
+      0,
+      -0.35
+     ],
+     "rot": 5
+    },
+    {
+     "id": "olof",
+     "look": {
+      "body": "old",
+      "hair": "bald",
+      "glasses": true,
+      "mustache": true,
+      "shirt": "#7d6a5a",
+      "coat": "#5e4a3a"
+     },
+     "pos": [
+      0.45,
+      0,
+      -0.1
+     ],
+     "rot": -15
+    }
+   ],
+   "props": [
+    {
+     "id": "urna",
+     "type": "ballot",
+     "pos": [
+      -0.2,
+      0,
+      0.75
+     ],
+     "text": "1955"
+    },
+    {
+     "id": "led",
+     "type": "led",
+     "pos": [
+      0.2,
+      0,
+      -1.6
+     ],
+     "y": 1.75,
+     "value": 0,
+     "suffix": " %",
+     "label": "VOTARON NO",
+     "w": 1.5
+    }
+   ]
+  },
+  "ley": {
+   "set": {
+    "type": "office",
+    "seed": "ley"
+   },
+   "actors": [
+    {
+     "id": "olof",
+     "look": {
+      "body": "old",
+      "hair": "bald",
+      "glasses": true,
+      "mustache": true,
+      "shirt": "#efe7d6",
+      "tie": "#c62b2b",
+      "coat": "#2d3a4a"
+     },
+     "pos": [
+      0,
+      0,
+      -1.45
+     ],
+     "expr": "smug"
+    }
+   ],
+   "props": [
+    {
+     "id": "papel",
+     "type": "paper",
+     "pos": [
+      -0.1,
+      0.49,
+      -0.85
+     ],
+     "rx": -90,
+     "text": [
+      "LEY · 1963",
+      "Tráfico por la derecha"
+     ],
+     "stamp": "APROBADO"
+    },
+    {
+     "id": "sello",
+     "type": "stamp",
+     "pos": [
+      0.45,
+      0.48,
+      -0.8
+     ]
+    }
+   ]
+  },
+  "senales": {
+   "set": {
+    "type": "street",
+    "time": "night",
+    "seed": "senales"
+   },
+   "actors": [
+    {
+     "id": "w1",
+     "look": {
+      "hair": "hardhat",
+      "vest": "#f07a22",
+      "shirt": "#2d5aa0"
+     },
+     "pos": [
+      -2.6,
+      0.1,
+      -2.1
+     ],
+     "pose": "hold",
+     "expr": "determined"
+    },
+    {
+     "id": "w2",
+     "look": {
+      "hair": "hardhat",
+      "vest": "#f07a22",
+      "shirt": "#3b3f4f",
+      "body": "wide"
+     },
+     "pos": [
+      1.4,
+      0.1,
+      -2.0
+     ],
+     "rot": -20,
+     "expr": "sleepy"
+    }
+   ],
+   "props": [
+    {
+     "id": "s1",
+     "type": "sign",
+     "pos": [
+      -1.0,
+      0.1,
+      -2.15
+     ],
+     "text": [
+      "HÅLL",
+      "HÖGER"
+     ],
+     "bg": "#2f5fa8",
+     "w": 0.75,
+     "h": 0.6,
+     "postH": 0.9,
+     "hidden": true
+    },
+    {
+     "id": "s2",
+     "type": "sign",
+     "pos": [
+      0.3,
+      0.1,
+      -2.2
+     ],
+     "text": [
+      "→"
+     ],
+     "bg": "#2f5fa8",
+     "w": 0.6,
+     "h": 0.6,
+     "postH": 0.9
+    },
+    {
+     "id": "led",
+     "type": "led",
+     "pos": [
+      0.3,
+      0.1,
+      -2.6
+     ],
+     "y": 2.6,
+     "value": 0,
+     "label": "SEÑALES",
+     "w": 1.5
+    },
+    {
+     "id": "cone1",
+     "type": "cone",
+     "pos": [
+      -1.8,
+      0,
+      -1.3
+     ]
+    },
+    {
+     "id": "cone2",
+     "type": "cone",
+     "pos": [
+      -0.6,
+      0,
+      -1.3
+     ]
+    }
+   ]
+  },
+  "dagenh": {
+   "set": {
+    "type": "studio",
+    "color": "#f2d36b"
+   },
+   "actors": [
+    {
+     "id": "karin",
+     "look": {
+      "hair": "long",
+      "shirt": "#e0b84a",
+      "hairColor": "#d8b25a"
+     },
+     "pos": [
+      1.15,
+      0,
+      0.6
+     ],
+     "rot": -25,
+     "expr": "happy"
+    }
+   ],
+   "props": [
+    {
+     "id": "bb",
+     "type": "billboard",
+     "pos": [
+      0,
+      0,
+      -0.8
+     ],
+     "text": [
+      "DAGEN H"
+     ],
+     "w": 2.4,
+     "h": 1.1,
+     "postH": 1.2,
+     "bg": "#2f5fa8",
+     "fg": "#fecc00",
+     "hidden": true
+    },
+    {
+     "id": "hog",
+     "type": "text",
+     "pos": [
+      0,
+      0,
+      0.1
+     ],
+     "y": 0.55,
+     "w": 2.0,
+     "h": 0.34,
+     "text": "H = HÖGERTRAFIK",
+     "color": "#ffffff",
+     "hidden": true
+    }
+   ]
+  },
+  "caos": {
+   "set": {
+    "type": "studio",
+    "color": "#f0cfc6"
+   },
+   "actors": [
+    {
+     "id": "sven",
+     "look": {
+      "hair": "short",
+      "shirt": "#3f7fd0",
+      "hairColor": "#6b4226"
+     },
+     "pos": [
+      -0.5,
+      0,
+      0.2
+     ],
+     "rot": 20
+    }
+   ],
+   "props": [
+    {
+     "id": "gauge",
+     "type": "gauge",
+     "pos": [
+      0.65,
+      0,
+      -0.3
+     ],
+     "y": 1.15,
+     "r": 0.42,
+     "value": 30,
+     "label": "ACCIDENTES"
+    }
+   ]
+  },
+  "derecha": {
+   "set": {
+    "type": "road",
+    "time": "day",
+    "seed": "derecha"
+   },
+   "actors": [
+    {
+     "id": "lars",
+     "in": "car8",
+     "look": {
+      "hair": "cap",
+      "shirt": "#4f9a4a",
+      "hatColor": "#2d5aa0"
+     },
+     "expr": "nervous"
+    }
+   ],
+   "props": [
+    {
+     "id": "car8",
+     "type": "car",
+     "pos": [
+      -3,
+      0,
+      0.75
+     ],
+     "color": "#2f6fb5"
+    },
+    {
+     "id": "car9",
+     "type": "car",
+     "pos": [
+      -7,
+      0,
+      0.75
+     ],
+     "color": "#d23a3a"
+    },
+    {
+     "id": "c1",
+     "type": "cone",
+     "pos": [
+      1,
+      0,
+      1.7
+     ]
+    },
+    {
+     "id": "c2",
+     "type": "cone",
+     "pos": [
+      3,
+      0,
+      1.7
+     ]
+    },
+    {
+     "id": "sg",
+     "type": "sign",
+     "pos": [
+      2.2,
+      0,
+      -2.0
+     ],
+     "text": [
+      "30"
+     ],
+     "bg": "#ffffff",
+     "fg": "#c62b2b",
+     "w": 0.5,
+     "h": 0.5,
+     "postH": 1.0
+    }
+   ]
+  },
+  "final": {
+   "set": {
+    "type": "studio",
+    "color": "#c9dcef"
+   },
+   "actors": [
+    {
+     "id": "sven",
+     "look": {
+      "hair": "short",
+      "shirt": "#3f7fd0",
+      "hairColor": "#6b4226"
+     },
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "lookAt": "cam",
+     "expr": "smile"
+    }
+   ],
+   "props": [
+    {
+     "id": "a1",
+     "type": "arrow",
+     "flat": true,
+     "pos": [
+      -0.9,
+      0,
+      0.3
+     ],
+     "rot": 180,
+     "len": 0.9,
+     "color": "#2f6fb5"
+    },
+    {
+     "id": "a2",
+     "type": "arrow",
+     "flat": true,
+     "pos": [
+      0.9,
+      0,
+      0.3
+     ],
+     "len": 0.9,
+     "color": "#e33b2e"
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "Son las cinco menos diez de la mañana, y todo un país frena su coche en mitad de la calle.",
+   "shots": [
+    {
+     "scene": "alba",
+     "cam": {
+      "on": "clk",
+      "shot": "close",
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "diez",
+       "target": "clk",
+       "time": "4:50",
+       "dur": 0.4
+      }
+     ]
+    },
+    {
+     "scene": "alba",
+     "from": "todo",
+     "cam": {
+      "target": [
+       0,
+       0.5,
+       0
+      ],
+      "dist": 13,
+      "yaw": 15,
+      "pitch": 24,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": -1.2,
+       "target": "car1",
+       "move": [
+        -1.4,
+        0,
+        -0.75
+       ],
+       "dur": 2.4,
+       "ease": "out"
+      },
+      {
+       "at": -1.2,
+       "target": "car2",
+       "move": [
+        2.4,
+        0,
+        0.75
+       ],
+       "dur": 2.4,
+       "ease": "out"
+      },
+      {
+       "on": "frena",
+       "target": "sven",
+       "jolt": true,
+       "sfx": "brake"
+      }
+     ]
+    },
+    {
+     "scene": "alba",
+     "from": "mitad",
+     "cam": {
+      "on": "olof",
+      "shot": "close",
+      "yaw": -40,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "olof",
+       "lookAt": [
+        -1.4,
+        0.8,
+        -0.75
+       ]
+      },
+      {
+       "on": "calle",
+       "target": "olof",
+       "expr": "surprised",
+       "pose": "shrug"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Es domingo, 3 de septiembre de 1967, en Suecia.",
+   "shots": [
+    {
+     "scene": "fecha",
+     "cam": {
+      "on": "cal",
+      "shot": "close",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0.05,
+       "target": "cal",
+       "pop": true
+      }
+     ]
+    },
+    {
+     "scene": "fecha",
+     "from": "Suecia",
+     "cam": {
+      "on": [
+       "flag",
+       "karin"
+      ],
+      "shot": "full",
+      "yaw": -10,
+      "pitch": 6,
+      "move": "orbitR"
+     },
+     "do": [
+      {
+       "on": "Suecia",
+       "target": "karin",
+       "pose": "pointside",
+       "turn": -20,
+       "expr": "happy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Hasta ese día, los suecos manejaban por la izquierda, como los ingleses.",
+   "shots": [
+    {
+     "scene": "izq",
+     "cam": {
+      "target": [
+       0,
+       0.4,
+       0
+      ],
+      "dist": 13,
+      "yaw": 0,
+      "pitch": 26,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": -0.5,
+       "target": "car3",
+       "move": [
+        6,
+        0,
+        -0.75
+       ],
+       "dur": 6,
+       "ease": "linear"
+      },
+      {
+       "at": -0.5,
+       "target": "car4",
+       "move": [
+        -5,
+        0,
+        0.75
+       ],
+       "dur": 6,
+       "ease": "linear"
+      }
+     ]
+    },
+    {
+     "scene": "izq",
+     "from": "izquierda",
+     "cam": {
+      "target": [
+       1.2,
+       0.2,
+       -0.75
+      ],
+      "dist": 5,
+      "yaw": -20,
+      "pitch": 55,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "izquierda",
+       "target": "arr",
+       "pop": true
+      }
+     ]
+    },
+    {
+     "scene": "izq",
+     "from": "como",
+     "cam": {
+      "on": "uk",
+      "shot": "medium",
+      "pitch": 5,
+      "move": "orbitL"
+     },
+     "do": [
+      {
+       "on": "ingleses",
+       "target": "uk",
+       "pop": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Pero todos sus vecinos manejaban por la derecha.",
+   "shots": [
+    {
+     "scene": "vecinos",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       -1
+      ],
+      "dist": 12,
+      "yaw": 0,
+      "pitch": 14,
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": -0.4,
+       "target": "car5",
+       "move": [
+        6,
+        0,
+        0.75
+       ],
+       "dur": 3.5,
+       "ease": "linear"
+      },
+      {
+       "at": -0.4,
+       "target": "car6",
+       "move": [
+        -6,
+        0,
+        -0.75
+       ],
+       "dur": 3.5,
+       "ease": "linear"
+      }
+     ]
+    },
+    {
+     "scene": "vecinos",
+     "from": "derecha",
+     "cam": {
+      "on": "karin",
+      "shot": "close",
+      "yaw": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "derecha",
+       "target": "karin",
+       "expr": "confused",
+       "pose": "scratch"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y casi todos sus coches ya tenían el volante a la izquierda.",
+   "shots": [
+    {
+     "scene": "volante",
+     "cam": {
+      "on": "car7",
+      "shot": "medium",
+      "yaw": 140,
+      "pitch": 12,
+      "move": "orbitR"
+     }
+    },
+    {
+     "scene": "volante",
+     "from": "volante",
+     "cam": {
+      "on": "lars",
+      "shot": "close",
+      "yaw": 150,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "volante",
+       "target": "arr2",
+       "pop": true
+      },
+      {
+       "on": "izquierda",
+       "target": "lars",
+       "expr": "smug",
+       "lookAt": "cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "En 1955 se votó en un referéndum, y casi el 83 % dijo que no.",
+   "shots": [
+    {
+     "scene": "voto",
+     "cam": {
+      "target": [
+       -0.2,
+       0.55,
+       0.2
+      ],
+      "dist": 5.5,
+      "yaw": 0,
+      "pitch": 12,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "sven",
+       "lookAt": [
+        -0.2,
+        0.4,
+        0.75
+       ]
+      },
+      {
+       "at": 0,
+       "target": "olof",
+       "lookAt": [
+        -0.2,
+        0.4,
+        0.75
+       ]
+      }
+     ]
+    },
+    {
+     "scene": "voto",
+     "from": "casi",
+     "cam": {
+      "on": "led",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "83",
+       "target": "led",
+       "value": 83,
+       "dur": 0.9
+      }
+     ]
+    },
+    {
+     "scene": "voto",
+     "from": "dijo",
+     "cam": {
+      "target": [
+       -0.25,
+       0.65,
+       0
+      ],
+      "dist": 5,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "no",
+       "target": "sven",
+       "pose": "cross",
+       "expr": "determined",
+       "lookAt": "cam"
+      },
+      {
+       "on": "no",
+       "target": "ana",
+       "pose": "cross",
+       "expr": "angry",
+       "lookAt": "cam",
+       "lead": 0.05
+      },
+      {
+       "on": "no",
+       "target": "olof",
+       "pose": "stop",
+       "expr": "skeptical",
+       "lookAt": "cam",
+       "lead": 0.2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ocho años después, el Parlamento lo aprobó de todas formas.",
+   "shots": [
+    {
+     "scene": "ley",
+     "cam": {
+      "on": "olof",
+      "shot": "medium",
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "olof",
+       "pose": "hips",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "ley",
+     "from": "aprobó",
+     "cam": {
+      "target": [
+       0.05,
+       0.49,
+       -0.85
+      ],
+      "dist": 2.4,
+      "yaw": 0,
+      "pitch": 62,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "sello",
+       "move": [
+        -0.1,
+        0.75,
+        -0.82
+       ],
+       "dur": 0.2,
+       "ease": "out"
+      },
+      {
+       "on": "aprobó",
+       "target": "sello",
+       "move": [
+        -0.1,
+        0.495,
+        -0.82
+       ],
+       "dur": 0.1,
+       "ease": "linear",
+       "lead": 0.15
+      },
+      {
+       "on": "aprobó",
+       "target": "papel",
+       "stamp": true,
+       "lead": 0.05
+      },
+      {
+       "on": "todas",
+       "target": "sello",
+       "move": [
+        0.45,
+        0.7,
+        -0.8
+       ],
+       "dur": 0.3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Cambiaron unas 360.000 señales, muchas en una sola noche.",
+   "shots": [
+    {
+     "scene": "senales",
+     "cam": {
+      "target": [
+       -1.4,
+       0.8,
+       -2.0
+      ],
+      "dist": 5.2,
+      "yaw": 10,
+      "pitch": 8,
+      "move": "orbitR"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "w1",
+       "move": [
+        -1.5,
+        0.1,
+        -1.9
+       ],
+       "dur": 1.0
+      },
+      {
+       "at": 0.9,
+       "target": "s1",
+       "pop": true
+      },
+      {
+       "at": 0.9,
+       "target": "w1",
+       "pose": "thumbs",
+       "expr": "happy",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "senales",
+     "from": "360.000",
+     "cam": {
+      "on": "led",
+      "shot": "medium",
+      "pitch": -4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "360.000",
+       "target": "led",
+       "value": 360000,
+       "dur": 1.3
+      }
+     ]
+    },
+    {
+     "scene": "senales",
+     "from": "noche",
+     "cam": {
+      "on": "w2",
+      "shot": "close",
+      "yaw": -15,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "noche",
+       "target": "w2",
+       "expr": "sleepy",
+       "pose": "scratch"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "A las cinco menos diez, todos se detuvieron y se pasaron con cuidado al otro carril.",
+   "shots": [
+    {
+     "scene": "alba",
+     "cam": {
+      "on": "clk",
+      "shot": "close",
+      "pitch": 2,
+      "yaw": -12,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "alba",
+     "from": "detuvieron",
+     "cam": {
+      "on": "sven",
+      "shot": "close",
+      "yaw": 70,
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "detuvieron",
+       "target": "sven",
+       "expr": "nervous",
+       "lookAt": [
+        2.4,
+        0.8,
+        0.75
+       ]
+      }
+     ]
+    },
+    {
+     "scene": "alba",
+     "from": "pasaron",
+     "cam": {
+      "target": [
+       0.5,
+       0.4,
+       0
+      ],
+      "dist": 11,
+      "yaw": 10,
+      "pitch": 42,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "pasaron",
+       "target": "car1",
+       "move": [
+        -0.6,
+        0,
+        0.75
+       ],
+       "dur": 2.2
+      },
+      {
+       "on": "pasaron",
+       "target": "car2",
+       "move": [
+        1.6,
+        0,
+        -0.75
+       ],
+       "dur": 2.2,
+       "lead": -0.3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y a las cinco en punto, arrancaron por la derecha.",
+   "shots": [
+    {
+     "scene": "alba",
+     "cam": {
+      "on": "clk",
+      "shot": "close",
+      "pitch": 4,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "cinco",
+       "target": "clk",
+       "time": "5:00",
+       "dur": 0.5,
+       "sfx": "ding"
+      }
+     ]
+    },
+    {
+     "scene": "alba",
+     "from": "arrancaron",
+     "cam": {
+      "target": [
+       0,
+       0.5,
+       0
+      ],
+      "dist": 10,
+      "yaw": -25,
+      "pitch": 18,
+      "move": "orbitR"
+     },
+     "do": [
+      {
+       "on": "arrancaron",
+       "target": "car1",
+       "move": [
+        9,
+        0,
+        0.75
+       ],
+       "dur": 3.2,
+       "ease": "linear",
+       "sfx": "horn",
+       "vol": 0.6
+      },
+      {
+       "on": "arrancaron",
+       "target": "car2",
+       "move": [
+        -9,
+        0,
+        -0.75
+       ],
+       "dur": 3.2,
+       "ease": "linear"
+      },
+      {
+       "on": "arrancaron",
+       "target": "olof",
+       "pose": "cheer",
+       "expr": "joy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Lo llamaron Dagen H: la H es de högertrafik, tráfico por la derecha.",
+   "shots": [
+    {
+     "scene": "dagenh",
+     "cam": {
+      "on": "bb",
+      "shot": "medium",
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Dagen",
+       "target": "bb",
+       "pop": true
+      }
+     ]
+    },
+    {
+     "scene": "dagenh",
+     "from": "högertrafik",
+     "cam": {
+      "target": [
+       0.2,
+       0.9,
+       -0.4
+      ],
+      "dist": 7.5,
+      "yaw": -8,
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "högertrafik",
+       "target": "hog",
+       "pop": true
+      },
+      {
+       "on": "derecha",
+       "target": "karin",
+       "pose": "pointside",
+       "turn": 20
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Todos esperaban un caos. Pero los accidentes bajaron.",
+   "shots": [
+    {
+     "scene": "caos",
+     "cam": {
+      "on": "sven",
+      "shot": "close",
+      "yaw": 15,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "caos",
+       "target": "sven",
+       "pose": "headhold",
+       "expr": "panic",
+       "jolt": true
+      }
+     ]
+    },
+    {
+     "scene": "caos",
+     "from": "accidentes",
+     "cam": {
+      "target": [
+       0.05,
+       0.85,
+       -0.05
+      ],
+      "dist": 5.2,
+      "yaw": 30,
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "sven",
+       "pose": "idle",
+       "expr": "worried",
+       "lookAt": [
+        0.65,
+        1.15,
+        -0.3
+       ]
+      },
+      {
+       "on": "bajaron",
+       "target": "gauge",
+       "value": 8,
+       "dur": 0.9,
+       "ease": "back"
+      },
+      {
+       "on": "bajaron",
+       "target": "sven",
+       "expr": "shock",
+       "lead": -0.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Con tanto miedo, por fin, todos manejaban con cuidado.",
+   "shots": [
+    {
+     "scene": "derecha",
+     "cam": {
+      "on": "lars",
+      "shot": "close",
+      "yaw": 70,
+      "pitch": 2,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": -0.3,
+       "target": "car8",
+       "move": [
+        -1,
+        0,
+        0.75
+       ],
+       "dur": 6,
+       "ease": "linear"
+      }
+     ]
+    },
+    {
+     "scene": "derecha",
+     "from": "todos",
+     "cam": {
+      "target": [
+       0,
+       0.4,
+       0.5
+      ],
+      "dist": 11,
+      "yaw": 20,
+      "pitch": 22,
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": -1.5,
+       "target": "car9",
+       "move": [
+        -3.5,
+        0,
+        0.75
+       ],
+       "dur": 6,
+       "ease": "linear"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "¿Tú te atreverías a cambiar de lado de un día para otro?",
+   "shots": [
+    {
+     "scene": "final",
+     "cam": {
+      "on": "sven",
+      "shot": "medium",
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Tú",
+       "target": "sven",
+       "pose": "point",
+       "expr": "smug",
+       "lead": 0.2
+      }
+     ]
+    },
+    {
+     "scene": "final",
+     "from": "cambiar",
+     "cam": {
+      "on": "sven",
+      "shot": "close",
+      "yaw": -12,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "cambiar",
+       "target": "sven",
+       "pose": "shrug",
+       "expr": "smile"
+      },
+      {
+       "on": "otro",
+       "target": "sven",
+       "expr": "joy"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

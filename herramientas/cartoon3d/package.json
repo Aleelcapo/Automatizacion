@@ -1,0 +1,10 @@
+{
+  "name": "cartoon3d",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generador de shorts verticales de caricaturas 3D (three.js en Chromium sin GPU)",
+  "dependencies": {
+    "@fontsource/montserrat": "5.1.0",
+    "three": "0.170.0"
+  }
+}
