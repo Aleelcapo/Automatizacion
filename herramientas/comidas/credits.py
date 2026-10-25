@@ -9,10 +9,12 @@ import commons
 cfg = json.load(open(sys.argv[1], encoding='utf-8')); meta = json.load(open(sys.argv[2], encoding='utf-8'))
 NAMES = dict(JPN='Japón', MEX='México', PER='Perú', ARG='Argentina', ITA='Italia', IND='India',
              ISL='Islandia', FIN='Finlandia', GEO='Georgia', KAZ='Kazajistán', ETH='Etiopía', PHL='Filipinas',
-             KEN='Kenia', NPL='Nepal', KHM='Camboya', ARM='Armenia', SWE='Suecia', SEN='Senegal')
+             KEN='Kenia', NPL='Nepal', KHM='Camboya', ARM='Armenia', SWE='Suecia', SEN='Senegal',
+             TUN='Túnez', GHA='Ghana', LAO='Laos', TJK='Tayikistán', EST='Estonia', NOR='Noruega')
 SLUG = dict(JPN='japan', MEX='mexico', PER='peru', ARG='argentina', ITA='italy', IND='india',
             ISL='iceland', FIN='finland', GEO='georgia', KAZ='kazakhstan', ETH='ethiopia', PHL='philippines',
-            KEN='kenya', NPL='nepal', KHM='cambodia', ARM='armenia', SWE='sweden', SEN='senegal')
+            KEN='kenya', NPL='nepal', KHM='cambodia', ARM='armenia', SWE='sweden', SEN='senegal',
+            TUN='tunisia', GHA='ghana', LAO='laos', TJK='tajikistan', EST='estonia', NOR='norway')
 titles = ['File:' + os.path.basename(p['file']).replace('_', ' ') for s in cfg['route'] for p in s['photos']]
 info = {}
 for i in range(0, len(titles), 20):
@@ -27,6 +29,11 @@ L = [f"# {meta['titulo']}: fuentes, autores y licencias", '',
      '| País | Plato | Página de TasteAtlas |', '|---|---|---|']
 for s in cfg['route']:
     L.append(f"| {NAMES[s['key']]} | {s['dish']} | https://www.tasteatlas.com/best-rated-dishes-in-{SLUG[s['key']]} |")
+if meta.get('sin_ranking'):
+    # guiones que no citan un ranking: se listan los platos sin atribuirles un puesto
+    L = L[:4] + ['## Platos del guion', '',
+                 'El guion recorre seis países y describe un plato de cada uno; no cita un ranking ni una fuente para la elección. Las descripciones (sabor, ingredientes, cómo se come) son del autor.', '',
+                 '| País | Plato |', '|---|---|'] + [f"| {NAMES[s['key']]} | {s['dish']} |" for s in cfg['route']]
 L += ['', '## Material geográfico', '',
       '| Elemento | Fuente | Autor | Licencia |', '|---|---|---|---|',
       '| Mapa satelital (Blue Marble Next Generation, julio de 2004). Reproyectado a Mercator, con corrección de color y extendido más allá de ±180° para cruzar los océanos sin cortes | https://visibleearth.nasa.gov/images/73751 | NASA Earth Observatory (Reto Stöckli) | Dominio público |',

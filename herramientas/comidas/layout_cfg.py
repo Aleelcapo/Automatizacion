@@ -35,6 +35,13 @@ BASE = {
     'ARM': dict(name='Armenia', country_box=(190, 775, 890, 1300), card=(70, 220, 580, 435)),
     'SWE': dict(name='Suecia', country_box=(70, 300, 470, 1300), card=(555, 330, 465, 350)),
     'SEN': dict(name='Senegal', country_box=(130, 800, 950, 1300), card=(70, 220, 580, 435)),
+    'TUN': dict(name='Túnez', country_box=(70, 300, 470, 1300), card=(555, 330, 465, 350)),
+    'GHA': dict(name='Ghana', country_box=(70, 300, 470, 1300), card=(555, 330, 465, 350)),
+    'LAO': dict(name='Laos', country_box=(190, 775, 890, 1300), card=(70, 220, 580, 435)),
+    'TJK': dict(name='Tayikistán', country_box=(60, 810, 1020, 1295), card=(240, 220, 600, 450)),
+    'EST': dict(name='Estonia', country_box=(60, 810, 1020, 1295), card=(240, 220, 600, 450)),
+    # Noruega en diagonal: la tarjeta va en el hueco de arriba a la izquierda
+    'NOR': dict(name='Noruega', country_box=(60, 560, 1020, 1300), card=(50, 200, 430, 322)),
 }
 
 INTRO_VIEWS = [tuple(v) for v in CFG['intro']]

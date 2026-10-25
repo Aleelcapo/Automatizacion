@@ -46,6 +46,13 @@ COUNTRIES = {
     # Nepal: bandera no rectangular; carmesí con borde azul interior y la luna y el sol en proporción
     'NPL': dict(clip=(80, 26.3, 88.3, 30.5), layout=(80, 26.3, 88.3, 30.5), kind='nepal', svg='Nepal',
                 moon_at=(82.25, 29.0), sun_at=(82.55, 27.95), em_deg=1.15, colors=['#DC143C', '#003893']),
+    'TUN': dict(clip=(7.4, 30.1, 11.7, 37.6), layout=(7.4, 30.1, 11.7, 37.6), kind='cover', svg='Tunisia', anchor=(0.5, 0.5), at=(9.3, 34.9), height_frac=0.45, colors=['#E70013', '#E70013']),
+    'GHA': dict(clip=(-3.4, 4.6, 1.3, 11.2), layout=(-3.4, 4.6, 1.3, 11.2), kind='cover', svg='Ghana', anchor=(0.5, 0.5), at=(-1.1, 7.9), colors=['#CE1126']),
+    'LAO': dict(clip=(100, 13.8, 107.7, 22.6), layout=(100, 13.8, 107.7, 22.6), kind='cover', svg='Laos', anchor=(0.5, 0.5), at=(102.7, 20.2), height_frac=0.5, colors=['#CE1126', '#CE1126']),
+    'TJK': dict(clip=(67.3, 36.6, 75.2, 41.1), layout=(67.3, 36.6, 75.2, 41.1), kind='cover', svg='Tajikistan', anchor=(0.5, 0.5), at=(70.4, 38.8), colors=['#CC0000']),
+    'EST': dict(clip=(21.7, 57.4, 28.3, 59.8), layout=(21.7, 57.4, 28.3, 59.8), kind='cover', svg='Estonia', anchor=(0.5, 0.5), at=(25.5, 58.7), colors=['#0072CE']),
+    # Noruega: cruz nórdica de tres colores (blanco con el azul por dentro)
+    'NOR': dict(clip=(4.4, 57.8, 31.3, 71.3), layout=(4.4, 57.8, 31.3, 71.3), kind='nordic', at=(9.8, 61.2), bar=0.12, colors=['#BA0C2F', '#FFFFFF', '#00205B']),
 }
 ONLY = [k for k in os.environ.get('ONLY_COUNTRIES', '').split(',') if k]
 
@@ -193,6 +200,10 @@ for a3, cfg in COUNTRIES.items():
         t = cfg['bar'] * min(pw, ph) / 2
         fd.rectangle([cx - t, 0, cx + t, ph], fill=hexrgb(cfg['colors'][1]))
         fd.rectangle([0, cy - t, pw, cy + t], fill=hexrgb(cfg['colors'][1]))
+        if len(cfg['colors']) > 2:
+            t /= 2
+            fd.rectangle([cx - t, 0, cx + t, ph], fill=hexrgb(cfg['colors'][2]))
+            fd.rectangle([0, cy - t, pw, cy + t], fill=hexrgb(cfg['colors'][2]))
     if cfg['kind'] == 'nepal':
         fim = np.asarray(Image.open(os.path.join(FLAGS, f"Flag_of_{cfg['svg']}.png")).convert('RGBA'))
         white = (fim[..., 0] > 200) & (fim[..., 1] > 200) & (fim[..., 2] > 200) & (fim[..., 3] > 200)
