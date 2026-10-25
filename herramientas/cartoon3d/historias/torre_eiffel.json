@@ -1,0 +1,1457 @@
+{
+ "out": "Caricatura3D_2_torre_eiffel",
+ "title": "El hombre que vendió la Torre Eiffel (Victor Lustig)",
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+10%",
+ "look": {
+  "skin": "white"
+ },
+ "highlight": [
+  "Eiffel",
+  "Viena",
+  "vergüenza"
+ ],
+ "sources": [
+  "https://es.wikipedia.org/wiki/Victor_Lustig",
+  "https://en.wikipedia.org/wiki/Victor_Lustig"
+ ],
+ "scenes": {
+  "paris": {
+   "set": {
+    "type": "street",
+    "time": "day",
+    "seed": "paris",
+    "fogNear": 20,
+    "fogFar": 70,
+    "palette": [
+     "#e8dcc4",
+     "#d9c7a8",
+     "#c9b79c",
+     "#efe3cf",
+     "#bfae95",
+     "#d6c9b2"
+    ]
+   },
+   "actors": [
+    {
+     "id": "lustig",
+     "look": {
+      "body": "tall",
+      "hair": "hat",
+      "hatColor": "#2a2a2e",
+      "mustache": true,
+      "hairColor": "#2a1d16",
+      "shirt": "#f4efe4",
+      "tie": "#c62b2b",
+      "coat": "#33333d",
+      "pants": "#2a2a30"
+     },
+     "pos": [
+      -1.2,
+      0.1,
+      -2.0
+     ],
+     "rot": 90,
+     "expr": "smug"
+    }
+   ],
+   "props": [
+    {
+     "id": "torre",
+     "type": "eiffel",
+     "pos": [
+      -26,
+      0,
+      0
+     ],
+     "h": 13
+    },
+    {
+     "id": "maleta",
+     "type": "briefcase",
+     "pos": [
+      -1.0,
+      0.1,
+      -1.75
+     ],
+     "hidden": true
+    }
+   ]
+  },
+  "periodico": {
+   "set": {
+    "type": "studio",
+    "color": "#e9e1d0"
+   },
+   "actors": [
+    {
+     "id": "lustig",
+     "look": {
+      "body": "tall",
+      "hair": "hat",
+      "hatColor": "#2a2a2e",
+      "mustache": true,
+      "hairColor": "#2a1d16",
+      "shirt": "#f4efe4",
+      "tie": "#c62b2b",
+      "coat": "#33333d",
+      "pants": "#2a2a30"
+     },
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "pose": "hold",
+     "expr": "neutral",
+     "head": [
+      0,
+      10
+     ]
+    }
+   ],
+   "props": [
+    {
+     "id": "diario",
+     "type": "paper",
+     "pos": [
+      0,
+      0.52,
+      0.27
+     ],
+     "rx": -8,
+     "w": 0.5,
+     "h": 0.46,
+     "text": [
+      "DIARIO DE PARÍS",
+      "La Torre Eiffel, en mal estado"
+     ],
+     "big": "¡CARÍSIMA!",
+     "bigColor": "#c62b2b"
+    },
+    {
+     "id": "torre",
+     "type": "eiffel",
+     "pos": [
+      1.6,
+      0,
+      -2.5
+     ],
+     "h": 3.2
+    }
+   ]
+  },
+  "ministerio": {
+   "set": {
+    "type": "office",
+    "seed": "min",
+    "wall": "#d9dfe6"
+   },
+   "actors": [
+    {
+     "id": "lustig",
+     "look": {
+      "body": "tall",
+      "hair": "hat",
+      "hatColor": "#2a2a2e",
+      "mustache": true,
+      "hairColor": "#2a1d16",
+      "shirt": "#f4efe4",
+      "tie": "#c62b2b",
+      "coat": "#33333d",
+      "pants": "#2a2a30"
+     },
+     "pos": [
+      0,
+      0,
+      -1.5
+     ],
+     "expr": "smug"
+    }
+   ],
+   "props": [
+    {
+     "id": "doc",
+     "type": "paper",
+     "pos": [
+      -0.15,
+      0.49,
+      -0.85
+     ],
+     "rx": -90,
+     "text": [
+      "REPÚBLICA FRANCESA",
+      "Ministerio de Correos",
+      "y Telégrafos"
+     ],
+     "stamp": "OFICIAL"
+    },
+    {
+     "id": "flag",
+     "type": "flag",
+     "country": "france",
+     "pos": [
+      1.15,
+      0,
+      -2.0
+     ],
+     "poleH": 2.0
+    },
+    {
+     "id": "sello",
+     "type": "stamp",
+     "pos": [
+      0.45,
+      0.48,
+      -0.8
+     ]
+    }
+   ]
+  },
+  "hotel": {
+   "set": {
+    "type": "room",
+    "wall": "#e2cdb8",
+    "wall2": "#d6bea6",
+    "floor": "#7a4b2e",
+    "rug": "#9a2f35",
+    "sofa": false
+   },
+   "actors": [
+    {
+     "id": "lustig",
+     "look": {
+      "body": "tall",
+      "hair": "hat",
+      "hatColor": "#2a2a2e",
+      "mustache": true,
+      "hairColor": "#2a1d16",
+      "shirt": "#f4efe4",
+      "tie": "#c62b2b",
+      "coat": "#33333d",
+      "pants": "#2a2a30"
+     },
+     "pos": [
+      0,
+      0,
+      -1.25
+     ],
+     "expr": "smug"
+    },
+    {
+     "id": "poisson",
+     "look": {
+      "body": "wide",
+      "hair": "short",
+      "hairColor": "#3a2a20",
+      "glasses": true,
+      "shirt": "#8a5a3a",
+      "tie": "#2f5fa8"
+     },
+     "pos": [
+      -0.55,
+      0,
+      0.3
+     ],
+     "rot": 35,
+     "expr": "neutral"
+    },
+    {
+     "id": "d1",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#5a4a3a",
+      "shirt": "#6b7a5a"
+     },
+     "pos": [
+      -0.78,
+      0,
+      -0.5
+     ],
+     "rot": 75
+    },
+    {
+     "id": "d2",
+     "look": {
+      "body": "old",
+      "hair": "bald",
+      "shirt": "#7a6a8a",
+      "mustache": true,
+      "hairColor": "#888"
+     },
+     "pos": [
+      0.78,
+      0,
+      -0.5
+     ],
+     "rot": -75
+    },
+    {
+     "id": "d3",
+     "look": {
+      "hair": "curly",
+      "hairColor": "#2a1a10",
+      "shirt": "#a85a3a"
+     },
+     "pos": [
+      0.55,
+      0,
+      0.3
+     ],
+     "rot": -35
+    }
+   ],
+   "props": [
+    {
+     "id": "mesa",
+     "type": "table",
+     "pos": [
+      0,
+      0,
+      -0.55
+     ],
+     "w": 1.0,
+     "d": 0.7,
+     "h": 0.45,
+     "color": "#5e3920"
+    },
+    {
+     "id": "cartel",
+     "type": "sign",
+     "pos": [
+      0.3,
+      0,
+      -2.5
+     ],
+     "post": false,
+     "y0": 2.5,
+     "w": 1.6,
+     "h": 0.42,
+     "text": [
+      "HÔTEL DE CRILLON"
+     ],
+     "bg": "#2d3a4a",
+     "fg": "#e8c66a"
+    },
+    {
+     "id": "dinero",
+     "type": "cash",
+     "pos": [
+      -0.2,
+      0.48,
+      -0.45
+     ],
+     "n": 3,
+     "h": 3,
+     "hidden": true
+    }
+   ]
+  },
+  "toneladas": {
+   "set": {
+    "type": "studio",
+    "color": "#d8e2ea"
+   },
+   "props": [
+    {
+     "id": "led",
+     "type": "led",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "y": 1.65,
+     "value": 0,
+     "suffix": " t",
+     "label": "DE HIERRO",
+     "w": 1.6
+    },
+    {
+     "id": "torre",
+     "type": "eiffel",
+     "pos": [
+      0,
+      0,
+      -1.2
+     ],
+     "h": 3.4
+    }
+   ]
+  },
+  "veinte": {
+   "set": {
+    "type": "studio",
+    "color": "#efe2c6"
+   },
+   "props": [
+    {
+     "id": "torre",
+     "type": "eiffel",
+     "pos": [
+      -0.75,
+      0,
+      -0.6
+     ],
+     "h": 2.8
+    },
+    {
+     "id": "led",
+     "type": "led",
+     "pos": [
+      0.75,
+      0,
+      0
+     ],
+     "y": 1.3,
+     "value": 0,
+     "suffix": " AÑOS",
+     "label": "IBA A DURAR",
+     "w": 1.3
+    },
+    {
+     "id": "cal",
+     "type": "calendar",
+     "pos": [
+      0.75,
+      0,
+      -0.9
+     ],
+     "y": 0.75,
+     "post": true,
+     "day": 1889,
+     "month": "EXPOSICIÓN",
+     "year": "PARÍS"
+    }
+   ]
+  },
+  "tren": {
+   "set": {
+    "type": "road",
+    "time": "day",
+    "seed": "tren",
+    "noRoad": true
+   },
+   "actors": [
+    {
+     "id": "lustig",
+     "look": {
+      "body": "tall",
+      "hair": "hat",
+      "hatColor": "#2a2a2e",
+      "mustache": true,
+      "hairColor": "#2a1d16",
+      "shirt": "#f4efe4",
+      "tie": "#c62b2b",
+      "coat": "#33333d",
+      "pants": "#2a2a30"
+     },
+     "pos": [
+      -0.6,
+      0,
+      1.7
+     ],
+     "pose": "hold",
+     "expr": "smug"
+    }
+   ],
+   "props": [
+    {
+     "id": "vias",
+     "type": "rails",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "len": 70
+    },
+    {
+     "id": "loco",
+     "type": "train",
+     "pos": [
+      -6,
+      0,
+      0
+     ],
+     "wagons": 2
+    },
+    {
+     "id": "viena",
+     "type": "sign",
+     "pos": [
+      1.0,
+      0,
+      -1.4
+     ],
+     "text": [
+      "VIENA →"
+     ],
+     "bg": "#f4efe4",
+     "fg": "#1f1a17",
+     "w": 1.1,
+     "h": 0.42,
+     "postH": 1.2
+    },
+    {
+     "id": "maleta",
+     "type": "briefcase",
+     "pos": [
+      -0.6,
+      0.28,
+      1.95
+     ]
+    }
+   ]
+  },
+  "verguenza": {
+   "set": {
+    "type": "studio",
+    "color": "#f0cfc6"
+   },
+   "actors": [
+    {
+     "id": "poisson",
+     "look": {
+      "body": "wide",
+      "hair": "short",
+      "hairColor": "#3a2a20",
+      "glasses": true,
+      "shirt": "#8a5a3a",
+      "tie": "#2f5fa8",
+      "blush": true
+     },
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "expr": "sad"
+    }
+   ],
+   "props": [
+    {
+     "id": "torre",
+     "type": "eiffel",
+     "pos": [
+      1.3,
+      0,
+      -2.2
+     ],
+     "h": 2.6
+    }
+   ]
+  },
+  "noche": {
+   "set": {
+    "type": "street",
+    "time": "night",
+    "seed": "noche",
+    "palette": [
+     "#e8dcc4",
+     "#d9c7a8",
+     "#c9b79c",
+     "#efe3cf",
+     "#bfae95"
+    ]
+   },
+   "actors": [
+    {
+     "id": "gendarme",
+     "look": {
+      "hair": "police",
+      "shirt": "#1f2c55",
+      "pants": "#1f2c55",
+      "mustache": true
+     },
+     "pos": [
+      0.9,
+      0.1,
+      -2.0
+     ],
+     "rot": -30,
+     "expr": "angry"
+    },
+    {
+     "id": "d2",
+     "look": {
+      "body": "old",
+      "hair": "bald",
+      "shirt": "#7a6a8a",
+      "mustache": true,
+      "hairColor": "#888"
+     },
+     "pos": [
+      0.1,
+      0.1,
+      -2.1
+     ],
+     "rot": -20,
+     "expr": "angry"
+    },
+    {
+     "id": "lustig",
+     "look": {
+      "body": "tall",
+      "hair": "hat",
+      "hatColor": "#2a2a2e",
+      "mustache": true,
+      "hairColor": "#2a1d16",
+      "shirt": "#f4efe4",
+      "tie": "#c62b2b",
+      "coat": "#33333d",
+      "pants": "#2a2a30"
+     },
+     "pos": [
+      -1.9,
+      0.1,
+      -2.0
+     ],
+     "rot": 60,
+     "expr": "neutral"
+    }
+   ]
+  },
+  "final": {
+   "set": {
+    "type": "studio",
+    "color": "#c9dcef"
+   },
+   "actors": [
+    {
+     "id": "lustig",
+     "look": {
+      "body": "tall",
+      "hair": "hat",
+      "hatColor": "#2a2a2e",
+      "mustache": true,
+      "hairColor": "#2a1d16",
+      "shirt": "#f4efe4",
+      "tie": "#c62b2b",
+      "coat": "#33333d",
+      "pants": "#2a2a30"
+     },
+     "pos": [
+      -0.35,
+      0,
+      0.2
+     ],
+     "rot": 10,
+     "lookAt": "cam",
+     "expr": "smile"
+    }
+   ],
+   "props": [
+    {
+     "id": "torre",
+     "type": "eiffel",
+     "pos": [
+      0.85,
+      0,
+      -0.5
+     ],
+     "h": 2.4
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "En 1925, un hombre vendió la Torre Eiffel… y no era suya.",
+   "shots": [
+    {
+     "scene": "paris",
+     "cam": {
+      "target": [
+       -8,
+       4.5,
+       0
+      ],
+      "dist": 14,
+      "yaw": 90,
+      "pitch": 4,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "paris",
+     "from": "hombre",
+     "cam": {
+      "on": "lustig",
+      "shot": "medium",
+      "yaw": 95,
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "lustig",
+       "lookAt": "cam"
+      },
+      {
+       "on": "vendió",
+       "target": "lustig",
+       "pose": "present"
+      }
+     ]
+    },
+    {
+     "scene": "paris",
+     "from": "no",
+     "cam": {
+      "on": "lustig",
+      "shot": "close",
+      "yaw": 80,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "suya",
+       "target": "lustig",
+       "pose": "shrug",
+       "expr": "smug"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Se llamaba Victor Lustig, y era un estafador con mucho estilo.",
+   "shots": [
+    {
+     "scene": "paris",
+     "cam": {
+      "on": "lustig",
+      "shot": "full",
+      "yaw": 75,
+      "pitch": 6,
+      "move": "orbitR"
+     },
+     "do": [
+      {
+       "on": "Victor",
+       "target": "lustig",
+       "pose": "wave",
+       "expr": "happy"
+      }
+     ]
+    },
+    {
+     "scene": "paris",
+     "from": "estafador",
+     "cam": {
+      "on": "lustig",
+      "shot": "close",
+      "yaw": 75,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "estafador",
+       "target": "lustig",
+       "pose": "hips",
+       "expr": "smug"
+      },
+      {
+       "on": "estilo",
+       "target": "lustig",
+       "expr": "joy",
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Un día leyó en el periódico que la torre estaba vieja, y que mantenerla costaba una fortuna.",
+   "shots": [
+    {
+     "scene": "periodico",
+     "cam": {
+      "on": "lustig",
+      "shot": "medium",
+      "pitch": 8,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "periodico",
+     "from": "vieja",
+     "cam": {
+      "target": [
+       0,
+       0.52,
+       0.27
+      ],
+      "dist": 1.6,
+      "yaw": 0,
+      "pitch": 4,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "periodico",
+     "from": "fortuna",
+     "cam": {
+      "on": "lustig",
+      "shot": "close",
+      "yaw": -15,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "fortuna",
+       "target": "lustig",
+       "expr": "starstruck",
+       "head": [
+        0,
+        0,
+        6
+       ],
+       "sfx": "ding",
+       "vol": 0.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Así que se hizo pasar por un funcionario del gobierno francés.",
+   "shots": [
+    {
+     "scene": "ministerio",
+     "cam": {
+      "on": "lustig",
+      "shot": "medium",
+      "pitch": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "funcionario",
+       "target": "lustig",
+       "pose": "hips",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "ministerio",
+     "from": "gobierno",
+     "cam": {
+      "target": [
+       -0.15,
+       0.49,
+       -0.85
+      ],
+      "dist": 1.9,
+      "yaw": 0,
+      "pitch": 60,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "sello",
+       "move": [
+        -0.15,
+        0.75,
+        -0.82
+       ],
+       "dur": 0.2,
+       "ease": "out"
+      },
+      {
+       "on": "francés",
+       "target": "sello",
+       "move": [
+        -0.15,
+        0.495,
+        -0.82
+       ],
+       "dur": 0.1,
+       "ease": "linear",
+       "lead": 0.15
+      },
+      {
+       "on": "francés",
+       "target": "doc",
+       "stamp": true,
+       "lead": 0.05
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Citó a seis comerciantes de chatarra en un hotel de lujo de París.",
+   "shots": [
+    {
+     "scene": "hotel",
+     "cam": {
+      "target": [
+       0,
+       0.6,
+       -0.5
+      ],
+      "dist": 6,
+      "yaw": 0,
+      "pitch": 18,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "poisson",
+       "lookAt": [
+        0,
+        0.8,
+        -1.25
+       ]
+      },
+      {
+       "at": 0,
+       "target": "d1",
+       "lookAt": [
+        0,
+        0.8,
+        -1.25
+       ]
+      },
+      {
+       "at": 0,
+       "target": "d2",
+       "lookAt": [
+        0,
+        0.8,
+        -1.25
+       ]
+      },
+      {
+       "at": 0,
+       "target": "d3",
+       "lookAt": [
+        0,
+        0.8,
+        -1.25
+       ]
+      }
+     ]
+    },
+    {
+     "scene": "hotel",
+     "from": "chatarra",
+     "cam": {
+      "on": "d1",
+      "shot": "close",
+      "yaw": 50,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "chatarra",
+       "target": "d1",
+       "expr": "skeptical"
+      },
+      {
+       "at": 0,
+       "target": "d1",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "hotel",
+     "from": "hotel",
+     "cam": {
+      "on": "cartel",
+      "shot": "medium",
+      "pitch": -6,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "En secreto, les dijo que el gobierno iba a desmontar la torre y vender sus 7.300 toneladas de hierro.",
+   "shots": [
+    {
+     "scene": "hotel",
+     "cam": {
+      "on": "lustig",
+      "shot": "close",
+      "yaw": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "lustig",
+       "pose": "think",
+       "expr": "smug",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "hotel",
+     "from": "desmontar",
+     "cam": {
+      "target": [
+       0,
+       0.75,
+       -0.4
+      ],
+      "dist": 4.6,
+      "yaw": 0,
+      "pitch": 10,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "desmontar",
+       "target": "poisson",
+       "expr": "shock",
+       "jolt": true
+      },
+      {
+       "on": "desmontar",
+       "target": "d1",
+       "expr": "surprised",
+       "lead": 0.05
+      },
+      {
+       "on": "desmontar",
+       "target": "d2",
+       "expr": "shock",
+       "lead": 0.1
+      },
+      {
+       "on": "desmontar",
+       "target": "d3",
+       "expr": "starstruck",
+       "lead": 0.0
+      },
+      {
+       "on": "desmontar",
+       "target": "lustig",
+       "pose": "present"
+      }
+     ]
+    },
+    {
+     "scene": "toneladas",
+     "from": "7.300",
+     "cam": {
+      "on": "led",
+      "shot": "medium",
+      "pitch": 2,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "7.300",
+       "target": "led",
+       "value": 7300,
+       "dur": 1.1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Al fin y al cabo, la habían construido para durar solo veinte años.",
+   "shots": [
+    {
+     "scene": "veinte",
+     "cam": {
+      "on": "torre",
+      "shot": "medium",
+      "yaw": -15,
+      "pitch": 6,
+      "move": "orbitR"
+     }
+    },
+    {
+     "scene": "veinte",
+     "from": "durar",
+     "cam": {
+      "on": "led",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "veinte",
+       "target": "led",
+       "value": 20,
+       "dur": 0.7
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Uno de ellos, André Poisson, se lo creyó todo… y le pagó.",
+   "shots": [
+    {
+     "scene": "hotel",
+     "cam": {
+      "on": "poisson",
+      "shot": "close",
+      "yaw": 40,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "André",
+       "target": "poisson",
+       "expr": "happy",
+       "lookAt": "cam"
+      },
+      {
+       "on": "creyó",
+       "target": "poisson",
+       "expr": "starstruck"
+      }
+     ]
+    },
+    {
+     "scene": "hotel",
+     "from": "pagó",
+     "cam": {
+      "target": [
+       -0.4,
+       0.7,
+       -0.4
+      ],
+      "dist": 3.2,
+      "yaw": 15,
+      "pitch": 22,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "pagó",
+       "target": "dinero",
+       "pop": true
+      },
+      {
+       "on": "pagó",
+       "target": "poisson",
+       "pose": "present",
+       "expr": "happy"
+      },
+      {
+       "on": "pagó",
+       "target": "lustig",
+       "pose": "thumbs",
+       "expr": "joy",
+       "lead": -0.2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Lustig tomó el dinero y huyó en tren a Viena.",
+   "shots": [
+    {
+     "scene": "hotel",
+     "cam": {
+      "on": "lustig",
+      "shot": "close",
+      "yaw": -10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "dinero",
+       "target": "dinero",
+       "hide": true
+      },
+      {
+       "on": "dinero",
+       "target": "lustig",
+       "pose": "hold",
+       "expr": "smug",
+       "sfx": "pop"
+      }
+     ]
+    },
+    {
+     "scene": "tren",
+     "from": "tren",
+     "cam": {
+      "target": [
+       0.6,
+       0.9,
+       0.6
+      ],
+      "dist": 10,
+      "yaw": 15,
+      "pitch": 10,
+      "move": "pan"
+     },
+     "do": [
+      {
+       "at": -0.3,
+       "target": "loco",
+       "move": [
+        9,
+        0,
+        0
+       ],
+       "dur": 3.6,
+       "ease": "linear",
+       "sfx": "horn",
+       "vol": 0.5
+      },
+      {
+       "at": 0,
+       "target": "lustig",
+       "lookAt": "cam"
+      },
+      {
+       "on": "Viena",
+       "target": "lustig",
+       "expr": "joy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y Poisson, muerto de vergüenza, nunca lo denunció.",
+   "shots": [
+    {
+     "scene": "verguenza",
+     "cam": {
+      "on": "poisson",
+      "shot": "close",
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "vergüenza",
+       "target": "poisson",
+       "expr": "cry",
+       "pose": "facepalm"
+      }
+     ]
+    },
+    {
+     "scene": "verguenza",
+     "from": "nunca",
+     "cam": {
+      "on": "poisson",
+      "shot": "full",
+      "yaw": 20,
+      "pitch": 8,
+      "move": "pull"
+     },
+     "do": [
+      {
+       "on": "nunca",
+       "target": "poisson",
+       "pose": "cross",
+       "expr": "sad",
+       "head": [
+        -25,
+        8,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Un mes después, Lustig volvió a París… e intentó venderla otra vez.",
+   "shots": [
+    {
+     "scene": "paris",
+     "cam": {
+      "target": [
+       -3,
+       1.0,
+       -2
+      ],
+      "dist": 6,
+      "yaw": 75,
+      "pitch": 6,
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "lustig",
+       "turn": -90,
+       "dur": 0.01
+      },
+      {
+       "at": 0,
+       "target": "maleta",
+       "show": true
+      },
+      {
+       "at": 0,
+       "target": "lustig",
+       "move": [
+        -2.6,
+        0.1,
+        -2.0
+       ],
+       "dur": 1.6,
+       "ease": "linear"
+      },
+      {
+       "at": 1.6,
+       "target": "lustig",
+       "turn": 90
+      },
+      {
+       "on": "París",
+       "target": "lustig",
+       "pose": "wave",
+       "expr": "happy",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "paris",
+     "from": "otra",
+     "cam": {
+      "on": "lustig",
+      "shot": "close",
+      "yaw": 100,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "otra",
+       "target": "lustig",
+       "pose": "present",
+       "expr": "smug"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Pero esta vez alguien fue a la policía, y Lustig tuvo que escapar a Estados Unidos.",
+   "shots": [
+    {
+     "scene": "noche",
+     "cam": {
+      "target": [
+       0.5,
+       0.8,
+       -2.0
+      ],
+      "dist": 4.2,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "policía",
+       "target": "d2",
+       "pose": "pointside",
+       "turn": 40
+      },
+      {
+       "on": "policía",
+       "target": "gendarme",
+       "pose": "stop",
+       "lead": -0.2
+      }
+     ]
+    },
+    {
+     "scene": "noche",
+     "from": "escapar",
+     "cam": {
+      "on": "lustig",
+      "shot": "full",
+      "yaw": -50,
+      "pitch": 6,
+      "move": "pull"
+     },
+     "do": [
+      {
+       "at": -0.4,
+       "target": "lustig",
+       "expr": "panic",
+       "pose": "headhold",
+       "turn": -90
+      },
+      {
+       "on": "escapar",
+       "target": "lustig",
+       "move": [
+        -6,
+        0.1,
+        -2.0
+       ],
+       "dur": 2.2,
+       "ease": "linear",
+       "sfx": "whoosh"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "¿Tú le habrías comprado la Torre Eiffel?",
+   "shots": [
+    {
+     "scene": "final",
+     "cam": {
+      "target": [
+       0.2,
+       0.9,
+       0
+      ],
+      "dist": 4.6,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Tú",
+       "target": "lustig",
+       "pose": "point",
+       "expr": "smug",
+       "lead": 0.2
+      }
+     ]
+    },
+    {
+     "scene": "final",
+     "from": "Torre",
+     "cam": {
+      "on": "lustig",
+      "shot": "close",
+      "yaw": -15,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Torre",
+       "target": "lustig",
+       "pose": "present",
+       "expr": "joy"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
