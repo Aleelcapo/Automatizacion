@@ -122,7 +122,9 @@ def recorded_voice(story_path, story, lead):
         heard = [[w.start, w.end, w.word.strip()] for sg in segs for w in sg.words]
         json.dump(heard, open(cache, 'w'), ensure_ascii=False)
     toks = [(i, w) for i, b in enumerate(story['beats']) for w in b['text'].split()]
-    A, B = [norm(w) for _, w in toks], [norm(w) for _, _, w in heard]
+    import unicodedata
+    plain = lambda w: unicodedata.normalize('NFKD', norm(w)).encode('ascii', 'ignore').decode()
+    A, B = [plain(w) for _, w in toks], [plain(w) for _, _, w in heard]
     times = [None] * len(toks)
     for blk in difflib.SequenceMatcher(None, A, B, autojunk=False).get_matching_blocks():
         for k in range(blk.size):

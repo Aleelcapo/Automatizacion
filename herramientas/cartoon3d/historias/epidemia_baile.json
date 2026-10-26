@@ -1,0 +1,1874 @@
+{
+ "out": "Caricatura3D_4_epidemia_baile",
+ "title": "El pueblo que no podía dejar de bailar (Estrasburgo, 1518)",
+ "audio": "../audios/historia_4.m4a",
+ "look": {
+  "skin": "white"
+ },
+ "sources": [
+  "https://es.wikipedia.org/wiki/Epidemia_de_baile_de_1518",
+  "https://en.wikipedia.org/wiki/Dancing_plague_of_1518"
+ ],
+ "scenes": {
+  "plaza": {
+   "set": {
+    "type": "oldtown",
+    "seed": "plaza"
+   },
+   "actors": [
+    {
+     "id": "trof",
+     "look": {
+      "hair": "scarf",
+      "hatColor": "#efe7d6",
+      "shirt": "#3f6fb5",
+      "dress": "#3f6fb5",
+      "pants": "#3f6fb5"
+     },
+     "pos": [
+      0.4,
+      0,
+      -2.55
+     ],
+     "expr": "neutral"
+    },
+    {
+     "id": "n1",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#5a3b2a",
+      "shirt": "#8a5a3a",
+      "pants": "#4a3a2a"
+     },
+     "pos": [
+      -1.3,
+      0,
+      0.4
+     ],
+     "rot": 40
+    },
+    {
+     "id": "n2",
+     "look": {
+      "hair": "scarf",
+      "hatColor": "#d9b0a0",
+      "shirt": "#a0503a",
+      "dress": "#a0503a"
+     },
+     "pos": [
+      1.4,
+      0,
+      0.3
+     ],
+     "rot": -40
+    },
+    {
+     "id": "n3",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#b03a2a",
+      "shirt": "#5a7a4a",
+      "pants": "#4a4a3a"
+     },
+     "pos": [
+      -0.9,
+      0,
+      1.2
+     ],
+     "rot": 25
+    },
+    {
+     "id": "n4",
+     "look": {
+      "body": "kid",
+      "hair": "curly",
+      "hairColor": "#3a2a1a",
+      "shirt": "#c9a04a"
+     },
+     "pos": [
+      1.0,
+      0,
+      1.2
+     ],
+     "rot": -25
+    },
+    {
+     "id": "m1",
+     "look": {
+      "body": "wide",
+      "hair": "cap",
+      "hatColor": "#6a2a5a",
+      "shirt": "#6a2a5a",
+      "pants": "#3a2a3a"
+     },
+     "pos": [
+      -9,
+      0,
+      -2
+     ],
+     "expr": "happy"
+    },
+    {
+     "id": "m2",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#2a5a3a",
+      "shirt": "#2a5a3a",
+      "pants": "#2a3a2a",
+      "mustache": true
+     },
+     "pos": [
+      9,
+      0,
+      -2
+     ],
+     "expr": "happy"
+    }
+   ],
+   "props": [
+    {
+     "id": "cal",
+     "type": "calendar",
+     "pos": [
+      -1.9,
+      0,
+      -2.3
+     ],
+     "post": true,
+     "y": 1.25,
+     "day": 1518,
+     "month": "JULIO",
+     "year": "ESTRASBURGO"
+    },
+    {
+     "id": "musica",
+     "type": "text",
+     "pos": [
+      0,
+      0,
+      -0.5
+     ],
+     "y": 1.55,
+     "w": 1.8,
+     "h": 0.45,
+     "text": "¿MÚSICA?",
+     "hidden": true
+    },
+    {
+     "id": "esc",
+     "type": "stage",
+     "pos": [
+      0,
+      0,
+      -1.6
+     ],
+     "w": 2.8,
+     "d": 1.5,
+     "h": 0.45,
+     "banner": "¡A BAILAR!",
+     "hidden": true
+    },
+    {
+     "id": "tambor",
+     "type": "drum",
+     "pos": [
+      -0.45,
+      0.45,
+      -1.35
+     ],
+     "y": 0.4,
+     "hidden": true
+    },
+    {
+     "id": "laud",
+     "type": "lute",
+     "pos": [
+      0.45,
+      0.45,
+      -1.3
+     ],
+     "y": 0.45,
+     "hidden": true
+    }
+   ]
+  },
+  "noche": {
+   "set": {
+    "type": "oldtown",
+    "seed": "noche",
+    "time": "night"
+   },
+   "actors": [
+    {
+     "id": "trof",
+     "look": {
+      "hair": "scarf",
+      "hatColor": "#efe7d6",
+      "shirt": "#3f6fb5",
+      "dress": "#3f6fb5",
+      "pants": "#3f6fb5"
+     },
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "dance": true,
+     "expr": "sleepy"
+    },
+    {
+     "id": "k0",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#5a3b2a",
+      "shirt": "#8a5a3a",
+      "pants": "#4a3a2a"
+     },
+     "pos": [
+      -0.63,
+      0,
+      -1.3
+     ],
+     "rot": -29,
+     "dance": true,
+     "expr": "dizzy"
+    },
+    {
+     "id": "k1",
+     "look": {
+      "hair": "scarf",
+      "hatColor": "#d9b0a0",
+      "shirt": "#a0503a",
+      "dress": "#a0503a"
+     },
+     "pos": [
+      1.16,
+      0,
+      -1.41
+     ],
+     "rot": -28,
+     "dance": true,
+     "expr": "panic"
+    },
+    {
+     "id": "k2",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#b03a2a",
+      "shirt": "#5a7a4a",
+      "pants": "#4a4a3a"
+     },
+     "pos": [
+      -1.03,
+      0,
+      -1.43
+     ],
+     "rot": 18,
+     "dance": true,
+     "expr": "dizzy"
+    },
+    {
+     "id": "k3",
+     "look": {
+      "body": "kid",
+      "hair": "curly",
+      "hairColor": "#3a2a1a",
+      "shirt": "#c9a04a"
+     },
+     "pos": [
+      -0.93,
+      0,
+      -0.5
+     ],
+     "rot": -28,
+     "dance": true,
+     "expr": "panic"
+    },
+    {
+     "id": "k4",
+     "look": {
+      "hair": "bun",
+      "hairColor": "#6a3a1a",
+      "shirt": "#4f8a5a",
+      "dress": "#4f8a5a"
+     },
+     "pos": [
+      -1.35,
+      0,
+      -1.15
+     ],
+     "rot": -28,
+     "dance": true,
+     "expr": "panic"
+    },
+    {
+     "id": "k5",
+     "look": {
+      "body": "wide",
+      "hair": "short",
+      "hairColor": "#2a1a10",
+      "shirt": "#7a5a8a",
+      "pants": "#3a3a4a"
+     },
+     "pos": [
+      0.31,
+      0,
+      -1.5
+     ],
+     "rot": -7,
+     "dance": true,
+     "expr": "dizzy"
+    },
+    {
+     "id": "k6",
+     "look": {
+      "body": "old",
+      "hair": "bald",
+      "mustache": true,
+      "hairColor": "#bbb",
+      "shirt": "#8a7a6a",
+      "pants": "#4a4a4a"
+     },
+     "pos": [
+      0.2,
+      0,
+      -1.33
+     ],
+     "rot": 18,
+     "dance": true,
+     "expr": "worried"
+    }
+   ]
+  },
+  "multitud": {
+   "set": {
+    "type": "oldtown",
+    "seed": "multitud",
+    "both": true
+   },
+   "actors": [
+    {
+     "id": "trof",
+     "look": {
+      "hair": "scarf",
+      "hatColor": "#efe7d6",
+      "shirt": "#3f6fb5",
+      "dress": "#3f6fb5",
+      "pants": "#3f6fb5"
+     },
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "dance": true,
+     "expr": "dizzy"
+    },
+    {
+     "id": "c0",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#5a3b2a",
+      "shirt": "#8a5a3a",
+      "pants": "#4a3a2a"
+     },
+     "pos": [
+      0.22,
+      0,
+      0.26
+     ],
+     "rot": -12,
+     "dance": true,
+     "expr": "dizzy"
+    },
+    {
+     "id": "c1",
+     "look": {
+      "hair": "scarf",
+      "hatColor": "#d9b0a0",
+      "shirt": "#a0503a",
+      "dress": "#a0503a"
+     },
+     "pos": [
+      0.45,
+      0,
+      0.5
+     ],
+     "rot": 12,
+     "dance": true,
+     "expr": "dizzy"
+    },
+    {
+     "id": "c2",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#b03a2a",
+      "shirt": "#5a7a4a",
+      "pants": "#4a4a3a"
+     },
+     "pos": [
+      0.26,
+      0,
+      -1.57
+     ],
+     "rot": -28,
+     "dance": true,
+     "expr": "panic"
+    },
+    {
+     "id": "c3",
+     "look": {
+      "body": "kid",
+      "hair": "curly",
+      "hairColor": "#3a2a1a",
+      "shirt": "#c9a04a"
+     },
+     "pos": [
+      -1.62,
+      0,
+      0.65
+     ],
+     "rot": 19,
+     "dance": true,
+     "expr": "nervous"
+    },
+    {
+     "id": "c4",
+     "look": {
+      "hair": "bun",
+      "hairColor": "#6a3a1a",
+      "shirt": "#4f8a5a",
+      "dress": "#4f8a5a"
+     },
+     "pos": [
+      -0.19,
+      0,
+      1.52
+     ],
+     "rot": 11,
+     "dance": true,
+     "expr": "nervous"
+    },
+    {
+     "id": "c5",
+     "look": {
+      "body": "wide",
+      "hair": "short",
+      "hairColor": "#2a1a10",
+      "shirt": "#7a5a8a",
+      "pants": "#3a3a4a"
+     },
+     "pos": [
+      -1.38,
+      0,
+      -1.15
+     ],
+     "rot": -4,
+     "dance": true,
+     "expr": "dizzy"
+    },
+    {
+     "id": "c6",
+     "look": {
+      "body": "old",
+      "hair": "bald",
+      "mustache": true,
+      "hairColor": "#bbb",
+      "shirt": "#8a7a6a",
+      "pants": "#4a4a4a"
+     },
+     "pos": [
+      0.41,
+      0,
+      0.09
+     ],
+     "rot": 8,
+     "dance": true,
+     "expr": "sleepy"
+    },
+    {
+     "id": "c7",
+     "look": {
+      "hair": "long",
+      "hairColor": "#c9a050",
+      "shirt": "#c95a6a",
+      "dress": "#c95a6a"
+     },
+     "pos": [
+      -0.28,
+      0,
+      0.39
+     ],
+     "rot": -26,
+     "dance": true,
+     "expr": "dizzy"
+    },
+    {
+     "id": "c8",
+     "look": {
+      "body": "tall",
+      "hair": "hat",
+      "hatColor": "#2a3a2a",
+      "shirt": "#6a8aa0",
+      "pants": "#3a3a3a"
+     },
+     "pos": [
+      0.07,
+      0,
+      -1.21
+     ],
+     "rot": 8,
+     "dance": true,
+     "expr": "worried"
+    },
+    {
+     "id": "c9",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#5a3b2a",
+      "shirt": "#8a5a3a",
+      "pants": "#4a3a2a"
+     },
+     "pos": [
+      2.38,
+      0,
+      -0.28
+     ],
+     "rot": -26,
+     "dance": true,
+     "expr": "panic"
+    },
+    {
+     "id": "c10",
+     "look": {
+      "hair": "scarf",
+      "hatColor": "#d9b0a0",
+      "shirt": "#a0503a",
+      "dress": "#a0503a"
+     },
+     "pos": [
+      0.4,
+      0,
+      1.35
+     ],
+     "rot": 5,
+     "dance": true,
+     "expr": "nervous"
+    },
+    {
+     "id": "c11",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#b03a2a",
+      "shirt": "#5a7a4a",
+      "pants": "#4a4a3a"
+     },
+     "pos": [
+      1.07,
+      0,
+      0.34
+     ],
+     "rot": 23,
+     "dance": true,
+     "expr": "dizzy"
+    },
+    {
+     "id": "c12",
+     "look": {
+      "body": "kid",
+      "hair": "curly",
+      "hairColor": "#3a2a1a",
+      "shirt": "#c9a04a"
+     },
+     "pos": [
+      1.87,
+      0,
+      1.6
+     ],
+     "rot": 25,
+     "dance": true,
+     "expr": "sleepy"
+    },
+    {
+     "id": "c13",
+     "look": {
+      "hair": "bun",
+      "hairColor": "#6a3a1a",
+      "shirt": "#4f8a5a",
+      "dress": "#4f8a5a"
+     },
+     "pos": [
+      0.9,
+      0,
+      -1.58
+     ],
+     "rot": 4,
+     "dance": true,
+     "expr": "sleepy"
+    },
+    {
+     "id": "c14",
+     "look": {
+      "body": "wide",
+      "hair": "short",
+      "hairColor": "#2a1a10",
+      "shirt": "#7a5a8a",
+      "pants": "#3a3a4a"
+     },
+     "pos": [
+      0.43,
+      0,
+      0.65
+     ],
+     "rot": 22,
+     "dance": true,
+     "expr": "nervous"
+    },
+    {
+     "id": "c15",
+     "look": {
+      "body": "old",
+      "hair": "bald",
+      "mustache": true,
+      "hairColor": "#bbb",
+      "shirt": "#8a7a6a",
+      "pants": "#4a4a4a"
+     },
+     "pos": [
+      1.19,
+      0,
+      1.39
+     ],
+     "rot": 9,
+     "dance": true,
+     "expr": "dizzy"
+    }
+   ]
+  },
+  "consejo": {
+   "set": {
+    "type": "office",
+    "seed": "consejo",
+    "wall": "#e2cdb8",
+    "floor": "#7a4b2e"
+   },
+   "actors": [
+    {
+     "id": "doc",
+     "look": {
+      "body": "tall",
+      "hair": "hat",
+      "hatColor": "#1f1a17",
+      "coat": "#1f1a17",
+      "shirt": "#3a3a40",
+      "pants": "#1f1a17",
+      "glasses": true
+     },
+     "pos": [
+      0.55,
+      0,
+      -0.6
+     ],
+     "rot": -20,
+     "expr": "skeptical"
+    },
+    {
+     "id": "a1",
+     "look": {
+      "body": "old",
+      "hair": "bald",
+      "shirt": "#7a2a2a",
+      "coat": "#5a1f1f",
+      "mustache": true,
+      "hairColor": "#ccc"
+     },
+     "pos": [
+      -0.55,
+      0,
+      -0.5
+     ],
+     "rot": 25,
+     "expr": "worried"
+    },
+    {
+     "id": "a2",
+     "look": {
+      "body": "wide",
+      "hair": "hat",
+      "hatColor": "#3a2a2a",
+      "shirt": "#3a4a6a",
+      "coat": "#2a3a5a"
+     },
+     "pos": [
+      -1.15,
+      0,
+      -0.9
+     ],
+     "rot": 30,
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "receta",
+     "type": "paper",
+     "pos": [
+      0.2,
+      0.75,
+      0.0
+     ],
+     "rx": -10,
+     "w": 0.45,
+     "h": 0.5,
+     "text": [
+      "RECETA MÉDICA",
+      "Para la epidemia:"
+     ],
+     "big": "¡MÁS BAILE!",
+     "bigColor": "#c62b2b",
+     "hidden": true
+    }
+   ]
+  },
+  "cronica": {
+   "set": {
+    "type": "studio",
+    "color": "#e9dfc8"
+   },
+   "actors": [
+    {
+     "id": "cansado",
+     "look": {
+      "body": "wide",
+      "hair": "short",
+      "hairColor": "#2a1a10",
+      "shirt": "#7a5a8a",
+      "pants": "#3a3a4a"
+     },
+     "pos": [
+      0.6,
+      0,
+      -0.3
+     ],
+     "sit": true,
+     "expr": "dizzy",
+     "rot": -20
+    }
+   ],
+   "props": [
+    {
+     "id": "libro",
+     "type": "paper",
+     "pos": [
+      -0.3,
+      0.9,
+      0.2
+     ],
+     "w": 0.6,
+     "h": 0.7,
+     "text": [
+      "CRÓNICAS",
+      "Estrasburgo · 1518"
+     ],
+     "big": "✝ ✝ ✝"
+    }
+   ]
+  },
+  "montana": {
+   "set": {
+    "type": "road",
+    "seed": "montana",
+    "noRoad": true,
+    "grass": "#8cb06a"
+   },
+   "actors": [
+    {
+     "id": "trof",
+     "look": {
+      "hair": "scarf",
+      "hatColor": "#efe7d6",
+      "shirt": "#3f6fb5",
+      "dress": "#3f6fb5",
+      "pants": "#3f6fb5"
+     },
+     "pos": [
+      -2.2,
+      0,
+      1.2
+     ],
+     "rot": -60,
+     "expr": "sleepy"
+    },
+    {
+     "id": "p0",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#5a3b2a",
+      "shirt": "#8a5a3a",
+      "pants": "#4a3a2a"
+     },
+     "pos": [
+      -2.61,
+      0,
+      1.17
+     ],
+     "rot": -60,
+     "dance": false,
+     "expr": "sleepy"
+    },
+    {
+     "id": "p1",
+     "look": {
+      "hair": "scarf",
+      "hatColor": "#d9b0a0",
+      "shirt": "#a0503a",
+      "dress": "#a0503a"
+     },
+     "pos": [
+      -4.19,
+      0,
+      1.83
+     ],
+     "rot": -60,
+     "dance": false,
+     "expr": "sleepy"
+    },
+    {
+     "id": "p2",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#b03a2a",
+      "shirt": "#5a7a4a",
+      "pants": "#4a4a3a"
+     },
+     "pos": [
+      -3.85,
+      0,
+      1.23
+     ],
+     "rot": -60,
+     "dance": false,
+     "expr": "sleepy"
+    },
+    {
+     "id": "p3",
+     "look": {
+      "body": "kid",
+      "hair": "curly",
+      "hairColor": "#3a2a1a",
+      "shirt": "#c9a04a"
+     },
+     "pos": [
+      -4.0,
+      0,
+      1.24
+     ],
+     "rot": -60,
+     "dance": false,
+     "expr": "sleepy"
+    },
+    {
+     "id": "p4",
+     "look": {
+      "hair": "bun",
+      "hairColor": "#6a3a1a",
+      "shirt": "#4f8a5a",
+      "dress": "#4f8a5a"
+     },
+     "pos": [
+      -2.83,
+      0,
+      1.98
+     ],
+     "rot": -60,
+     "dance": false,
+     "expr": "sleepy"
+    }
+   ],
+   "props": [
+    {
+     "id": "capilla",
+     "type": "chapel",
+     "pos": [
+      1.8,
+      0,
+      -2.4
+     ],
+     "rot": -25
+    },
+    {
+     "id": "mt1",
+     "type": "mountain",
+     "pos": [
+      -4,
+      0,
+      -14
+     ],
+     "h": 9,
+     "r": 6
+    },
+    {
+     "id": "mt2",
+     "type": "mountain",
+     "pos": [
+      5,
+      0,
+      -17
+     ],
+     "h": 12,
+     "r": 7,
+     "color": "#6f7d60"
+    },
+    {
+     "id": "mt3",
+     "type": "mountain",
+     "pos": [
+      12,
+      0,
+      -12
+     ],
+     "h": 8,
+     "r": 5
+    }
+   ]
+  },
+  "teorias": {
+   "set": {
+    "type": "studio",
+    "color": "#d8e2ea"
+   },
+   "actors": [
+    {
+     "id": "trof",
+     "look": {
+      "hair": "scarf",
+      "hatColor": "#efe7d6",
+      "shirt": "#3f6fb5",
+      "dress": "#3f6fb5",
+      "pants": "#3f6fb5"
+     },
+     "pos": [
+      -0.75,
+      0,
+      0.3
+     ],
+     "rot": 25,
+     "expr": "confused",
+     "lookAt": "cam"
+    }
+   ],
+   "props": [
+    {
+     "id": "t1",
+     "type": "sign",
+     "pos": [
+      0.55,
+      0,
+      -0.6
+     ],
+     "post": false,
+     "y0": 1.45,
+     "w": 1.2,
+     "h": 0.36,
+     "text": [
+      "HAMBRE"
+     ],
+     "bg": "#c62b2b",
+     "fg": "#fff",
+     "hidden": true
+    },
+    {
+     "id": "t2",
+     "type": "sign",
+     "pos": [
+      0.55,
+      0,
+      -0.6
+     ],
+     "post": false,
+     "y0": 0.98,
+     "w": 1.2,
+     "h": 0.36,
+     "text": [
+      "ESTRÉS"
+     ],
+     "bg": "#e0a03a",
+     "fg": "#fff",
+     "hidden": true
+    },
+    {
+     "id": "t3",
+     "type": "sign",
+     "pos": [
+      0.55,
+      0,
+      -0.6
+     ],
+     "post": false,
+     "y0": 0.51,
+     "w": 1.2,
+     "h": 0.36,
+     "text": [
+      "HISTERIA COLECTIVA"
+     ],
+     "bg": "#2f5fa8",
+     "fg": "#fff",
+     "hidden": true
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "En 1518, en la ciudad de Estrasburgo, una mujer salió a la calle y empezó a bailar.",
+   "shots": [
+    {
+     "scene": "plaza",
+     "cam": {
+      "on": "cal",
+      "shot": "close",
+      "pitch": 3,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "plaza",
+     "from": "mujer",
+     "cam": {
+      "target": [
+       0.2,
+       0.7,
+       -1.2
+      ],
+      "dist": 5.5,
+      "yaw": 5,
+      "pitch": 8,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "salió",
+       "target": "trof",
+       "move": [
+        0,
+        0,
+        -0.3
+       ],
+       "dur": 1.3
+      },
+      {
+       "on": "mujer",
+       "target": "n1",
+       "lookAt": [
+        0,
+        0.8,
+        -0.5
+       ]
+      },
+      {
+       "on": "mujer",
+       "target": "n2",
+       "lookAt": [
+        0,
+        0.8,
+        -0.5
+       ]
+      }
+     ]
+    },
+    {
+     "scene": "plaza",
+     "from": "bailar",
+     "cam": {
+      "on": "trof",
+      "shot": "medium",
+      "yaw": -10,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "bailar",
+       "target": "trof",
+       "dance": true,
+       "expr": "happy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Se llamaba Frau Troffea. No había música… y no paraba.",
+   "shots": [
+    {
+     "scene": "plaza",
+     "cam": {
+      "on": "trof",
+      "shot": "close",
+      "yaw": 15,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "plaza",
+     "from": "música",
+     "cam": {
+      "target": [
+       0,
+       0.9,
+       0
+      ],
+      "dist": 5.2,
+      "yaw": 0,
+      "pitch": 8,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "música",
+       "target": "musica",
+       "pop": true
+      },
+      {
+       "on": "música",
+       "target": "n1",
+       "expr": "confused",
+       "pose": "scratch"
+      },
+      {
+       "on": "música",
+       "target": "n2",
+       "expr": "skeptical",
+       "pose": "cross"
+      }
+     ]
+    },
+    {
+     "scene": "plaza",
+     "from": "paraba",
+     "cam": {
+      "on": "trof",
+      "shot": "close",
+      "yaw": -20,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "paraba",
+       "target": "trof",
+       "expr": "determined"
+      },
+      {
+       "on": "paraba",
+       "target": "musica",
+       "hide": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Bailó durante días, hasta caer agotada. Y al despertar, siguió bailando.",
+   "shots": [
+    {
+     "scene": "noche",
+     "cam": {
+      "on": "trof",
+      "shot": "full",
+      "yaw": 10,
+      "pitch": 10,
+      "move": "orbitR"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "trof",
+       "dance": true,
+       "expr": "sleepy"
+      }
+     ]
+    },
+    {
+     "scene": "noche",
+     "from": "caer",
+     "cam": {
+      "on": "trof",
+      "shot": "medium",
+      "yaw": 0,
+      "pitch": 16,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "caer",
+       "target": "trof",
+       "dance": false,
+       "sit": true,
+       "expr": "dizzy",
+       "pose": "idle",
+       "sfx": "thud"
+      }
+     ]
+    },
+    {
+     "scene": "noche",
+     "from": "despertar",
+     "cam": {
+      "on": "trof",
+      "shot": "medium",
+      "yaw": -15,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "despertar",
+       "target": "trof",
+       "sit": false,
+       "expr": "surprised",
+       "jolt": true
+      },
+      {
+       "on": "siguió",
+       "target": "trof",
+       "dance": true,
+       "expr": "dizzy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Pronto, otros vecinos se unieron. En un mes, se dice que ya eran cientos.",
+   "shots": [
+    {
+     "scene": "plaza",
+     "cam": {
+      "target": [
+       0,
+       0.7,
+       0.3
+      ],
+      "dist": 6,
+      "yaw": 0,
+      "pitch": 12,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "vecinos",
+       "target": "n1",
+       "dance": true,
+       "expr": "worried"
+      },
+      {
+       "on": "vecinos",
+       "target": "n2",
+       "dance": true,
+       "expr": "nervous",
+       "lead": -0.2
+      },
+      {
+       "on": "unieron",
+       "target": "n3",
+       "dance": true,
+       "expr": "panic"
+      },
+      {
+       "on": "unieron",
+       "target": "n4",
+       "dance": true,
+       "expr": "happy",
+       "lead": -0.25
+      }
+     ]
+    },
+    {
+     "scene": "multitud",
+     "from": "mes",
+     "cam": {
+      "target": [
+       0,
+       0.6,
+       0
+      ],
+      "dist": 11,
+      "yaw": 0,
+      "pitch": 30,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Nadie entendía nada. Ni ellos mismos podían explicar por qué no se detenían.",
+   "shots": [
+    {
+     "scene": "consejo",
+     "cam": {
+      "on": "a1",
+      "shot": "close",
+      "yaw": 20,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "a1",
+       "pose": "scratch",
+       "expr": "confused",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "multitud",
+     "from": "explicar",
+     "cam": {
+      "on": "trof",
+      "shot": "close",
+      "yaw": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "explicar",
+       "target": "trof",
+       "expr": "panic",
+       "lookAt": "cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Bailaban de día y de noche, hasta que les sangraban los pies.",
+   "shots": [
+    {
+     "scene": "multitud",
+     "cam": {
+      "target": [
+       0,
+       0.6,
+       0.4
+      ],
+      "dist": 7,
+      "yaw": -20,
+      "pitch": 10,
+      "move": "orbitR"
+     }
+    },
+    {
+     "scene": "noche",
+     "from": "noche",
+     "cam": {
+      "target": [
+       0,
+       0.6,
+       -0.3
+      ],
+      "dist": 6,
+      "yaw": 10,
+      "pitch": 12,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "noche",
+     "from": "sangraban",
+     "cam": {
+      "on": "trof",
+      "shot": "close",
+      "yaw": 0,
+      "pitch": -4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "sangraban",
+       "target": "trof",
+       "expr": "cry"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Las autoridades consultaron a los médicos, y su respuesta fue increíble: había que bailar más.",
+   "shots": [
+    {
+     "scene": "consejo",
+     "cam": {
+      "target": [
+       -0.2,
+       0.7,
+       -0.6
+      ],
+      "dist": 4.6,
+      "yaw": 0,
+      "pitch": 8,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "a1",
+       "pose": "idle",
+       "expr": "worried",
+       "lookAt": [
+        0.55,
+        0.8,
+        -0.6
+       ]
+      },
+      {
+       "at": 0,
+       "target": "a2",
+       "lookAt": [
+        0.55,
+        0.8,
+        -0.6
+       ]
+      },
+      {
+       "on": "médicos",
+       "target": "doc",
+       "pose": "think",
+       "expr": "skeptical"
+      }
+     ]
+    },
+    {
+     "scene": "consejo",
+     "from": "respuesta",
+     "cam": {
+      "target": [
+       0.3,
+       0.8,
+       -0.2
+      ],
+      "dist": 2.6,
+      "yaw": -5,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "increíble",
+       "target": "receta",
+       "pop": true
+      },
+      {
+       "on": "respuesta",
+       "target": "doc",
+       "pose": "present",
+       "expr": "smug",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "consejo",
+     "from": "bailar",
+     "cam": {
+      "target": [
+       -0.8,
+       0.8,
+       -0.7
+      ],
+      "dist": 3.2,
+      "yaw": 15,
+      "pitch": 6,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "bailar",
+       "target": "a1",
+       "expr": "shock",
+       "jolt": true,
+       "lookAt": "cam"
+      },
+      {
+       "on": "bailar",
+       "target": "a2",
+       "expr": "surprised",
+       "lookAt": "cam",
+       "lead": 0.05
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Así que construyeron un escenario y contrataron músicos para que no pararan.",
+   "shots": [
+    {
+     "scene": "plaza",
+     "cam": {
+      "target": [
+       0,
+       0.9,
+       -1.4
+      ],
+      "dist": 6,
+      "yaw": 0,
+      "pitch": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "trof",
+       "move": [
+        0,
+        0,
+        0.6
+       ],
+       "dur": 0.01
+      },
+      {
+       "at": 0,
+       "target": "n1",
+       "move": [
+        -1.6,
+        0,
+        0.9
+       ],
+       "dur": 0.01
+      },
+      {
+       "at": 0,
+       "target": "n2",
+       "move": [
+        1.6,
+        0,
+        0.9
+       ],
+       "dur": 0.01
+      },
+      {
+       "on": "escenario",
+       "target": "esc",
+       "pop": true
+      }
+     ]
+    },
+    {
+     "scene": "plaza",
+     "from": "músicos",
+     "cam": {
+      "target": [
+       0,
+       1.0,
+       -1.4
+      ],
+      "dist": 4.0,
+      "yaw": 8,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "músicos",
+       "target": "m1",
+       "move": [
+        -0.7,
+        0.45,
+        -1.55
+       ],
+       "dur": 0.01
+      },
+      {
+       "on": "músicos",
+       "target": "m2",
+       "move": [
+        0.7,
+        0.45,
+        -1.55
+       ],
+       "dur": 0.01
+      },
+      {
+       "on": "músicos",
+       "target": "tambor",
+       "pop": true
+      },
+      {
+       "on": "músicos",
+       "target": "laud",
+       "pop": true,
+       "lead": 0.05
+      },
+      {
+       "on": "músicos",
+       "target": "m1",
+       "pose": "hold",
+       "dance": true
+      },
+      {
+       "on": "músicos",
+       "target": "m2",
+       "pose": "hold",
+       "lead": 0.05
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Por supuesto, fue peor. Cada día se sumaba más gente, y según las crónicas, algunos murieron de agotamiento.",
+   "shots": [
+    {
+     "scene": "consejo",
+     "cam": {
+      "on": "doc",
+      "shot": "close",
+      "yaw": -10,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "peor",
+       "target": "doc",
+       "pose": "facepalm",
+       "expr": "sad",
+       "sfx": "boing"
+      }
+     ]
+    },
+    {
+     "scene": "multitud",
+     "from": "Cada",
+     "cam": {
+      "target": [
+       0,
+       0.6,
+       0
+      ],
+      "dist": 13,
+      "yaw": 20,
+      "pitch": 35,
+      "move": "pull"
+     }
+    },
+    {
+     "scene": "cronica",
+     "from": "crónicas",
+     "cam": {
+      "target": [
+       0,
+       0.7,
+       0
+      ],
+      "dist": 3.4,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Al final, llevaron a los bailarines a un santuario en las montañas, y poco a poco, la epidemia terminó.",
+   "shots": [
+    {
+     "scene": "montana",
+     "cam": {
+      "target": [
+       -0.8,
+       1.2,
+       -0.8
+      ],
+      "dist": 10,
+      "yaw": -10,
+      "pitch": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "trof",
+       "move": [
+        0.6,
+        0,
+        -0.8
+       ],
+       "dur": 4,
+       "ease": "linear"
+      },
+      {
+       "at": 0.0,
+       "target": "p0",
+       "move": [
+        -0.5,
+        0,
+        -0.1
+       ],
+       "dur": 4,
+       "ease": "linear"
+      },
+      {
+       "at": 0.1,
+       "target": "p1",
+       "move": [
+        -0.15000000000000002,
+        0,
+        0.15
+       ],
+       "dur": 4,
+       "ease": "linear"
+      },
+      {
+       "at": 0.2,
+       "target": "p2",
+       "move": [
+        0.19999999999999996,
+        0,
+        0.4
+       ],
+       "dur": 4,
+       "ease": "linear"
+      },
+      {
+       "at": 0.30000000000000004,
+       "target": "p3",
+       "move": [
+        0.5499999999999998,
+        0,
+        0.65
+       ],
+       "dur": 4,
+       "ease": "linear"
+      },
+      {
+       "at": 0.4,
+       "target": "p4",
+       "move": [
+        0.8999999999999999,
+        0,
+        0.9
+       ],
+       "dur": 4,
+       "ease": "linear"
+      }
+     ]
+    },
+    {
+     "scene": "montana",
+     "from": "poco",
+     "cam": {
+      "on": "trof",
+      "shot": "close",
+      "yaw": -30,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "terminó",
+       "target": "trof",
+       "expr": "smile",
+       "lookAt": "cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Hoy nadie sabe con certeza qué pasó. Quizás fue el hambre, el estrés o una histeria colectiva.",
+   "shots": [
+    {
+     "scene": "teorias",
+     "cam": {
+      "on": "trof",
+      "shot": "medium",
+      "yaw": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "nadie",
+       "target": "trof",
+       "pose": "shrug",
+       "expr": "confused"
+      }
+     ]
+    },
+    {
+     "scene": "teorias",
+     "from": "hambre",
+     "cam": {
+      "target": [
+       0.2,
+       1.0,
+       -0.2
+      ],
+      "dist": 4.4,
+      "yaw": 0,
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "hambre",
+       "target": "t1",
+       "pop": true
+      },
+      {
+       "on": "estrés",
+       "target": "t2",
+       "pop": true
+      },
+      {
+       "on": "histeria",
+       "target": "t3",
+       "pop": true
+      },
+      {
+       "on": "hambre",
+       "target": "trof",
+       "pose": "present",
+       "expr": "skeptical"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "¿Tú habrías bailado?",
+   "shots": [
+    {
+     "scene": "teorias",
+     "cam": {
+      "on": "trof",
+      "shot": "close",
+      "yaw": 15,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Tú",
+       "target": "trof",
+       "pose": "point",
+       "expr": "smug",
+       "lead": 0.2
+      }
+     ]
+    },
+    {
+     "scene": "multitud",
+     "from": "bailado",
+     "cam": {
+      "target": [
+       0,
+       0.7,
+       0.5
+      ],
+      "dist": 6,
+      "yaw": 0,
+      "pitch": 12,
+      "move": "pull"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1477 @@
+{
+ "out": "Caricatura3D_3_guerra_emus",
+ "title": "La guerra que Australia perdió contra unos pájaros (la Guerra del Emú)",
+ "audio": "../audios/historia_3.m4a",
+ "look": {
+  "skin": "white"
+ },
+ "sources": [
+  "https://es.wikipedia.org/wiki/Guerra_del_Emú",
+  "https://en.wikipedia.org/wiki/Emu_War"
+ ],
+ "scenes": {
+  "ejercito": {
+   "set": {
+    "type": "studio",
+    "color": "#d9cfb4"
+   },
+   "actors": [
+    {
+     "id": "s1",
+     "look": {
+      "hair": "slouch",
+      "shirt": "#8a7a4a",
+      "pants": "#6e6240"
+     },
+     "pos": [
+      -0.75,
+      0,
+      0
+     ]
+    },
+    {
+     "id": "s2",
+     "look": {
+      "hair": "slouch",
+      "shirt": "#8a7a4a",
+      "pants": "#6e6240",
+      "body": "wide"
+     },
+     "pos": [
+      0,
+      0,
+      0.15
+     ]
+    },
+    {
+     "id": "s3",
+     "look": {
+      "hair": "slouch",
+      "shirt": "#8a7a4a",
+      "pants": "#6e6240",
+      "body": "short"
+     },
+     "pos": [
+      0.75,
+      0,
+      0
+     ]
+    },
+    {
+     "id": "mer",
+     "look": {
+      "body": "tall",
+      "hair": "slouch",
+      "mustache": true,
+      "hairColor": "#3a2a20",
+      "shirt": "#8a7a4a",
+      "pants": "#6e6240",
+      "tie": "#5a4a2a"
+     },
+     "pos": [
+      -1.35,
+      0,
+      0.55
+     ],
+     "expr": "smug",
+     "rot": 30
+    }
+   ],
+   "props": [
+    {
+     "id": "cal",
+     "type": "calendar",
+     "pos": [
+      -1.5,
+      0,
+      -1.2
+     ],
+     "post": true,
+     "y": 1.3,
+     "day": 1932,
+     "month": "AUSTRALIA",
+     "year": "OESTE"
+    },
+    {
+     "id": "truck",
+     "type": "truck",
+     "pos": [
+      1.9,
+      0,
+      -1.6
+     ],
+     "rot": -25,
+     "hidden": true
+    },
+    {
+     "id": "caja1",
+     "type": "crate",
+     "pos": [
+      1.1,
+      0,
+      0.8
+     ],
+     "s": 0.45,
+     "color": "#6e6240",
+     "hidden": true
+    },
+    {
+     "id": "caja2",
+     "type": "crate",
+     "pos": [
+      1.6,
+      0,
+      0.85
+     ],
+     "s": 0.45,
+     "color": "#6e6240",
+     "hidden": true
+    },
+    {
+     "id": "caja3",
+     "type": "crate",
+     "pos": [
+      1.35,
+      0.45,
+      0.82
+     ],
+     "s": 0.45,
+     "color": "#6e6240",
+     "hidden": true
+    },
+    {
+     "id": "lbl",
+     "type": "sign",
+     "pos": [
+      1.35,
+      0,
+      1.12
+     ],
+     "post": false,
+     "y0": 0.02,
+     "w": 0.9,
+     "h": 0.28,
+     "text": [
+      "BALAS"
+     ],
+     "bg": "#2a2a2e",
+     "fg": "#f2c230",
+     "hidden": true
+    }
+   ]
+  },
+  "campo": {
+   "set": {
+    "type": "farm",
+    "seed": "campo"
+   },
+   "actors": [
+    {
+     "id": "jack",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#a07a4a",
+      "shirt": "#6a8fb5",
+      "pants": "#4a5a7a"
+     },
+     "pos": [
+      1.2,
+      0,
+      1.0
+     ],
+     "rot": -15,
+     "expr": "happy"
+    },
+    {
+     "id": "molly",
+     "look": {
+      "hair": "bun",
+      "hairColor": "#7a3b20",
+      "shirt": "#c9604a",
+      "pants": "#5a4a3a",
+      "dress": "#c9604a"
+     },
+     "pos": [
+      -1.4,
+      0,
+      1.1
+     ],
+     "rot": 15,
+     "expr": "smile"
+    }
+   ],
+   "props": [
+    {
+     "id": "trigo",
+     "type": "wheat",
+     "pos": [
+      0,
+      0,
+      -1.3
+     ],
+     "w": 12,
+     "d": 4.5,
+     "density": 4
+    },
+    {
+     "id": "casa",
+     "type": "house",
+     "pos": [
+      4.5,
+      0,
+      -6.5
+     ],
+     "w": 2.6,
+     "h": 1.6,
+     "wall": "#e8dcc4",
+     "roof": "#8a3a2a"
+    },
+    {
+     "id": "valla",
+     "type": "fence",
+     "pos": [
+      0,
+      0,
+      0.4
+     ],
+     "len": 10
+    },
+    {
+     "id": "emus",
+     "type": "emus",
+     "n": 10,
+     "spread": 2.4,
+     "pos": [
+      -11,
+      0,
+      -1.3
+     ],
+     "peck": true
+    }
+   ]
+  },
+  "num": {
+   "set": {
+    "type": "studio",
+    "color": "#e9dfc8"
+   },
+   "props": [
+    {
+     "id": "led_emu",
+     "type": "led",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "y": 1.5,
+     "value": 0,
+     "label": "EMÚS",
+     "w": 1.6
+    },
+    {
+     "id": "emu1",
+     "type": "emus",
+     "n": 1,
+     "pos": [
+      0.9,
+      0,
+      0.9
+     ],
+     "rot": -110,
+     "peck": true
+    },
+    {
+     "id": "vel",
+     "type": "gauge",
+     "pos": [
+      6,
+      0,
+      0
+     ],
+     "y": 1.1,
+     "r": 0.45,
+     "value": 0,
+     "label": "KM/H"
+    },
+    {
+     "id": "emu2",
+     "type": "emus",
+     "n": 1,
+     "pos": [
+      6.9,
+      0,
+      0.6
+     ],
+     "rot": -60,
+     "run": true
+    },
+    {
+     "id": "led_balas",
+     "type": "led",
+     "pos": [
+      12,
+      0,
+      0
+     ],
+     "y": 1.5,
+     "value": 0,
+     "label": "BALAS",
+     "w": 1.6
+    },
+    {
+     "id": "cajas",
+     "type": "crate",
+     "pos": [
+      11.2,
+      0,
+      0.8
+     ],
+     "s": 0.5,
+     "color": "#6e6240"
+    }
+   ]
+  },
+  "carrera": {
+   "set": {
+    "type": "farm",
+    "seed": "carrera"
+   },
+   "actors": [
+    {
+     "id": "s1",
+     "look": {
+      "hair": "slouch",
+      "shirt": "#8a7a4a",
+      "pants": "#6e6240"
+     },
+     "in": "truck"
+    },
+    {
+     "id": "s2",
+     "look": {
+      "hair": "slouch",
+      "shirt": "#8a7a4a",
+      "pants": "#6e6240",
+      "body": "wide"
+     },
+     "in": "truck",
+     "inPos": [
+      -0.55,
+      0.6,
+      0.15
+     ],
+     "rot": 90,
+     "pose": "aim",
+     "expr": "determined"
+    },
+    {
+     "id": "s3",
+     "look": {
+      "hair": "slouch",
+      "shirt": "#8a7a4a",
+      "pants": "#6e6240",
+      "body": "short"
+     },
+     "pos": [
+      1.4,
+      0,
+      2.0
+     ],
+     "rot": 60,
+     "pose": "aim",
+     "expr": "determined"
+    },
+    {
+     "id": "mer",
+     "look": {
+      "body": "tall",
+      "hair": "slouch",
+      "mustache": true,
+      "hairColor": "#3a2a20",
+      "shirt": "#8a7a4a",
+      "pants": "#6e6240",
+      "tie": "#5a4a2a"
+     },
+     "pos": [
+      0.6,
+      0,
+      2.4
+     ],
+     "rot": 40,
+     "pose": "point",
+     "expr": "smug"
+    }
+   ],
+   "props": [
+    {
+     "id": "truck",
+     "type": "truck",
+     "pos": [
+      -9,
+      0,
+      0
+     ]
+    },
+    {
+     "id": "ga",
+     "type": "emus",
+     "n": 4,
+     "spread": 1.0,
+     "pos": [
+      3,
+      0,
+      -1.5
+     ],
+     "peck": true
+    },
+    {
+     "id": "gb",
+     "type": "emus",
+     "n": 4,
+     "spread": 1.0,
+     "pos": [
+      3.5,
+      0,
+      1.0
+     ],
+     "peck": true
+    },
+    {
+     "id": "gc",
+     "type": "emus",
+     "n": 3,
+     "spread": 0.9,
+     "pos": [
+      5,
+      0,
+      -0.2
+     ],
+     "peck": true
+    }
+   ]
+  },
+  "vigia": {
+   "set": {
+    "type": "farm",
+    "seed": "vigia"
+   },
+   "props": [
+    {
+     "id": "roca",
+     "type": "crate",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "s": 0.55,
+     "color": "#9a8a6a"
+    },
+    {
+     "id": "vig",
+     "type": "emus",
+     "n": 1,
+     "pos": [
+      0,
+      0.55,
+      0
+     ],
+     "rot": -80
+    },
+    {
+     "id": "flock",
+     "type": "emus",
+     "n": 7,
+     "spread": 1.6,
+     "pos": [
+      -1.2,
+      0,
+      -2.2
+     ],
+     "peck": true
+    },
+    {
+     "id": "trigo",
+     "type": "wheat",
+     "pos": [
+      0,
+      0,
+      -2.6
+     ],
+     "w": 10,
+     "d": 3,
+     "eaten": true
+    }
+   ]
+  },
+  "retirada": {
+   "set": {
+    "type": "farm",
+    "seed": "retirada",
+    "time": "dawn"
+   },
+   "actors": [
+    {
+     "id": "mer",
+     "look": {
+      "body": "tall",
+      "hair": "slouch",
+      "mustache": true,
+      "hairColor": "#3a2a20",
+      "shirt": "#8a7a4a",
+      "pants": "#6e6240",
+      "tie": "#5a4a2a"
+     },
+     "pos": [
+      0,
+      0,
+      0.5
+     ],
+     "rot": -90,
+     "expr": "sad"
+    },
+    {
+     "id": "s2",
+     "look": {
+      "hair": "slouch",
+      "shirt": "#8a7a4a",
+      "pants": "#6e6240",
+      "body": "wide"
+     },
+     "pos": [
+      0.7,
+      0,
+      0.9
+     ],
+     "rot": -90,
+     "expr": "cry"
+    },
+    {
+     "id": "s1",
+     "look": {
+      "hair": "slouch",
+      "shirt": "#8a7a4a",
+      "pants": "#6e6240"
+     },
+     "in": "truck"
+    }
+   ],
+   "props": [
+    {
+     "id": "truck",
+     "type": "truck",
+     "pos": [
+      0.5,
+      0,
+      -1.2
+     ],
+     "rot": 180
+    },
+    {
+     "id": "emus",
+     "type": "emus",
+     "n": 9,
+     "spread": 2.2,
+     "pos": [
+      3.5,
+      0,
+      -0.5
+     ],
+     "rot": 180,
+     "peck": true
+    },
+    {
+     "id": "trigo",
+     "type": "wheat",
+     "pos": [
+      3,
+      0,
+      -3
+     ],
+     "w": 10,
+     "d": 3,
+     "eaten": true
+    }
+   ]
+  },
+  "final": {
+   "set": {
+    "type": "studio",
+    "color": "#e8d9c2"
+   },
+   "actors": [
+    {
+     "id": "mer",
+     "look": {
+      "body": "tall",
+      "hair": "slouch",
+      "mustache": true,
+      "hairColor": "#3a2a20",
+      "shirt": "#8a7a4a",
+      "pants": "#6e6240",
+      "tie": "#5a4a2a"
+     },
+     "pos": [
+      -0.55,
+      0,
+      0.1
+     ],
+     "rot": 15,
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "e",
+     "type": "emus",
+     "n": 1,
+     "s": 1.15,
+     "pos": [
+      0.45,
+      0,
+      0.1
+     ],
+     "rot": -110
+    },
+    {
+     "id": "flock",
+     "type": "emus",
+     "n": 6,
+     "spread": 1.4,
+     "pos": [
+      0.3,
+      0,
+      -2.6
+     ],
+     "peck": true
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "En 1932, el ejército de Australia le declaró la guerra… a unos pájaros.",
+   "shots": [
+    {
+     "scene": "ejercito",
+     "cam": {
+      "on": "cal",
+      "shot": "close",
+      "pitch": 3,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "ejercito",
+     "from": "ejército",
+     "cam": {
+      "target": [
+       0,
+       0.6,
+       0
+      ],
+      "dist": 5.2,
+      "yaw": 0,
+      "pitch": 8,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "ejército",
+       "target": "s1",
+       "pose": "salute",
+       "expr": "determined"
+      },
+      {
+       "on": "ejército",
+       "target": "s2",
+       "pose": "salute",
+       "expr": "determined",
+       "lead": 0.05
+      },
+      {
+       "on": "ejército",
+       "target": "s3",
+       "pose": "salute",
+       "expr": "determined",
+       "lead": 0.0
+      }
+     ]
+    },
+    {
+     "scene": "ejercito",
+     "from": "guerra",
+     "cam": {
+      "on": "s2",
+      "shot": "close",
+      "yaw": 10,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "guerra",
+       "target": "s2",
+       "expr": "angry",
+       "jolt": true
+      }
+     ]
+    },
+    {
+     "scene": "num",
+     "from": "pájaros",
+     "cam": {
+      "on": "emu1",
+      "shot": "close",
+      "yaw": -10,
+      "pitch": 4,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Y perdió.",
+   "shots": [
+    {
+     "scene": "final",
+     "cam": {
+      "on": "mer",
+      "shot": "close",
+      "yaw": 10,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "perdió",
+       "target": "mer",
+       "expr": "cry",
+       "pose": "facepalm",
+       "sfx": "boing"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Después de la Primera Guerra Mundial, muchos soldados se volvieron granjeros en el oeste del país.",
+   "shots": [
+    {
+     "scene": "campo",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       0.5
+      ],
+      "dist": 7,
+      "yaw": 0,
+      "pitch": 12,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "jack",
+       "pose": "hold"
+      },
+      {
+       "at": 0,
+       "target": "molly",
+       "pose": "hips"
+      }
+     ]
+    },
+    {
+     "scene": "campo",
+     "from": "granjeros",
+     "cam": {
+      "on": "jack",
+      "shot": "close",
+      "yaw": -20,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "granjeros",
+       "target": "jack",
+       "pose": "thumbs",
+       "expr": "joy",
+       "lookAt": "cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Pero llegaron unos 20.000 emús, y se comieron sus cosechas de trigo.",
+   "shots": [
+    {
+     "scene": "campo",
+     "cam": {
+      "target": [
+       -2,
+       0.7,
+       -0.5
+      ],
+      "dist": 9,
+      "yaw": 15,
+      "pitch": 14,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": -0.3,
+       "target": "emus",
+       "move": [
+        -1.5,
+        0,
+        -1.3
+       ],
+       "dur": 1.6,
+       "ease": "out"
+      },
+      {
+       "on": "llegaron",
+       "target": "jack",
+       "expr": "shock",
+       "lookAt": [
+        -2,
+        0.8,
+        -1.3
+       ]
+      },
+      {
+       "on": "llegaron",
+       "target": "molly",
+       "expr": "surprised",
+       "lookAt": [
+        -2,
+        0.8,
+        -1.3
+       ]
+      }
+     ]
+    },
+    {
+     "scene": "num",
+     "from": "20.000",
+     "cam": {
+      "on": "led_emu",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "20.000",
+       "target": "led_emu",
+       "value": 20000,
+       "dur": 1.1
+      }
+     ]
+    },
+    {
+     "scene": "campo",
+     "from": "comieron",
+     "cam": {
+      "target": [
+       -1.5,
+       0.6,
+       -1.0
+      ],
+      "dist": 3.4,
+      "yaw": 30,
+      "pitch": 18,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Los granjeros pidieron ayuda, y el gobierno mandó soldados con dos ametralladoras.",
+   "shots": [
+    {
+     "scene": "campo",
+     "cam": {
+      "on": "jack",
+      "shot": "close",
+      "yaw": -25,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "pidieron",
+       "target": "jack",
+       "pose": "headhold",
+       "expr": "panic",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "ejercito",
+     "from": "gobierno",
+     "cam": {
+      "target": [
+       0.6,
+       0.8,
+       -0.6
+      ],
+      "dist": 6.2,
+      "yaw": -10,
+      "pitch": 8,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "gobierno",
+       "target": "truck",
+       "pop": true
+      },
+      {
+       "on": "ametralladoras",
+       "target": "s1",
+       "pose": "thumbs",
+       "expr": "smug"
+      },
+      {
+       "on": "ametralladoras",
+       "target": "s3",
+       "pose": "thumbs",
+       "expr": "smug",
+       "lead": 0.05
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Al mando iba el mayor Meredith. Llevaban miles de balas y estaban seguros de ganar en pocos días.",
+   "shots": [
+    {
+     "scene": "ejercito",
+     "cam": {
+      "on": "mer",
+      "shot": "medium",
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "mando",
+       "target": "mer",
+       "pose": "hips",
+       "lookAt": "cam",
+       "expr": "smug"
+      }
+     ]
+    },
+    {
+     "scene": "ejercito",
+     "from": "Llevaban",
+     "cam": {
+      "target": [
+       1.35,
+       0.4,
+       0.9
+      ],
+      "dist": 3.2,
+      "yaw": 10,
+      "pitch": 12,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "miles",
+       "target": "caja1",
+       "pop": true
+      },
+      {
+       "on": "miles",
+       "target": "caja2",
+       "pop": true,
+       "lead": 0.02
+      },
+      {
+       "on": "balas",
+       "target": "caja3",
+       "pop": true
+      },
+      {
+       "on": "balas",
+       "target": "lbl",
+       "pop": true,
+       "lead": 0.0
+      }
+     ]
+    },
+    {
+     "scene": "ejercito",
+     "from": "seguros",
+     "cam": {
+      "on": "mer",
+      "shot": "close",
+      "yaw": 15,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "seguros",
+       "target": "mer",
+       "pose": "thumbs",
+       "expr": "joy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "El plan parecía fácil. Pero los emús se separaban en grupitos y corrían a casi 50 kilómetros por hora.",
+   "shots": [
+    {
+     "scene": "carrera",
+     "cam": {
+      "target": [
+       1.5,
+       0.7,
+       0.5
+      ],
+      "dist": 7,
+      "yaw": -30,
+      "pitch": 10,
+      "move": "orbitR"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "mer",
+       "lookAt": [
+        3.5,
+        0.8,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "scene": "carrera",
+     "from": "separaban",
+     "cam": {
+      "target": [
+       5,
+       0.4,
+       0
+      ],
+      "dist": 13,
+      "yaw": 0,
+      "pitch": 38,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "separaban",
+       "target": "ga",
+       "move": [
+        6.5,
+        0,
+        -3
+       ],
+       "dur": 3.2,
+       "turn": -25
+      },
+      {
+       "on": "separaban",
+       "target": "gb",
+       "move": [
+        6.5,
+        0,
+        3
+       ],
+       "dur": 3.2,
+       "turn": 25
+      },
+      {
+       "on": "grupitos",
+       "target": "gc",
+       "move": [
+        8,
+        0,
+        0
+       ],
+       "dur": 3.0
+      }
+     ]
+    },
+    {
+     "scene": "num",
+     "from": "50",
+     "cam": {
+      "on": "vel",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "50",
+       "target": "vel",
+       "value": 50,
+       "dur": 0.8,
+       "ease": "back"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Intentaron disparar desde un camión, pero el camión no podía seguirles el ritmo.",
+   "shots": [
+    {
+     "scene": "carrera",
+     "cam": {
+      "on": "truck",
+      "shot": "wide",
+      "yaw": 20,
+      "pitch": 10,
+      "move": "pan"
+     },
+     "do": [
+      {
+       "at": -0.4,
+       "target": "truck",
+       "move": [
+        2,
+        0,
+        0
+       ],
+       "dur": 4.5,
+       "ease": "linear"
+      },
+      {
+       "at": 0,
+       "target": "gc",
+       "move": [
+        -4.5,
+        0,
+        0.3
+       ],
+       "dur": 0.01
+      },
+      {
+       "at": 0.02,
+       "target": "gc",
+       "move": [
+        9,
+        0,
+        0.3
+       ],
+       "dur": 3.0,
+       "ease": "linear"
+      },
+      {
+       "at": 0,
+       "target": "ga",
+       "move": [
+        30,
+        0,
+        -4
+       ],
+       "dur": 0.01
+      },
+      {
+       "at": 0,
+       "target": "gb",
+       "move": [
+        30,
+        0,
+        4
+       ],
+       "dur": 0.01
+      }
+     ]
+    },
+    {
+     "scene": "carrera",
+     "from": "no",
+     "cam": {
+      "on": "s2",
+      "shot": "close",
+      "yaw": 40,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "no",
+       "target": "s2",
+       "expr": "dizzy",
+       "pose": "shrug"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Además, cada grupo tenía un emú vigía que avisaba a los demás.",
+   "shots": [
+    {
+     "scene": "vigia",
+     "cam": {
+      "on": "vig",
+      "shot": "close",
+      "yaw": -20,
+      "pitch": 4,
+      "move": "rise"
+     }
+    },
+    {
+     "scene": "vigia",
+     "from": "avisaba",
+     "cam": {
+      "target": [
+       -0.6,
+       0.6,
+       -1.2
+      ],
+      "dist": 6,
+      "yaw": 10,
+      "pitch": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "avisaba",
+       "target": "vig",
+       "turn": -150,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "demás",
+       "target": "flock",
+       "move": [
+        -9,
+        0,
+        -2.2
+       ],
+       "dur": 1.8,
+       "turn": 180
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Gastaron casi 10.000 balas, y los emús seguían ahí.",
+   "shots": [
+    {
+     "scene": "num",
+     "cam": {
+      "on": "led_balas",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "10.000",
+       "target": "led_balas",
+       "value": 10000,
+       "dur": 1.2
+      }
+     ]
+    },
+    {
+     "scene": "vigia",
+     "from": "emús",
+     "cam": {
+      "target": [
+       0,
+       0.5,
+       -1.5
+      ],
+      "dist": 6,
+      "yaw": -10,
+      "pitch": 12,
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "flock",
+       "move": [
+        -1.2,
+        0,
+        -2.2
+       ],
+       "dur": 0.01,
+       "turn": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Al final, el ejército se retiró.",
+   "shots": [
+    {
+     "scene": "retirada",
+     "cam": {
+      "target": [
+       0.5,
+       0.6,
+       0
+      ],
+      "dist": 7,
+      "yaw": -15,
+      "pitch": 12,
+      "move": "pull"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "mer",
+       "move": [
+        -3,
+        0,
+        0.5
+       ],
+       "dur": 3,
+       "ease": "linear"
+      },
+      {
+       "at": 0.1,
+       "target": "s2",
+       "move": [
+        -2.4,
+        0,
+        0.9
+       ],
+       "dur": 3,
+       "ease": "linear"
+      },
+      {
+       "at": 0,
+       "target": "truck",
+       "move": [
+        -6,
+        0,
+        -1.2
+       ],
+       "dur": 3.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y Meredith dijo que, si tuviera soldados tan resistentes como esos pájaros, podría enfrentarse a cualquier ejército del mundo.",
+   "shots": [
+    {
+     "scene": "final",
+     "cam": {
+      "on": "mer",
+      "shot": "close",
+      "yaw": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "mer",
+       "pose": "think",
+       "expr": "skeptical",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "final",
+     "from": "resistentes",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       0
+      ],
+      "dist": 4,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "resistentes",
+       "target": "mer",
+       "pose": "present",
+       "expr": "surprised",
+       "lookAt": [
+        0.45,
+        1.1,
+        0.1
+       ]
+      }
+     ]
+    },
+    {
+     "scene": "final",
+     "from": "cualquier",
+     "cam": {
+      "on": "mer",
+      "shot": "medium",
+      "yaw": -10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "cualquier",
+       "target": "mer",
+       "pose": "fist",
+       "expr": "determined",
+       "lookAt": "cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "¿Tú habrías apostado por los emús?",
+   "shots": [
+    {
+     "scene": "final",
+     "cam": {
+      "on": "e",
+      "shot": "close",
+      "yaw": -15,
+      "pitch": 2,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "final",
+     "from": "emús",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       0
+      ],
+      "dist": 4.6,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "emús",
+       "target": "mer",
+       "pose": "shrug",
+       "expr": "smile",
+       "lookAt": "cam"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
