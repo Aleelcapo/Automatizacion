@@ -1003,7 +1003,7 @@ function drawCaption(t) {
   const W = OUT.width, H = OUT.height;
   const cap = TL.captions.find(c => t >= c.t0 && t < c.t1);
   if (!cap) return;
-  const txt = cap.text.toLowerCase().replace(/[.,;:…"«»]/g, '');
+  const txt = cap.text.toLowerCase().replace(/^[.,;:…"«»]+|[.,;:…"«»]+$/g, ''); // los puntos de miles (7.300) se quedan
   if (!txt) return;
   const p = clamp((t - cap.t0) / .1, 0, 1), s = lerp(.85, 1, easeOutBack(p, 2.5));
   const ctx = OUTCTX; let size = Math.round(H * .072);
