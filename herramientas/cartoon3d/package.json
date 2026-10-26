@@ -4,6 +4,7 @@
   "private": true,
   "description": "Generador de shorts verticales de caricaturas 3D (three.js en Chromium sin GPU)",
   "dependencies": {
+    "@fontsource/anton": "^5.1.0",
     "@fontsource/montserrat": "5.1.0",
     "three": "0.170.0"
   }

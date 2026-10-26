@@ -999,16 +999,20 @@ function camState(S, c, p) {
 }
 
 function drawCaption(t) {
+  // una palabra a la vez, Anton, minúscula y blanca
   const W = OUT.width, H = OUT.height;
   const cap = TL.captions.find(c => t >= c.t0 && t < c.t1);
   if (!cap) return;
-  const p = clamp((t - cap.t0) / .12, 0, 1), s = lerp(.82, 1, easeOutBack(p, 2.5));
-  const ctx = OUTCTX; const size = Math.round(H * .045);
+  const txt = cap.text.toLowerCase().replace(/[.,;:…"«»]/g, '');
+  if (!txt) return;
+  const p = clamp((t - cap.t0) / .1, 0, 1), s = lerp(.85, 1, easeOutBack(p, 2.5));
+  const ctx = OUTCTX; let size = Math.round(H * .072);
   ctx.save(); ctx.translate(W / 2, H * (TL.captionY || .7)); ctx.scale(s, s);
-  ctx.font = `900 ${size}px Montserrat`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-  let txt = cap.text; while (ctx.measureText(txt).width > W * .86 && ctx.font) { ctx.font = `900 ${Math.round(size * .9)}px Montserrat`; break; }
-  ctx.lineJoin = 'round'; ctx.lineWidth = size * .26; ctx.strokeStyle = '#141010'; ctx.strokeText(txt, 0, 0);
-  ctx.fillStyle = cap.hl ? '#ffd43b' : '#ffffff'; ctx.fillText(txt, 0, 0);
+  ctx.font = `400 ${size}px Anton`;
+  while (ctx.measureText(txt).width > W * .86 && size > 20) { size -= 4; ctx.font = `400 ${size}px Anton`; }
+  ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  ctx.lineJoin = 'round'; ctx.lineWidth = size * .16; ctx.strokeStyle = '#141010'; ctx.strokeText(txt, 0, 0);
+  ctx.fillStyle = '#ffffff'; ctx.fillText(txt, 0, 0);
   ctx.restore();
 }
 function grade() {
@@ -1020,7 +1024,7 @@ function grade() {
 
 window.init = async (timeline) => {
   TL = timeline; STORY = timeline.story;
-  await document.fonts.load('900 40px Montserrat'); await document.fonts.load('800 40px Montserrat');
+  await document.fonts.load('900 40px Montserrat'); await document.fonts.load('400 40px Anton'); await document.fonts.load('800 40px Montserrat');
   const W = timeline.width, H = timeline.height;
   R3 = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
   R3.setSize(W, H); R3.shadowMap.enabled = true; R3.shadowMap.type = THREE.PCFSoftShadowMap;

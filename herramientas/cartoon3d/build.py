@@ -103,6 +103,54 @@ def sfx(name):
     raise SystemExit('sfx desconocido: ' + name)
 
 
+def recorded_voice(story_path, story, lead):
+    """Voz grabada: transcribe con Whisper y asigna a cada palabra del guion su tiempo real."""
+    import difflib
+    path = os.path.join(os.path.dirname(os.path.abspath(story_path)), story['audio'])
+    wav = path.rsplit('.', 1)[0] + '_48k.wav'
+    if not os.path.exists(wav):
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', path, '-vn', '-ac', '1', '-ar', str(SR), wav], check=True)
+    cache = path.rsplit('.', 1)[0] + '_words.json'
+    if os.path.exists(cache):
+        heard = json.load(open(cache))
+    else:
+        from faster_whisper import WhisperModel
+        a16 = np.frombuffer(subprocess.run(['ffmpeg', '-v', 'error', '-i', wav, '-ac', '1', '-ar', '16000', '-f', 's16le', '-'],
+                                           capture_output=True).stdout, np.int16).astype(np.float32) / 32768
+        m = WhisperModel('small', device='cpu', compute_type='int8', cpu_threads=4)
+        segs, _ = m.transcribe(a16, language='es', word_timestamps=True)
+        heard = [[w.start, w.end, w.word.strip()] for sg in segs for w in sg.words]
+        json.dump(heard, open(cache, 'w'), ensure_ascii=False)
+    toks = [(i, w) for i, b in enumerate(story['beats']) for w in b['text'].split()]
+    A, B = [norm(w) for _, w in toks], [norm(w) for _, _, w in heard]
+    times = [None] * len(toks)
+    for blk in difflib.SequenceMatcher(None, A, B, autojunk=False).get_matching_blocks():
+        for k in range(blk.size):
+            times[blk.a + k] = heard[blk.b + k][:2]
+    # palabras sin pareja (números, nombres raros): se reparten entre sus vecinas
+    k = 0
+    while k < len(times):
+        if times[k] is None:
+            j = k
+            while j < len(times) and times[j] is None:
+                j += 1
+            t0 = times[k - 1][1] if k > 0 else 0.0
+            t1 = times[j][0] if j < len(times) else heard[-1][1]
+            step = (t1 - t0) / (j - k)
+            for q in range(k, j):
+                times[q] = [t0 + step * (q - k), t0 + step * (q - k + 1)]
+            k = j
+        k += 1
+    for b in story['beats']:
+        b['_words'] = []
+    for (bi, w), (s, e) in zip(toks, times):
+        story['beats'][bi]['_words'].append((lead + s, lead + e, w))
+    for b in story['beats']:
+        b['_start'] = b['_words'][0][0]
+    a = read_wav(wav)
+    return [(lead, a)], [w for b in story['beats'] for w in b['_words']], lead + len(a) / SR
+
+
 def main(story_path, stills=False, workers=3):
     story = json.load(open(story_path))
     name = story['out']
@@ -114,7 +162,9 @@ def main(story_path, stills=False, workers=3):
     # 1) voz por beat y tiempos de cada palabra
     t = lead
     parts, all_words = [], []
-    for i, b in enumerate(story['beats']):
+    if story.get('audio'):
+        parts, all_words, t = recorded_voice(story_path, story, lead)
+    for i, b in enumerate([] if story.get('audio') else story['beats']):
         words, wav = tts(b['text'], voice, b.get('rate', rate), os.path.join(work, f'b{i:02d}'))
         a, off = trim_silence(read_wav(wav))
         b['_start'] = t
@@ -175,7 +225,9 @@ def main(story_path, stills=False, workers=3):
         sounds.append((word_time(all_words, 0, s['on']) + s.get('offset', 0), s['sfx'], s.get('vol', 1)))
 
     hl = {norm(w) for w in story.get('highlight', [])}
-    captions = caption_groups(all_words, hl)
+    captions = caption_groups(all_words, hl) if story.get('captions') == 'groups' else [
+        dict(t0=round(s, 3), t1=round(min(all_words[i + 1][0] if i + 1 < len(all_words) else e + .5, e + .5), 3), text=w)
+        for i, (s, e, w) in enumerate(all_words)]
     scenes = story['scenes']
     tl = dict(fps=FPS, width=1080, height=1920, duration=round(total, 3), story=dict(look=story.get('look', {}), scenes=scenes),
               shots=shots, actions=actions, captions=captions, captionY=story.get('captionY', .7))
