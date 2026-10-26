@@ -44,7 +44,7 @@ Cambios aplicados a todas: recorte al formato de la tarjeta, redimensionado, esq
 
 - Túnez: La segunda foto es mlaoui (melaoui), el pan plano hojaldrado de sémola de Túnez que es pariente cercano del msemen.
 - Estonia: No encontré fotos con licencia libre de pirukad estonios. La foto (recortada) muestra la pastelería de un café de Estonia (Kalju kohvik).
-- Tayikistán: No encontré fotos con licencia libre del halvaitar tayiko. La foto muestra hallvë de Albania, una halva similar hecha con harina, grasa y almíbar, con nueces.
+- Tayikistán: No encontré fotos con licencia libre del halvaitar tayiko. La foto muestra hallvë (nombre albanés de la halva de harina), una preparación similar hecha con harina, grasa y almíbar, con nueces.
 
 Las fotos muestran cada plato como contexto; cuando la ficha no indica el lugar, no se presentan como tomadas en un sitio concreto.
 
