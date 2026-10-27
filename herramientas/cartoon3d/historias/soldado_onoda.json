@@ -1,0 +1,1044 @@
+{
+ "out": "Caricatura3D_6_soldado_onoda",
+ "title": "El soldado que siguió en guerra 29 años (Hiroo Onoda)",
+ "audio": "../audios/historia_6.m4a",
+ "look": {
+  "skin": "white"
+ },
+ "sources": [
+  "https://es.wikipedia.org/wiki/Hiroo_Onoda",
+  "https://en.wikipedia.org/wiki/Hiroo_Onoda"
+ ],
+ "scenes": {
+  "cuartel": {
+   "set": {
+    "type": "studio",
+    "color": "#e6dcc8"
+   },
+   "actors": [
+    {
+     "id": "onoda",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#5a6a3a",
+      "shirt": "#6a7a4a",
+      "pants": "#5a6a3a"
+     },
+     "pos": [
+      0.3,
+      0,
+      0.2
+     ],
+     "rot": -10,
+     "expr": "determined"
+    }
+   ],
+   "props": [
+    {
+     "id": "cal",
+     "type": "calendar",
+     "pos": [
+      -0.9,
+      0,
+      -0.6
+     ],
+     "post": true,
+     "y": 1.3,
+     "day": 1944,
+     "month": "FILIPINAS",
+     "year": "ISLA DE LUBANG"
+    },
+    {
+     "id": "flag",
+     "type": "flag",
+     "country": "japan",
+     "pos": [
+      1.3,
+      0,
+      -0.9
+     ],
+     "poleH": 2.0
+    },
+    {
+     "id": "orden",
+     "type": "paper",
+     "pos": [
+      0.3,
+      1.05,
+      0.75
+     ],
+     "w": 0.5,
+     "h": 0.55,
+     "text": [
+      "ÓRDENES",
+      "Teniente Onoda"
+     ],
+     "big": "¡NO RENDIRSE!",
+     "bigColor": "#c62b2b",
+     "hidden": true
+    }
+   ]
+  },
+  "selva": {
+   "set": {
+    "type": "jungle",
+    "seed": "selva"
+   },
+   "actors": [
+    {
+     "id": "onoda",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#5a6a3a",
+      "shirt": "#6a7a4a",
+      "pants": "#5a6a3a"
+     },
+     "pos": [
+      0,
+      0,
+      -0.4
+     ],
+     "pose": "hold",
+     "expr": "determined"
+    }
+   ],
+   "props": [
+    {
+     "id": "rifle",
+     "type": "rifle",
+     "pos": [
+      0,
+      0.42,
+      -0.2
+     ],
+     "y": 0
+    },
+    {
+     "id": "arbusto",
+     "type": "bush",
+     "pos": [
+      0,
+      0,
+      0.35
+     ],
+     "s": 0.75
+    },
+    {
+     "id": "avion",
+     "type": "plane",
+     "pos": [
+      -14,
+      5,
+      -3
+     ]
+    },
+    {
+     "id": "folletos",
+     "type": "leaflets",
+     "pos": [
+      0,
+      0,
+      -1.2
+     ],
+     "n": 26,
+     "spread": 2.6,
+     "top": 4.5
+    }
+   ]
+  },
+  "folleto": {
+   "set": {
+    "type": "studio",
+    "color": "#c9d9c0"
+   },
+   "props": [
+    {
+     "id": "aviso",
+     "type": "paper",
+     "pos": [
+      0,
+      1.0,
+      0
+     ],
+     "w": 0.7,
+     "h": 0.85,
+     "text": [
+      "AVISO",
+      "Japón se rindió en 1945"
+     ],
+     "big": "¡LA GUERRA TERMINÓ!",
+     "bigColor": "#c62b2b"
+    }
+   ]
+  },
+  "anos": {
+   "set": {
+    "type": "studio",
+    "color": "#d8e2ea"
+   },
+   "props": [
+    {
+     "id": "ano",
+     "type": "led",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "y": 1.55,
+     "value": 1944,
+     "label": "AÑO",
+     "w": 1.5,
+     "sep": false
+    },
+    {
+     "id": "fin",
+     "type": "sign",
+     "pos": [
+      0,
+      0,
+      0.3
+     ],
+     "post": false,
+     "y0": 0.62,
+     "w": 1.6,
+     "h": 0.4,
+     "text": [
+      "FIN DE LA GUERRA"
+     ],
+     "bg": "#2f7d4a",
+     "fg": "#fff",
+     "hidden": true
+    },
+    {
+     "id": "tv",
+     "type": "tv",
+     "pos": [
+      6,
+      0,
+      0
+     ],
+     "y": 0.5,
+     "text": "¡LLEGAMOS\nA LA LUNA!",
+     "bg": "#1a2238",
+     "fg": "#f4efe4"
+    },
+    {
+     "id": "globo",
+     "type": "globe",
+     "pos": [
+      7.1,
+      0,
+      -0.6
+     ],
+     "r": 0.35,
+     "y": 0.4,
+     "spin": 0.5
+    },
+    {
+     "id": "escondido",
+     "type": "led",
+     "pos": [
+      12,
+      0,
+      0
+     ],
+     "y": 1.55,
+     "value": 0,
+     "label": "AÑOS EN LA SELVA",
+     "w": 1.5
+    },
+    {
+     "id": "palma",
+     "type": "palm",
+     "pos": [
+      12.9,
+      0,
+      -0.8
+     ],
+     "s": 0.7
+    }
+   ]
+  },
+  "encuentro": {
+   "set": {
+    "type": "jungle",
+    "seed": "encuentro"
+   },
+   "actors": [
+    {
+     "id": "onoda",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#5a6a3a",
+      "shirt": "#6a7a4a",
+      "pants": "#5a6a3a"
+     },
+     "pos": [
+      0.65,
+      0,
+      -0.4
+     ],
+     "rot": -70,
+     "pose": "hold",
+     "expr": "determined"
+    },
+    {
+     "id": "suzuki",
+     "look": {
+      "hair": "short",
+      "hairColor": "#1a1a1a",
+      "shirt": "#d0543f",
+      "pants": "#3a5a8a"
+     },
+     "pos": [
+      -4.5,
+      0,
+      -0.2
+     ],
+     "rot": 90,
+     "expr": "happy"
+    }
+   ],
+   "props": [
+    {
+     "id": "rifle",
+     "type": "rifle",
+     "pos": [
+      0.52,
+      0.42,
+      -0.36
+     ],
+     "rot": -70
+    }
+   ]
+  },
+  "libreria": {
+   "set": {
+    "type": "office",
+    "seed": "libros",
+    "wall": "#e2d6c2"
+   },
+   "actors": [
+    {
+     "id": "cmd",
+     "look": {
+      "body": "old",
+      "hair": "bald",
+      "glasses": true,
+      "hairColor": "#bbb",
+      "shirt": "#efe7d6",
+      "tie": "#2a3a5a",
+      "coat": "#4a4a52",
+      "pants": "#3a3a40"
+     },
+     "pos": [
+      -1.6,
+      0,
+      -1.5
+     ],
+     "rot": 30,
+     "pose": "hold",
+     "expr": "smile"
+    }
+   ],
+   "props": [
+    {
+     "id": "libro",
+     "type": "crate",
+     "pos": [
+      -1.48,
+      0.38,
+      -1.28
+     ],
+     "s": 0.16,
+     "color": "#c64b3b"
+    }
+   ]
+  },
+  "rendicion": {
+   "set": {
+    "type": "jungle",
+    "seed": "rendicion"
+   },
+   "actors": [
+    {
+     "id": "onoda",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#5a6a3a",
+      "shirt": "#6a7a4a",
+      "pants": "#5a6a3a"
+     },
+     "pos": [
+      0.5,
+      0,
+      -0.3
+     ],
+     "rot": -60,
+     "expr": "determined"
+    },
+    {
+     "id": "cmd",
+     "look": {
+      "body": "old",
+      "hair": "bald",
+      "glasses": true,
+      "hairColor": "#bbb",
+      "shirt": "#efe7d6",
+      "tie": "#2a3a5a",
+      "coat": "#4a4a52",
+      "pants": "#3a3a40"
+     },
+     "pos": [
+      -0.5,
+      0,
+      -0.3
+     ],
+     "rot": 60,
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "orden",
+     "type": "paper",
+     "pos": [
+      -0.33,
+      0.55,
+      -0.08
+     ],
+     "rot": 60,
+     "w": 0.3,
+     "h": 0.36,
+     "text": [
+      "ORDEN",
+      "Rendirse"
+     ]
+    },
+    {
+     "id": "espada",
+     "type": "katana",
+     "pos": [
+      0.32,
+      0.45,
+      -0.12
+     ],
+     "rot": -60,
+     "flat": true
+    }
+   ]
+  },
+  "final": {
+   "set": {
+    "type": "studio",
+    "color": "#c9d9c0"
+   },
+   "actors": [
+    {
+     "id": "onoda",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#5a6a3a",
+      "shirt": "#6a7a4a",
+      "pants": "#5a6a3a"
+     },
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "lookAt": "cam",
+     "expr": "skeptical"
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "En 1944, Japón mandó a un joven teniente a una isla de Filipinas, con una orden muy clara: no rendirse jamás.",
+   "shots": [
+    {
+     "scene": "cuartel",
+     "cam": {
+      "on": "cal",
+      "shot": "close",
+      "pitch": 3,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "cuartel",
+     "from": "teniente",
+     "cam": {
+      "on": "onoda",
+      "shot": "medium",
+      "yaw": -10,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "teniente",
+       "target": "onoda",
+       "pose": "salute",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "cuartel",
+     "from": "orden",
+     "cam": {
+      "target": [
+       0.3,
+       1.05,
+       0.75
+      ],
+      "dist": 1.9,
+      "yaw": 0,
+      "pitch": 3,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "orden",
+       "target": "orden",
+       "pop": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Se llamaba Hiroo Onoda.",
+   "shots": [
+    {
+     "scene": "cuartel",
+     "cam": {
+      "on": "onoda",
+      "shot": "close",
+      "yaw": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "onoda",
+       "pose": "idle",
+       "expr": "determined",
+       "lookAt": "cam"
+      },
+      {
+       "on": "Onoda",
+       "target": "orden",
+       "hide": true,
+       "lead": 0.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Un año después, la Segunda Guerra Mundial terminó… pero él no se lo creyó.",
+   "shots": [
+    {
+     "scene": "anos",
+     "cam": {
+      "on": "ano",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "año",
+       "target": "ano",
+       "value": 1945,
+       "dur": 0.4
+      },
+      {
+       "on": "terminó",
+       "target": "fin",
+       "pop": true
+      }
+     ]
+    },
+    {
+     "scene": "selva",
+     "from": "pero",
+     "cam": {
+      "on": "onoda",
+      "shot": "close",
+      "yaw": -10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "pero",
+       "target": "onoda",
+       "pose": "cross",
+       "expr": "skeptical",
+       "lookAt": "cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Le tiraron folletos desde aviones diciendo que la guerra había acabado. Onoda pensó que era un truco del enemigo.",
+   "shots": [
+    {
+     "scene": "selva",
+     "cam": {
+      "target": [
+       0,
+       2.2,
+       -1.5
+      ],
+      "dist": 7,
+      "yaw": 0,
+      "pitch": -14,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": -0.3,
+       "target": "avion",
+       "move": [
+        14,
+        5,
+        -3
+       ],
+       "dur": 3.2,
+       "ease": "linear",
+       "sfx": "whoosh"
+      },
+      {
+       "on": "folletos",
+       "target": "folletos",
+       "drop": true,
+       "lead": 0.3
+      },
+      {
+       "at": 0,
+       "target": "onoda",
+       "pose": "idle",
+       "lookAt": [
+        0,
+        4,
+        -1
+       ]
+      }
+     ]
+    },
+    {
+     "scene": "folleto",
+     "from": "diciendo",
+     "cam": {
+      "on": "aviso",
+      "shot": "medium",
+      "pitch": 2,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "selva",
+     "from": "truco",
+     "cam": {
+      "on": "onoda",
+      "shot": "close",
+      "yaw": 15,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "truco",
+       "target": "onoda",
+       "pose": "think",
+       "expr": "smug",
+       "lookAt": "cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Así que siguió escondido en la selva, con su uniforme, su rifle y sus órdenes.",
+   "shots": [
+    {
+     "scene": "selva",
+     "cam": {
+      "target": [
+       0,
+       0.7,
+       -0.2
+      ],
+      "dist": 4.2,
+      "yaw": 0,
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "onoda",
+       "pose": "hold",
+       "expr": "determined",
+       "lookAt": [
+        3,
+        0.8,
+        1
+       ]
+      }
+     ]
+    },
+    {
+     "scene": "selva",
+     "from": "rifle",
+     "cam": {
+      "on": "onoda",
+      "shot": "medium",
+      "yaw": -20,
+      "move": "orbitR"
+     },
+     "do": [
+      {
+       "on": "órdenes",
+       "target": "onoda",
+       "lookAt": "cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Pasaron los años. El hombre llegó a la Luna, el mundo cambió por completo… y Onoda seguía en guerra.",
+   "shots": [
+    {
+     "scene": "anos",
+     "cam": {
+      "on": "ano",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "fin",
+       "hide": true
+      },
+      {
+       "on": "años",
+       "target": "ano",
+       "value": 1969,
+       "dur": 1.6
+      }
+     ]
+    },
+    {
+     "scene": "anos",
+     "from": "Luna",
+     "cam": {
+      "on": "tv",
+      "shot": "medium",
+      "pitch": 4,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "selva",
+     "from": "seguía",
+     "cam": {
+      "on": "onoda",
+      "shot": "full",
+      "yaw": 15,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "seguía",
+       "target": "onoda",
+       "pose": "aim",
+       "expr": "determined"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "En 1974, un joven aventurero japonés fue a buscarlo a la selva, y lo encontró.",
+   "shots": [
+    {
+     "scene": "anos",
+     "cam": {
+      "on": "ano",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "1974",
+       "target": "ano",
+       "value": 1974,
+       "dur": 0.6
+      }
+     ]
+    },
+    {
+     "scene": "encuentro",
+     "from": "aventurero",
+     "cam": {
+      "on": "suzuki",
+      "shot": "full",
+      "yaw": 20,
+      "pitch": 6,
+      "move": "pan"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "suzuki",
+       "move": [
+        -0.6,
+        0,
+        -0.25
+       ],
+       "dur": 2.4,
+       "ease": "linear"
+      }
+     ]
+    },
+    {
+     "scene": "encuentro",
+     "from": "encontró",
+     "cam": {
+      "target": [
+       0,
+       0.75,
+       -0.3
+      ],
+      "dist": 3.6,
+      "yaw": 0,
+      "pitch": 4,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "encontró",
+       "target": "suzuki",
+       "expr": "starstruck",
+       "pose": "wave"
+      },
+      {
+       "on": "encontró",
+       "target": "onoda",
+       "expr": "shock",
+       "jolt": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Pero Onoda le dijo que solo se rendiría si se lo ordenaba su comandante.",
+   "shots": [
+    {
+     "scene": "encuentro",
+     "cam": {
+      "on": "onoda",
+      "shot": "close",
+      "yaw": -40,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "dijo",
+       "target": "onoda",
+       "pose": "stop",
+       "expr": "determined"
+      }
+     ]
+    },
+    {
+     "scene": "encuentro",
+     "from": "ordenaba",
+     "cam": {
+      "on": "suzuki",
+      "shot": "close",
+      "yaw": 40,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "ordenaba",
+       "target": "suzuki",
+       "pose": "scratch",
+       "expr": "confused"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Así que llevaron hasta la isla a su antiguo comandante, que ya trabajaba vendiendo libros, para darle la orden en persona.",
+   "shots": [
+    {
+     "scene": "libreria",
+     "cam": {
+      "on": "cmd",
+      "shot": "medium",
+      "yaw": 20,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "libreria",
+     "from": "vendiendo",
+     "cam": {
+      "on": "cmd",
+      "shot": "close",
+      "yaw": 30,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "vendiendo",
+       "target": "cmd",
+       "expr": "happy",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "rendicion",
+     "from": "orden",
+     "cam": {
+      "target": [
+       0,
+       0.75,
+       -0.3
+      ],
+      "dist": 3.8,
+      "yaw": 0,
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "cmd",
+       "pose": "hold",
+       "expr": "neutral"
+      },
+      {
+       "on": "persona",
+       "target": "onoda",
+       "pose": "salute",
+       "expr": "determined"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Solo entonces, después de 29 años, Onoda entregó su espada.",
+   "shots": [
+    {
+     "scene": "anos",
+     "cam": {
+      "on": "escondido",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "29",
+       "target": "escondido",
+       "value": 29,
+       "dur": 0.9
+      }
+     ]
+    },
+    {
+     "scene": "rendicion",
+     "from": "entregó",
+     "cam": {
+      "target": [
+       0,
+       0.6,
+       -0.2
+      ],
+      "dist": 2.4,
+      "yaw": 10,
+      "pitch": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "entregó",
+       "target": "onoda",
+       "pose": "hold",
+       "expr": "sad"
+      },
+      {
+       "on": "espada",
+       "target": "espada",
+       "move": [
+        -0.2,
+        0.47,
+        -0.12
+       ],
+       "dur": 0.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "¿Tú habrías creído que la guerra había terminado?",
+   "shots": [
+    {
+     "scene": "final",
+     "cam": {
+      "on": "onoda",
+      "shot": "close",
+      "yaw": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Tú",
+       "target": "onoda",
+       "pose": "point",
+       "expr": "smug",
+       "lead": 0.2
+      }
+     ]
+    },
+    {
+     "scene": "final",
+     "from": "terminado",
+     "cam": {
+      "on": "onoda",
+      "shot": "medium",
+      "yaw": -10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "terminado",
+       "target": "onoda",
+       "pose": "shrug",
+       "expr": "confused"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

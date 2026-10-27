@@ -1,0 +1,1538 @@
+{
+ "out": "Caricatura3D_8_guerra_cerdo",
+ "title": "La guerra que empezó por un cerdo (1859)",
+ "audio": "../audios/historia_8.m4a",
+ "look": {
+  "skin": "white"
+ },
+ "sources": [
+  "https://es.wikipedia.org/wiki/Guerra_del_Cerdo",
+  "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+ ],
+ "scenes": {
+  "mar": {
+   "set": {
+    "type": "sea",
+    "seed": "mar"
+   },
+   "props": [
+    {
+     "id": "isla",
+     "type": "island",
+     "pos": [
+      0,
+      0,
+      -2
+     ],
+     "r": 4,
+     "trees": 8,
+     "seed": "sj"
+    },
+    {
+     "id": "fUS",
+     "type": "flag",
+     "country": "usa",
+     "pos": [
+      -3.5,
+      0.4,
+      -1.6
+     ],
+     "poleH": 2.2
+    },
+    {
+     "id": "fUK",
+     "type": "flag",
+     "country": "uk",
+     "pos": [
+      3.5,
+      0.4,
+      -1.6
+     ],
+     "poleH": 2.2
+    },
+    {
+     "id": "cal",
+     "type": "calendar",
+     "pos": [
+      0,
+      0.4,
+      -0.9
+     ],
+     "post": true,
+     "y": 1.2,
+     "day": 1859,
+     "month": "ISLA SAN JUAN",
+     "year": "EE. UU. · CANADÁ"
+    },
+    {
+     "id": "b1",
+     "type": "ship",
+     "pos": [
+      -14,
+      0,
+      6
+     ],
+     "rot": 0,
+     "flag": "uk",
+     "s": 0.7
+    },
+    {
+     "id": "b2",
+     "type": "ship",
+     "pos": [
+      -18,
+      0,
+      9
+     ],
+     "flag": "uk",
+     "s": 0.7
+    },
+    {
+     "id": "b3",
+     "type": "ship",
+     "pos": [
+      -22,
+      0,
+      5
+     ],
+     "flag": "uk",
+     "s": 0.7
+    },
+    {
+     "id": "b4",
+     "type": "ship",
+     "pos": [
+      -26,
+      0,
+      8
+     ],
+     "flag": "uk",
+     "s": 0.7
+    },
+    {
+     "id": "b5",
+     "type": "ship",
+     "pos": [
+      -30,
+      0,
+      6.5
+     ],
+     "flag": "uk",
+     "s": 0.7
+    }
+   ]
+  },
+  "granja": {
+   "set": {
+    "type": "farm",
+    "seed": "granja",
+    "grass": "#8cbf62"
+   },
+   "actors": [
+    {
+     "id": "cut",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#8a6a3a",
+      "shirt": "#3a5a9a",
+      "pants": "#4a3a2a",
+      "mustache": true,
+      "hairColor": "#5a3a20"
+     },
+     "pos": [
+      -1.4,
+      0,
+      0.4
+     ],
+     "rot": 50,
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "papas",
+     "type": "potatoes",
+     "pos": [
+      0.2,
+      0,
+      -0.6
+     ],
+     "w": 3,
+     "d": 2
+    },
+    {
+     "id": "cerdo",
+     "type": "pig",
+     "pos": [
+      0.4,
+      0,
+      -0.5
+     ],
+     "rot": -120,
+     "peck": true
+    },
+    {
+     "id": "casa",
+     "type": "house",
+     "pos": [
+      -3,
+      0,
+      -4
+     ],
+     "w": 2.2,
+     "h": 1.5,
+     "wall": "#d9c7a8",
+     "roof": "#6a4a3a"
+    },
+    {
+     "id": "valla",
+     "type": "fence",
+     "pos": [
+      0,
+      0,
+      -2.2
+     ],
+     "len": 8
+    },
+    {
+     "id": "fUS",
+     "type": "flag",
+     "country": "usa",
+     "pos": [
+      -2.1,
+      0,
+      -0.4
+     ],
+     "poleH": 1.8,
+     "hidden": true
+    },
+    {
+     "id": "fUK",
+     "type": "flag",
+     "country": "uk",
+     "pos": [
+      1.6,
+      0,
+      -1.3
+     ],
+     "poleH": 1.8,
+     "hidden": true
+    },
+    {
+     "id": "pum",
+     "type": "text",
+     "pos": [
+      -0.6,
+      0,
+      0.2
+     ],
+     "y": 1.5,
+     "w": 1.6,
+     "h": 0.45,
+     "text": "¡PUM!",
+     "color": "#f2c230",
+     "hidden": true
+    }
+   ]
+  },
+  "disputa": {
+   "set": {
+    "type": "studio",
+    "color": "#e6dcc8"
+   },
+   "actors": [
+    {
+     "id": "us",
+     "look": {
+      "hair": "kepi",
+      "hatColor": "#2a3a6a",
+      "shirt": "#2a3a6a",
+      "pants": "#5a6a8a"
+     },
+     "pos": [
+      -0.55,
+      0,
+      0
+     ],
+     "rot": 60,
+     "expr": "angry"
+    },
+    {
+     "id": "uk",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#1f1a17",
+      "shirt": "#c62b2b",
+      "pants": "#1f1f2a",
+      "body": "tall",
+      "mustache": true,
+      "hairColor": "#6a4a2a"
+     },
+     "pos": [
+      0.55,
+      0,
+      0
+     ],
+     "rot": -60,
+     "expr": "angry"
+    }
+   ],
+   "props": [
+    {
+     "id": "isla",
+     "type": "island",
+     "pos": [
+      0,
+      0,
+      -1.6
+     ],
+     "r": 0.8,
+     "trees": 2
+    },
+    {
+     "id": "duda",
+     "type": "text",
+     "pos": [
+      0,
+      0,
+      -1.2
+     ],
+     "y": 1.7,
+     "w": 1.0,
+     "h": 0.6,
+     "text": "¿?",
+     "color": "#ffffff",
+     "hidden": true
+    }
+   ]
+  },
+  "dinero": {
+   "set": {
+    "type": "studio",
+    "color": "#e9dfc8"
+   },
+   "actors": [
+    {
+     "id": "cut",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#8a6a3a",
+      "shirt": "#3a5a9a",
+      "pants": "#4a3a2a",
+      "mustache": true,
+      "hairColor": "#5a3a20"
+     },
+     "pos": [
+      0.9,
+      0,
+      0.4
+     ],
+     "rot": -25,
+     "expr": "smile"
+    },
+    {
+     "id": "grif",
+     "look": {
+      "body": "wide",
+      "hair": "bald",
+      "hairColor": "#aa8855",
+      "shirt": "#efe7d6",
+      "coat": "#2a4a3a",
+      "pants": "#3a3a3a",
+      "mustache": true
+     },
+     "pos": [
+      6.9,
+      0,
+      0.4
+     ],
+     "rot": -25,
+     "expr": "smug"
+    },
+    {
+     "id": "off",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#1f1a17",
+      "shirt": "#c62b2b",
+      "pants": "#1f1f2a",
+      "body": "tall",
+      "mustache": true,
+      "hairColor": "#6a4a2a"
+     },
+     "pos": [
+      12,
+      0,
+      0
+     ],
+     "expr": "angry"
+    }
+   ],
+   "props": [
+    {
+     "id": "diez",
+     "type": "led",
+     "pos": [
+      -0.3,
+      0,
+      -0.3
+     ],
+     "y": 1.55,
+     "value": 0,
+     "prefix": "$ ",
+     "label": "OFRECIÓ",
+     "w": 1.2
+    },
+    {
+     "id": "cien",
+     "type": "led",
+     "pos": [
+      5.7,
+      0,
+      -0.3
+     ],
+     "y": 1.55,
+     "value": 0,
+     "prefix": "$ ",
+     "label": "PIDIÓ",
+     "w": 1.2
+    },
+    {
+     "id": "cerdo",
+     "type": "pig",
+     "pos": [
+      -0.2,
+      0,
+      0.6
+     ],
+     "rot": -60,
+     "s": 0.8
+    },
+    {
+     "id": "cerdo2",
+     "type": "pig",
+     "pos": [
+      5.8,
+      0,
+      0.6
+     ],
+     "rot": -60,
+     "s": 0.8
+    }
+   ]
+  },
+  "costa": {
+   "set": {
+    "type": "sea",
+    "seed": "costa",
+    "banks": 4,
+    "grass": "#8cbf62"
+   },
+   "actors": [
+    {
+     "id": "s1",
+     "look": {
+      "hair": "kepi",
+      "hatColor": "#2a3a6a",
+      "shirt": "#2a3a6a",
+      "pants": "#5a6a8a"
+     },
+     "pos": [
+      -1,
+      0.2,
+      4.8
+     ],
+     "rot": 180,
+     "pose": "salute",
+     "expr": "determined"
+    },
+    {
+     "id": "s2",
+     "look": {
+      "hair": "kepi",
+      "hatColor": "#2a3a6a",
+      "shirt": "#2a3a6a",
+      "pants": "#5a6a8a"
+     },
+     "pos": [
+      0,
+      0.2,
+      4.9
+     ],
+     "rot": 180,
+     "pose": "salute",
+     "expr": "determined"
+    },
+    {
+     "id": "s3",
+     "look": {
+      "hair": "kepi",
+      "hatColor": "#2a3a6a",
+      "shirt": "#2a3a6a",
+      "pants": "#5a6a8a",
+      "body": "wide"
+     },
+     "pos": [
+      1,
+      0.2,
+      4.8
+     ],
+     "rot": 180,
+     "pose": "salute",
+     "expr": "determined"
+    }
+   ],
+   "props": [
+    {
+     "id": "fUS",
+     "type": "flag",
+     "country": "usa",
+     "pos": [
+      2,
+      0.2,
+      5.5
+     ],
+     "poleH": 2.2
+    },
+    {
+     "id": "barco",
+     "type": "ship",
+     "pos": [
+      -14,
+      0,
+      -2
+     ],
+     "flag": "uk"
+    },
+    {
+     "id": "barco2",
+     "type": "ship",
+     "pos": [
+      -20,
+      0,
+      0
+     ],
+     "flag": "uk",
+     "s": 0.85
+    }
+   ]
+  },
+  "num": {
+   "set": {
+    "type": "studio",
+    "color": "#d8e2ea"
+   },
+   "props": [
+    {
+     "id": "us",
+     "type": "led",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "y": 1.55,
+     "value": 0,
+     "label": "SOLDADOS EE. UU.",
+     "w": 1.4
+    },
+    {
+     "id": "fUS",
+     "type": "flag",
+     "country": "usa",
+     "pos": [
+      0.9,
+      0,
+      -0.6
+     ],
+     "poleH": 1.4
+    },
+    {
+     "id": "uk",
+     "type": "led",
+     "pos": [
+      6,
+      0,
+      0
+     ],
+     "y": 1.55,
+     "value": 0,
+     "label": "BRITÁNICOS",
+     "w": 1.4
+    },
+    {
+     "id": "fUK",
+     "type": "flag",
+     "country": "uk",
+     "pos": [
+      6.9,
+      0,
+      -0.6
+     ],
+     "poleH": 1.4
+    },
+    {
+     "id": "anos",
+     "type": "led",
+     "pos": [
+      12,
+      0,
+      0
+     ],
+     "y": 1.55,
+     "value": 0,
+     "label": "AÑOS COMPARTIENDO",
+     "w": 1.4
+    },
+    {
+     "id": "isla",
+     "type": "island",
+     "pos": [
+      12,
+      0,
+      -1.6
+     ],
+     "r": 0.8,
+     "trees": 2
+    }
+   ]
+  },
+  "tension": {
+   "set": {
+    "type": "farm",
+    "seed": "tension",
+    "grass": "#8cbf62"
+   },
+   "actors": [
+    {
+     "id": "us",
+     "look": {
+      "hair": "kepi",
+      "hatColor": "#2a3a6a",
+      "shirt": "#2a3a6a",
+      "pants": "#5a6a8a"
+     },
+     "pos": [
+      -0.6,
+      0,
+      0
+     ],
+     "rot": 70,
+     "pose": "aim",
+     "expr": "nervous"
+    },
+    {
+     "id": "uk",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#1f1a17",
+      "shirt": "#c62b2b",
+      "pants": "#1f1f2a"
+     },
+     "pos": [
+      0.6,
+      0,
+      0
+     ],
+     "rot": -70,
+     "pose": "aim",
+     "expr": "nervous"
+    }
+   ],
+   "props": [
+    {
+     "id": "fUS",
+     "type": "flag",
+     "country": "usa",
+     "pos": [
+      -1.6,
+      0,
+      -1.2
+     ],
+     "poleH": 2.0
+    },
+    {
+     "id": "fUK",
+     "type": "flag",
+     "country": "uk",
+     "pos": [
+      1.6,
+      0,
+      -1.2
+     ],
+     "poleH": 2.0
+    }
+   ]
+  },
+  "arbitro": {
+   "set": {
+    "type": "office",
+    "seed": "arb",
+    "wall": "#d9cfc0"
+   },
+   "actors": [
+    {
+     "id": "emp",
+     "look": {
+      "body": "old",
+      "hair": "spike",
+      "mustache": true,
+      "hairColor": "#ddd",
+      "shirt": "#2a2a3a",
+      "coat": "#2a2a3a",
+      "pants": "#2a2a3a",
+      "tie": "#d8b04a"
+     },
+     "pos": [
+      0,
+      0,
+      -1.45
+     ],
+     "expr": "skeptical"
+    }
+   ],
+   "props": [
+    {
+     "id": "fDE",
+     "type": "flag",
+     "country": "germany1871",
+     "pos": [
+      1.2,
+      0,
+      -2.0
+     ],
+     "poleH": 2.0
+    },
+    {
+     "id": "papel",
+     "type": "paper",
+     "pos": [
+      -0.1,
+      0.49,
+      -0.85
+     ],
+     "rx": -90,
+     "text": [
+      "ARBITRAJE · 1872",
+      "Isla de San Juan"
+     ],
+     "stamp": "EE. UU."
+    },
+    {
+     "id": "sello",
+     "type": "stamp",
+     "pos": [
+      0.45,
+      0.48,
+      -0.8
+     ]
+    }
+   ]
+  },
+  "cielo": {
+   "set": {
+    "type": "studio",
+    "color": "#cfe6f6"
+   },
+   "props": [
+    {
+     "id": "cerdo",
+     "type": "pig",
+     "pos": [
+      0,
+      0.6,
+      0
+     ],
+     "rot": -70,
+     "s": 1.1
+    },
+    {
+     "id": "halo",
+     "type": "halo",
+     "pos": [
+      0.12,
+      0,
+      0.12
+     ],
+     "y": 1.6
+    }
+   ]
+  },
+  "final": {
+   "set": {
+    "type": "farm",
+    "seed": "final",
+    "grass": "#8cbf62"
+   },
+   "actors": [
+    {
+     "id": "cut",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#8a6a3a",
+      "shirt": "#3a5a9a",
+      "pants": "#4a3a2a",
+      "mustache": true,
+      "hairColor": "#5a3a20"
+     },
+     "pos": [
+      0,
+      0,
+      0.5
+     ],
+     "lookAt": "cam",
+     "expr": "smile"
+    }
+   ],
+   "props": [
+    {
+     "id": "papas",
+     "type": "potatoes",
+     "pos": [
+      0,
+      0,
+      -0.9
+     ],
+     "w": 3,
+     "d": 1.4
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "En 1859, en una isla entre Estados Unidos y Canadá, un granjero encontró a un cerdo comiéndose sus papas.",
+   "shots": [
+    {
+     "scene": "mar",
+     "cam": {
+      "on": "cal",
+      "shot": "close",
+      "pitch": 3,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "mar",
+     "from": "isla",
+     "cam": {
+      "target": [
+       0,
+       0.6,
+       -2
+      ],
+      "dist": 14,
+      "yaw": 0,
+      "pitch": 18,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "granja",
+     "from": "granjero",
+     "cam": {
+      "on": "cut",
+      "shot": "close",
+      "yaw": 40,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "encontró",
+       "target": "cut",
+       "expr": "surprised",
+       "lookAt": [
+        0.4,
+        0.4,
+        -0.5
+       ]
+      }
+     ]
+    },
+    {
+     "scene": "granja",
+     "from": "cerdo",
+     "cam": {
+      "on": "cerdo",
+      "shot": "close",
+      "yaw": -60,
+      "pitch": 10,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "El granjero era estadounidense. El cerdo… era británico.",
+   "shots": [
+    {
+     "scene": "granja",
+     "cam": {
+      "target": [
+       -1.6,
+       0.9,
+       0
+      ],
+      "dist": 3.8,
+      "yaw": 30,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "estadounidense",
+       "target": "fUS",
+       "pop": true
+      },
+      {
+       "on": "estadounidense",
+       "target": "cut",
+       "pose": "hips",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "granja",
+     "from": "cerdo",
+     "cam": {
+      "target": [
+       1.0,
+       0.8,
+       -0.9
+      ],
+      "dist": 3.8,
+      "yaw": -25,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "británico",
+       "target": "fUK",
+       "pop": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Así que le disparó.",
+   "shots": [
+    {
+     "scene": "granja",
+     "cam": {
+      "on": "cut",
+      "shot": "medium",
+      "yaw": 40,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "cut",
+       "pose": "aim",
+       "expr": "angry",
+       "lookAt": [
+        0.4,
+        0.4,
+        -0.5
+       ]
+      },
+      {
+       "on": "disparó",
+       "target": "pum",
+       "pop": true,
+       "sfx": "thud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "El problema es que nadie tenía claro de quién era la isla. Los dos países la reclamaban.",
+   "shots": [
+    {
+     "scene": "mar",
+     "cam": {
+      "target": [
+       0,
+       0.6,
+       -2
+      ],
+      "dist": 10,
+      "yaw": -20,
+      "pitch": 20,
+      "move": "orbitR"
+     }
+    },
+    {
+     "scene": "disputa",
+     "from": "quién",
+     "cam": {
+      "on": "isla",
+      "shot": "medium",
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "quién",
+       "target": "duda",
+       "pop": true
+      }
+     ]
+    },
+    {
+     "scene": "disputa",
+     "from": "dos",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       0
+      ],
+      "dist": 3.8,
+      "yaw": 0,
+      "pitch": 5,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "dos",
+       "target": "us",
+       "pose": "point"
+      },
+      {
+       "on": "reclamaban",
+       "target": "uk",
+       "pose": "point"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "El granjero ofreció diez dólares por el cerdo. El dueño pidió cien. Y los británicos amenazaron con arrestarlo.",
+   "shots": [
+    {
+     "scene": "dinero",
+     "cam": {
+      "target": [
+       0.2,
+       1.0,
+       0
+      ],
+      "dist": 4.4,
+      "yaw": 0,
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "diez",
+       "target": "diez",
+       "value": 10,
+       "dur": 0.5
+      },
+      {
+       "on": "ofreció",
+       "target": "cut",
+       "pose": "present",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "dinero",
+     "from": "dueño",
+     "cam": {
+      "target": [
+       6.2,
+       1.0,
+       0
+      ],
+      "dist": 4.4,
+      "yaw": 0,
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "cien",
+       "target": "cien",
+       "value": 100,
+       "dur": 0.6
+      },
+      {
+       "on": "pidió",
+       "target": "grif",
+       "pose": "hips",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "dinero",
+     "from": "británicos",
+     "cam": {
+      "on": "off",
+      "shot": "close",
+      "yaw": 10,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "amenazaron",
+       "target": "off",
+       "pose": "point",
+       "lookAt": "cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Estados Unidos mandó soldados. Gran Bretaña respondió con barcos de guerra.",
+   "shots": [
+    {
+     "scene": "costa",
+     "cam": {
+      "target": [
+       0,
+       0.9,
+       4.9
+      ],
+      "dist": 4.4,
+      "yaw": 180,
+      "pitch": 6,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "costa",
+     "from": "Gran",
+     "cam": {
+      "target": [
+       -3,
+       1.2,
+       -1
+      ],
+      "dist": 13,
+      "yaw": 20,
+      "pitch": 8,
+      "move": "pan"
+     },
+     "do": [
+      {
+       "at": -0.5,
+       "target": "barco",
+       "move": [
+        2,
+        0,
+        -2
+       ],
+       "dur": 4,
+       "ease": "linear"
+      },
+      {
+       "at": -0.5,
+       "target": "barco2",
+       "move": [
+        -4,
+        0,
+        0
+       ],
+       "dur": 4,
+       "ease": "linear"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "En pocas semanas, había más de 400 soldados estadounidenses frente a más de 2.000 británicos, con cinco barcos llenos de cañones.",
+   "shots": [
+    {
+     "scene": "num",
+     "cam": {
+      "on": "us",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "400",
+       "target": "us",
+       "value": 400,
+       "dur": 0.9
+      }
+     ]
+    },
+    {
+     "scene": "num",
+     "from": "2.000",
+     "cam": {
+      "on": "uk",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "2.000",
+       "target": "uk",
+       "value": 2000,
+       "dur": 1.0
+      }
+     ]
+    },
+    {
+     "scene": "mar",
+     "from": "cinco",
+     "cam": {
+      "target": [
+       -6,
+       1,
+       6
+      ],
+      "dist": 16,
+      "yaw": 30,
+      "pitch": 12,
+      "move": "pan"
+     },
+     "do": [
+      {
+       "at": -0.3,
+       "target": "b1",
+       "move": [
+        2,
+        0,
+        6
+       ],
+       "dur": 3,
+       "ease": "linear"
+      },
+      {
+       "at": -0.3,
+       "target": "b2",
+       "move": [
+        -3,
+        0,
+        9
+       ],
+       "dur": 3,
+       "ease": "linear"
+      },
+      {
+       "at": -0.3,
+       "target": "b3",
+       "move": [
+        -7,
+        0,
+        5
+       ],
+       "dur": 3,
+       "ease": "linear"
+      },
+      {
+       "at": -0.3,
+       "target": "b4",
+       "move": [
+        -11,
+        0,
+        8
+       ],
+       "dur": 3,
+       "ease": "linear"
+      },
+      {
+       "at": -0.3,
+       "target": "b5",
+       "move": [
+        -15,
+        0,
+        6.5
+       ],
+       "dur": 3,
+       "ease": "linear"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Todo, por un cerdo.",
+   "shots": [
+    {
+     "scene": "granja",
+     "cam": {
+      "on": "cerdo",
+      "shot": "close",
+      "yaw": -50,
+      "pitch": 8,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "pum",
+       "hide": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Pero nadie se atrevió a disparar primero. Al final, los dos países acordaron compartir la isla… y así se quedaron doce años.",
+   "shots": [
+    {
+     "scene": "tension",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       0
+      ],
+      "dist": 3.6,
+      "yaw": 0,
+      "pitch": 5,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "tension",
+     "from": "primero",
+     "cam": {
+      "on": "us",
+      "shot": "close",
+      "yaw": 40,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "primero",
+       "target": "us",
+       "expr": "panic"
+      }
+     ]
+    },
+    {
+     "scene": "tension",
+     "from": "acordaron",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       0
+      ],
+      "dist": 3.6,
+      "yaw": 0,
+      "pitch": 5,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "acordaron",
+       "target": "us",
+       "pose": "shrug",
+       "expr": "smile"
+      },
+      {
+       "on": "acordaron",
+       "target": "uk",
+       "pose": "shrug",
+       "expr": "smile",
+       "lead": 0.05
+      }
+     ]
+    },
+    {
+     "scene": "num",
+     "from": "doce",
+     "cam": {
+      "on": "anos",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "doce",
+       "target": "anos",
+       "value": 12,
+       "dur": 0.7
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "En 1872, el emperador de Alemania hizo de árbitro, y decidió que la isla era de Estados Unidos.",
+   "shots": [
+    {
+     "scene": "arbitro",
+     "cam": {
+      "on": "emp",
+      "shot": "medium",
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "emperador",
+       "target": "emp",
+       "pose": "hips",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "arbitro",
+     "from": "árbitro",
+     "cam": {
+      "on": "emp",
+      "shot": "close",
+      "yaw": 15,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "árbitro",
+       "target": "emp",
+       "pose": "think",
+       "expr": "skeptical"
+      }
+     ]
+    },
+    {
+     "scene": "arbitro",
+     "from": "decidió",
+     "cam": {
+      "target": [
+       -0.1,
+       0.49,
+       -0.85
+      ],
+      "dist": 1.9,
+      "yaw": 0,
+      "pitch": 60,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "sello",
+       "move": [
+        -0.1,
+        0.75,
+        -0.82
+       ],
+       "dur": 0.2,
+       "ease": "out"
+      },
+      {
+       "on": "Estados",
+       "target": "sello",
+       "move": [
+        -0.1,
+        0.495,
+        -0.82
+       ],
+       "dur": 0.1,
+       "ease": "linear",
+       "lead": 0.15
+      },
+      {
+       "on": "Estados",
+       "target": "papel",
+       "stamp": true,
+       "lead": 0.05
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "La única víctima de toda la guerra fue el cerdo.",
+   "shots": [
+    {
+     "scene": "cielo",
+     "cam": {
+      "target": [
+       0,
+       1.0,
+       0
+      ],
+      "dist": 3.4,
+      "yaw": -10,
+      "pitch": 4,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "cielo",
+     "from": "cerdo",
+     "cam": {
+      "target": [
+       0.1,
+       1.2,
+       0
+      ],
+      "dist": 2.0,
+      "yaw": -25,
+      "pitch": 6,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "¿Tú habrías empezado una guerra por unas papas?",
+   "shots": [
+    {
+     "scene": "final",
+     "cam": {
+      "on": "cut",
+      "shot": "close",
+      "yaw": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Tú",
+       "target": "cut",
+       "pose": "point",
+       "expr": "smug",
+       "lead": 0.2
+      }
+     ]
+    },
+    {
+     "scene": "final",
+     "from": "papas",
+     "cam": {
+      "target": [
+       0,
+       0.6,
+       -0.3
+      ],
+      "dist": 4,
+      "yaw": -10,
+      "pitch": 14,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "papas",
+       "target": "cut",
+       "pose": "shrug",
+       "expr": "joy"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

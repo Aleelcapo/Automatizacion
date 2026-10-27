@@ -1,0 +1,1186 @@
+{
+ "out": "Caricatura3D_7_isla_faisanes",
+ "title": "La isla que cambia de país cada seis meses (Isla de los Faisanes)",
+ "audio": "../audios/historia_7.m4a",
+ "look": {
+  "skin": "white"
+ },
+ "sources": [
+  "https://es.wikipedia.org/wiki/Isla_de_los_Faisanes",
+  "https://en.wikipedia.org/wiki/Pheasant_Island"
+ ],
+ "scenes": {
+  "rio": {
+   "set": {
+    "type": "sea",
+    "seed": "rio",
+    "banks": 5,
+    "water": "#5a9ac0"
+   },
+   "props": [
+    {
+     "id": "isla",
+     "type": "island",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "r": 2.2,
+     "trees": 3
+    },
+    {
+     "id": "fES",
+     "type": "flag",
+     "country": "spain",
+     "pos": [
+      0.5,
+      0.25,
+      0.1
+     ],
+     "poleH": 1.6
+    },
+    {
+     "id": "fFR",
+     "type": "flag",
+     "country": "france",
+     "pos": [
+      0.5,
+      0.25,
+      0.1
+     ],
+     "poleH": 1.6,
+     "hidden": true
+    },
+    {
+     "id": "bES",
+     "type": "flag",
+     "country": "spain",
+     "pos": [
+      -2,
+      0.3,
+      -6.5
+     ],
+     "poleH": 2.6
+    },
+    {
+     "id": "bFR",
+     "type": "flag",
+     "country": "france",
+     "pos": [
+      2,
+      0.3,
+      6.5
+     ],
+     "poleH": 2.6
+    },
+    {
+     "id": "nombre",
+     "type": "sign",
+     "pos": [
+      -1.2,
+      0.25,
+      0.6
+     ],
+     "text": [
+      "ISLA DE LOS",
+      "FAISANES"
+     ],
+     "bg": "#2f7d4a",
+     "w": 1.0,
+     "h": 0.42,
+     "postH": 0.5,
+     "hidden": true
+    },
+    {
+     "id": "cerrado",
+     "type": "sign",
+     "pos": [
+      1.6,
+      0.25,
+      0.7
+     ],
+     "rot": -20,
+     "text": [
+      "CERRADO"
+     ],
+     "bg": "#c62b2b",
+     "w": 0.8,
+     "h": 0.3,
+     "postH": 0.5,
+     "hidden": true
+    }
+   ]
+  },
+  "num": {
+   "set": {
+    "type": "studio",
+    "color": "#d8e2ea"
+   },
+   "props": [
+    {
+     "id": "largo",
+     "type": "led",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "y": 1.6,
+     "value": 0,
+     "suffix": " m",
+     "label": "DE LARGO",
+     "w": 1.4
+    },
+    {
+     "id": "isla",
+     "type": "island",
+     "pos": [
+      0,
+      0,
+      -1.6
+     ],
+     "r": 0.8,
+     "trees": 2
+    },
+    {
+     "id": "calES",
+     "type": "calendar",
+     "pos": [
+      5.4,
+      0,
+      0
+     ],
+     "post": true,
+     "y": 1.25,
+     "day": "ES",
+     "month": "FEBRERO → JULIO",
+     "year": "6 MESES"
+    },
+    {
+     "id": "flagES",
+     "type": "flag",
+     "country": "spain",
+     "pos": [
+      6.1,
+      0,
+      -0.4
+     ],
+     "poleH": 1.8
+    },
+    {
+     "id": "calFR",
+     "type": "calendar",
+     "pos": [
+      10.4,
+      0,
+      0
+     ],
+     "post": true,
+     "y": 1.25,
+     "day": "FR",
+     "month": "AGOSTO → ENERO",
+     "year": "6 MESES",
+     "color": "#2a4a9a"
+    },
+    {
+     "id": "flagFR",
+     "type": "flag",
+     "country": "france",
+     "pos": [
+      11.1,
+      0,
+      -0.4
+     ],
+     "poleH": 1.8
+    }
+   ]
+  },
+  "guia": {
+   "set": {
+    "type": "studio",
+    "color": "#efe2c6"
+   },
+   "actors": [
+    {
+     "id": "guia",
+     "look": {
+      "hair": "long",
+      "hairColor": "#3a2a20",
+      "shirt": "#2f8a8a",
+      "pants": "#2a3a4a"
+     },
+     "pos": [
+      -0.4,
+      0,
+      0.2
+     ],
+     "rot": 15,
+     "lookAt": "cam",
+     "expr": "smile"
+    }
+   ],
+   "props": [
+    {
+     "id": "tratado",
+     "type": "paper",
+     "pos": [
+      0.55,
+      1.0,
+      0.1
+     ],
+     "w": 0.55,
+     "h": 0.65,
+     "text": [
+      "TRATADO",
+      "de paz"
+     ],
+     "big": "1659",
+     "hidden": true
+    },
+    {
+     "id": "isla",
+     "type": "island",
+     "pos": [
+      0.9,
+      0,
+      -1.6
+     ],
+     "r": 0.7,
+     "trees": 2
+    }
+   ]
+  },
+  "firma": {
+   "set": {
+    "type": "sea",
+    "seed": "firma",
+    "banks": 5,
+    "water": "#5a9ac0"
+   },
+   "actors": [
+    {
+     "id": "maz",
+     "look": {
+      "body": "old",
+      "hair": "cap",
+      "hatColor": "#b02a2a",
+      "shirt": "#b02a2a",
+      "coat": "#b02a2a",
+      "mustache": true,
+      "hairColor": "#555"
+     },
+     "pos": [
+      0.6,
+      0.25,
+      -0.2
+     ],
+     "rot": -60,
+     "expr": "determined"
+    },
+    {
+     "id": "haro",
+     "look": {
+      "body": "tall",
+      "hair": "hat",
+      "hatColor": "#1f1a17",
+      "shirt": "#efe7d6",
+      "coat": "#1f1a17",
+      "pants": "#1f1a17",
+      "mustache": true,
+      "hairColor": "#2a1a10"
+     },
+     "pos": [
+      -0.6,
+      0.25,
+      -0.2
+     ],
+     "rot": 60,
+     "expr": "determined"
+    }
+   ],
+   "props": [
+    {
+     "id": "isla",
+     "type": "island",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "r": 2.2,
+     "trees": 2,
+     "seed": "f"
+    },
+    {
+     "id": "mesa",
+     "type": "table",
+     "pos": [
+      0,
+      0.25,
+      0.15
+     ],
+     "w": 0.9,
+     "d": 0.5,
+     "h": 0.4,
+     "color": "#6b4226"
+    },
+    {
+     "id": "papel",
+     "type": "paper",
+     "pos": [
+      0,
+      0.672,
+      0.15
+     ],
+     "rx": -90,
+     "w": 0.36,
+     "h": 0.44,
+     "text": [
+      "TRATADO DE",
+      "LOS PIRINEOS"
+     ],
+     "stamp": "PAZ · 1659"
+    },
+    {
+     "id": "cal",
+     "type": "calendar",
+     "pos": [
+      -1.4,
+      0.25,
+      -0.6
+     ],
+     "post": true,
+     "y": 1.0,
+     "day": 1659,
+     "month": "NOVIEMBRE",
+     "year": "ISLA DE LOS FAISANES"
+    }
+   ]
+  },
+  "boda": {
+   "set": {
+    "type": "room",
+    "wall": "#e8d8b0",
+    "wall2": "#dcc89a",
+    "floor": "#8a5a36",
+    "rug": "#a02a3a",
+    "sofa": false
+   },
+   "actors": [
+    {
+     "id": "luis",
+     "look": {
+      "hair": "crownlong",
+      "hairColor": "#3a2414",
+      "shirt": "#efe7d6",
+      "coat": "#2a3a8a",
+      "pants": "#2a3a8a"
+     },
+     "pos": [
+      -0.4,
+      0,
+      -0.6
+     ],
+     "rot": 20,
+     "expr": "smug"
+    },
+    {
+     "id": "mt",
+     "look": {
+      "hair": "crown",
+      "shirt": "#e8c8d8",
+      "dress": "#e8c8d8"
+     },
+     "pos": [
+      0.4,
+      0,
+      -0.6
+     ],
+     "rot": -20,
+     "expr": "smile"
+    }
+   ],
+   "props": [
+    {
+     "id": "corazon",
+     "type": "text",
+     "pos": [
+      0,
+      0,
+      -0.4
+     ],
+     "y": 1.45,
+     "w": 0.8,
+     "h": 0.5,
+     "text": "♥",
+     "color": "#e33b5a",
+     "hidden": true
+    },
+    {
+     "id": "fFR",
+     "type": "flag",
+     "country": "france",
+     "pos": [
+      -1.5,
+      0,
+      -1.6
+     ],
+     "poleH": 2.0
+    },
+    {
+     "id": "fES",
+     "type": "flag",
+     "country": "spain",
+     "pos": [
+      1.2,
+      0,
+      -1.6
+     ],
+     "poleH": 2.0
+    }
+   ]
+  },
+  "llaves": {
+   "set": {
+    "type": "studio",
+    "color": "#e6dcc8"
+   },
+   "actors": [
+    {
+     "id": "es",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#aa151b",
+      "shirt": "#aa151b",
+      "pants": "#3a3a40",
+      "mustache": true
+     },
+     "pos": [
+      -0.5,
+      0,
+      0
+     ],
+     "rot": 60,
+     "expr": "happy",
+     "pose": "present"
+    },
+    {
+     "id": "fr",
+     "look": {
+      "hair": "kepi",
+      "hatColor": "#002395",
+      "shirt": "#2a4a9a",
+      "pants": "#3a3a40"
+     },
+     "pos": [
+      0.5,
+      0,
+      0
+     ],
+     "rot": -60,
+     "expr": "smile"
+    }
+   ],
+   "props": [
+    {
+     "id": "llaves",
+     "type": "keys",
+     "pos": [
+      -0.25,
+      0,
+      0.15
+     ],
+     "y": 0.75
+    }
+   ]
+  },
+  "final": {
+   "set": {
+    "type": "studio",
+    "color": "#c9dcef"
+   },
+   "actors": [
+    {
+     "id": "guia",
+     "look": {
+      "hair": "long",
+      "hairColor": "#3a2a20",
+      "shirt": "#2f8a8a",
+      "pants": "#2a3a4a"
+     },
+     "pos": [
+      -0.3,
+      0,
+      0.2
+     ],
+     "rot": 10,
+     "lookAt": "cam",
+     "expr": "smile"
+    }
+   ],
+   "props": [
+    {
+     "id": "isla",
+     "type": "island",
+     "pos": [
+      0.9,
+      0,
+      -1.3
+     ],
+     "r": 0.7,
+     "trees": 2
+    },
+    {
+     "id": "fES",
+     "type": "flag",
+     "country": "spain",
+     "pos": [
+      1.0,
+      0.1,
+      -1.3
+     ],
+     "poleH": 1.0
+    },
+    {
+     "id": "fFR",
+     "type": "flag",
+     "country": "france",
+     "pos": [
+      1.0,
+      0.1,
+      -1.3
+     ],
+     "poleH": 1.0,
+     "hidden": true
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "Entre España y Francia, en medio del río Bidasoa, hay una isla diminuta. Se llama la Isla de los Faisanes.",
+   "shots": [
+    {
+     "scene": "rio",
+     "cam": {
+      "target": [
+       0,
+       0.5,
+       -5
+      ],
+      "dist": 10,
+      "yaw": -15,
+      "pitch": 12,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "rio",
+     "from": "Francia",
+     "cam": {
+      "target": [
+       0,
+       0.5,
+       5
+      ],
+      "dist": 10,
+      "yaw": 165,
+      "pitch": 12,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "rio",
+     "from": "río",
+     "cam": {
+      "target": [
+       0,
+       0.3,
+       0
+      ],
+      "dist": 14,
+      "yaw": 90,
+      "pitch": 40,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "rio",
+     "from": "Isla",
+     "cam": {
+      "target": [
+       -0.6,
+       0.6,
+       0.3
+      ],
+      "dist": 4.2,
+      "yaw": 10,
+      "pitch": 12,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "llama",
+       "target": "nombre",
+       "pop": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Mide unos 200 metros de largo, y nadie vive en ella.",
+   "shots": [
+    {
+     "scene": "num",
+     "cam": {
+      "on": "largo",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "200",
+       "target": "largo",
+       "value": 200,
+       "dur": 0.8
+      }
+     ]
+    },
+    {
+     "scene": "rio",
+     "from": "nadie",
+     "cam": {
+      "target": [
+       0,
+       0.5,
+       0
+      ],
+      "dist": 7,
+      "yaw": -20,
+      "pitch": 20,
+      "move": "orbitR"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Pero tiene algo único en el mundo: cada seis meses, cambia de país.",
+   "shots": [
+    {
+     "scene": "guia",
+     "cam": {
+      "on": "guia",
+      "shot": "close",
+      "yaw": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "único",
+       "target": "guia",
+       "expr": "starstruck",
+       "pose": "present"
+      }
+     ]
+    },
+    {
+     "scene": "rio",
+     "from": "cambia",
+     "cam": {
+      "target": [
+       0.5,
+       1.3,
+       0.1
+      ],
+      "dist": 3.2,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "cambia",
+       "target": "fES",
+       "hide": true,
+       "sfx": "pop"
+      },
+      {
+       "on": "cambia",
+       "target": "fFR",
+       "pop": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "De febrero a julio, es española. De agosto a enero, es francesa.",
+   "shots": [
+    {
+     "scene": "num",
+     "cam": {
+      "on": "calES",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "num",
+     "from": "agosto",
+     "cam": {
+      "on": "calFR",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "¿Y por qué? Por un tratado de paz.",
+   "shots": [
+    {
+     "scene": "guia",
+     "cam": {
+      "on": "guia",
+      "shot": "medium",
+      "yaw": 5,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "guia",
+       "pose": "shrug",
+       "expr": "confused"
+      }
+     ]
+    },
+    {
+     "scene": "guia",
+     "from": "tratado",
+     "cam": {
+      "target": [
+       0.3,
+       1.0,
+       0.1
+      ],
+      "dist": 2.6,
+      "yaw": -5,
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "tratado",
+       "target": "tratado",
+       "pop": true
+      },
+      {
+       "on": "tratado",
+       "target": "guia",
+       "pose": "present",
+       "expr": "happy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "En 1659, después de años de guerra, España y Francia firmaron la paz justo ahí, en terreno neutral.",
+   "shots": [
+    {
+     "scene": "firma",
+     "cam": {
+      "on": "cal",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "firma",
+     "from": "España",
+     "cam": {
+      "target": [
+       0,
+       0.85,
+       0
+      ],
+      "dist": 3.8,
+      "yaw": 0,
+      "pitch": 8,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "España",
+       "target": "haro",
+       "pose": "cross",
+       "expr": "angry"
+      },
+      {
+       "on": "Francia",
+       "target": "maz",
+       "pose": "cross",
+       "expr": "angry"
+      },
+      {
+       "on": "firmaron",
+       "target": "haro",
+       "pose": "present",
+       "expr": "smile"
+      },
+      {
+       "on": "firmaron",
+       "target": "maz",
+       "pose": "present",
+       "expr": "smile",
+       "lead": 0.05
+      }
+     ]
+    },
+    {
+     "scene": "firma",
+     "from": "terreno",
+     "cam": {
+      "target": [
+       0,
+       0.4,
+       0
+      ],
+      "dist": 11,
+      "yaw": 30,
+      "pitch": 30,
+      "move": "pull"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Fue el Tratado de los Pirineos.",
+   "shots": [
+    {
+     "scene": "firma",
+     "cam": {
+      "target": [
+       0,
+       0.67,
+       0.15
+      ],
+      "dist": 1.6,
+      "yaw": 0,
+      "pitch": 62,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Pirineos",
+       "target": "papel",
+       "stamp": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y para sellar el acuerdo, el rey Luis XIV de Francia se casó con la hija del rey de España.",
+   "shots": [
+    {
+     "scene": "boda",
+     "cam": {
+      "on": "luis",
+      "shot": "close",
+      "yaw": 20,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Luis",
+       "target": "luis",
+       "lookAt": "cam",
+       "pose": "hips"
+      }
+     ]
+    },
+    {
+     "scene": "boda",
+     "from": "hija",
+     "cam": {
+      "on": "mt",
+      "shot": "close",
+      "yaw": -20,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "hija",
+       "target": "mt",
+       "lookAt": "cam",
+       "expr": "happy"
+      }
+     ]
+    },
+    {
+     "scene": "boda",
+     "from": "España",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       -0.6
+      ],
+      "dist": 4,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "España",
+       "target": "corazon",
+       "pop": true
+      },
+      {
+       "on": "España",
+       "target": "luis",
+       "expr": "joy",
+       "lookAt": [
+        0.4,
+        0.8,
+        -0.6
+       ]
+      },
+      {
+       "on": "España",
+       "target": "mt",
+       "expr": "joy",
+       "lookAt": [
+        -0.4,
+        0.8,
+        -0.6
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Desde entonces, los dos países comparten la isla por turnos.",
+   "shots": [
+    {
+     "scene": "rio",
+     "cam": {
+      "target": [
+       0.5,
+       1.3,
+       0.1
+      ],
+      "dist": 3.4,
+      "yaw": 20,
+      "pitch": 6,
+      "move": "orbitL"
+     },
+     "do": [
+      {
+       "on": "dos",
+       "target": "fFR",
+       "hide": true,
+       "sfx": "pop"
+      },
+      {
+       "on": "dos",
+       "target": "fES",
+       "pop": true
+      },
+      {
+       "on": "comparten",
+       "target": "fES",
+       "hide": true,
+       "sfx": "pop"
+      },
+      {
+       "on": "comparten",
+       "target": "fFR",
+       "pop": true
+      },
+      {
+       "on": "turnos",
+       "target": "fFR",
+       "hide": true,
+       "sfx": "pop"
+      },
+      {
+       "on": "turnos",
+       "target": "fES",
+       "pop": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Cada medio año, un país le pasa el control al otro, como quien presta las llaves de casa.",
+   "shots": [
+    {
+     "scene": "llaves",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       0
+      ],
+      "dist": 3.8,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "pasa",
+       "target": "llaves",
+       "move": [
+        0.25,
+        0,
+        0.15
+       ],
+       "dur": 0.6
+      },
+      {
+       "on": "pasa",
+       "target": "fr",
+       "pose": "hold",
+       "expr": "happy",
+       "lead": -0.3
+      },
+      {
+       "on": "pasa",
+       "target": "es",
+       "pose": "idle",
+       "lead": -0.4
+      }
+     ]
+    },
+    {
+     "scene": "llaves",
+     "from": "llaves",
+     "cam": {
+      "target": [
+       0.25,
+       0.75,
+       0.15
+      ],
+      "dist": 1.4,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Eso sí: no puedes visitarla cuando quieras. Está cerrada al público casi todo el año.",
+   "shots": [
+    {
+     "scene": "guia",
+     "cam": {
+      "on": "guia",
+      "shot": "close",
+      "yaw": -10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "puedes",
+       "target": "guia",
+       "pose": "stop",
+       "expr": "skeptical"
+      }
+     ]
+    },
+    {
+     "scene": "rio",
+     "from": "cerrada",
+     "cam": {
+      "target": [
+       1.4,
+       0.6,
+       0.6
+      ],
+      "dist": 3.6,
+      "yaw": -15,
+      "pitch": 12,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "cerrada",
+       "target": "cerrado",
+       "pop": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "¿Tú vivirías en una isla que cambia de país?",
+   "shots": [
+    {
+     "scene": "final",
+     "cam": {
+      "on": "guia",
+      "shot": "close",
+      "yaw": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Tú",
+       "target": "guia",
+       "pose": "point",
+       "expr": "smug",
+       "lead": 0.2
+      }
+     ]
+    },
+    {
+     "scene": "final",
+     "from": "cambia",
+     "cam": {
+      "target": [
+       0.4,
+       0.9,
+       -0.5
+      ],
+      "dist": 4,
+      "yaw": 0,
+      "pitch": 8,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "cambia",
+       "target": "fES",
+       "hide": true
+      },
+      {
+       "on": "cambia",
+       "target": "fFR",
+       "pop": true
+      },
+      {
+       "on": "país",
+       "target": "guia",
+       "pose": "shrug",
+       "expr": "joy"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -365,6 +365,19 @@ class Character {
       const col = look.hatColor || '#efe7d6';
       const m = mesh(capGeom(1.07, Math.PI * .47), col); m.rotation.x = -.35; this.headG.add(m);
       const k = sph(.06, col); k.position.set(0, -r * .1, -r * .95); this.headG.add(k);
+    } else if (H === 'crown' || H === 'crownlong') {
+      if (H === 'crownlong') { const rr = rng(this.spec?.id || 'w'); for (let i = 0; i < 16; i++) { const th = .9 + rr() * 1.1, ph = Math.PI * (.35 + rr() * 1.3); const b = sph(.07, look.hairColor || '#4a3020', { thick: .005 }); b.position.setFromSphericalCoords(r * 1.0, th, ph + Math.PI / 2); this.headG.add(b); } }
+      const c = cyl(r * .62, r * .55, r * .38, '#e0b84a', { seg: 10 }); c.position.y = r * .98; this.headG.add(c);
+      for (let i = 0; i < 5; i++) { const a = i / 5 * Math.PI * 2; const pt = mesh(G('crownpt', () => new THREE.ConeGeometry(.03, .07, 6)), '#e0b84a', { thick: .004 }); pt.position.set(Math.sin(a) * r * .58, r * 1.24, Math.cos(a) * r * .58); this.headG.add(pt); }
+      const gem = sph(.025, '#c62b2b', { outline: false }); gem.position.set(0, r * .98, r * .6); this.headG.add(gem);
+    } else if (H === 'spike') {
+      const col = look.hatColor || '#1f1f22';
+      const m = mesh(capGeom(1.06, Math.PI * .34), col); m.rotation.x = -.1; this.headG.add(m);
+      const sp = mesh(G('spk', () => new THREE.ConeGeometry(.025, .12, 8)), '#d8b04a', { thick: .004 }); sp.position.y = r * 1.25; this.headG.add(sp);
+    } else if (H === 'kepi') {
+      const col = look.hatColor || '#2a3a6a';
+      const k = cyl(r * .78, r * .9, r * .45, col); k.position.y = r * .85; k.rotation.x = -.15; this.headG.add(k);
+      const brim = cyl(r * .5, r * .5, .014, '#1f1f22'); brim.scale.z = .6; brim.position.set(0, r * .62, r * .78); brim.rotation.x = .2; this.headG.add(brim);
     } else if (H === 'bald') {
       for (const s of [-1, 1]) { const b = sph(.05, look.hairColor || '#ddd'); b.scale.set(.6, 1, 1); b.position.set(s * r * .95, r * .05, -r * .1); this.headG.add(b); }
     }
@@ -585,6 +598,10 @@ const FLAGS = {
   norway: (ctx, W, H) => { ctx.fillStyle = '#ba0c2f'; ctx.fillRect(0, 0, W, H); ctx.fillStyle = '#fff'; ctx.fillRect(W * 6 / 22, 0, W * 4 / 22, H); ctx.fillRect(0, H * 6 / 16, W, H * 4 / 16); ctx.fillStyle = '#00205b'; ctx.fillRect(W * 7 / 22, 0, W * 2 / 22, H); ctx.fillRect(0, H * 7 / 16, W, H * 2 / 16); },
   finland: (ctx, W, H) => { ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, W, H); ctx.fillStyle = '#002f6c'; ctx.fillRect(W * 5 / 18, 0, W * 3 / 18, H); ctx.fillRect(0, H * 4 / 11, W, H * 3 / 11); },
   france: (ctx, W, H) => { ['#002395', '#fff', '#ed2939'].forEach((c, i) => { ctx.fillStyle = c; ctx.fillRect(i * W / 3, 0, W / 3, H); }); },
+  spain: (ctx, W, H) => { ctx.fillStyle = '#aa151b'; ctx.fillRect(0, 0, W, H); ctx.fillStyle = '#f1bf00'; ctx.fillRect(0, H / 4, W, H / 2); },
+  japan: (ctx, W, H) => { ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, W, H); ctx.fillStyle = '#bc002d'; ctx.beginPath(); ctx.arc(W / 2, H / 2, H * .3, 0, 7); ctx.fill(); },
+  usa: (ctx, W, H) => { for (let i = 0; i < 13; i++) { ctx.fillStyle = i % 2 ? '#fff' : '#b22234'; ctx.fillRect(0, i * H / 13, W, H / 13 + 1); } ctx.fillStyle = '#3c3b6e'; ctx.fillRect(0, 0, W * .4, H * 7 / 13); ctx.fillStyle = '#fff'; for (let r = 0; r < 5; r++) for (let c = 0; c < 6; c++) { ctx.beginPath(); ctx.arc(W * .04 + c * W * .064, H * .06 + r * H * .1, H * .02, 0, 7); ctx.fill(); } },
+  germany1871: (ctx, W, H) => { ['#000', '#fff', '#dd0000'].forEach((c, i) => { ctx.fillStyle = c; ctx.fillRect(0, i * H / 3, W, H / 3 + 1); }); },
   mexico: (ctx, W, H) => { ['#006847', '#fff', '#ce1126'].forEach((c, i) => { ctx.fillStyle = c; ctx.fillRect(i * W / 3, 0, W / 3, H); }); },
   uk: (ctx, W, H) => { ctx.fillStyle = '#012169'; ctx.fillRect(0, 0, W, H); ctx.strokeStyle = '#fff'; ctx.lineWidth = H * .2; ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(W, H); ctx.moveTo(W, 0); ctx.lineTo(0, H); ctx.stroke(); ctx.strokeStyle = '#c8102e'; ctx.lineWidth = H * .07; ctx.stroke(); ctx.fillStyle = '#fff'; ctx.fillRect(W * .42, 0, W * .16, H); ctx.fillRect(0, H * .35, W, H * .3); ctx.fillStyle = '#c8102e'; ctx.fillRect(W * .45, 0, W * .1, H); ctx.fillRect(0, H * .4, W, H * .2); },
 };
@@ -922,6 +939,133 @@ PROPS.mountain = (o) => {
   g.userData = { focus: h * .5, size: r * 2 }; return g;
 };
 
+PROPS.tank = (o) => {
+  const g = new THREE.Group(), r = o.r || 2.2, h = o.h || 4.5, col = o.color || '#8a8f96';
+  const body = cyl(r, r, h, col, { seg: 40, thick: .03 }); body.position.y = h / 2; g.add(body);
+  const top = mesh(G(`tanktop${r}`, () => new THREE.ConeGeometry(r * 1.02, r * .35, 40)), col, { thick: .03 }); top.position.y = h + r * .17; g.add(top);
+  for (let k = 1; k < 5; k++) { const ring = cyl(r * 1.01, r * 1.01, .05, '#6b6f75', { seg: 40, outline: false }); ring.position.y = h * k / 5; g.add(ring); }
+  if (o.label) { const tp = propTextPlane(g, r * 1.2, r * .45, r * 1.015, (ctx, W, H) => { ctx.fillStyle = '#f4efe4'; ctx.fillRect(0, 0, W, H); drawLines(ctx, [o.label], W * .9, H * .8, '#3a1f10', H * .7); }); tp.plane.position.y = h * .62; }
+  g.userData = { focus: h * .55, size: h * 1.1 }; return g;
+};
+PROPS.wave = (o) => { // ola espesa (melaza, barro)
+  const g = new THREE.Group(), w = o.w || 6, h = o.h || 2.5, L = o.len || 5, col = o.color || '#4a2510';
+  const sh = new THREE.Shape(); sh.moveTo(-L, 0); sh.lineTo(0, 0); sh.quadraticCurveTo(.9, h * .35, .45, h * .85); sh.quadraticCurveTo(.2, h * 1.05, -.6, h * .9); sh.quadraticCurveTo(-L * .5, h * .55, -L, h * .45); sh.closePath();
+  const geo = new THREE.ExtrudeGeometry(sh, { depth: w, bevelEnabled: true, bevelSize: .12, bevelThickness: .12, bevelSegments: 3, curveSegments: 16 }); geo.translate(0, 0, -w / 2); geo.computeVertexNormals();
+  const m = mesh(geo, toon(col, { emissive: '#2a1206', ei: .4 }), { thick: .03 }); g.add(m);
+  for (let i = 0; i < 8; i++) { const b = sph(.18 + (i % 3) * .08, col, { thick: .01 }); b.position.set(.2 + (i % 2) * .2, h * (.3 + (i % 4) * .15), -w / 2 + i * w / 7); g.add(b); }
+  g.userData = { focus: h * .5, size: Math.max(h * 1.6, 3) }; return g;
+};
+PROPS.puddle = (o) => { const g = new THREE.Group(); const m = mesh(G(`pud${o.r || 1}`, () => new THREE.CylinderGeometry(o.r || 1, (o.r || 1) * 1.05, o.h || .35, 32)), toon(o.color || '#4a2510', { emissive: '#2a1206', ei: .4 }), { thick: .012 }); m.position.y = (o.h || .35) / 2; g.add(m); g.userData = { focus: .3, size: (o.r || 1) * 2.4 }; return g; };
+PROPS.elevated = (o) => { // vía del tren elevado
+  const g = new THREE.Group(), L = o.len || 20, y = o.h || 3.2, col = o.color || '#5a6470';
+  const deck = box(L, .25, 1.6, col, { r: .03 }); deck.position.y = y; g.add(deck);
+  for (let x = -L / 2 + 1; x < L / 2; x += 3) for (const z of [-.7, .7]) { const p = box(.18, y, .18, col, { r: .02 }); p.position.set(x, y / 2, z); p.rotation.z = (o.bent && Math.abs(x) < 3) ? .25 : 0; g.add(p); }
+  for (const z of [-.3, .3]) { const r = box(L, .06, .06, '#3a3f45', { outline: false }); r.position.set(0, y + .16, z); g.add(r); }
+  g.userData = { focus: y, size: 6 }; return g;
+};
+PROPS.cart = (o) => {
+  const g = new THREE.Group(), col = o.color || '#9a6a42';
+  const b = box(1.3, .4, .8, col, { r: .03 }); b.position.y = .55; g.add(b);
+  for (const z of [-.45, .45]) { const w = cyl(.32, .32, .06, '#6b4226', { seg: 16 }); w.rotation.x = Math.PI / 2; w.position.set(0, .32, z); g.add(w); }
+  for (const z of [-.25, .25]) { const sh = box(1.1, .05, .05, col, { r: .01, thick: .004 }); sh.position.set(1.1, .45, z); g.add(sh); }
+  if (o.load) for (let i = 0; i < 3; i++) { const c = cyl(.17, .17, .4, '#8a5a32'); c.position.set(-.35 + i * .35, .95, 0); g.add(c); }
+  g.userData = { focus: .5, size: 2.2 }; return g;
+};
+PROPS.palm = (o) => {
+  const g = new THREE.Group(), s = o.s || 1;
+  for (let i = 0; i < 6; i++) { const seg = cyl(.07 * s, .09 * s, .42 * s, '#8a6a42', { thick: .006 }); seg.position.set(Math.sin(i * .4) * .08 * s, (.21 + i * .4) * s, 0); seg.rotation.z = Math.sin(i * .4) * .1; g.add(seg); }
+  const top = 2.45 * s;
+  for (let i = 0; i < 7; i++) { const a = i / 7 * Math.PI * 2; const lf = box(1.1 * s, .03, .3 * s, o.color || '#3f8a3a', { r: .01, thick: .006 }); lf.position.set(Math.cos(a) * .5 * s, top - .12 * s, Math.sin(a) * .5 * s); lf.rotation.y = -a; lf.rotation.z = -.45; g.add(lf); }
+  for (let i = 0; i < 3; i++) { const c = sph(.08 * s, '#6b4a2a'); c.position.set(Math.cos(i * 2) * .1 * s, top - .15 * s, Math.sin(i * 2) * .1 * s); g.add(c); }
+  g.userData = { focus: 1.5 * s, size: 3 * s }; return g;
+};
+PROPS.bush = (o) => { const g = new THREE.Group(), s = o.s || 1; for (const [x, y, r] of [[0, .3, .4], [.35, .25, .3], [-.35, .22, .32], [.1, .55, .28]]) { const b = sph(r * s, o.color || '#3f7a3a'); b.position.set(x * s, y * s, 0); g.add(b); } g.userData = { focus: .4 * s, size: 1.4 * s }; return g; };
+PROPS.plane = (o) => {
+  const g = new THREE.Group(), col = o.color || '#7a8a6a';
+  const f = cyl(.28, .18, 3.2, col, { seg: 20 }); f.rotation.z = Math.PI / 2; g.add(f);
+  const nose = sph(.29, col); nose.position.x = 1.6; g.add(nose);
+  const prop = box(.04, .9, .1, '#2a2a2e', { r: .02, thick: .004 }); prop.position.x = 1.88; g.add(prop);
+  const wing = box(.8, .07, 4.2, col, { r: .03 }); wing.position.set(.3, .05, 0); g.add(wing);
+  const tw = box(.45, .05, 1.4, col, { r: .02 }); tw.position.set(-1.5, .1, 0); g.add(tw);
+  const fin = box(.45, .55, .05, col, { r: .02 }); fin.position.set(-1.5, .38, 0); g.add(fin);
+  const cab = sph(.24, '#bfe3f2'); cab.scale.set(1.3, .8, .9); cab.position.set(.5, .27, 0); g.add(cab);
+  g.userData = { focus: 0, size: 4.5, propeller: prop }; return g;
+};
+PROPS.leaflets = (o) => { // folletos cayendo
+  const g = new THREE.Group(), R = rng(o.seed || 'lf'), n = o.n || 24, spread = o.spread || 3;
+  const items = [];
+  for (let i = 0; i < n; i++) { const p = box(.22, .3, .008, '#fbfaf5', { r: .004, thick: .003 }); p.position.set((R() - .5) * spread * 2, 0, (R() - .5) * spread); g.add(p); items.push({ p, x0: p.position.x, ph: R() * 10, sp: .6 + R() * .5, y0: (o.top || 4) + R() * 2 }); }
+  g.userData = { focus: 1.5, size: spread * 2, leaflets: items }; return g;
+};
+PROPS.rifle = (o) => {
+  const g = new THREE.Group();
+  const st = box(.06, .07, .3, '#6b4226', { r: .01, thick: .004 }); g.add(st);
+  const br = cyl(.012, .012, .45, '#2a2a2e', { thick: .003 }); br.rotation.x = Math.PI / 2; br.position.set(0, .02, .35); g.add(br);
+  g.position.y = o.y ?? 0; const w = new THREE.Group(); w.add(g); w.userData = { focus: o.y ?? 0, size: .8 }; return w;
+};
+PROPS.katana = (o) => {
+  const g = new THREE.Group();
+  const bl = box(.03, .55, .012, '#d8dde3', { r: .005, thick: .003 }); bl.position.y = .3; g.add(bl);
+  const gd = cyl(.04, .04, .01, '#3a2a20', { outline: false }); gd.position.y = .02; g.add(gd);
+  const hd = box(.035, .18, .03, '#2a1a10', { r: .01, thick: .003 }); hd.position.y = -.08; g.add(hd);
+  g.rotation.z = o.flat ? Math.PI / 2 : 0; g.position.y = o.y ?? 0;
+  const w = new THREE.Group(); w.add(g); w.userData = { focus: o.y ?? 0, size: .8 }; return w;
+};
+PROPS.island = (o) => {
+  const g = new THREE.Group(), r = o.r || 3;
+  const land = mesh(G(`isl${r}`, () => new THREE.SphereGeometry(r, 40, 16)), o.color || '#7ab05a', { thick: .02 }); land.scale.set(1.6, .12, .7); land.position.y = 0; g.add(land);
+  const sand = mesh(G(`isls${r}`, () => new THREE.SphereGeometry(r * 1.05, 40, 16)), '#e2d29a', { outline: false }); sand.scale.set(1.6, .08, .72); sand.position.y = -.05; g.add(sand);
+  const R = rng(o.seed || 'isl');
+  for (let i = 0; i < (o.trees ?? 6); i++) { const t = PROPS.tree({ s: .7 + R() * .4 }); t.position.set((R() - .5) * r * 2.2, r * .1, (R() - .5) * r * .7); g.add(t); }
+  g.userData = { focus: r * .2, size: r * 3.2 }; return g;
+};
+PROPS.keys = (o) => {
+  const g = new THREE.Group(), col = '#e0b84a';
+  const ring = mesh(G('keyring', () => new THREE.TorusGeometry(.08, .015, 8, 20)), col, { thick: .004 }); g.add(ring);
+  for (const a of [-.4, .3]) { const k = new THREE.Group(); const sh = box(.025, .22, .012, col, { r: .005, thick: .003 }); sh.position.y = -.17; k.add(sh); const bit = box(.06, .03, .012, col, { r: .004, thick: .003 }); bit.position.set(.03, -.26, 0); k.add(bit); k.rotation.z = a; g.add(k); }
+  g.position.y = o.y ?? 1; const w = new THREE.Group(); w.add(g); w.userData = { focus: o.y ?? 1, size: .6 }; return w;
+};
+PROPS.pig = (o) => {
+  const g = new THREE.Group(), col = o.color || '#f2a6b0', s = o.s || 1;
+  const body = sph(.35, col, { thick: .01 }); body.scale.set(1.35, 1, 1); body.position.y = .42; g.add(body);
+  const head = sph(.24, col, { thick: .01 }); head.position.set(.5, .52, 0); g.add(head);
+  const snout = cyl(.11, .11, .1, '#e88a98', { seg: 16, thick: .006 }); snout.rotation.z = Math.PI / 2; snout.position.set(.74, .48, 0); g.add(snout);
+  for (const z of [-.04, .04]) { const n = sph(.022, '#a04050', { outline: false }); n.position.set(.795, .48, z); g.add(n); }
+  for (const z of [-1, 1]) {
+    const e = sph(.05, '#fff', { thick: .005 }); e.position.set(.66, .6, z * .1); g.add(e); const pu = sph(.025, '#111', { outline: false }); pu.position.set(.705, .6, z * .1); g.add(pu);
+    const ear = mesh(G('pigear', () => new THREE.ConeGeometry(.08, .16, 8)), col, { thick: .006 }); ear.position.set(.45, .75, z * .14); ear.rotation.z = -.4; g.add(ear);
+  }
+  const legs = [];
+  for (const [x, z] of [[.28, .15], [.28, -.15], [-.28, .15], [-.28, -.15]]) { const L = new THREE.Group(); L.position.set(x, .25, z); const l = cyl(.06, .055, .22, col, { thick: .006 }); l.position.y = -.1; L.add(l); g.add(L); legs.push(L); }
+  const tail = mesh(G('pigtail', () => new THREE.TorusGeometry(.06, .015, 6, 12, Math.PI * 1.6)), col, { thick: .004 }); tail.position.set(-.5, .55, 0); tail.rotation.y = Math.PI / 2; g.add(tail);
+  g.scale.setScalar(s); const w = new THREE.Group(); w.add(g);
+  w.userData = { focus: .45 * s, size: 1.4 * s, emus: [{ b: g, neck: new THREE.Group(), head: new THREE.Group(), legs: [legs[0], legs[3]], ph: 0, quad: legs }] };
+  return w;
+};
+PROPS.potatoes = (o) => {
+  const g = new THREE.Group(), R = rng('pot'), w = o.w || 3, d = o.d || 2;
+  const soil = box(w, .06, d, '#7a5a3a', { outline: false, r: .01 }); soil.position.y = .03; g.add(soil);
+  for (let i = 0; i < (o.n || 30); i++) { const p = sph(.06 + R() * .03, '#c9a46a', { thick: .004 }); p.scale.y = .75; p.position.set((R() - .5) * w * .9, .09, (R() - .5) * d * .9); g.add(p); }
+  for (let i = 0; i < 10; i++) { const b = PROPS.bush({ s: .35, color: '#5a9a4a' }); b.position.set((R() - .5) * w * .9, 0, (R() - .5) * d * .9); g.add(b); }
+  g.userData = { focus: .15, size: w }; return g;
+};
+PROPS.ship = (o) => {
+  const g = new THREE.Group(), col = o.color || '#3a2a20', s = o.s || 1;
+  const hull = box(5, 1.1, 1.5, col, { r: .2 }); hull.position.y = .3; g.add(hull);
+  const stripe = box(5.02, .22, 1.52, o.stripe || '#e8d9b8', { r: .05, outline: false }); stripe.position.y = .5; g.add(stripe);
+  for (let i = 0; i < 6; i++) for (const z of [-.77, .77]) { const c = cyl(.06, .06, .25, '#1f1f22', { thick: .004 }); c.rotation.x = Math.PI / 2; c.position.set(-1.8 + i * .7, .5, z + Math.sign(z) * .08); g.add(c); }
+  const bow = mesh(G('bow', () => new THREE.ConeGeometry(.75, 1.4, 4)), col, { thick: .02 }); bow.rotation.z = -Math.PI / 2; bow.rotation.x = Math.PI / 4; bow.scale.set(1, 1, .75); bow.position.set(3.1, .35, 0); g.add(bow);
+  for (const [x, h] of [[-1.3, 3.2], [.6, 3.8]]) {
+    const m = cyl(.06, .08, h, '#6b4226'); m.position.set(x, .85 + h / 2, 0); g.add(m);
+    for (const k of [.35, .7]) { const sail = box(.05, h * .3, 1.4 - k * .5, '#f4efe4', { r: .02, thick: .008 }); sail.position.set(x + .05, .85 + h * k, 0); g.add(sail); }
+  }
+  if (o.flag) { const f = PROPS.flag({ country: o.flag, w: .6, h: .38, poleH: .4 }); f.position.set(.6, .85 + 3.8 - .2, 0); g.add(f); }
+  g.scale.setScalar(s); const w = new THREE.Group(); w.add(g);
+  w.userData = { focus: 1.5 * s, size: 6 * s }; return w;
+};
+PROPS.halo = (o) => { const g = new THREE.Group(); const h = mesh(G('halo', () => new THREE.TorusGeometry(.18, .025, 8, 24)), toon('#f6d65a', { emissive: '#f6d65a', ei: .8 }), { thick: .004 }); h.rotation.x = Math.PI / 2; h.position.y = o.y ?? 1; g.add(h); g.userData = { focus: o.y ?? 1, size: .6 }; return g; };
+PROPS.bigtext = (o) => PROPS.text(Object.assign({ w: 2.2, h: .5 }, o));
+
 // ---------------------------------------------------------------- sets
 function skyTexture(top, bottom) {
   return canvasTex(16, 512, (ctx, W, H) => { const gr = ctx.createLinearGradient(0, 0, 0, H); gr.addColorStop(0, top); gr.addColorStop(1, bottom); ctx.fillStyle = gr; ctx.fillRect(0, 0, W, H); });
@@ -1045,6 +1189,25 @@ SETS.farm = (o, scene) => {
   for (let i = 0; i < 10; i++) { const t = PROPS.tree({ s: .8 + R() * .5, color: '#7a9a4a' }); t.position.set(-20 + R() * 40, 0, -10 - R() * 10); scene.add(t); }
   return { floor: 0 };
 };
+SETS.sea = (o, scene) => {
+  const T = TIMES[o.time || 'day']; addLights(scene, T, Object.assign({ fogNear: 25, fogFar: 80 }, o));
+  const water = new THREE.Mesh(new THREE.PlaneGeometry(200, 200), toon(o.water || '#4f9ac9')); water.rotation.x = -Math.PI / 2; water.position.y = -.05; water.receiveShadow = true; scene.add(water);
+  const R = rng(o.seed || 'sea');
+  for (let i = 0; i < 60; i++) { const f = box(.6 + R(), .01, .06, '#a8d4ee', { outline: false, r: .004 }); f.position.set((R() - .5) * 40, -.03, (R() - .5) * 30); scene.add(f); }
+  if (o.banks) for (const z of [-1, 1]) { const b = box(200, .3, 40, o.grass || '#8cc06a', { outline: false, r: .05 }); b.position.set(0, .05, z * (o.banks + 20)); scene.add(b);
+    for (let i = 0; i < 25; i++) { const t = (R() < .5 ? PROPS.tree : PROPS.pine)({ s: .9 + R() * .6 }); t.position.set(-30 + R() * 60, .2, z * (o.banks + 1.5 + R() * 10)); scene.add(t); } }
+  for (let i = 0; i < 5; i++) { const h = mesh(G(`shill${i}`, () => new THREE.SphereGeometry(10 + i, 32, 16)), '#7aa860', { outline: false }); h.scale.y = .3; h.position.set(-40 + i * 20, -1, -55 - (i % 2) * 6); scene.add(h); }
+  return { floor: 0 };
+};
+SETS.jungle = (o, scene) => {
+  const T = TIMES[o.time || 'day']; addLights(scene, Object.assign({}, T, { fog: '#a8c89a' }), Object.assign({ fogNear: 8, fogFar: 26 }, o));
+  const ground = new THREE.Mesh(new THREE.PlaneGeometry(80, 80), toon(o.ground || '#4f7a3a')); ground.rotation.x = -Math.PI / 2; ground.receiveShadow = true; scene.add(ground);
+  const R = rng(o.seed || 'jungle');
+  for (let i = 0; i < 40; i++) { const x = (R() - .5) * 30, z = -2.5 - R() * 14; const p = PROPS.palm({ s: .9 + R() * .6 }); p.position.set(x, 0, z); p.rotation.y = R() * 6; scene.add(p); }
+  for (let i = 0; i < 50; i++) { const b = PROPS.bush({ s: .6 + R() * .8, color: R() < .5 ? '#3f7a3a' : '#2f6a35' }); b.position.set((R() - .5) * 26, 0, -1.6 - R() * 10); scene.add(b); }
+  for (let i = 0; i < 12; i++) { const b = PROPS.bush({ s: .5 + R() * .5 }); b.position.set((R() < .5 ? -1 : 1) * (2.2 + R() * 5), 0, (R() - .5) * 4); scene.add(b); }
+  return { floor: 0 };
+};
 SETS.space = (o, scene) => {
   addLights(scene, { hemi: ['#8090c0', '#202030', .9], sun: ['#fff', 2.6, [5, 3, 6]], sky: ['#05060f', '#141a3a'] });
   const stars = new THREE.BufferGeometry(); const R = rng('stars'), pts = [];
@@ -1110,12 +1273,18 @@ function updateProp(P, acts, t) {
     pa.needsUpdate = true; u.flag.geom.computeVertexNormals();
   }
   if (u.spin && spec.spin) u.spin.rotation.y = t * spec.spin;
+  if (u.propeller) u.propeller.rotation.x = t * 40;
+  if (u.leaflets) {
+    const st = acts.find(a => a.drop); const t0 = st ? st.t : (spec.dropAt ?? 1e9);
+    for (const L of u.leaflets) { const dt = Math.max(0, t - t0); const y = Math.max(.02, L.y0 - dt * L.sp); L.p.position.y = t < t0 ? -5 : y; L.p.rotation.set(y > .03 ? Math.sin(t * 3 + L.ph) * .8 : -Math.PI / 2, L.ph, y > .03 ? Math.cos(t * 2 + L.ph) * .6 : 0); L.p.position.x = L.x0 + (y > .03 ? Math.sin(t * 2 + L.ph) * .15 : 0); }
+  }
   if (u.emus) {
     const moving = acts.some(a => a.move && t >= a.t && t <= a.t + (a.dur ?? 1)) || spec.run;
     const peck = acts.some(a => a.peck && t >= a.t) || spec.peck;
     for (const e of u.emus) {
       const ph = t * 14 + e.ph;
       e.legs[0].rotation.z = moving ? Math.sin(ph) * .7 : 0; e.legs[1].rotation.z = moving ? -Math.sin(ph) * .7 : 0;
+      if (e.quad) e.quad.forEach((L, i) => { L.rotation.z = moving ? Math.sin(ph + (i === 1 || i === 2 ? Math.PI : 0)) * .6 : 0; });
       e.b.position.y = moving ? Math.abs(Math.sin(ph)) * .06 : 0;
       const pk = peck && !moving ? Math.max(0, Math.sin(t * 3 + e.ph)) : 0;
       e.neck.rotation.z = moving ? -.35 + Math.sin(ph * 2) * .05 : -pk * 1.3;

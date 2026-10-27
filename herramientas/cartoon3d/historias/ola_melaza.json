@@ -1,0 +1,1427 @@
+{
+ "_file": "ola_melaza",
+ "out": "Caricatura3D_5_ola_melaza",
+ "title": "La ola de melaza que inundó Boston (1919)",
+ "audio": "../audios/historia_5.m4a",
+ "look": {
+  "skin": "white"
+ },
+ "sources": [
+  "https://es.wikipedia.org/wiki/Inundación_de_melaza_de_Boston",
+  "https://en.wikipedia.org/wiki/Great_Molasses_Flood"
+ ],
+ "scenes": {
+  "boston": {
+   "set": {
+    "type": "street",
+    "time": "day",
+    "seed": "boston",
+    "palette": [
+     "#a8483a",
+     "#b9634a",
+     "#8a3a2e",
+     "#c9a07a",
+     "#9a5a42",
+     "#d6b48a"
+    ]
+   },
+   "actors": [
+    {
+     "id": "p1",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#3a2a20",
+      "shirt": "#5a4a6a",
+      "coat": "#4a3a2a",
+      "pants": "#3a3a40",
+      "mustache": true
+     },
+     "pos": [
+      -0.6,
+      0.1,
+      -2.0
+     ],
+     "rot": 20,
+     "expr": "neutral"
+    },
+    {
+     "id": "p2",
+     "look": {
+      "hair": "bun",
+      "hairColor": "#5a3a20",
+      "shirt": "#7a3a4a",
+      "dress": "#7a3a4a"
+     },
+     "pos": [
+      0.4,
+      0.1,
+      -2.1
+     ],
+     "rot": -15,
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "cal",
+     "type": "calendar",
+     "pos": [
+      -1.6,
+      0.1,
+      -2.3
+     ],
+     "post": true,
+     "y": 1.3,
+     "day": 15,
+     "month": "ENERO",
+     "year": "BOSTON · 1919"
+    },
+    {
+     "id": "termo",
+     "type": "gauge",
+     "pos": [
+      1.5,
+      0.1,
+      -2.4
+     ],
+     "y": 1.4,
+     "r": 0.38,
+     "value": 10,
+     "label": "°C"
+    }
+   ]
+  },
+  "puerto": {
+   "set": {
+    "type": "sea",
+    "seed": "puerto",
+    "banks": 4,
+    "grass": "#b9ab92"
+   },
+   "actors": [
+    {
+     "id": "p1",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#3a2a20",
+      "shirt": "#5a4a6a",
+      "coat": "#4a3a2a",
+      "pants": "#3a3a40",
+      "mustache": true
+     },
+     "pos": [
+      0.9,
+      0.2,
+      -5.0
+     ],
+     "rot": -10
+    },
+    {
+     "id": "p3",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#3a4a5a",
+      "shirt": "#8a7a5a",
+      "pants": "#4a4a4a",
+      "body": "wide"
+     },
+     "pos": [
+      0,
+      0.2,
+      -5.2
+     ],
+     "rot": 5
+    },
+    {
+     "id": "kid",
+     "look": {
+      "body": "kid",
+      "hair": "cap",
+      "hatColor": "#7a2a2a",
+      "shirt": "#c9a04a",
+      "pants": "#4a3a2a"
+     },
+     "pos": [
+      -0.8,
+      0.2,
+      -4.9
+     ],
+     "rot": 15
+    }
+   ],
+   "props": [
+    {
+     "id": "tanque",
+     "type": "tank",
+     "pos": [
+      0,
+      0.2,
+      -11
+     ],
+     "r": 2.4,
+     "h": 5.5,
+     "label": "MELAZA"
+    },
+    {
+     "id": "pum",
+     "type": "text",
+     "pos": [
+      0,
+      0.2,
+      -8.4
+     ],
+     "y": 4.4,
+     "w": 2.6,
+     "h": 0.6,
+     "text": "¡PUM! ¡PUM!",
+     "color": "#f2c230",
+     "hidden": true
+    },
+    {
+     "id": "ola",
+     "type": "wave",
+     "pos": [
+      0,
+      0.2,
+      -9
+     ],
+     "rot": -90,
+     "w": 5,
+     "h": 3.2,
+     "len": 3,
+     "hidden": true
+    },
+    {
+     "id": "carro",
+     "type": "cart",
+     "pos": [
+      3,
+      0.2,
+      -6
+     ],
+     "rot": -30,
+     "load": true
+    }
+   ]
+  },
+  "calle": {
+   "set": {
+    "type": "street",
+    "time": "day",
+    "seed": "calle",
+    "palette": [
+     "#a8483a",
+     "#b9634a",
+     "#8a3a2e",
+     "#c9a07a",
+     "#9a5a42",
+     "#d6b48a"
+    ],
+    "fogNear": 20,
+    "fogFar": 60
+   },
+   "actors": [
+    {
+     "id": "p1",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#3a2a20",
+      "shirt": "#5a4a6a",
+      "coat": "#4a3a2a",
+      "pants": "#3a3a40",
+      "mustache": true
+     },
+     "pos": [
+      0.5,
+      0.1,
+      -2.0
+     ],
+     "rot": 90,
+     "expr": "panic",
+     "pose": "up"
+    },
+    {
+     "id": "p2",
+     "look": {
+      "hair": "bun",
+      "hairColor": "#5a3a20",
+      "shirt": "#7a3a4a",
+      "dress": "#7a3a4a"
+     },
+     "pos": [
+      1.4,
+      0.1,
+      -2.2
+     ],
+     "rot": 90,
+     "expr": "shock",
+     "pose": "headhold"
+    },
+    {
+     "id": "kid",
+     "look": {
+      "body": "kid",
+      "hair": "cap",
+      "hatColor": "#7a2a2a",
+      "shirt": "#c9a04a",
+      "pants": "#4a3a2a"
+     },
+     "pos": [
+      1.0,
+      0.1,
+      -1.7
+     ],
+     "rot": 90,
+     "expr": "panic",
+     "pose": "up"
+    }
+   ],
+   "props": [
+    {
+     "id": "ola",
+     "type": "wave",
+     "pos": [
+      -14,
+      0,
+      -0.8
+     ],
+     "w": 6,
+     "h": 3.4,
+     "len": 8
+    },
+    {
+     "id": "carro",
+     "type": "cart",
+     "pos": [
+      3.5,
+      0,
+      1.0
+     ],
+     "load": true
+    },
+    {
+     "id": "tren",
+     "type": "elevated",
+     "pos": [
+      0,
+      0,
+      0.8
+     ],
+     "len": 30,
+     "h": 3.4,
+     "bent": true,
+     "hidden": true
+    }
+   ]
+  },
+  "num": {
+   "set": {
+    "type": "studio",
+    "color": "#e9dcc6"
+   },
+   "props": [
+    {
+     "id": "litros",
+     "type": "led",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "y": 1.5,
+     "value": 0,
+     "label": "LITROS",
+     "w": 1.7
+    },
+    {
+     "id": "tanque",
+     "type": "tank",
+     "pos": [
+      0,
+      0,
+      -2.4
+     ],
+     "r": 0.9,
+     "h": 2.0,
+     "label": "MELAZA"
+    },
+    {
+     "id": "vel",
+     "type": "gauge",
+     "pos": [
+      6,
+      0,
+      0
+     ],
+     "y": 1.2,
+     "r": 0.45,
+     "value": 0,
+     "label": "KM/H"
+    },
+    {
+     "id": "ola",
+     "type": "wave",
+     "pos": [
+      5.2,
+      0,
+      -1.6
+     ],
+     "w": 2,
+     "h": 1.2,
+     "len": 2
+    }
+   ]
+  },
+  "pegado": {
+   "set": {
+    "type": "street",
+    "time": "day",
+    "seed": "pegado",
+    "palette": [
+     "#a8483a",
+     "#b9634a",
+     "#8a3a2e",
+     "#c9a07a",
+     "#9a5a42",
+     "#d6b48a"
+    ]
+   },
+   "actors": [
+    {
+     "id": "p3",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#3a4a5a",
+      "shirt": "#8a7a5a",
+      "pants": "#4a4a4a",
+      "body": "wide"
+     },
+     "pos": [
+      0,
+      0.1,
+      -2.0
+     ],
+     "expr": "panic",
+     "pose": "up"
+    }
+   ],
+   "props": [
+    {
+     "id": "charco",
+     "type": "puddle",
+     "pos": [
+      0,
+      0.1,
+      -2.0
+     ],
+     "r": 1.4,
+     "h": 0.42
+    }
+   ]
+  },
+  "luto": {
+   "set": {
+    "type": "studio",
+    "color": "#b9b2a8"
+   },
+   "actors": [
+    {
+     "id": "p1",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#3a2a20",
+      "shirt": "#5a4a6a",
+      "coat": "#4a3a2a",
+      "pants": "#3a3a40",
+      "mustache": true
+     },
+     "pos": [
+      -0.7,
+      0,
+      0.3
+     ],
+     "rot": 20,
+     "expr": "sad",
+     "head": [
+      0,
+      18
+     ]
+    },
+    {
+     "id": "p2",
+     "look": {
+      "hair": "bun",
+      "hairColor": "#5a3a20",
+      "shirt": "#7a3a4a",
+      "dress": "#7a3a4a"
+     },
+     "pos": [
+      0.7,
+      0,
+      0.3
+     ],
+     "rot": -20,
+     "expr": "sad",
+     "head": [
+      0,
+      18
+     ]
+    }
+   ],
+   "props": [
+    {
+     "id": "v",
+     "type": "led",
+     "pos": [
+      0,
+      0,
+      -0.6
+     ],
+     "y": 2.15,
+     "value": 0,
+     "label": "MUERTOS",
+     "w": 1.3
+    },
+    {
+     "id": "h",
+     "type": "led",
+     "pos": [
+      0,
+      0,
+      -0.6
+     ],
+     "y": 1.0,
+     "value": 0,
+     "label": "HERIDOS",
+     "w": 1.3
+    }
+   ]
+  },
+  "limpieza": {
+   "set": {
+    "type": "street",
+    "time": "day",
+    "seed": "limpieza",
+    "palette": [
+     "#a8483a",
+     "#b9634a",
+     "#8a3a2e",
+     "#c9a07a",
+     "#9a5a42",
+     "#d6b48a"
+    ]
+   },
+   "actors": [
+    {
+     "id": "w1",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#5a5a5a",
+      "shirt": "#6a7a8a",
+      "pants": "#3a3a4a",
+      "vest": "#8a6a3a"
+     },
+     "pos": [
+      -0.6,
+      0.1,
+      -1.9
+     ],
+     "rot": 15,
+     "pose": "hold",
+     "expr": "sleepy"
+    },
+    {
+     "id": "w2",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#5a5a5a",
+      "shirt": "#6a7a8a",
+      "pants": "#3a3a4a",
+      "vest": "#8a6a3a",
+      "body": "wide"
+     },
+     "pos": [
+      0.6,
+      0.1,
+      -2.1
+     ],
+     "rot": -15,
+     "pose": "hold",
+     "expr": "nervous"
+    }
+   ],
+   "props": [
+    {
+     "id": "charco",
+     "type": "puddle",
+     "pos": [
+      0,
+      0.1,
+      -2.0
+     ],
+     "r": 2.2,
+     "h": 0.08
+    }
+   ]
+  },
+  "bahia": {
+   "set": {
+    "type": "sea",
+    "seed": "bahia",
+    "water": "#6a4a2a"
+   },
+   "props": [
+    {
+     "id": "tanque",
+     "type": "tank",
+     "pos": [
+      0,
+      0,
+      -14
+     ],
+     "r": 2,
+     "h": 4.5,
+     "label": "MELAZA"
+    },
+    {
+     "id": "barco",
+     "type": "ship",
+     "pos": [
+      4,
+      0,
+      -6
+     ],
+     "rot": -20,
+     "s": 0.8
+    }
+   ]
+  },
+  "olor": {
+   "set": {
+    "type": "street",
+    "time": "day",
+    "seed": "olor",
+    "palette": [
+     "#a8483a",
+     "#b9634a",
+     "#8a3a2e",
+     "#c9a07a",
+     "#9a5a42",
+     "#d6b48a"
+    ]
+   },
+   "actors": [
+    {
+     "id": "p2",
+     "look": {
+      "hair": "bun",
+      "hairColor": "#5a3a20",
+      "shirt": "#7a3a4a",
+      "dress": "#7a3a4a"
+     },
+     "pos": [
+      0,
+      0.1,
+      -1.9
+     ],
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "dulce",
+     "type": "text",
+     "pos": [
+      0,
+      0.1,
+      -1.6
+     ],
+     "y": 1.45,
+     "w": 1.8,
+     "h": 0.4,
+     "text": "~ dulce ~",
+     "color": "#f2c230",
+     "hidden": true
+    }
+   ]
+  },
+  "final": {
+   "set": {
+    "type": "street",
+    "time": "day",
+    "seed": "final",
+    "palette": [
+     "#a8483a",
+     "#b9634a",
+     "#8a3a2e",
+     "#c9a07a",
+     "#9a5a42",
+     "#d6b48a"
+    ],
+    "fogNear": 20,
+    "fogFar": 60
+   },
+   "actors": [
+    {
+     "id": "kid",
+     "look": {
+      "body": "kid",
+      "hair": "cap",
+      "hatColor": "#7a2a2a",
+      "shirt": "#c9a04a",
+      "pants": "#4a3a2a"
+     },
+     "pos": [
+      1,
+      0,
+      0
+     ],
+     "rot": 90,
+     "expr": "smug"
+    }
+   ],
+   "props": [
+    {
+     "id": "ola",
+     "type": "wave",
+     "pos": [
+      -8,
+      0,
+      0
+     ],
+     "w": 7,
+     "h": 3,
+     "len": 7
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "Es el 15 de enero de 1919, en Boston. Después de semanas de frío, de pronto, la temperatura sube.",
+   "shots": [
+    {
+     "scene": "boston",
+     "cam": {
+      "on": "cal",
+      "shot": "close",
+      "pitch": 3,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "boston",
+     "from": "Después",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       -2.0
+      ],
+      "dist": 5,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "p1",
+       "pose": "cross",
+       "expr": "nervous"
+      },
+      {
+       "at": 0,
+       "target": "p2",
+       "pose": "cross",
+       "expr": "nervous"
+      }
+     ]
+    },
+    {
+     "scene": "boston",
+     "from": "temperatura",
+     "cam": {
+      "on": "termo",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "sube",
+       "target": "termo",
+       "value": 55,
+       "dur": 0.8,
+       "ease": "back"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "En el puerto hay un tanque gigante, lleno de melaza: casi nueve millones de litros.",
+   "shots": [
+    {
+     "scene": "puerto",
+     "cam": {
+      "target": [
+       0,
+       2.5,
+       -9
+      ],
+      "dist": 14,
+      "yaw": 15,
+      "pitch": 4,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "puerto",
+     "from": "melaza",
+     "cam": {
+      "on": "tanque",
+      "shot": "medium",
+      "yaw": -10,
+      "pitch": -6,
+      "move": "rise"
+     }
+    },
+    {
+     "scene": "num",
+     "from": "nueve",
+     "cam": {
+      "on": "litros",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "nueve",
+       "target": "litros",
+       "value": 9000000,
+       "dur": 1.3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Al mediodía, los vecinos oyen un ruido como de ametralladora. Son los remaches del tanque, saltando uno por uno.",
+   "shots": [
+    {
+     "scene": "puerto",
+     "cam": {
+      "target": [
+       0,
+       0.9,
+       -5
+      ],
+      "dist": 4.6,
+      "yaw": 0,
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "ruido",
+       "target": "p1",
+       "expr": "surprised",
+       "head": [
+        0,
+        -20
+       ]
+      },
+      {
+       "on": "ruido",
+       "target": "p3",
+       "expr": "shock",
+       "head": [
+        0,
+        -20
+       ],
+       "lead": 0.05
+      },
+      {
+       "on": "ruido",
+       "target": "kid",
+       "expr": "surprised",
+       "head": [
+        0,
+        -20
+       ],
+       "lead": 0.1
+      }
+     ]
+    },
+    {
+     "scene": "puerto",
+     "from": "ametralladora",
+     "cam": {
+      "on": "kid",
+      "shot": "close",
+      "yaw": 10,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "ametralladora",
+       "target": "kid",
+       "pose": "headhold",
+       "expr": "panic"
+      }
+     ]
+    },
+    {
+     "scene": "puerto",
+     "from": "remaches",
+     "cam": {
+      "on": "tanque",
+      "shot": "close",
+      "yaw": 0,
+      "pitch": -4,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "remaches",
+       "target": "pum",
+       "pop": true,
+       "sfx": "thud"
+      },
+      {
+       "on": "saltando",
+       "target": "pum",
+       "pop": true,
+       "sfx": "thud"
+      },
+      {
+       "on": "uno",
+       "target": "pum",
+       "pop": true,
+       "sfx": "thud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y el tanque revienta.",
+   "shots": [
+    {
+     "scene": "puerto",
+     "cam": {
+      "target": [
+       0,
+       1.6,
+       -7
+      ],
+      "dist": 13,
+      "yaw": 10,
+      "pitch": 8,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "revienta",
+       "target": "ola",
+       "pop": true,
+       "sfx": "thud"
+      },
+      {
+       "on": "revienta",
+       "target": "pum",
+       "hide": true
+      },
+      {
+       "on": "revienta",
+       "target": "ola",
+       "move": [
+        0,
+        0.2,
+        -3
+       ],
+       "dur": 1.5,
+       "ease": "linear",
+       "lead": -0.1
+      },
+      {
+       "on": "revienta",
+       "target": "p1",
+       "pose": "headhold",
+       "expr": "panic"
+      },
+      {
+       "on": "revienta",
+       "target": "p3",
+       "pose": "up",
+       "expr": "panic"
+      },
+      {
+       "on": "revienta",
+       "target": "kid",
+       "pose": "up",
+       "expr": "shock"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Una ola de melaza de casi ocho metros de alto sale disparada por las calles, a unos 55 kilómetros por hora.",
+   "shots": [
+    {
+     "scene": "calle",
+     "cam": {
+      "target": [
+       -3,
+       1.4,
+       -1.0
+      ],
+      "dist": 16,
+      "yaw": 25,
+      "pitch": 10,
+      "move": "pan"
+     },
+     "do": [
+      {
+       "at": -0.2,
+       "target": "ola",
+       "move": [
+        1,
+        0,
+        -0.5
+       ],
+       "dur": 3.5,
+       "ease": "linear",
+       "sfx": "whoosh"
+      },
+      {
+       "at": 0.3,
+       "target": "p1",
+       "move": [
+        8,
+        0.1,
+        -2.0
+       ],
+       "dur": 3,
+       "ease": "linear"
+      },
+      {
+       "at": 0.4,
+       "target": "p2",
+       "move": [
+        8.5,
+        0.1,
+        -2.2
+       ],
+       "dur": 3,
+       "ease": "linear"
+      },
+      {
+       "at": 0.35,
+       "target": "kid",
+       "move": [
+        8,
+        0.1,
+        -1.7
+       ],
+       "dur": 3,
+       "ease": "linear"
+      }
+     ]
+    },
+    {
+     "scene": "calle",
+     "from": "calles",
+     "cam": {
+      "on": "p1",
+      "shot": "medium",
+      "yaw": 70,
+      "move": "pan"
+     }
+    },
+    {
+     "scene": "num",
+     "from": "55",
+     "cam": {
+      "on": "vel",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "55",
+       "target": "vel",
+       "value": 55,
+       "dur": 0.8,
+       "ease": "back"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Arrastra carretas, saca casas de sus cimientos y hasta tuerce las vigas del tren elevado.",
+   "shots": [
+    {
+     "scene": "calle",
+     "cam": {
+      "on": "carro",
+      "shot": "wide",
+      "yaw": 25,
+      "pitch": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ola",
+       "move": [
+        1,
+        0,
+        -0.5
+       ],
+       "dur": 0.01
+      },
+      {
+       "on": "carretas",
+       "target": "ola",
+       "move": [
+        5,
+        0,
+        -0.5
+       ],
+       "dur": 1.2,
+       "ease": "linear"
+      },
+      {
+       "on": "carretas",
+       "target": "carro",
+       "move": [
+        7,
+        0,
+        1.2
+       ],
+       "dur": 1.0,
+       "turn": 60,
+       "lead": -0.4
+      }
+     ]
+    },
+    {
+     "scene": "calle",
+     "from": "casas",
+     "cam": {
+      "target": [
+       2,
+       1.5,
+       -2.5
+      ],
+      "dist": 15,
+      "yaw": 30,
+      "pitch": 12,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "casas",
+       "target": "ola",
+       "move": [
+        7,
+        0,
+        -2.5
+       ],
+       "dur": 1.4,
+       "ease": "linear"
+      }
+     ]
+    },
+    {
+     "scene": "calle",
+     "from": "tuerce",
+     "cam": {
+      "target": [
+       0,
+       2.4,
+       0.8
+      ],
+      "dist": 9,
+      "yaw": 25,
+      "pitch": -6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "tren",
+       "show": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y lo peor: la melaza es tan espesa que quien cae en ella casi no puede moverse.",
+   "shots": [
+    {
+     "scene": "pegado",
+     "cam": {
+      "on": "p3",
+      "shot": "full",
+      "yaw": 10,
+      "pitch": 12,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "pegado",
+     "from": "espesa",
+     "cam": {
+      "target": [
+       0,
+       0.5,
+       -2.0
+      ],
+      "dist": 3.2,
+      "yaw": 30,
+      "pitch": 30,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "pegado",
+     "from": "cae",
+     "cam": {
+      "on": "p3",
+      "shot": "close",
+      "yaw": -10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "cae",
+       "target": "p3",
+       "pose": "headhold",
+       "expr": "worried"
+      },
+      {
+       "on": "moverse",
+       "target": "p3",
+       "jolt": true,
+       "expr": "panic",
+       "pose": "up"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Murieron 21 personas, y unas 150 quedaron heridas.",
+   "shots": [
+    {
+     "scene": "luto",
+     "cam": {
+      "on": "v",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "21",
+       "target": "v",
+       "value": 21,
+       "dur": 0.7
+      },
+      {
+       "on": "150",
+       "target": "h",
+       "value": 150,
+       "dur": 0.8
+      }
+     ]
+    },
+    {
+     "scene": "luto",
+     "from": "150",
+     "cam": {
+      "on": "h",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Limpiar la ciudad tomó semanas. El agua del puerto se quedó marrón durante meses.",
+   "shots": [
+    {
+     "scene": "limpieza",
+     "cam": {
+      "target": [
+       0,
+       0.7,
+       -2.0
+      ],
+      "dist": 4.4,
+      "yaw": 0,
+      "pitch": 12,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "limpieza",
+     "from": "semanas",
+     "cam": {
+      "on": "w1",
+      "shot": "close",
+      "yaw": 15,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "semanas",
+       "target": "w1",
+       "expr": "dizzy"
+      }
+     ]
+    },
+    {
+     "scene": "bahia",
+     "from": "agua",
+     "cam": {
+      "target": [
+       0,
+       1,
+       -8
+      ],
+      "dist": 14,
+      "yaw": 0,
+      "pitch": 14,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Y dicen que, en los días de calor, el barrio siguió oliendo a dulce durante décadas.",
+   "shots": [
+    {
+     "scene": "olor",
+     "cam": {
+      "on": "p2",
+      "shot": "medium",
+      "yaw": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "calor",
+       "target": "p2",
+       "pose": "think",
+       "expr": "skeptical"
+      }
+     ]
+    },
+    {
+     "scene": "olor",
+     "from": "oliendo",
+     "cam": {
+      "on": "p2",
+      "shot": "close",
+      "yaw": -10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "oliendo",
+       "target": "p2",
+       "expr": "joy",
+       "pose": "idle"
+      },
+      {
+       "on": "dulce",
+       "target": "dulce",
+       "pop": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "¿Te imaginas una ola de melaza persiguiéndote por la calle?",
+   "shots": [
+    {
+     "scene": "final",
+     "cam": {
+      "on": "kid",
+      "shot": "close",
+      "yaw": 60,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "kid",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "final",
+     "from": "persiguiéndote",
+     "cam": {
+      "target": [
+       0,
+       1.2,
+       0
+      ],
+      "dist": 10,
+      "yaw": 40,
+      "pitch": 6,
+      "move": "pull"
+     },
+     "do": [
+      {
+       "on": "persiguiéndote",
+       "target": "ola",
+       "move": [
+        3,
+        0,
+        0
+       ],
+       "dur": 2.5,
+       "ease": "linear"
+      },
+      {
+       "on": "persiguiéndote",
+       "target": "kid",
+       "expr": "panic",
+       "pose": "up",
+       "lookAt": [
+        -6,
+        1,
+        0
+       ]
+      },
+      {
+       "on": "calle",
+       "target": "kid",
+       "move": [
+        9,
+        0,
+        0
+       ],
+       "dur": 2,
+       "ease": "linear"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
