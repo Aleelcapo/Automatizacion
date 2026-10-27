@@ -565,6 +565,21 @@
      ]
     },
     {
+     "scene": "anos",
+     "from": "terminó",
+     "cam": {
+      "target": [
+       0,
+       0.85,
+       0.3
+      ],
+      "dist": 3.2,
+      "yaw": 0,
+      "pitch": 4,
+      "move": "crash"
+     }
+    },
+    {
      "scene": "selva",
      "from": "pero",
      "cam": {
@@ -690,6 +705,24 @@
         0.8,
         1
        ]
+      }
+     ]
+    },
+    {
+     "scene": "selva",
+     "from": "uniforme",
+     "cam": {
+      "on": "onoda",
+      "shot": "close",
+      "yaw": 25,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "uniforme",
+       "target": "onoda",
+       "expr": "determined",
+       "lookAt": "cam"
       }
      ]
     },

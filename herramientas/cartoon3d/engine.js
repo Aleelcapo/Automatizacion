@@ -366,7 +366,7 @@ class Character {
       const m = mesh(capGeom(1.07, Math.PI * .47), col); m.rotation.x = -.35; this.headG.add(m);
       const k = sph(.06, col); k.position.set(0, -r * .1, -r * .95); this.headG.add(k);
     } else if (H === 'crown' || H === 'crownlong') {
-      if (H === 'crownlong') { const rr = rng(this.spec?.id || 'w'); for (let i = 0; i < 16; i++) { const th = .9 + rr() * 1.1, ph = Math.PI * (.35 + rr() * 1.3); const b = sph(.07, look.hairColor || '#4a3020', { thick: .005 }); b.position.setFromSphericalCoords(r * 1.0, th, ph + Math.PI / 2); this.headG.add(b); } }
+      if (H === 'crownlong') { const rr = rng(this.spec?.id || 'w'); for (let i = 0; i < 16; i++) { const th = .8 + rr() * 1.2, ph = Math.PI + (rr() - .5) * Math.PI * 1.15; const b = sph(.07, look.hairColor || '#4a3020', { thick: .005 }); b.position.setFromSphericalCoords(r * 1.0, th, ph); this.headG.add(b); } }
       const c = cyl(r * .62, r * .55, r * .38, '#e0b84a', { seg: 10 }); c.position.y = r * .98; this.headG.add(c);
       for (let i = 0; i < 5; i++) { const a = i / 5 * Math.PI * 2; const pt = mesh(G('crownpt', () => new THREE.ConeGeometry(.03, .07, 6)), '#e0b84a', { thick: .004 }); pt.position.set(Math.sin(a) * r * .58, r * 1.24, Math.cos(a) * r * .58); this.headG.add(pt); }
       const gem = sph(.025, '#c62b2b', { outline: false }); gem.position.set(0, r * .98, r * .6); this.headG.add(gem);

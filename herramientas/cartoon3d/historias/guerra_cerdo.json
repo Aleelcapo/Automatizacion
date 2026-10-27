@@ -841,11 +841,7 @@
        "on": "encontró",
        "target": "cut",
        "expr": "surprised",
-       "lookAt": [
-        0.4,
-        0.4,
-        -0.5
-       ]
+       "lookAt": "cam"
       }
      ]
     },
@@ -924,7 +920,7 @@
      "cam": {
       "on": "cut",
       "shot": "medium",
-      "yaw": 40,
+      "yaw": 130,
       "move": "crash"
      },
      "do": [
@@ -1019,7 +1015,7 @@
      "scene": "dinero",
      "cam": {
       "target": [
-       0.2,
+       -0.2,
        1.0,
        0
       ],
@@ -1048,7 +1044,7 @@
      "from": "dueño",
      "cam": {
       "target": [
-       6.2,
+       5.8,
        1.0,
        0
       ],
@@ -1118,9 +1114,9 @@
        1.2,
        -1
       ],
-      "dist": 13,
+      "dist": 16,
       "yaw": 20,
-      "pitch": 8,
+      "pitch": 22,
       "move": "pan"
      },
      "do": [

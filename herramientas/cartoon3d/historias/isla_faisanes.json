@@ -78,9 +78,9 @@
      "id": "nombre",
      "type": "sign",
      "pos": [
-      -1.2,
+      -0.6,
       0.25,
-      0.6
+      1.5
      ],
      "text": [
       "ISLA DE LOS",
@@ -242,9 +242,9 @@
      "id": "isla",
      "type": "island",
      "pos": [
-      0.9,
+      -1.3,
       0,
-      -1.6
+      -1.8
      ],
      "r": 0.7,
      "trees": 2
@@ -309,7 +309,7 @@
       0
      ],
      "r": 2.2,
-     "trees": 2,
+     "trees": 0,
      "seed": "f"
     },
     {
@@ -355,6 +355,24 @@
      "day": 1659,
      "month": "NOVIEMBRE",
      "year": "ISLA DE LOS FAISANES"
+    },
+    {
+     "id": "t1",
+     "type": "tree",
+     "pos": [
+      -2.2,
+      0.25,
+      -1.2
+     ]
+    },
+    {
+     "id": "t2",
+     "type": "tree",
+     "pos": [
+      2.3,
+      0.25,
+      -1.0
+     ]
     }
    ]
   },
@@ -569,9 +587,9 @@
        0.5,
        -5
       ],
-      "dist": 10,
+      "dist": 12,
       "yaw": -15,
-      "pitch": 12,
+      "pitch": 30,
       "move": "push"
      }
     },
@@ -584,9 +602,9 @@
        0.5,
        5
       ],
-      "dist": 10,
+      "dist": 12,
       "yaw": 165,
-      "pitch": 12,
+      "pitch": 30,
       "move": "push"
      }
     },
@@ -612,11 +630,11 @@
       "target": [
        -0.6,
        0.6,
-       0.3
+       1.5
       ],
-      "dist": 4.2,
-      "yaw": 10,
-      "pitch": 12,
+      "dist": 3.6,
+      "yaw": 0,
+      "pitch": 18,
       "move": "push"
      },
      "do": [
