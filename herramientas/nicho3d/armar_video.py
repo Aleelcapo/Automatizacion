@@ -16,7 +16,8 @@ estilo = arg.get('--estilo', 'inter')
 FONTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'fuentes')
 
 # correcciones de la transcripción automática (palabra -> texto; una secuencia se reparte en el tiempo)
-FIX = {'cabas': 'cavas', 'UniGlue!': 'un iglú!', 'aguajote': 'ahuejote'}
+FIX = {'cabas': 'cavas', 'caban': 'cavan', 'UniGlue!': 'un iglú!', 'aguajote': 'ahuejote',
+       'elevadizo.': 'levadizo.', 'contravesaños.': 'con travesaños.', 'resvale': 'resbale', 'amaca,': 'hamaca,'}
 FIX_SEQ = [(('entre', 'octángulo'), ('en', 'rectángulo'))]
 
 raw = json.load(open(words_json))
