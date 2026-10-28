@@ -17,8 +17,9 @@ FONTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'fuentes'
 
 # correcciones de la transcripción automática (palabra -> texto; una secuencia se reparte en el tiempo)
 FIX = {'cabas': 'cavas', 'caban': 'cavan', 'UniGlue!': 'un iglú!', 'aguajote': 'ahuejote',
-       'elevadizo.': 'levadizo.', 'contravesaños.': 'con travesaños.', 'resvale': 'resbale', 'amaca,': 'hamaca,'}
-FIX_SEQ = [(('entre', 'octángulo'), ('en', 'rectángulo'))]
+       'elevadizo.': 'levadizo.', 'contravesaños.': 'con travesaños.', 'resvale': 'resbale', 'amaca,': 'hamaca,',
+       'hoyín': 'hollín', 'amarran': 'amarra', 'saleros': 'aleros'}
+FIX_SEQ = [(('entre', 'octángulo'), ('en', 'rectángulo')), (('vuelta', 'a', 'dormido'), ('vuelta', '', 'dormido'))]
 
 raw = json.load(open(words_json))
 i = 0
@@ -33,6 +34,8 @@ words = []
 for w in raw:
     t = FIX.get(w['w'], w['w'])
     parts = t.split()
+    if not parts:  # palabra eliminada por FIX_SEQ
+        continue
     d = (w['e'] - w['s']) / len(parts)
     for k, p in enumerate(parts):
         words.append((w['s'] + k * d, w['s'] + (k + 1) * d, p))
