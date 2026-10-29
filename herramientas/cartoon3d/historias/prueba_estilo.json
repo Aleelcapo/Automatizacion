@@ -1,0 +1,374 @@
+{
+ "out": "Prueba_estilo_2_5D",
+ "title": "Prueba de estilo 2.5D",
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+8%",
+ "look": {
+  "skin": "white",
+  "style": "bean"
+ },
+ "scenes": {
+  "hook": {
+   "set": {
+    "type": "farm",
+    "seed": "hook",
+    "time": "sunset",
+    "grass": "#a8b45a"
+   },
+   "props": [
+    {
+     "id": "mike",
+     "type": "chicken",
+     "headless": true,
+     "pos": [
+      -1.5,
+      0,
+      0.3
+     ],
+     "rot": -20,
+     "s": 1.1
+    },
+    {
+     "id": "coop",
+     "type": "house",
+     "pos": [
+      1.6,
+      0,
+      -3
+     ],
+     "w": 2,
+     "h": 1.2,
+     "wall": "#c9583a",
+     "roof": "#7a3a2a",
+     "lit": true
+    },
+    {
+     "id": "valla",
+     "type": "fence",
+     "pos": [
+      0,
+      0,
+      -1.4
+     ],
+     "len": 8
+    },
+    {
+     "id": "brillo",
+     "type": "sparkles",
+     "pos": [
+      0,
+      0,
+      0.3
+     ],
+     "y": 0.9,
+     "spread": 0.9,
+     "n": 12
+    }
+   ]
+  },
+  "num": {
+   "set": {
+    "type": "studio",
+    "color": "#5a3a6a"
+   },
+   "props": [
+    {
+     "id": "led",
+     "type": "led",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "y": 1.5,
+     "value": 0,
+     "suffix": " MESES",
+     "label": "VIVIÓ SIN CABEZA",
+     "w": 1.6
+    },
+    {
+     "id": "mike",
+     "type": "chicken",
+     "headless": true,
+     "pos": [
+      0.1,
+      0,
+      0.6
+     ],
+     "rot": -70,
+     "s": 0.9
+    },
+    {
+     "id": "brillo",
+     "type": "sparkles",
+     "pos": [
+      0,
+      0,
+      0.2
+     ],
+     "y": 1.5,
+     "spread": 1,
+     "n": 16
+    }
+   ]
+  },
+  "fecha": {
+   "set": {
+    "type": "farm",
+    "seed": "fecha",
+    "time": "sunset",
+    "grass": "#a8b45a"
+   },
+   "props": [
+    {
+     "id": "cal",
+     "type": "calendar",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "post": true,
+     "y": 1.25,
+     "day": 1945,
+     "month": "COLORADO",
+     "year": "EE. UU."
+    },
+    {
+     "id": "brillo",
+     "type": "sparkles",
+     "pos": [
+      0,
+      0,
+      0.2
+     ],
+     "y": 1.3,
+     "spread": 0.6,
+     "n": 8
+    }
+   ]
+  },
+  "granja": {
+   "set": {
+    "type": "farm",
+    "seed": "granja",
+    "time": "sunset",
+    "grass": "#a8b45a"
+   },
+   "actors": [
+    {
+     "id": "lloyd",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#8a5a32",
+      "shirt": "#d9a23a",
+      "mustache": true,
+      "hairColor": "#5a3a20",
+      "badge": false
+     },
+     "pos": [
+      -2.6,
+      0,
+      0.2
+     ],
+     "rot": 90,
+     "expr": "determined"
+    }
+   ],
+   "props": [
+    {
+     "id": "hacha",
+     "type": "axe",
+     "pos": [
+      -2.42,
+      0.25,
+      0.36
+     ],
+     "rz": 0.6
+    },
+    {
+     "id": "mike",
+     "type": "chicken",
+     "pos": [
+      1.0,
+      0,
+      0.2
+     ],
+     "rot": -150,
+     "peck": true
+    },
+    {
+     "id": "coop",
+     "type": "house",
+     "pos": [
+      1.8,
+      0,
+      -2.6
+     ],
+     "w": 2,
+     "h": 1.2,
+     "wall": "#c9583a",
+     "roof": "#7a3a2a",
+     "lit": true
+    },
+    {
+     "id": "valla",
+     "type": "fence",
+     "pos": [
+      0,
+      0,
+      -1.3
+     ],
+     "len": 8
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "Este pollo vivió dieciocho meses… sin cabeza.",
+   "shots": [
+    {
+     "scene": "hook",
+     "cam": {
+      "target": [
+       -1.0,
+       0.5,
+       0.3
+      ],
+      "dist": 4.2,
+      "yaw": 10,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "mike",
+       "move": [
+        -0.6,
+        0,
+        0.5
+       ],
+       "dur": 2.5,
+       "ease": "linear"
+      }
+     ]
+    },
+    {
+     "scene": "num",
+     "from": "dieciocho",
+     "cam": {
+      "on": "led",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "dieciocho",
+       "target": "led",
+       "value": 18,
+       "dur": 0.6
+      }
+     ]
+    },
+    {
+     "scene": "hook",
+     "from": "sin",
+     "cam": {
+      "target": [
+       -0.5,
+       0.7,
+       0.5
+      ],
+      "dist": 2.0,
+      "yaw": -5,
+      "pitch": 4,
+      "move": "crash"
+     }
+    }
+   ]
+  },
+  {
+   "text": "En 1945, en Colorado, un granjero salió a preparar la cena: un pollo llamado Mike.",
+   "shots": [
+    {
+     "scene": "fecha",
+     "cam": {
+      "on": "cal",
+      "shot": "close",
+      "pitch": 3,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "granja",
+     "from": "granjero",
+     "cam": {
+      "target": [
+       -1.4,
+       0.6,
+       0
+      ],
+      "dist": 4.0,
+      "yaw": 0,
+      "pitch": 5,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": -0.6,
+       "target": "lloyd",
+       "move": [
+        -1.3,
+        0,
+        0.2
+       ],
+       "dur": 1.6
+      },
+      {
+       "at": -0.6,
+       "target": "hacha",
+       "move": [
+        -1.12,
+        0.25,
+        0.36
+       ],
+       "dur": 1.6
+      }
+     ]
+    },
+    {
+     "scene": "granja",
+     "from": "preparar",
+     "cam": {
+      "on": "lloyd",
+      "shot": "close",
+      "yaw": 35,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "cena",
+       "target": "lloyd",
+       "expr": "smug",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "granja",
+     "from": "pollo",
+     "cam": {
+      "on": "mike",
+      "shot": "close",
+      "yaw": -20,
+      "pitch": 8,
+      "move": "push"
+     }
+    }
+   ]
+  }
+ ]
+}

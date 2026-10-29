@@ -1,0 +1,20 @@
+1
+00:00:00,252 --> 00:00:02,212
+Este pollo vivió dieciocho meses…
+
+2
+00:00:02,232 --> 00:00:03,153
+sin cabeza.
+
+3
+00:00:03,173 --> 00:00:05,958
+En 1945, en Colorado,
+
+4
+00:00:06,009 --> 00:00:08,076
+un granjero salió a preparar la cena:
+
+5
+00:00:08,104 --> 00:00:09,477
+un pollo llamado Mike.
+

@@ -19,11 +19,16 @@ const GRAD = (() => {
   const t = new THREE.DataTexture(new Uint8Array([105, 185, 255]), 3, 1, THREE.RedFormat);
   t.minFilter = t.magFilter = THREE.NearestFilter; t.needsUpdate = true; return t;
 })();
+const GRAD_FLAT = (() => {
+  const t = new THREE.DataTexture(new Uint8Array([150, 210, 255]), 3, 1, THREE.RedFormat);
+  t.minFilter = t.magFilter = THREE.NearestFilter; t.needsUpdate = true; return t;
+})();
+let FLAT = false;
 const matCache = new Map();
 function toon(color, opts = {}) {
   const key = JSON.stringify([color, opts.emissive || 0, opts.opacity || 1]);
   if (!opts.map && matCache.has(key)) return matCache.get(key);
-  const m = new THREE.MeshToonMaterial({ color: new THREE.Color(color), gradientMap: GRAD });
+  const m = new THREE.MeshToonMaterial({ color: new THREE.Color(color), gradientMap: FLAT ? GRAD_FLAT : GRAD });
   if (opts.emissive) { m.emissive = new THREE.Color(opts.emissive); m.emissiveIntensity = opts.ei ?? 1; }
   if (opts.opacity && opts.opacity < 1) { m.transparent = true; m.opacity = opts.opacity; m.depthWrite = false; }
   if (opts.map) { m.map = opts.map; return m; }
@@ -226,6 +231,23 @@ function drawFace(ctx, o) {
 }
 
 // ---------------------------------------------------------------- personajes
+const BEAN = {
+  average: { leg: .25, torso: .44, r: .15, head: .2, s: 1 },
+  tall: { leg: .3, torso: .5, r: .14, head: .2, s: 1 },
+  short: { leg: .2, torso: .4, r: .15, head: .2, s: .9 },
+  wide: { leg: .23, torso: .44, r: .185, head: .205, s: 1 },
+  kid: { leg: .18, torso: .34, r: .13, head: .19, s: .8 },
+  old: { leg: .22, torso: .42, r: .155, head: .2, s: .95 },
+};
+const INK = '#1d1515';
+function beanGeom(B) {
+  return G(`bean${B.r},${B.torso}`, () => {
+    const r = B.r, h = B.torso, pts = [];
+    const prof = [[0, -.02], [.55, -.015], [.85, .02], [.98, .1], [1, .3], [.95, .55], [.82, .78], [.6, .93], [.3, .995], [0, 1]];
+    for (const [x, y] of prof) pts.push(new THREE.Vector2(x * r, y * h));
+    const g = new THREE.LatheGeometry(pts, 32); g.computeVertexNormals(); return g;
+  });
+}
 const BODY = {
   average: { leg: .30, torso: .30, r: .12, head: .21, s: 1 },
   tall: { leg: .38, torso: .33, r: .115, head: .21, s: 1 },
@@ -281,8 +303,9 @@ class Character {
   constructor(spec, story) {
     const look = Object.assign({}, story.look || {}, spec.look || {});
     this.spec = spec; this.look = look;
-    const B = BODY[look.body || 'average'];
-    this.B = B;
+    const bean = (look.style || story.look?.style) === 'bean';
+    const B = (bean ? BEAN : BODY)[look.body || 'average'];
+    this.B = B; this.bean = bean;
     const skin = SKIN[look.skin] || look.skin || SKIN[story.look?.skin] || SKIN.white;
     this.skin = skin;
     const shirt = look.shirt || '#3f7fd0', pants = look.pants || '#3b3f4f';
@@ -293,22 +316,34 @@ class Character {
     this.legs = [];
     for (const s of [-1, 1]) {
       const g = new THREE.Group(); g.position.set(s * B.r * .48, 0, 0);
+      if (bean) {
+        g.position.x = s * B.r * .42;
+        const leg = cyl(.011, .011, B.leg, INK, { outline: false }); leg.position.y = -B.leg / 2 + .02; g.add(leg);
+        const shoe = sph(.032, look.shoes || INK, { outline: false }); shoe.scale.set(1.1, .5, 1.7); shoe.position.set(0, -B.leg + .02, .025); g.add(shoe);
+      } else {
       const leg = cyl(.034, .034, B.leg - .02, pants); leg.position.y = -(B.leg - .02) / 2; g.add(leg);
       const shoe = sph(.05, look.shoes || '#2a2424'); shoe.scale.set(1, .62, 1.55); shoe.position.set(0, -B.leg + .03, .03); g.add(shoe);
+      }
       this.hips.add(g); this.legs.push(g);
     }
     // torso
     this.torso = new THREE.Group(); this.hips.add(this.torso);
+    if (bean) {
+      const t = mesh(beanGeom(B), shirt, { thick: .011 }); t.scale.z = .82; this.torso.add(t);
+      if (look.badge !== false) { const bd = box(.055, .07, .01, '#f4efe4', { r: .008, thick: .003 }); bd.position.set(B.r * .38, B.torso * .5, B.r * .8); bd.rotation.y = .3; this.torso.add(bd);
+        const cord = cyl(.004, .004, .14, look.cord || '#c62b2b', { outline: false }); cord.position.set(B.r * .2, B.torso * .64, B.r * .78); cord.rotation.z = .5; this.torso.add(cord); }
+    } else {
     const cap = G(`cap${B.r},${B.torso}`, () => new THREE.CapsuleGeometry(B.r, Math.max(.01, B.torso - 2 * B.r), 8, 24));
     const t = mesh(cap, shirt); t.position.y = B.torso / 2; t.scale.z = .9; this.torso.add(t);
     const pg = G(`pants${B.r}`, () => new THREE.CylinderGeometry(B.r * 1.03, B.r * .9, .1, 24));
     const p = mesh(pg, pants); p.position.y = .045; p.scale.z = .92; this.torso.add(p);
+    }
     if (look.vest) { const v = mesh(G(`vest${B.r},${B.torso}`, () => new THREE.CylinderGeometry(B.r * 1.04, B.r * 1.06, B.torso * .5, 24)), look.vest); v.position.y = B.torso * .5; v.scale.z = .92; this.torso.add(v); }
     if (look.tie) { const tie = box(.04, .13, .02, look.tie, { r: .008, thick: .004 }); tie.position.set(0, B.torso * .62, B.r * .88); tie.rotation.x = -.18; this.torso.add(tie); }
     if (look.dress) { const d = mesh(G(`dress${B.r},${B.leg}`, () => new THREE.CylinderGeometry(B.r * 1.05, B.r * 1.7, B.leg * .85 + .1, 28, 1, true)), look.dress); d.material = d.material.clone(); d.material.side = THREE.DoubleSide; d.position.y = .05 - B.leg * .85 / 2; d.scale.z = .92; this.torso.add(d); }
     if (look.coat) { const c = mesh(G(`coat${B.r},${B.torso}`, () => new THREE.CylinderGeometry(B.r * 1.06, B.r * 1.25, B.torso * .9, 24, 1, true, .6, Math.PI * 2 - 1.2)), look.coat); c.material = c.material.clone(); c.material.side = THREE.DoubleSide; c.position.y = B.torso * .42; c.scale.z = .92; this.torso.add(c); }
     // cabeza
-    this.headG = new THREE.Group(); this.headG.position.y = B.torso + B.head * .78; this.torso.add(this.headG);
+    this.headG = new THREE.Group(); this.headG.position.y = B.torso + B.head * (bean ? .62 : .78); this.torso.add(this.headG);
     this.faceCanvas = document.createElement('canvas'); this.faceCanvas.width = 1024; this.faceCanvas.height = 512;
     this.faceTex = new THREE.CanvasTexture(this.faceCanvas); this.faceTex.colorSpace = THREE.SRGBColorSpace; this.faceTex.anisotropy = 8;
     const hg = G(`head${B.head}`, () => { const g = new THREE.SphereGeometry(B.head, 48, 32); g.rotateY(-Math.PI / 2); return g; });
@@ -320,13 +355,18 @@ class Character {
     const a = .115 * (B.torso / .3) ** .5, bl = .115 * (B.torso / .3) ** .5;
     for (const side of ['L', 'R']) {
       const s = side === 'L' ? 1 : -1;
-      const up = new THREE.Group(), fo = new THREE.Group(), hand = sph(.037, skin);
+      const up = new THREE.Group(), fo = new THREE.Group(), hand = bean ? sph(.022, INK, { outline: false }) : sph(.037, skin);
       const ug = G(`arm${a}`, () => { const g = new THREE.CapsuleGeometry(.028, a, 4, 12); g.translate(0, -a / 2, 0); return g; });
       const fg = G(`arm${bl}`, () => { const g = new THREE.CapsuleGeometry(.026, bl, 4, 12); g.translate(0, -bl / 2, 0); return g; });
+      if (bean) {
+        up.add(mesh(G(`barm${a}`, () => { const g = new THREE.CapsuleGeometry(.011, a, 3, 8); g.translate(0, -a / 2, 0); return g; }), INK, { outline: false }));
+        fo.add(mesh(G(`barm${bl}`, () => { const g = new THREE.CapsuleGeometry(.011, bl, 3, 8); g.translate(0, -bl / 2, 0); return g; }), INK, { outline: false }));
+      } else {
       up.add(mesh(ug, look.sleeves === 'short' ? skin : shirt, { thick: .006 }));
       fo.add(mesh(fg, look.sleeves === 'long' || !look.sleeves ? shirt : skin, { thick: .006 }));
+      }
       this.torso.add(up, fo, hand);
-      const S = new THREE.Vector3(s * B.r * .95, B.torso * .8, 0);
+      const S = bean ? new THREE.Vector3(s * B.r * .9, B.torso * .66, 0) : new THREE.Vector3(s * B.r * .95, B.torso * .8, 0);
       this.arms[side] = { up, fo, hand, S, a, b: bl };
     }
     this.lastFace = '';
@@ -1066,11 +1106,48 @@ PROPS.ship = (o) => {
 PROPS.halo = (o) => { const g = new THREE.Group(); const h = mesh(G('halo', () => new THREE.TorusGeometry(.18, .025, 8, 24)), toon('#f6d65a', { emissive: '#f6d65a', ei: .8 }), { thick: .004 }); h.rotation.x = Math.PI / 2; h.position.y = o.y ?? 1; g.add(h); g.userData = { focus: o.y ?? 1, size: .6 }; return g; };
 PROPS.bigtext = (o) => PROPS.text(Object.assign({ w: 2.2, h: .5 }, o));
 
+PROPS.sparkles = (o) => { // destellos que titilan
+  const g = new THREE.Group(), R = rng(o.seed || 'spk'), n = o.n || 14, sp = o.spread || 1;
+  const tex = canvasTex(64, 64, (ctx, W, H) => { const gr = ctx.createRadialGradient(32, 32, 0, 32, 32, 30); gr.addColorStop(0, 'rgba(255,250,220,1)'); gr.addColorStop(.25, 'rgba(255,220,120,.9)'); gr.addColorStop(1, 'rgba(255,200,80,0)'); ctx.fillStyle = gr; ctx.beginPath(); for (let i = 0; i < 8; i++) { const r = i % 2 ? 6 : 31, a = i * Math.PI / 4; ctx.lineTo(32 + Math.cos(a) * r, 32 + Math.sin(a) * r); } ctx.fill(); });
+  const mat = new THREE.MeshBasicMaterial({ map: tex, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending });
+  const items = [];
+  for (let i = 0; i < n; i++) { const m = new THREE.Mesh(G('spkp', () => new THREE.PlaneGeometry(.12, .12)), mat); m.position.set((R() - .5) * sp * 2, (o.y ?? 1) + (R() - .5) * sp, (R() - .5) * sp * .5); g.add(m); items.push({ m, ph: R() * 6, k: 2 + R() * 3, s: .6 + R() }); }
+  g.userData = { focus: o.y ?? 1, size: sp * 2.5, sparkles: items }; return g;
+};
+PROPS.chicken = (o) => {
+  const g = new THREE.Group(), s = o.s || 1, col = o.color || '#fbfaf5';
+  const body = sph(.24, col, { thick: .011 }); body.scale.set(1.15, .95, .9); body.position.y = .42; g.add(body);
+  const tail = mesh(G('ctail', () => new THREE.ConeGeometry(.12, .25, 10)), col, { thick: .008 }); tail.position.set(-.27, .55, 0); tail.rotation.z = .9; g.add(tail);
+  for (const z of [-1, 1]) { const w = sph(.13, col, { thick: .008 }); w.scale.set(1.2, .7, .35); w.position.set(-.02, .44, z * .2); g.add(w); }
+  const neck = new THREE.Group(); neck.position.set(.18, .55, 0); g.add(neck);
+  const nk = cyl(.07, .09, .18, col, { thick: .008 }); nk.position.y = .07; neck.add(nk);
+  const head = new THREE.Group(); head.position.set(.02, .2, 0); neck.add(head);
+  if (o.headless) { const stump = cyl(.072, .072, .02, '#d94a3a', { outline: false }); stump.position.y = .16; neck.add(stump); }
+  else {
+    head.add(sph(.1, col, { thick: .008 }));
+    const beak = mesh(G('cbeak', () => new THREE.ConeGeometry(.04, .1, 8)), '#f2a630', { thick: .005 }); beak.rotation.z = -Math.PI / 2; beak.position.set(.12, -.01, 0); head.add(beak);
+    for (let i = 0; i < 3; i++) { const c = sph(.035, '#d94a3a', { thick: .004 }); c.position.set(-.03 + i * .035, .1, 0); head.add(c); }
+    const wat = sph(.03, '#d94a3a', { outline: false }); wat.scale.y = 1.5; wat.position.set(.08, -.08, 0); head.add(wat);
+    for (const z of [-1, 1]) { const e = sph(.03, '#fff', { thick: .004 }); e.position.set(.05, .03, z * .075); head.add(e); const pu = sph(.016, '#111', { outline: false }); pu.position.set(.068, .03, z * .088); head.add(pu); }
+  }
+  const legs = [];
+  for (const z of [-.07, .07]) { const L = new THREE.Group(); L.position.set(0, .22, z); const l = cyl(.012, .012, .2, '#f2a630', { outline: false }); l.position.y = -.1; L.add(l); const f = box(.1, .015, .06, '#f2a630', { outline: false, r: .005 }); f.position.set(.03, -.2, 0); L.add(f); g.add(L); legs.push(L); }
+  g.scale.setScalar(s); const w = new THREE.Group(); w.add(g);
+  w.userData = { focus: .45 * s, size: .9 * s, emus: [{ b: g, neck, head, legs, ph: 0 }] }; return w;
+};
+PROPS.axe = (o) => {
+  const g = new THREE.Group();
+  const h = cyl(.018, .022, .6, '#8a5a32', { thick: .004 }); g.add(h);
+  const b = box(.16, .12, .02, '#b9c0c8', { r: .01, thick: .004 }); b.position.set(.06, .25, 0); g.add(b);
+  g.rotation.z = o.rz ?? .4; g.position.y = o.y ?? 0; const w = new THREE.Group(); w.add(g); w.userData = { focus: o.y ?? 0, size: .8 }; return w;
+};
+
 // ---------------------------------------------------------------- sets
 function skyTexture(top, bottom) {
   return canvasTex(16, 512, (ctx, W, H) => { const gr = ctx.createLinearGradient(0, 0, 0, H); gr.addColorStop(0, top); gr.addColorStop(1, bottom); ctx.fillStyle = gr; ctx.fillRect(0, 0, W, H); });
 }
 const TIMES = {
+  sunset: { sky: ['#e9875a', '#ffd9a0'], hemi: ['#ffd8b0', '#7a5a6a', 1.5], sun: ['#ffb070', 2.6, [-6, 4, 5]], fog: '#f2b890', win: '#ffd27a', lit: true },
   day: { sky: ['#7fc0ee', '#d7ecf7'], hemi: ['#d6ecff', '#8a7a62', 1.5], sun: ['#fff1dc', 2.6, [4, 8, 5]], fog: '#cfe4f0', win: '#9fc8e6', lit: false },
   dawn: { sky: ['#2b3a78', '#f2a07a'], hemi: ['#8c9be0', '#5a4058', 1.25], sun: ['#ffb27a', 2.2, [-6, 3, 4]], fog: '#b98d9a', win: '#ffd27a', lit: true },
   night: { sky: ['#0d1430', '#2c3a6a'], hemi: ['#5468a8', '#2a2440', 1.0], sun: ['#a8b8ff', 1.1, [3, 8, 4]], fog: '#26305a', win: '#ffd27a', lit: true },
@@ -1274,6 +1351,7 @@ function updateProp(P, acts, t) {
   }
   if (u.spin && spec.spin) u.spin.rotation.y = t * spec.spin;
   if (u.propeller) u.propeller.rotation.x = t * 40;
+  if (u.sparkles) for (const it of u.sparkles) { const k = Math.max(0, Math.sin(t * it.k + it.ph)); it.m.scale.setScalar(.2 + k * it.s); it.m.quaternion.copy(CAM.quaternion); }
   if (u.leaflets) {
     const st = acts.find(a => a.drop); const t0 = st ? st.t : (spec.dropAt ?? 1e9);
     for (const L of u.leaflets) { const dt = Math.max(0, t - t0); const y = Math.max(.02, L.y0 - dt * L.sp); L.p.position.y = t < t0 ? -5 : y; L.p.rotation.set(y > .03 ? Math.sin(t * 3 + L.ph) * .8 : -Math.PI / 2, L.ph, y > .03 ? Math.cos(t * 2 + L.ph) * .6 : 0); L.p.position.x = L.x0 + (y > .03 ? Math.sin(t * 2 + L.ph) * .15 : 0); }
@@ -1316,7 +1394,7 @@ function camState(S, c, p) {
     if (fs.length > 1) { const spread = Math.max(...fs.map(f => f.p.distanceTo(cen))); dist = Math.max(dist, (spread * 2 + 1.2) / .344); }
     target = new THREE.Vector3(cen.x, cen.y + y, cen.z);
   }
-  dist = lerpField('dist', dist ?? 3) * (c.distMul ?? 1);
+  dist = lerpField('dist', dist ?? 3) * (c.distMul ?? 1) * (FLAT && c.fov == null ? 1.7 : 1);
   const mv = c.move || 'drift';
   const mk = { drift: [.92, 4, 0, 0], push: [.78, 0, 0, 0], pull: [1.22, 0, 0, 0], orbitL: [.96, -14, 0, 0], orbitR: [.96, 14, 0, 0], rise: [.95, 0, 9, .15], fall: [1.0, 0, -8, -.1], pan: [1, 10, 0, 0], hold: [.985, 0, 0, 0], crash: [.55, 0, 0, 0] }[mv] || [.92, 4, 0, 0];
   const e = mv === 'crash' ? easeOut(p) : easeInOut(p);
@@ -1328,7 +1406,7 @@ function camState(S, c, p) {
     target.x + dist * Math.sin(yaw * D2R) * Math.cos(pitch * D2R),
     target.y + dist * Math.sin(pitch * D2R),
     target.z + dist * Math.cos(yaw * D2R) * Math.cos(pitch * D2R));
-  return { pos, target, fov: lerpField('fov', 34), roll: lerpField('roll', 0) };
+  return { pos, target, fov: lerpField('fov', FLAT ? 20 : 34), roll: lerpField('roll', 0) };
 }
 
 function drawCaption(t) {
@@ -1348,6 +1426,29 @@ function drawCaption(t) {
   ctx.fillStyle = '#ffffff'; ctx.fillText(txt, 0, 0);
   ctx.restore();
 }
+let BLOOM, BLOOMCTX, NOISE;
+function gradeFlat(frame) {
+  const W = OUT.width, H = OUT.height, ctx = OUTCTX;
+  if (!BLOOM) {
+    BLOOM = document.createElement('canvas'); BLOOM.width = W / 4; BLOOM.height = H / 4; BLOOMCTX = BLOOM.getContext('2d');
+    NOISE = document.createElement('canvas'); NOISE.width = NOISE.height = 256; const nc = NOISE.getContext('2d'); const id = nc.createImageData(256, 256);
+    const R = rng('grain'); for (let i = 0; i < id.data.length; i += 4) { const v = R() * 255; id.data[i] = id.data[i + 1] = id.data[i + 2] = v; id.data[i + 3] = 255; } nc.putImageData(id, 0, 0);
+  }
+  // resplandor: copia pequeña, desenfocada y solo con lo más brillante
+  BLOOMCTX.filter = 'brightness(1.25) contrast(1.6) blur(5px)'; BLOOMCTX.drawImage(R3.domElement, 0, 0, BLOOM.width, BLOOM.height); BLOOMCTX.filter = 'none';
+  ctx.save(); ctx.globalCompositeOperation = 'screen'; ctx.globalAlpha = .32; ctx.drawImage(BLOOM, 0, 0, W, H); ctx.restore();
+  // color: cálido arriba, frío abajo
+  ctx.save(); ctx.globalCompositeOperation = 'soft-light'; ctx.globalAlpha = .35;
+  const g = ctx.createLinearGradient(0, 0, 0, H); g.addColorStop(0, '#ffb070'); g.addColorStop(.6, '#ffe2c0'); g.addColorStop(1, '#4060a0');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H); ctx.restore();
+  // viñeta
+  const v = ctx.createRadialGradient(W / 2, H * .45, H * .25, W / 2, H * .5, H * .78);
+  v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(20,8,30,.5)'); ctx.fillStyle = v; ctx.fillRect(0, 0, W, H);
+  // grano
+  ctx.save(); ctx.globalCompositeOperation = 'overlay'; ctx.globalAlpha = .07;
+  const ox = (frame * 37) % 256, oy = (frame * 91) % 256;
+  ctx.translate(-ox, -oy); ctx.fillStyle = ctx.createPattern(NOISE, 'repeat'); ctx.fillRect(0, 0, W + 256, H + 256); ctx.restore();
+}
 function grade() {
   const W = OUT.width, H = OUT.height, ctx = OUTCTX;
   const g = ctx.createRadialGradient(W / 2, H / 2, H * .3, W / 2, H / 2, H * .75);
@@ -1356,7 +1457,7 @@ function grade() {
 }
 
 window.init = async (timeline) => {
-  TL = timeline; STORY = timeline.story;
+  TL = timeline; STORY = timeline.story; FLAT = STORY.look?.style === 'bean';
   await document.fonts.load('900 40px Montserrat'); await document.fonts.load('400 40px Anton'); await document.fonts.load('800 40px Montserrat');
   const W = timeline.width, H = timeline.height;
   R3 = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
@@ -1386,7 +1487,7 @@ window.renderFrame = (i, quality = .9) => {
   const sun = S.scene.userData.sun; if (sun) { const off = v3(sun.position.toArray()).sub(sun.target.position); sun.target.position.copy(c.target); sun.position.copy(c.target).add(off); }
   R3.render(S.scene, CAM);
   OUTCTX.drawImage(R3.domElement, 0, 0);
-  grade();
+  if (FLAT) gradeFlat(i); else grade();
   drawCaption(t);
   return OUT.toDataURL('image/jpeg', quality);
 };
