@@ -29,8 +29,13 @@ i = 0
 while i < len(raw):
     for a, b in FIX_SEQ:
         if tuple(x['w'].strip(',.!¡?¿') for x in raw[i:i + len(a)]) == a:
-            for x, nw in zip(raw[i:i + len(a)], b):
-                x['w'] = x['w'].replace(x['w'].strip(',.!¡?¿'), nw)
+            for j, (x, nw) in enumerate(zip(raw[i:i + len(a)], b)):
+                core = x['w'].strip(',.!¡?¿')
+                if nw == '' and j > 0:   # palabra eliminada: su puntuación pasa a la anterior
+                    raw[i + j - 1]['w'] += x['w'].replace(core, '', 1)
+                    x['w'] = ''
+                else:
+                    x['w'] = x['w'].replace(core, nw)
     i += 1
 
 words = []
