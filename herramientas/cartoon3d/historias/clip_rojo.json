@@ -1,0 +1,1041 @@
+{
+ "out": "Caricatura3D_14_clip_rojo",
+ "title": "El clip rojo que se convirtió en una casa (2006)",
+ "audio": "../audios/historia_14.m4a",
+ "look": {
+  "skin": "white",
+  "style": "bean"
+ },
+ "sources": [
+  "https://es.wikipedia.org/wiki/Kyle_MacDonald",
+  "https://en.wikipedia.org/wiki/One_red_paperclip"
+ ],
+ "scenes": {
+  "mesa": {
+   "set": {
+    "type": "studio",
+    "color": "#f2d9b0"
+   },
+   "actors": [
+    {
+     "id": "kyle",
+     "look": {
+      "hair": "curly",
+      "hairColor": "#3a2414",
+      "shirt": "#e0322f",
+      "badge": false
+     },
+     "pos": [
+      -0.75,
+      0,
+      0.1
+     ],
+     "rot": 30,
+     "expr": "smile"
+    },
+    {
+     "id": "otro",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#2f5fa8",
+      "shirt": "#4f8a5a",
+      "badge": false
+     },
+     "pos": [
+      0.75,
+      0,
+      0.1
+     ],
+     "rot": -30,
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "mesa",
+     "type": "table",
+     "pos": [
+      0,
+      0,
+      0.2
+     ],
+     "w": 1.0,
+     "d": 0.6,
+     "h": 0.45,
+     "color": "#8a5a36"
+    },
+    {
+     "id": "brillo",
+     "type": "sparkles",
+     "pos": [
+      0,
+      0,
+      0.3
+     ],
+     "y": 0.8,
+     "n": 10,
+     "spread": 0.4
+    },
+    {
+     "id": "clip",
+     "type": "paperclip",
+     "pos": [
+      0,
+      0,
+      0.25
+     ],
+     "s": 0.38,
+     "y": 0.48
+    },
+    {
+     "id": "pluma",
+     "type": "trade",
+     "pos": [
+      0,
+      0,
+      0.25
+     ],
+     "kind": "pen",
+     "y": 0.6,
+     "hidden": true
+    },
+    {
+     "id": "pomo",
+     "type": "trade",
+     "pos": [
+      0,
+      0,
+      0.25
+     ],
+     "kind": "knob",
+     "y": 0.62,
+     "hidden": true
+    },
+    {
+     "id": "estufa",
+     "type": "trade",
+     "pos": [
+      0,
+      0,
+      0.25
+     ],
+     "kind": "stove",
+     "y": 0.6,
+     "hidden": true
+    },
+    {
+     "id": "gen",
+     "type": "trade",
+     "pos": [
+      0,
+      0,
+      0.25
+     ],
+     "kind": "generator",
+     "y": 0.68,
+     "hidden": true
+    }
+   ]
+  },
+  "casa": {
+   "set": {
+    "type": "farm",
+    "seed": "kip",
+    "time": "sunset",
+    "grass": "#9ab45a"
+   },
+   "actors": [
+    {
+     "id": "kyle",
+     "look": {
+      "hair": "curly",
+      "hairColor": "#3a2414",
+      "shirt": "#e0322f",
+      "badge": false
+     },
+     "pos": [
+      0.6,
+      0,
+      0.6
+     ],
+     "rot": -15,
+     "expr": "joy"
+    }
+   ],
+   "props": [
+    {
+     "id": "casa",
+     "type": "house",
+     "pos": [
+      -0.4,
+      0,
+      -1.6
+     ],
+     "w": 2.4,
+     "h": 1.5,
+     "wall": "#e8dcc4",
+     "roof": "#2f5fa8",
+     "lit": true
+    },
+    {
+     "id": "clip",
+     "type": "paperclip",
+     "pos": [
+      1.1,
+      0,
+      0.4
+     ],
+     "s": 0.3,
+     "y": 0.55
+    },
+    {
+     "id": "cartel",
+     "type": "sign",
+     "pos": [
+      1.5,
+      0,
+      -0.4
+     ],
+     "text": [
+      "KIPLING"
+     ],
+     "bg": "#2f7d4a",
+     "w": 0.8,
+     "h": 0.3,
+     "postH": 0.8
+    },
+    {
+     "id": "brillo",
+     "type": "sparkles",
+     "pos": [
+      -0.4,
+      0,
+      -1.0
+     ],
+     "y": 1.4,
+     "n": 16,
+     "spread": 1.4
+    }
+   ]
+  },
+  "blog": {
+   "set": {
+    "type": "room",
+    "wall": "#8ac9b0",
+    "wall2": "#7ab9a0",
+    "floor": "#8a5a36",
+    "rug": "#e0322f",
+    "sofa": false
+   },
+   "actors": [
+    {
+     "id": "kyle",
+     "look": {
+      "hair": "curly",
+      "hairColor": "#3a2414",
+      "shirt": "#e0322f",
+      "badge": false
+     },
+     "pos": [
+      -0.7,
+      0,
+      0.2
+     ],
+     "rot": 30,
+     "expr": "happy"
+    }
+   ],
+   "props": [
+    {
+     "id": "tv",
+     "type": "tv",
+     "pos": [
+      0.4,
+      0,
+      -0.6
+     ],
+     "y": 0.45,
+     "text": "BLOG\nUN CLIP ROJO",
+     "bg": "#f4efe4",
+     "fg": "#e0322f"
+    },
+    {
+     "id": "seg",
+     "type": "led",
+     "pos": [
+      6,
+      0,
+      0
+     ],
+     "y": 1.5,
+     "value": 10,
+     "label": "SEGUIDORES",
+     "w": 1.6
+    }
+   ]
+  },
+  "monton": {
+   "set": {
+    "type": "studio",
+    "color": "#3a5a8a"
+   },
+   "props": [
+    {
+     "id": "fiesta",
+     "type": "text",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "y": 1.9,
+     "w": 1.6,
+     "h": 0.4,
+     "text": "¡FIESTA!",
+     "color": "#f2c230",
+     "hidden": true
+    },
+    {
+     "id": "moto",
+     "type": "trade",
+     "kind": "snowmobile",
+     "pos": [
+      -0.4,
+      0,
+      0.3
+     ],
+     "y": 1.3,
+     "hidden": true
+    },
+    {
+     "id": "viaje",
+     "type": "text",
+     "pos": [
+      0.3,
+      0,
+      0.2
+     ],
+     "y": 0.95,
+     "w": 1.4,
+     "h": 0.36,
+     "text": "VIAJE",
+     "color": "#ffffff",
+     "hidden": true
+    },
+    {
+     "id": "camioneta",
+     "type": "car",
+     "pos": [
+      0,
+      0,
+      -0.6
+     ],
+     "color": "#e8dcc4",
+     "hidden": true,
+     "scale": 0.6
+    },
+    {
+     "id": "disco",
+     "type": "trade",
+     "kind": "disc",
+     "pos": [
+      0.5,
+      0,
+      0.6
+     ],
+     "y": 0.6,
+     "hidden": true
+    },
+    {
+     "id": "brillo",
+     "type": "sparkles",
+     "pos": [
+      0,
+      0,
+      0.3
+     ],
+     "y": 1.2,
+     "n": 16,
+     "spread": 1
+    }
+   ]
+  },
+  "peli": {
+   "set": {
+    "type": "studio",
+    "color": "#2a2a3a"
+   },
+   "actors": [
+    {
+     "id": "kyle",
+     "look": {
+      "hair": "curly",
+      "hairColor": "#3a2414",
+      "shirt": "#e0322f",
+      "badge": false
+     },
+     "pos": [
+      -0.5,
+      0,
+      0.2
+     ],
+     "rot": 20,
+     "expr": "surprised"
+    }
+   ],
+   "props": [
+    {
+     "id": "claqueta",
+     "type": "trade",
+     "kind": "clapper",
+     "pos": [
+      0.4,
+      0,
+      0.3
+     ],
+     "y": 1.0,
+     "hidden": true
+    },
+    {
+     "id": "brillo",
+     "type": "sparkles",
+     "pos": [
+      0.4,
+      0,
+      0.3
+     ],
+     "y": 1.0,
+     "n": 10,
+     "spread": 0.5
+    }
+   ]
+  },
+  "num": {
+   "set": {
+    "type": "studio",
+    "color": "#f2d9b0"
+   },
+   "props": [
+    {
+     "id": "cal",
+     "type": "calendar",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "post": true,
+     "y": 1.25,
+     "day": 2005,
+     "month": "CANADÁ",
+     "year": "KYLE MACDONALD"
+    },
+    {
+     "id": "inter",
+     "type": "led",
+     "pos": [
+      6,
+      0,
+      0
+     ],
+     "y": 1.5,
+     "value": 0,
+     "label": "INTERCAMBIOS",
+     "w": 1.4
+    },
+    {
+     "id": "clip",
+     "type": "paperclip",
+     "pos": [
+      6,
+      0,
+      0.4
+     ],
+     "s": 0.3,
+     "y": 0.4
+    }
+   ]
+  },
+  "final": {
+   "set": {
+    "type": "studio",
+    "color": "#f2d9b0"
+   },
+   "actors": [
+    {
+     "id": "kyle",
+     "look": {
+      "hair": "curly",
+      "hairColor": "#3a2414",
+      "shirt": "#e0322f",
+      "badge": false
+     },
+     "pos": [
+      -0.3,
+      0,
+      0.2
+     ],
+     "rot": 10,
+     "lookAt": "cam",
+     "expr": "smile"
+    }
+   ],
+   "props": [
+    {
+     "id": "clip",
+     "type": "paperclip",
+     "pos": [
+      0.55,
+      0,
+      0.4
+     ],
+     "s": 0.35,
+     "y": 0.6
+    },
+    {
+     "id": "brillo",
+     "type": "sparkles",
+     "pos": [
+      0.55,
+      0,
+      0.4
+     ],
+     "y": 0.8,
+     "n": 8,
+     "spread": 0.3
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "Este clip rojo se convirtió en una casa. Y no es magia.",
+   "shots": [
+    {
+     "scene": "final",
+     "cam": {
+      "target": [
+       0.55,
+       0.75,
+       0.4
+      ],
+      "dist": 1.3,
+      "yaw": 0,
+      "pitch": 3,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "casa",
+     "from": "casa",
+     "cam": {
+      "target": [
+       -0.2,
+       0.9,
+       -1.0
+      ],
+      "dist": 5,
+      "yaw": 5,
+      "pitch": 6,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "casa",
+     "from": "magia",
+     "cam": {
+      "on": "kyle",
+      "shot": "close",
+      "yaw": -15,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "magia",
+       "target": "kyle",
+       "pose": "shrug",
+       "expr": "smug",
+       "lookAt": "cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "En 2005, un canadiense llamado Kyle MacDonald tuvo una idea: cambiar un clip por algo un poco mejor… y repetirlo hasta llegar a una casa.",
+   "shots": [
+    {
+     "scene": "num",
+     "cam": {
+      "on": "cal",
+      "shot": "close",
+      "pitch": 3,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "blog",
+     "from": "Kyle",
+     "cam": {
+      "on": "kyle",
+      "shot": "medium",
+      "yaw": 15,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "idea",
+       "target": "kyle",
+       "pose": "think",
+       "expr": "starstruck"
+      }
+     ]
+    },
+    {
+     "scene": "mesa",
+     "from": "cambiar",
+     "cam": {
+      "target": [
+       0,
+       0.6,
+       0.2
+      ],
+      "dist": 3.2,
+      "yaw": 0,
+      "pitch": 8,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "cambiar",
+       "target": "kyle",
+       "pose": "present"
+      }
+     ]
+    },
+    {
+     "scene": "casa",
+     "from": "repetirlo",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       -0.6
+      ],
+      "dist": 4.4,
+      "yaw": -10,
+      "pitch": 6,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Primero cambió el clip por una pluma con forma de pez.",
+   "shots": [
+    {
+     "scene": "mesa",
+     "cam": {
+      "target": [
+       0,
+       0.6,
+       0.25
+      ],
+      "dist": 1.4,
+      "yaw": 0,
+      "pitch": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "pluma",
+       "target": "clip",
+       "hide": true,
+       "sfx": "whoosh"
+      },
+      {
+       "on": "pluma",
+       "target": "pluma",
+       "pop": true
+      }
+     ]
+    },
+    {
+     "scene": "mesa",
+     "from": "pez",
+     "cam": {
+      "on": "otro",
+      "shot": "close",
+      "yaw": -25,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "pez",
+       "target": "otro",
+       "pose": "thumbs",
+       "expr": "happy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "La pluma, por un pomo de puerta. El pomo, por una estufa de campamento.",
+   "shots": [
+    {
+     "scene": "mesa",
+     "cam": {
+      "target": [
+       0,
+       0.6,
+       0.25
+      ],
+      "dist": 1.4,
+      "yaw": 0,
+      "pitch": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "pomo",
+       "target": "pluma",
+       "hide": true,
+       "sfx": "whoosh"
+      },
+      {
+       "on": "pomo",
+       "target": "pomo",
+       "pop": true
+      }
+     ]
+    },
+    {
+     "scene": "mesa",
+     "from": "estufa",
+     "cam": {
+      "target": [
+       0,
+       0.6,
+       0.25
+      ],
+      "dist": 1.7,
+      "yaw": 10,
+      "pitch": 12,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "estufa",
+       "target": "pomo",
+       "hide": true,
+       "sfx": "whoosh"
+      },
+      {
+       "on": "estufa",
+       "target": "estufa",
+       "pop": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y la estufa, por un generador eléctrico.",
+   "shots": [
+    {
+     "scene": "mesa",
+     "cam": {
+      "target": [
+       0,
+       0.65,
+       0.25
+      ],
+      "dist": 2.0,
+      "yaw": -10,
+      "pitch": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "generador",
+       "target": "estufa",
+       "hide": true,
+       "sfx": "whoosh"
+      },
+      {
+       "on": "generador",
+       "target": "gen",
+       "pop": true
+      },
+      {
+       "on": "eléctrico",
+       "target": "kyle",
+       "pose": "cheer",
+       "expr": "joy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Cada intercambio lo contaba en su blog, y cada vez lo seguía más gente, esperando el siguiente cambio.",
+   "shots": [
+    {
+     "scene": "blog",
+     "cam": {
+      "target": [
+       0,
+       0.7,
+       -0.2
+      ],
+      "dist": 3.6,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "blog",
+       "target": "kyle",
+       "pose": "present",
+       "expr": "happy"
+      }
+     ]
+    },
+    {
+     "scene": "blog",
+     "from": "seguía",
+     "cam": {
+      "on": "seg",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "seguía",
+       "target": "seg",
+       "value": 1000000,
+       "dur": 2.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Después vinieron una fiesta, una moto de nieve, un viaje, una camioneta, un contrato para grabar un disco…",
+   "shots": [
+    {
+     "scene": "monton",
+     "cam": {
+      "target": [
+       0,
+       1.2,
+       0
+      ],
+      "dist": 4.2,
+      "yaw": 0,
+      "pitch": 2,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "fiesta",
+       "target": "fiesta",
+       "pop": true
+      },
+      {
+       "on": "moto",
+       "target": "moto",
+       "pop": true
+      },
+      {
+       "on": "viaje",
+       "target": "viaje",
+       "pop": true
+      },
+      {
+       "on": "camioneta",
+       "target": "camioneta",
+       "pop": true
+      },
+      {
+       "on": "disco",
+       "target": "disco",
+       "pop": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Hasta que alguien le ofreció un pequeño papel en una película.",
+   "shots": [
+    {
+     "scene": "peli",
+     "cam": {
+      "on": "kyle",
+      "shot": "close",
+      "yaw": 10,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "peli",
+     "from": "película",
+     "cam": {
+      "target": [
+       0,
+       0.9,
+       0.2
+      ],
+      "dist": 3.0,
+      "yaw": 0,
+      "pitch": 4,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "película",
+       "target": "claqueta",
+       "pop": true,
+       "sfx": "thud"
+      },
+      {
+       "on": "película",
+       "target": "kyle",
+       "pose": "up",
+       "expr": "starstruck"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y un pueblo de Canadá, llamado Kipling, quiso ese papel para uno de sus vecinos. A cambio, le dio una casa.",
+   "shots": [
+    {
+     "scene": "casa",
+     "cam": {
+      "on": "cartel",
+      "shot": "medium",
+      "pitch": 4,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "casa",
+     "from": "vecinos",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       -0.4
+      ],
+      "dist": 4.4,
+      "yaw": 10,
+      "pitch": 6,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "casa",
+     "from": "casa",
+     "cam": {
+      "target": [
+       -0.4,
+       1.0,
+       -1.4
+      ],
+      "dist": 4.6,
+      "yaw": 0,
+      "pitch": 4,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "casa",
+       "target": "kyle",
+       "pose": "cheer",
+       "expr": "joy",
+       "jump": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Catorce intercambios. Un año. Y todo empezó con un clip.",
+   "shots": [
+    {
+     "scene": "num",
+     "cam": {
+      "on": "inter",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Catorce",
+       "target": "inter",
+       "value": 14,
+       "dur": 0.8
+      }
+     ]
+    },
+    {
+     "scene": "final",
+     "from": "clip",
+     "cam": {
+      "target": [
+       0.55,
+       0.75,
+       0.4
+      ],
+      "dist": 1.3,
+      "yaw": 0,
+      "pitch": 3,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "¿Tú qué habrías pedido por un clip rojo?",
+   "shots": [
+    {
+     "scene": "final",
+     "cam": {
+      "target": [
+       0.1,
+       0.9,
+       0.2
+      ],
+      "dist": 3.4,
+      "yaw": 0,
+      "pitch": 5,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Tú",
+       "target": "kyle",
+       "pose": "point",
+       "expr": "smug",
+       "lead": 0.2
+      },
+      {
+       "on": "clip",
+       "target": "kyle",
+       "pose": "shrug",
+       "expr": "joy"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "maxShot": 1.5
+}

@@ -1142,6 +1142,83 @@ PROPS.axe = (o) => {
   g.rotation.z = o.rz ?? .4; g.position.y = o.y ?? 0; const w = new THREE.Group(); w.add(g); w.userData = { focus: o.y ?? 0, size: .8 }; return w;
 };
 
+PROPS.harrier = (o) => { // avión de combate
+  const g = new THREE.Group(), col = o.color || '#7d8a96', s = o.s || 1;
+  const f = cyl(.32, .2, 4.2, col, { seg: 20 }); f.rotation.z = Math.PI / 2; g.add(f);
+  const nose = mesh(G('jetnose', () => new THREE.ConeGeometry(.32, 1.1, 20)), col, { thick: .02 }); nose.rotation.z = -Math.PI / 2; nose.position.x = 2.6; g.add(nose);
+  const cab = sph(.3, '#9fd4f0'); cab.scale.set(1.8, .8, .8); cab.position.set(1.5, .3, 0); g.add(cab);
+  const sh = new THREE.Shape(); sh.moveTo(.6, 0); sh.lineTo(-.6, 2.0); sh.lineTo(-1.1, 2.0); sh.lineTo(-.9, 0); sh.closePath();
+  for (const z of [-1, 1]) { const w = mesh(G('jetwing', () => { const q = new THREE.ExtrudeGeometry(sh, { depth: .06, bevelEnabled: false }); q.rotateX(Math.PI / 2); return q; }), col, { thick: .015 }); w.scale.z = z; w.position.y = .05; g.add(w); }
+  const fin = box(.9, .9, .06, col, { r: .03 }); fin.position.set(-1.8, .55, 0); fin.rotation.z = .3; g.add(fin);
+  for (const z of [-1, 1]) { const tw = box(.6, .05, 1.0, col, { r: .02 }); tw.position.set(-1.9, .05, z * .45); g.add(tw); const intake = cyl(.22, .22, .5, '#4a5560'); intake.rotation.z = Math.PI / 2; intake.position.set(.7, -.05, z * .38); g.add(intake); }
+  for (const z of [-1, 1]) { const st = PROPS.text({ text: '★', w: .35, h: .35, y: 0, color: '#f4efe4' }); }
+  g.scale.setScalar(s); const w = new THREE.Group(); w.add(g); w.userData = { focus: 0, size: 5 * s }; return w;
+};
+PROPS.can = (o) => {
+  const g = new THREE.Group(), col = o.color || '#1f4ea8';
+  const c = cyl(.11, .11, .32, col, { seg: 24, thick: .006 }); c.position.y = .16; g.add(c);
+  const band = cyl(.112, .112, .08, o.band || '#d32f2f', { seg: 24, outline: false }); band.position.y = .16; g.add(band);
+  const top = cyl(.1, .11, .02, '#c9cdd3', { seg: 24, outline: false }); top.position.y = .33; g.add(top);
+  if (o.label) { const tp = propTextPlane(g, .14, .07, .113, (ctx, W, H) => { ctx.fillStyle = 'rgba(0,0,0,0)'; ctx.clearRect(0, 0, W, H); drawLines(ctx, [o.label], W, H, '#fff', H * .8); }, 256, { unlit: true, transparent: true }); tp.plane.position.y = .23; }
+  g.userData = { focus: .16, size: .45 }; return g;
+};
+PROPS.paperclip = (o) => {
+  const g = new THREE.Group(), s = o.s || 1;
+  const pts = [[0, 0], [0, .9], [.3, .9], [.3, .15], [.08, .15], [.08, .75], [.2, .75], [.2, .3]].map(([x, y]) => new THREE.Vector3(x - .15, y, 0));
+  const curve = new THREE.CatmullRomCurve3(pts, false, 'catmullrom', .2);
+  const m = mesh(G('clip', () => new THREE.TubeGeometry(curve, 80, .025, 8, false)), o.color || '#e0322f', { thick: .008 }); g.add(m);
+  g.scale.setScalar(s); g.position.y = o.y ?? .5; const w = new THREE.Group(); w.add(g); w.userData = { focus: (o.y ?? .5) + .45 * s, size: 1.2 * s }; return w;
+};
+PROPS.trade = (o) => { // objetos del trueque
+  const g = new THREE.Group(), k = o.kind || 'pen';
+  if (k === 'pen') { const b = cyl(.04, .04, .5, '#3f8ad0'); b.rotation.z = Math.PI / 2; g.add(b); const tail = mesh(G('fishtail', () => new THREE.ConeGeometry(.1, .14, 3)), '#3f8ad0', { thick: .005 }); tail.rotation.z = Math.PI / 2; tail.position.x = -.3; g.add(tail); const e = sph(.025, '#fff', { thick: .003 }); e.position.set(.18, .02, .04); g.add(e); }
+  if (k === 'knob') { const b = sph(.12, '#d8b04a'); g.add(b); const st = cyl(.04, .04, .15, '#b8903a'); st.position.y = -.12; g.add(st); }
+  if (k === 'stove') { const b = box(.4, .18, .3, '#3f8a4a', { r: .02 }); g.add(b); for (const x of [-.1, .1]) { const r = mesh(G('burner', () => new THREE.TorusGeometry(.06, .012, 6, 16)), '#2a2a2e', { thick: .003 }); r.rotation.x = Math.PI / 2; r.position.set(x, .1, 0); g.add(r); } }
+  if (k === 'generator') { const b = box(.5, .35, .35, '#e05a2a', { r: .03 }); g.add(b); const f = box(.56, .05, .4, '#2a2a2e', { r: .01 }); f.position.y = -.2; g.add(f); for (const z of [-.2, .2]) { const w = cyl(.07, .07, .05, '#1f1f22'); w.rotation.x = Math.PI / 2; w.position.set(-.2, -.22, z); g.add(w); } }
+  if (k === 'snowmobile') { const b = box(.7, .2, .3, '#c62b2b', { r: .06 }); g.add(b); const sk = box(.8, .03, .06, '#2a2a2e', { r: .01 }); sk.position.set(.05, -.15, .12); g.add(sk); const sk2 = sk.clone(); sk2.position.z = -.12; g.add(sk2); const sc = box(.12, .15, .25, '#9fd4f0', { r: .03 }); sc.position.set(.2, .15, 0); g.add(sc); }
+  if (k === 'clapper') { const b = box(.4, .3, .03, '#1f1f22', { r: .01 }); g.add(b); const top = box(.42, .07, .035, '#f4efe4', { r: .01 }); top.position.y = .2; top.rotation.z = .25; g.add(top); }
+  if (k === 'disc') { const d = cyl(.2, .2, .015, '#1f1f22', { seg: 32 }); d.rotation.x = Math.PI / 2; g.add(d); const c = cyl(.07, .07, .02, '#e0b84a', { seg: 24, outline: false }); c.rotation.x = Math.PI / 2; g.add(c); }
+  g.position.y = o.y ?? .5; g.scale.setScalar(o.s || 1); const w = new THREE.Group(); w.add(g); w.userData = { focus: o.y ?? .5, size: .9 * (o.s || 1) }; return w;
+};
+function drawMona(ctx, W, H) {
+  const bg = ctx.createLinearGradient(0, 0, 0, H); bg.addColorStop(0, '#6f8a6a'); bg.addColorStop(.5, '#8a7a4a'); bg.addColorStop(1, '#4a3a22'); ctx.fillStyle = bg; ctx.fillRect(0, 0, W, H);
+  ctx.fillStyle = '#5a6a5a'; ctx.beginPath(); ctx.moveTo(0, H * .45); ctx.quadraticCurveTo(W * .3, H * .3, W * .5, H * .42); ctx.quadraticCurveTo(W * .75, H * .5, W, H * .38); ctx.lineTo(W, H * .6); ctx.lineTo(0, H * .6); ctx.fill();
+  ctx.fillStyle = '#2a1e14'; ctx.beginPath(); ctx.ellipse(W * .5, H * .36, W * .2, H * .2, 0, 0, 7); ctx.fill();
+  ctx.fillStyle = '#d9b07a'; ctx.beginPath(); ctx.ellipse(W * .5, H * .34, W * .13, H * .14, 0, 0, 7); ctx.fill();
+  ctx.fillStyle = '#2a1e14'; ctx.beginPath(); ctx.moveTo(W * .2, H); ctx.quadraticCurveTo(W * .25, H * .55, W * .5, H * .5); ctx.quadraticCurveTo(W * .75, H * .55, W * .8, H); ctx.fill();
+  ctx.fillStyle = '#d9b07a'; ctx.beginPath(); ctx.ellipse(W * .5, H * .54, W * .08, H * .035, 0, 0, 7); ctx.fill();
+  ctx.beginPath(); ctx.ellipse(W * .52, H * .86, W * .14, H * .05, -.1, 0, 7); ctx.fill();
+  ctx.strokeStyle = '#5a3a22'; ctx.lineWidth = W * .006; ctx.beginPath(); ctx.moveTo(W * .44, H * .32); ctx.lineTo(W * .48, H * .32); ctx.moveTo(W * .52, H * .32); ctx.lineTo(W * .56, H * .32); ctx.stroke();
+  ctx.beginPath(); ctx.arc(W * .5, H * .37, W * .035, .15 * Math.PI, .85 * Math.PI); ctx.stroke();
+}
+PROPS.painting = (o) => {
+  const g = new THREE.Group(), w = o.w || .7, h = o.h || 1.0, y = o.y ?? 1.5;
+  const fr = box(w + .16, h + .16, .06, o.frame || '#c9a03a', { r: .02 }); fr.position.y = y; g.add(fr);
+  if (!o.empty) { const tp = propTextPlane(g, w, h, .032, o.kind === 'mona' ? drawMona : (ctx, W, H) => { const R = rng(o.seed || 'pt'); ctx.fillStyle = o.bg || '#7a9ab0'; ctx.fillRect(0, 0, W, H); for (let i = 0; i < 6; i++) { ctx.fillStyle = ['#c9604a', '#e0b84a', '#4f8a5a', '#2f5fa8', '#f4efe4'][i % 5]; ctx.beginPath(); ctx.ellipse(R() * W, R() * H, 20 + R() * 80, 20 + R() * 80, R() * 3, 0, 7); ctx.fill(); } }, 512); tp.plane.position.y = y; }
+  else { const wall = box(w, h, .01, o.wall || '#b9a88a', { outline: false }); wall.position.set(0, y, .03); g.add(wall); for (const x of [-.15, .15]) { const hk = cyl(.012, .012, .06, '#555', { outline: false }); hk.rotation.x = Math.PI / 2; hk.position.set(x, y + h * .35, .06); g.add(hk); } }
+  g.userData = { focus: y, size: Math.max(w, h) * 1.4 }; return g;
+};
+PROPS.fries = (o) => {
+  const g = new THREE.Group();
+  const b = box(.2, .22, .12, '#d6302a', { r: .02 }); b.position.y = .11; g.add(b);
+  const R = rng('fries'); for (let i = 0; i < 9; i++) { const f = box(.025, .14 + R() * .06, .025, '#f2c64a', { r: .006, thick: .003 }); f.position.set(-.07 + (i % 5) * .035, .24, (i < 5 ? -.02 : .02)); f.rotation.z = (R() - .5) * .3; g.add(f); }
+  const m = PROPS.text({ text: 'M', w: .12, h: .1, y: .12, color: '#f2c64a' }); m.position.z = .065; g.add(m);
+  g.userData = { focus: .15, size: .4 }; return g;
+};
+PROPS.cup = (o) => { const g = new THREE.Group(); const c = cyl(.08, .06, .26, o.color || '#d6302a', { seg: 20 }); c.position.y = .13; g.add(c); const l = cyl(.085, .085, .02, '#f4efe4', { seg: 20 }); l.position.y = .27; g.add(l); const st = cyl(.008, .008, .16, '#f2c64a', { outline: false }); st.position.set(.02, .34, 0); st.rotation.z = -.15; g.add(st); g.userData = { focus: .15, size: .4 }; return g; };
+PROPS.piece = (o) => { // pieza del juego
+  const g = new THREE.Group(), w = .34, h = .22;
+  const b = box(w, h, .01, '#fbfaf5', { r: .015, thick: .003 }); g.add(b);
+  const tp = propTextPlane(g, w * .96, h * .94, .006, (ctx, W, H) => { ctx.fillStyle = '#fbfaf5'; ctx.fillRect(0, 0, W, H); ctx.fillStyle = o.color || '#2f5fa8'; ctx.fillRect(0, 0, W, H * .3); drawLines(ctx, [o.text || 'PIEZA'], W * .9, H * .55, '#1f1a17', H * .3); ctx.save(); ctx.translate(0, H * .32); drawLines(ctx, [o.prize || ''], W * .9, H * .55, '#c62b2b', H * .22); ctx.restore(); }, 256);
+  g.position.y = o.y ?? .5; const w2 = new THREE.Group(); w2.add(g); w2.userData = { focus: o.y ?? .5, size: .5 }; return w2;
+};
+PROPS.counter = (o) => {
+  const g = new THREE.Group(), w = o.w || 3;
+  const b = box(w, .9, .7, o.color || '#c62b2b', { r: .03 }); b.position.y = .45; g.add(b);
+  const top = box(w + .1, .06, .8, o.top || '#e8e0d0', { r: .02 }); top.position.y = .93; g.add(top);
+  g.userData = { focus: .9, size: w }; return g;
+};
+
 // ---------------------------------------------------------------- sets
 function skyTexture(top, bottom) {
   return canvasTex(16, 512, (ctx, W, H) => { const gr = ctx.createLinearGradient(0, 0, 0, H); gr.addColorStop(0, top); gr.addColorStop(1, bottom); ctx.fillStyle = gr; ctx.fillRect(0, 0, W, H); });

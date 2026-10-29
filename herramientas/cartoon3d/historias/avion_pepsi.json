@@ -1,0 +1,1197 @@
+{
+ "out": "Caricatura3D_13_avion_pepsi",
+ "title": "El chico que quiso cobrar un avión de guerra con puntos de Pepsi (1996)",
+ "audio": "../audios/historia_13.m4a",
+ "look": {
+  "skin": "white",
+  "style": "bean"
+ },
+ "sources": [
+  "https://es.wikipedia.org/wiki/Leonard_v._Pepsico,_Inc.",
+  "https://en.wikipedia.org/wiki/Leonard_v._Pepsico,_Inc."
+ ],
+ "scenes": {
+  "cielo": {
+   "set": {
+    "type": "road",
+    "seed": "cielo",
+    "time": "sunset",
+    "noRoad": true,
+    "grass": "#a8b45a"
+   },
+   "actors": [
+    {
+     "id": "john",
+     "look": {
+      "hair": "short",
+      "hairColor": "#3a2414",
+      "shirt": "#3f7fd0",
+      "badge": false
+     },
+     "pos": [
+      0,
+      0,
+      0.5
+     ],
+     "expr": "starstruck",
+     "head": [
+      0,
+      -15
+     ]
+    }
+   ],
+   "props": [
+    {
+     "id": "jet",
+     "type": "harrier",
+     "pos": [
+      -9,
+      4,
+      -3
+     ],
+     "s": 0.8
+    },
+    {
+     "id": "lata",
+     "type": "can",
+     "pos": [
+      -0.17,
+      0.27,
+      0.72
+     ],
+     "hidden": true
+    },
+    {
+     "id": "brillo",
+     "type": "sparkles",
+     "pos": [
+      0,
+      0,
+      0.6
+     ],
+     "y": 1.0,
+     "n": 10,
+     "spread": 0.6
+    }
+   ]
+  },
+  "cuarto": {
+   "set": {
+    "type": "room",
+    "wall": "#7a8ac9",
+    "wall2": "#6a7ab9",
+    "floor": "#8a5a36",
+    "rug": "#d9a23a",
+    "sofa": true,
+    "sofaColor": "#c9583a"
+   },
+   "actors": [
+    {
+     "id": "john",
+     "look": {
+      "hair": "short",
+      "hairColor": "#3a2414",
+      "shirt": "#3f7fd0",
+      "badge": false
+     },
+     "pos": [
+      -0.9,
+      0,
+      0.4
+     ],
+     "rot": 20,
+     "expr": "happy"
+    }
+   ],
+   "props": [
+    {
+     "id": "tv",
+     "type": "tv",
+     "pos": [
+      0.6,
+      0,
+      -0.6
+     ],
+     "y": 0.45,
+     "text": "¡JUNTA\nPUNTOS!",
+     "bg": "#1f4ea8",
+     "fg": "#ffffff"
+    },
+    {
+     "id": "mesa",
+     "type": "table",
+     "pos": [
+      0,
+      0,
+      0.6
+     ],
+     "w": 1.2,
+     "d": 0.5,
+     "h": 0.4,
+     "color": "#6b4226"
+    },
+    {
+     "id": "l1",
+     "type": "can",
+     "pos": [
+      -0.3,
+      0.43,
+      0.6
+     ],
+     "hidden": true
+    },
+    {
+     "id": "l2",
+     "type": "can",
+     "pos": [
+      0,
+      0.43,
+      0.55
+     ],
+     "hidden": true
+    },
+    {
+     "id": "l3",
+     "type": "can",
+     "pos": [
+      0.3,
+      0.43,
+      0.6
+     ],
+     "hidden": true
+    }
+   ]
+  },
+  "anuncio": {
+   "set": {
+    "type": "studio",
+    "color": "#2a3a7a"
+   },
+   "props": [
+    {
+     "id": "cam",
+     "type": "text",
+     "pos": [
+      -0.5,
+      0,
+      0
+     ],
+     "y": 1.3,
+     "w": 1.4,
+     "h": 0.35,
+     "text": "CAMISETA · 75",
+     "color": "#ffffff",
+     "hidden": true
+    },
+    {
+     "id": "len",
+     "type": "text",
+     "pos": [
+      0.5,
+      0,
+      0
+     ],
+     "y": 0.85,
+     "w": 1.5,
+     "h": 0.35,
+     "text": "LENTES · 175",
+     "color": "#ffffff",
+     "hidden": true
+    },
+    {
+     "id": "jet",
+     "type": "harrier",
+     "pos": [
+      6,
+      1.2,
+      -1
+     ],
+     "rot": -20,
+     "s": 0.6
+    },
+    {
+     "id": "jetp",
+     "type": "text",
+     "pos": [
+      6,
+      0,
+      0.6
+     ],
+     "y": 0.35,
+     "w": 2.4,
+     "h": 0.42,
+     "text": "HARRIER · 7.000.000",
+     "color": "#f2c230",
+     "hidden": true
+    },
+    {
+     "id": "brillo",
+     "type": "sparkles",
+     "pos": [
+      6,
+      0,
+      0
+     ],
+     "y": 1.2,
+     "n": 16,
+     "spread": 1.4
+    }
+   ]
+  },
+  "letra": {
+   "set": {
+    "type": "studio",
+    "color": "#e9dcc6"
+   },
+   "props": [
+    {
+     "id": "papel",
+     "type": "paper",
+     "pos": [
+      0,
+      1.0,
+      0
+     ],
+     "w": 0.7,
+     "h": 0.85,
+     "text": [
+      "Reglas del juego",
+      "Puntos extra a la venta"
+     ],
+     "big": "10¢ c/u",
+     "bigColor": "#d32f2f"
+    }
+   ]
+  },
+  "num": {
+   "set": {
+    "type": "studio",
+    "color": "#3a2a5a"
+   },
+   "props": [
+    {
+     "id": "pts",
+     "type": "led",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "y": 1.5,
+     "value": 0,
+     "label": "PUNTOS",
+     "w": 1.7
+    },
+    {
+     "id": "usd",
+     "type": "led",
+     "pos": [
+      6,
+      0,
+      0
+     ],
+     "y": 1.5,
+     "value": 0,
+     "prefix": "$ ",
+     "label": "COSTABAN",
+     "w": 1.7
+    },
+    {
+     "id": "vale",
+     "type": "led",
+     "pos": [
+      12,
+      0,
+      0
+     ],
+     "y": 1.5,
+     "value": 0,
+     "prefix": "$ ",
+     "label": "VALOR DEL HARRIER",
+     "w": 1.7
+    },
+    {
+     "id": "nuevo",
+     "type": "led",
+     "pos": [
+      18,
+      0,
+      0
+     ],
+     "y": 1.5,
+     "value": 7000000,
+     "label": "NUEVO PRECIO",
+     "w": 1.9
+    },
+    {
+     "id": "b1",
+     "type": "sparkles",
+     "pos": [
+      0,
+      0,
+      0.2
+     ],
+     "y": 1.5,
+     "n": 12,
+     "spread": 1
+    },
+    {
+     "id": "b2",
+     "type": "sparkles",
+     "pos": [
+      12,
+      0,
+      0.2
+     ],
+     "y": 1.5,
+     "n": 12,
+     "spread": 1
+    }
+   ]
+  },
+  "inversores": {
+   "set": {
+    "type": "office",
+    "seed": "inv",
+    "wall": "#e2cdb8"
+   },
+   "actors": [
+    {
+     "id": "john",
+     "look": {
+      "hair": "short",
+      "hairColor": "#3a2414",
+      "shirt": "#3f7fd0",
+      "badge": false
+     },
+     "pos": [
+      -0.7,
+      0,
+      -0.5
+     ],
+     "rot": 30,
+     "expr": "happy"
+    },
+    {
+     "id": "i1",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#2a2a2e",
+      "shirt": "#5a5a6a",
+      "tie": "#c9a03a",
+      "badge": false,
+      "mustache": true
+     },
+     "pos": [
+      0.3,
+      0,
+      -1.55
+     ],
+     "rot": -10,
+     "expr": "skeptical"
+    },
+    {
+     "id": "i2",
+     "look": {
+      "body": "wide",
+      "hair": "short",
+      "hairColor": "#1a1a1a",
+      "shirt": "#8a6a3a",
+      "tie": "#2f5fa8",
+      "badge": false
+     },
+     "pos": [
+      0.95,
+      0,
+      -1.4
+     ],
+     "rot": -25,
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "dinero",
+     "type": "cash",
+     "pos": [
+      0.3,
+      0.48,
+      -0.85
+     ],
+     "n": 3,
+     "h": 3,
+     "hidden": true
+    },
+    {
+     "id": "cheque",
+     "type": "paper",
+     "pos": [
+      -0.3,
+      0.95,
+      -0.2
+     ],
+     "w": 0.7,
+     "h": 0.36,
+     "text": [
+      "PÁGUESE A: PEPSICO"
+     ],
+     "big": "$ 700.008,50",
+     "bigColor": "#1f4ea8",
+     "hidden": true
+    }
+   ]
+  },
+  "pepsi": {
+   "set": {
+    "type": "office",
+    "seed": "pep",
+    "wall": "#c9d6e6"
+   },
+   "actors": [
+    {
+     "id": "ejec",
+     "look": {
+      "body": "wide",
+      "hair": "bald",
+      "hairColor": "#888",
+      "shirt": "#2a3a6a",
+      "tie": "#d32f2f",
+      "badge": false,
+      "glasses": true
+     },
+     "pos": [
+      0,
+      0,
+      -1.5
+     ],
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "cheque",
+     "type": "paper",
+     "pos": [
+      -0.1,
+      0.49,
+      -0.85
+     ],
+     "rx": -90,
+     "w": 0.5,
+     "h": 0.26,
+     "text": [
+      "PEPSICO"
+     ],
+     "big": "$ 700.008,50",
+     "stamp": "RECHAZADO"
+    }
+   ]
+  },
+  "juicio": {
+   "set": {
+    "type": "office",
+    "seed": "juicio",
+    "wall": "#b98a5a",
+    "floor": "#6b4226"
+   },
+   "actors": [
+    {
+     "id": "juez",
+     "look": {
+      "body": "old",
+      "hair": "bald",
+      "hairColor": "#ccc",
+      "glasses": true,
+      "shirt": "#1f1f22",
+      "badge": false
+     },
+     "pos": [
+      0,
+      0.3,
+      -1.6
+     ],
+     "expr": "skeptical"
+    },
+    {
+     "id": "john",
+     "look": {
+      "hair": "short",
+      "hairColor": "#3a2414",
+      "shirt": "#3f7fd0",
+      "badge": false
+     },
+     "pos": [
+      -0.8,
+      0,
+      0.4
+     ],
+     "rot": 160,
+     "expr": "nervous"
+    },
+    {
+     "id": "ejec",
+     "look": {
+      "body": "wide",
+      "hair": "bald",
+      "hairColor": "#888",
+      "shirt": "#2a3a6a",
+      "tie": "#d32f2f",
+      "badge": false,
+      "glasses": true
+     },
+     "pos": [
+      0.8,
+      0,
+      0.4
+     ],
+     "rot": -160,
+     "expr": "smug"
+    }
+   ],
+   "props": [
+    {
+     "id": "estrado",
+     "type": "podium",
+     "pos": [
+      0,
+      0,
+      -1.0
+     ],
+     "text": "JUEZ",
+     "signBg": "#c9a03a"
+    },
+    {
+     "id": "sent",
+     "type": "paper",
+     "pos": [
+      -0.1,
+      0.49,
+      -0.4
+     ],
+     "rx": -90,
+     "w": 0.5,
+     "h": 0.6,
+     "text": [
+      "SENTENCIA · 1999",
+      "Leonard contra PepsiCo"
+     ],
+     "stamp": "ERA UNA BROMA"
+    }
+   ]
+  },
+  "final": {
+   "set": {
+    "type": "studio",
+    "color": "#9fc8e6"
+   },
+   "actors": [
+    {
+     "id": "john",
+     "look": {
+      "hair": "short",
+      "hairColor": "#3a2414",
+      "shirt": "#3f7fd0",
+      "badge": false
+     },
+     "pos": [
+      -0.35,
+      0,
+      0.3
+     ],
+     "rot": 10,
+     "lookAt": "cam",
+     "expr": "sad"
+    }
+   ],
+   "props": [
+    {
+     "id": "jet",
+     "type": "harrier",
+     "pos": [
+      0.8,
+      1.6,
+      -2
+     ],
+     "rot": -30,
+     "s": 0.35
+    },
+    {
+     "id": "lata",
+     "type": "can",
+     "pos": [
+      -0.52,
+      0.27,
+      0.52
+     ]
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "Este chico intentó ganarse un avión de guerra… juntando puntos de Pepsi.",
+   "shots": [
+    {
+     "scene": "cielo",
+     "cam": {
+      "target": [
+       0,
+       2.4,
+       -1.5
+      ],
+      "dist": 9,
+      "yaw": 0,
+      "pitch": -4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": -0.2,
+       "target": "jet",
+       "move": [
+        9,
+        4,
+        -3
+       ],
+       "dur": 2.4,
+       "ease": "linear",
+       "sfx": "whoosh"
+      }
+     ]
+    },
+    {
+     "scene": "cielo",
+     "from": "juntando",
+     "cam": {
+      "on": "john",
+      "shot": "close",
+      "yaw": 10,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "juntando",
+       "target": "lata",
+       "pop": true
+      },
+      {
+       "on": "juntando",
+       "target": "john",
+       "pose": "hold",
+       "expr": "happy",
+       "lookAt": "cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "En 1996, Pepsi lanzó un comercial: juntabas puntos en latas y botellas, y los cambiabas por premios. Una camiseta, setenta y cinco puntos. Unos lentes de sol, ciento setenta y cinco.",
+   "shots": [
+    {
+     "scene": "cuarto",
+     "cam": {
+      "on": "tv",
+      "shot": "medium",
+      "pitch": 4,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "cuarto",
+     "from": "juntabas",
+     "cam": {
+      "target": [
+       -0.2,
+       0.7,
+       0.4
+      ],
+      "dist": 3,
+      "yaw": 0,
+      "pitch": 12,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "latas",
+       "target": "l1",
+       "pop": true
+      },
+      {
+       "on": "botellas",
+       "target": "l2",
+       "pop": true
+      },
+      {
+       "on": "cambiabas",
+       "target": "l3",
+       "pop": true
+      },
+      {
+       "on": "premios",
+       "target": "john",
+       "pose": "cheer",
+       "expr": "joy"
+      }
+     ]
+    },
+    {
+     "scene": "anuncio",
+     "from": "camiseta",
+     "cam": {
+      "target": [
+       0,
+       1.1,
+       0
+      ],
+      "dist": 5,
+      "yaw": 0,
+      "pitch": 2,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "camiseta",
+       "target": "cam",
+       "pop": true
+      },
+      {
+       "on": "lentes",
+       "target": "len",
+       "pop": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y al final del anuncio, un avión de combate Harrier… por siete millones de puntos.",
+   "shots": [
+    {
+     "scene": "anuncio",
+     "cam": {
+      "target": [
+       6,
+       0.9,
+       0
+      ],
+      "dist": 8,
+      "yaw": 10,
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "siete",
+       "target": "jetp",
+       "pop": true
+      }
+     ]
+    },
+    {
+     "scene": "num",
+     "from": "siete",
+     "cam": {
+      "on": "pts",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "siete",
+       "target": "pts",
+       "value": 7000000,
+       "dur": 1.1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Era una broma. Pero John Leonard, un estudiante de veintiún años, leyó la letra pequeña.",
+   "shots": [
+    {
+     "scene": "cuarto",
+     "cam": {
+      "on": "john",
+      "shot": "close",
+      "yaw": 20,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "john",
+       "pose": "idle",
+       "expr": "skeptical",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "cuarto",
+     "from": "John",
+     "cam": {
+      "on": "john",
+      "shot": "medium",
+      "yaw": 15,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "John",
+       "target": "john",
+       "pose": "hips",
+       "expr": "smug"
+      }
+     ]
+    },
+    {
+     "scene": "letra",
+     "from": "letra",
+     "cam": {
+      "on": "papel",
+      "shot": "medium",
+      "pitch": 2,
+      "move": "crash"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Los puntos también se podían comprar: a diez centavos cada uno.",
+   "shots": [
+    {
+     "scene": "letra",
+     "cam": {
+      "target": [
+       0,
+       0.75,
+       0
+      ],
+      "dist": 1.6,
+      "yaw": 0,
+      "pitch": 2,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "cuarto",
+     "from": "diez",
+     "cam": {
+      "on": "john",
+      "shot": "close",
+      "yaw": -15,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "diez",
+       "target": "john",
+       "expr": "starstruck",
+       "pose": "fist"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Siete millones de puntos costaban setecientos mil dólares. Y un Harrier valía más de veinte millones.",
+   "shots": [
+    {
+     "scene": "num",
+     "cam": {
+      "on": "usd",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "setecientos",
+       "target": "usd",
+       "value": 700000,
+       "dur": 1.0
+      }
+     ]
+    },
+    {
+     "scene": "num",
+     "from": "Harrier",
+     "cam": {
+      "on": "vale",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "veinte",
+       "target": "vale",
+       "value": 20000000,
+       "dur": 1.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "John convenció a unos inversionistas, juntó el dinero… y le mandó a Pepsi un cheque.",
+   "shots": [
+    {
+     "scene": "inversores",
+     "cam": {
+      "target": [
+       0.1,
+       0.75,
+       -1.0
+      ],
+      "dist": 3.6,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "convenció",
+       "target": "john",
+       "pose": "present",
+       "expr": "happy"
+      },
+      {
+       "on": "inversionistas",
+       "target": "i1",
+       "pose": "thumbs",
+       "expr": "smile"
+      },
+      {
+       "on": "inversionistas",
+       "target": "i2",
+       "pose": "thumbs",
+       "expr": "happy",
+       "lead": 0.05
+      }
+     ]
+    },
+    {
+     "scene": "inversores",
+     "from": "juntó",
+     "cam": {
+      "target": [
+       0.3,
+       0.55,
+       -0.85
+      ],
+      "dist": 1.6,
+      "yaw": 0,
+      "pitch": 25,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "dinero",
+       "target": "dinero",
+       "pop": true
+      }
+     ]
+    },
+    {
+     "scene": "inversores",
+     "from": "cheque",
+     "cam": {
+      "target": [
+       -0.3,
+       0.95,
+       -0.2
+      ],
+      "dist": 1.6,
+      "yaw": 0,
+      "pitch": 2,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "cheque",
+       "target": "cheque",
+       "pop": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Pepsi se negó. Y John los demandó.",
+   "shots": [
+    {
+     "scene": "pepsi",
+     "cam": {
+      "target": [
+       -0.1,
+       0.49,
+       -0.85
+      ],
+      "dist": 1.4,
+      "yaw": 0,
+      "pitch": 60,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "negó",
+       "target": "cheque",
+       "stamp": true
+      }
+     ]
+    },
+    {
+     "scene": "cuarto",
+     "from": "John",
+     "cam": {
+      "on": "john",
+      "shot": "close",
+      "yaw": 10,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "demandó",
+       "target": "john",
+       "pose": "point",
+       "expr": "angry",
+       "jolt": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "El juicio duró años. Al final, el juez decidió que cualquiera se daría cuenta de que era una broma.",
+   "shots": [
+    {
+     "scene": "juicio",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       -0.5
+      ],
+      "dist": 5,
+      "yaw": 0,
+      "pitch": 10,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "juicio",
+     "from": "juez",
+     "cam": {
+      "on": "juez",
+      "shot": "close",
+      "yaw": 0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "decidió",
+       "target": "juez",
+       "pose": "think",
+       "expr": "skeptical"
+      }
+     ]
+    },
+    {
+     "scene": "juicio",
+     "from": "broma",
+     "cam": {
+      "target": [
+       -0.1,
+       0.49,
+       -0.4
+      ],
+      "dist": 1.6,
+      "yaw": 0,
+      "pitch": 60,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "broma",
+       "target": "sent",
+       "stamp": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "John nunca recibió su avión. Pero Pepsi cambió el comercial: ahora, el avión costaba setecientos millones de puntos.",
+   "shots": [
+    {
+     "scene": "final",
+     "cam": {
+      "on": "john",
+      "shot": "close",
+      "yaw": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "nunca",
+       "target": "john",
+       "pose": "shrug",
+       "expr": "cry"
+      }
+     ]
+    },
+    {
+     "scene": "num",
+     "from": "comercial",
+     "cam": {
+      "on": "nuevo",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "setecientos",
+       "target": "nuevo",
+       "value": 700000000,
+       "dur": 1.2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "¿Tú habrías intentado cobrarlo?",
+   "shots": [
+    {
+     "scene": "final",
+     "cam": {
+      "target": [
+       0.1,
+       0.9,
+       0
+      ],
+      "dist": 3.6,
+      "yaw": 0,
+      "pitch": 5,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Tú",
+       "target": "john",
+       "pose": "point",
+       "expr": "smug",
+       "lead": 0.2
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "maxShot": 1.5
+}

@@ -1,0 +1,1294 @@
+{
+ "out": "Caricatura3D_16_monopoly_mcdonalds",
+ "title": "El hombre que arregló el Monopoly de McDonald's (1989-2001)",
+ "audio": "../audios/historia_16.m4a",
+ "look": {
+  "skin": "white",
+  "style": "bean"
+ },
+ "maxShot": 1.5,
+ "sources": [
+  "https://es.wikipedia.org/wiki/Fraude_del_Monopoly_de_McDonald%27s",
+  "https://en.wikipedia.org/wiki/McDonald%27s_Monopoly"
+ ],
+ "scenes": {
+  "local": {
+   "set": {
+    "type": "room",
+    "wall": "#f2c64a",
+    "wall2": "#e0b04a",
+    "floor": "#c62b2b",
+    "rug": "#f4efe4",
+    "sofa": false,
+    "lamp": false
+   },
+   "actors": [
+    {
+     "id": "cli",
+     "look": {
+      "hair": "short",
+      "hairColor": "#3a2414",
+      "shirt": "#3f8a5a",
+      "badge": false
+     },
+     "pos": [
+      -0.5,
+      0,
+      0.6
+     ],
+     "rot": 160,
+     "expr": "happy"
+    },
+    {
+     "id": "caj",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#c62b2b",
+      "shirt": "#c62b2b",
+      "badge": true,
+      "cord": "#f2c64a"
+     },
+     "pos": [
+      0.3,
+      0,
+      -1.4
+     ],
+     "expr": "smile"
+    }
+   ],
+   "props": [
+    {
+     "id": "mostrador",
+     "type": "counter",
+     "pos": [
+      0,
+      0,
+      -0.8
+     ],
+     "w": 3.2
+    },
+    {
+     "id": "menu",
+     "type": "sign",
+     "pos": [
+      0,
+      0,
+      -2.45
+     ],
+     "post": false,
+     "y0": 1.7,
+     "w": 2.4,
+     "h": 0.6,
+     "text": [
+      "MENÚ"
+     ],
+     "bg": "#c62b2b",
+     "fg": "#f2c64a"
+    },
+    {
+     "id": "papas",
+     "type": "fries",
+     "pos": [
+      -0.3,
+      0.96,
+      -0.6
+     ],
+     "hidden": true
+    },
+    {
+     "id": "vaso",
+     "type": "cup",
+     "pos": [
+      0.1,
+      0.96,
+      -0.6
+     ],
+     "hidden": true
+    },
+    {
+     "id": "pieza",
+     "type": "piece",
+     "pos": [
+      -0.3,
+      0,
+      -0.45
+     ],
+     "y": 1.3,
+     "text": "PARQUE",
+     "prize": "",
+     "hidden": true
+    }
+   ]
+  },
+  "premio": {
+   "set": {
+    "type": "studio",
+    "color": "#c62b2b"
+   },
+   "props": [
+    {
+     "id": "p1",
+     "type": "piece",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "y": 1.2,
+     "text": "PARQUE",
+     "prize": "$ 1.000.000",
+     "color": "#2f5fa8"
+    },
+    {
+     "id": "brillo",
+     "type": "sparkles",
+     "pos": [
+      0,
+      0,
+      0.1
+     ],
+     "y": 1.2,
+     "n": 16,
+     "spread": 0.6
+    },
+    {
+     "id": "tablero",
+     "type": "text",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "y": 1.7,
+     "w": 1.6,
+     "h": 0.3,
+     "text": "¡GANASTE!",
+     "color": "#f2c64a",
+     "hidden": true
+    }
+   ]
+  },
+  "fabrica": {
+   "set": {
+    "type": "office",
+    "seed": "fab",
+    "wall": "#8a9aaa"
+   },
+   "actors": [
+    {
+     "id": "jerry",
+     "look": {
+      "body": "wide",
+      "hair": "police",
+      "hatColor": "#2a2a2e",
+      "shirt": "#3a3a44",
+      "cord": "#c9a03a"
+     },
+     "pos": [
+      0,
+      0,
+      -1.5
+     ],
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "cartel",
+     "type": "sign",
+     "pos": [
+      -1.2,
+      0,
+      -2.4
+     ],
+     "post": false,
+     "y0": 1.9,
+     "w": 1.4,
+     "h": 0.36,
+     "text": [
+      "SEGURIDAD"
+     ],
+     "bg": "#2a2a2e",
+     "fg": "#f2c64a"
+    },
+    {
+     "id": "g1",
+     "type": "piece",
+     "pos": [
+      -0.3,
+      0,
+      -0.85
+     ],
+     "y": 0.49,
+     "text": "PARQUE",
+     "prize": "$ 1.000.000"
+    },
+    {
+     "id": "g2",
+     "type": "piece",
+     "pos": [
+      0.15,
+      0,
+      -0.8
+     ],
+     "y": 0.49,
+     "text": "PASEO",
+     "prize": "$ 1.000.000",
+     "color": "#c62b2b"
+    },
+    {
+     "id": "brillo",
+     "type": "sparkles",
+     "pos": [
+      -0.1,
+      0,
+      -0.8
+     ],
+     "y": 0.7,
+     "n": 10,
+     "spread": 0.4
+    }
+   ]
+  },
+  "reparto": {
+   "set": {
+    "type": "street",
+    "time": "sunset",
+    "seed": "rep"
+   },
+   "actors": [
+    {
+     "id": "jerry",
+     "look": {
+      "body": "wide",
+      "hair": "police",
+      "hatColor": "#2a2a2e",
+      "shirt": "#3a3a44",
+      "cord": "#c9a03a"
+     },
+     "pos": [
+      -0.6,
+      0.1,
+      -2.0
+     ],
+     "rot": 50,
+     "expr": "smug"
+    },
+    {
+     "id": "a1",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#c62b2b",
+      "shirt": "#d9a23a",
+      "badge": false
+     },
+     "pos": [
+      0.5,
+      0.1,
+      -2.0
+     ],
+     "rot": -50,
+     "expr": "happy"
+    },
+    {
+     "id": "a2",
+     "look": {
+      "hair": "bun",
+      "hairColor": "#6a3a1a",
+      "shirt": "#7a5a8a",
+      "dress": "#7a5a8a",
+      "badge": false
+     },
+     "pos": [
+      1.2,
+      0.1,
+      -2.2
+     ],
+     "rot": -40,
+     "expr": "starstruck"
+    }
+   ],
+   "props": [
+    {
+     "id": "pz",
+     "type": "piece",
+     "pos": [
+      -0.35,
+      0.1,
+      -1.8
+     ],
+     "y": 0.45,
+     "text": "PARQUE",
+     "prize": "$ 1.000.000"
+    },
+    {
+     "id": "dinero",
+     "type": "cash",
+     "pos": [
+      0.1,
+      0.1,
+      -1.7
+     ],
+     "n": 2,
+     "h": 2,
+     "hidden": true
+    },
+    {
+     "id": "cheque",
+     "type": "paper",
+     "pos": [
+      1.0,
+      0.75,
+      -1.75
+     ],
+     "w": 0.6,
+     "h": 0.3,
+     "text": [
+      "PREMIO MAYOR"
+     ],
+     "big": "$ 1.000.000",
+     "hidden": true
+    }
+   ]
+  },
+  "num": {
+   "set": {
+    "type": "studio",
+    "color": "#2a3a5a"
+   },
+   "props": [
+    {
+     "id": "anos",
+     "type": "led",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "y": 1.5,
+     "value": 0,
+     "label": "AÑOS ARREGLADO",
+     "w": 1.5
+    },
+    {
+     "id": "robado",
+     "type": "led",
+     "pos": [
+      6,
+      0,
+      0
+     ],
+     "y": 1.5,
+     "value": 0,
+     "prefix": "$ ",
+     "label": "EN PREMIOS ROBADOS",
+     "w": 1.8
+    },
+    {
+     "id": "regalo",
+     "type": "led",
+     "pos": [
+      12,
+      0,
+      0
+     ],
+     "y": 1.5,
+     "value": 0,
+     "prefix": "$ ",
+     "label": "PREMIOS NUEVOS",
+     "w": 1.8
+    },
+    {
+     "id": "honesto",
+     "type": "gauge",
+     "pos": [
+      18,
+      0,
+      0
+     ],
+     "y": 1.2,
+     "r": 0.45,
+     "value": 90,
+     "label": "PREMIOS LIMPIOS"
+    },
+    {
+     "id": "b1",
+     "type": "sparkles",
+     "pos": [
+      6,
+      0,
+      0.2
+     ],
+     "y": 1.5,
+     "n": 12,
+     "spread": 1
+    },
+    {
+     "id": "b2",
+     "type": "sparkles",
+     "pos": [
+      12,
+      0,
+      0.2
+     ],
+     "y": 1.5,
+     "n": 12,
+     "spread": 1
+    }
+   ]
+  },
+  "fbi": {
+   "set": {
+    "type": "office",
+    "seed": "fbi",
+    "wall": "#5a6a7a"
+   },
+   "actors": [
+    {
+     "id": "ag1",
+     "look": {
+      "hair": "short",
+      "hairColor": "#1a1a1a",
+      "shirt": "#1f1f22",
+      "tie": "#1f1f22",
+      "glasses": true,
+      "badge": false
+     },
+     "pos": [
+      -0.4,
+      0,
+      -1.5
+     ],
+     "rot": 10,
+     "expr": "determined"
+    },
+    {
+     "id": "ag2",
+     "look": {
+      "hair": "bald",
+      "hairColor": "#555",
+      "shirt": "#1f1f22",
+      "tie": "#1f1f22",
+      "glasses": true,
+      "badge": false,
+      "body": "tall",
+      "mustache": true
+     },
+     "pos": [
+      0.5,
+      0,
+      -1.55
+     ],
+     "rot": -10,
+     "expr": "skeptical"
+    }
+   ],
+   "props": [
+    {
+     "id": "tel",
+     "type": "phone",
+     "pos": [
+      -0.2,
+      0.6,
+      -0.85
+     ],
+     "y": 0,
+     "text": "LLAMADA\nANÓNIMA",
+     "bg": "#c62b2b"
+    },
+    {
+     "id": "cal",
+     "type": "calendar",
+     "pos": [
+      1.5,
+      0,
+      -2.0
+     ],
+     "post": true,
+     "y": 1.3,
+     "day": 2001,
+     "month": "FBI",
+     "year": "OPERACIÓN"
+    },
+    {
+     "id": "cartel",
+     "type": "sign",
+     "pos": [
+      -1.3,
+      0,
+      -2.4
+     ],
+     "post": false,
+     "y0": 1.9,
+     "w": 0.9,
+     "h": 0.4,
+     "text": [
+      "FBI"
+     ],
+     "bg": "#1f2c55",
+     "fg": "#f2c64a"
+    }
+   ]
+  },
+  "arresto": {
+   "set": {
+    "type": "street",
+    "time": "night",
+    "seed": "arr"
+   },
+   "actors": [
+    {
+     "id": "ag1",
+     "look": {
+      "hair": "short",
+      "hairColor": "#1a1a1a",
+      "shirt": "#1f1f22",
+      "tie": "#1f1f22",
+      "glasses": true,
+      "badge": false
+     },
+     "pos": [
+      0.7,
+      0.1,
+      -2.0
+     ],
+     "rot": -60,
+     "pose": "point",
+     "expr": "determined"
+    },
+    {
+     "id": "jerry",
+     "look": {
+      "body": "wide",
+      "hair": "police",
+      "hatColor": "#2a2a2e",
+      "shirt": "#3a3a44",
+      "cord": "#c9a03a"
+     },
+     "pos": [
+      -0.4,
+      0.1,
+      -2.0
+     ],
+     "rot": 60,
+     "expr": "neutral"
+    },
+    {
+     "id": "a1",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#c62b2b",
+      "shirt": "#d9a23a",
+      "badge": false
+     },
+     "pos": [
+      -1.1,
+      0.1,
+      -2.1
+     ],
+     "rot": 50,
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "esposas",
+     "type": "text",
+     "pos": [
+      -0.4,
+      0.1,
+      -1.7
+     ],
+     "y": 1.55,
+     "w": 1.4,
+     "h": 0.34,
+     "text": "¡ARRESTADOS!",
+     "color": "#f2c64a",
+     "hidden": true
+    }
+   ]
+  },
+  "final": {
+   "set": {
+    "type": "room",
+    "wall": "#f2c64a",
+    "wall2": "#e0b04a",
+    "floor": "#c62b2b",
+    "rug": "#f4efe4",
+    "sofa": false,
+    "lamp": false
+   },
+   "actors": [
+    {
+     "id": "cli",
+     "look": {
+      "hair": "short",
+      "hairColor": "#3a2414",
+      "shirt": "#3f8a5a",
+      "badge": false
+     },
+     "pos": [
+      -0.3,
+      0,
+      0.3
+     ],
+     "rot": 10,
+     "lookAt": "cam",
+     "expr": "skeptical"
+    }
+   ],
+   "props": [
+    {
+     "id": "papas",
+     "type": "fries",
+     "pos": [
+      0.45,
+      0,
+      0.4
+     ]
+    },
+    {
+     "id": "pieza",
+     "type": "piece",
+     "pos": [
+      -0.12,
+      0,
+      0.55
+     ],
+     "y": 0.5,
+     "text": "PARQUE",
+     "prize": "¿?"
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "Durante doce años, el juego de Monopoly de McDonald's… estuvo arreglado.",
+   "shots": [
+    {
+     "scene": "premio",
+     "cam": {
+      "on": "p1",
+      "shot": "close",
+      "pitch": 2,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "num",
+     "from": "doce",
+     "cam": {
+      "on": "anos",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "doce",
+       "target": "anos",
+       "value": 12,
+       "dur": 0.6
+      }
+     ]
+    },
+    {
+     "scene": "fabrica",
+     "from": "arreglado",
+     "cam": {
+      "on": "jerry",
+      "shot": "close",
+      "yaw": 10,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "arreglado",
+       "target": "jerry",
+       "expr": "smug",
+       "lookAt": "cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Comprabas papas o un refresco, y despegabas una pieza. Si juntabas las calles correctas, ganabas premios. Algunas piezas valían un millón de dólares.",
+   "shots": [
+    {
+     "scene": "local",
+     "cam": {
+      "target": [
+       0,
+       1.0,
+       -0.8
+      ],
+      "dist": 3.6,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "papas",
+       "target": "papas",
+       "pop": true
+      },
+      {
+       "on": "refresco",
+       "target": "vaso",
+       "pop": true
+      }
+     ]
+    },
+    {
+     "scene": "local",
+     "from": "despegabas",
+     "cam": {
+      "target": [
+       -0.3,
+       1.2,
+       -0.45
+      ],
+      "dist": 1.4,
+      "yaw": 0,
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "despegabas",
+       "target": "pieza",
+       "pop": true
+      }
+     ]
+    },
+    {
+     "scene": "local",
+     "from": "premios",
+     "cam": {
+      "on": "cli",
+      "shot": "close",
+      "yaw": 160,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "premios",
+       "target": "cli",
+       "expr": "starstruck",
+       "pose": "cheer"
+      }
+     ]
+    },
+    {
+     "scene": "premio",
+     "from": "millón",
+     "cam": {
+      "on": "p1",
+      "shot": "medium",
+      "pitch": 2,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "millón",
+       "target": "tablero",
+       "pop": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "El hombre encargado de proteger esas piezas era Jerry Jacobson, jefe de seguridad de la empresa que las imprimía.",
+   "shots": [
+    {
+     "scene": "fabrica",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       -1.2
+      ],
+      "dist": 4.2,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "fabrica",
+     "from": "Jerry",
+     "cam": {
+      "on": "jerry",
+      "shot": "medium",
+      "yaw": -10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Jerry",
+       "target": "jerry",
+       "pose": "hips",
+       "expr": "determined",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "fabrica",
+     "from": "seguridad",
+     "cam": {
+      "on": "cartel",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Y él mismo se las robaba, metiéndoselas en el bolsillo.",
+   "shots": [
+    {
+     "scene": "fabrica",
+     "cam": {
+      "target": [
+       -0.1,
+       0.6,
+       -1.0
+      ],
+      "dist": 2.2,
+      "yaw": 0,
+      "pitch": 14,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "robaba",
+       "target": "jerry",
+       "pose": "hold",
+       "expr": "smug"
+      },
+      {
+       "on": "robaba",
+       "target": "g1",
+       "move": [
+        -0.05,
+        0.35,
+        -1.3
+       ],
+       "dur": 0.5
+      }
+     ]
+    },
+    {
+     "scene": "fabrica",
+     "from": "bolsillo",
+     "cam": {
+      "on": "jerry",
+      "shot": "close",
+      "yaw": 15,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "bolsillo",
+       "target": "g1",
+       "hide": true
+      },
+      {
+       "on": "bolsillo",
+       "target": "jerry",
+       "pose": "idle",
+       "expr": "joy",
+       "lookAt": "cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Se llevaba las piezas ganadoras y se las daba a amigos y conocidos. Ellos cobraban el premio… y le pasaban una parte.",
+   "shots": [
+    {
+     "scene": "reparto",
+     "cam": {
+      "target": [
+       0.2,
+       0.8,
+       -2.0
+      ],
+      "dist": 3.8,
+      "yaw": 0,
+      "pitch": 5,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "daba",
+       "target": "pz",
+       "move": [
+        0.25,
+        0.1,
+        -1.8
+       ],
+       "dur": 0.5
+      },
+      {
+       "on": "daba",
+       "target": "jerry",
+       "pose": "present"
+      },
+      {
+       "on": "amigos",
+       "target": "a1",
+       "pose": "hold",
+       "expr": "happy"
+      }
+     ]
+    },
+    {
+     "scene": "reparto",
+     "from": "cobraban",
+     "cam": {
+      "on": "a2",
+      "shot": "close",
+      "yaw": -20,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "cobraban",
+       "target": "cheque",
+       "pop": true
+      },
+      {
+       "on": "cobraban",
+       "target": "a2",
+       "pose": "cheer",
+       "expr": "joy"
+      }
+     ]
+    },
+    {
+     "scene": "reparto",
+     "from": "pasaban",
+     "cam": {
+      "target": [
+       -0.2,
+       0.6,
+       -1.8
+      ],
+      "dist": 2.4,
+      "yaw": 0,
+      "pitch": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "pasaban",
+       "target": "dinero",
+       "pop": true
+      },
+      {
+       "on": "parte",
+       "target": "dinero",
+       "move": [
+        -0.4,
+        0.1,
+        -1.75
+       ],
+       "dur": 0.4
+      },
+      {
+       "on": "parte",
+       "target": "jerry",
+       "pose": "thumbs",
+       "expr": "joy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Así, durante años, casi ningún premio grande se ganó de forma honesta.",
+   "shots": [
+    {
+     "scene": "num",
+     "cam": {
+      "on": "honesto",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "ningún",
+       "target": "honesto",
+       "value": 3,
+       "dur": 0.9,
+       "ease": "back"
+      }
+     ]
+    },
+    {
+     "scene": "local",
+     "from": "honesta",
+     "cam": {
+      "on": "cli",
+      "shot": "close",
+      "yaw": 160,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "honesta",
+       "target": "cli",
+       "expr": "sad",
+       "pose": "shrug"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "En total, se llevaron más de veinte millones de dólares.",
+   "shots": [
+    {
+     "scene": "num",
+     "cam": {
+      "on": "robado",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "veinte",
+       "target": "robado",
+       "value": 20000000,
+       "dur": 1.2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Hasta que, en 2001, después de años de sospechas, el FBI recibió una llamada anónima.",
+   "shots": [
+    {
+     "scene": "fbi",
+     "cam": {
+      "on": "cal",
+      "shot": "close",
+      "pitch": 3,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "fbi",
+     "from": "FBI",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       -1.2
+      ],
+      "dist": 3.8,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "FBI",
+       "target": "ag1",
+       "pose": "hips"
+      },
+      {
+       "on": "FBI",
+       "target": "ag2",
+       "pose": "cross"
+      }
+     ]
+    },
+    {
+     "scene": "fbi",
+     "from": "llamada",
+     "cam": {
+      "target": [
+       -0.2,
+       0.6,
+       -0.85
+      ],
+      "dist": 1.2,
+      "yaw": 0,
+      "pitch": 10,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "llamada",
+       "target": "ag1",
+       "expr": "surprised"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Escucharon teléfonos, siguieron a los ganadores… y desmontaron toda la red.",
+   "shots": [
+    {
+     "scene": "fbi",
+     "cam": {
+      "on": "ag1",
+      "shot": "close",
+      "yaw": 15,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Escucharon",
+       "target": "ag1",
+       "pose": "think",
+       "expr": "skeptical"
+      }
+     ]
+    },
+    {
+     "scene": "reparto",
+     "from": "siguieron",
+     "cam": {
+      "target": [
+       0.6,
+       0.8,
+       -2.0
+      ],
+      "dist": 4.4,
+      "yaw": -15,
+      "pitch": 5,
+      "move": "pan"
+     }
+    },
+    {
+     "scene": "arresto",
+     "from": "desmontaron",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       -2.0
+      ],
+      "dist": 4.0,
+      "yaw": 0,
+      "pitch": 5,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "desmontaron",
+       "target": "esposas",
+       "pop": true,
+       "sfx": "thud"
+      },
+      {
+       "on": "desmontaron",
+       "target": "jerry",
+       "pose": "up",
+       "expr": "shock"
+      },
+      {
+       "on": "desmontaron",
+       "target": "a1",
+       "pose": "up",
+       "expr": "panic"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Después del escándalo, McDonald's regaló diez millones de dólares en premios, para recuperar la confianza de sus clientes.",
+   "shots": [
+    {
+     "scene": "num",
+     "cam": {
+      "on": "regalo",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "diez",
+       "target": "regalo",
+       "value": 10000000,
+       "dur": 1.1
+      }
+     ]
+    },
+    {
+     "scene": "local",
+     "from": "confianza",
+     "cam": {
+      "target": [
+       0,
+       1.0,
+       -0.6
+      ],
+      "dist": 3.6,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "confianza",
+       "target": "caj",
+       "pose": "present",
+       "expr": "happy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "¿Tú alguna vez ganaste algo en ese juego?",
+   "shots": [
+    {
+     "scene": "final",
+     "cam": {
+      "target": [
+       0.1,
+       0.9,
+       0
+      ],
+      "dist": 3.4,
+      "yaw": 0,
+      "pitch": 5,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Tú",
+       "target": "cli",
+       "pose": "point",
+       "expr": "smug",
+       "lead": 0.2
+      },
+      {
+       "on": "juego",
+       "target": "cli",
+       "pose": "shrug",
+       "expr": "joy"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

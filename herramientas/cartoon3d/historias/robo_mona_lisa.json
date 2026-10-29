@@ -1,0 +1,1339 @@
+{
+ "out": "Caricatura3D_15_robo_mona_lisa",
+ "title": "El robo que hizo famosa a la Mona Lisa (1911)",
+ "audio": "../audios/historia_15.m4a",
+ "look": {
+  "skin": "white",
+  "style": "bean"
+ },
+ "maxShot": 1.5,
+ "sources": [
+  "https://es.wikipedia.org/wiki/La_Gioconda",
+  "https://en.wikipedia.org/wiki/Vincenzo_Peruggia"
+ ],
+ "scenes": {
+  "louvre": {
+   "set": {
+    "type": "room",
+    "wall": "#b98a6a",
+    "wall2": "#a87a5a",
+    "floor": "#8a5a36",
+    "rug": "#7a2a3a",
+    "sofa": false,
+    "lamp": false
+   },
+   "actors": [
+    {
+     "id": "peru",
+     "look": {
+      "hair": "short",
+      "hairColor": "#2a1a10",
+      "mustache": true,
+      "shirt": "#efe7d6",
+      "coat": "#f4f2ea",
+      "badge": false
+     },
+     "pos": [
+      -2.6,
+      0,
+      -1.2
+     ],
+     "rot": 90,
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "c1",
+     "type": "painting",
+     "pos": [
+      -1.6,
+      0,
+      -2.45
+     ],
+     "y": 1.6,
+     "w": 0.8,
+     "h": 0.6,
+     "seed": "a",
+     "bg": "#7a9ab0"
+    },
+    {
+     "id": "c2",
+     "type": "painting",
+     "pos": [
+      1.7,
+      0,
+      -2.45
+     ],
+     "y": 1.6,
+     "w": 0.7,
+     "h": 0.9,
+     "seed": "b",
+     "bg": "#c9a07a"
+    },
+    {
+     "id": "mona",
+     "type": "painting",
+     "kind": "mona",
+     "pos": [
+      0,
+      0,
+      -2.45
+     ],
+     "y": 1.4,
+     "w": 0.6,
+     "h": 0.85
+    },
+    {
+     "id": "vacio",
+     "type": "painting",
+     "empty": true,
+     "pos": [
+      0,
+      0,
+      -2.45
+     ],
+     "y": 1.4,
+     "w": 0.6,
+     "h": 0.85,
+     "frame": "#b98a6a",
+     "hidden": true
+    },
+    {
+     "id": "lienzo",
+     "type": "painting",
+     "kind": "mona",
+     "pos": [
+      0.4,
+      0,
+      -1.2
+     ],
+     "y": 0.6,
+     "w": 0.4,
+     "h": 0.56,
+     "frame": "#d9cbb0",
+     "hidden": true
+    },
+    {
+     "id": "cerrado",
+     "type": "sign",
+     "pos": [
+      2.6,
+      0,
+      -1.5
+     ],
+     "rot": -30,
+     "text": [
+      "CERRADO"
+     ],
+     "bg": "#c62b2b",
+     "w": 0.8,
+     "h": 0.3,
+     "postH": 0.9
+    },
+    {
+     "id": "brillo",
+     "type": "sparkles",
+     "pos": [
+      0,
+      0,
+      -2.2
+     ],
+     "y": 1.4,
+     "n": 12,
+     "spread": 0.6
+    }
+   ]
+  },
+  "fecha": {
+   "set": {
+    "type": "studio",
+    "color": "#3a2a4a"
+   },
+   "props": [
+    {
+     "id": "cal",
+     "type": "calendar",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "post": true,
+     "y": 1.25,
+     "day": 21,
+     "month": "AGOSTO 1911",
+     "year": "LUNES · PARÍS"
+    },
+    {
+     "id": "brillo",
+     "type": "sparkles",
+     "pos": [
+      0,
+      0,
+      0.2
+     ],
+     "y": 1.3,
+     "n": 10,
+     "spread": 0.6
+    }
+   ]
+  },
+  "fila": {
+   "set": {
+    "type": "room",
+    "wall": "#b98a6a",
+    "wall2": "#a87a5a",
+    "floor": "#8a5a36",
+    "rug": "#7a2a3a",
+    "sofa": false,
+    "lamp": false
+   },
+   "actors": [
+    {
+     "id": "f0",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#5a3b2a",
+      "shirt": "#8a5a3a",
+      "badge": false
+     },
+     "pos": [
+      -1.4,
+      0,
+      0.65
+     ],
+     "rot": 180,
+     "expr": "confused"
+    },
+    {
+     "id": "f1",
+     "look": {
+      "hair": "bun",
+      "hairColor": "#6a3a1a",
+      "shirt": "#a0503a",
+      "dress": "#a0503a",
+      "badge": false
+     },
+     "pos": [
+      -0.9,
+      0,
+      0.54
+     ],
+     "rot": 180,
+     "expr": "confused"
+    },
+    {
+     "id": "f2",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#b03a2a",
+      "shirt": "#5a7a4a",
+      "badge": false
+     },
+     "pos": [
+      -0.4,
+      0,
+      0.78
+     ],
+     "rot": 180,
+     "expr": "confused"
+    },
+    {
+     "id": "f3",
+     "look": {
+      "hair": "long",
+      "hairColor": "#c9a050",
+      "shirt": "#c95a6a",
+      "dress": "#c95a6a",
+      "badge": false
+     },
+     "pos": [
+      0.1,
+      0,
+      0.66
+     ],
+     "rot": 180,
+     "expr": "confused"
+    },
+    {
+     "id": "f4",
+     "look": {
+      "body": "wide",
+      "hair": "short",
+      "hairColor": "#2a1a10",
+      "shirt": "#7a5a8a",
+      "badge": false
+     },
+     "pos": [
+      0.6,
+      0,
+      0.41
+     ],
+     "rot": 180,
+     "expr": "starstruck"
+    },
+    {
+     "id": "f5",
+     "look": {
+      "body": "tall",
+      "hair": "hat",
+      "hatColor": "#2a3a2a",
+      "shirt": "#6a8aa0",
+      "badge": false
+     },
+     "pos": [
+      1.1,
+      0,
+      0.71
+     ],
+     "rot": 180,
+     "expr": "surprised"
+    }
+   ],
+   "props": [
+    {
+     "id": "c1",
+     "type": "painting",
+     "pos": [
+      -1.6,
+      0,
+      -2.45
+     ],
+     "y": 1.6,
+     "w": 0.8,
+     "h": 0.6,
+     "seed": "a",
+     "bg": "#7a9ab0"
+    },
+    {
+     "id": "c2",
+     "type": "painting",
+     "pos": [
+      1.7,
+      0,
+      -2.45
+     ],
+     "y": 1.6,
+     "w": 0.7,
+     "h": 0.9,
+     "seed": "b",
+     "bg": "#c9a07a"
+    },
+    {
+     "id": "vacio",
+     "type": "painting",
+     "empty": true,
+     "pos": [
+      0,
+      0,
+      -2.45
+     ],
+     "y": 1.4,
+     "w": 0.6,
+     "h": 0.85,
+     "frame": "#b98a6a"
+    }
+   ]
+  },
+  "prensa": {
+   "set": {
+    "type": "studio",
+    "color": "#e9dcc6"
+   },
+   "props": [
+    {
+     "id": "diario",
+     "type": "paper",
+     "pos": [
+      0,
+      1.0,
+      0
+     ],
+     "w": 0.75,
+     "h": 0.95,
+     "text": [
+      "LE PETIT PARISIEN",
+      "22 de agosto de 1911"
+     ],
+     "big": "¡ROBARON LA MONA LISA!",
+     "bigColor": "#c62b2b"
+    },
+    {
+     "id": "d2",
+     "type": "paper",
+     "pos": [
+      -0.5,
+      0.8,
+      -0.3
+     ],
+     "rot": 15,
+     "w": 0.6,
+     "h": 0.75,
+     "text": [
+      "NEW YORK",
+      "1911"
+     ],
+     "big": "STOLEN!"
+    },
+    {
+     "id": "d3",
+     "type": "paper",
+     "pos": [
+      0.55,
+      0.75,
+      -0.35
+     ],
+     "rot": -15,
+     "w": 0.6,
+     "h": 0.75,
+     "text": [
+      "BERLÍN",
+      "1911"
+     ],
+     "big": "¡GESTOHLEN!"
+    }
+   ]
+  },
+  "interro": {
+   "set": {
+    "type": "office",
+    "seed": "int",
+    "wall": "#b9b2a8"
+   },
+   "actors": [
+    {
+     "id": "pol",
+     "look": {
+      "hair": "police",
+      "hatColor": "#1f2c55",
+      "shirt": "#1f2c55",
+      "mustache": true,
+      "badge": false
+     },
+     "pos": [
+      0.6,
+      0,
+      -0.5
+     ],
+     "rot": -40,
+     "expr": "angry"
+    },
+    {
+     "id": "pica",
+     "look": {
+      "body": "short",
+      "hair": "bald",
+      "hairColor": "#3a2a20",
+      "shirt": "#2a3a6a",
+      "badge": false
+     },
+     "pos": [
+      -0.6,
+      0,
+      -0.4
+     ],
+     "rot": 40,
+     "expr": "nervous"
+    }
+   ]
+  },
+  "florencia": {
+   "set": {
+    "type": "street",
+    "time": "day",
+    "seed": "flor",
+    "palette": [
+     "#e2b07a",
+     "#d9985a",
+     "#c9805a",
+     "#efd2a0",
+     "#b9704a"
+    ]
+   },
+   "actors": [
+    {
+     "id": "peru",
+     "look": {
+      "hair": "short",
+      "hairColor": "#2a1a10",
+      "mustache": true,
+      "shirt": "#efe7d6",
+      "coat": "#f4f2ea",
+      "badge": false
+     },
+     "pos": [
+      -0.6,
+      0.1,
+      -2.0
+     ],
+     "rot": 40,
+     "expr": "smug"
+    },
+    {
+     "id": "merc",
+     "look": {
+      "body": "wide",
+      "hair": "hat",
+      "hatColor": "#3a2a20",
+      "shirt": "#7a5a3a",
+      "tie": "#c62b2b",
+      "mustache": true,
+      "badge": false
+     },
+     "pos": [
+      0.6,
+      0.1,
+      -2.0
+     ],
+     "rot": -40,
+     "expr": "surprised"
+    },
+    {
+     "id": "pol",
+     "look": {
+      "hair": "police",
+      "hatColor": "#1f2c55",
+      "shirt": "#1f2c55",
+      "mustache": true,
+      "badge": false
+     },
+     "pos": [
+      4,
+      0.1,
+      -2.0
+     ],
+     "rot": -90,
+     "expr": "angry"
+    }
+   ],
+   "props": [
+    {
+     "id": "lienzo",
+     "type": "painting",
+     "kind": "mona",
+     "pos": [
+      -0.3,
+      0.1,
+      -1.85
+     ],
+     "y": 0.55,
+     "w": 0.4,
+     "h": 0.56,
+     "frame": "#d9cbb0"
+    },
+    {
+     "id": "cartel",
+     "type": "sign",
+     "pos": [
+      -1.6,
+      0.1,
+      -2.3
+     ],
+     "text": [
+      "FLORENCIA"
+     ],
+     "bg": "#2f7d4a",
+     "w": 0.9,
+     "h": 0.3,
+     "postH": 1.2
+    },
+    {
+     "id": "cal",
+     "type": "calendar",
+     "pos": [
+      1.6,
+      0.1,
+      -2.3
+     ],
+     "post": true,
+     "y": 1.25,
+     "day": 1913,
+     "month": "DICIEMBRE",
+     "year": "ITALIA"
+    }
+   ]
+  },
+  "regreso": {
+   "set": {
+    "type": "room",
+    "wall": "#b98a6a",
+    "wall2": "#a87a5a",
+    "floor": "#8a5a36",
+    "rug": "#7a2a3a",
+    "sofa": false,
+    "lamp": false
+   },
+   "actors": [
+    {
+     "id": "f0",
+     "look": {
+      "hair": "hat",
+      "hatColor": "#5a3b2a",
+      "shirt": "#8a5a3a",
+      "badge": false
+     },
+     "pos": [
+      -1.4,
+      0,
+      0.65
+     ],
+     "rot": 180,
+     "expr": "starstruck"
+    },
+    {
+     "id": "f1",
+     "look": {
+      "hair": "bun",
+      "hairColor": "#6a3a1a",
+      "shirt": "#a0503a",
+      "dress": "#a0503a",
+      "badge": false
+     },
+     "pos": [
+      -0.9,
+      0,
+      0.54
+     ],
+     "rot": 180,
+     "expr": "starstruck"
+    },
+    {
+     "id": "f2",
+     "look": {
+      "hair": "cap",
+      "hatColor": "#b03a2a",
+      "shirt": "#5a7a4a",
+      "badge": false
+     },
+     "pos": [
+      -0.4,
+      0,
+      0.78
+     ],
+     "rot": 180,
+     "expr": "starstruck"
+    },
+    {
+     "id": "f3",
+     "look": {
+      "hair": "long",
+      "hairColor": "#c9a050",
+      "shirt": "#c95a6a",
+      "dress": "#c95a6a",
+      "badge": false
+     },
+     "pos": [
+      0.1,
+      0,
+      0.66
+     ],
+     "rot": 180,
+     "expr": "starstruck"
+    },
+    {
+     "id": "f4",
+     "look": {
+      "body": "wide",
+      "hair": "short",
+      "hairColor": "#2a1a10",
+      "shirt": "#7a5a8a",
+      "badge": false
+     },
+     "pos": [
+      0.6,
+      0,
+      0.41
+     ],
+     "rot": 180,
+     "expr": "starstruck"
+    },
+    {
+     "id": "f5",
+     "look": {
+      "body": "tall",
+      "hair": "hat",
+      "hatColor": "#2a3a2a",
+      "shirt": "#6a8aa0",
+      "badge": false
+     },
+     "pos": [
+      1.1,
+      0,
+      0.71
+     ],
+     "rot": 180,
+     "expr": "starstruck"
+    }
+   ],
+   "props": [
+    {
+     "id": "c1",
+     "type": "painting",
+     "pos": [
+      -1.6,
+      0,
+      -2.45
+     ],
+     "y": 1.6,
+     "w": 0.8,
+     "h": 0.6,
+     "seed": "a",
+     "bg": "#7a9ab0"
+    },
+    {
+     "id": "c2",
+     "type": "painting",
+     "pos": [
+      1.7,
+      0,
+      -2.45
+     ],
+     "y": 1.6,
+     "w": 0.7,
+     "h": 0.9,
+     "seed": "b",
+     "bg": "#c9a07a"
+    },
+    {
+     "id": "mona",
+     "type": "painting",
+     "kind": "mona",
+     "pos": [
+      0,
+      0,
+      -2.45
+     ],
+     "y": 1.4,
+     "w": 0.6,
+     "h": 0.85
+    },
+    {
+     "id": "brillo",
+     "type": "sparkles",
+     "pos": [
+      0,
+      0,
+      -2.2
+     ],
+     "y": 1.4,
+     "n": 20,
+     "spread": 0.9
+    }
+   ]
+  },
+  "final": {
+   "set": {
+    "type": "studio",
+    "color": "#3a2a4a"
+   },
+   "actors": [
+    {
+     "id": "guia",
+     "look": {
+      "hair": "long",
+      "hairColor": "#3a2a20",
+      "shirt": "#2f8a8a",
+      "badge": false
+     },
+     "pos": [
+      -0.35,
+      0,
+      0.3
+     ],
+     "rot": 15,
+     "lookAt": "cam",
+     "expr": "smile"
+    }
+   ],
+   "props": [
+    {
+     "id": "vacio",
+     "type": "painting",
+     "empty": true,
+     "pos": [
+      0.55,
+      0,
+      -0.6
+     ],
+     "y": 1.1,
+     "w": 0.5,
+     "h": 0.7,
+     "frame": "#c9a03a",
+     "wall": "#4a3a5a"
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "La Mona Lisa no siempre fue el cuadro más famoso del mundo. Se volvió famosa… cuando la robaron.",
+   "shots": [
+    {
+     "scene": "regreso",
+     "cam": {
+      "target": [
+       0,
+       1.4,
+       -2.45
+      ],
+      "dist": 1.6,
+      "yaw": 0,
+      "pitch": 2,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "louvre",
+     "from": "famoso",
+     "cam": {
+      "target": [
+       0,
+       1.2,
+       -2.2
+      ],
+      "dist": 4.6,
+      "yaw": 0,
+      "pitch": 4,
+      "move": "pull"
+     }
+    },
+    {
+     "scene": "fila",
+     "from": "robaron",
+     "cam": {
+      "target": [
+       0,
+       1.3,
+       -2.45
+      ],
+      "dist": 1.8,
+      "yaw": 0,
+      "pitch": 2,
+      "move": "crash"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Es agosto de 1911, en el Louvre de París. Es lunes, y el museo está cerrado.",
+   "shots": [
+    {
+     "scene": "fecha",
+     "cam": {
+      "on": "cal",
+      "shot": "close",
+      "pitch": 3,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "louvre",
+     "from": "Louvre",
+     "cam": {
+      "target": [
+       0,
+       1.0,
+       -1.6
+      ],
+      "dist": 5,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "louvre",
+     "from": "cerrado",
+     "cam": {
+      "on": "cerrado",
+      "shot": "medium",
+      "pitch": 3,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Un hombre con bata blanca, como la de los trabajadores, camina tranquilo por las salas. Se llama Vincenzo Peruggia, y había trabajado ahí.",
+   "shots": [
+    {
+     "scene": "louvre",
+     "cam": {
+      "on": "peru",
+      "shot": "full",
+      "yaw": 20,
+      "move": "pan"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "peru",
+       "move": [
+        -0.4,
+        0,
+        -1.2
+       ],
+       "dur": 3.2,
+       "ease": "linear"
+      }
+     ]
+    },
+    {
+     "scene": "louvre",
+     "from": "Vincenzo",
+     "cam": {
+      "on": "peru",
+      "shot": "close",
+      "yaw": -10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Vincenzo",
+       "target": "peru",
+       "turn": 0,
+       "lookAt": "cam",
+       "expr": "smug",
+       "pose": "hips"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Descuelga el cuadro, le quita el marco, lo esconde bajo la bata… y sale caminando por la puerta.",
+   "shots": [
+    {
+     "scene": "louvre",
+     "cam": {
+      "target": [
+       -0.2,
+       1.2,
+       -2.2
+      ],
+      "dist": 2.6,
+      "yaw": 15,
+      "pitch": 4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "peru",
+       "turn": 180,
+       "dur": 0.3
+      },
+      {
+       "on": "Descuelga",
+       "target": "peru",
+       "pose": "up",
+       "expr": "determined"
+      },
+      {
+       "on": "Descuelga",
+       "target": "mona",
+       "hide": true,
+       "lead": -0.3
+      },
+      {
+       "on": "Descuelga",
+       "target": "vacio",
+       "show": true,
+       "lead": -0.3
+      },
+      {
+       "on": "Descuelga",
+       "target": "lienzo",
+       "pop": true,
+       "lead": -0.3
+      }
+     ]
+    },
+    {
+     "scene": "louvre",
+     "from": "marco",
+     "cam": {
+      "target": [
+       -0.1,
+       0.7,
+       -1.2
+      ],
+      "dist": 2.0,
+      "yaw": -10,
+      "pitch": 6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "marco",
+       "target": "peru",
+       "turn": 0,
+       "pose": "hold",
+       "expr": "nervous"
+      }
+     ]
+    },
+    {
+     "scene": "louvre",
+     "from": "esconde",
+     "cam": {
+      "on": "peru",
+      "shot": "medium",
+      "yaw": 10,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "esconde",
+       "target": "lienzo",
+       "hide": true
+      },
+      {
+       "on": "esconde",
+       "target": "peru",
+       "pose": "idle",
+       "expr": "smug",
+       "lookAt": "cam"
+      }
+     ]
+    },
+    {
+     "scene": "louvre",
+     "from": "sale",
+     "cam": {
+      "target": [
+       1.2,
+       0.8,
+       -1.0
+      ],
+      "dist": 5,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "pan"
+     },
+     "do": [
+      {
+       "on": "sale",
+       "target": "peru",
+       "turn": -90,
+       "dur": 0.2
+      },
+      {
+       "on": "sale",
+       "target": "peru",
+       "move": [
+        3.8,
+        0,
+        -1.0
+       ],
+       "dur": 2.4,
+       "ease": "linear"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Nadie se da cuenta hasta el día siguiente.",
+   "shots": [
+    {
+     "scene": "fila",
+     "cam": {
+      "target": [
+       0,
+       1.3,
+       -2.45
+      ],
+      "dist": 2.4,
+      "yaw": 0,
+      "pitch": 2,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "f2",
+       "expr": "shock",
+       "jolt": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "El robo sale en periódicos de todo el mundo. Miles de personas hacen fila en el museo… solo para ver el hueco vacío en la pared.",
+   "shots": [
+    {
+     "scene": "prensa",
+     "cam": {
+      "on": "diario",
+      "shot": "medium",
+      "pitch": 2,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "prensa",
+     "from": "mundo",
+     "cam": {
+      "target": [
+       0,
+       0.85,
+       -0.1
+      ],
+      "dist": 3.2,
+      "yaw": 0,
+      "pitch": 4,
+      "move": "pull"
+     }
+    },
+    {
+     "scene": "fila",
+     "from": "Miles",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       0.4
+      ],
+      "dist": 4.6,
+      "yaw": 180,
+      "pitch": 8,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "fila",
+     "from": "hueco",
+     "cam": {
+      "target": [
+       0,
+       1.2,
+       -1.2
+      ],
+      "dist": 4.2,
+      "yaw": 0,
+      "pitch": 6,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "La policía hasta interroga a Picasso.",
+   "shots": [
+    {
+     "scene": "interro",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       -0.45
+      ],
+      "dist": 3.4,
+      "yaw": 0,
+      "pitch": 5,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "policía",
+       "target": "pol",
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "scene": "interro",
+     "from": "Picasso",
+     "cam": {
+      "on": "pica",
+      "shot": "close",
+      "yaw": 25,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "Picasso",
+       "target": "pica",
+       "expr": "panic",
+       "pose": "headhold",
+       "lookAt": "cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Pasan dos años. Hasta que Peruggia intenta vendérsela a un comerciante de arte en Florencia… y lo atrapan.",
+   "shots": [
+    {
+     "scene": "florencia",
+     "cam": {
+      "on": "cal",
+      "shot": "close",
+      "pitch": 3,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "florencia",
+     "from": "Peruggia",
+     "cam": {
+      "target": [
+       0,
+       0.8,
+       -2.0
+      ],
+      "dist": 3.4,
+      "yaw": 0,
+      "pitch": 5,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "intenta",
+       "target": "peru",
+       "pose": "present",
+       "expr": "happy"
+      },
+      {
+       "on": "comerciante",
+       "target": "merc",
+       "expr": "skeptical",
+       "pose": "think"
+      }
+     ]
+    },
+    {
+     "scene": "florencia",
+     "from": "atrapan",
+     "cam": {
+      "target": [
+       0.6,
+       0.8,
+       -2.0
+      ],
+      "dist": 4.4,
+      "yaw": 0,
+      "pitch": 5,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "atrapan",
+       "target": "pol",
+       "move": [
+        0.3,
+        0.1,
+        -1.6
+       ],
+       "dur": 0.4
+      },
+      {
+       "on": "atrapan",
+       "target": "pol",
+       "pose": "point",
+       "expr": "angry"
+      },
+      {
+       "on": "atrapan",
+       "target": "peru",
+       "expr": "shock",
+       "pose": "up",
+       "jolt": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Cuando la Mona Lisa vuelve al Louvre, ya es el cuadro más famoso del planeta.",
+   "shots": [
+    {
+     "scene": "regreso",
+     "cam": {
+      "target": [
+       0,
+       1.4,
+       -2.45
+      ],
+      "dist": 1.8,
+      "yaw": 0,
+      "pitch": 2,
+      "move": "pull"
+     }
+    },
+    {
+     "scene": "regreso",
+     "from": "famoso",
+     "cam": {
+      "target": [
+       0,
+       1.0,
+       -0.6
+      ],
+      "dist": 5.5,
+      "yaw": 0,
+      "pitch": 8,
+      "move": "pull"
+     },
+     "do": [
+      {
+       "on": "famoso",
+       "target": "f1",
+       "pose": "cheer"
+      },
+      {
+       "on": "famoso",
+       "target": "f3",
+       "pose": "cheer",
+       "lead": 0.05
+      },
+      {
+       "on": "famoso",
+       "target": "f4",
+       "pose": "up",
+       "lead": 0.1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "¿Tú habrías hecho fila para ver una pared vacía?",
+   "shots": [
+    {
+     "scene": "final",
+     "cam": {
+      "target": [
+       0.1,
+       0.9,
+       0
+      ],
+      "dist": 3.6,
+      "yaw": 0,
+      "pitch": 5,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Tú",
+       "target": "guia",
+       "pose": "point",
+       "expr": "smug",
+       "lead": 0.2
+      },
+      {
+       "on": "pared",
+       "target": "guia",
+       "pose": "present",
+       "expr": "joy"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

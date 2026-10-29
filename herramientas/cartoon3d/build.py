@@ -220,6 +220,25 @@ def main(story_path, stills=False, workers=3):
                         sounds.append((at + k2 * .07, 'tick', .5))
                     sounds.append((at + d, 'ding', .6))
                 actions.append(a)
+    # corte automático: los planos largos se dividen en varios ángulos de la misma escena
+    mx = story.get('maxShot')
+    if mx:
+        out = []
+        for sh in shots:
+            d = sh['t1'] - sh['t0']; n = max(1, int(d / mx + .35))
+            for k in range(n):
+                c = dict(sh['cam'])
+                if k:
+                    if 'on' in c and 'shot' in c:
+                        order = ['face', 'close', 'medium', 'full', 'wide']
+                        i = order.index(c['shot']) if c['shot'] in order else 2
+                        c['shot'] = order[max(0, i - 1)] if k % 2 else order[min(4, i + 1)]
+                    elif 'dist' in c:
+                        c['dist'] = round(c['dist'] * (.68 if k % 2 else 1.18), 3)
+                    c['yaw'] = (c.get('yaw') or 0) + (14 if k % 2 else -12)
+                    c['move'] = 'push' if k % 2 else 'drift'
+                out.append(dict(sh, t0=round(sh['t0'] + d * k / n, 3), t1=round(sh['t0'] + d * (k + 1) / n, 3), cam=c))
+        shots = out
     for k in range(1, len(shots)):
         if shots[k]['scene'] != shots[k - 1]['scene']:
             sounds.append((shots[k]['t0'] - .17, 'whoosh', .55))
