@@ -18,16 +18,19 @@ FONTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'fuentes'
 # correcciones de la transcripción automática (palabra -> texto; una secuencia se reparte en el tiempo)
 FIX = {'cabas': 'cavas', 'caban': 'cavan', 'UniGlue!': 'un iglú!', 'aguajote': 'ahuejote',
        'elevadizo.': 'levadizo.', 'contravesaños.': 'con travesaños.', 'resvale': 'resbale', 'amaca,': 'hamaca,',
-       'hoyín': 'hollín', 'amarran': 'amarra', 'saleros': 'aleros'}
-FIX_SEQ = [(('entre', 'octángulo'), ('en', 'rectángulo')), (('vuelta', 'a', 'dormido'), ('vuelta', '', 'dormido'))]
+       'hoyín': 'hollín', 'amarran': 'amarra', 'saleros': 'aleros', 'cana.': 'khana.', 'enfria': 'enfría',
+       'arras': 'a ras', 'Quezhuachaca.': "Q'eswachaka."}
+FIX_SEQ = [(('entre', 'octángulo'), ('en', 'rectángulo')), (('vuelta', 'a', 'dormido'), ('vuelta', '', 'dormido')),
+           (('bad', 'gear'), ('badgir', '')), (('una', 'atrapa', 'vientos'), ('un', 'atrapavientos', '')),
+           (('atrapa', 'vientos'), ('atrapavientos', ''))]
 
 raw = json.load(open(words_json))
 i = 0
 while i < len(raw):
     for a, b in FIX_SEQ:
-        if tuple(x['w'].strip(',.') for x in raw[i:i + len(a)]) == a:
+        if tuple(x['w'].strip(',.!¡?¿') for x in raw[i:i + len(a)]) == a:
             for x, nw in zip(raw[i:i + len(a)], b):
-                x['w'] = x['w'].replace(x['w'].strip(',.'), nw)
+                x['w'] = x['w'].replace(x['w'].strip(',.!¡?¿'), nw)
     i += 1
 
 words = []
