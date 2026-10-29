@@ -1522,7 +1522,7 @@ function gradeFlat(frame) {
   const v = ctx.createRadialGradient(W / 2, H * .45, H * .25, W / 2, H * .5, H * .78);
   v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(20,8,30,.5)'); ctx.fillStyle = v; ctx.fillRect(0, 0, W, H);
   // grano
-  ctx.save(); ctx.globalCompositeOperation = 'overlay'; ctx.globalAlpha = .07;
+  ctx.save(); ctx.globalCompositeOperation = 'overlay'; ctx.globalAlpha = .04;
   const ox = (frame * 37) % 256, oy = (frame * 91) % 256;
   ctx.translate(-ox, -oy); ctx.fillStyle = ctx.createPattern(NOISE, 'repeat'); ctx.fillRect(0, 0, W + 256, H + 256); ctx.restore();
 }
