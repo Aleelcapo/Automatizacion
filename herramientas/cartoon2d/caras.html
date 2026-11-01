@@ -1,0 +1,15 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face { font-family: 'Anton'; src: url('/node_modules/@fontsource/anton/files/anton-latin-400-normal.woff2'); }
+html,body{margin:0;background:#000}</style></head><body>
+<svg id="s" xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"></svg>
+<script type="module">
+import { drawCharacter, drawHand, CAST } from '/anime.js';
+const s = document.getElementById('s');
+let out = `<rect width="1920" height="1080" fill="#dfe8ea"/><rect y="960" width="1920" height="120" fill="#a7b8bd"/>`;
+out += `<g transform="translate(330 2600) scale(2.6)">${drawCharacter('house', { propR: 'cane', armR: [8, -6], armL: [95, 25], handL: 'point', head:{tilt:-3}, face: { browL: -12, browR: 10, browUp:[0,7], mood: 'smirk', look:[.3,0] } })}</g>`;
+out += `<g transform="translate(960 2600) scale(2.6)">${drawCharacter('ana', { propR: 'clipboard', armR: [10, -118], armL: [22, 72], handL: 'open', face: { mood: 'smile', mouth:.35, look:[-.5,0] } })}</g>`;
+out += `<g transform="translate(1600 2600) scale(2.6)">${drawCharacter('leo', { propR: 'notebook', armR: [8, -116], armL: [150, 12], handL: 'open', face: { mouth: .55, look:[-.6,-.3], browUp:[8,8] } })}</g>`;
+// manos de muestra
+const kinds = ['relax','open','point','fist','grip'];
+s.innerHTML = out; await document.fonts.ready; window.ready = true;
+</script></body></html>
