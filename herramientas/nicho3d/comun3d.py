@@ -253,7 +253,7 @@ def render_setup(out, opt, nf):
     sc.cycles.max_bounces = 4
     sc.cycles.transparent_max_bounces = 8
     sc.cycles.diffuse_bounces = 2
-    sc.render.use_persistent_data = True
+    sc.render.use_persistent_data = False   # con True, tras cientos de cuadros algunos materiales salen negros
     sc.render.resolution_x = res
     sc.render.resolution_y = res * 16 // 9
     sc.render.image_settings.file_format = 'PNG'
