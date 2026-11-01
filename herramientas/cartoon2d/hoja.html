@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face { font-family: 'Anton'; src: url('/node_modules/@fontsource/anton/files/anton-latin-400-normal.woff2'); }
+html,body{margin:0;background:#000}</style></head><body>
+<svg id="s" xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"></svg>
+<script type="module">
+import { drawCharacter } from '/personajes.js';
+const s = document.getElementById('s');
+let out = `<rect width="1920" height="1080" fill="#d8e3e6"/><rect y="930" width="1920" height="150" fill="#9fb0b5"/>`;
+out += `<g transform="translate(400 990)">${drawCharacter('house', { prop: 'cane', armL: [18, -30], armR: [-6, -4], pocketR: true, head:{tilt:-4}, face: { browL: -14, browR: 8, browUp:[0,8], mood: 'smirk' } })}</g>`;
+out += `<g transform="translate(960 990)">${drawCharacter('ana', { prop: 'clipboard', armR: [-40, 100], armL: [10, -10], face: { mood: 'smile', look: 1 } })}</g>`;
+out += `<g transform="translate(1500 990)">${drawCharacter('leo', { prop: 'notebook', armR: [-36, 104], armL: [8, -10], face: { mood: 'neutral', mouth: .5, look: -1, browUp:[8,8] } })}</g>`;
+out += `<text x="400" y="1060" font-family="Anton" font-size="44" text-anchor="middle" fill="#17171c">DR. HOUSE</text><text x="960" y="1060" font-family="Anton" font-size="44" text-anchor="middle" fill="#17171c">ANA</text><text x="1500" y="1060" font-family="Anton" font-size="44" text-anchor="middle" fill="#17171c">LEO</text>`;
+s.innerHTML = out; await document.fonts.ready; window.ready = true;
+</script></body></html>
