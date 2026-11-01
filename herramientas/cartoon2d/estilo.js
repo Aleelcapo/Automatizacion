@@ -141,8 +141,11 @@ function face(c, e, id) {
   if (c.stubble) s += `<path d="${c.stubble}" fill="${c.stubbleCol}" opacity=".55"/>` + Array.from({ length: 70 }, (_, i) => { const x = ((i * 37) % 100) - 50, y = 30 + ((i * 53) % 60); return (y > 44 || Math.abs(x) > 34) && Math.abs(x) < 50 - (y - 30) * .45 ? `<circle cx="${f(x)}" cy="${f(y)}" r=".9" fill="#5a4a40" opacity=".5"/>` : ''; }).join('');
   if (c.bangShade) s += `<path d="${c.bangShade}" fill="${c.skinS}"/>`;
   if (c.lines) s += line(c.lines, 2.6, c.skinS);
+  if (e.drunk) s += `<ellipse cx="-36" cy="34" rx="18" ry="10" fill="#e0505a" opacity="${.45 * e.drunk}"/><ellipse cx="36" cy="34" rx="18" ry="10" fill="#e0505a" opacity="${.45 * e.drunk}"/><ellipse cx="2" cy="32" rx="11" ry="8" fill="#e0505a" opacity="${.55 * e.drunk}"/>`;
+  if (e.sweat) s += `<path d="M58 -40 q8 14 0 20 q-8 -6 0 -20 Z" fill="#bfe3ff" stroke="${O}" stroke-width="1.5"/>`;
   s += eyesR(c, e, id);
   s += line(c.nose, 3.6, c.noseCol || '#9b6550');
+  if (c.mustache) { const mg = new G(); mg.poly(c.mustache, c.mustacheCol); s += mg; }
   s += mouthR(c, e);
   const hf = new G(); hf.poly(c.hairFront, c.hair); hf.sh(c.hairShade || ''); s += hf;
   s += c.hairHi || '';
@@ -206,6 +209,32 @@ export const CAST = {
     hairBackView: 'M-62 -40 Q-70 -114 0 -124 Q70 -114 62 -40 Q66 20 54 56 Q40 64 28 60 Q14 72 0 66 Q-14 72 -28 60 Q-40 64 -54 56 Q-66 20 -62 -40 Z',
     hairBackViewShade: '<path d="M20 -116 Q66 -98 62 -40 Q66 20 54 56 Q40 64 28 60 Q56 -20 20 -116 Z" fill="#4e3523"/>',
   },
+paciente: {
+    id: 'paciente', scale: .96, skin: '#e8b593', skinS: '#c98f6f', hair: '#b9b4ae', hairS: '#8f8a84',
+    ex: 26, ey: -2, ew: 14, eh: 6.5, pupil: .72, irisCol: '#4a3a2c', lid: .3, browW: 6, brow: '#9c958d', my: 66, bags: true, neckW: 29,
+    outfit: 'shirt', top: '#5f7fa8', topS: '#4a6587', plaid: '#2f3f5a', pants: '#6a5a48', pantsS: '#54463a', shoe: '#3b2f28', shoeS: '#241c18', sole: '#1c1714',
+    shoulderW: 90, waistW: 76, hipY: -470, shoulderY: -705, headY: -800, headS: .9, armW: [46, 40, 32],
+    jaw: 'M-61 10 L-61 -46 Q-60 -116 0 -120 Q60 -116 61 -46 L61 10 Q60 44 48 62 L20 90 Q0 99 -20 90 L-48 62 Q-60 44 -61 10 Z', chin: 97,
+    nose: 'M4 -2 Q0 22 -10 34 Q-4 42 8 40 M12 40 Q17 38 16 33', lines: 'M-34 36 Q-40 52 -34 66 M34 36 Q40 52 34 66 M-26 -40 Q0 -45 26 -40 M-20 -30 Q0 -34 20 -30',
+    mustache: 'M-26 52 Q-14 42 0 48 Q14 42 26 52 Q30 60 22 58 Q10 54 0 56 Q-10 54 -22 58 Q-30 60 -26 52 Z', mustacheCol: '#a8a29a',
+    hairFront: 'M-62 10 Q-66 -30 -58 -50 Q-54 -34 -52 -14 Q-52 0 -56 14 Z M62 10 Q66 -30 58 -50 Q54 -34 52 -14 Q52 0 56 14 Z',
+    hairShade: '', hairHi: '<path d="M-30 -84 Q-10 -96 14 -92" fill="none" stroke="#fff" stroke-width="4" opacity=".35" stroke-linecap="round"/>',
+    hairBackView: 'M-62 -20 Q-66 30 -50 60 Q0 76 50 60 Q66 30 62 -20 Q50 10 0 14 Q-50 10 -62 -20 Z',
+  },
+  esposa: {
+    id: 'esposa', scale: .9, skin: '#efc3a2', skinS: '#d29c7c', hair: '#8a6a58', hairS: '#6a4f40',
+    ex: 25, ey: -2, ew: 14, eh: 7, pupil: .72, irisCol: '#3e5a7a', lid: .05, browW: 4, brow: '#6a4f40', my: 60, neckW: 22, lipCol: '#9a4a52', bags: true,
+    outfit: 'shirt', top: '#8a5a8e', topS: '#6c4570', necklace: '#f2e2b8', pants: '#3e4250', pantsS: '#30333e', shoe: '#2c2a30', shoeS: '#18171b', sole: '#57545c',
+    shoulderW: 74, waistW: 62, hipY: -470, shoulderY: -712, headY: -808, headS: .9, armW: [38, 33, 27],
+    jaw: 'M-55 -60 L-56 4 Q-55 34 -45 52 Q-26 80 -6 91 Q0 94 6 91 Q26 80 45 52 Q55 34 56 4 L55 -60 Z', chin: 93,
+    nose: 'M2 4 Q0 22 -5 30 Q-1 35 5 33', noseCol: '#b0745a', lines: 'M-30 40 Q-34 50 -30 58 M30 40 Q34 50 30 58',
+    hairBack: 'M-66 -40 Q-84 30 -74 90 Q-50 104 -40 90 L40 90 Q50 104 74 90 Q84 30 66 -40 Z',
+    hairFront: 'M-66 40 Q-76 -66 -20 -106 Q30 -124 62 -80 Q76 -50 68 40 Q60 10 56 -20 Q40 -50 10 -62 Q-14 -40 -46 -44 Q-56 -10 -58 30 Z',
+    hairShade: '<path d="M56 -20 Q60 10 68 40 Q74 -10 66 -50 Z" fill="#6a4f40"/>',
+    hairHi: '<path d="M-30 -92 Q-10 -104 10 -100 Q-8 -96 -26 -84 Z" fill="#a8887a"/>',
+    bangShade: 'M-54 -36 Q-30 -34 -10 -50 Q20 -40 54 -16 L54 -6 Q20 -30 -10 -40 Q-30 -26 -54 -26 Z',
+    hairBackView: 'M-66 -40 Q-70 -114 0 -122 Q70 -114 66 -40 Q80 30 70 90 L-70 90 Q-80 30 -66 -40 Z',
+  },
 };
 
 // figura de espaldas (cabeza + hombros) para planos sobre el hombro
@@ -236,11 +265,13 @@ function shoe(c, x, dir) {
 export function drawCharacter(id, pose = {}) {
   const c = CAST[id], uid = `${id}${UID++}`;
   const sh = c.shoulderY, hp = c.hipY, sw = c.shoulderW, ww = c.waistW;
-  const coat = !!c.coat, top = coat ? c.coat : c.jacket, topS = coat ? c.coatS : c.jacketS;
+  const shirtOnly = c.outfit === 'shirt';
+  const coat = !!c.coat, top = coat ? c.coat : shirtOnly ? c.top : c.jacket, topS = coat ? c.coatS : shirtOnly ? c.topS : c.jacketS;
   let s = '';
-  // piernas
+  // piernas (walk: fase de caminata)
   const st = pose.legs === 'wide' ? 14 : 0;
-  const legR = [[30, hp + 10], [36 + st, -245], [40 + st, -44]], legL = [[-30, hp + 10], [-36 - st, -245], [-40 - st, -44]];
+  const wk = pose.walk == null ? 0 : Math.sin(pose.walk), wk2 = pose.walk == null ? 0 : Math.max(0, -Math.cos(pose.walk));
+  const legR = [[30, hp + 10], [36 + st + wk * 14, -245 - Math.max(0, wk) * 30], [40 + st + wk * 30, -44 - Math.max(0, wk) * 40]], legL = [[-30, hp + 10], [-36 - st - wk * 14, -245 - Math.max(0, -wk) * 30], [-40 - st - wk * 30, -44 - Math.max(0, -wk) * 40]];
   const lg = new G();
   taper(lg, legR, [62, 52, 40], c.pants, c.pantsS);
   taper(lg, legL, [62, 52, 40], c.pants, c.pantsS);
@@ -248,23 +279,26 @@ export function drawCharacter(id, pose = {}) {
   lg.det(line(`M0 ${hp + 20} L0 ${hp + 66}`, 2.6) + line(`M-22 -300 l4 40 M24 -310 l-3 36`, 2, c.pantsS));
   s += lg + shoe(c, legR[2][0], 1) + shoe(c, legL[2][0], -1);
   // torso
-  const bot = coat ? -300 : hp + 34, flare = coat ? 18 : 2;
+  const bot = coat ? -300 : shirtOnly ? hp + 20 : hp + 34, flare = coat ? 18 : 2;
   const tg = new G();
   const torso = `M${-sw} ${sh} Q${-sw - 6} ${sh + 80} ${-ww} ${hp - 40} L${-ww - flare} ${bot} L${ww + flare} ${bot} L${ww} ${hp - 40} Q${sw + 6} ${sh + 80} ${sw} ${sh} Q${sw * .5} ${sh - 22} 0 ${sh - 20} Q${-sw * .5} ${sh - 22} ${-sw} ${sh} Z`;
   tg.poly(torso, top);
   tg.sh(`<clipPath id="tc${uid}"><path d="${torso}"/></clipPath><g clip-path="url(#tc${uid})"><path d="M${ww * .55} ${sh - 30} Q${sw * .9} ${sh + 120} ${ww * .7} ${bot + 10} L${sw + 40} ${bot + 10} L${sw + 40} ${sh - 30} Z" fill="${topS}"/></g>`);
+  if (shirtOnly && c.plaid) tg.sh(`<clipPath id="pc${uid}"><path d="${torso}"/></clipPath><g clip-path="url(#pc${uid})" opacity=".55">${Array.from({ length: 9 }, (_, i) => `<rect x="${-sw - 20 + i * 28}" y="${sh - 30}" width="10" height="${hp - sh + 80}" fill="${c.plaid}"/><rect x="${-sw - 20}" y="${sh - 10 + i * 34}" width="${2 * sw + 40}" height="10" fill="${c.plaid}"/>`).join('')}</g>`);
   // camisa
   const vB = coat ? sh + 210 : sh + 140;
-  tg.poly(`M-30 ${sh - 18} L0 ${vB} L30 ${sh - 18} Z`, c.shirt);
+  if (!shirtOnly) tg.poly(`M-30 ${sh - 18} L0 ${vB} L30 ${sh - 18} Z`, c.shirt);
   if (coat) tg.poly(`M-30 ${sh - 18} L-26 ${hp + 40} L26 ${hp + 40} L30 ${sh - 18} Z`, c.shirt);
-  tg.sh(`<path d="M12 ${sh - 14} L28 ${sh - 14} L24 ${coat ? hp + 40 : vB - 30} L8 ${coat ? hp + 40 : vB - 60} Z" fill="${c.shirtS}"/>`);
+  if (!shirtOnly) tg.sh(`<path d="M12 ${sh - 14} L28 ${sh - 14} L24 ${coat ? hp + 40 : vB - 30} L8 ${coat ? hp + 40 : vB - 60} Z" fill="${c.shirtS}"/>`);
+  else tg.det(`<path d="M-34 ${sh - 18} L-6 ${sh + 30} L0 ${sh - 6} L6 ${sh + 30} L34 ${sh - 18} L0 ${sh - 14} Z" fill="${top}" stroke="${O}" stroke-width="2.4" stroke-linejoin="round"/>` + line(`M0 ${sh} L0 ${hp + 20}`, 3) + [0, 1, 2, 3].map(i => `<circle cx="7" cy="${sh + 40 + i * 62}" r="4" fill="#f4f0e6" stroke="${O}" stroke-width="1.6"/>`).join('') + (c.necklace ? line(`M-24 ${sh - 8} Q0 ${sh + 40} 24 ${sh - 8}`, 3, c.necklace) : ''));
   if (c.tie) { tg.poly(`M-8 ${sh - 6} L8 ${sh - 6} L13 ${sh + 150} L0 ${sh + 170} L-13 ${sh + 150} Z`, c.tie); tg.det(line(`M-6 ${sh + 40} L9 ${sh + 30} M-9 ${sh + 90} L11 ${sh + 80} M-11 ${sh + 140} L12 ${sh + 130}`, 4, '#ffffff40')); }
   if (id === 'house') tg.det(`<path d="M-28 ${sh - 16} L-10 ${sh + 22} L-2 ${sh - 10} M28 ${sh - 16} L10 ${sh + 22} L2 ${sh - 10}" fill="${c.shirt}" stroke="${O}" stroke-width="3" stroke-linejoin="round"/>`);
   if (id === 'ana') tg.det(line(`M-22 ${sh + 8} Q0 ${sh + 34} 22 ${sh + 8}`, 2, '#f0c860') + `<circle cx="0" cy="${sh + 33}" r="4" fill="#f0c860" stroke="${O}" stroke-width="2"/>`);
   s += tg;
   // solapas
   const lp = new G();
-  if (coat) {
+  if (shirtOnly) {
+  } else if (coat) {
     lp.poly(`M-32 ${sh - 20} L-56 ${sh + 70} L-36 ${sh + 86} L-8 ${vB + 6} L-24 ${bot} L${-ww - flare} ${bot} L${-ww} ${hp - 40} Q${-sw - 2} ${sh + 70} -54 ${sh + 8} Z`, top);
     lp.poly(`M32 ${sh - 20} L56 ${sh + 70} L36 ${sh + 86} L8 ${vB + 6} L24 ${bot} L${ww + flare} ${bot} L${ww} ${hp - 40} Q${sw + 2} ${sh + 70} 54 ${sh + 8} Z`, top);
     lp.sh(`<path d="M${ww * .55} ${sh + 60} Q${sw * .85} ${sh + 140} ${ww * .7} ${bot} L${ww + flare} ${bot} L${ww} ${hp - 40} Q${sw} ${sh + 70} ${sw * .7} ${sh + 30} Z" fill="${topS}"/><path d="M8 ${vB + 6} L24 ${bot} L32 ${bot} L16 ${vB} Z" fill="${topS}"/>`);

@@ -1,0 +1,32 @@
+// Expresiones y poses predefinidas
+export const EXPR = {
+  neutral: {},
+  smirk: { mood: 'smirk', browL: -4, browR: 10, browUp: [0, 7] },
+  smug: { mood: 'smirk', lid: .5, browL: -4, browR: 8, browUp: [0, 5] },
+  happy: { mood: 'smile', browUp: [4, 4] },
+  surprised: { mouth: .55, browUp: [11, 11], lid: 0 },
+  shock: { mouth: .95, browUp: [16, 16], lid: 0, browL: 6, browR: 6 },
+  confused: { mood: 'frown', browL: 10, browR: -10, browUp: [9, 0], look: [.4, 0] },
+  worried: { mood: 'sad', browL: -14, browR: -14, browUp: [8, 8] },
+  angry: { mood: 'frown', browL: 16, browR: 16, browUp: [-3, -3] },
+  think: { mood: 'neutral', browL: 8, browR: -6, browUp: [6, 0], look: [.6, -.6] },
+  dizzy: { mood: 'frown', lid: .62, look: [.3, .5], drunk: 1, browL: -10, browR: -10 },
+  drunk: { mood: 'smile', lid: .55, drunk: 1, browUp: [4, 4], look: [-.2, .3] },
+  sad: { mood: 'sad', browL: -14, browR: -14, browUp: [4, 4], look: [0, .6] },
+  serious: { mood: 'neutral', browL: 8, browR: 8 },
+};
+export const POSE = {
+  idle: { armR: [6, -8], armL: [6, -8], handR: 'relax', handL: 'relax' },
+  point: { armR: [34, 122], handR: 'point' },
+  pointL: { armL: [34, 122], handL: 'point' },
+  pointfwd: { armR: [20, 70], handR: 'point' },
+  explain: { armR: [14, 92], handR: 'open' },
+  explainL: { armL: [14, 92], handL: 'open' },
+  shrug: { armR: [30, 80], armL: [30, 80], handR: 'open', handL: 'open' },
+  raise: { armL: [150, 12], handL: 'open' },
+  chin: { armR: [10, -150], handR: 'fist' },
+  hips: { armR: [40, -70], armL: [40, -70], handR: 'fist', handL: 'fist' },
+  stop: { armR: [20, 100], handR: 'open', armL: [20, 100], handL: 'open' },
+  fist: { armR: [20, 120], handR: 'fist' },
+  holdchest: { armR: [8, -116] },
+};

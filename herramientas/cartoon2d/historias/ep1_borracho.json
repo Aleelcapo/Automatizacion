@@ -1,0 +1,1290 @@
+{
+ "out": "Doctor_ep1_demo",
+ "title": "El hombre que se emborrachaba sin beber",
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+8%",
+ "maxShot": 2.2,
+ "sfx_gain": 0.4,
+ "scenes": {
+  "entrada": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 1450,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "smug",
+     "pose": {
+      "armL": [
+       8,
+       -6
+      ],
+      "propL": "cane",
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "mesa": {
+   "bg": "desk",
+   "props": [
+    {
+     "id": "carpeta",
+     "type": "folder",
+     "x": 540,
+     "y": 1000,
+     "s": 1.7,
+     "rot": -6,
+     "hidden": true
+    }
+   ]
+  },
+  "duo": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "ana",
+     "char": "ana",
+     "x": 300,
+     "y": 2380,
+     "s": 1.75,
+     "expr": "neutral",
+     "pose": {
+      "propR": "clipboard",
+      "armR": [
+       10,
+       -118
+      ]
+     }
+    },
+    {
+     "id": "leo",
+     "char": "leo",
+     "x": 790,
+     "y": 2380,
+     "s": 1.7,
+     "expr": "neutral",
+     "pose": {
+      "propR": "notebook",
+      "armR": [
+       8,
+       -116
+      ]
+     }
+    }
+   ]
+  },
+  "anaC": {
+   "bg": "corridor",
+   "actors": [
+    {
+     "id": "ana",
+     "char": "ana",
+     "x": 520,
+     "y": 2600,
+     "s": 2.3,
+     "expr": "neutral",
+     "pose": {
+      "propR": "clipboard",
+      "armR": [
+       10,
+       -118
+      ]
+     }
+    }
+   ]
+  },
+  "urg": {
+   "bg": "er",
+   "actors": [
+    {
+     "id": "pac",
+     "char": "paciente",
+     "x": 470,
+     "y": 2350,
+     "s": 1.75,
+     "expr": "dizzy",
+     "sway": 1
+    }
+   ]
+  },
+  "lab": {
+   "bg": "desk",
+   "props": [
+    {
+     "id": "hoja",
+     "type": "labsheet",
+     "x": 540,
+     "y": 740,
+     "s": 1.6,
+     "rot": 3,
+     "value": 0
+    }
+   ]
+  },
+  "aula": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "leo",
+     "char": "leo",
+     "x": 560,
+     "y": 2520,
+     "s": 2.15,
+     "expr": "neutral",
+     "pose": {
+      "propR": "notebook",
+      "armR": [
+       8,
+       -116
+      ]
+     }
+    }
+   ]
+  },
+  "flash": {
+   "bg": "kitchen",
+   "sepia": true,
+   "actors": [
+    {
+     "id": "pac",
+     "char": "paciente",
+     "x": 540,
+     "y": 2350,
+     "s": 1.75,
+     "expr": "smug",
+     "pose": {
+      "armL": [
+       10,
+       -6
+      ],
+      "handL": "grip"
+     }
+    }
+   ],
+   "props": [
+    {
+     "id": "bot",
+     "type": "bottle",
+     "x": 690,
+     "y": 1820,
+     "s": 0.85,
+     "rot": -8,
+     "z": 2
+    }
+   ]
+  },
+  "houseC": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 690,
+     "y": 2560,
+     "s": 2.25,
+     "expr": "smug",
+     "pose": {
+      "propL": "cane",
+      "armL": [
+       8,
+       -6
+      ],
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "cocina": {
+   "bg": "kitchen",
+   "actors": [
+    {
+     "id": "esp",
+     "char": "esposa",
+     "x": 330,
+     "y": 2300,
+     "s": 1.7,
+     "expr": "worried",
+     "pose": "explainL"
+    }
+   ],
+   "props": [
+    {
+     "id": "mueble",
+     "type": "cabinet",
+     "x": 870,
+     "y": 390,
+     "s": 0.75,
+     "value": 0,
+     "empty": true
+    },
+    {
+     "id": "x",
+     "type": "xmark",
+     "x": 870,
+     "y": 390,
+     "s": 0.9,
+     "hidden": true,
+     "z": 5
+    }
+   ]
+  },
+  "cuarto": {
+   "bg": "isoroom",
+   "actors": [
+    {
+     "id": "pac",
+     "char": "paciente",
+     "x": 520,
+     "y": 2280,
+     "s": 1.7,
+     "expr": "neutral"
+    },
+    {
+     "id": "leo",
+     "char": "leo",
+     "back": true,
+     "x": 860,
+     "y": 3330,
+     "s": 2.5,
+     "z": 60
+    }
+   ],
+   "props": [
+    {
+     "id": "reloj",
+     "type": "clock",
+     "x": 540,
+     "y": 330,
+     "s": 0.75,
+     "fast": false
+    },
+    {
+     "id": "hip",
+     "type": "hiccup",
+     "x": 560,
+     "y": 760,
+     "s": 1,
+     "hidden": true,
+     "z": 5
+    }
+   ]
+  },
+  "reloj": {
+   "bg": "wallPlain",
+   "props": [
+    {
+     "id": "r",
+     "type": "clock",
+     "x": 540,
+     "y": 800,
+     "s": 2.4,
+     "fast": true
+    }
+   ]
+  },
+  "comida": {
+   "bg": "desk",
+   "props": [
+    {
+     "id": "bandeja",
+     "type": "tray",
+     "x": 540,
+     "y": 950,
+     "s": 1.45,
+     "value": 0
+    }
+   ]
+  },
+  "pizarra": {
+   "bg": "wallPlain",
+   "props": [
+    {
+     "id": "b1",
+     "type": "board",
+     "x": 540,
+     "y": 860,
+     "s": 0.95,
+     "value": 0,
+     "lines": [
+      {
+       "text": "ESTÓMAGO",
+       "big": true,
+       "color": "#c0201a",
+       "size": 130
+      }
+     ],
+     "gap": 0,
+     "circle": [
+      1,
+      0,
+      0,
+      360,
+      110
+     ],
+     "y0": 40
+    },
+    {
+     "id": "b2",
+     "type": "board",
+     "x": 540,
+     "y": 860,
+     "s": 0.95,
+     "hidden": true,
+     "value": 0,
+     "lines": [
+      {
+       "text": "SÍNDROME DE",
+       "big": true,
+       "size": 90
+      },
+      {
+       "text": "AUTO-",
+       "big": true,
+       "size": 120,
+       "color": "#c0201a"
+      },
+      {
+       "text": "CERVECERÍA",
+       "big": true,
+       "size": 120,
+       "color": "#c0201a"
+      }
+     ],
+     "gap": 150,
+     "y0": -130
+    }
+   ]
+  },
+  "diag": {
+   "bg": "diagram",
+   "props": [
+    {
+     "id": "est",
+     "type": "stomach",
+     "x": 540,
+     "y": 900,
+     "s": 1.7,
+     "value": 0,
+     "beer": 0
+    },
+    {
+     "id": "lev",
+     "type": "yeast",
+     "x": 540,
+     "y": 960,
+     "s": 1.25,
+     "value": 0,
+     "z": 3
+    },
+    {
+     "id": "chim",
+     "type": "chimney",
+     "x": 860,
+     "y": 640,
+     "s": 1.1,
+     "hidden": true,
+     "z": 0
+    },
+    {
+     "id": "txt",
+     "type": "bigtext",
+     "x": 540,
+     "y": 1560,
+     "text": "ALCOHOL",
+     "size": 120,
+     "color": "#ffd34d",
+     "hidden": true,
+     "z": 4
+    }
+   ]
+  },
+  "cerveza": {
+   "bg": "diagram",
+   "props": [
+    {
+     "id": "jarra",
+     "type": "beer",
+     "x": 520,
+     "y": 900,
+     "s": 1.9,
+     "value": 0
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "House entró a la oficina, tiró una carpeta sobre la mesa y dijo:",
+   "shots": [
+    {
+     "scene": "entrada",
+     "cam": {
+      "x": 700,
+      "y": 900,
+      "z": 1.0,
+      "move": "panL"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "move": {
+        "x": 620,
+        "dur": 1.5
+       }
+      }
+     ]
+    },
+    {
+     "scene": "mesa",
+     "from": "tiró",
+     "cam": {
+      "x": 540,
+      "y": 980,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "carpeta",
+       "target": "carpeta",
+       "drop": 900,
+       "dur": 0.35,
+       "sfx": "thud",
+       "camshake": 18,
+       "lead": 0.05
+      }
+     ]
+    },
+    {
+     "scene": "entrada",
+     "from": "dijo",
+     "cam": {
+      "on": "house",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "dijo",
+       "target": "house",
+       "expr": "smirk",
+       "pose": {
+        "armR": [
+         14,
+         92
+        ],
+        "handR": "open",
+        "armL": [
+         8,
+         -6
+        ],
+        "propL": "cane"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Tengo un borracho que nunca bebe.",
+   "shots": [
+    {
+     "scene": "entrada",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "talk": 2.0,
+       "expr": "smirk"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Sus dos estudiantes se miraron.",
+   "shots": [
+    {
+     "scene": "duo",
+     "cam": {
+      "on": [
+       "ana",
+       "leo"
+      ],
+      "shot": "medium",
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0.1,
+       "target": "ana",
+       "look": [
+        0.9,
+        0
+       ],
+       "expr": "confused"
+      },
+      {
+       "at": 0.25,
+       "target": "leo",
+       "look": [
+        -0.9,
+        0
+       ],
+       "expr": "confused",
+       "sfx": "pop",
+       "vol": 0.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ana preguntó si el paciente estaba mintiendo.",
+   "shots": [
+    {
+     "scene": "anaC",
+     "cam": {
+      "on": "ana",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "expr": "worried",
+       "talk": 1.9,
+       "arms": {
+        "armL": [
+         10,
+         52
+        ],
+        "handL": "open"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Un hombre de 61 años llegó a urgencias mareado,",
+   "shots": [
+    {
+     "scene": "urg",
+     "cam": {
+      "x": 520,
+      "y": 1000,
+      "z": 1.0,
+      "move": "push"
+     },
+     "flash": true
+    },
+    {
+     "scene": "urg",
+     "from": "mareado",
+     "cam": {
+      "on": "pac",
+      "shot": "face",
+      "move": "drift"
+     }
+    }
+   ]
+  },
+  {
+   "text": "hablando raro y con cinco veces más alcohol del permitido para manejar.",
+   "shots": [
+    {
+     "scene": "urg",
+     "cam": {
+      "on": "pac",
+      "shot": "close",
+      "move": "pull"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "pac",
+       "talk": 1.0,
+       "expr": "drunk",
+       "sfx": "hic",
+       "vol": 0.8
+      }
+     ]
+    },
+    {
+     "scene": "lab",
+     "from": "cinco",
+     "cam": {
+      "x": 540,
+      "y": 950,
+      "z": 1.05,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "cinco",
+       "target": "hoja",
+       "value": 1,
+       "dur": 1.0,
+       "sfx": "ding"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Leo dijo que era obvio: tomaba a escondidas.",
+   "shots": [
+    {
+     "scene": "aula",
+     "cam": {
+      "on": "leo",
+      "shot": "medium",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "leo",
+       "arms": "raise",
+       "expr": "happy",
+       "talk": 1.3,
+       "dur": 0.35
+      }
+     ]
+    },
+    {
+     "scene": "flash",
+     "from": "tomaba",
+     "flash": true,
+     "cam": {
+      "on": "pac",
+      "shot": "close",
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "pac",
+       "look": [
+        0.8,
+        0
+       ],
+       "expr": "smug"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "House sonrió.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0.05,
+       "target": "house",
+       "expr": "smirk",
+       "dur": 0.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Su esposa ya había revisado toda la casa.",
+   "shots": [
+    {
+     "scene": "cocina",
+     "cam": {
+      "x": 600,
+      "y": 900,
+      "z": 1.0,
+      "move": "panR"
+     },
+     "do": [
+      {
+       "at": 0.2,
+       "target": "mueble",
+       "value": 1,
+       "dur": 0.4,
+       "sfx": "knock"
+      },
+      {
+       "at": 0.2,
+       "target": "esp",
+       "look": [
+        0.9,
+        -0.6
+       ],
+       "expr": "worried"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ni una botella.",
+   "shots": [
+    {
+     "scene": "cocina",
+     "cam": {
+      "on": "esp",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "esp",
+       "pose": "shrug",
+       "expr": "sad",
+       "look": [
+        0,
+        0
+       ],
+       "dur": 0.3
+      },
+      {
+       "at": 0.15,
+       "target": "x",
+       "pop": true,
+       "sfx": "boing",
+       "vol": 0.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Así que lo encerraron 24 horas en una habitación, vigilado,",
+   "shots": [
+    {
+     "scene": "cuarto",
+     "cam": {
+      "x": 540,
+      "y": 960,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "pac",
+       "expr": "worried",
+       "look": [
+        0.6,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "scene": "reloj",
+     "from": "24",
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "24",
+       "target": "r",
+       "shake": true,
+       "sfx": "tick"
+      }
+     ]
+    },
+    {
+     "scene": "cuarto",
+     "from": "vigilado",
+     "cam": {
+      "x": 700,
+      "y": 900,
+      "z": 1.15,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "vigilado",
+       "target": "pac",
+       "look": [
+        0.8,
+        -0.2
+       ],
+       "expr": "confused"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "sin una gota de alcohol. Solo le dieron comida: pan, pasta y algo dulce.",
+   "shots": [
+    {
+     "scene": "cuarto",
+     "cam": {
+      "on": "pac",
+      "shot": "medium",
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "pac",
+       "pose": "shrug",
+       "expr": "sad"
+      }
+     ]
+    },
+    {
+     "scene": "comida",
+     "from": "Solo",
+     "cam": {
+      "x": 540,
+      "y": 960,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "pan",
+       "target": "bandeja",
+       "value": 1,
+       "dur": 0.3,
+       "step": false,
+       "sfx": "pop"
+      },
+      {
+       "on": "pasta",
+       "target": "bandeja",
+       "value": 2,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "dulce",
+       "target": "bandeja",
+       "value": 3,
+       "dur": 0.3,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y horas después... estaba borracho otra vez.",
+   "shots": [
+    {
+     "scene": "anaC",
+     "cam": {
+      "on": "ana",
+      "shot": "face",
+      "move": "crash"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "expr": "shock",
+       "dur": 0.15,
+       "jolt": true,
+       "arms": {
+        "armL": [
+         6,
+         -8
+        ],
+        "handL": "relax"
+       }
+      }
+     ]
+    },
+    {
+     "scene": "cuarto",
+     "from": "estaba",
+     "cam": {
+      "on": "pac",
+      "shot": "close",
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "pac",
+       "expr": "drunk",
+       "sway": 1.3,
+       "pose": {
+        "armR": [
+         6,
+         -8
+        ],
+        "armL": [
+         6,
+         -8
+        ]
+       },
+       "sfx": "hic"
+      },
+      {
+       "at": 0.1,
+       "target": "hip",
+       "show": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "House escribió una sola palabra:",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "medium",
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "pose": {
+        "armR": [
+         34,
+         122
+        ],
+        "handR": "point",
+        "propL": "cane",
+        "armL": [
+         8,
+         -6
+        ]
+       },
+       "expr": "serious",
+       "look": [
+        -0.8,
+        -0.2
+       ],
+       "dur": 0.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "estómago.",
+   "shots": [
+    {
+     "scene": "pizarra",
+     "cam": {
+      "x": 540,
+      "y": 880,
+      "z": 1.0,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "b1",
+       "value": 1,
+       "dur": 0.6,
+       "camshake": 10,
+       "sfx": "thud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "El hombre tenía un hongo en el intestino, la misma levadura que se usa para hacer cerveza.",
+   "shots": [
+    {
+     "scene": "diag",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 920,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "hongo",
+       "target": "lev",
+       "value": 7,
+       "dur": 0.8,
+       "sfx": "pop"
+      }
+     ]
+    },
+    {
+     "scene": "diag",
+     "from": "levadura",
+     "cam": {
+      "x": 540,
+      "y": 950,
+      "z": 1.45,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "levadura",
+       "target": "lev",
+       "value": 22,
+       "dur": 1.4,
+       "sfx": "pop"
+      }
+     ]
+    },
+    {
+     "scene": "cerveza",
+     "from": "cerveza",
+     "cam": {
+      "x": 540,
+      "y": 920,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "cerveza",
+       "target": "jarra",
+       "value": 1,
+       "dur": 1.0,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Cada vez que comía harinas o azúcar, su cuerpo fabricaba alcohol solo.",
+   "shots": [
+    {
+     "scene": "comida",
+     "cam": {
+      "x": 540,
+      "y": 960,
+      "z": 1.25,
+      "move": "pull"
+     }
+    },
+    {
+     "scene": "diag",
+     "from": "su",
+     "cam": {
+      "x": 540,
+      "y": 1000,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "su",
+       "target": "lev",
+       "value": 0,
+       "dur": 0.3
+      },
+      {
+       "on": "su",
+       "target": "est",
+       "value": 1,
+       "beer": 0,
+       "dur": 0.5
+      },
+      {
+       "on": "fabricaba",
+       "target": "txt",
+       "pop": true,
+       "sfx": "ding"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Se llama síndrome de autocervecería.",
+   "shots": [
+    {
+     "scene": "aula",
+     "cam": {
+      "on": "leo",
+      "shot": "face",
+      "move": "crash"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "leo",
+       "expr": "shock",
+       "arms": {
+        "armL": [
+         6,
+         -8
+        ],
+        "handL": "relax"
+       },
+       "dur": 0.15,
+       "jolt": true
+      }
+     ]
+    },
+    {
+     "scene": "pizarra",
+     "from": "síndrome",
+     "cam": {
+      "x": 540,
+      "y": 880,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "b1",
+       "hide": true,
+       "dur": 0.01
+      },
+      {
+       "at": 0,
+       "target": "b2",
+       "show": true,
+       "dur": 0.01
+      },
+      {
+       "at": 0.05,
+       "target": "b2",
+       "value": 3,
+       "dur": 1.2,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "House agarró su bastón y se fue diciendo:",
+   "shots": [
+    {
+     "scene": "entrada",
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "panL"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "pose": {
+        "armR": [
+         6,
+         -8
+        ],
+        "armL": [
+         8,
+         -6
+        ],
+        "propL": "cane"
+       },
+       "expr": "smug"
+      },
+      {
+       "at": 0.4,
+       "target": "house",
+       "move": {
+        "x": -500,
+        "dur": 2.4,
+        "linear": true
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Este hombre no es un borracho... es una fábrica de cerveza.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "smirk",
+       "talk": 2.2,
+       "pose": {
+        "armR": [
+         14,
+         92
+        ],
+        "handR": "open",
+        "propL": "cane",
+        "armL": [
+         8,
+         -6
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "scene": "diag",
+     "from": "fábrica",
+     "flash": true,
+     "cam": {
+      "x": 600,
+      "y": 900,
+      "z": 1.0,
+      "move": "pull"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "est",
+       "beer": 0.7,
+       "dur": 1.5
+      },
+      {
+       "at": 0.1,
+       "target": "chim",
+       "pop": true,
+       "sfx": "boing"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

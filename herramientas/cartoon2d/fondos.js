@@ -33,6 +33,7 @@ const xrayBox = (x, y, w, h) => `<rect x="${x}" y="${y}" width="${w}" height="${
 const plant = (x, y, s = 1) => `<g transform="translate(${x} ${y}) scale(${s})"><path d="M-40 0 L40 0 L32 80 L-32 80 Z" fill="#c9764a" ${st()}/>${[[-60, -150, -10], [-20, -190, 0], [30, -170, 15], [70, -120, 25], [-80, -90, -25], [10, -120, 5]].map(([lx, ly, r]) => `<path d="M0 0 Q${lx * .4} ${ly * .5} ${lx} ${ly} Q${lx * .5 + 20} ${ly * .5} 0 0 Z" fill="#4f8a4a" ${st(2.5)} transform="rotate(${r})"/>`).join('')}</g>`;
 const ceilingLight = (x, y, w) => `<rect x="${x}" y="${y}" width="${w}" height="26" rx="4" fill="#f6f4ea" ${st(2)}/><rect x="${x - 60}" y="${y + 26}" width="${w + 120}" height="160" fill="url(#glow)" opacity=".35"/>`;
 
+export const wallPlain = () => `<rect width="1080" height="1920" fill="url(#wall)"/><rect y="1500" width="1080" height="420" fill="url(#floor)"/>`;
 export function officeA() {
   return `<g filter="url(#b1)"><rect width="1080" height="1920" fill="url(#wall)"/>${ceilingLight(140, 20, 520)}
   <rect x="770" y="80" width="330" height="1440" fill="#b3c2c2"/>
@@ -67,4 +68,32 @@ export function corridor() {
   <rect x="80" y="1100" width="360" height="60" rx="10" fill="#e4eaec"/><rect x="100" y="1160" width="20" height="300" fill="#8a9296"/><rect x="400" y="1160" width="20" height="300" fill="#8a9296"/>
   <ellipse cx="300" cy="900" rx="44" ry="52" fill="#6e5848"/><rect x="230" y="950" width="140" height="460" rx="40" fill="#7fb0b5"/></g>`;
   return s;
+}
+
+export function er() {
+  return `<g filter="url(#b2)"><rect width="1080" height="1920" fill="#c7d6d6"/>${ceilingLight(120, 10, 360)}${ceilingLight(620, 10, 360)}
+  <rect x="0" y="120" width="1080" height="40" fill="#9fb3b6"/>${[0, 1, 2, 3, 4, 5, 6, 7].map(i => `<path d="M${i * 140} 160 q35 30 70 0 q35 30 70 0 L${i * 140 + 140} 1300 L${i * 140} 1300 Z" fill="${i % 2 ? '#7fb0b3' : '#8cbcbf'}"/>`).join('')}
+  <rect x="680" y="420" width="300" height="220" rx="12" fill="#2b2f36" ${st()}/><rect x="696" y="436" width="268" height="170" fill="#0d1a14"/><path d="M700 520 l60 0 l14 -50 l14 90 l14 -40 l170 0" fill="none" stroke="#3ef08a" stroke-width="5"/>
+  <rect x="980" y="300" width="14" height="900" fill="#9aa3a8"/><path d="M940 300 h90 v120 q-45 30 -90 0 Z" fill="#dff0f6" ${st(2)}/>
+  <rect y="1300" width="1080" height="620" fill="#a9b6b4"/><path d="M0 1300 L1080 1300" stroke="#8a9795" stroke-width="10"/></g>`;
+}
+export function kitchen() {
+  return `<g filter="url(#b2)"><rect width="1080" height="1920" fill="#e6d6b8"/>${[0, 1, 2, 3, 4, 5, 6].map(i => `<rect x="${i * 160 - 20}" y="1000" width="150" height="40" fill="#f1e8d6"/>`).join('')}
+  ${[0, 1, 2].map(i => `<rect x="${60 + i * 330}" y="180" width="300" height="420" fill="#b98b5e" ${st()}/><rect x="${80 + i * 330}" y="200" width="125" height="380" fill="#c99b6c" ${st(2)}/><rect x="${215 + i * 330}" y="200" width="125" height="380" fill="#c99b6c" ${st(2)}/>`).join('')}
+  <rect x="0" y="1040" width="1080" height="60" fill="#d9d2c2" ${st()}/><rect x="0" y="1100" width="1080" height="500" fill="#a87a52" ${st()}/>${[0, 1, 2].map(i => `<rect x="${40 + i * 350}" y="1140" width="320" height="420" fill="#b98b5e" ${st(2)}/><rect x="${180 + i * 350}" y="1180" width="50" height="12" rx="5" fill="#e6d3a0"/>`).join('')}
+  <rect x="740" y="760" width="200" height="280" fill="#cfd8dc" ${st()}/><circle cx="840" cy="900" r="50" fill="#9fb6c2"/><rect y="1600" width="1080" height="320" fill="#8a6a4e"/></g>`;
+}
+export function isoroom() {
+  return `<g filter="url(#b1)"><rect width="1080" height="1920" fill="#d7dfdc"/>${ceilingLight(300, 10, 480)}
+  <rect x="80" y="300" width="300" height="360" fill="#a9c7d6" ${st()}/><path d="M80 480 h300 M230 300 v360" stroke="#26222a" stroke-width="6"/>
+  <rect x="700" y="260" width="320" height="320" fill="#f2efe6" ${st()}/><text x="860" y="420" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="44" fill="#c0201a">0%</text><text x="860" y="470" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="30" fill="#555">ALCOHOL</text><path d="M760 500 l200 -200" stroke="#c0201a" stroke-width="10"/>
+  <rect y="1380" width="1080" height="540" fill="#b5c0bd"/></g>`;
+}
+export function bedFront() { return ''; }
+export function diagram() {
+  return `<rect width="1080" height="1920" fill="#1d2b44"/><radialGradient id="dg" cx=".5" cy=".42" r=".6"><stop offset="0" stop-color="#3b5d8f"/><stop offset="1" stop-color="#14203a"/></radialGradient><rect width="1080" height="1920" fill="url(#dg)"/>${Array.from({ length: 30 }, (_, i) => `<path d="M${i * 40} 0 V1920 M0 ${i * 70} H1080" stroke="#ffffff" stroke-opacity=".05" stroke-width="2"/>`).join('')}`;
+}
+export function desk() {
+  return `<g filter="url(#b1)"><rect width="1080" height="1920" fill="#6b4a33"/>${Array.from({ length: 14 }, (_, i) => `<path d="M0 ${i * 140 + 40} Q540 ${i * 140 + (i % 2 ? 80 : 0)} 1080 ${i * 140 + 40}" stroke="#5a3d29" stroke-width="6" fill="none"/>`).join('')}
+  <rect x="700" y="200" width="300" height="200" rx="10" fill="#2e3138" transform="rotate(12 850 300)"/><circle cx="180" cy="1600" r="110" fill="#e2e6dc" ${st()}/><rect x="80" y="300" width="60" height="320" rx="10" fill="#c94f3d" transform="rotate(-30 110 460)" ${st(2)}/></g>`;
 }

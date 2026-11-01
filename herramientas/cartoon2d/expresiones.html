@@ -1,0 +1,12 @@
+<!doctype html><html><body style="margin:0"><svg id="s" width="1800" height="1000" viewBox="0 0 1800 1000"></svg>
+<script type="module">
+import { drawCharacter } from '/estilo.js';
+import { EXPR } from '/expr.js';
+let o='<rect width="1800" height="1000" fill="#dfe4e2"/>';
+const ex=['smirk','smug','happy','surprised','shock','confused','worried','angry','think','dizzy','drunk','sad'];
+const who=['house','ana','leo','paciente','esposa'];
+who.forEach((w,r)=>ex.forEach((e,i)=>{ o+=`<svg x="${i*150}" y="${r*195}" width="150" height="195" viewBox="-120 -980 240 312">${drawCharacter(w,{face:{...EXPR[e]}})}</svg>`;}));
+// recortar a cabezas: cada fila escala .55 -> la cabeza en y ~ -808*.55 = -444 → fila r en y = r*200+26
+ex.forEach((e,i)=>o+=`<text x="${75+i*148}" y="990" font-size="18" text-anchor="middle">${e}</text>`);
+document.getElementById('s').innerHTML=o; window.ready=true;
+</script></body></html>
