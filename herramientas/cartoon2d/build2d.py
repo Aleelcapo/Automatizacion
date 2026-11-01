@@ -260,9 +260,13 @@ def main(story_path, stills=False, workers=3):
         sounds.append((word_time(all_words, 0, s['on']) + s.get('offset', 0), s['sfx'], s.get('vol', 1)))
 
     hl = {norm(w) for w in story.get('highlight', [])}
+    if story.get('captions', 'none') == 'none':
+        story['captions'] = 'off'
     captions = caption_groups(all_words, hl) if story.get('captions') == 'groups' else [
         dict(t0=round(s, 3), t1=round(min(all_words[i + 1][0] if i + 1 < len(all_words) else e + .5, e + .5), 3), text=w)
         for i, (s, e, w) in enumerate(all_words)]
+    if story['captions'] == 'off':
+        captions = []
     scenes = story['scenes']
     tl = dict(fps=FPS, width=1080, height=1920, duration=round(total, 3), story=dict(look=story.get('look', {}), scenes=scenes),
               shots=shots, actions=actions, captions=captions, captionY=story.get('captionY', .7), shakes=shakes, flashes=flashes)

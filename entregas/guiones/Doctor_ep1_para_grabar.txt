@@ -1,5 +1,7 @@
 EPISODIO 1 – EL HOMBRE QUE SE EMBORRACHABA SIN BEBER
-(narra House en primera persona – ~75 s)
+Narra House en primera persona (~80 s). Lo que va entre [ ] NO se lee.
+
+[PARTE 1 – HISTORIA CON PERSONAJES]
 
 Soy médico, y ese día entré a la oficina, tiré una carpeta sobre la mesa y les dije: tengo un borracho que nunca bebe.
 
@@ -17,11 +19,15 @@ Y horas después... estaba borracho otra vez. Mareado, confundido, y con un alie
 
 Fui a la pizarra y escribí una sola palabra: estómago.
 
+[PARTE 2 – EXPLICACIÓN EN MOTION GRAPHICS]
+
 En su intestino se había roto el equilibrio de bacterias y hongos. Y uno de ellos se había multiplicado sin control: una levadura llamada Saccharomyces cerevisiae. La misma que se usa para hacer cerveza.
 
 Cada vez que comía harinas o azúcar, esa levadura las fermentaba... y su propio cuerpo fabricaba alcohol.
 
 Se llama síndrome de autocervecería. Es tan raro que muchos médicos nunca lo ven en toda su carrera. Y suele aparecer después de tomar antibióticos por mucho tiempo, que limpian las bacterias buenas y le dejan el camino libre a los hongos.
+
+[PARTE 3 – CIERRE CON PERSONAJES]
 
 La cura fue simple: medicamentos contra los hongos y una dieta casi sin azúcar ni harinas.
 
