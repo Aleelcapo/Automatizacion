@@ -1,2 +1,4 @@
 entregas/*.zip
 entregas/zip_partes/
+herramientas/nicho3d/assets_cache/
+.tmp_render/

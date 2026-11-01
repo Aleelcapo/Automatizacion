@@ -266,6 +266,9 @@ def render_setup(out, opt, nf):
 
 def run(out, opt):
     sc = bpy.context.scene
+    if '--calidad' in opt:
+        import calidad
+        calidad.aplicar(opt)
     if '--save' in opt:
         bpy.ops.wm.save_as_mainfile(filepath=opt['--save'])
     if '--frames' in opt:
