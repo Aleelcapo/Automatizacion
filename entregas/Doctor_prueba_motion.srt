@@ -1,0 +1,64 @@
+1
+00:00:00,252 --> 00:00:01,783
+En su intestino se había roto el
+
+2
+00:00:01,803 --> 00:00:03,715
+equilibrio de bacterias y hongos.
+
+3
+00:00:03,735 --> 00:00:05,498
+Y uno de ellos se había multiplicado
+
+4
+00:00:05,518 --> 00:00:07,467
+sin control: una levadura llamada
+
+5
+00:00:07,487 --> 00:00:09,167
+Saccharomyces cerevisiae.
+
+6
+00:00:09,187 --> 00:00:11,370
+La misma que se usa para hacer cerveza.
+
+7
+00:00:11,390 --> 00:00:13,353
+Cada vez que comía harinas o azúcar,
+
+8
+00:00:13,381 --> 00:00:15,005
+esa levadura las fermentaba...
+
+9
+00:00:15,025 --> 00:00:17,037
+y su propio cuerpo fabricaba alcohol.
+
+10
+00:00:17,057 --> 00:00:19,249
+Se llama síndrome de autocervecería.
+
+11
+00:00:19,269 --> 00:00:21,101
+Es tan raro que muchos médicos nunca
+
+12
+00:00:21,121 --> 00:00:22,618
+lo ven en toda su carrera.
+
+13
+00:00:22,638 --> 00:00:24,227
+Y suele aparecer después de tomar
+
+14
+00:00:24,247 --> 00:00:26,067
+antibióticos por mucho tiempo,
+
+15
+00:00:26,087 --> 00:00:27,780
+que limpian las bacterias buenas y le
+
+16
+00:00:27,800 --> 00:00:29,867
+dejan el camino libre a los hongos.
+

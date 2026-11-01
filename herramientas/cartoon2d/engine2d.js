@@ -79,7 +79,8 @@ function drawActor(sc, a, t) {
 
 // ---------------------------------------------------------------- props
 function propState(sc, p, t) {
-  let st = { x: p.x, y: p.y, s: p.s ?? 1, rot: p.rot || 0, alpha: p.hidden ? 0 : 1, value: p.value ?? 0, pop: 1 };
+  let st = { x: p.x, y: p.y, s: p.s ?? 1, rot: p.rot || 0, alpha: p.hidden ? 0 : 1, value: p.value ?? 0, pop: 1, par: {} };
+  const RES = new Set(['t', 'target', 'dur', 'value', 'pop', 'show', 'hide', 'drop', 'move', 'spin', 'shake', 'step', 'linear', 'vol', 'x', 'y', 's']);
   const key = `${sc}.${p.id}`;
   for (const ac of TL.actions) {
     if (ac.target !== key || ac.t > t) continue;
@@ -88,7 +89,9 @@ function propState(sc, p, t) {
     if (ac.show) st.alpha = ease(p_);
     if (ac.hide) st.alpha = 1 - ease(p_);
     if (ac.drop) { st.alpha = 1; const h = ac.drop === true ? 700 : ac.drop; const pp = clamp(k / (ac.dur ?? .45), 0, 1); st.y = p.y - h * (1 - pp * pp) + (pp >= 1 ? -Math.max(0, Math.sin((k - (ac.dur ?? .45)) * 18) * 30 * Math.exp(-(k - (ac.dur ?? .45)) * 7)) : 0); }
-    if (ac.value != null) st.value = lerp(st.value, ac.value, ac.step ? (p_ >= 1 ? 1 : 0) : p_);
+    const pe = ac.linear ? p_ : ease(p_);
+    if (ac.value != null) st.value = lerp(st.value, ac.value, ac.step ? (p_ >= 1 ? 1 : 0) : pe);
+    for (const k in ac) if (!RES.has(k) && typeof ac[k] === 'number') st.par[k] = lerp(st.par[k] ?? p[k] ?? 0, ac[k], pe);
     if (ac.move) { const e = ease(clamp(k / (ac.move.dur ?? 1), 0, 1)); st.x = lerp(st.x, ac.move.x ?? st.x, e); st.y = lerp(st.y, ac.move.y ?? st.y, e); st.s = lerp(st.s, ac.move.s ?? st.s, e); }
     if (ac.spin) st.rot += k * ac.spin;
     if (ac.shake) { if (k < .5) st.rot += Math.sin(k * 60) * 6 * (1 - k / .5); }
@@ -99,7 +102,7 @@ function drawProp(sc, p, t) {
   const st = propState(sc, p, t);
   if (st.alpha <= .01) return '';
   const fn = PROPS[p.type]; if (!fn) return '';
-  return `<g opacity="${st.alpha.toFixed(3)}" transform="translate(${st.x} ${st.y}) rotate(${st.rot}) scale(${(st.s * st.pop).toFixed(4)})">${fn({ ...p, value: st.value, t })}</g>`;
+  return `<g opacity="${st.alpha.toFixed(3)}" transform="translate(${st.x} ${st.y}) rotate(${st.rot}) scale(${(st.s * st.pop).toFixed(4)})">${fn({ ...p, ...st.par, value: st.value, t })}</g>`;
 }
 
 // ---------------------------------------------------------------- cámara
@@ -214,7 +217,8 @@ window.init = async (tl) => {
   CV = document.createElement('canvas'); CV.width = 1080; CV.height = 1920; CTX = CV.getContext('2d');
   document.body.appendChild(CV);
   const m = await b64('/node_modules/@fontsource/montserrat/files/montserrat-latin-800-normal.woff2');
-  FONTCSS = `<style>@font-face{font-family:'Montserrat';font-weight:800;src:url(data:font/woff2;base64,${m}) format('woff2');}</style>`;
+  const an = await b64('/node_modules/@fontsource/anton/files/anton-latin-400-normal.woff2');
+  FONTCSS = `<style>@font-face{font-family:'Montserrat';font-weight:800;src:url(data:font/woff2;base64,${m}) format('woff2');}@font-face{font-family:'Anton';font-weight:400;src:url(data:font/woff2;base64,${an}) format('woff2');}</style>`;
   await document.fonts.load('400 40px Anton');
   await prepBackgrounds();
 };

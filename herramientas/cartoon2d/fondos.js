@@ -90,8 +90,8 @@ export function isoroom() {
   <rect y="1380" width="1080" height="540" fill="#b5c0bd"/></g>`;
 }
 export function bedFront() { return ''; }
-export function diagram() {
-  return `<rect width="1080" height="1920" fill="#1d2b44"/><radialGradient id="dg" cx=".5" cy=".42" r=".6"><stop offset="0" stop-color="#3b5d8f"/><stop offset="1" stop-color="#14203a"/></radialGradient><rect width="1080" height="1920" fill="url(#dg)"/>${Array.from({ length: 30 }, (_, i) => `<path d="M${i * 40} 0 V1920 M0 ${i * 70} H1080" stroke="#ffffff" stroke-opacity=".05" stroke-width="2"/>`).join('')}`;
+export function diagram(o = {}) {
+  return `<rect width="1080" height="1920" fill="#1d2b44"/><radialGradient id="dg" cx=".5" cy=".42" r=".6"><stop offset="0" stop-color="${o.c1 || '#3b5d8f'}"/><stop offset="1" stop-color="${o.c2 || '#14203a'}"/></radialGradient><rect width="1080" height="1920" fill="url(#dg)"/>${Array.from({ length: 30 }, (_, i) => `<path d="M${i * 40} 0 V1920 M0 ${i * 70} H1080" stroke="#ffffff" stroke-opacity=".05" stroke-width="2"/>`).join('')}`;
 }
 export function desk() {
   return `<g filter="url(#b1)"><rect width="1080" height="1920" fill="#6b4a33"/>${Array.from({ length: 14 }, (_, i) => `<path d="M0 ${i * 140 + 40} Q540 ${i * 140 + (i % 2 ? 80 : 0)} 1080 ${i * 140 + 40}" stroke="#5a3d29" stroke-width="6" fill="none"/>`).join('')}

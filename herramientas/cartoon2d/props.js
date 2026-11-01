@@ -1,3 +1,4 @@
+import { MG } from './mg.js';
 // Objetos 2D (centrados en 0,0). Cada uno recibe {value, t, ...opciones}.
 const O = '#26222a';
 const st = (w = 3) => `stroke="${O}" stroke-width="${w}" stroke-linejoin="round" stroke-linecap="round"`;
@@ -39,3 +40,4 @@ export const PROPS = {
   door: p => { const o = p.value; return `<rect x="-130" y="-560" width="260" height="560" fill="#2f3138"/><g transform="translate(-130 0) scale(${1 - o * .8} 1)"><rect x="0" y="-560" width="260" height="560" fill="#9fb2b8" ${st(4)}/><rect x="30" y="-520" width="200" height="260" fill="#d7e6e8" ${st(2)}/><rect x="210" y="-300" width="14" height="60" rx="5" fill="#d8d8d8" ${st(2)}/></g>`; },
   monitor: p => { const t = p.t; let d = 'M-170 0'; for (let x = -170; x <= 170; x += 10) { const ph = ((x + 170) / 340 + t * .8) % 1; d += ` L${x} ${ph > .45 && ph < .5 ? -70 : ph > .5 && ph < .53 ? 40 : 0}`; } return `<rect x="-200" y="-140" width="400" height="280" rx="14" fill="#2b2f36" ${st(4)}/><rect x="-180" y="-120" width="360" height="200" fill="#0d1a14"/><path d="${d}" fill="none" stroke="#3ef08a" stroke-width="5"/><text x="150" y="-80" text-anchor="end" font-family="Montserrat" font-weight="800" font-size="34" fill="#3ef08a">${72 + Math.round(Math.sin(t) * 3)}</text>`; },
 };
+Object.assign(PROPS, MG);

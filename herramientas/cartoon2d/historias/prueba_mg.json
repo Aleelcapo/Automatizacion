@@ -1,0 +1,535 @@
+{
+ "out": "Doctor_prueba_motion",
+ "title": "Prueba motion graphics",
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+8%",
+ "sfx_gain": 0.42,
+ "scenes": {
+  "gut": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#4a2a5e",
+    "c2": "#170d24"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "g",
+     "type": "gut",
+     "x": 540,
+     "y": 740,
+     "s": 0.92,
+     "good": 1,
+     "yeast": 3,
+     "sweep": 0
+    },
+    {
+     "id": "k",
+     "type": "kicker",
+     "x": 540,
+     "y": 180,
+     "text": "TU INTESTINO",
+     "size": 96,
+     "hidden": true
+    }
+   ]
+  },
+  "bal": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "b",
+     "type": "balance",
+     "x": 540,
+     "y": 520,
+     "s": 1.0,
+     "value": 0
+    }
+   ]
+  },
+  "mul": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#5e4a1a",
+    "c2": "#1d1608"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "y",
+     "type": "yeast",
+     "x": 540,
+     "y": 860,
+     "s": 1.3,
+     "value": 1
+    },
+    {
+     "id": "c",
+     "type": "counter",
+     "x": 540,
+     "y": 1560,
+     "target": 1000000,
+     "value": 0,
+     "hidden": true
+    }
+   ]
+  },
+  "name": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "y",
+     "type": "bigyeast",
+     "x": 540,
+     "y": 1000,
+     "k": 3.6
+    },
+    {
+     "id": "l",
+     "type": "label",
+     "x": 640,
+     "y": 860,
+     "to": [
+      -100,
+      -420
+     ],
+     "text": "Saccharomyces cerevisiae",
+     "sub": "levadura",
+     "value": 0
+    }
+   ]
+  },
+  "cerveza": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#6a4a14",
+    "c2": "#1d1608"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "j",
+     "type": "beer",
+     "x": 520,
+     "y": 880,
+     "s": 1.9,
+     "value": 0
+    },
+    {
+     "id": "y",
+     "type": "bigyeast",
+     "x": 300,
+     "y": 520,
+     "k": 1.2,
+     "hidden": true
+    }
+   ]
+  },
+  "form": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "f",
+     "type": "formula",
+     "x": 540,
+     "y": 800,
+     "s": 0.88,
+     "value": 0
+    }
+   ]
+  },
+  "body": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#1a4a5e",
+    "c2": "#0a1a24"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "b",
+     "type": "body",
+     "x": 560,
+     "y": 760,
+     "s": 0.85,
+     "value": 0
+    }
+   ]
+  },
+  "title": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#5e1a2a",
+    "c2": "#1d0810"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "t",
+     "type": "title",
+     "x": 540,
+     "y": 700,
+     "s": 1.0,
+     "value": 0
+    }
+   ]
+  },
+  "docs": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "d",
+     "type": "doctors",
+     "x": 540,
+     "y": 700,
+     "s": 1.0,
+     "value": 0,
+     "hl": 0
+    }
+   ]
+  },
+  "anti": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#4a2a5e",
+    "c2": "#170d24"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "g",
+     "type": "gut",
+     "x": 540,
+     "y": 740,
+     "s": 0.92,
+     "good": 1,
+     "yeast": 3,
+     "sweep": 0
+    },
+    {
+     "id": "p",
+     "type": "pills",
+     "x": 540,
+     "y": 740,
+     "s": 1.0,
+     "value": 0,
+     "z": 3
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "En su intestino se había roto el equilibrio de bacterias y hongos.",
+   "shots": [
+    {
+     "scene": "gut",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 2.6,
+      "to": {
+       "z": 1.0
+      },
+      "move": "hold"
+     },
+     "do": [
+      {
+       "on": "intestino",
+       "target": "k",
+       "pop": true,
+       "sfx": "pop"
+      }
+     ]
+    },
+    {
+     "scene": "bal",
+     "from": "equilibrio",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "equilibrio",
+       "target": "b",
+       "value": 1,
+       "dur": 1.6,
+       "sfx": "whoosh"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y uno de ellos se había multiplicado sin control:",
+   "shots": [
+    {
+     "scene": "mul",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 2.2,
+      "to": {
+       "z": 1.0
+      },
+      "move": "hold"
+     },
+     "do": [
+      {
+       "on": "multiplicado",
+       "target": "y",
+       "value": 34,
+       "dur": 1.6,
+       "sfx": "pop"
+      },
+      {
+       "on": "multiplicado",
+       "target": "c",
+       "pop": true
+      },
+      {
+       "on": "multiplicado",
+       "target": "c",
+       "value": 1,
+       "dur": 1.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "una levadura llamada Saccharomyces cerevisiae.",
+   "shots": [
+    {
+     "scene": "name",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "llamada",
+       "target": "l",
+       "value": 1,
+       "dur": 1.6,
+       "sfx": "tick"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "La misma que se usa para hacer cerveza.",
+   "shots": [
+    {
+     "scene": "cerveza",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "y",
+       "pop": true,
+       "sfx": "boing",
+       "vol": 0.6
+      },
+      {
+       "at": 0.25,
+       "target": "y",
+       "move": {
+        "x": 520,
+        "y": 760,
+        "s": 0.4,
+        "dur": 0.5
+       }
+      },
+      {
+       "at": 0.65,
+       "target": "y",
+       "hide": true,
+       "dur": 0.1
+      },
+      {
+       "at": 0.6,
+       "target": "j",
+       "value": 1,
+       "dur": 1.2,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Cada vez que comía harinas o azúcar, esa levadura las fermentaba... y su propio cuerpo fabricaba alcohol.",
+   "shots": [
+    {
+     "scene": "form",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "drift"
+     },
+     "do": [
+      {
+       "on": "harinas",
+       "target": "f",
+       "value": 1,
+       "dur": 0.4,
+       "sfx": "pop"
+      },
+      {
+       "on": "levadura",
+       "target": "f",
+       "value": 2,
+       "dur": 0.6,
+       "sfx": "pop"
+      },
+      {
+       "on": "fermentaba",
+       "target": "f",
+       "value": 3,
+       "dur": 0.6,
+       "sfx": "ding"
+      }
+     ]
+    },
+    {
+     "scene": "body",
+     "from": "su",
+     "cam": {
+      "x": 560,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "fabricaba",
+       "target": "b",
+       "value": 1,
+       "dur": 1.2,
+       "sfx": "tick"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Se llama síndrome de autocervecería.",
+   "shots": [
+    {
+     "scene": "title",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "síndrome",
+       "target": "t",
+       "value": 1,
+       "dur": 0.45,
+       "camshake": 16,
+       "sfx": "thud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Es tan raro que muchos médicos nunca lo ven en toda su carrera.",
+   "shots": [
+    {
+     "scene": "docs",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "d",
+       "value": 1,
+       "dur": 1.4,
+       "sfx": "pop"
+      },
+      {
+       "on": "nunca",
+       "target": "d",
+       "hl": 1,
+       "dur": 0.4,
+       "sfx": "ding"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y suele aparecer después de tomar antibióticos por mucho tiempo, que limpian las bacterias buenas y le dejan el camino libre a los hongos.",
+   "shots": [
+    {
+     "scene": "anti",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "drift"
+     },
+     "do": [
+      {
+       "on": "antibióticos",
+       "target": "p",
+       "value": 1,
+       "dur": 2.6,
+       "linear": true,
+       "sfx": "whoosh"
+      },
+      {
+       "on": "limpian",
+       "target": "g",
+       "sweep": 1,
+       "dur": 1.2
+      },
+      {
+       "on": "camino",
+       "target": "g",
+       "yeast": 26,
+       "dur": 1.6,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
