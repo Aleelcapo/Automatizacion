@@ -6,7 +6,7 @@ son cortadores booleanos que crecen; lo que se construye bajo tierra vive en y >
 import bpy, math, random
 from comun3d import *  # noqa
 
-GX0, GX1, GY1, GZ0 = -30.0, 40.0, 30.0, -10.0
+GX0, GX1, GY1, GZ0 = -30.0, 40.0, 30.0, -30.0
 HOUSE_Y0, HOUSE_Y1 = 16.0, 22.0
 
 
