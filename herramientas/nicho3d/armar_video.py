@@ -20,10 +20,11 @@ FIX = {'cabas': 'cavas', 'caban': 'cavan', 'UniGlue!': 'un iglú!', 'aguajote': 
        'elevadizo.': 'levadizo.', 'contravesaños.': 'con travesaños.', 'resvale': 'resbale', 'amaca,': 'hamaca,',
        'hoyín': 'hollín', 'amarran': 'amarra', 'saleros': 'aleros', 'cana.': 'khana.', 'enfria': 'enfría',
        'arras': 'a ras', 'Quezhuachaca.': "Q'eswachaka.",
-       'graba.': 'grava.', '5': 'cinco'}
+       'graba.': 'grava.', '5': 'cinco', 'ADM,': 'ademe,', 'onda': 'honda', '2': 'dos', '10': 'diez'}
 FIX_SEQ = [(('entre', 'octángulo'), ('en', 'rectángulo')), (('vuelta', 'a', 'dormido'), ('vuelta', '', 'dormido')),
            (('bad', 'gear'), ('badgir', '')), (('una', 'atrapa', 'vientos'), ('un', 'atrapavientos', '')),
-           (('atrapa', 'vientos'), ('atrapavientos', '')), (('lleva', 'a', 'la'), ('lleva', '', 'la'))]
+           (('atrapa', 'vientos'), ('atrapavientos', '')), (('lleva', 'a', 'la'), ('lleva', '', 'la')),
+           (('del', 'hodo'), ('de', 'lodo'))]
 
 raw = json.load(open(words_json))
 i = 0
