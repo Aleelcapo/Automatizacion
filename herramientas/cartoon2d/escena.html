@@ -5,42 +5,24 @@ html,body{margin:0;background:#000}</style></head><body>
 <svg id="s" xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
 <script type="module">
 import { drawCharacter, drawBack } from '/estilo.js';
+import { DEFS, LIGHT, officeA, officeB, corridor } from '/fondos.js';
 const F = new URLSearchParams(location.search).get('f') || '1';
-const O = '#221c26';
-const defs = `<defs>
- <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9c2bd"/><stop offset="1" stop-color="#8f9993"/></linearGradient>
- <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffcf8a" stop-opacity=".55"/><stop offset=".55" stop-color="#ffcf8a" stop-opacity="0"/></linearGradient>
- <linearGradient id="cool" x1="0" y1="0" x2="1" y2="1"><stop offset=".45" stop-color="#2a3c66" stop-opacity="0"/><stop offset="1" stop-color="#2a3c66" stop-opacity=".55"/></linearGradient>
- <radialGradient id="vig" cx=".5" cy=".45" r=".75"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".55"/></radialGradient>
- <filter id="blur1"><feGaussianBlur stdDeviation="2"/></filter><filter id="blur2"><feGaussianBlur stdDeviation="4"/></filter>
-</defs>`;
-const blinds = (x, y, w, h) => { let s = `<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="#dfe6e3" stroke="${O}" stroke-width="3"/>`; for (let yy = y + 14; yy < y + h; yy += 26) s += `<rect x="${x + 4}" y="${yy}" width="${w - 8}" height="12" fill="#f7f4ea"/><line x1="${x + 4}" y1="${yy + 12}" x2="${x + w - 4}" y2="${yy + 12}" stroke="#a9b0ad" stroke-width="2"/>`; return s; };
-const board = (x, y, w, h, rot = 0) => `<g transform="rotate(${rot} ${x} ${y})"><rect x="${x - 10}" y="${y - 10}" width="${w + 20}" height="${h + 20}" rx="6" fill="#aeb3b8" stroke="${O}" stroke-width="3"/><rect x="${x}" y="${y}" width="${w}" height="${h}" fill="#f8faf8" stroke="${O}" stroke-width="2"/>
- <rect x="${x}" y="${y}" width="${w}" height="${h}" fill="url(#warm)" opacity=".4"/>
- <g font-family="Montserrat" font-weight="800" fill="#1f3f8a" transform="rotate(-1.5 ${x} ${y})">
- <text x="${x + 40}" y="${y + 80}" font-size="54">SÍNTOMAS</text><line x1="${x + 40}" y1="${y + 96}" x2="${x + 340}" y2="${y + 94}" stroke="#1f3f8a" stroke-width="5"/>
- <text x="${x + 40}" y="${y + 170}" font-size="40">- mareos</text>
- <text x="${x + 40}" y="${y + 236}" font-size="40">- habla arrastrada</text>
- <text x="${x + 40}" y="${y + 302}" font-size="40">- alcohol: 0.37</text>
- <text x="${x + 40}" y="${y + 380}" font-size="50" fill="#b3261e">¿NO BEBE?</text>
- <ellipse cx="${x + 190}" cy="${y + 364}" rx="190" ry="44" fill="none" stroke="#b3261e" stroke-width="5" transform="rotate(-3 ${x + 190} ${y + 364})"/></g>
- <rect x="${x + w - 160}" y="${y + h - 8}" width="60" height="12" rx="4" fill="#1f3f8a"/><rect x="${x + w - 90}" y="${y + h - 8}" width="60" height="12" rx="4" fill="#b3261e"/></g>`;
-const light = `<rect width="1080" height="1920" fill="url(#warm)" style="mix-blend-mode:soft-light"/><rect width="1080" height="1920" fill="url(#cool)" style="mix-blend-mode:multiply"/><rect width="1080" height="1920" fill="url(#vig)"/>`;
 const cap = (t, y = 1380) => `<text x="540" y="${y}" font-family="Anton" font-size="128" text-anchor="middle" fill="#fff" stroke="#000" stroke-width="16" paint-order="stroke" stroke-linejoin="round">${t}</text>`;
-let out = defs;
+const shadow = (x, y, w) => `<ellipse cx="${x}" cy="${y}" rx="${w}" ry="${w * .12}" fill="#000" opacity=".25"/>`;
+let out = DEFS;
 if (F === '1') {
-  out += `<g filter="url(#blur1)"><rect width="1080" height="1920" fill="url(#wall)"/><rect y="1500" width="1080" height="420" fill="#6f7a74"/>
-   <rect x="0" y="1490" width="1080" height="14" fill="#5d6762"/>${blinds(790, 120, 300, 1200)}<rect x="770" y="100" width="22" height="1400" fill="#c7cfcc" stroke="${O}" stroke-width="3"/>
-   ${board(40, 230, 640, 560, -1)}</g>`;
-  out += `<g transform="translate(690 2560) scale(2.25)">${drawCharacter('house', { armR: [48, 100], handR: 'point', propL: 'cane', armL: [8, -6], head: { tilt: -4, dx: -4 }, face: { look: [-.8, -.1], mood: 'smirk', browL: -6, browR: 10, browUp: [6, 0], mouth: .25 } })}</g>`;
-  out += light + cap('síntomas');
-} else {
-  out += `<g filter="url(#blur2)"><rect width="1080" height="1920" fill="url(#wall)"/>${blinds(80, 160, 520, 700)}<rect x="60" y="140" width="560" height="740" fill="none" stroke="#c7cfcc" stroke-width="22"/>
-   <rect y="1200" width="1080" height="720" fill="#6f7a74"/><path d="M0 1180 L1080 1150 L1080 1290 L0 1330 Z" fill="#7a5a44" stroke="${O}" stroke-width="3"/><path d="M0 1330 L1080 1290 L1080 1330 L0 1372 Z" fill="#5a4030"/>
-   <circle cx="860" cy="1110" r="46" fill="#9aa3a8" stroke="${O}" stroke-width="3"/><rect x="200" y="1090" width="160" height="70" rx="6" fill="#2c2f36"/></g>`;
-  out += `<g transform="translate(440 1890) scale(1.45)">${drawCharacter('house', { armR: [38, 62], handR: 'open', propL: 'cane', armL: [8, -6], head: { tilt: 3 }, face: { look: [.6, .1], mood: 'smirk', mouth: .55, browL: -8, browR: 8, browUp: [0, 8] } })}</g>`;
+  out += officeA();
+  out += `<g transform="translate(690 2560) scale(2.25)">${drawCharacter('house', { armR: [34, 122], handR: 'point', propL: 'cane', armL: [8, -6], head: { tilt: -4, dx: -4 }, face: { look: [-.8, -.1], mood: 'smirk', browL: -6, browR: 10, browUp: [6, 0], mouth: .25 } })}</g>`;
+  out += LIGHT() + cap('síntomas');
+} else if (F === '2') {
+  out += officeB();
+  out += shadow(440, 1890, 150) + `<g transform="translate(440 1890) scale(1.45)">${drawCharacter('house', { armR: [38, 62], handR: 'open', propL: 'cane', armL: [8, -6], head: { tilt: 3 }, face: { look: [.6, .1], mood: 'smirk', mouth: .55, browL: -8, browR: 8, browUp: [0, 8] } })}</g>`;
   out += `<g transform="translate(860 3350) scale(2.6)">${drawBack('leo', { tilt: -4 })}</g>`;
-  out += light + cap('¿borracho?');
+  out += LIGHT(1, .8) + cap('¿borracho?');
+} else {
+  out += corridor();
+  out += `<g transform="translate(500 2600) scale(2.3)">${drawCharacter('ana', { propR: 'clipboard', armR: [10, -118], armL: [10, 52], handL: 'open', head: { tilt: 4 }, face: { look: [.5, 0], mouth: .5, browUp: [9, 9], browL: 6, browR: 6 } })}</g>`;
+  out += LIGHT(.7, .9) + cap('¿y si miente?');
 }
 document.getElementById('s').innerHTML = out; await document.fonts.ready; window.ready = true;
 </script></body></html>

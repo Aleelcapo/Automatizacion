@@ -1,0 +1,8 @@
+<!doctype html><html><body style="margin:0"><svg id="s" width="1200" height="400" viewBox="0 0 1200 400"></svg>
+<script type="module">
+import { drawHand, CAST } from '/estilo.js';
+let o='<rect width="1200" height="400" fill="#dde"/>';
+['relax','open','point','fist','grip'].forEach((k,i)=>{o+=`<g transform="translate(${120+i*240} 80) scale(2.6)">${drawHand(CAST.house,k,[0,0],[0,1],false,1)}</g>`;});
+o+=`<g transform="translate(1100 330) scale(1.6)">${drawHand(CAST.house,'point',[0,0],[-.6,-.8],false,1)}</g>`;
+document.getElementById('s').innerHTML=o; window.ready=true;
+</script></body></html>
