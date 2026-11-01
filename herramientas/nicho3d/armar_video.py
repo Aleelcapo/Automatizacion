@@ -19,10 +19,11 @@ FONTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'fuentes'
 FIX = {'cabas': 'cavas', 'caban': 'cavan', 'UniGlue!': 'un iglú!', 'aguajote': 'ahuejote',
        'elevadizo.': 'levadizo.', 'contravesaños.': 'con travesaños.', 'resvale': 'resbale', 'amaca,': 'hamaca,',
        'hoyín': 'hollín', 'amarran': 'amarra', 'saleros': 'aleros', 'cana.': 'khana.', 'enfria': 'enfría',
-       'arras': 'a ras', 'Quezhuachaca.': "Q'eswachaka."}
+       'arras': 'a ras', 'Quezhuachaca.': "Q'eswachaka.",
+       'graba.': 'grava.', '5': 'cinco'}
 FIX_SEQ = [(('entre', 'octángulo'), ('en', 'rectángulo')), (('vuelta', 'a', 'dormido'), ('vuelta', '', 'dormido')),
            (('bad', 'gear'), ('badgir', '')), (('una', 'atrapa', 'vientos'), ('un', 'atrapavientos', '')),
-           (('atrapa', 'vientos'), ('atrapavientos', ''))]
+           (('atrapa', 'vientos'), ('atrapavientos', '')), (('lleva', 'a', 'la'), ('lleva', '', 'la'))]
 
 raw = json.load(open(words_json))
 i = 0

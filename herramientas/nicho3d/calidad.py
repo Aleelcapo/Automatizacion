@@ -24,6 +24,7 @@ REGLAS = [
       'fruta', 'platano', 'maiz', 'mazorca', 'chile', 'cempasuchil', 'flor', 'maceta', 'vasija', 'jarra', 'costal',
       'carga', 'mug', 'cuerda', 'amarre', 'liana', 'esquirla', 'grano', 'copo', 'cactus', 'hongo', 'vela', 'casco_'), None, 0),
     (('nieve', 'escarcha'), 'snow_02', 3.0),
+    (('suelo_corte',), 'dark_rock', 3.0),
     (('lodo', 'barro'), 'brown_mud_02', 2.0),
     (('tierra_cultivo', 'tierra', 'capa_lodo', 'huella'), 'farm_soil', 2.0),
     (('capa_plantas', 'hoja', 'follaje', 'copa', 'helecho', 'ahuejote'), 'forest_leaves_02', 2.0),
