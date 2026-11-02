@@ -1,0 +1,881 @@
+{
+ "out": "Doctor_ep5",
+ "title": "El hombre que juraba estar muerto",
+ "audio": "../audios/doctor_5.m4a",
+ "sfx_gain": 0.38,
+ "maxShot": 2.4,
+ "tail": 1.2,
+ "scenes": {
+  "houseC": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 690,
+     "y": 2560,
+     "s": 2.25,
+     "expr": "smug",
+     "pose": {
+      "propL": "cane",
+      "armL": [
+       8,
+       -6
+      ],
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "entrada": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 1450,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "smug",
+     "pose": {
+      "armL": [
+       8,
+       -6
+      ],
+      "propL": "cane",
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "aula": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "leo",
+     "char": "leo",
+     "x": 560,
+     "y": 2520,
+     "s": 2.15,
+     "expr": "neutral",
+     "pose": {
+      "propR": "notebook",
+      "armR": [
+       8,
+       -116
+      ]
+     }
+    }
+   ]
+  },
+  "anaC": {
+   "bg": "corridor",
+   "actors": [
+    {
+     "id": "ana",
+     "char": "ana",
+     "x": 520,
+     "y": 2600,
+     "s": 2.3,
+     "expr": "neutral",
+     "pose": {
+      "propR": "clipboard",
+      "armR": [
+       10,
+       -118
+      ]
+     }
+    }
+   ]
+  },
+  "consulta": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "m",
+     "char": "muerto",
+     "x": 540,
+     "y": 2420,
+     "s": 2.0,
+     "expr": {
+      "mood": "neutral",
+      "lid": 0.45
+     }
+    }
+   ]
+  },
+  "nocome": {
+   "bg": "desk",
+   "props": [
+    {
+     "id": "bandeja",
+     "type": "tray",
+     "x": 540,
+     "y": 900,
+     "s": 1.45,
+     "value": 3
+    },
+    {
+     "id": "x",
+     "type": "xmark",
+     "x": 540,
+     "y": 880,
+     "s": 1.6,
+     "hidden": true,
+     "z": 5
+    }
+   ]
+  },
+  "ducha": {
+   "bg": "bathroom",
+   "props": [
+    {
+     "id": "x",
+     "type": "xmark",
+     "x": 540,
+     "y": 800,
+     "s": 1.8,
+     "hidden": true,
+     "z": 5
+    }
+   ]
+  },
+  "cementerio": {
+   "bg": "cemetery",
+   "warm": 0.3,
+   "cool": 1.2,
+   "actors": [
+    {
+     "id": "m",
+     "char": "muerto",
+     "x": 560,
+     "y": 2250,
+     "s": 1.6,
+     "expr": {
+      "mood": "sad",
+      "lid": 0.5
+     }
+    }
+   ]
+  },
+  "pulso": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "leo",
+     "char": "leo",
+     "x": 380,
+     "y": 2450,
+     "s": 2.0,
+     "expr": "happy",
+     "pose": {
+      "propR": "notebook",
+      "armR": [
+       8,
+       -116
+      ],
+      "armL": [
+       40,
+       60
+      ],
+      "handL": "open"
+     }
+    },
+    {
+     "id": "m",
+     "char": "muerto",
+     "x": 800,
+     "y": 2450,
+     "s": 2.0,
+     "expr": {
+      "lid": 0.45
+     }
+    }
+   ],
+   "props": [
+    {
+     "id": "mon",
+     "type": "monitor",
+     "x": 560,
+     "y": 520,
+     "s": 0.9,
+     "z": 2
+    }
+   ]
+  },
+  "depre": {
+   "bg": "bedroom",
+   "bgOpts": {
+    "night": true
+   },
+   "actors": [
+    {
+     "id": "m",
+     "char": "muerto",
+     "x": 540,
+     "y": 2350,
+     "s": 1.75,
+     "expr": "sad"
+    }
+   ]
+  },
+  "pet": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "p",
+     "type": "pet",
+     "x": 540,
+     "y": 800,
+     "s": 1.25,
+     "act": 1
+    }
+   ],
+   "bgOpts": {
+    "c1": "#20242c",
+    "c2": "#08090c"
+   }
+  },
+  "compara": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "a",
+     "type": "pet",
+     "x": 290,
+     "y": 760,
+     "s": 0.75,
+     "act": 1,
+     "label": "NORMAL"
+    },
+    {
+     "id": "b",
+     "type": "pet",
+     "x": 790,
+     "y": 760,
+     "s": 0.75,
+     "act": 0.05,
+     "label": "ÉL"
+    },
+    {
+     "id": "k",
+     "type": "kicker",
+     "x": 540,
+     "y": 1250,
+     "text": "COMO EN COMA",
+     "size": 90,
+     "color": "#4fd1ff",
+     "hidden": true
+    }
+   ],
+   "bgOpts": {
+    "c1": "#20242c",
+    "c2": "#08090c"
+   }
+  },
+  "yo": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "s",
+     "type": "selflink",
+     "x": 540,
+     "y": 820,
+     "s": 0.95,
+     "link": 1
+    }
+   ],
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   }
+  },
+  "muerte": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 760,
+     "s": 2.0,
+     "items": [
+      [
+       "tomb",
+       "",
+       ""
+      ]
+     ],
+     "ring": "#ff4d5e"
+    },
+    {
+     "id": "k",
+     "type": "kicker",
+     "x": 540,
+     "y": 1250,
+     "text": "ESTOY MUERTO",
+     "size": 110,
+     "color": "#ff4d5e",
+     "hidden": true
+    }
+   ],
+   "bgOpts": {
+    "c1": "#20242c",
+    "c2": "#08090c"
+   }
+  },
+  "titulo": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "t",
+     "type": "title2",
+     "x": 540,
+     "y": 760,
+     "s": 1.0,
+     "value": 0,
+     "l1": "SÍNDROME",
+     "l2": "DE COTARD"
+    }
+   ],
+   "bgOpts": {
+    "c1": "#20242c",
+    "c2": "#08090c"
+   }
+  },
+  "depre2": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 800,
+     "s": 2.0,
+     "items": [
+      [
+       "cloud",
+       "DEPRESIÓN GRAVE",
+       ""
+      ]
+     ],
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#2a3a6e",
+    "c2": "#0c1430"
+   }
+  },
+  "familia": {
+   "bg": "kitchen",
+   "actors": [
+    {
+     "id": "m",
+     "char": "muerto",
+     "x": 330,
+     "y": 2350,
+     "s": 1.75,
+     "expr": "happy"
+    },
+    {
+     "id": "f",
+     "char": "madre",
+     "x": 760,
+     "y": 2350,
+     "s": 1.75,
+     "expr": "happy"
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "Un hombre se sentó frente a mí y me dijo, muy tranquilo: doctor, yo estoy muerto.",
+   "shots": [
+    {
+     "scene": "consulta",
+     "cam": {
+      "on": "m",
+      "shot": "medium",
+      "move": "push"
+     }
+    },
+    {
+     "scene": "consulta",
+     "from": "doctor",
+     "cam": {
+      "on": "m",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "doctor",
+       "target": "m",
+       "talk": 1.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "No comía porque decía que no lo necesitaba.",
+   "shots": [
+    {
+     "scene": "nocome",
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "comía",
+       "target": "x",
+       "pop": true,
+       "sfx": "boing",
+       "vol": 0.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "No se bañaba porque decía que no tenía sentido.",
+   "shots": [
+    {
+     "scene": "ducha",
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "bañaba",
+       "target": "x",
+       "pop": true,
+       "sfx": "boing",
+       "vol": 0.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Pasaba horas en el cementerio, porque sentía que ahí era donde tenía que estar.",
+   "shots": [
+    {
+     "scene": "cementerio",
+     "flash": true,
+     "cam": {
+      "x": 560,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "cementerio",
+     "from": "sentía",
+     "cam": {
+      "on": "m",
+      "shot": "face",
+      "move": "drift"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Ana pensó que era una broma.",
+   "shots": [
+    {
+     "scene": "anaC",
+     "cam": {
+      "on": "ana",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "expr": "smug",
+       "talk": 1.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Leo le tomó el pulso, le mostró que su corazón latía.",
+   "shots": [
+    {
+     "scene": "pulso",
+     "cam": {
+      "on": [
+       "leo",
+       "m"
+      ],
+      "shot": "medium",
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "leo",
+       "talk": 2.0
+      },
+      {
+       "at": 0,
+       "target": "m",
+       "look": [
+        -0.6,
+        -0.5
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Él respondió: eso no prueba nada.",
+   "shots": [
+    {
+     "scene": "pulso",
+     "cam": {
+      "on": "m",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "eso",
+       "target": "m",
+       "talk": 1.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Venía de pasar por una depresión muy profunda.",
+   "shots": [
+    {
+     "scene": "depre",
+     "cam": {
+      "on": "m",
+      "shot": "close",
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Le hicimos un estudio de su actividad cerebral.",
+   "shots": [
+    {
+     "scene": "pet",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0.3,
+       "target": "p",
+       "act": 0.05,
+       "dur": 1.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "El resultado nos dejó helados. Varias zonas de su cerebro trabajaban tan poco... como las de una persona en coma.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "shock"
+      }
+     ]
+    },
+    {
+     "scene": "compara",
+     "from": "Varias",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "coma",
+       "target": "k",
+       "pop": true,
+       "sfx": "ding"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Justamente las zonas que nos hacen sentir que existimos: las que conectan lo que pasa en el cuerpo con la sensación de ser uno mismo.",
+   "shots": [
+    {
+     "scene": "yo",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Si esa conexión se apaga, tu cerebro recibe la señal de que estás vivo... pero ya no la siente como tuya.",
+   "shots": [
+    {
+     "scene": "yo",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.1,
+      "move": "drift"
+     },
+     "do": [
+      {
+       "on": "apaga",
+       "target": "s",
+       "link": 0,
+       "dur": 0.8,
+       "sfx": "thud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y busca una explicación: estoy muerto.",
+   "shots": [
+    {
+     "scene": "muerte",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "estoy",
+       "target": "k",
+       "pop": true,
+       "camshake": 10,
+       "sfx": "thud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Se llama síndrome de Cotard.",
+   "shots": [
+    {
+     "scene": "titulo",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Se",
+       "target": "t",
+       "value": 1,
+       "dur": 0.45,
+       "camshake": 16,
+       "sfx": "thud",
+       "lead": -0.25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Es rarísimo, y casi siempre aparece junto a una depresión grave.",
+   "shots": [
+    {
+     "scene": "depre2",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "depresión",
+       "target": "i",
+       "value": 1,
+       "dur": 0.4,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Con medicación y terapia, su cerebro se fue encendiendo otra vez.",
+   "shots": [
+    {
+     "scene": "pet",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "p",
+       "act": 0.05,
+       "dur": 0.01
+      },
+      {
+       "on": "encendiendo",
+       "target": "p",
+       "act": 1,
+       "dur": 1.4,
+       "sfx": "ding"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Volvió a comer, a bañarse, a ver a su familia.",
+   "shots": [
+    {
+     "scene": "familia",
+     "cam": {
+      "on": [
+       "m",
+       "f"
+      ],
+      "shot": "medium",
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0.2,
+       "target": "m",
+       "look": [
+        0.8,
+        0
+       ]
+      },
+      {
+       "at": 0.2,
+       "target": "f",
+       "look": [
+        -0.8,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Un día volvió al consultorio y me dijo: doctor, creo que estoy vivo.",
+   "shots": [
+    {
+     "scene": "consulta",
+     "cam": {
+      "on": "m",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "m",
+       "expr": "happy"
+      },
+      {
+       "on": "doctor",
+       "target": "m",
+       "talk": 1.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Le dije: lamentablemente, sí. Ahora le toca pagar la consulta.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "smirk",
+       "talk": 3.2,
+       "arms": {
+        "armR": [
+         14,
+         92
+        ],
+        "handR": "open"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

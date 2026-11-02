@@ -142,6 +142,8 @@ function face(c, e, id) {
   if (c.bangShade) s += `<path d="${c.bangShade}" fill="${c.skinS}"/>`;
   if (c.lines) s += line(c.lines, 2.6, c.skinS);
   if (e.drunk) s += `<ellipse cx="-36" cy="34" rx="18" ry="10" fill="#e0505a" opacity="${.45 * e.drunk}"/><ellipse cx="36" cy="34" rx="18" ry="10" fill="#e0505a" opacity="${.45 * e.drunk}"/><ellipse cx="2" cy="32" rx="11" ry="8" fill="#e0505a" opacity="${.55 * e.drunk}"/>`;
+  if (e.hives) s += [[-38, 30, 14], [34, 22, 11], [-14, -40, 9], [44, -20, 8], [-46, -8, 10], [10, 70, 9], [24, 44, 7]].map(([x, y, r]) => `<ellipse cx="${x}" cy="${y}" rx="${r * 1.4}" ry="${r}" fill="#e2485a" opacity="${.55 * e.hives}"/>`).join('');
+  if (e.scars) s += line('M-44 10 l18 14 M30 -30 l14 22 M-20 60 l22 -6', 3.4, '#a8604a');
   if (e.tears) s += [-1, 1].map(sd => `<path d="M${sd * c.ex - 4} ${c.ey + 8} q-4 ${30 * e.tears} 2 ${60 * e.tears} q8 -2 6 -${60 * e.tears} Z" fill="#9fd8ff" opacity=".85" stroke="#4a8fc0" stroke-width="1.5"/>`).join('');
   if (e.sweat) s += `<path d="M58 -40 q8 14 0 20 q-8 -6 0 -20 Z" fill="#bfe3ff" stroke="${O}" stroke-width="1.5"/>`;
   s += eyesR(c, e, id);
@@ -280,6 +282,16 @@ mujer: {
   },
 };
 
+const V = (base, o) => ({ ...CAST[base], ...o });
+Object.assign(CAST, {
+  hombre: V('leo', { id: 'hombre', scale: .98, glasses: false, coat: undefined, tie: undefined, outfit: 'shirt', top: '#dfe6ee', topS: '#b9c4d0', hair: '#2e2a28', hairS: '#1c1a19', brow: '#2e2a28', skin: '#e3b08c', skinS: '#c48e6c', irisCol: '#4a3426', lines: 'M-30 40 Q-34 52 -30 62 M30 40 Q34 52 30 62', mustache: 'M-24 50 Q-12 42 0 47 Q12 42 24 50 Q26 57 18 55 Q8 52 0 54 Q-8 52 -18 55 Q-26 57 -24 50 Z', mustacheCol: '#2e2a28', pants: '#4a4a52', pantsS: '#38383f' }),
+  muerto: V('leo', { id: 'muerto', scale: .98, glasses: false, coat: undefined, tie: undefined, outfit: 'shirt', top: '#3c3f48', topS: '#2c2f36', hair: '#3a3a3a', hairS: '#262626', brow: '#3a3a3a', skin: '#d8d0c8', skinS: '#b5aba2', bags: true, lid: .4, irisCol: '#4a4a4a', pants: '#2c2c32', pantsS: '#202024' }),
+  chica: V('ana', { id: 'chica', scale: .86, coat: undefined, outfit: 'shirt', top: '#6aa8e0', topS: '#4f88c0', hair: '#c9893a', hairS: '#9a6522', brow: '#9a6522', skin: '#f3cfb4', skinS: '#d8aa8c', irisCol: '#3e6a8a', pants: '#3a4a6e', pantsS: '#2c3a58',
+    hairBackShade: '<path d="M-52 150 L-56 70 L56 70 L52 150 Z" fill="#9a6522"/>', hairShade: '<path d="M46 -40 Q56 -10 54 30 Q52 56 58 80 Q66 50 62 16 Q66 -30 52 -60 Z M-46 -40 Q-56 -10 -54 30 Q-58 0 -56 -30 Z" fill="#9a6522"/>', hairHi: '<path d="M-30 -92 Q-14 -104 -4 -96 Q-18 -94 -28 -84 Z M14 -96 Q28 -100 40 -88 Q28 -90 18 -90 Z" fill="#e8b46a"/>' }),
+  nino2: V('nino', { id: 'nino2', skin: '#b5815a', skinS: '#94653f', hair: '#1e1712', hairS: '#0f0b08', brow: '#1e1712', top: '#d84a3a', topS: '#a8382a', irisCol: '#3a2618', pants: '#5a4a3a', pantsS: '#463a2c' }),
+  hombre8: V('paciente', { id: 'hombre8', scale: .97, top: '#7a8a5a', topS: '#5e6c44', plaid: undefined, hair: '#4a3a30', mustacheCol: '#4a3a30', brow: '#4a3a30', skin: '#e9be98', skinS: '#cc9a76',
+    hairFront: 'M-62 10 Q-70 -60 -40 -96 Q0 -118 40 -96 Q70 -60 62 10 Q58 -30 48 -50 Q20 -58 -10 -70 Q-36 -56 -52 -40 Q-58 -20 -62 10 Z', lines: 'M-30 40 Q-34 52 -30 62 M30 40 Q34 52 30 62' }),
+});
 // figura de espaldas (cabeza + hombros) para planos sobre el hombro
 export function drawBack(id, opts = {}) {
   const c = CAST[id], sh = c.shoulderY, sw = c.shoulderW + 6, ww = c.waistW;

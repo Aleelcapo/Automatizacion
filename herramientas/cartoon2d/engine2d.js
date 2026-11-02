@@ -79,7 +79,7 @@ function drawActor(sc, a, t) {
 
 // ---------------------------------------------------------------- props
 function propState(sc, p, t) {
-  let st = { x: p.x, y: p.y, s: p.s ?? 1, rot: p.rot || 0, alpha: p.hidden ? 0 : 1, value: p.value ?? 0, pop: 1, par: {} };
+  let st = { x: p.x, y: p.y, s: p.s ?? 1, rot: p.rot || 0, alpha: p.hidden ? 0 : 1, value: p.value, pop: 1, par: {} };
   const RES = new Set(['t', 'target', 'dur', 'value', 'pop', 'show', 'hide', 'drop', 'move', 'spin', 'shake', 'step', 'linear', 'vol', 'x', 'y', 's']);
   const key = `${sc}.${p.id}`;
   for (const ac of TL.actions) {
@@ -90,7 +90,7 @@ function propState(sc, p, t) {
     if (ac.hide) st.alpha = 1 - ease(p_);
     if (ac.drop) { st.alpha = 1; const h = ac.drop === true ? 700 : ac.drop; const pp = clamp(k / (ac.dur ?? .45), 0, 1); st.y = p.y - h * (1 - pp * pp) + (pp >= 1 ? -Math.max(0, Math.sin((k - (ac.dur ?? .45)) * 18) * 30 * Math.exp(-(k - (ac.dur ?? .45)) * 7)) : 0); }
     const pe = ac.linear ? p_ : ease(p_);
-    if (ac.value != null) st.value = lerp(st.value, ac.value, ac.step ? (p_ >= 1 ? 1 : 0) : pe);
+    if (ac.value != null) st.value = lerp(st.value ?? 0, ac.value, ac.step ? (p_ >= 1 ? 1 : 0) : pe);
     for (const k in ac) if (!RES.has(k) && typeof ac[k] === 'number') st.par[k] = lerp(st.par[k] ?? p[k] ?? 0, ac[k], pe);
     if (ac.move) { const e = ease(clamp(k / (ac.move.dur ?? 1), 0, 1)); st.x = lerp(st.x, ac.move.x ?? st.x, e); st.y = lerp(st.y, ac.move.y ?? st.y, e); st.s = lerp(st.s, ac.move.s ?? st.s, e); }
     if (ac.spin) st.rot += k * ac.spin;

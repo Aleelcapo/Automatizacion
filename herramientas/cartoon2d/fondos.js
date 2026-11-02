@@ -121,3 +121,25 @@ export function mriroom() {
   <rect x="240" y="1060" width="600" height="60" rx="20" fill="#f6f6f2" ${st(4)}/><rect x="320" y="1120" width="440" height="200" fill="#c9d1d6" ${st(4)}/><circle cx="540" cy="900" r="230" fill="url(#glow)" opacity=".35"/>
   <rect x="820" y="560" width="140" height="80" rx="10" fill="#2b2f36" ${st(3)}/><circle cx="850" cy="600" r="12" fill="#3ef08a"/></g>`;
 }
+
+export function cemetery() {
+  return `<g filter="url(#b2)"><rect width="1080" height="1920" fill="#3a4258"/><circle cx="820" cy="300" r="110" fill="#e9e6d4"/><circle cx="790" cy="290" r="100" fill="#3a4258" opacity=".0"/>
+  <path d="M0 1050 Q300 980 540 1030 Q800 1080 1080 1000 L1080 1920 L0 1920 Z" fill="#3e5a3e"/>${[[120, 1000, .9], [380, 980, .8], [700, 1010, .85], [940, 990, .75], [250, 1180, 1.1], [820, 1200, 1.15]].map(([x, y, k]) => `<g transform="translate(${x} ${y}) scale(${k})"><path d="M-70 60 L-70 -80 Q-70 -150 0 -150 Q70 -150 70 -80 L70 60 Z" fill="#8a929e" ${st()}/><path d="M-30 -60 h60 M0 -90 v70" stroke="#6a727e" stroke-width="10"/></g>`).join('')}
+  <path d="M60 760 q20 -140 -10 -260 M60 600 q60 -60 120 -70 M50 540 q-60 -40 -90 -40" stroke="#2a2a30" stroke-width="16" fill="none"/></g><rect width="1080" height="1920" fill="#1a2040" opacity=".2"/>`;
+}
+export function bathroom() {
+  return `<g filter="url(#b2)"><rect width="1080" height="1920" fill="#dff0f2"/>${Array.from({ length: 11 }, (_, i) => `<path d="M${i * 100} 0 V1300" stroke="#c4dde0" stroke-width="4"/>`).join('')}${Array.from({ length: 13 }, (_, i) => `<path d="M0 ${i * 100} H1080" stroke="#c4dde0" stroke-width="4"/>`).join('')}
+  <path d="M700 200 L700 320 L860 320" fill="none" stroke="#9aa6b8" stroke-width="20"/><path d="M800 320 L920 320 L890 370 L830 370 Z" fill="#c9d3e2" ${st()}/><rect x="560" y="160" width="20" height="1150" fill="#9aa6b8"/><path d="M560 170 q-60 300 0 560 q-60 300 0 580 L360 1310 L360 170 Z" fill="#9fd0e0" opacity=".8"/>
+  <rect x="80" y="520" width="220" height="300" rx="20" fill="#cfe7ff" ${st()}/><rect y="1300" width="1080" height="620" fill="#b9d4d8"/></g>`;
+}
+export function street() {
+  return `<g filter="url(#b2)"><rect width="1080" height="1920" fill="#f2c48a"/><rect y="0" width="1080" height="700" fill="#f7d6a0"/>${[[0, 300, 260, '#c96a4a'], [270, 220, 240, '#d9a05a'], [520, 340, 230, '#b8784e'], [760, 260, 320, '#c98a5a']].map(([x, y, w, c]) => `<rect x="${x}" y="${y}" width="${w}" height="${1300 - y}" fill="${c}" ${st()}/>` + [0, 1, 2].map(r => [0, 1].map(k => `<rect x="${x + 40 + k * (w / 2)}" y="${y + 60 + r * 220}" width="${w / 4}" height="120" fill="#5a3a2a" opacity=".6"/>`).join('')).join('')).join('')}
+  <path d="M0 1080 h1080" stroke="#7a4a2a" stroke-width="14"/>${Array.from({ length: 8 }, (_, i) => `<path d="M${i * 150} 1040 l60 -60 l60 60" fill="${['#e94e3a', '#3a8ae9', '#f2c23a', '#4ac06a'][i % 4]}"/>`).join('')}
+  <rect y="1300" width="1080" height="620" fill="#c9a57a"/><ellipse cx="540" cy="1560" rx="420" ry="90" fill="#a8805a" opacity=".6"/></g>`;
+}
+export function surgery() {
+  return `<g filter="url(#b1)"><rect width="1080" height="1920" fill="#5e8f8a"/><radialGradient id="orl" cx=".5" cy=".3" r=".6"><stop offset="0" stop-color="#d9f2ee"/><stop offset="1" stop-color="#3e6a66"/></radialGradient><rect width="1080" height="1920" fill="url(#orl)"/>
+  <path d="M540 0 V160" stroke="#9aa6b8" stroke-width="22"/><ellipse cx="540" cy="220" rx="260" ry="90" fill="#e6eef0" ${st()}/><ellipse cx="540" cy="240" rx="200" ry="50" fill="#fffbe0"/><path d="M340 280 L740 280 L900 1300 L180 1300 Z" fill="#fffbe0" opacity=".18"/>
+  <rect x="140" y="1100" width="800" height="90" rx="20" fill="#e6eef0" ${st()}/><rect x="220" y="1190" width="80" height="300" fill="#9aa6b8"/><rect x="780" y="1190" width="80" height="300" fill="#9aa6b8"/><path d="M200 1100 Q540 1000 880 1100 Z" fill="#6aa0c0" ${st()}/>
+  <rect x="820" y="620" width="200" height="140" rx="12" fill="#2b2f36" ${st(3)}/><path d="M840 690 l40 0 l10 -30 l10 50 l10 -20 l90 0" fill="none" stroke="#3ef08a" stroke-width="5"/><rect y="1500" width="1080" height="420" fill="#4a6e6a"/></g>`;
+}

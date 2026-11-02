@@ -1,0 +1,948 @@
+{
+ "out": "Doctor_ep4",
+ "title": "La mano que tenía vida propia",
+ "audio": "../audios/doctor_4.m4a",
+ "sfx_gain": 0.38,
+ "maxShot": 2.4,
+ "tail": 1.2,
+ "scenes": {
+  "houseC": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 690,
+     "y": 2560,
+     "s": 2.25,
+     "expr": "smug",
+     "pose": {
+      "propL": "cane",
+      "armL": [
+       8,
+       -6
+      ],
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "entrada": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 1450,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "smug",
+     "pose": {
+      "armL": [
+       8,
+       -6
+      ],
+      "propL": "cane",
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "aula": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "leo",
+     "char": "leo",
+     "x": 560,
+     "y": 2520,
+     "s": 2.15,
+     "expr": "neutral",
+     "pose": {
+      "propR": "notebook",
+      "armR": [
+       8,
+       -116
+      ]
+     }
+    }
+   ]
+  },
+  "anaC": {
+   "bg": "corridor",
+   "actors": [
+    {
+     "id": "ana",
+     "char": "ana",
+     "x": 520,
+     "y": 2600,
+     "s": 2.3,
+     "expr": "neutral",
+     "pose": {
+      "propR": "clipboard",
+      "armR": [
+       10,
+       -118
+      ]
+     }
+    }
+   ]
+  },
+  "casa": {
+   "bg": "kitchen",
+   "actors": [
+    {
+     "id": "h",
+     "char": "hombre",
+     "x": 540,
+     "y": 2380,
+     "s": 1.8,
+     "expr": "worried",
+     "pose": {
+      "armL": [
+       4,
+       -20
+      ],
+      "handL": "fist"
+     }
+    }
+   ]
+  },
+  "boton": {
+   "bg": "bedroom",
+   "actors": [
+    {
+     "id": "h",
+     "char": "hombre",
+     "x": 540,
+     "y": 2700,
+     "s": 2.6,
+     "expr": "neutral",
+     "pose": {
+      "reachR": [
+       -10,
+       -640
+      ],
+      "reachL": [
+       30,
+       -600
+      ],
+      "handR": "grip",
+      "handL": "grip"
+     }
+    }
+   ]
+  },
+  "agarra": {
+   "bg": "kitchen",
+   "actors": [
+    {
+     "id": "h",
+     "char": "hombre",
+     "x": 500,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "surprised",
+     "pose": {
+      "armL": [
+       40,
+       60
+      ],
+      "handL": "grip"
+     }
+    }
+   ],
+   "props": [
+    {
+     "id": "taza",
+     "type": "icons",
+     "x": 860,
+     "y": 1080,
+     "s": 0.55,
+     "items": [
+      [
+       "cup",
+       "",
+       ""
+      ]
+     ],
+     "ik": 0.9,
+     "ring": "#ffcf3a"
+    }
+   ]
+  },
+  "cafe": {
+   "bg": "kitchen",
+   "actors": [
+    {
+     "id": "e",
+     "char": "esposa",
+     "x": 600,
+     "y": 2400,
+     "s": 1.95,
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "sp",
+     "type": "icons",
+     "x": 560,
+     "y": 1180,
+     "s": 1.0,
+     "hidden": true,
+     "items": [
+      [
+       "coffee",
+       "",
+       ""
+      ]
+     ],
+     "ring": "#ff4d5e",
+     "z": 5
+    }
+   ]
+  },
+  "hist": {
+   "bg": "desk",
+   "props": [
+    {
+     "id": "r",
+     "type": "report",
+     "x": 540,
+     "y": 800,
+     "s": 1.6,
+     "rot": -3,
+     "value": 0,
+     "title": "HISTORIAL",
+     "rows": [
+      [
+       "Epilepsia",
+       "grave"
+      ],
+      [
+       "Convulsiones",
+       "diarias"
+      ],
+      [
+       "Cirugía",
+       "cerebro"
+      ]
+     ],
+     "result": [
+      "",
+      "CALLOSOTOMÍA",
+      "#ff4d5e"
+     ]
+    }
+   ]
+  },
+  "mitades": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "b",
+     "type": "brainhalves",
+     "x": 540,
+     "y": 780,
+     "s": 1.25,
+     "cut": 0,
+     "signal": -1
+    },
+    {
+     "id": "k",
+     "type": "kicker",
+     "x": 540,
+     "y": 1300,
+     "text": "CUERPO CALLOSO",
+     "size": 84,
+     "color": "#ffcf3a",
+     "hidden": true
+    }
+   ],
+   "bgOpts": {
+    "c1": "#2a3a6e",
+    "c2": "#0c1430"
+   }
+  },
+  "cruce": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "c",
+     "type": "crossbody",
+     "x": 540,
+     "y": 860,
+     "s": 1.05,
+     "value": 0,
+     "cut": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#2a3a6e",
+    "c2": "#0c1430"
+   }
+  },
+  "senal": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "b",
+     "type": "brainhalves",
+     "x": 540,
+     "y": 780,
+     "s": 1.25,
+     "cut": 1,
+     "signal": 1
+    }
+   ],
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   }
+  },
+  "titulo": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "t",
+     "type": "title2",
+     "x": 540,
+     "y": 760,
+     "s": 1.0,
+     "value": 0,
+     "l1": "SÍNDROME DE LA",
+     "l2": "MANO AJENA"
+    }
+   ],
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   }
+  },
+  "pelota": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "h",
+     "char": "hombre",
+     "x": 540,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "happy",
+     "pose": {
+      "armL": [
+       10,
+       -30
+      ],
+      "handL": "grip"
+     }
+    }
+   ],
+   "props": [
+    {
+     "id": "ball",
+     "type": "icons",
+     "x": 610,
+     "y": 1470,
+     "s": 0.32,
+     "items": [
+      [
+       "ball",
+       "",
+       ""
+      ]
+     ],
+     "ring": "#ffcf3a",
+     "z": 3
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "Un hombre llegó con la mano izquierda atada a la cintura con su propio cinturón.",
+   "shots": [
+    {
+     "scene": "casa",
+     "cam": {
+      "x": 540,
+      "y": 960,
+      "z": 1.0,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "casa",
+     "from": "atada",
+     "cam": {
+      "x": 620,
+      "y": 1430,
+      "z": 2.0,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Nos contó que mientras se abotonaba la camisa con la derecha, la izquierda se la desabotonaba.",
+   "shots": [
+    {
+     "scene": "boton",
+     "cam": {
+      "on": "h",
+      "shot": "medium",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "abotonaba",
+       "target": "h",
+       "arms": {
+        "reachR": [
+         -10,
+         -560
+        ]
+       },
+       "dur": 0.4
+      },
+      {
+       "on": "camisa",
+       "target": "h",
+       "arms": {
+        "reachR": [
+         -10,
+         -640
+        ]
+       },
+       "dur": 0.4
+      },
+      {
+       "on": "izquierda",
+       "target": "h",
+       "arms": {
+        "reachL": [
+         60,
+         -520
+        ]
+       },
+       "dur": 0.3,
+       "expr": "surprised",
+       "sfx": "pop"
+      },
+      {
+       "on": "desabotonaba",
+       "target": "h",
+       "arms": {
+        "reachL": [
+         90,
+         -600
+        ]
+       },
+       "dur": 0.3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Que agarraba cosas sin que él quisiera.",
+   "shots": [
+    {
+     "scene": "agarra",
+     "cam": {
+      "x": 640,
+      "y": 900,
+      "z": 1.05,
+      "move": "panR"
+     },
+     "do": [
+      {
+       "on": "agarraba",
+       "target": "h",
+       "arms": {
+        "reachL": [
+         230,
+         -500
+        ],
+        "handL": "grip"
+       },
+       "dur": 0.4,
+       "sfx": "pop"
+      },
+      {
+       "on": "quisiera",
+       "target": "h",
+       "expr": "shock"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Una noche le tiró el café encima a su esposa.",
+   "shots": [
+    {
+     "scene": "cafe",
+     "cam": {
+      "on": "e",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "café",
+       "target": "sp",
+       "pop": true,
+       "sfx": "thud",
+       "camshake": 12
+      },
+      {
+       "on": "café",
+       "target": "e",
+       "expr": "shock",
+       "jolt": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Leo dijo que era un problema psiquiátrico.",
+   "shots": [
+    {
+     "scene": "aula",
+     "cam": {
+      "on": "leo",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "leo",
+       "expr": "serious",
+       "talk": 1.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ana pensó que quería una excusa para no lavar los platos.",
+   "shots": [
+    {
+     "scene": "anaC",
+     "cam": {
+      "on": "ana",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "expr": "smug",
+       "talk": 2.2,
+       "arms": {
+        "armL": [
+         10,
+         52
+        ],
+        "handL": "open"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Revisé su historial.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "serious"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Años atrás, por una epilepsia muy grave, le habían hecho una cirugía en el cerebro.",
+   "shots": [
+    {
+     "scene": "hist",
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "epilepsia",
+       "target": "r",
+       "value": 0.6,
+       "dur": 0.8,
+       "sfx": "tick"
+      },
+      {
+       "on": "cirugía",
+       "target": "r",
+       "value": 1,
+       "dur": 0.6,
+       "sfx": "ding"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Nuestro cerebro tiene dos mitades. Y están conectadas por un puente de millones de fibras llamado cuerpo calloso.",
+   "shots": [
+    {
+     "scene": "mitades",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "mitades",
+     "from": "puente",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "calloso",
+       "target": "k",
+       "pop": true,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Para frenar las convulsiones, los cirujanos cortaron ese puente.",
+   "shots": [
+    {
+     "scene": "mitades",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.2,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "cortaron",
+       "target": "b",
+       "cut": 1,
+       "dur": 0.6,
+       "sfx": "thud",
+       "camshake": 10
+      },
+      {
+       "at": 0,
+       "target": "k",
+       "hide": true,
+       "dur": 0.01
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "El problema es que cada mitad controla el lado opuesto del cuerpo.",
+   "shots": [
+    {
+     "scene": "cruce",
+     "cam": {
+      "x": 540,
+      "y": 860,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "mitad",
+       "target": "c",
+       "value": 1,
+       "dur": 0.8,
+       "sfx": "pop"
+      },
+      {
+       "on": "opuesto",
+       "target": "c",
+       "value": 2,
+       "dur": 0.8,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "La mitad derecha mueve la mano izquierda... pero ya no puede avisarle a la otra mitad lo que está haciendo.",
+   "shots": [
+    {
+     "scene": "cruce",
+     "cam": {
+      "x": 300,
+      "y": 1000,
+      "z": 1.3,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "c",
+       "value": 2,
+       "cut": 1,
+       "dur": 0.01
+      }
+     ]
+    },
+    {
+     "scene": "senal",
+     "from": "pero",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Así que la mano izquierda hacía cosas, y él se enteraba recién cuando las veía.",
+   "shots": [
+    {
+     "scene": "agarra",
+     "cam": {
+      "x": 700,
+      "y": 1200,
+      "z": 1.6,
+      "move": "drift"
+     },
+     "do": [
+      {
+       "on": "hacía",
+       "target": "h",
+       "arms": {
+        "reachL": [
+         200,
+         -560
+        ]
+       },
+       "dur": 0.5
+      }
+     ]
+    },
+    {
+     "scene": "agarra",
+     "from": "enteraba",
+     "cam": {
+      "on": "h",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "veía",
+       "target": "h",
+       "look": [
+        0.8,
+        0.3
+       ],
+       "expr": "shock"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Se llama síndrome de la mano ajena.",
+   "shots": [
+    {
+     "scene": "titulo",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Se",
+       "target": "t",
+       "value": 1,
+       "dur": 0.45,
+       "camshake": 16,
+       "sfx": "thud",
+       "lead": -0.25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Le recomendamos algo simple: tener siempre un objeto en esa mano, para mantenerla ocupada.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "serious",
+       "talk": 1.5
+      }
+     ]
+    },
+    {
+     "scene": "pelota",
+     "from": "objeto",
+     "cam": {
+      "on": "h",
+      "shot": "medium",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "ocupada",
+       "target": "h",
+       "look": [
+        0.6,
+        0.6
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Con el tiempo, muchas veces mejora.",
+   "shots": [
+    {
+     "scene": "pelota",
+     "cam": {
+      "on": "h",
+      "shot": "close",
+      "move": "drift"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Leo me preguntó qué se siente.",
+   "shots": [
+    {
+     "scene": "aula",
+     "cam": {
+      "on": "leo",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "leo",
+       "expr": "confused",
+       "talk": 1.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Le dije: imaginate tener un compañero de cuarto... que vive dentro de tu brazo.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "smirk",
+       "talk": 3.4,
+       "arms": {
+        "armR": [
+         14,
+         92
+        ],
+        "handR": "open"
+       }
+      }
+     ]
+    },
+    {
+     "scene": "agarra",
+     "from": "vive",
+     "cam": {
+      "on": "h",
+      "shot": "medium",
+      "move": "pull"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "h",
+       "expr": "confused",
+       "arms": {
+        "armL": [
+         110,
+         40
+        ],
+        "handL": "open"
+       },
+       "dur": 0.4
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

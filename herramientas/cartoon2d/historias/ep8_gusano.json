@@ -1,0 +1,911 @@
+{
+ "out": "Doctor_ep8",
+ "title": "El gusano que viajaba por su cerebro",
+ "audio": "../audios/doctor_8.m4a",
+ "sfx_gain": 0.38,
+ "maxShot": 2.4,
+ "tail": 1.2,
+ "scenes": {
+  "houseC": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 690,
+     "y": 2560,
+     "s": 2.25,
+     "expr": "smug",
+     "pose": {
+      "propL": "cane",
+      "armL": [
+       8,
+       -6
+      ],
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "entrada": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 1450,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "smug",
+     "pose": {
+      "armL": [
+       8,
+       -6
+      ],
+      "propL": "cane",
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "aula": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "leo",
+     "char": "leo",
+     "x": 560,
+     "y": 2520,
+     "s": 2.15,
+     "expr": "neutral",
+     "pose": {
+      "propR": "notebook",
+      "armR": [
+       8,
+       -116
+      ]
+     }
+    }
+   ]
+  },
+  "anaC": {
+   "bg": "corridor",
+   "actors": [
+    {
+     "id": "ana",
+     "char": "ana",
+     "x": 520,
+     "y": 2600,
+     "s": 2.3,
+     "expr": "neutral",
+     "pose": {
+      "propR": "clipboard",
+      "armR": [
+       10,
+       -118
+      ]
+     }
+    }
+   ]
+  },
+  "urg": {
+   "bg": "er",
+   "actors": [
+    {
+     "id": "h",
+     "char": "hombre8",
+     "x": 540,
+     "y": 2400,
+     "s": 2.0,
+     "expr": {
+      "mood": "sad",
+      "browL": -16,
+      "browR": -16,
+      "lid": 0.4
+     },
+     "pose": {
+      "reachR": [
+       -62,
+       -830
+      ],
+      "reachL": [
+       62,
+       -830
+      ],
+      "handR": "open",
+      "handL": "open"
+     }
+    }
+   ]
+  },
+  "recuerdo": {
+   "bg": "street",
+   "wobble": 0.04,
+   "tint": "#9a5cff",
+   "tintA": 0.3,
+   "sepia": false
+  },
+  "scan": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "sc",
+     "type": "brainscan",
+     "x": 540,
+     "y": 800,
+     "s": 1.25,
+     "value": 1
+    }
+   ],
+   "bgOpts": {
+    "c1": "#20242c",
+    "c2": "#08090c"
+   }
+  },
+  "scans": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "s",
+     "type": "scans",
+     "x": 540,
+     "y": 800,
+     "s": 1.0,
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#20242c",
+    "c2": "#08090c"
+   }
+  },
+  "quiro": {
+   "bg": "surgery"
+  },
+  "gusano": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "w",
+     "type": "worm",
+     "x": 540,
+     "y": 800,
+     "s": 1.3
+    },
+    {
+     "id": "k",
+     "type": "kicker",
+     "x": 540,
+     "y": 1300,
+     "text": "1 CM",
+     "size": 110,
+     "color": "#ffcf3a",
+     "hidden": true
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a3a2e",
+    "c2": "#08140f"
+   }
+  },
+  "animales": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 820,
+     "s": 1.15,
+     "cols": 2,
+     "gap": 460,
+     "items": [
+      [
+       "frog",
+       "RANAS",
+       ""
+      ],
+      [
+       "snake",
+       "SERPIENTES",
+       ""
+      ]
+     ],
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a5e3a",
+    "c2": "#08180f"
+   }
+  },
+  "contagio": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 820,
+     "s": 1.15,
+     "cols": 2,
+     "gap": 460,
+     "items": [
+      [
+       "meat",
+       "MAL COCIDA",
+       ""
+      ],
+      [
+       "bandage",
+       "REMEDIO CASERO",
+       ""
+      ]
+     ],
+     "value": 0,
+     "ls": 40
+    }
+   ],
+   "bgOpts": {
+    "c1": "#5e1a2a",
+    "c2": "#1d0810"
+   }
+  },
+  "viaje": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "b",
+     "type": "bodypath",
+     "x": 540,
+     "y": 900,
+     "s": 1.0,
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   }
+  },
+  "rastro": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "b",
+     "type": "braintrail",
+     "x": 540,
+     "y": 820,
+     "s": 1.35,
+     "value": 0
+    },
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 1380,
+     "s": 0.7,
+     "items": [
+      [
+       "calendar",
+       "",
+       ""
+      ]
+     ],
+     "ring": "#ff4d5e",
+     "hidden": true
+    }
+   ],
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   }
+  },
+  "titulo": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "t",
+     "type": "title2",
+     "x": 540,
+     "y": 760,
+     "s": 1.0,
+     "value": 0,
+     "l1": "SE LLAMA",
+     "l2": "ESPARGANOSIS"
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a3a2e",
+    "c2": "#08140f"
+   }
+  },
+  "europa": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "g",
+     "type": "globe",
+     "x": 540,
+     "y": 800,
+     "s": 1.25,
+     "value": 0.17
+    },
+    {
+     "id": "k",
+     "type": "kicker",
+     "x": 540,
+     "y": 1300,
+     "text": "CASI NUNCA EN EUROPA",
+     "size": 80,
+     "color": "#ffcf3a",
+     "hidden": true
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a2a5e",
+    "c2": "#080c22"
+   }
+  },
+  "bien": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "h",
+     "char": "hombre8",
+     "x": 540,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "happy"
+    }
+   ]
+  },
+  "vaca": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "v",
+     "type": "wormvac",
+     "x": 540,
+     "y": 800,
+     "s": 1.3
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a4a6e",
+    "c2": "#0a1a2a"
+   }
+  }
+ },
+ "beats": [
+  {
+   "text": "Un hombre de 50 años llevaba cuatro años con dolores de cabeza, convulsiones y recuerdos extraños que aparecían de la nada.",
+   "shots": [
+    {
+     "scene": "urg",
+     "cam": {
+      "on": "h",
+      "shot": "medium",
+      "move": "push"
+     }
+    },
+    {
+     "scene": "urg",
+     "from": "convulsiones",
+     "cam": {
+      "on": "h",
+      "shot": "close",
+      "move": "drift"
+     },
+     "do": [
+      {
+       "on": "convulsiones",
+       "target": "h",
+       "sway": 2.5,
+       "dur": 0.2,
+       "camshake": 8
+      },
+      {
+       "on": "recuerdos",
+       "target": "h",
+       "sway": 0,
+       "dur": 0.3
+      }
+     ]
+    },
+    {
+     "scene": "recuerdo",
+     "from": "recuerdos",
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.3,
+      "to": {
+       "z": 1.0
+      },
+      "move": "hold"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Ningún médico encontraba la causa.",
+   "shots": [
+    {
+     "scene": "urg",
+     "cam": {
+      "on": "h",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "h",
+       "expr": "sad"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Le habían hecho varias resonancias. En cada una aparecía una mancha en el cerebro.",
+   "shots": [
+    {
+     "scene": "scan",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Leo dijo que era un tumor.",
+   "shots": [
+    {
+     "scene": "aula",
+     "cam": {
+      "on": "leo",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "leo",
+       "expr": "serious",
+       "talk": 1.2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ana dijo que era una inflamación.",
+   "shots": [
+    {
+     "scene": "anaC",
+     "cam": {
+      "on": "ana",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "expr": "think",
+       "talk": 1.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Pero puse las resonancias una al lado de la otra.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "serious",
+       "talk": 1.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "La mancha no estaba en el mismo lugar. Cada año aparecía en otro sitio. Se había movido cinco centímetros.",
+   "shots": [
+    {
+     "scene": "scans",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "s",
+       "value": 1,
+       "dur": 2.4,
+       "sfx": "pop"
+      },
+      {
+       "on": "movido",
+       "target": "s",
+       "value": 1.5,
+       "dur": 0.8,
+       "sfx": "ding"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Los tumores no caminan.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "smirk",
+       "talk": 1.3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Lo operamos.",
+   "shots": [
+    {
+     "scene": "quiro",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Y adentro encontramos a un gusano de un centímetro. Vivo.",
+   "shots": [
+    {
+     "scene": "gusano",
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "centímetro",
+       "target": "k",
+       "pop": true,
+       "sfx": "pop"
+      }
+     ]
+    },
+    {
+     "scene": "gusano",
+     "from": "Vivo",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.6,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Era la larva de un parásito que normalmente vive en animales como ranas y serpientes.",
+   "shots": [
+    {
+     "scene": "animales",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "ranas",
+       "target": "i",
+       "value": 1,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "serpientes",
+       "target": "i",
+       "value": 2,
+       "dur": 0.3,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Puede llegar a las personas cuando comen esa carne mal cocida... o la ponen sobre heridas como remedio casero.",
+   "shots": [
+    {
+     "scene": "contagio",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "carne",
+       "target": "i",
+       "value": 1,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "heridas",
+       "target": "i",
+       "value": 2,
+       "dur": 0.3,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Una vez adentro, la larva viaja por el cuerpo buscando dónde vivir. Esta eligió el cerebro.",
+   "shots": [
+    {
+     "scene": "viaje",
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "viaja",
+       "target": "b",
+       "value": 1,
+       "dur": 3.0,
+       "linear": true
+      },
+      {
+       "on": "cerebro",
+       "target": "b",
+       "value": 1,
+       "dur": 0.01,
+       "sfx": "ding"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Durante cuatro años se fue arrastrando de a poco, dejando un camino de inflamación.",
+   "shots": [
+    {
+     "scene": "rastro",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "años",
+       "target": "i",
+       "pop": true,
+       "sfx": "pop"
+      },
+      {
+       "on": "arrastrando",
+       "target": "b",
+       "value": 1,
+       "dur": 2.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Por eso los síntomas cambiaban.",
+   "shots": [
+    {
+     "scene": "urg",
+     "cam": {
+      "on": "h",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "h",
+       "expr": "confused"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Se llama esparganosis.",
+   "shots": [
+    {
+     "scene": "titulo",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Se",
+       "target": "t",
+       "value": 1,
+       "dur": 0.45,
+       "camshake": 16,
+       "sfx": "thud",
+       "lead": -0.25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y es tan rara que en Europa casi no se había visto nunca.",
+   "shots": [
+    {
+     "scene": "europa",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Europa",
+       "target": "k",
+       "pop": true,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Sin el gusano, el hombre se recuperó.",
+   "shots": [
+    {
+     "scene": "bien",
+     "cam": {
+      "on": "h",
+      "shot": "close",
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Leo me preguntó cómo supe que no era un tumor.",
+   "shots": [
+    {
+     "scene": "aula",
+     "cam": {
+      "on": "leo",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "leo",
+       "expr": "confused",
+       "talk": 1.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Le dije: porque un tumor no se toma vacaciones en el otro lado del cerebro.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "smirk",
+       "talk": 3.4,
+       "arms": {
+        "armR": [
+         14,
+         92
+        ],
+        "handR": "open"
+       }
+      }
+     ]
+    },
+    {
+     "scene": "vaca",
+     "from": "vacaciones",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     }
+    }
+   ]
+  }
+ ]
+}

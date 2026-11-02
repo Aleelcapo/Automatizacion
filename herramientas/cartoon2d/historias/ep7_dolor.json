@@ -1,0 +1,940 @@
+{
+ "out": "Doctor_ep7",
+ "title": "El niño que no sentía dolor",
+ "audio": "../audios/doctor_7.m4a",
+ "sfx_gain": 0.38,
+ "maxShot": 2.4,
+ "tail": 1.2,
+ "scenes": {
+  "houseC": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 690,
+     "y": 2560,
+     "s": 2.25,
+     "expr": "smug",
+     "pose": {
+      "propL": "cane",
+      "armL": [
+       8,
+       -6
+      ],
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "entrada": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 1450,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "smug",
+     "pose": {
+      "armL": [
+       8,
+       -6
+      ],
+      "propL": "cane",
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "aula": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "leo",
+     "char": "leo",
+     "x": 560,
+     "y": 2520,
+     "s": 2.15,
+     "expr": "neutral",
+     "pose": {
+      "propR": "notebook",
+      "armR": [
+       8,
+       -116
+      ]
+     }
+    }
+   ]
+  },
+  "anaC": {
+   "bg": "corridor",
+   "actors": [
+    {
+     "id": "ana",
+     "char": "ana",
+     "x": 520,
+     "y": 2600,
+     "s": 2.3,
+     "expr": "neutral",
+     "pose": {
+      "propR": "clipboard",
+      "armR": [
+       10,
+       -118
+      ]
+     }
+    }
+   ]
+  },
+  "calle": {
+   "bg": "street",
+   "actors": [
+    {
+     "id": "n",
+     "char": "nino2",
+     "x": 540,
+     "y": 2350,
+     "s": 1.9,
+     "expr": "happy"
+    }
+   ],
+   "props": [
+    {
+     "id": "fuego",
+     "type": "icons",
+     "x": 540,
+     "y": 1820,
+     "s": 0.9,
+     "items": [
+      [
+       "fire",
+       "",
+       ""
+      ]
+     ],
+     "ring": "#ff8a2a",
+     "z": 3
+    },
+    {
+     "id": "cu",
+     "type": "icons",
+     "x": 850,
+     "y": 1100,
+     "s": 0.55,
+     "items": [
+      [
+       "knife",
+       "",
+       ""
+      ]
+     ],
+     "ring": "#ffcf3a",
+     "hidden": true,
+     "z": 3
+    }
+   ]
+  },
+  "ninoC": {
+   "bg": "street",
+   "actors": [
+    {
+     "id": "n",
+     "char": "nino2",
+     "x": 540,
+     "y": 2650,
+     "s": 2.7,
+     "expr": "happy"
+    }
+   ]
+  },
+  "familia": {
+   "bg": "street",
+   "actors": [
+    {
+     "id": "n",
+     "char": "nino2",
+     "x": 330,
+     "y": 2380,
+     "s": 1.9,
+     "expr": {
+      "scars": 1
+     }
+    },
+    {
+     "id": "p",
+     "char": "nino",
+     "x": 760,
+     "y": 2380,
+     "s": 1.9,
+     "expr": {
+      "scars": 1
+     }
+    }
+   ]
+  },
+  "cicat": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 820,
+     "s": 1.15,
+     "cols": 2,
+     "gap": 460,
+     "gapy": 520,
+     "items": [
+      [
+       "bone",
+       "HUESOS ROTOS",
+       ""
+      ],
+      [
+       "tear",
+       "CICATRICES",
+       ""
+      ]
+     ],
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#3b1a2a",
+    "c2": "#120810"
+   }
+  },
+  "olfato": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 800,
+     "s": 2.0,
+     "items": [
+      [
+       "flower",
+       "SIN OLFATO",
+       "x"
+      ]
+     ],
+     "marks": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#2a3a6e",
+    "c2": "#0c1430"
+   }
+  },
+  "nervio": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "n",
+     "type": "nerve",
+     "x": 540,
+     "y": 860,
+     "s": 1.0,
+     "open": 1
+    }
+   ],
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   }
+  },
+  "canal": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "c",
+     "type": "channel",
+     "x": 540,
+     "y": 820,
+     "s": 1.0,
+     "open": 1
+    }
+   ],
+   "bgOpts": {
+    "c1": "#3b1a2a",
+    "c2": "#120810"
+   }
+  },
+  "adn": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "d",
+     "type": "dna",
+     "x": 540,
+     "y": 760,
+     "s": 1.0,
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a3a6e",
+    "c2": "#0a1428"
+   }
+  },
+  "nariz": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 800,
+     "s": 2.0,
+     "items": [
+      [
+       "nose",
+       "OLFATO",
+       "x"
+      ]
+     ],
+     "marks": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#2a3a6e",
+    "c2": "#0c1430"
+   }
+  },
+  "titulo": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "t",
+     "type": "title2",
+     "x": 540,
+     "y": 760,
+     "s": 1.0,
+     "value": 0,
+     "l1": "INSENSIBILIDAD",
+     "l2": "CONGÉNITA",
+     "l3": "AL DOLOR"
+    }
+   ],
+   "bgOpts": {
+    "c1": "#5e1a2a",
+    "c2": "#1d0810"
+   }
+  },
+  "alarma": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "k",
+     "type": "kicker",
+     "x": 540,
+     "y": 360,
+     "text": "¿SUPERPODER?",
+     "size": 110,
+     "color": "#ffcf3a",
+     "hidden": true
+    },
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 900,
+     "s": 2.0,
+     "items": [
+      [
+       "siren",
+       "",
+       ""
+      ]
+     ],
+     "ring": "#ff4d5e",
+     "hidden": true
+    }
+   ],
+   "bgOpts": {
+    "c1": "#5e1a2a",
+    "c2": "#1d0810"
+   }
+  },
+  "triste": {
+   "bg": "street",
+   "sepia": true,
+   "warm": 0.3,
+   "cool": 1.2
+  },
+  "ciencia": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 820,
+     "s": 1.15,
+     "cols": 2,
+     "gap": 460,
+     "items": [
+      [
+       "dna",
+       "GEN",
+       ""
+      ],
+      [
+       "pill",
+       "ANALGÉSICOS",
+       ""
+      ]
+     ],
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a5e3a",
+    "c2": "#08180f"
+   }
+  }
+ },
+ "beats": [
+  {
+   "text": "Me contaron el caso de un niño que trabajaba en la calle haciendo shows.",
+   "shots": [
+    {
+     "scene": "calle",
+     "cam": {
+      "x": 540,
+      "y": 1000,
+      "z": 1.0,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Caminaba sobre carbones encendidos.",
+   "shots": [
+    {
+     "scene": "calle",
+     "cam": {
+      "x": 540,
+      "y": 1600,
+      "z": 1.7,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Se atravesaba el brazo con cuchillos.",
+   "shots": [
+    {
+     "scene": "calle",
+     "cam": {
+      "x": 700,
+      "y": 1150,
+      "z": 1.5,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "n",
+       "arms": {
+        "armL": [
+         50,
+         40
+        ],
+        "handL": "open"
+       }
+      },
+      {
+       "on": "cuchillos",
+       "target": "cu",
+       "pop": true,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y sonreía. No era un truco: de verdad no sentía nada.",
+   "shots": [
+    {
+     "scene": "ninoC",
+     "cam": {
+      "on": "n",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "n",
+       "expr": "happy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ana dijo que era imposible.",
+   "shots": [
+    {
+     "scene": "anaC",
+     "cam": {
+      "on": "ana",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "expr": "shock",
+       "talk": 1.2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Leo pensó que tenía algún tipo de anestesia natural.",
+   "shots": [
+    {
+     "scene": "aula",
+     "cam": {
+      "on": "leo",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "leo",
+       "expr": "think",
+       "talk": 2.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Revisamos a su familia. Varios primos tenían lo mismo:",
+   "shots": [
+    {
+     "scene": "familia",
+     "cam": {
+      "on": [
+       "n",
+       "p"
+      ],
+      "shot": "medium",
+      "move": "drift"
+     }
+    }
+   ]
+  },
+  {
+   "text": "cicatrices por todas partes, huesos rotos que se habían curado solos, lenguas lastimadas de tanto morderlas sin darse cuenta.",
+   "shots": [
+    {
+     "scene": "cicat",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "cicatrices",
+       "target": "i",
+       "value": 2,
+       "dur": 0.01
+      },
+      {
+       "at": 0,
+       "target": "i",
+       "value": 0,
+       "dur": 0.01
+      },
+      {
+       "on": "cicatrices",
+       "target": "i",
+       "value": 1,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "huesos",
+       "target": "i",
+       "value": 2,
+       "dur": 0.3,
+       "sfx": "pop"
+      }
+     ]
+    },
+    {
+     "scene": "familia",
+     "from": "lenguas",
+     "cam": {
+      "on": "p",
+      "shot": "face",
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Y había una pista más: ninguno podía sentir olores.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "serious"
+      }
+     ]
+    },
+    {
+     "scene": "olfato",
+     "from": "ninguno",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "olores",
+       "target": "i",
+       "marks": 9,
+       "dur": 0.01,
+       "sfx": "boing",
+       "vol": 0.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Cuando te quemás, tus nervios mandan una señal al cerebro.",
+   "shots": [
+    {
+     "scene": "nervio",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 860,
+      "z": 1.0,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Para salir, esa señal tiene que pasar por una puerta: un canal diminuto en la punta de los nervios.",
+   "shots": [
+    {
+     "scene": "nervio",
+     "cam": {
+      "x": 300,
+      "y": 1260,
+      "z": 1.8,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "canal",
+     "from": "canal",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Ellos tenían una mutación en el gen que fabrica esa puerta.",
+   "shots": [
+    {
+     "scene": "adn",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "mutación",
+       "target": "d",
+       "value": 1,
+       "dur": 0.4,
+       "sfx": "ding"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "La puerta nunca se abría. La señal de dolor nunca salía.",
+   "shots": [
+    {
+     "scene": "canal",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.1,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "c",
+       "open": 0,
+       "dur": 0.3,
+       "sfx": "thud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y como el olfato usa la misma puerta... tampoco podían oler.",
+   "shots": [
+    {
+     "scene": "nariz",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "oler",
+       "target": "i",
+       "marks": 9,
+       "dur": 0.01,
+       "sfx": "boing",
+       "vol": 0.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Se llama insensibilidad congénita al dolor.",
+   "shots": [
+    {
+     "scene": "titulo",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Se",
+       "target": "t",
+       "value": 1,
+       "dur": 0.45,
+       "camshake": 16,
+       "sfx": "thud",
+       "lead": -0.25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Suena a superpoder, pero es una de las condiciones más peligrosas que existen.",
+   "shots": [
+    {
+     "scene": "alarma",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "superpoder",
+       "target": "k",
+       "pop": true,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "El dolor es la alarma que te salva la vida.",
+   "shots": [
+    {
+     "scene": "alarma",
+     "cam": {
+      "x": 540,
+      "y": 860,
+      "z": 1.1,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "k",
+       "hide": true,
+       "dur": 0.01
+      },
+      {
+       "on": "alarma",
+       "target": "i",
+       "pop": true,
+       "sfx": "ding"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Lamentablemente, aquel niño murió muy joven, después de saltar de un techo para impresionar a sus amigos.",
+   "shots": [
+    {
+     "scene": "triste",
+     "cam": {
+      "x": 540,
+      "y": 700,
+      "z": 1.0,
+      "to": {
+       "y": 1000
+      },
+      "move": "hold"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Hoy los científicos estudian ese gen para crear analgésicos nuevos.",
+   "shots": [
+    {
+     "scene": "ciencia",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "gen",
+       "target": "i",
+       "value": 1,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "analgésicos",
+       "target": "i",
+       "value": 2,
+       "dur": 0.3,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ana me preguntó si yo quisiera no sentir dolor.",
+   "shots": [
+    {
+     "scene": "anaC",
+     "cam": {
+      "on": "ana",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "expr": "worried",
+       "talk": 1.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Le dije: con la pierna que tengo, todos los días.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "smug",
+       "talk": 2.0
+      }
+     ]
+    },
+    {
+     "scene": "houseC",
+     "from": "todos",
+     "cam": {
+      "x": 760,
+      "y": 2000,
+      "z": 1.4,
+      "move": "push"
+     }
+    }
+   ]
+  }
+ ]
+}
