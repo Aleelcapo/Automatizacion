@@ -162,7 +162,7 @@ def recorded_voice(story_path, story, lead):
     return [(lead, a)], [w for b in story['beats'] for w in b['_words']], lead + len(a) / SR
 
 
-def main(story_path, stills=False, workers=3):
+def main(story_path, stills=False, workers=3, audio_only=False):
     story = json.load(open(story_path))
     name = story['out']
     work = os.path.join(HERE, 'out', name)
@@ -253,9 +253,8 @@ def main(story_path, stills=False, workers=3):
                     c['move'] = 'push' if k % 2 else 'drift'
                 out.append(dict(sh, t0=round(sh['t0'] + d * k / n, 3), t1=round(sh['t0'] + d * (k + 1) / n, 3), cam=c))
         shots = out
-    for k in range(1, len(shots)):
-        if shots[k]['scene'] != shots[k - 1]['scene']:
-            sounds.append((shots[k]['t0'] - .17, 'whoosh', .55))
+    # sin 'whoosh': sonaba repetitivo (pedido del usuario)
+    sounds = [x for x in sounds if x[1] != 'whoosh']
     for s in story.get('sfx', []):
         sounds.append((word_time(all_words, 0, s['on']) + s.get('offset', 0), s['sfx'], s.get('vol', 1)))
 
@@ -335,7 +334,8 @@ def main(story_path, stills=False, workers=3):
 
     # 5) video
     vid = os.path.join(work, 'video.mp4')
-    subprocess.run(['node', os.path.join(HERE, 'render.js'), tlp, vid, '--workers', str(workers)], check=True)
+    if not audio_only:
+      subprocess.run(['node', os.path.join(HERE, 'render.js'), tlp, vid, '--workers', str(workers)], check=True)
     final = os.path.join(ent, name + '.mp4')
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', vid, '-i', audio, '-map', '0:v', '-map', '1:a', '-c:v', 'copy',
                     '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', final], check=True)
@@ -345,4 +345,4 @@ def main(story_path, stills=False, workers=3):
 if __name__ == '__main__':
     a = sys.argv[1:]
     w = int(a[a.index('--workers') + 1]) if '--workers' in a else 3
-    main(a[0], stills='--stills' in a, workers=w)
+    main(a[0], stills='--stills' in a, workers=w, audio_only='--audio-only' in a)
