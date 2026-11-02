@@ -97,3 +97,27 @@ export function desk() {
   return `<g filter="url(#b1)"><rect width="1080" height="1920" fill="#6b4a33"/>${Array.from({ length: 14 }, (_, i) => `<path d="M0 ${i * 140 + 40} Q540 ${i * 140 + (i % 2 ? 80 : 0)} 1080 ${i * 140 + 40}" stroke="#5a3d29" stroke-width="6" fill="none"/>`).join('')}
   <rect x="700" y="200" width="300" height="200" rx="10" fill="#2e3138" transform="rotate(12 850 300)"/><circle cx="180" cy="1600" r="110" fill="#e2e6dc" ${st()}/><rect x="80" y="300" width="60" height="320" rx="10" fill="#c94f3d" transform="rotate(-30 110 460)" ${st(2)}/></g>`;
 }
+
+export function bedroom(o = {}) {
+  const night = !!o.night;
+  return `<g filter="url(#b2)"><rect width="1080" height="1920" fill="${night ? '#2c3354' : '#e9d9c4'}"/>
+  <rect x="80" y="240" width="380" height="520" fill="${night ? '#0f1630' : '#bfe0f6'}" ${st()}/>${night ? '<circle cx="330" cy="380" r="60" fill="#f6efc8"/><circle cx="350" cy="370" r="56" fill="#0f1630"/>' + [[150, 300], [220, 560], [400, 640], [180, 450]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="5" fill="#fff"/>`).join('') : '<circle cx="360" cy="360" r="70" fill="#ffe7a0"/>'}
+  <path d="M80 500 h380 M270 240 v520" stroke="#26222a" stroke-width="8"/><path d="M60 230 q100 300 0 560 L40 790 L40 220 Z M480 230 q-100 300 0 560 L500 790 L500 220 Z" fill="${night ? '#5a3a6a' : '#c96a6a'}"/>
+  <rect x="640" y="380" width="300" height="220" fill="${night ? '#55607a' : '#d9c39a'}" ${st()}/><path d="M660 560 l80 -100 l60 60 l40 -40 l80 80 Z" fill="${night ? '#3a4560' : '#8fb070'}"/>
+  <rect y="1250" width="1080" height="670" fill="${night ? '#3a3048' : '#b08a64'}"/>
+  <rect x="0" y="1050" width="760" height="300" rx="30" fill="${night ? '#6a7cae' : '#f2f2ee'}" ${st()}/><rect x="0" y="980" width="260" height="110" rx="40" fill="#fff" ${st()}/><rect x="0" y="1300" width="760" height="120" fill="${night ? '#4a3a5a' : '#9a6a44'}" ${st()}/></g>${night ? '<rect width="1080" height="1920" fill="#101a40" opacity=".25"/>' : ''}`;
+}
+export function kidroom(o = {}) {
+  return `<g filter="url(#b2)"><rect width="1080" height="1920" fill="#bfe3d4"/>${Array.from({ length: 12 }, (_, i) => `<rect x="${i * 100}" y="0" width="50" height="1250" fill="#acd8c6"/>`).join('')}
+  <rect x="120" y="260" width="320" height="380" fill="#d8f0ff" ${st()}/><path d="M120 450 h320 M280 260 v380" stroke="#26222a" stroke-width="8"/><circle cx="350" cy="340" r="44" fill="#ffe08a"/>
+  <rect x="600" y="300" width="360" height="460" fill="#ffb84a" ${st()}/>${[0, 1, 2].map(r => `<rect x="620" y="${330 + r * 145}" width="320" height="16" fill="#c8852a"/>` + [0, 1, 2, 3].map(k => `<rect x="${640 + k * 70}" y="${355 + r * 145}" width="50" height="90" fill="${['#ff5a5a', '#4a8af0', '#7ad06a', '#b06af0'][(k + r) % 4]}" ${st(2)}/>`).join('')).join('')}
+  <path d="M700 260 l40 -80 l40 80 Z" fill="#ff5a8a" ${st()}/><circle cx="520" cy="200" r="40" fill="#ffe08a" ${st()}/>
+  <rect y="1250" width="1080" height="670" fill="#e0b880"/>${Array.from({ length: 8 }, (_, i) => `<path d="M0 ${1290 + i * 80} H1080" stroke="#c99a60" stroke-width="5"/>`).join('')}
+  <ellipse cx="540" cy="1560" rx="380" ry="110" fill="#ff8aa8" opacity=".8"/></g>`;
+}
+export function mriroom() {
+  return `<g filter="url(#b1)"><rect width="1080" height="1920" fill="#d9e2e6"/>${ceilingLight(300, 10, 480)}
+  <rect y="1300" width="1080" height="620" fill="#b9c4c8"/><rect x="60" y="500" width="960" height="800" rx="120" fill="#eef2f4" ${st(5)}/><circle cx="540" cy="900" r="250" fill="#2a3240" ${st(5)}/><circle cx="540" cy="900" r="215" fill="#3d4a5e"/><circle cx="540" cy="900" r="320" fill="none" stroke="#9fb6c8" stroke-width="18"/>
+  <rect x="240" y="1060" width="600" height="60" rx="20" fill="#f6f6f2" ${st(4)}/><rect x="320" y="1120" width="440" height="200" fill="#c9d1d6" ${st(4)}/><circle cx="540" cy="900" r="230" fill="url(#glow)" opacity=".35"/>
+  <rect x="820" y="560" width="140" height="80" rx="10" fill="#2b2f36" ${st(3)}/><circle cx="850" cy="600" r="12" fill="#3ef08a"/></g>`;
+}

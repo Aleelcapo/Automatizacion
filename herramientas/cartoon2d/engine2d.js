@@ -235,6 +235,8 @@ window.renderFrame = async (i, quality = .9) => {
   const img = new Image(), url = URL.createObjectURL(new Blob([svg], { type: 'image/svg+xml' }));
   await new Promise((res, rej) => { img.onload = res; img.onerror = rej; img.src = url; });
   CTX.drawImage(img, 0, 0); URL.revokeObjectURL(url);
+  if (P.sc.wobble) { const w = P.sc.wobble, k1 = Math.sin(t * 2.3) * w, k2 = Math.cos(t * 1.7) * w; if (!window._TMP) { window._TMP = document.createElement('canvas'); _TMP.width = 1080; _TMP.height = 1920; } const tc = _TMP.getContext('2d'); tc.clearRect(0, 0, 1080, 1920); tc.drawImage(CV, 0, 0); CTX.save(); CTX.translate(540, 960); CTX.transform(1 + k1, k2 * .3, -k2 * .3, 1 - k1, 0, 0); CTX.translate(-540, -960); CTX.drawImage(_TMP, -40, -60, 1160, 2040); CTX.restore(); }
+  if (P.sc.tint) { CTX.save(); CTX.globalCompositeOperation = 'color'; CTX.globalAlpha = P.sc.tintA ?? .28; CTX.fillStyle = P.sc.tint; CTX.fillRect(0, 0, 1080, 1920); CTX.restore(); }
   canvasLight(P.sc);
   for (const f of TL.flashes || []) { const k = t - f; if (k >= 0 && k < .18) { CTX.fillStyle = `rgba(255,255,255,${(1 - k / .18) * .85})`; CTX.fillRect(0, 0, 1080, 1920); } }
   grain(i);

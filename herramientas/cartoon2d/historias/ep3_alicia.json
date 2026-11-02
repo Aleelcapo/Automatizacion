@@ -1,0 +1,1202 @@
+{
+ "out": "Doctor_ep3",
+ "title": "El niño que veía a su mamá diminuta",
+ "audio": "../audios/doctor_3.m4a",
+ "sfx_gain": 0.38,
+ "maxShot": 2.4,
+ "tail": 1.2,
+ "scenes": {
+  "houseC": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 690,
+     "y": 2560,
+     "s": 2.25,
+     "expr": "smug",
+     "pose": {
+      "propL": "cane",
+      "armL": [
+       8,
+       -6
+      ],
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "entrada": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 1450,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "smug",
+     "pose": {
+      "armL": [
+       8,
+       -6
+      ],
+      "propL": "cane",
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "aula": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "leo",
+     "char": "leo",
+     "x": 560,
+     "y": 2520,
+     "s": 2.15,
+     "expr": "neutral",
+     "pose": {
+      "propR": "notebook",
+      "armR": [
+       8,
+       -116
+      ]
+     }
+    }
+   ]
+  },
+  "anaC": {
+   "bg": "corridor",
+   "actors": [
+    {
+     "id": "ana",
+     "char": "ana",
+     "x": 520,
+     "y": 2600,
+     "s": 2.3,
+     "expr": "neutral",
+     "pose": {
+      "propR": "clipboard",
+      "armR": [
+       10,
+       -118
+      ]
+     }
+    }
+   ]
+  },
+  "urgN": {
+   "bg": "er",
+   "actors": [
+    {
+     "id": "n",
+     "char": "nino",
+     "x": 400,
+     "y": 2350,
+     "s": 1.75,
+     "expr": {
+      "mood": "sad",
+      "browL": -14,
+      "browR": -14,
+      "tears": 1,
+      "mouth": 0.35
+     }
+    },
+    {
+     "id": "ma",
+     "char": "madre",
+     "x": 720,
+     "y": 2350,
+     "s": 1.75,
+     "expr": "worried",
+     "pose": {
+      "reachR": [
+       -200,
+       -470
+      ],
+      "handR": "open"
+     }
+    }
+   ]
+  },
+  "percep": {
+   "bg": "kidroom",
+   "wobble": 0.03,
+   "tint": "#9a5cff",
+   "tintA": 0.25,
+   "actors": [
+    {
+     "id": "ma",
+     "char": "madre",
+     "x": 540,
+     "y": 2300,
+     "s": 1.75,
+     "expr": "neutral"
+    }
+   ]
+  },
+  "tunel": {
+   "bg": "corridor",
+   "wobble": 0.07,
+   "tint": "#9a5cff",
+   "tintA": 0.3
+  },
+  "manos": {
+   "bg": "kidroom",
+   "tint": "#9a5cff",
+   "tintA": 0.15,
+   "actors": [
+    {
+     "id": "n",
+     "char": "nino",
+     "x": 540,
+     "y": 2550,
+     "s": 2.6,
+     "expr": "surprised",
+     "pose": {
+      "armR": [
+       20,
+       100
+      ],
+      "armL": [
+       20,
+       100
+      ],
+      "handR": "open",
+      "handL": "open",
+      "handScale": 1
+     }
+    }
+   ]
+  },
+  "drogas": {
+   "bg": "desk",
+   "props": [
+    {
+     "id": "r",
+     "type": "report",
+     "x": 540,
+     "y": 800,
+     "s": 1.6,
+     "rot": -3,
+     "value": 0,
+     "title": "TOXICOLOGÍA",
+     "rows": [
+      [
+       "Drogas",
+       "negativo"
+      ],
+      [
+       "Alcohol",
+       "negativo"
+      ],
+      [
+       "Medicamentos",
+       "negativo"
+      ]
+     ],
+     "result": [
+      "",
+      "LIMPIO",
+      "#3ddc84"
+     ]
+    }
+   ]
+  },
+  "ninoC": {
+   "bg": "kidroom",
+   "actors": [
+    {
+     "id": "n",
+     "char": "nino",
+     "x": 540,
+     "y": 2550,
+     "s": 2.6,
+     "expr": "neutral"
+    }
+   ]
+  },
+  "madreC": {
+   "bg": "er",
+   "actors": [
+    {
+     "id": "ma",
+     "char": "madre",
+     "x": 540,
+     "y": 2450,
+     "s": 2.1,
+     "expr": "worried"
+    }
+   ]
+  },
+  "cal": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#5e1a2a",
+    "c2": "#1d0810"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "c",
+     "type": "calendar",
+     "x": 540,
+     "y": 800,
+     "s": 1.2,
+     "value": 0,
+     "text": "HACE 2 SEMANAS"
+    }
+   ]
+  },
+  "sintomas": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#3b1a2a",
+    "c2": "#120810"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "ic",
+     "type": "iconrow",
+     "x": 540,
+     "y": 850,
+     "s": 1.0,
+     "value": 0
+    }
+   ]
+  },
+  "mono": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "k",
+     "type": "kicker",
+     "x": 540,
+     "y": 260,
+     "text": "MONONUCLEOSIS",
+     "size": 96,
+     "color": "#ffcf3a",
+     "hidden": true
+    },
+    {
+     "id": "kiss",
+     "type": "kiss",
+     "x": 540,
+     "y": 820,
+     "s": 1.6,
+     "hidden": true
+    }
+   ]
+  },
+  "virus": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "v",
+     "type": "virus",
+     "x": 540,
+     "y": 1050,
+     "s": 1.3
+    },
+    {
+     "id": "l",
+     "type": "label",
+     "x": 640,
+     "y": 880,
+     "to": [
+      -100,
+      -420
+     ],
+     "text": "Epstein-Barr",
+     "sub": "virus",
+     "value": 0
+    }
+   ]
+  },
+  "cerebro": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "br",
+     "type": "brain",
+     "x": 540,
+     "y": 820,
+     "s": 1.35,
+     "zone": [
+      90,
+      -60
+     ],
+     "zoneCol": "#ff4d5e",
+     "glow": 0
+    }
+   ]
+  },
+  "sentidos": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#1a3a6e",
+    "c2": "#0a1428"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "br",
+     "type": "brain",
+     "x": 540,
+     "y": 820,
+     "s": 0.5,
+     "zone": [
+      90,
+      -60
+     ],
+     "zoneCol": "#ff4d5e",
+     "glow": 1
+    },
+    {
+     "id": "se",
+     "type": "senses",
+     "x": 540,
+     "y": 820,
+     "s": 1.0,
+     "value": 0
+    }
+   ]
+  },
+  "regla": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#5e4a1a",
+    "c2": "#1d1608"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "ru",
+     "type": "ruler",
+     "x": 540,
+     "y": 560,
+     "s": 1.0,
+     "warp": 0,
+     "hidden": true
+    },
+    {
+     "id": "ca",
+     "type": "sizer",
+     "x": 540,
+     "y": 1150,
+     "s": 1.0,
+     "k": 1,
+     "hidden": true
+    }
+   ]
+  },
+  "titulo": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#5e1a5e",
+    "c2": "#1d081d"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "t",
+     "type": "title2",
+     "x": 540,
+     "y": 760,
+     "s": 1.0,
+     "value": 0,
+     "l1": "SÍNDROME DE",
+     "l2": "ALICIA EN EL PAÍS",
+     "l3": "DE LAS MARAVILLAS"
+    }
+   ]
+  },
+  "libro": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#1a5e3a",
+    "c2": "#08180f"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "b",
+     "type": "book",
+     "x": 540,
+     "y": 820,
+     "s": 1.3,
+     "hidden": true
+    }
+   ]
+  },
+  "migr": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#5e1a2a",
+    "c2": "#1d0810"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "mi",
+     "type": "migraine",
+     "x": 540,
+     "y": 900,
+     "s": 1.3
+    }
+   ]
+  },
+  "final": {
+   "bg": "kidroom",
+   "actors": [
+    {
+     "id": "n",
+     "char": "nino",
+     "x": 380,
+     "y": 2350,
+     "s": 1.75,
+     "expr": "happy"
+    },
+    {
+     "id": "ma",
+     "char": "madre",
+     "x": 720,
+     "y": 2350,
+     "s": 1.75,
+     "expr": "happy"
+    }
+   ]
+  },
+  "lectura": {
+   "bg": "kidroom",
+   "actors": [
+    {
+     "id": "n",
+     "char": "nino",
+     "x": 540,
+     "y": 2550,
+     "s": 2.6,
+     "expr": "happy",
+     "pose": {
+      "reachR": [
+       -60,
+       -330
+      ],
+      "reachL": [
+       60,
+       -330
+      ],
+      "handR": "grip",
+      "handL": "grip"
+     }
+    }
+   ],
+   "props": [
+    {
+     "id": "b",
+     "type": "book",
+     "x": 540,
+     "y": 1720,
+     "s": 0.8,
+     "z": 3
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "Un niño de 7 años llegó llorando con sus padres.",
+   "shots": [
+    {
+     "scene": "urgN",
+     "cam": {
+      "on": [
+       "n",
+       "ma"
+      ],
+      "shot": "medium",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "n",
+       "talk": 2.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Decía que su mamá se estaba haciendo chiquita,",
+   "shots": [
+    {
+     "scene": "percep",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 960,
+      "z": 1.0,
+      "move": "hold"
+     },
+     "do": [
+      {
+       "on": "mamá",
+       "target": "ma",
+       "move": {
+        "s": 0.5,
+        "dur": 1.8,
+        "walk": false
+       },
+       "look": [
+        0,
+        -0.5
+       ],
+       "expr": "surprised"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "que su habitación se estiraba como un túnel",
+   "shots": [
+    {
+     "scene": "tunel",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "to": {
+       "z": 1.9
+      },
+      "move": "hold"
+     }
+    }
+   ]
+  },
+  {
+   "text": "y que sus manos eran gigantes.",
+   "shots": [
+    {
+     "scene": "manos",
+     "cam": {
+      "on": "n",
+      "shot": "medium",
+      "move": "pull"
+     },
+     "do": [
+      {
+       "on": "manos",
+       "target": "n",
+       "pose": {
+        "armR": [
+         20,
+         100
+        ],
+        "armL": [
+         20,
+         100
+        ],
+        "handR": "open",
+        "handL": "open",
+        "handScale": 2.6
+       },
+       "dur": 1.0,
+       "expr": "shock"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Leo dijo que eran alucinaciones.",
+   "shots": [
+    {
+     "scene": "aula",
+     "cam": {
+      "on": "leo",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "leo",
+       "expr": "serious",
+       "talk": 1.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ana sugirió que había tomado algo por accidente.",
+   "shots": [
+    {
+     "scene": "anaC",
+     "cam": {
+      "on": "ana",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "expr": "worried",
+       "talk": 2.0,
+       "arms": {
+        "armL": [
+         10,
+         52
+        ],
+        "handL": "open"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Los análisis de drogas salieron limpios.",
+   "shots": [
+    {
+     "scene": "drogas",
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0.1,
+       "target": "r",
+       "value": 1,
+       "dur": 1.6,
+       "sfx": "ding"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "El niño estaba perfectamente lúcido: sabía que lo que veía no era real... pero lo seguía viendo.",
+   "shots": [
+    {
+     "scene": "ninoC",
+     "cam": {
+      "on": "n",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "sabía",
+       "target": "n",
+       "expr": "worried",
+       "look": [
+        0.7,
+        0
+       ]
+      },
+      {
+       "on": "real",
+       "target": "n",
+       "look": [
+        -0.7,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "scene": "tunel",
+     "from": "pero",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.5,
+      "to": {
+       "z": 1.0
+      },
+      "move": "hold"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Le pregunté a la madre una sola cosa: si había estado enfermo hace poco.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "serious"
+      },
+      {
+       "on": "si",
+       "target": "house",
+       "talk": 1.6
+      }
+     ]
+    },
+    {
+     "scene": "madreC",
+     "from": "si",
+     "cam": {
+      "on": "ma",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "poco",
+       "target": "ma",
+       "expr": "think",
+       "look": [
+        0.5,
+        -0.4
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Dos semanas atrás: fiebre, dolor de garganta y mucho cansancio.",
+   "shots": [
+    {
+     "scene": "cal",
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "c",
+       "value": 1,
+       "dur": 1.0,
+       "sfx": "tick"
+      }
+     ]
+    },
+    {
+     "scene": "sintomas",
+     "from": "fiebre",
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "fiebre",
+       "target": "ic",
+       "value": 1,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "garganta",
+       "target": "ic",
+       "value": 2,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "cansancio",
+       "target": "ic",
+       "value": 3,
+       "dur": 0.3,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Tenía mononucleosis, la enfermedad del beso, causada por el virus de Epstein-Barr.",
+   "shots": [
+    {
+     "scene": "mono",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "mononucleosis",
+       "target": "k",
+       "pop": true,
+       "sfx": "pop"
+      },
+      {
+       "on": "beso",
+       "target": "kiss",
+       "pop": true,
+       "sfx": "boing",
+       "vol": 0.6
+      }
+     ]
+    },
+    {
+     "scene": "virus",
+     "from": "causada",
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "virus",
+       "target": "l",
+       "value": 1,
+       "dur": 1.4,
+       "sfx": "tick"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ese virus había inflamado una zona muy específica del cerebro: el lugar donde se juntan la vista, el tacto y la sensación de tu propio cuerpo.",
+   "shots": [
+    {
+     "scene": "cerebro",
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "inflamado",
+       "target": "br",
+       "glow": 1,
+       "dur": 0.6,
+       "sfx": "pop"
+      }
+     ]
+    },
+    {
+     "scene": "sentidos",
+     "from": "lugar",
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "vista",
+       "target": "se",
+       "value": 1,
+       "dur": 0.35,
+       "sfx": "pop"
+      },
+      {
+       "on": "tacto",
+       "target": "se",
+       "value": 2,
+       "dur": 0.35,
+       "sfx": "pop"
+      },
+      {
+       "on": "cuerpo",
+       "target": "se",
+       "value": 3,
+       "dur": 0.35,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Es como la regla que usa el cerebro para medir el mundo.",
+   "shots": [
+    {
+     "scene": "regla",
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "regla",
+       "target": "ru",
+       "pop": true,
+       "sfx": "pop"
+      },
+      {
+       "on": "medir",
+       "target": "ca",
+       "pop": true,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Si esa regla se desajusta, las cosas se ven más grandes, más chicas, más lejos o más cerca de lo que están.",
+   "shots": [
+    {
+     "scene": "regla",
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "drift"
+     },
+     "do": [
+      {
+       "on": "desajusta",
+       "target": "ru",
+       "warp": 1,
+       "dur": 0.6,
+       "sfx": "boing",
+       "vol": 0.6
+      },
+      {
+       "on": "grandes",
+       "target": "ca",
+       "k": 1.8,
+       "dur": 0.35,
+       "sfx": "pop"
+      },
+      {
+       "on": "chicas",
+       "target": "ca",
+       "k": 0.45,
+       "dur": 0.35,
+       "sfx": "pop"
+      },
+      {
+       "on": "lejos",
+       "target": "ca",
+       "k": 0.2,
+       "dur": 0.35
+      },
+      {
+       "on": "cerca",
+       "target": "ca",
+       "k": 1.5,
+       "dur": 0.35,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Se llama síndrome de Alicia en el país de las maravillas.",
+   "shots": [
+    {
+     "scene": "titulo",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "síndrome",
+       "target": "t",
+       "value": 1,
+       "dur": 0.45,
+       "camshake": 16,
+       "sfx": "thud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y se cree que el propio autor del libro lo sufría por sus migrañas.",
+   "shots": [
+    {
+     "scene": "libro",
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "autor",
+       "target": "b",
+       "pop": true,
+       "sfx": "pop"
+      }
+     ]
+    },
+    {
+     "scene": "migr",
+     "from": "migrañas",
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Con reposo, en unas semanas el mundo volvió a tener su tamaño normal.",
+   "shots": [
+    {
+     "scene": "final",
+     "flash": true,
+     "cam": {
+      "on": [
+       "n",
+       "ma"
+      ],
+      "shot": "medium",
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0.3,
+       "target": "n",
+       "look": [
+        0.8,
+        -0.3
+       ]
+      },
+      {
+       "at": 0.3,
+       "target": "ma",
+       "look": [
+        -0.8,
+        0.3
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ana me preguntó si era peligroso.",
+   "shots": [
+    {
+     "scene": "anaC",
+     "cam": {
+      "on": "ana",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "expr": "worried",
+       "talk": 1.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Le dije: no. Lo peligroso es que ahora quiere leer el libro.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "smirk",
+       "talk": 2.6
+      }
+     ]
+    },
+    {
+     "scene": "lectura",
+     "from": "leer",
+     "cam": {
+      "on": "n",
+      "shot": "medium",
+      "move": "pull"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "n",
+       "look": [
+        0,
+        0.6
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

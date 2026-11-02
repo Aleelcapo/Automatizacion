@@ -142,6 +142,7 @@ function face(c, e, id) {
   if (c.bangShade) s += `<path d="${c.bangShade}" fill="${c.skinS}"/>`;
   if (c.lines) s += line(c.lines, 2.6, c.skinS);
   if (e.drunk) s += `<ellipse cx="-36" cy="34" rx="18" ry="10" fill="#e0505a" opacity="${.45 * e.drunk}"/><ellipse cx="36" cy="34" rx="18" ry="10" fill="#e0505a" opacity="${.45 * e.drunk}"/><ellipse cx="2" cy="32" rx="11" ry="8" fill="#e0505a" opacity="${.55 * e.drunk}"/>`;
+  if (e.tears) s += [-1, 1].map(sd => `<path d="M${sd * c.ex - 4} ${c.ey + 8} q-4 ${30 * e.tears} 2 ${60 * e.tears} q8 -2 6 -${60 * e.tears} Z" fill="#9fd8ff" opacity=".85" stroke="#4a8fc0" stroke-width="1.5"/>`).join('');
   if (e.sweat) s += `<path d="M58 -40 q8 14 0 20 q-8 -6 0 -20 Z" fill="#bfe3ff" stroke="${O}" stroke-width="1.5"/>`;
   s += eyesR(c, e, id);
   s += line(c.nose, 3.6, c.noseCol || '#9b6550');
@@ -235,6 +236,48 @@ paciente: {
     bangShade: 'M-54 -36 Q-30 -34 -10 -50 Q20 -40 54 -16 L54 -6 Q20 -30 -10 -40 Q-30 -26 -54 -26 Z',
     hairBackView: 'M-66 -40 Q-70 -114 0 -122 Q70 -114 66 -40 Q80 30 70 90 L-70 90 Q-80 30 -66 -40 Z',
   },
+mujer: {
+    id: 'mujer', scale: .93, skin: '#f1c6a6', skinS: '#d49d7e', hair: '#8a3b22', hairS: '#5e2614',
+    ex: 25, ey: -2, ew: 15, eh: 7.5, pupil: .72, irisCol: '#3f6a3a', lid: .05, browW: 4, brow: '#6a2c18', my: 60, neckW: 22, lipCol: '#a24a50',
+    outfit: 'shirt', top: '#3f8a6e', topS: '#2f6a54', pants: '#3a3c48', pantsS: '#2a2c36', shoe: '#2c2a30', shoeS: '#18171b', sole: '#57545c',
+    shoulderW: 72, waistW: 56, hipY: -470, shoulderY: -715, headY: -808, headS: .9, armW: [38, 33, 27],
+    jaw: 'M-55 -60 L-56 4 Q-55 34 -45 52 Q-26 80 -6 91 Q0 94 6 91 Q26 80 45 52 Q55 34 56 4 L55 -60 Z', chin: 93,
+    nose: 'M2 4 Q0 22 -5 30 Q-1 35 5 33', noseCol: '#b0745a',
+    hairBack: 'M-64 -40 Q-96 40 -86 130 Q-96 180 -66 200 Q-60 170 -52 150 L52 150 Q60 180 70 200 Q96 180 86 130 Q96 40 64 -40 Z',
+    hairBackShade: '<path d="M-52 150 L-56 70 L56 70 L52 150 Z" fill="#5e2614"/>',
+    hairFront: 'M-64 30 Q-74 -70 -20 -106 Q30 -122 62 -84 Q76 -54 66 30 Q70 70 60 96 Q52 64 54 30 Q56 -10 44 -40 Q20 -64 -12 -70 Q-40 -50 -50 -20 Q-56 20 -54 50 Q-56 80 -62 100 Q-70 64 -64 30 Z',
+    hairShade: '<path d="M44 -40 Q56 -10 54 30 Q52 64 60 96 Q70 50 66 0 Z" fill="#5e2614"/>',
+    hairHi: '<path d="M-30 -92 Q-10 -104 10 -100 Q-8 -96 -26 -84 Z" fill="#b25a3a"/>',
+    bangShade: 'M-50 -20 Q-40 -50 -12 -62 Q20 -56 44 -32 L44 -24 Q20 -48 -12 -54 Q-40 -42 -50 -12 Z',
+    hairBackView: 'M-64 -40 Q-70 -114 0 -122 Q70 -114 64 -40 Q90 60 76 150 L-76 150 Q-90 60 -64 -40 Z',
+  },
+  madre: {
+    id: 'madre', scale: .92, skin: '#e2a982', skinS: '#c48a65', hair: '#3a2a22', hairS: '#22180f',
+    ex: 25, ey: -2, ew: 15, eh: 7.5, pupil: .72, irisCol: '#4a2f22', lid: .05, browW: 4, brow: '#2e2018', my: 60, neckW: 22, lipCol: '#a24a50',
+    outfit: 'shirt', top: '#c0607a', topS: '#9a4a60', pants: '#2f4a6e', pantsS: '#243a58', shoe: '#2c2a30', shoeS: '#18171b', sole: '#57545c',
+    shoulderW: 72, waistW: 56, hipY: -470, shoulderY: -715, headY: -808, headS: .9, armW: [38, 33, 27],
+    jaw: 'M-55 -60 L-56 4 Q-55 34 -45 52 Q-26 80 -6 91 Q0 94 6 91 Q26 80 45 52 Q55 34 56 4 L55 -60 Z', chin: 93,
+    nose: 'M2 4 Q0 22 -5 30 Q-1 35 5 33', noseCol: '#a8684a',
+    hairBack: 'M-66 -40 Q-84 30 -74 90 Q-50 104 -40 90 L40 90 Q50 104 74 90 Q84 30 66 -40 Z',
+    hairFront: 'M-66 40 Q-76 -66 -20 -106 Q30 -124 62 -80 Q76 -50 68 40 Q60 10 56 -20 Q40 -50 10 -62 Q-14 -40 -46 -44 Q-56 -10 -58 30 Z',
+    hairShade: '<path d="M56 -20 Q60 10 68 40 Q74 -10 66 -50 Z" fill="#22180f"/>',
+    hairHi: '<path d="M-30 -92 Q-10 -104 10 -100 Q-8 -96 -26 -84 Z" fill="#5a4436"/>',
+    bangShade: 'M-54 -36 Q-30 -34 -10 -50 Q20 -40 54 -16 L54 -6 Q20 -30 -10 -40 Q-30 -26 -54 -26 Z',
+    hairBackView: 'M-66 -40 Q-70 -114 0 -122 Q70 -114 66 -40 Q80 30 70 90 L-70 90 Q-80 30 -66 -40 Z',
+  },
+  nino: {
+    id: 'nino', scale: .6, skin: '#f3cdae', skinS: '#d9a888', hair: '#5a3a24', hairS: '#3e2716',
+    ex: 26, ey: 2, ew: 16, eh: 9, pupil: .78, irisCol: '#3a5a7a', lid: 0, browW: 4.5, brow: '#4a3020', my: 58, neckW: 22,
+    outfit: 'shirt', top: '#e8b13a', topS: '#c08f22', pants: '#4f6f9c', pantsS: '#3c5579', shoe: '#d64a3a', shoeS: '#a8382a', sole: '#f2f2ee',
+    shoulderW: 78, waistW: 66, hipY: -470, shoulderY: -705, headY: -846, headS: 1.18, armW: [44, 40, 34],
+    jaw: 'M-58 -60 L-59 6 Q-58 40 -46 58 Q-26 84 0 88 Q26 84 46 58 Q58 40 59 6 L58 -60 Z', chin: 88,
+    nose: 'M2 14 Q0 26 -5 30 Q-1 34 5 32',
+    hairFront: 'M-62 -2 Q-70 -70 -30 -100 L-24 -116 L-10 -104 Q10 -124 46 -102 L58 -110 L56 -90 Q72 -70 64 -2 Q58 -36 50 -50 Q36 -40 24 -58 Q10 -44 -4 -60 Q-20 -44 -34 -56 Q-50 -40 -56 -26 Z',
+    hairShade: '<path d="M46 -102 Q72 -70 64 -2 Q58 -36 50 -50 Q60 -80 46 -102 Z" fill="#3e2716"/>',
+    hairHi: '<path d="M-24 -90 Q0 -104 22 -98 Q0 -94 -20 -82 Z" fill="#7a5638"/>',
+    bangShade: 'M-56 -30 Q-44 -46 -34 -48 Q-20 -36 -4 -52 Q10 -36 24 -50 Q36 -32 50 -42 L56 -30 Q36 -22 24 -38 Q10 -24 -4 -40 Q-20 -24 -34 -36 Q-46 -32 -56 -20 Z',
+    hairBackView: 'M-62 -40 Q-70 -114 0 -124 Q70 -114 62 -40 Q64 0 58 22 Q30 32 0 30 Q-30 32 -58 22 Q-64 0 -62 -40 Z',
+  },
 };
 
 // figura de espaldas (cabeza + hombros) para planos sobre el hombro
@@ -316,10 +359,18 @@ export function drawCharacter(id, pose = {}) {
   s += `<g transform="translate(${hd.dx || 0} ${c.headY + (hd.dy || 0)}) rotate(${hd.tilt || 0} 0 120) scale(${c.headS})">${face(c, pose.face || {}, uid)}</g>`;
   // brazos
   const [L1, L2] = [158, 138];
-  const arm = (side, ang, handKind, pocket, prop) => {
+  const arm = (side, ang, handKind, pocket, prop, reach) => {
     const sx = side * (sw - 14), sy = sh + 20;
     const a = ang || [6, -8];
-    const pts = chain(sx, sy, side * a[0], side * a[1], L1, L2);
+    let pts = chain(sx, sy, side * a[0], side * a[1], L1, L2);
+    if (reach) {
+      let dx = reach[0] - sx, dy = reach[1] - sy, d = Math.hypot(dx, dy); const md = L1 + L2 - 2;
+      if (d > md) { dx *= md / d; dy *= md / d; d = md; }
+      const th = Math.atan2(dx, dy), al = Math.acos(Math.max(-1, Math.min(1, (L1 * L1 + d * d - L2 * L2) / (2 * L1 * d))));
+      const cand = [th + al, th - al].map(u => [sx + Math.sin(u) * L1, sy + Math.cos(u) * L1]);
+      const el = cand[0][0] * side > cand[1][0] * side ? cand[0] : cand[1];
+      pts = [[sx, sy], el, [sx + dx, sy + dy]];
+    }
     const ag = new G();
     let out = '';
     if (pocket) { pts[2] = [pts[1][0] + (pts[2][0] - pts[1][0]) * .78, pts[1][1] + (pts[2][1] - pts[1][1]) * .78]; }
@@ -351,13 +402,13 @@ export function drawCharacter(id, pose = {}) {
         out += `<g transform="rotate(${-side * 10} ${f(bx)} ${f(by)})">${bg}</g>`;
         out += drawHand(c, 'grip', wrist, [dir[0], dir[1]], side > 0);
       } else {
-        out += drawHand(c, handKind || 'relax', wrist, [dir[0], dir[1]], side > 0);
+        out += drawHand(c, handKind || 'relax', wrist, [dir[0], dir[1]], side > 0, 1.22 * (pose.handScale || 1));
       }
     }
     return out;
   };
-  s += arm(1, pose.armL, pose.handL, pose.pocketL, pose.propL);   // brazo izquierdo del personaje (derecha de pantalla)
-  s += arm(-1, pose.armR, pose.handR, pose.pocketR, pose.propR);
+  s += arm(1, pose.armL, pose.handL, pose.pocketL, pose.propL, pose.reachL);   // brazo izquierdo del personaje (derecha de pantalla)
+  s += arm(-1, pose.armR, pose.handR, pose.pocketR, pose.propR, pose.reachR);
   return `<g transform="scale(${c.scale})">${s}</g>`;
 }
 export { drawHand };

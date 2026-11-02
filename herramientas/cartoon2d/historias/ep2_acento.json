@@ -1,0 +1,1198 @@
+{
+ "out": "Doctor_ep2",
+ "title": "La mujer que despertó con otro acento",
+ "audio": "../audios/doctor_2.m4a",
+ "sfx_gain": 0.38,
+ "maxShot": 2.4,
+ "tail": 1.2,
+ "scenes": {
+  "houseC": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 690,
+     "y": 2560,
+     "s": 2.25,
+     "expr": "smug",
+     "pose": {
+      "propL": "cane",
+      "armL": [
+       8,
+       -6
+      ],
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "entrada": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 1450,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "smug",
+     "pose": {
+      "armL": [
+       8,
+       -6
+      ],
+      "propL": "cane",
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "aula": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "leo",
+     "char": "leo",
+     "x": 560,
+     "y": 2520,
+     "s": 2.15,
+     "expr": "neutral",
+     "pose": {
+      "propR": "notebook",
+      "armR": [
+       8,
+       -116
+      ]
+     }
+    }
+   ]
+  },
+  "anaC": {
+   "bg": "corridor",
+   "actors": [
+    {
+     "id": "ana",
+     "char": "ana",
+     "x": 520,
+     "y": 2600,
+     "s": 2.3,
+     "expr": "neutral",
+     "pose": {
+      "propR": "clipboard",
+      "armR": [
+       10,
+       -118
+      ]
+     }
+    }
+   ]
+  },
+  "cuartoN": {
+   "bg": "bedroom",
+   "bgOpts": {
+    "night": true
+   },
+   "actors": [
+    {
+     "id": "m",
+     "char": "mujer",
+     "x": 560,
+     "y": 2350,
+     "s": 1.75,
+     "expr": "worried",
+     "pose": {
+      "reachR": [
+       -62,
+       -830
+      ],
+      "reachL": [
+       62,
+       -830
+      ],
+      "handR": "open",
+      "handL": "open"
+     }
+    }
+   ]
+  },
+  "cuartoD": {
+   "bg": "bedroom",
+   "actors": [
+    {
+     "id": "m",
+     "char": "mujer",
+     "x": 560,
+     "y": 2350,
+     "s": 1.75,
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "fb",
+     "type": "flagbubble",
+     "x": 600,
+     "y": 360,
+     "s": 0.85,
+     "value": 0,
+     "text": "Bonjour?",
+     "z": 5
+    }
+   ]
+  },
+  "noplane": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#2a4a7e",
+    "c2": "#0c1630"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "pl",
+     "type": "noplane",
+     "x": 540,
+     "y": 800,
+     "s": 1.1,
+     "value": 0
+    },
+    {
+     "id": "k",
+     "type": "kicker",
+     "x": 540,
+     "y": 1250,
+     "text": "0 VIAJES",
+     "size": 110,
+     "color": "#ffffff",
+     "hidden": true
+    }
+   ]
+  },
+  "consulta": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "m",
+     "char": "mujer",
+     "x": 540,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "worried",
+     "pose": {
+      "reachR": [
+       -30,
+       -470
+      ],
+      "reachL": [
+       30,
+       -470
+      ],
+      "handR": "grip",
+      "handL": "grip"
+     }
+    }
+   ],
+   "props": [
+    {
+     "id": "hoja",
+     "type": "paper",
+     "x": 540,
+     "y": 1480,
+     "s": 1.25,
+     "z": 3
+    }
+   ]
+  },
+  "onda": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#1a4a5e",
+    "c2": "#0a1a24"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "w",
+     "type": "wave",
+     "x": 540,
+     "y": 760,
+     "s": 1.0,
+     "mode": 0
+    },
+    {
+     "id": "k1",
+     "type": "kicker",
+     "x": 540,
+     "y": 260,
+     "text": "VOCALES",
+     "size": 100,
+     "color": "#ffcf3a",
+     "hidden": true
+    },
+    {
+     "id": "k2",
+     "type": "kicker",
+     "x": 540,
+     "y": 1180,
+     "text": "RITMO",
+     "size": 100,
+     "color": "#ffcf3a",
+     "hidden": true
+    },
+    {
+     "id": "k3",
+     "type": "kicker",
+     "x": 540,
+     "y": 1340,
+     "text": "PALABRAS",
+     "size": 100,
+     "color": "#ffcf3a",
+     "hidden": true
+    }
+   ]
+  },
+  "mri": {
+   "bg": "mriroom"
+  },
+  "scan": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#20242c",
+    "c2": "#08090c"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "sc",
+     "type": "brainscan",
+     "x": 540,
+     "y": 760,
+     "s": 1.25,
+     "value": 0
+    },
+    {
+     "id": "len",
+     "type": "lentil",
+     "x": 540,
+     "y": 1380,
+     "s": 1.0,
+     "hidden": true,
+     "z": 3
+    }
+   ]
+  },
+  "migr": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#5e1a2a",
+    "c2": "#1d0810"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "mi",
+     "type": "migraine",
+     "x": 540,
+     "y": 900,
+     "s": 1.3
+    }
+   ]
+  },
+  "cerebro": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "br",
+     "type": "brain",
+     "x": 540,
+     "y": 820,
+     "s": 1.35,
+     "zone": [
+      -190,
+      10
+     ],
+     "glow": 0,
+     "burst": 0
+    }
+   ]
+  },
+  "boca": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#5e1a2a",
+    "c2": "#1d0810"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "mo",
+     "type": "mouthicon",
+     "x": 540,
+     "y": 800,
+     "s": 1.3,
+     "value": 0
+    }
+   ]
+  },
+  "idioma": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#1a3a6e",
+    "c2": "#0a1428"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "ab",
+     "type": "abc",
+     "x": 540,
+     "y": 820,
+     "s": 1.2,
+     "value": 0
+    }
+   ]
+  },
+  "musica": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#1a4a5e",
+    "c2": "#0a1a24"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "w",
+     "type": "wave",
+     "x": 540,
+     "y": 800,
+     "s": 1.0,
+     "mode": 0,
+     "notes": true
+    }
+   ]
+  },
+  "oido": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#2a4a7e",
+    "c2": "#0c1630"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "ea",
+     "type": "ear",
+     "x": 620,
+     "y": 700,
+     "s": 1.2
+    },
+    {
+     "id": "fb",
+     "type": "flagbubble",
+     "x": 540,
+     "y": 1250,
+     "s": 0.95,
+     "value": 0,
+     "text": "Oui!",
+     "z": 3
+    }
+   ]
+  },
+  "titulo": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#5e1a2a",
+    "c2": "#1d0810"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "t",
+     "type": "title2",
+     "x": 540,
+     "y": 760,
+     "s": 1.0,
+     "value": 0,
+     "l1": "SÍNDROME DEL",
+     "l2": "ACENTO",
+     "l3": "EXTRANJERO"
+    }
+   ]
+  },
+  "mundo": {
+   "bg": "diagram",
+   "bgOpts": {
+    "c1": "#1a2a5e",
+    "c2": "#080c22"
+   },
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "g",
+     "type": "globe",
+     "x": 540,
+     "y": 800,
+     "s": 1.25,
+     "value": 0
+    },
+    {
+     "id": "k",
+     "type": "kicker",
+     "x": 540,
+     "y": 1300,
+     "text": "MUY POCOS CASOS",
+     "size": 90,
+     "color": "#ffcf3a",
+     "hidden": true
+    }
+   ]
+  },
+  "terapia": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "m",
+     "char": "mujer",
+     "x": 330,
+     "y": 2380,
+     "s": 1.75,
+     "expr": "happy"
+    },
+    {
+     "id": "ana",
+     "char": "ana",
+     "x": 780,
+     "y": 2380,
+     "s": 1.75,
+     "expr": "happy",
+     "pose": {
+      "propR": "clipboard",
+      "armR": [
+       10,
+       -118
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "Una mujer de 40 años se fue a dormir con un dolor de cabeza terrible.",
+   "shots": [
+    {
+     "scene": "cuartoN",
+     "cam": {
+      "x": 560,
+      "y": 960,
+      "z": 1.0,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "cuartoN",
+     "from": "dolor",
+     "cam": {
+      "on": "m",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "terrible",
+       "target": "m",
+       "expr": {
+        "mood": "sad",
+        "lid": 0.5,
+        "browL": -16,
+        "browR": -16
+       },
+       "jolt": 0.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Al otro día se despertó... hablando con acento francés.",
+   "shots": [
+    {
+     "scene": "cuartoD",
+     "flash": true,
+     "cam": {
+      "on": "m",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "despertó",
+       "target": "m",
+       "expr": "surprised"
+      },
+      {
+       "on": "hablando",
+       "target": "m",
+       "talk": 2.2,
+       "arms": "explainL"
+      },
+      {
+       "on": "francés",
+       "target": "fb",
+       "value": 1,
+       "dur": 0.4,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Nunca había salido de su país.",
+   "shots": [
+    {
+     "scene": "noplane",
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "salido",
+       "target": "pl",
+       "value": 1,
+       "dur": 0.4,
+       "sfx": "boing",
+       "vol": 0.6
+      },
+      {
+       "on": "país",
+       "target": "k",
+       "pop": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ana dijo que estaba fingiendo para llamar la atención.",
+   "shots": [
+    {
+     "scene": "anaC",
+     "cam": {
+      "on": "ana",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "expr": "smug",
+       "talk": 2.2,
+       "arms": {
+        "armL": [
+         10,
+         52
+        ],
+        "handL": "open"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Leo pensó que era algo psicológico.",
+   "shots": [
+    {
+     "scene": "aula",
+     "cam": {
+      "on": "leo",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "leo",
+       "expr": "think",
+       "talk": 1.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Yo le pedí que leyera un texto en voz alta.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "serious",
+       "talk": 1.2
+      }
+     ]
+    },
+    {
+     "scene": "consulta",
+     "from": "texto",
+     "cam": {
+      "on": "m",
+      "shot": "medium",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "texto",
+       "target": "m",
+       "talk": 1.6,
+       "look": [
+        0,
+        0.7
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "No era un acento perfecto: alargaba las vocales, cambiaba el ritmo, cortaba las palabras de una forma rara.",
+   "shots": [
+    {
+     "scene": "consulta",
+     "cam": {
+      "on": "m",
+      "shot": "face",
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "m",
+       "talk": 1.4
+      }
+     ]
+    },
+    {
+     "scene": "onda",
+     "from": "alargaba",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "vocales",
+       "target": "k1",
+       "pop": true,
+       "sfx": "pop"
+      },
+      {
+       "on": "ritmo",
+       "target": "w",
+       "mode": 1,
+       "dur": 0.6
+      },
+      {
+       "on": "ritmo",
+       "target": "k2",
+       "pop": true,
+       "sfx": "pop"
+      },
+      {
+       "on": "palabras",
+       "target": "k3",
+       "pop": true,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y estaba asustada.",
+   "shots": [
+    {
+     "scene": "consulta",
+     "cam": {
+      "on": "m",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "m",
+       "expr": {
+        "mood": "sad",
+        "browL": -16,
+        "browR": -16,
+        "browUp": [
+         8,
+         8
+        ],
+        "sweat": 1
+       },
+       "look": [
+        -0.4,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Nadie finge tan mal... ni tan asustado.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "smirk",
+       "talk": 2.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Le hicimos una resonancia.",
+   "shots": [
+    {
+     "scene": "mri",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Ahí estaba: una lesión pequeñita, del tamaño de una lenteja.",
+   "shots": [
+    {
+     "scene": "scan",
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "lesión",
+       "target": "sc",
+       "value": 1,
+       "dur": 0.8,
+       "sfx": "ding"
+      },
+      {
+       "on": "lenteja",
+       "target": "len",
+       "pop": true,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Esa noche no había sido un simple dolor de cabeza. Había sido un pequeño derrame cerebral.",
+   "shots": [
+    {
+     "scene": "migr",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "cerebro",
+     "from": "Había",
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "derrame",
+       "target": "br",
+       "burst": 1,
+       "dur": 0.4,
+       "camshake": 14,
+       "sfx": "thud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y cayó justo en la zona del cerebro que controla los movimientos de la lengua, los labios y la mandíbula al hablar.",
+   "shots": [
+    {
+     "scene": "cerebro",
+     "cam": {
+      "x": 400,
+      "y": 830,
+      "z": 1.35,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "zona",
+       "target": "br",
+       "glow": 1,
+       "burst": 0,
+       "dur": 0.5,
+       "sfx": "pop"
+      }
+     ]
+    },
+    {
+     "scene": "boca",
+     "from": "lengua",
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "lengua",
+       "target": "mo",
+       "value": 1,
+       "dur": 0.2,
+       "sfx": "pop"
+      },
+      {
+       "on": "labios",
+       "target": "mo",
+       "value": 2,
+       "dur": 0.2,
+       "sfx": "pop"
+      },
+      {
+       "on": "mandíbula",
+       "target": "mo",
+       "value": 3,
+       "dur": 0.2,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "No le borró el idioma. Le cambió la música de su voz.",
+   "shots": [
+    {
+     "scene": "idioma",
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "idioma",
+       "target": "ab",
+       "value": 1,
+       "dur": 0.4,
+       "sfx": "ding"
+      }
+     ]
+    },
+    {
+     "scene": "musica",
+     "from": "cambió",
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "música",
+       "target": "w",
+       "mode": 1,
+       "dur": 0.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Nuestro cerebro escucha ese ritmo distinto... y lo interpreta como un acento extranjero.",
+   "shots": [
+    {
+     "scene": "oido",
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "oido",
+     "from": "interpreta",
+     "cam": {
+      "x": 540,
+      "y": 1000,
+      "z": 1.15,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "acento",
+       "target": "fb",
+       "value": 1,
+       "dur": 0.4,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Se llama síndrome del acento extranjero.",
+   "shots": [
+    {
+     "scene": "titulo",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "síndrome",
+       "target": "t",
+       "value": 1,
+       "dur": 0.45,
+       "camshake": 16,
+       "sfx": "thud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Hay muy pocos casos registrados en el mundo.",
+   "shots": [
+    {
+     "scene": "mundo",
+     "cam": {
+      "x": 540,
+      "y": 850,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0.1,
+       "target": "g",
+       "value": 1,
+       "dur": 1.6,
+       "sfx": "pop"
+      },
+      {
+       "on": "registrados",
+       "target": "k",
+       "pop": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Con meses de terapia del habla, fue recuperando su voz de a poco.",
+   "shots": [
+    {
+     "scene": "terapia",
+     "cam": {
+      "on": [
+       "m",
+       "ana"
+      ],
+      "shot": "medium",
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0.2,
+       "target": "m",
+       "talk": 1.6,
+       "look": [
+        0.8,
+        0
+       ]
+      },
+      {
+       "at": 0.2,
+       "target": "ana",
+       "look": [
+        -0.8,
+        0
+       ]
+      }
+     ]
+    },
+    {
+     "scene": "terapia",
+     "from": "recuperando",
+     "cam": {
+      "on": "m",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "recuperando",
+       "target": "m",
+       "expr": "happy",
+       "talk": 1.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ana todavía no me cree.",
+   "shots": [
+    {
+     "scene": "anaC",
+     "cam": {
+      "on": "ana",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "expr": "confused",
+       "arms": {
+        "armL": [
+         6,
+         -8
+        ],
+        "handL": "relax"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Yo solo le dije: no es francesa... es que su cerebro se olvidó de cómo sonaba ella.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "smirk"
+      },
+      {
+       "on": "no",
+       "target": "house",
+       "talk": 3.4,
+       "arms": {
+        "armR": [
+         14,
+         92
+        ],
+        "handR": "open"
+       }
+      }
+     ]
+    },
+    {
+     "scene": "cuartoD",
+     "from": "sonaba",
+     "cam": {
+      "on": "m",
+      "shot": "close",
+      "move": "pull"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "m",
+       "expr": "happy"
+      },
+      {
+       "at": 0,
+       "target": "fb",
+       "hide": true,
+       "dur": 0.01
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
