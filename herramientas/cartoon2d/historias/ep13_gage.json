@@ -1,0 +1,764 @@
+{
+ "out": "Doctor_ep13",
+ "title": "El hombre al que una barra le atravesó la cabeza",
+ "audio": "../audios/medico_3.m4a",
+ "sfx_gain": 0.38,
+ "maxShot": 2.4,
+ "tail": 1.2,
+ "scenes": {
+  "houseC": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 690,
+     "y": 2560,
+     "s": 2.25,
+     "expr": "smug",
+     "pose": {
+      "propL": "cane",
+      "armL": [
+       8,
+       -6
+      ],
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "entrada": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 1450,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "smug",
+     "pose": {
+      "armL": [
+       8,
+       -6
+      ],
+      "propL": "cane",
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "aula": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "leo",
+     "char": "leo",
+     "x": 560,
+     "y": 2520,
+     "s": 2.15,
+     "expr": "neutral",
+     "pose": {
+      "propR": "notebook",
+      "armR": [
+       8,
+       -116
+      ]
+     }
+    }
+   ]
+  },
+  "anaC": {
+   "bg": "corridor",
+   "actors": [
+    {
+     "id": "ana",
+     "char": "ana",
+     "x": 520,
+     "y": 2600,
+     "s": 2.3,
+     "expr": "neutral",
+     "pose": {
+      "propR": "clipboard",
+      "armR": [
+       10,
+       -118
+      ]
+     }
+    }
+   ]
+  },
+  "vias": {
+   "bg": "railroad",
+   "sepia": true,
+   "actors": [
+    {
+     "id": "g",
+     "char": "gage",
+     "x": 540,
+     "y": 2350,
+     "s": 1.8,
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "bum",
+     "type": "burst",
+     "x": 540,
+     "y": 1300,
+     "s": 1.0,
+     "value": 0,
+     "hidden": true,
+     "z": 5
+    }
+   ]
+  },
+  "gageC": {
+   "bg": "railroad",
+   "sepia": true,
+   "actors": [
+    {
+     "id": "g",
+     "char": "gage",
+     "x": 540,
+     "y": 2500,
+     "s": 2.3,
+     "expr": "neutral"
+    }
+   ]
+  },
+  "rayos": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "x",
+     "type": "skullbar",
+     "x": 540,
+     "y": 800,
+     "s": 1.15,
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#20242c",
+    "c2": "#08090c"
+   }
+  },
+  "frontal": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "br",
+     "type": "brain",
+     "x": 540,
+     "y": 820,
+     "s": 1.35,
+     "zone": [
+      -200,
+      -60
+     ],
+     "glow": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   }
+  },
+  "freno": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 800,
+     "s": 1.15,
+     "items": [
+      [
+       "brake",
+       "",
+       ""
+      ],
+      [
+       "wheel",
+       "",
+       ""
+      ]
+     ],
+     "cols": 2,
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#5e1a2a",
+    "c2": "#1d0810"
+   }
+  },
+  "cambio": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "k1",
+     "type": "kicker",
+     "x": 540,
+     "y": 500,
+     "text": "IMPULSIVO",
+     "size": 110,
+     "color": "#ff4d5e",
+     "hidden": true
+    },
+    {
+     "id": "k2",
+     "type": "kicker",
+     "x": 540,
+     "y": 800,
+     "text": "GROSERO",
+     "size": 110,
+     "color": "#ff4d5e",
+     "hidden": true
+    },
+    {
+     "id": "k3",
+     "type": "kicker",
+     "x": 540,
+     "y": 1100,
+     "text": "SIN TERMINAR NADA",
+     "size": 84,
+     "color": "#ff4d5e",
+     "hidden": true
+    }
+   ],
+   "bgOpts": {
+    "c1": "#20242c",
+    "c2": "#08090c"
+   }
+  },
+  "corazon": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 800,
+     "s": 1.15,
+     "items": [
+      [
+       "heart",
+       "CORAZÓN",
+       "x"
+      ],
+      [
+       "brain",
+       "CEREBRO",
+       "ok"
+      ]
+     ],
+     "cols": 2,
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#5e1a2a",
+    "c2": "#1d0810"
+   }
+  },
+  "barra": {
+   "bg": "railroad",
+   "sepia": true,
+   "actors": [
+    {
+     "id": "g",
+     "char": "gage",
+     "x": 480,
+     "y": 2400,
+     "s": 2.0,
+     "expr": "happy",
+     "pose": {
+      "armL": [
+       10,
+       -20
+      ],
+      "handL": "grip"
+     }
+    }
+   ],
+   "props": [
+    {
+     "id": "b",
+     "type": "ironbar",
+     "x": 700,
+     "y": 1400,
+     "s": 0.85,
+     "r": -8,
+     "z": 2
+    }
+   ]
+  },
+  "titulo": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "t",
+     "type": "title2",
+     "x": 540,
+     "y": 760,
+     "s": 1.0,
+     "value": 0,
+     "l1": "SUS AMIGOS DECÍAN",
+     "l2": "GAGE YA",
+     "l3": "NO ES GAGE"
+    }
+   ],
+   "bgOpts": {
+    "c1": "#20242c",
+    "c2": "#08090c"
+   }
+  }
+ },
+ "beats": [
+  {
+   "text": "Este es el caso que todo médico estudia.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "serious",
+       "talk": 1.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "1848. Un capataz llamado Phineas Gage trabajaba con explosivos en las vías del tren.",
+   "shots": [
+    {
+     "scene": "vias",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 1000,
+      "z": 1.0,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "gageC",
+     "from": "Phineas",
+     "cam": {
+      "on": "g",
+      "shot": "close",
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Una chispa. Una explosión.",
+   "shots": [
+    {
+     "scene": "vias",
+     "cam": {
+      "x": 540,
+      "y": 1100,
+      "z": 1.0,
+      "move": "crash"
+     },
+     "do": [
+      {
+       "on": "explosión",
+       "target": "bum",
+       "show": true,
+       "dur": 0.05
+      },
+      {
+       "on": "explosión",
+       "target": "bum",
+       "value": 1,
+       "dur": 0.8,
+       "camshake": 22,
+       "sfx": "thud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y una barra de hierro de más de un metro le entró por la mejilla... y le salió por arriba de la cabeza.",
+   "shots": [
+    {
+     "scene": "rayos",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "entró",
+       "target": "x",
+       "value": 1,
+       "dur": 1.6,
+       "sfx": "thud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ana dijo que tenía que haber muerto en el acto.",
+   "shots": [
+    {
+     "scene": "anaC",
+     "cam": {
+      "on": "ana",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "expr": "shock",
+       "talk": 1.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Leo dijo que mínimo quedaba en coma.",
+   "shots": [
+    {
+     "scene": "aula",
+     "cam": {
+      "on": "leo",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "leo",
+       "expr": "worried",
+       "talk": 1.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Pero minutos después, Phineas estaba sentado... hablando. Sobrevivió.",
+   "shots": [
+    {
+     "scene": "gageC",
+     "cam": {
+      "on": "g",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "hablando",
+       "target": "g",
+       "talk": 1.8,
+       "expr": "neutral"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "El problema vino después. Sus amigos decían: Gage ya no es Gage.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "serious"
+      }
+     ]
+    },
+    {
+     "scene": "titulo",
+     "from": "Sus",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Gage",
+       "target": "t",
+       "value": 1,
+       "dur": 0.45,
+       "camshake": 12,
+       "sfx": "thud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "La barra destruyó una parte de su lóbulo frontal, la zona que está justo detrás de la frente.",
+   "shots": [
+    {
+     "scene": "frontal",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "frontal",
+       "target": "br",
+       "glow": 1,
+       "dur": 0.5,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Esa zona es como el freno y el volante de tu personalidad.",
+   "shots": [
+    {
+     "scene": "freno",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "freno",
+       "target": "i",
+       "value": 1,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "volante",
+       "target": "i",
+       "value": 2,
+       "dur": 0.3,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Te ayuda a controlar impulsos, a pensar antes de hablar, a planear, a respetar a los demás.",
+   "shots": [
+    {
+     "scene": "frontal",
+     "cam": {
+      "x": 360,
+      "y": 760,
+      "z": 1.4,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "br",
+       "glow": 1,
+       "dur": 0.01
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Phineas había sido un hombre responsable y respetado.",
+   "shots": [
+    {
+     "scene": "gageC",
+     "cam": {
+      "on": "g",
+      "shot": "close",
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "g",
+       "expr": "happy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Después del accidente se volvió impulsivo, grosero, incapaz de terminar lo que empezaba.",
+   "shots": [
+    {
+     "scene": "cambio",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "impulsivo",
+       "target": "k1",
+       "pop": true,
+       "sfx": "pop"
+      },
+      {
+       "on": "grosero",
+       "target": "k2",
+       "pop": true,
+       "sfx": "pop"
+      },
+      {
+       "on": "incapaz",
+       "target": "k3",
+       "pop": true,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Su caso le enseñó al mundo algo que hoy parece obvio: que la personalidad no está en el corazón... está en el cerebro.",
+   "shots": [
+    {
+     "scene": "corazon",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "corazón",
+       "target": "i",
+       "value": 1,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "cerebro",
+       "target": "i",
+       "value": 2,
+       "dur": 0.3,
+       "sfx": "ding"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Vivió doce años más. Y la barra lo acompañó a todas partes, como su posesión más preciada.",
+   "shots": [
+    {
+     "scene": "barra",
+     "cam": {
+      "on": "g",
+      "shot": "medium",
+      "move": "drift"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Ana me preguntó qué aprendimos de él.",
+   "shots": [
+    {
+     "scene": "anaC",
+     "cam": {
+      "on": "ana",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "expr": "think",
+       "talk": 1.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Le dije: que se puede sobrevivir a un hierro en la cabeza... pero no a perder el filtro.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "smirk",
+       "talk": 3.0,
+       "arms": {
+        "armR": [
+         14,
+         92
+        ],
+        "handR": "open"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

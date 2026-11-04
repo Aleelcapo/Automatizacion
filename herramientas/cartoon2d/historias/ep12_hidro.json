@@ -1,0 +1,688 @@
+{
+ "out": "Doctor_ep12",
+ "title": "El hombre que vivía casi sin cerebro",
+ "audio": "../audios/medico_2.m4a",
+ "sfx_gain": 0.38,
+ "maxShot": 2.4,
+ "tail": 1.2,
+ "scenes": {
+  "houseC": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 690,
+     "y": 2560,
+     "s": 2.25,
+     "expr": "smug",
+     "pose": {
+      "propL": "cane",
+      "armL": [
+       8,
+       -6
+      ],
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "entrada": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 1450,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "smug",
+     "pose": {
+      "armL": [
+       8,
+       -6
+      ],
+      "propL": "cane",
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "aula": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "leo",
+     "char": "leo",
+     "x": 560,
+     "y": 2520,
+     "s": 2.15,
+     "expr": "neutral",
+     "pose": {
+      "propR": "notebook",
+      "armR": [
+       8,
+       -116
+      ]
+     }
+    }
+   ]
+  },
+  "anaC": {
+   "bg": "corridor",
+   "actors": [
+    {
+     "id": "ana",
+     "char": "ana",
+     "x": 520,
+     "y": 2600,
+     "s": 2.3,
+     "expr": "neutral",
+     "pose": {
+      "propR": "clipboard",
+      "armR": [
+       10,
+       -118
+      ]
+     }
+    }
+   ]
+  },
+  "hombre": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "h",
+     "char": "hombre8",
+     "x": 540,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "neutral"
+    }
+   ]
+  },
+  "pierna": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "h",
+     "char": "hombre8",
+     "x": 540,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "worried"
+    }
+   ]
+  },
+  "familia": {
+   "bg": "kitchen",
+   "actors": [
+    {
+     "id": "h",
+     "char": "hombre8",
+     "x": 380,
+     "y": 2380,
+     "s": 1.8,
+     "expr": "happy"
+    },
+    {
+     "id": "f",
+     "char": "madre",
+     "x": 720,
+     "y": 2380,
+     "s": 1.75,
+     "expr": "happy"
+    }
+   ]
+  },
+  "mri": {
+   "bg": "mriroom"
+  },
+  "scan": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "sc",
+     "type": "hydroscan",
+     "x": 540,
+     "y": 800,
+     "s": 1.25,
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#20242c",
+    "c2": "#08090c"
+   }
+  },
+  "bebe": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 780,
+     "s": 2.0,
+     "items": [
+      [
+       "baby",
+       "HIDROCEFALIA",
+       ""
+      ]
+     ]
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a4a6e",
+    "c2": "#0a1a2a"
+   }
+  },
+  "liquido": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "f",
+     "type": "fluidbrain",
+     "x": 540,
+     "y": 820,
+     "s": 1.2,
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a4a6e",
+    "c2": "#0a1a2a"
+   }
+  },
+  "adapta": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "n",
+     "type": "neurons",
+     "x": 540,
+     "y": 820,
+     "s": 1.25,
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   }
+  },
+  "titulo": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "t",
+     "type": "title2",
+     "x": 540,
+     "y": 760,
+     "s": 1.0,
+     "value": 0,
+     "l1": "SE LLAMA",
+     "l2": "PLASTICIDAD",
+     "l3": "CEREBRAL"
+    }
+   ],
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   }
+  },
+  "mundo": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "g",
+     "type": "globe",
+     "x": 540,
+     "y": 800,
+     "s": 1.25,
+     "value": 1
+    },
+    {
+     "id": "k",
+     "type": "kicker",
+     "x": 540,
+     "y": 1300,
+     "text": "DIO LA VUELTA AL MUNDO",
+     "size": 72,
+     "color": "#ffcf3a",
+     "hidden": true
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a2a5e",
+    "c2": "#080c22"
+   }
+  }
+ },
+ "beats": [
+  {
+   "text": "Un hombre de 44 años vino por algo simple: le fallaba un poco la pierna.",
+   "shots": [
+    {
+     "scene": "hombre",
+     "cam": {
+      "on": "h",
+      "shot": "medium",
+      "move": "push"
+     }
+    },
+    {
+     "scene": "pierna",
+     "from": "pierna",
+     "cam": {
+      "x": 560,
+      "y": 1900,
+      "z": 1.5,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "pierna",
+       "target": "h",
+       "sway": 0.6,
+       "dur": 0.3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Trabajaba, estaba casado, tenía dos hijos. Una vida completamente normal.",
+   "shots": [
+    {
+     "scene": "familia",
+     "cam": {
+      "on": [
+       "h",
+       "f"
+      ],
+      "shot": "medium",
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0.2,
+       "target": "h",
+       "look": [
+        0.8,
+        0
+       ]
+      },
+      {
+       "at": 0.2,
+       "target": "f",
+       "look": [
+        -0.8,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Leo pidió una resonancia de rutina.",
+   "shots": [
+    {
+     "scene": "mri",
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Cuando la vio, pensó que la máquina estaba rota.",
+   "shots": [
+    {
+     "scene": "aula",
+     "cam": {
+      "on": "leo",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "leo",
+       "expr": "shock"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ana pensó que habían cargado la imagen de otra persona.",
+   "shots": [
+    {
+     "scene": "anaC",
+     "cam": {
+      "on": "ana",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "expr": "confused",
+       "talk": 2.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Pero no. La cabeza del hombre estaba casi vacía. Llena de líquido. Y su cerebro... era una capa finita, aplastada contra el cráneo.",
+   "shots": [
+    {
+     "scene": "scan",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "vacía",
+       "target": "sc",
+       "value": 1,
+       "dur": 1.2,
+       "sfx": "ding"
+      }
+     ]
+    },
+    {
+     "scene": "scan",
+     "from": "capa",
+     "cam": {
+      "x": 700,
+      "y": 700,
+      "z": 1.6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "sc",
+       "value": 1,
+       "dur": 0.01
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "De bebé había tenido hidrocefalia: el líquido que protege al cerebro no se drenaba bien y se iba acumulando.",
+   "shots": [
+    {
+     "scene": "bebe",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "liquido",
+     "from": "líquido",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "acumulando",
+       "target": "f",
+       "value": 0.5,
+       "dur": 1.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Le habían puesto un tubo para sacarlo. Pero con los años, el líquido siguió empujando, despacio, durante décadas.",
+   "shots": [
+    {
+     "scene": "liquido",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "f",
+       "value": 0.5,
+       "dur": 0.01
+      },
+      {
+       "on": "siguió",
+       "target": "f",
+       "value": 1,
+       "dur": 3.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y acá está lo increíble. Como pasó tan lento, su cerebro se fue adaptando.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "serious",
+       "talk": 1.2
+      }
+     ]
+    },
+    {
+     "scene": "adapta",
+     "from": "Como",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "adaptando",
+       "target": "n",
+       "value": 0.4,
+       "dur": 1.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Las funciones se reacomodaron en el espacio que quedaba. Las neuronas que sobrevivieron aprendieron a hacer el trabajo de las que faltaban.",
+   "shots": [
+    {
+     "scene": "adapta",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.1,
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "n",
+       "value": 0.4,
+       "dur": 0.01
+      },
+      {
+       "on": "neuronas",
+       "target": "n",
+       "value": 1,
+       "dur": 2.4,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Se llama plasticidad cerebral.",
+   "shots": [
+    {
+     "scene": "titulo",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Se",
+       "target": "t",
+       "value": 1,
+       "dur": 0.45,
+       "camshake": 16,
+       "sfx": "thud",
+       "lead": -0.25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y este caso dio la vuelta al mundo porque demostró lo que el cerebro es capaz de hacer para no rendirse.",
+   "shots": [
+    {
+     "scene": "mundo",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "mundo",
+       "target": "k",
+       "pop": true,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Le volvimos a drenar el líquido y su pierna mejoró.",
+   "shots": [
+    {
+     "scene": "hombre",
+     "cam": {
+      "on": "h",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "h",
+       "expr": "happy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Leo todavía no lo puede creer.",
+   "shots": [
+    {
+     "scene": "aula",
+     "cam": {
+      "on": "leo",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "leo",
+       "expr": "confused"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Yo le dije: tranquilo. Conozco gente con el cerebro completo que lo usa bastante menos.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "smirk",
+       "talk": 3.0,
+       "arms": {
+        "armR": [
+         14,
+         92
+        ],
+        "handR": "open"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

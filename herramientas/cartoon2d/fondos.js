@@ -143,3 +143,14 @@ export function surgery() {
   <rect x="140" y="1100" width="800" height="90" rx="20" fill="#e6eef0" ${st()}/><rect x="220" y="1190" width="80" height="300" fill="#9aa6b8"/><rect x="780" y="1190" width="80" height="300" fill="#9aa6b8"/><path d="M200 1100 Q540 1000 880 1100 Z" fill="#6aa0c0" ${st()}/>
   <rect x="820" y="620" width="200" height="140" rx="12" fill="#2b2f36" ${st(3)}/><path d="M840 690 l40 0 l10 -30 l10 50 l10 -20 l90 0" fill="none" stroke="#3ef08a" stroke-width="5"/><rect y="1500" width="1080" height="420" fill="#4a6e6a"/></g>`;
 }
+
+export function railroad() {
+  return `<g filter="url(#b2)"><rect width="1080" height="1920" fill="#e8d2a8"/><path d="M0 900 L200 600 L380 820 L560 520 L780 800 L960 580 L1080 700 L1080 1300 L0 1300 Z" fill="#a88a64"/><path d="M0 1050 L300 860 L560 1000 L820 840 L1080 980 L1080 1300 L0 1300 Z" fill="#8a7050"/>
+  <rect y="1250" width="1080" height="670" fill="#b89a70"/><path d="M380 1250 L-200 1920 M700 1250 L1280 1920" stroke="#5a4a3a" stroke-width="22"/>${Array.from({ length: 9 }, (_, i) => { const y = 1270 + i * i * 9 + i * 20, w = 340 + i * 150; return `<rect x="${540 - w / 2}" y="${y}" width="${w}" height="${12 + i * 3}" fill="#6a4a2a"/>`; }).join('')}
+  <rect x="80" y="980" width="80" height="300" fill="#7a5a3a" ${st()}/><circle cx="880" cy="1050" r="70" fill="#9a8a7a" opacity=".6"/></g>`;
+}
+export function party() {
+  return `<g filter="url(#b2)"><rect width="1080" height="1920" fill="#2e2448"/><path d="M0 200 Q270 320 540 200 Q810 320 1080 200" fill="none" stroke="#1a1430" stroke-width="5"/>${Array.from({ length: 11 }, (_, i) => { const x = i * 108, y = 200 + Math.sin(i / 10 * Math.PI * 2) * 0 + (i % 5 === 0 ? 0 : 60 * Math.sin((i % 5) / 5 * Math.PI)); return `<circle cx="${x}" cy="${y + 20}" r="18" fill="${['#ffcf3a', '#ff7ab6', '#4fd1ff', '#3ddc84'][i % 4]}"/><circle cx="${x}" cy="${y + 20}" r="40" fill="${['#ffcf3a', '#ff7ab6', '#4fd1ff', '#3ddc84'][i % 4]}" opacity=".25"/>`; }).join('')}
+  ${[[150, 900, '#4a3a6a'], [380, 860, '#5a4a7a'], [760, 880, '#4a3a6a'], [960, 900, '#5a4a7a']].map(([x, y, c]) => `<ellipse cx="${x}" cy="${y}" rx="44" ry="52" fill="${c}"/><rect x="${x - 70}" y="${y + 50}" width="140" height="420" rx="40" fill="${c}"/>`).join('')}
+  <rect y="1300" width="1080" height="620" fill="#3a2e58"/>${Array.from({ length: 40 }, (_, i) => `<rect x="${(i * 211) % 1080}" y="${(i * 397) % 1300}" width="12" height="20" fill="${['#ffcf3a', '#ff7ab6', '#4fd1ff'][i % 3]}" transform="rotate(${i * 37} ${(i * 211) % 1080} ${(i * 397) % 1300})"/>`).join('')}</g>`;
+}

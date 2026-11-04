@@ -1,0 +1,810 @@
+{
+ "out": "Doctor_ep11",
+ "title": "La mujer que decía que su esposo era un impostor",
+ "audio": "../audios/medico_1.m4a",
+ "sfx_gain": 0.38,
+ "maxShot": 2.4,
+ "tail": 1.2,
+ "scenes": {
+  "houseC": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 690,
+     "y": 2560,
+     "s": 2.25,
+     "expr": "smug",
+     "pose": {
+      "propL": "cane",
+      "armL": [
+       8,
+       -6
+      ],
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "entrada": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 1450,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "smug",
+     "pose": {
+      "armL": [
+       8,
+       -6
+      ],
+      "propL": "cane",
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "aula": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "leo",
+     "char": "leo",
+     "x": 560,
+     "y": 2520,
+     "s": 2.15,
+     "expr": "neutral",
+     "pose": {
+      "propR": "notebook",
+      "armR": [
+       8,
+       -116
+      ]
+     }
+    }
+   ]
+  },
+  "anaC": {
+   "bg": "corridor",
+   "actors": [
+    {
+     "id": "ana",
+     "char": "ana",
+     "x": 520,
+     "y": 2600,
+     "s": 2.3,
+     "expr": "neutral",
+     "pose": {
+      "propR": "clipboard",
+      "armR": [
+       10,
+       -118
+      ]
+     }
+    }
+   ]
+  },
+  "pareja": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "m",
+     "char": "mujer",
+     "x": 330,
+     "y": 2400,
+     "s": 1.85,
+     "expr": "angry",
+     "pose": {
+      "reachL": [
+       150,
+       -460
+      ],
+      "handL": "grip"
+     }
+    },
+    {
+     "id": "h",
+     "char": "hombre",
+     "x": 770,
+     "y": 2400,
+     "s": 1.85,
+     "expr": "worried"
+    }
+   ]
+  },
+  "mujerC": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "m",
+     "char": "mujer",
+     "x": 540,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "angry"
+    }
+   ]
+  },
+  "esposoC": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "h",
+     "char": "hombre",
+     "x": 540,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "worried"
+    }
+   ]
+  },
+  "telefono": {
+   "bg": "bedroom",
+   "actors": [
+    {
+     "id": "m",
+     "char": "mujer",
+     "x": 540,
+     "y": 2450,
+     "s": 2.1,
+     "expr": "happy",
+     "pose": {
+      "reachL": [
+       110,
+       -760
+      ],
+      "handL": "grip"
+     }
+    }
+   ],
+   "props": [
+    {
+     "id": "tel",
+     "type": "icons",
+     "x": 700,
+     "y": 820,
+     "s": 0.42,
+     "items": [
+      [
+       "phone",
+       "",
+       ""
+      ]
+     ],
+     "ring": "#3ddc84"
+    }
+   ]
+  },
+  "scan": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "sc",
+     "type": "brainscan",
+     "x": 540,
+     "y": 800,
+     "s": 1.25,
+     "value": 1
+    }
+   ],
+   "bgOpts": {
+    "c1": "#20242c",
+    "c2": "#08090c"
+   }
+  },
+  "zonas": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "z",
+     "type": "twozones",
+     "x": 540,
+     "y": 820,
+     "s": 1.35,
+     "broken": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   }
+  },
+  "sentir": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 800,
+     "s": 1.15,
+     "items": [
+      [
+       "face",
+       "CARA",
+       ""
+      ],
+      [
+       "heart",
+       "CARIÑO",
+       ""
+      ]
+     ],
+     "cols": 2,
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#5e1a2a",
+    "c2": "#1d0810"
+   }
+  },
+  "impostor": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 760,
+     "s": 2.0,
+     "items": [
+      [
+       "face",
+       "",
+       ""
+      ]
+     ],
+     "ring": "#ff4d5e"
+    },
+    {
+     "id": "k",
+     "type": "kicker",
+     "x": 540,
+     "y": 1260,
+     "text": "IMPOSTOR",
+     "size": 120,
+     "color": "#ff4d5e",
+     "hidden": true
+    }
+   ],
+   "bgOpts": {
+    "c1": "#20242c",
+    "c2": "#08090c"
+   }
+  },
+  "voz": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "ea",
+     "type": "ear",
+     "x": 620,
+     "y": 700,
+     "s": 1.2
+    },
+    {
+     "id": "ok",
+     "type": "icons",
+     "x": 540,
+     "y": 1300,
+     "s": 0.9,
+     "items": [
+      [
+       "heart",
+       "OTRO CAMINO",
+       "ok"
+      ]
+     ],
+     "ring": "#3ddc84"
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a4a5e",
+    "c2": "#0a1a24"
+   }
+  },
+  "titulo": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "t",
+     "type": "title2",
+     "x": 540,
+     "y": 760,
+     "s": 1.0,
+     "value": 0,
+     "l1": "SÍNDROME",
+     "l2": "DE CAPGRAS"
+    }
+   ],
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   }
+  }
+ },
+ "beats": [
+  {
+   "text": "Una mujer llegó furiosa, agarrada del brazo de su esposo, y me dijo: este hombre no es mi marido. Es un impostor.",
+   "shots": [
+    {
+     "scene": "pareja",
+     "cam": {
+      "on": [
+       "m",
+       "h"
+      ],
+      "shot": "medium",
+      "move": "push"
+     }
+    },
+    {
+     "scene": "mujerC",
+     "from": "este",
+     "cam": {
+      "on": "m",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "este",
+       "target": "m",
+       "talk": 3.0,
+       "arms": "explainL"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ana pensó que era una pelea de pareja.",
+   "shots": [
+    {
+     "scene": "anaC",
+     "cam": {
+      "on": "ana",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "expr": "smug",
+       "talk": 1.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Leo dijo que quizás él la estaba engañando.",
+   "shots": [
+    {
+     "scene": "aula",
+     "cam": {
+      "on": "leo",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "leo",
+       "expr": "think",
+       "talk": 1.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Pero ella reconocía todo: su cara, su voz, su ropa.",
+   "shots": [
+    {
+     "scene": "esposoC",
+     "cam": {
+      "on": "h",
+      "shot": "close",
+      "move": "drift"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Decía que era idéntico... demasiado idéntico.",
+   "shots": [
+    {
+     "scene": "mujerC",
+     "cam": {
+      "on": "m",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "m",
+       "expr": "confused",
+       "talk": 2.0,
+       "look": [
+        0.6,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y por teléfono, en cambio, lo reconocía perfectamente.",
+   "shots": [
+    {
+     "scene": "telefono",
+     "cam": {
+      "on": "m",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "reconocía",
+       "target": "m",
+       "talk": 1.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Le hicimos estudios. Había tenido un pequeño golpe en la cabeza meses atrás.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "serious",
+       "talk": 1.2
+      }
+     ]
+    },
+    {
+     "scene": "scan",
+     "from": "Había",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Cuando ves a alguien que querés, tu cerebro hace dos cosas al mismo tiempo.",
+   "shots": [
+    {
+     "scene": "zonas",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Una zona reconoce la cara. Y otra, la de las emociones, te hace sentir algo: cariño, confianza, familiaridad.",
+   "shots": [
+    {
+     "scene": "sentir",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "cara",
+       "target": "i",
+       "value": 1,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "cariño",
+       "target": "i",
+       "value": 2,
+       "dur": 0.3,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "En ella, el cable entre esas dos zonas se había dañado.",
+   "shots": [
+    {
+     "scene": "zonas",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.15,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "dañado",
+       "target": "z",
+       "broken": 1,
+       "dur": 0.3,
+       "sfx": "thud",
+       "camshake": 10
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Veía la cara de su esposo... pero no sentía nada.",
+   "shots": [
+    {
+     "scene": "esposoC",
+     "cam": {
+      "on": "h",
+      "shot": "face",
+      "move": "push"
+     }
+    },
+    {
+     "scene": "mujerC",
+     "from": "pero",
+     "cam": {
+      "on": "m",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "m",
+       "expr": {
+        "mood": "neutral",
+        "lid": 0.3
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y el cerebro odia no tener explicación. Así que inventó una:",
+   "shots": [
+    {
+     "scene": "zonas",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "z",
+       "broken": 1,
+       "dur": 0.01
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "si se ve igual pero no lo siento, entonces es un impostor.",
+   "shots": [
+    {
+     "scene": "impostor",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "impostor",
+       "target": "k",
+       "pop": true,
+       "camshake": 10,
+       "sfx": "thud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Por teléfono no pasaba, porque la voz viaja por otro camino que sí estaba sano.",
+   "shots": [
+    {
+     "scene": "voz",
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Se llama síndrome de Capgras.",
+   "shots": [
+    {
+     "scene": "titulo",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Se",
+       "target": "t",
+       "value": 1,
+       "dur": 0.45,
+       "camshake": 16,
+       "sfx": "thud",
+       "lead": -0.25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Con medicación y tiempo, la conexión mejoró y volvió a reconocerlo de verdad.",
+   "shots": [
+    {
+     "scene": "zonas",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "z",
+       "broken": 1,
+       "dur": 0.01
+      },
+      {
+       "on": "mejoró",
+       "target": "z",
+       "broken": 0,
+       "dur": 0.3,
+       "sfx": "ding"
+      }
+     ]
+    },
+    {
+     "scene": "pareja",
+     "from": "volvió",
+     "cam": {
+      "on": [
+       "m",
+       "h"
+      ],
+      "shot": "medium",
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "m",
+       "expr": "happy",
+       "look": [
+        0.8,
+        0
+       ]
+      },
+      {
+       "at": 0,
+       "target": "h",
+       "expr": "happy",
+       "look": [
+        -0.8,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "El esposo me preguntó qué podía hacer mientras tanto.",
+   "shots": [
+    {
+     "scene": "esposoC",
+     "cam": {
+      "on": "h",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "h",
+       "talk": 2.0,
+       "expr": "worried"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Le dije: llamala por teléfono. Al menos así le caés bien.",
+   "shots": [
+    {
+     "scene": "houseC",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "smirk",
+       "talk": 2.6,
+       "arms": {
+        "armR": [
+         14,
+         92
+        ],
+        "handR": "open"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
