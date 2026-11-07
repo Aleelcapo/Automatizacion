@@ -38,6 +38,8 @@ function actorState(sc, a, t) {
     if (ac.arms) st.pose = blend(st.pose, expandPose(ac.arms), p);
     if (ac.expr || ac.face) st.face = blend(st.face, { ...FACE0, ...expandFace(ac.expr), ...(ac.face || {}) }, p);
     if (ac.look != null) st.face = blend(st.face, { look: ac.look }, p);
+    if (ac.turn != null) st.pose = blend(st.pose, { turn: ac.turn }, p);
+    if (ac.no) { const k = t - ac.t; if (k < .9) st.head.dx += Math.sin(k / .9 * Math.PI * 4) * 9 * (1 - k / .9); }
     if (ac.move) {
       const md = ac.move.dur ?? 1, mp = clamp((t - ac.t) / md, 0, 1), e = ac.move.linear ? mp : ease(mp);
       const from = { x: st.x, y: st.y, s: st.s };
@@ -66,6 +68,7 @@ function actorState(sc, a, t) {
   st.head.dx += (noise(t * .5, seed + 'x') - .5) * 3;
   if (st.sway) { st.rot += Math.sin(t * 2.2) * 3.2 * st.sway; st.head.tilt += Math.sin(t * 2.2 + 1) * 6 * st.sway; st.x += Math.sin(t * 1.1) * 14 * st.sway; }
   st.breath = Math.sin(t * 2.4 + hash(seed) * 6) * 3;
+  st.rot += Math.sin(t * .9 + hash(seed) * 5) * .6;
   if (st.walk != null) st.bob = Math.abs(Math.sin(st.walk)) * -10; else st.bob = 0;
   return st;
 }

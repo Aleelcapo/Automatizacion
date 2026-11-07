@@ -85,7 +85,7 @@ function eyesR(c, e, id) {
   const open = e.open ?? 1, lid = Math.max(e.lid ?? c.lid ?? 0, 0);
   let s = '';
   for (const side of [-1, 1]) {
-    const x = side * c.ex, y = c.ey, w = c.ew, h = c.eh;
+    const x = side * c.ex, y = c.ey, w = c.ew * (1 - .3 * Math.max(0, side * (e.turn || 0))), h = c.eh * (e.wide || 1);
     const X = q => f(x + side * q);
     if (open < 0.15) {
       s += line(`M${X(-w)} ${f(y + 1)} Q${X(0)} ${f(y + h * .9)} ${X(w)} ${f(y - 1)}`, 4.6, O);
@@ -146,13 +146,17 @@ function face(c, e, id) {
   if (e.scars) s += line('M-44 10 l18 14 M30 -30 l14 22 M-20 60 l22 -6', 3.4, '#a8604a');
   if (e.tears) s += [-1, 1].map(sd => `<path d="M${sd * c.ex - 4} ${c.ey + 8} q-4 ${30 * e.tears} 2 ${60 * e.tears} q8 -2 6 -${60 * e.tears} Z" fill="#9fd8ff" opacity=".85" stroke="#4a8fc0" stroke-width="1.5"/>`).join('');
   if (e.sweat) s += `<path d="M58 -40 q8 14 0 20 q-8 -6 0 -20 Z" fill="#bfe3ff" stroke="${O}" stroke-width="1.5"/>`;
+  const TX = (e.turn || 0) * 26;
+  s += `<g transform="translate(${f(TX)} 0)">`;
   s += eyesR(c, e, id);
   s += line(c.nose, 3.6, c.noseCol || '#9b6550');
   if (c.mustache) { const mg = new G(); mg.poly(c.mustache, c.mustacheCol); s += mg; }
   s += mouthR(c, e);
-  const hf = new G(); hf.poly(c.hairFront, c.hair); hf.sh(c.hairShade || ''); s += hf;
-  s += c.hairHi || '';
+  s += `</g>`;
+  const hf = new G(); hf.poly(c.hairFront, c.hair); hf.sh(c.hairShade || ''); s += `<g transform="translate(${f(TX * .3)} 0)">${hf}${c.hairHi || ''}</g>`;
+  s += `<g transform="translate(${f(TX)} 0)">`;
   if (c.glasses) s += `<g fill="#ffffff14" stroke="#2b2b30" stroke-width="2.4"><rect x="-50" y="${c.ey - 16}" width="40" height="30" rx="7"/><rect x="10" y="${c.ey - 16}" width="40" height="30" rx="7"/></g>` + line(`M-10 ${c.ey - 4} Q0 ${c.ey - 9} 10 ${c.ey - 4} M-50 ${c.ey - 8} L-64 ${c.ey - 12} M50 ${c.ey - 8} L64 ${c.ey - 12}`, 4.4, '#2b2b30');
+  s += `</g>`;
   return s;
 }
 // cabeza de espaldas (para planos sobre el hombro)
@@ -350,6 +354,8 @@ export function drawCharacter(id, pose = {}) {
   if (c.tie) { tg.poly(`M-8 ${sh - 6} L8 ${sh - 6} L13 ${sh + 150} L0 ${sh + 170} L-13 ${sh + 150} Z`, c.tie); tg.det(line(`M-6 ${sh + 40} L9 ${sh + 30} M-9 ${sh + 90} L11 ${sh + 80} M-11 ${sh + 140} L12 ${sh + 130}`, 4, '#ffffff40')); }
   if (id === 'house') tg.det(`<path d="M-28 ${sh - 16} L-10 ${sh + 22} L-2 ${sh - 10} M28 ${sh - 16} L10 ${sh + 22} L2 ${sh - 10}" fill="${c.shirt}" stroke="${O}" stroke-width="3" stroke-linejoin="round"/>`);
   if (id === 'ana') tg.det(line(`M-22 ${sh + 8} Q0 ${sh + 34} 22 ${sh + 8}`, 2, '#f0c860') + `<circle cx="0" cy="${sh + 33}" r="4" fill="#f0c860" stroke="${O}" stroke-width="2"/>`);
+  const T = pose.turn || 0, iT = s.length;
+  s += `<g transform="translate(${f(T * 8)} 0) scale(${f(1 - .13 * Math.abs(T))} 1)">`;
   s += tg;
   // solapas
   const lp = new G();
@@ -367,9 +373,10 @@ export function drawCharacter(id, pose = {}) {
     lp.det(`<circle cx="-10" cy="${vB + 36}" r="5" fill="${topS}" stroke="${O}" stroke-width="2.4"/><circle cx="-10" cy="${vB + 84}" r="5" fill="${topS}" stroke="${O}" stroke-width="2.4"/>` + line(`M-60 ${hp - 20} h34 M28 ${hp - 20} h34`, 3, topS));
   }
   s += lp;
+  s += `</g>`;
   // cabeza
   const hd = pose.head || {};
-  s += `<g transform="translate(${hd.dx || 0} ${c.headY + (hd.dy || 0)}) rotate(${hd.tilt || 0} 0 120) scale(${c.headS})">${face(c, pose.face || {}, uid)}</g>`;
+  s += `<g transform="translate(${f((hd.dx || 0) + T * 14)} ${c.headY + (hd.dy || 0)}) rotate(${hd.tilt || 0} 0 120) scale(${f(c.headS * (1 - .1 * Math.abs(T)))} ${c.headS})">${face(c, { ...(pose.face || {}), turn: T }, uid)}</g>`;
   // brazos
   const [L1, L2] = [158, 138];
   const arm = (side, ang, handKind, pocket, prop, reach) => {
@@ -420,8 +427,11 @@ export function drawCharacter(id, pose = {}) {
     }
     return out;
   };
-  s += arm(1, pose.armL, pose.handL, pose.pocketL, pose.propL, pose.reachL);   // brazo izquierdo del personaje (derecha de pantalla)
-  s += arm(-1, pose.armR, pose.handR, pose.pocketR, pose.propR, pose.reachR);
+  const a1 = arm(1, pose.armL, pose.handL, pose.pocketL, pose.propL, pose.reachL);   // brazo izquierdo del personaje (derecha de pantalla)
+  const a2 = arm(-1, pose.armR, pose.handR, pose.pocketR, pose.propR, pose.reachR);
+  if (T > .35) s = s.slice(0, iT) + a1 + s.slice(iT) + a2;
+  else if (T < -.35) s = s.slice(0, iT) + a2 + s.slice(iT) + a1;
+  else s += a1 + a2;
   return `<g transform="scale(${c.scale})">${s}</g>`;
 }
 export { drawHand };

@@ -18,15 +18,16 @@ export const LIGHT = (warm = .9, cool = .9) => `<rect width="1080" height="1920"
 
 const blinds = (x, y, w, h, open = 0) => { let s = `<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="url(#sky)" ${st()}/>`; s += skyline(x, y + h * .55, w, h * .45); for (let yy = y + 10; yy < y + h; yy += 24) s += `<rect x="${x + 3}" y="${yy}" width="${w - 6}" height="${open ? 8 : 14}" fill="#f2eee2" opacity=".95"/><line x1="${x + 3}" y1="${yy + (open ? 8 : 14)}" x2="${x + w - 3}" y2="${yy + (open ? 8 : 14)}" stroke="#a9a49a" stroke-width="2"/>`; s += `<line x1="${x + w * .3}" y1="${y}" x2="${x + w * .3}" y2="${y + h}" stroke="#bdb6a8" stroke-width="2"/><line x1="${x + w * .7}" y1="${y}" x2="${x + w * .7}" y2="${y + h}" stroke="#bdb6a8" stroke-width="2"/>`; return s; };
 function skyline(x, y, w, h) { let s = `<g opacity=".85">`; let xx = x; let k = 7; while (xx < x + w) { const bw = 40 + (k * 37 % 50), bh = h * (.35 + (k * 53 % 60) / 100); s += `<rect x="${xx}" y="${y + h - bh}" width="${Math.min(bw, x + w - xx)}" height="${bh}" fill="#4a5578"/>`; for (let wy = y + h - bh + 10; wy < y + h - 8; wy += 18) for (let wx = xx + 8; wx < xx + bw - 8 && wx < x + w - 8; wx += 14) if ((wx * 7 + wy * 3) % 5 < 2) s += `<rect x="${wx}" y="${wy}" width="6" height="8" fill="#ffd98a"/>`; xx += bw + 4; k++; } return s + `</g>`; }
-const whiteboard = (x, y, w, h) => `<rect x="${x - 12}" y="${y - 12}" width="${w + 24}" height="${h + 24}" rx="6" fill="#b5bac0" ${st()}/><rect x="${x}" y="${y}" width="${w}" height="${h}" fill="#f9fbfa" ${st(2)}/>
+const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
+const whiteboard = (x, y, w, h, o = {}) => { const lines = o.lines || ['- mareos', '- habla arrastrada', '- alcohol: 0.37'], title = o.title || 'SÍNTOMAS', q = o.q ?? '¿NO BEBE?';
+ return `<rect x="${x - 12}" y="${y - 12}" width="${w + 24}" height="${h + 24}" rx="6" fill="#b5bac0" ${st()}/><rect x="${x}" y="${y}" width="${w}" height="${h}" fill="#f9fbfa" ${st(2)}/>
  <path d="M${x + w * .55} ${y} L${x + w * .75} ${y} L${x + w * .35} ${y + h} L${x + w * .15} ${y + h} Z" fill="#fff" opacity=".7"/>
- <g font-family="Marker,Montserrat" font-weight="800" fill="#1f3f8a" transform="rotate(-1.5 ${x} ${y})">
- <text x="${x + 40}" y="${y + 80}" font-size="54">SÍNTOMAS</text><path d="M${x + 40} ${y + 96} q150 -6 300 -2" stroke="#1f3f8a" stroke-width="5" fill="none"/>
- <text x="${x + 40}" y="${y + 170}" font-size="40">- mareos</text><text x="${x + 40}" y="${y + 236}" font-size="40">- habla arrastrada</text><text x="${x + 40}" y="${y + 302}" font-size="40">- alcohol: 0.37</text>
- <text x="${x + 40}" y="${y + 380}" font-size="50" fill="#b3261e">¿NO BEBE?</text>
- <ellipse cx="${x + 190}" cy="${y + 364}" rx="190" ry="44" fill="none" stroke="#b3261e" stroke-width="5" transform="rotate(-3 ${x + 190} ${y + 364})"/>
- <path d="M${x + 420} ${y + 160} q40 60 0 140" stroke="#1f3f8a" stroke-width="5" fill="none"/><text x="${x + 440}" y="${y + 246}" font-size="56">?</text></g>
- <rect x="${x + w - 200}" y="${y + h + 6}" width="190" height="16" rx="4" fill="#9aa0a6" ${st(2)}/><rect x="${x + w - 180}" y="${y + h - 4}" width="54" height="12" rx="4" fill="#1f3f8a"/><rect x="${x + w - 110}" y="${y + h - 4}" width="54" height="12" rx="4" fill="#b3261e"/>`;
+ <g font-family="Montserrat" font-weight="800" fill="#1f3f8a" transform="rotate(-1.5 ${x} ${y})">
+ <text x="${x + 40}" y="${y + 80}" font-size="54">${esc(title)}</text><path d="M${x + 40} ${y + 96} q150 -6 300 -2" stroke="#1f3f8a" stroke-width="5" fill="none"/>
+ ${lines.slice(0, 3).map((l, i) => `<text x="${x + 40}" y="${y + 170 + i * 66}" font-size="${l.length > 20 ? 34 : 40}">${esc(l)}</text>`).join('')}
+ ${q ? `<text x="${x + 40}" y="${y + 380}" font-size="${q.length > 14 ? 40 : 50}" fill="#b3261e">${esc(q)}</text><ellipse cx="${x + 40 + Math.min(560, q.length * 30) / 2}" cy="${y + 364}" rx="${Math.min(300, q.length * 16 + 30)}" ry="44" fill="none" stroke="#b3261e" stroke-width="5" transform="rotate(-3 ${x + 190} ${y + 364})"/>` : ''}
+ <path d="M${x + 470} ${y + 160} q40 60 0 140" stroke="#1f3f8a" stroke-width="5" fill="none"/><text x="${x + 490}" y="${y + 246}" font-size="56">?</text></g>
+ <rect x="${x + w - 200}" y="${y + h + 6}" width="190" height="16" rx="4" fill="#9aa0a6" ${st(2)}/><rect x="${x + w - 180}" y="${y + h - 4}" width="54" height="12" rx="4" fill="#1f3f8a"/><rect x="${x + w - 110}" y="${y + h - 4}" width="54" height="12" rx="4" fill="#b3261e"/>`; };
 const xrayBox = (x, y, w, h) => `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="6" fill="#d8dde2" ${st()}/><rect x="${x + 14}" y="${y + 14}" width="${w - 28}" height="${h - 28}" fill="url(#xray)"/><ellipse cx="${x + w / 2}" cy="${y + h / 2}" rx="${w * .6}" ry="${h * .6}" fill="url(#glow)" opacity=".5"/>
  <g fill="none" stroke="#5d7088" stroke-width="5" opacity=".85"><path d="M${x + w / 2} ${y + 30} v${h - 60}"/>${[0, 1, 2, 3, 4].map(i => `<path d="M${x + w / 2} ${y + 50 + i * 26} q-${w * .32} 6 -${w * .36} 30 M${x + w / 2} ${y + 50 + i * 26} q${w * .32} 6 ${w * .36} 30"/>`).join('')}</g>
  <path d="M${x + w * .38} ${y + h * .62} q${w * .2} -30 ${w * .3} 10 q-10 40 -${w * .3} 30 z" fill="#f2c063" opacity=".7"/>`;
@@ -34,13 +35,13 @@ const plant = (x, y, s = 1) => `<g transform="translate(${x} ${y}) scale(${s})">
 const ceilingLight = (x, y, w) => `<rect x="${x}" y="${y}" width="${w}" height="26" rx="4" fill="#f6f4ea" ${st(2)}/><rect x="${x - 60}" y="${y + 26}" width="${w + 120}" height="160" fill="url(#glow)" opacity=".35"/>`;
 
 export const wallPlain = () => `<rect width="1080" height="1920" fill="url(#wall)"/><rect y="1500" width="1080" height="420" fill="url(#floor)"/>`;
-export function officeA() {
+export function officeA(o = {}) {
   return `<g filter="url(#b1)"><rect width="1080" height="1920" fill="url(#wall)"/>${ceilingLight(140, 20, 520)}
   <rect x="770" y="80" width="330" height="1440" fill="#b3c2c2"/>
   <g filter="url(#b3)">${[860, 980].map((px, i) => `<ellipse cx="${px}" cy="${520 + i * 30}" rx="40" ry="46" fill="#7e6a5c"/><rect x="${px - 70}" y="${570 + i * 30}" width="140" height="420" rx="40" fill="${i ? '#7fa7b0' : '#e9ecee'}"/>`).join('')}<rect x="770" y="1050" width="330" height="460" fill="#8c9a99"/></g>
   <rect x="770" y="80" width="330" height="1440" fill="url(#glass)"/><path d="M820 80 L900 80 L800 700 L770 700 Z" fill="#fff" opacity=".25"/>
   <rect x="756" y="70" width="26" height="1460" fill="#c9d0cd" ${st()}/><rect x="760" y="760" width="340" height="18" fill="#c9d0cd" ${st(2)}/>
-  ${whiteboard(40, 230, 640, 560)}
+  ${whiteboard(40, 230, 640, 560, o)}
   ${xrayBox(150, 980, 300, 380)}
   <rect y="1500" width="1080" height="420" fill="url(#floor)"/><rect y="1490" width="1080" height="16" fill="#5d6762"/></g>`;
 }
@@ -153,4 +154,36 @@ export function party() {
   return `<g filter="url(#b2)"><rect width="1080" height="1920" fill="#2e2448"/><path d="M0 200 Q270 320 540 200 Q810 320 1080 200" fill="none" stroke="#1a1430" stroke-width="5"/>${Array.from({ length: 11 }, (_, i) => { const x = i * 108, y = 200 + Math.sin(i / 10 * Math.PI * 2) * 0 + (i % 5 === 0 ? 0 : 60 * Math.sin((i % 5) / 5 * Math.PI)); return `<circle cx="${x}" cy="${y + 20}" r="18" fill="${['#ffcf3a', '#ff7ab6', '#4fd1ff', '#3ddc84'][i % 4]}"/><circle cx="${x}" cy="${y + 20}" r="40" fill="${['#ffcf3a', '#ff7ab6', '#4fd1ff', '#3ddc84'][i % 4]}" opacity=".25"/>`; }).join('')}
   ${[[150, 900, '#4a3a6a'], [380, 860, '#5a4a7a'], [760, 880, '#4a3a6a'], [960, 900, '#5a4a7a']].map(([x, y, c]) => `<ellipse cx="${x}" cy="${y}" rx="44" ry="52" fill="${c}"/><rect x="${x - 70}" y="${y + 50}" width="140" height="420" rx="40" fill="${c}"/>`).join('')}
   <rect y="1300" width="1080" height="620" fill="#3a2e58"/>${Array.from({ length: 40 }, (_, i) => `<rect x="${(i * 211) % 1080}" y="${(i * 397) % 1300}" width="12" height="20" fill="${['#ffcf3a', '#ff7ab6', '#4fd1ff'][i % 3]}" transform="rotate(${i * 37} ${(i * 211) % 1080} ${(i * 397) % 1300})"/>`).join('')}</g>`;
+}
+
+export function patientroom(o = {}) {
+  return `<g filter="url(#b2)"><rect width="1080" height="1920" fill="${o.wall || '#d6e4e0'}"/>${ceilingLight(300, 10, 480)}
+  <rect x="640" y="260" width="360" height="460" fill="#bfe0f6" ${st()}/><path d="M640 490 h360 M820 260 v460" stroke="#26222a" stroke-width="8"/><path d="M620 250 q60 250 0 480 L600 730 L600 240 Z" fill="#8fb8a8"/>
+  <rect x="120" y="420" width="220" height="150" rx="12" fill="#2b2f36" ${st(3)}/><path d="M140 500 l40 0 l12 -40 l12 60 l12 -30 l120 0" fill="none" stroke="#3ef08a" stroke-width="6"/>
+  <rect x="90" y="300" width="14" height="1000" fill="#9aa3a8"/><path d="M60 300 h80 v110 q-40 26 -80 0 Z" fill="#dff0f6" ${st(2)}/>
+  <rect x="180" y="760" width="720" height="260" rx="40" fill="#c9d3dc" ${st()}/><rect y="1300" width="1080" height="620" fill="#aebcb8"/></g>`;
+}
+export function lab() {
+  return `<g filter="url(#b2)"><rect width="1080" height="1920" fill="#e2ecef"/>${ceilingLight(200, 10, 680)}
+  ${[0, 1, 2].map(r => `<rect x="60" y="${300 + r * 190}" width="960" height="14" fill="#9aa6b8"/>` + Array.from({ length: 9 }, (_, i) => `<rect x="${90 + i * 100}" y="${300 + r * 190 - 90 - (i * 17 + r * 11) % 50}" width="44" height="${90 + (i * 17 + r * 11) % 50}" rx="8" fill="${['#4fd1ff', '#3ddc84', '#ff7ab6', '#ffcf3a'][(i + r) % 4]}" opacity=".75" ${st(2)}/>`).join('')).join('')}
+  <rect y="1040" width="1080" height="80" fill="#3a4a5a" ${st()}/><rect y="1120" width="1080" height="800" fill="#c4ced4"/>
+  <g transform="translate(780 860)"><rect x="-30" y="100" width="160" height="80" fill="#2b2f36" ${st()}/><path d="M20 100 L60 -40 L110 -40" stroke="#2b2f36" stroke-width="26" fill="none"/><rect x="80" y="-80" width="40" height="90" rx="8" fill="#9aa6b8" ${st()}/><circle cx="60" cy="60" r="30" fill="#9aa6b8" ${st()}/></g>
+  ${[0, 1, 2, 3].map(i => `<rect x="${140 + i * 50}" y="900" width="30" height="140" rx="15" fill="#fff" fill-opacity=".6" ${st(3)}/><rect x="${143 + i * 50}" y="${960 + i * 10}" width="24" height="${76 - i * 10}" rx="10" fill="${['#ff4d5e', '#3ddc84', '#4fd1ff', '#ffcf3a'][i]}"/>`).join('')}</g>`;
+}
+export function cafeteria() {
+  return `<g filter="url(#b2)"><rect width="1080" height="1920" fill="#f0dfc4"/><rect x="60" y="200" width="960" height="300" rx="16" fill="#3a3030" ${st()}/>${['CAFÉ', 'SÁNDWICH', 'SOPA', 'POSTRES'].map((t, i) => `<text x="${110 + (i % 2) * 470}" y="${300 + Math.floor(i / 2) * 120}" font-family="Montserrat" font-weight="800" font-size="52" fill="#f6e7c1">${t}</text>`).join('')}
+  <rect x="0" y="760" width="1080" height="80" fill="#a8784c" ${st()}/><rect x="0" y="840" width="1080" height="380" fill="#c9966a"/>${[0, 1, 2, 3].map(i => `<rect x="${60 + i * 260}" y="660" width="140" height="100" rx="14" fill="#fff" ${st(3)}/><ellipse cx="${130 + i * 260}" cy="660" rx="60" ry="16" fill="#d6c7a1"/>`).join('')}
+  <rect y="1220" width="1080" height="700" fill="#b8a080"/>${[0, 1, 2].map(i => `<ellipse cx="${200 + i * 340}" cy="1500" rx="140" ry="40" fill="#7a5a3a" ${st()}/><rect x="${190 + i * 340}" y="1500" width="20" height="200" fill="#5a4030"/>`).join('')}</g>`;
+}
+export function waiting() {
+  return `<g filter="url(#b2)"><rect width="1080" height="1920" fill="#dfe6e8"/>${ceilingLight(260, 10, 560)}
+  <rect x="640" y="300" width="360" height="220" rx="12" fill="#2b2f36" ${st()}/><rect x="660" y="320" width="320" height="180" fill="#5a7ab0"/><text x="820" y="430" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="40" fill="#fff">N° 117</text>
+  <rect x="60" y="560" width="480" height="300" fill="#9fb6c2" ${st()}/><text x="300" y="640" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="46" fill="#fff">RECEPCIÓN</text>
+  <rect y="1150" width="1080" height="770" fill="#b9c4c8"/>${Array.from({ length: 6 }, (_, i) => `<rect x="${40 + i * 175}" y="1000" width="150" height="150" rx="16" fill="#4f82ea" ${st()}/><rect x="${40 + i * 175}" y="1130" width="150" height="40" fill="#3c6ed6" ${st(3)}/>`).join('')}</g>`;
+}
+export function hospitalExt() {
+  return `<g filter="url(#b2)"><rect width="1080" height="1920" fill="#9fd0f0"/><circle cx="880" cy="260" r="90" fill="#fff4c0"/>
+  <rect x="120" y="420" width="840" height="900" fill="#e8ecef" ${st()}/>${Array.from({ length: 4 }, (_, r) => Array.from({ length: 5 }, (_, c) => `<rect x="${170 + c * 160}" y="${560 + r * 160}" width="100" height="100" fill="#8fbfe0" ${st(3)}/>`).join('')).join('')}
+  <rect x="380" y="360" width="320" height="120" rx="12" fill="#c0201a" ${st()}/><path d="M540 380 v80 M500 420 h80" stroke="#fff" stroke-width="24"/><text x="540" y="1250" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="70" fill="#2c4f8a">HOSPITAL</text>
+  <rect y="1320" width="1080" height="600" fill="#8a949a"/><g transform="translate(700 1460)"><rect x="-240" y="-140" width="420" height="200" rx="20" fill="#fff" ${st()}/><rect x="-240" y="-60" width="420" height="30" fill="#c0201a"/><rect x="180" y="-90" width="110" height="150" rx="16" fill="#fff" ${st()}/><circle cx="-150" cy="70" r="46" fill="#2b2f36" ${st()}/><circle cx="200" cy="70" r="46" fill="#2b2f36" ${st()}/><rect x="-60" y="-170" width="80" height="34" rx="8" fill="#4f82ea" ${st(3)}/></g></g>`;
 }

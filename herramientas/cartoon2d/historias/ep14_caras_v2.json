@@ -1,0 +1,1099 @@
+{
+ "out": "Doctor_ep14",
+ "title": "El hombre que no reconocía a su esposa",
+ "audio": "../audios/medico_4.m4a",
+ "sfx_gain": 0.38,
+ "maxShot": 2.0,
+ "tail": 1.2,
+ "scenes": {
+  "entrada": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 1450,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "smug",
+     "pose": {
+      "armL": [
+       8,
+       -6
+      ],
+      "propL": "cane",
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "fiesta": {
+   "bg": "party",
+   "actors": [
+    {
+     "id": "h",
+     "char": "hombre",
+     "x": 1350,
+     "y": 2350,
+     "s": 1.8,
+     "expr": "neutral",
+     "pose": {
+      "turn": -0.6
+     }
+    },
+    {
+     "id": "m",
+     "char": "mujer",
+     "x": 420,
+     "y": 2350,
+     "s": 1.75,
+     "expr": "happy",
+     "pose": {
+      "turn": 0.6
+     }
+    }
+   ]
+  },
+  "fiestaC": {
+   "bg": "party",
+   "actors": [
+    {
+     "id": "m",
+     "char": "mujer",
+     "x": 540,
+     "y": 2450,
+     "s": 2.1,
+     "expr": "happy"
+    }
+   ]
+  },
+  "hombreC": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "h",
+     "char": "hombre",
+     "x": 540,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "worried"
+    }
+   ]
+  },
+  "vista": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 800,
+     "s": 2.0,
+     "items": [
+      [
+       "eye",
+       "VISTA PERFECTA",
+       "ok"
+      ]
+     ],
+     "ring": "#3ddc84"
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a4a6e",
+    "c2": "#0a1a2a"
+   }
+  },
+  "foto": {
+   "bg": "patientroom",
+   "actors": [
+    {
+     "id": "h",
+     "char": "hombre",
+     "x": 540,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "confused"
+    }
+   ],
+   "props": [
+    {
+     "id": "f",
+     "type": "photo",
+     "x": 540,
+     "y": 1500,
+     "s": 0.9,
+     "value": 0.25,
+     "z": 3
+    }
+   ]
+  },
+  "zona": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "br",
+     "type": "brain",
+     "x": 540,
+     "y": 820,
+     "s": 1.35,
+     "zone": [
+      150,
+      110
+     ],
+     "glow": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   }
+  },
+  "puzzle": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "p",
+     "type": "facepuzzle",
+     "x": 540,
+     "y": 780,
+     "s": 1.0,
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a3a6e",
+    "c2": "#0a1428"
+   }
+  },
+  "mama": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 800,
+     "s": 1.15,
+     "items": [
+      [
+       "face",
+       "MAMÁ",
+       ""
+      ],
+      [
+       "face",
+       "MI JEFE",
+       ""
+      ]
+     ],
+     "cols": 2,
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#5e1a4a",
+    "c2": "#1d0818"
+   }
+  },
+  "roto": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "p",
+     "type": "facepuzzle",
+     "x": 540,
+     "y": 780,
+     "s": 1.0,
+     "value": 0.15
+    }
+   ],
+   "bgOpts": {
+    "c1": "#20242c",
+    "c2": "#08090c"
+   }
+  },
+  "titulo": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "t",
+     "type": "title2",
+     "x": 540,
+     "y": 760,
+     "s": 1.0,
+     "value": 0,
+     "l1": "SE LLAMA",
+     "l2": "PROSOPAGNOSIA"
+    }
+   ],
+   "bgOpts": {
+    "c1": "#3b2a5e",
+    "c2": "#120c22"
+   }
+  },
+  "pistas": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 820,
+     "s": 1.15,
+     "items": [
+      [
+       "voice",
+       "VOZ",
+       ""
+      ],
+      [
+       "hair",
+       "PELO",
+       ""
+      ],
+      [
+       "walk",
+       "CAMINAR",
+       ""
+      ],
+      [
+       "perfume",
+       "PERFUME",
+       ""
+      ]
+     ],
+     "cols": 2,
+     "value": 0,
+     "gap": 460
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a5e3a",
+    "c2": "#08180f"
+   }
+  },
+  "mundo2": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "g",
+     "type": "globe",
+     "x": 540,
+     "y": 800,
+     "s": 1.25,
+     "value": 1
+    },
+    {
+     "id": "k",
+     "type": "kicker",
+     "x": 540,
+     "y": 1300,
+     "text": "1 DE CADA 50",
+     "size": 90,
+     "color": "#ffcf3a",
+     "hidden": true
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a2a5e",
+    "c2": "#080c22"
+   }
+  },
+  "ext": {
+   "bg": "hospitalExt"
+  },
+  "espera": {
+   "bg": "waiting",
+   "actors": [
+    {
+     "id": "h",
+     "char": "hombre",
+     "x": 540,
+     "y": 2380,
+     "s": 1.9,
+     "expr": "worried",
+     "pose": "hips2"
+    }
+   ]
+  },
+  "equipo": {
+   "bg": "officeA",
+   "bgOpts": {
+    "title": "SÍNTOMAS",
+    "lines": [
+     "- no reconoce caras",
+     "- vista: perfecta",
+     "- memoria: perfecta"
+    ],
+    "q": "¿DERRAME?"
+   },
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 290,
+     "y": 2080,
+     "s": 1.55,
+     "expr": "smug",
+     "pose": {
+      "propL": "cane",
+      "armL": [
+       8,
+       -6
+      ],
+      "turn": 0.55
+     }
+    },
+    {
+     "id": "ana",
+     "char": "ana",
+     "x": 650,
+     "y": 2080,
+     "s": 1.5,
+     "expr": "neutral",
+     "pose": {
+      "propR": "clipboard",
+      "armR": [
+       10,
+       -118
+      ],
+      "turn": -0.55
+     }
+    },
+    {
+     "id": "leo",
+     "char": "leo",
+     "x": 900,
+     "y": 2080,
+     "s": 1.5,
+     "expr": "neutral",
+     "pose": {
+      "propR": "notebook",
+      "armR": [
+       8,
+       -116
+      ],
+      "turn": -0.6
+     }
+    }
+   ]
+  },
+  "houseB": {
+   "bg": "officeA",
+   "bgOpts": {
+    "title": "SÍNTOMAS",
+    "lines": [
+     "- no reconoce caras",
+     "- vista: perfecta",
+     "- memoria: perfecta"
+    ],
+    "q": "¿DERRAME?"
+   },
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 690,
+     "y": 2560,
+     "s": 2.25,
+     "expr": "smug",
+     "pose": {
+      "propL": "cane",
+      "armL": [
+       8,
+       -6
+      ]
+     }
+    }
+   ]
+  },
+  "anaCaf": {
+   "bg": "cafeteria",
+   "actors": [
+    {
+     "id": "ana",
+     "char": "ana",
+     "x": 540,
+     "y": 2560,
+     "s": 2.2,
+     "expr": "neutral",
+     "pose": {
+      "turn": 0.4
+     }
+    }
+   ]
+  },
+  "leoLab": {
+   "bg": "lab",
+   "actors": [
+    {
+     "id": "leo",
+     "char": "leo",
+     "x": 540,
+     "y": 2560,
+     "s": 2.2,
+     "expr": "neutral",
+     "pose": {
+      "propR": "notebook",
+      "armR": [
+       8,
+       -116
+      ],
+      "turn": -0.4
+     }
+    }
+   ]
+  },
+  "cuarto": {
+   "bg": "patientroom",
+   "actors": [
+    {
+     "id": "h",
+     "char": "hombre",
+     "x": 540,
+     "y": 2300,
+     "s": 1.9,
+     "expr": "neutral"
+    }
+   ],
+   "props": [
+    {
+     "id": "cama",
+     "type": "bed",
+     "x": 540,
+     "y": 1640,
+     "s": 1.15,
+     "z": 5
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "Un hombre llegó preocupado.",
+   "shots": [
+    {
+     "scene": "ext",
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "espera",
+     "from": "preocupado",
+     "cam": {
+      "on": "h",
+      "shot": "medium",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "preocupado",
+       "target": "h",
+       "no": true,
+       "turn": 0.3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "En una fiesta había pasado al lado de su esposa... y no la reconoció.",
+   "shots": [
+    {
+     "scene": "fiesta",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 1000,
+      "z": 1.0,
+      "move": "panL"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "h",
+       "move": {
+        "x": 250,
+        "dur": 2.6
+       }
+      },
+      {
+       "at": 0.3,
+       "target": "m",
+       "look": [
+        0.9,
+        0
+       ],
+       "turn": 0.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Le habló como a una desconocida.",
+   "shots": [
+    {
+     "scene": "fiestaC",
+     "cam": {
+      "on": "m",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "m",
+       "expr": "shock",
+       "jolt": 0.6
+      },
+      {
+       "at": 0.4,
+       "target": "m",
+       "arms": "hips2",
+       "expr": "angry",
+       "dur": 0.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Ana dijo que tenía un problema en la vista. Le hicimos un examen: veía perfecto.",
+   "shots": [
+    {
+     "scene": "equipo",
+     "cam": {
+      "on": "ana",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "talk": 1.6,
+       "arms": "pointAtL",
+       "expr": "think"
+      },
+      {
+       "at": 0.3,
+       "target": "house",
+       "no": true
+      }
+     ]
+    },
+    {
+     "scene": "vista",
+     "from": "Le",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Leo dijo que era pérdida de memoria. Recordaba todo sin problema.",
+   "shots": [
+    {
+     "scene": "leoLab",
+     "cam": {
+      "on": "leo",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "leo",
+       "talk": 1.6,
+       "expr": "serious",
+       "arms": {
+        "reachL": [
+         60,
+         -690
+        ],
+        "handL": "fist"
+       }
+      }
+     ]
+    },
+    {
+     "scene": "cuarto",
+     "from": "Recordaba",
+     "cam": {
+      "on": "h",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "h",
+       "talk": 1.2,
+       "turn": -0.4,
+       "expr": "happy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Entonces le mostré una foto de su propia cara.",
+   "shots": [
+    {
+     "scene": "houseB",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "serious",
+       "turn": 0.3,
+       "talk": 1.4,
+       "arms": {
+        "armR": [
+         34,
+         122
+        ],
+        "handR": "point"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "La miró un rato largo... y me preguntó quién era.",
+   "shots": [
+    {
+     "scene": "foto",
+     "cam": {
+      "x": 540,
+      "y": 1300,
+      "z": 1.2,
+      "move": "push"
+     }
+    },
+    {
+     "scene": "foto",
+     "from": "preguntó",
+     "cam": {
+      "on": "h",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "preguntó",
+       "target": "h",
+       "talk": 1.0,
+       "arms": "facepalm",
+       "dur": 0.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Había tenido un pequeño derrame semanas antes.",
+   "shots": [
+    {
+     "scene": "equipo",
+     "cam": {
+      "on": [
+       "house",
+       "ana",
+       "leo"
+      ],
+      "shot": "full",
+      "move": "drift"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "expr": "surprised",
+       "turn": -0.7
+      },
+      {
+       "at": 0.1,
+       "target": "leo",
+       "expr": "surprised",
+       "turn": -0.7
+      },
+      {
+       "at": 0,
+       "target": "house",
+       "talk": 1.6,
+       "arms": {
+        "armR": [
+         60,
+         70
+        ],
+        "handR": "open"
+       }
+      }
+     ]
+    },
+    {
+     "scene": "zona",
+     "from": "derrame",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "derrame",
+       "target": "br",
+       "glow": 1,
+       "dur": 0.4,
+       "sfx": "thud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Nuestro cerebro tiene una zona especializada solo en reconocer caras. Está en la parte de abajo, cerca de la nuca.",
+   "shots": [
+    {
+     "scene": "zona",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "br",
+       "glow": 0,
+       "dur": 0.01
+      },
+      {
+       "on": "caras",
+       "target": "br",
+       "glow": 1,
+       "dur": 0.4,
+       "sfx": "pop"
+      }
+     ]
+    },
+    {
+     "scene": "zona",
+     "from": "abajo",
+     "cam": {
+      "x": 700,
+      "y": 940,
+      "z": 1.6,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "br",
+       "glow": 1,
+       "dur": 0.01
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Esa zona no mira ojos, nariz y boca por separado: los une en un todo,",
+   "shots": [
+    {
+     "scene": "puzzle",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "une",
+       "target": "p",
+       "value": 1,
+       "dur": 0.8,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "y en una fracción de segundo te dice: esa es mamá, ese es mi jefe.",
+   "shots": [
+    {
+     "scene": "mama",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "mamá",
+       "target": "i",
+       "value": 1,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "jefe",
+       "target": "i",
+       "value": 2,
+       "dur": 0.3,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "En él, el derrame había dañado justo esa zona.",
+   "shots": [
+    {
+     "scene": "zona",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.1,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "br",
+       "glow": 1,
+       "dur": 0.01
+      },
+      {
+       "on": "dañado",
+       "target": "br",
+       "burst": 1,
+       "dur": 0.3,
+       "sfx": "thud"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Veía cada parte de la cara con detalle... pero su cerebro no podía armar el rompecabezas.",
+   "shots": [
+    {
+     "scene": "roto",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "drift"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Se llama prosopagnosia, o ceguera para las caras.",
+   "shots": [
+    {
+     "scene": "titulo",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "Se",
+       "target": "t",
+       "value": 1,
+       "dur": 0.45,
+       "camshake": 16,
+       "sfx": "thud",
+       "lead": -0.25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Y lo más sorprendente: hay personas que nacen así, y muchas nunca se enteran.",
+   "shots": [
+    {
+     "scene": "mundo2",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "nacen",
+       "target": "k",
+       "pop": true,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Aprendió a reconocer a la gente por la voz, el pelo, la forma de caminar. A su esposa, por su perfume.",
+   "shots": [
+    {
+     "scene": "pistas",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "voz",
+       "target": "i",
+       "value": 1,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "pelo",
+       "target": "i",
+       "value": 2,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "caminar",
+       "target": "i",
+       "value": 3,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "perfume",
+       "target": "i",
+       "value": 4,
+       "dur": 0.3,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Leo me preguntó si es grave.",
+   "shots": [
+    {
+     "scene": "equipo",
+     "cam": {
+      "on": "leo",
+      "shot": "close",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "leo",
+       "talk": 1.2,
+       "expr": "worried",
+       "turn": -0.7
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Le dije: depende. Si tu suegra se corta el pelo... es lo mejor que te puede pasar.",
+   "shots": [
+    {
+     "scene": "houseB",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "house",
+       "expr": "smirk",
+       "turn": 0.2,
+       "talk": 3.2,
+       "arms": "cross"
+      }
+     ]
+    },
+    {
+     "scene": "equipo",
+     "from": "suegra",
+     "cam": {
+      "on": [
+       "ana",
+       "leo"
+      ],
+      "shot": "medium",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "ana",
+       "arms": "facepalm",
+       "expr": "confused",
+       "dur": 0.4
+      },
+      {
+       "at": 0.2,
+       "target": "leo",
+       "expr": "happy",
+       "turn": -0.3
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

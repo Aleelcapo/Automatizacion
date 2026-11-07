@@ -4,6 +4,7 @@ const O = '#26222a';
 const st = (w = 3) => `stroke="${O}" stroke-width="${w}" stroke-linejoin="round" stroke-linecap="round"`;
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
 export const PROPS = {
+  bed: p => `<rect x="-380" y="-40" width="760" height="300" rx="40" fill="#f2f5f6" ${st(5)}/><path d="M-380 0 Q0 -60 380 0 L380 60 Q0 20 -380 60 Z" fill="#9fc8e0" ${st(4)}/><rect x="-420" y="240" width="840" height="60" rx="20" fill="#9aa3a8" ${st(4)}/>`,
   folder: p => `<g transform="skewX(-8)"><path d="M-170 -110 L-40 -110 L-20 -130 L170 -130 L170 110 L-170 110 Z" fill="#d9b26a" ${st()}/><rect x="-150" y="-100" width="300" height="190" fill="#f4f1e8" ${st(2)}/><path d="M-170 -90 L170 -90 L170 110 L-170 110 Z" fill="#e8c27a" ${st()}/>
     <rect x="-120" y="-60" width="140" height="26" fill="#fff" ${st(2)}/><text x="-110" y="-40" font-family="Montserrat" font-weight="800" font-size="18" fill="#b3261e">CASO 117</text><path d="M-120 0 h200 M-120 30 h160" stroke="#c49a52" stroke-width="5"/></g>`,
   labsheet: p => { const v = p.value; return `<rect x="-230" y="-310" width="460" height="620" fill="#fbfbf7" ${st()}/><rect x="-230" y="-310" width="460" height="70" fill="#2c4f8a"/><text x="0" y="-262" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="30" fill="#fff">LABORATORIO</text>
