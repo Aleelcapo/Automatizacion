@@ -60,7 +60,7 @@ const Inner: React.FC<{ id: number; kit: Kit }> = ({ id, kit }) => {
     grade: new GradeEffect(GRADES.day, GRADE_STRENGTH.day),
     grain: new GrainEffect({ amount: 0.025, cellPx: 1.5 }), // film grain, OFF by default (inputProps post.grain): the reference measures no grain and it quadruples the file size
   }), [camera, scene]);
-  useEffect(() => () => fx.ink.dispose(), [fx]);
+  useEffect(() => () => { (fx.ink as unknown as { dispose?: () => void }).dispose?.(); }, [fx]);
   // speed (software GL): the lens passes only while a shot has depth of field, bloom only with the golden sun disc;
   // the lens reads the composer's depth, which with MSAA 0 is the buffer being written (feedback loop): MSAA >= 2 there
   const lensOn = on.lens && dofAt(f).cInf > 0.25, bloomOn = on.bloom && SHOTS[id - 1].light === "golden";
