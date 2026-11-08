@@ -20,7 +20,7 @@ const makeEntry = (w: number, h: number): Entry => {
   const cv = document.createElement("canvas");
   cv.width = w; cv.height = h;
   const tex = new THREE.CanvasTexture(cv);
-  tex.colorSpace = THREE.SRGBColorSpace; tex.anisotropy = 8;
+  tex.colorSpace = THREE.SRGBColorSpace; tex.anisotropy = 4;
   return { cv, tex, w, h };
 };
 export class Pool {
@@ -128,7 +128,7 @@ const vOf = (i: number) => (i * 7 + (i >> 2)) % 4;
 const seedOf = (i: number) => ((i * 5 + 3) % 7) + 1;
 /** drawing resolution by distance: [canvas w, h, scale from the 600 x 1000 design]; sized for the 1440 x 2560 final */
 const tier = (d: number): [number, number, number] =>
-  d < 3.2 ? [1800, 3000, 3.0] : d < 6.5 ? [1080, 1800, 1.8] : d < 16 ? [480, 800, 0.8] : [240, 400, 0.4];
+  d < 3.2 ? [1350, 2250, 2.25] : d < 6.5 ? [810, 1350, 1.35] : d < 16 ? [360, 600, 0.6] : [180, 300, 0.3]; // sized for the 1080 x 1920 final
 
 // ---------------- light ----------------
 const SUN = new THREE.Vector3(0.5, 0.75, -0.4).normalize();

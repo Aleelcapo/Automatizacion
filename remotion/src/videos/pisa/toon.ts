@@ -984,21 +984,21 @@ export const tourist = (v = 0): Outfit => {
 /** beach kid: striped top, bare feet */
 export const BEACH_KID: Outfit = { jacket: "#2f8fd0", pants: "#f2b33d", boots: "#f5c9a0", hat: "hair", hair: "#5a3b2a", build: "kid" };
 
-/** banana on a 500 x 500 canvas (curved, yellow, brown tips) */
+/** banana on a 500 x 500 canvas: a curved crescent (yellow, a green-brown stem at one end, a dark tip at the other) */
 export const fxBanana = (p: Pen) => {
-  const pts: P2[] = [];
-  for (let i = 0; i <= 24; i++) { const t = i / 24, a = rad(200 + 120 * t); pts.push([250 + 200 * Math.cos(a), 130 + 230 * Math.sin(a) * -1 + 300]); }
-  const outer = pts.map(([x, y]) => [x, y] as P2);
-  const inner: P2[] = [];
-  for (let i = 24; i >= 0; i--) { const t = i / 24, a = rad(200 + 120 * t), w = 70 * Math.sin(Math.PI * (0.08 + 0.84 * t)); inner.push([250 + (200 - w) * Math.cos(a), 430 - (230 - w) * Math.sin(a)]); }
-  p.poly([...outer, ...inner], "#f7d64a", 10);
-  p.stroke([[outer[3][0], outer[3][1]], [inner[inner.length - 4][0], inner[inner.length - 4][1]]], 0);
-  p.poly([[outer[0][0] - 6, outer[0][1] - 6], [outer[0][0] + 18, outer[0][1] - 4], [inner[inner.length - 1][0] + 6, inner[inner.length - 1][1] + 10], [outer[0][0] - 10, outer[0][1] + 14]], "#6b4a2e", 8);
-  const e = outer[24];
-  p.poly([[e[0] - 8, e[1] - 4], [e[0] + 14, e[1] + 4], [e[0] + 6, e[1] + 18]], "#5a3b2a", 8);
-  const m: P2[] = [];
-  for (let i = 3; i <= 21; i++) { const t = i / 24, a = rad(200 + 120 * t), w = 30 * Math.sin(Math.PI * (0.08 + 0.84 * t)); m.push([250 + (200 - w) * Math.cos(a), 430 - (230 - w) * Math.sin(a)]); }
-  p.stroke(m, 6, "#d8b030");
+  const C: P2 = [250, 40], R = 250, a0 = rad(32), a1 = rad(148), n = 40;
+  const outer: P2[] = [], inner: P2[] = [], mid: P2[] = [];
+  for (let i = 0; i <= n; i++) {
+    const t = i / n, a = a0 + (a1 - a0) * t, w = 8 + 64 * Math.sin(Math.PI * t) ** 0.75, cx = C[0] + R * Math.cos(a), cy = C[1] + R * Math.sin(a);
+    outer.push([cx + Math.cos(a) * w * 0.5, cy + Math.sin(a) * w * 0.5]); inner.push([cx - Math.cos(a) * w * 0.5, cy - Math.sin(a) * w * 0.5]);
+    if (i > 4 && i < n - 4) mid.push([cx - Math.cos(a) * w * 0.12, cy - Math.sin(a) * w * 0.12]);
+  }
+  p.poly([...outer, ...inner.reverse()], "#f7d64a", 10);
+  p.stroke(mid, 6, "#d9b032");
+  const s0 = outer[0], s1: P2 = [s0[0] + 26, s0[1] - 30];
+  p.line([[s0[0] - 2, s0[1] - 4], s1], "#7a8a3a", 12);
+  const e = outer[outer.length - 1];
+  p.ell(e[0] + 2, e[1] - 4, 9, 9, "#4a3426", 6);
 };
 
 /** water drop on a 120 x 160 canvas */

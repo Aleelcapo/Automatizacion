@@ -123,7 +123,7 @@ export class World {
     this.hemi = new THREE.HemisphereLight("#cfe6ff", "#6c5c8c", 1.1);
     this.sun = new THREE.DirectionalLight("#fff0d6", 2.6);
     this.sun.castShadow = true;
-    { const sz = (getInputProps() as { post?: { shadow?: number } }).post?.shadow ?? 4096; this.sun.shadow.mapSize.set(sz, sz); }
+    { const sz = (getInputProps() as { post?: { shadow?: number } }).post?.shadow ?? 2048; this.sun.shadow.mapSize.set(sz, sz); }
     R.add(this.hemi, this.sun, this.sun.target);
     this.cloudMaps = { day: [0, 1, 2, 3].map((k) => cloudHD(k, LOOK.day.cloud)), golden: [0, 1, 2, 3].map((k) => cloudHD(k, LOOK.golden.cloud)) };
     for (let i = 0; i < 10; i++) {
@@ -179,7 +179,7 @@ export class World {
     sb.add(quadUp(BEACH[0] - 400, BEACH[0] + 400, -2.5, 7.5, 100, 2.5, 0.0), lam("sandWet", () => ({ map: sandTex("sandWet", "#c9a46e") })));
     sb.build(R);
     const wNear = waterNear(), wFar = waterFar();
-    for (const t of [wNear, wFar]) { t.colorSpace = THREE.NoColorSpace; t.anisotropy = 16; t.needsUpdate = true; }
+    for (const t of [wNear, wFar]) { t.colorSpace = THREE.NoColorSpace; t.anisotropy = 4; t.needsUpdate = true; }
     this.WU = {
       wNearC: { value: new THREE.Color() }, wMidC: { value: new THREE.Color() }, wFarC: { value: new THREE.Color() },
       wCrest: { value: new THREE.Color() }, wTrough: { value: new THREE.Color() }, wGlint: { value: new THREE.Color() },
