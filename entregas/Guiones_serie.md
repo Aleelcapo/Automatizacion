@@ -189,6 +189,118 @@ Antes de vender, busca su **año** y compara precios de ventas **reales**… no 
 
 ---
 
+## 💵 8. No tires ese billete roto
+
+Si se te **rompe** un billete… **no lo tires**. El banco te lo **cambia**.
+
+La regla es simple: tiene que conservar **más de la mitad**.
+
+Si tienes un pedazo con más del **cincuenta por ciento** del billete, ese pedazo todavía **vale**.
+
+¿Y si se partió en dos? Si juntas las piezas y tienen el **mismo número de serie**… también te lo cambian.
+
+Lo llevas a cualquier **sucursal bancaria**, y te dan uno **nuevo**.
+
+Pero ojo con tres cosas.
+
+Uno: no sirve pegar pedazos de **billetes distintos**. Eso se considera **alterado**, y no vale **nada**.
+
+Dos: no lo pegues con cinta **oscura** o **de color**. El banco puede pensar que estás escondiendo una **falsificación**. Si lo vas a pegar, usa cinta **transparente**.
+
+Y tres: si se te **quemó** o se te **lavó**, no lo des por perdido. Mientras se pueda **reconocer**, llévalo al banco.
+
+Así que la próxima vez, no lo tires… eso sigue siendo **tu dinero**.
+
+¿Alguna vez perdiste un billete así? Cuéntame en los **comentarios**.
+
+**En pantalla:** billete que se rompe; regla que marca "+50 %" en verde y "−50 %" en rojo; dos mitades que se juntan con los números de serie iluminados; "BILLETES DISTINTOS = $0"; cinta oscura con una X y cinta transparente con un ✓; ícono de banco.
+
+> ⚠️ Estas son las reglas de Banxico (México). Si el video es para otro país, dime cuál y reviso sus reglas.
+
+---
+
+## 🍿 9. ¿Por qué las palomitas del cine son tan caras?
+
+¿Por qué las **palomitas** del cine cuestan casi lo mismo que la **entrada**?
+
+Porque de tu boleto… al cine casi **no le queda nada**.
+
+Cuando pagas la entrada, la mayor parte se la lleva el **estudio** de la película. Y en la **primera semana** de un estreno, se puede llevar hasta el **setenta por ciento**… o más.
+
+Entonces, ¿de dónde gana el cine? De la **dulcería**.
+
+El maíz, el aceite y la sal cuestan **muy poco**. En una de las cadenas de cine más grandes de Estados Unidos, de cada **cien** dólares en dulcería, más de **ochenta** eran **ganancia**.
+
+Y lo mejor para ellos: de las palomitas, el estudio **no se lleva nada**.
+
+Por eso la dulcería es apenas una parte de lo que vende el cine… pero puede ser **la mitad** de lo que gana.
+
+Y por eso no te dejan entrar con **comida de afuera**.
+
+O sea, el cine en realidad es una **tienda de palomitas**… que te pone una película **mientras comes**.
+
+¿Tú compras palomitas o las metes escondidas? Te leo en los **comentarios**.
+
+**En pantalla:** boleto que se divide y la mayor parte se va al "ESTUDIO"; balde de palomitas con "+80 % GANANCIA"; comparación entre lo que cuesta hacer las palomitas y su precio; letrero de cine que se transforma en "TIENDA DE PALOMITAS".
+
+---
+
+## 📱 10. Si se te moja el celular, NO lo metas en arroz
+
+Si se te **moja** el celular… **no lo metas en arroz**.
+
+Sí, lo que todos hacemos… está **mal**. Y no lo digo yo. Lo dice **Apple**.
+
+En su página oficial, Apple pide **no** meter el teléfono en una bolsa de arroz.
+
+¿Por qué? Porque el arroz suelta **polvo** y **almidón**, y esas partículas pueden meterse en el **puerto de carga**… y dañarlo **más**.
+
+Además, el arroz **no seca** lo de adentro tan rápido como crees.
+
+Entonces, ¿qué hacer?
+
+Primero: **apágalo** y **no lo cargues**.
+
+Segundo: con el puerto hacia **abajo**, dale **golpecitos suaves** contra tu mano, para que salga el agua.
+
+Tercero: déjalo en un lugar **seco**, con **aire**, por lo menos **un día**.
+
+Y nada de **secador de pelo**, ni aire comprimido, ni meterle **algodón** o papel en el puerto.
+
+Si tienes esos sobrecitos de **sílica** que vienen en las cajas de zapatos… esos sí ayudan.
+
+¿Tú también lo metías en arroz? Confiesa en los **comentarios**.
+
+**En pantalla:** celular cayendo en un plato de arroz con una X roja; zoom al puerto con partículas de polvo y almidón; logo genérico de "SOPORTE OFICIAL"; tres pasos numerados (apagar, golpecitos, aire); íconos tachados de secador y algodón; sobre de sílica con un ✓.
+
+---
+
+## ⚡ 11. Si te cae un rayo en el auto, sobrevives… pero no por las llantas
+
+Si te cae un **rayo** dentro de un **auto**… lo más probable es que **sobrevivas**. Pero **no** por lo que crees.
+
+Casi todos piensan que es por las **llantas de goma**, que te **aíslan** del suelo.
+
+Falso. Un rayo puede viajar **kilómetros** por el aire… unos centímetros de goma **no lo van a detener**.
+
+Lo que te salva es la **carrocería de metal**.
+
+El auto funciona como una **jaula de Faraday**: la electricidad corre por **afuera** del metal, rodea el auto… y se va al **suelo**.
+
+Tú, adentro, quedas **protegido**.
+
+Pero hay **condiciones**: no toques las partes de **metal** de la puerta ni del volante… y esto **no funciona** en **convertibles**, autos de **fibra de vidrio**, ni carritos de golf.
+
+Eso sí, el auto puede terminar con la **antena**, el **sistema eléctrico** o hasta las **llantas** dañadas.
+
+Y aun así, durante una tormenta, lo más seguro sigue siendo un **edificio**.
+
+¿Sabías esto o también pensabas lo de las llantas? Te leo en los **comentarios**.
+
+**En pantalla:** auto bajo una tormenta y cae un rayo; llantas con "MITO" y una X; la carrocería se ilumina como una jaula y la corriente la rodea hasta el suelo; persona adentro con un ✓; lista de vehículos que no protegen (convertible, golf).
+
+---
+
 ## Fuentes
 
 **Bowling**
@@ -221,3 +333,22 @@ Antes de vender, busca su **año** y compara precios de ventas **reales**… no 
 - [Numismaster: 10 nuevos pesos, centro de plata .925, 0,1667 oz](https://numismaster.com/MC_1916)
 - [Banxico: monedas en nuevos pesos](https://www.banxico.org.mx/billetes-y-monedas/monedas-en-nuevos-pesos-circu.html)
 - [Kitco: precio de la plata en vivo](https://www.kitco.com/charts/silver)
+
+**Billete roto**
+- [El CEO: cómo cambiar un billete dañado, según Banxico](https://elceo.com/tu-cartera/donde-cambiar-un-billete-danado-banxico-muestra-el-procedimiento/)
+- [Luz Noticias: billetes pegados con cinta o quemados (Banxico, 2026)](https://www.luznoticias.mx/2026-07-21/mexico/banxico-sirve-tu-billete-lo-pegaste-con-cinta-o-se-quemo-esto-sabemos/297781)
+- [El CEO: un billete quemado todavía tiene valor](https://elceo.com/tu-cartera/un-billete-quemado-todavia-tiene-valor-banxico-lo-explica/)
+
+**Palomitas del cine**
+- [Marketplace: ¿por qué las palomitas del cine cuestan tanto?](https://marketplace.org/2014/08/04/why-does-popcorn-movies-cost-so-much)
+- [IPKitten: margen de la dulcería de Cinemark (2018)](https://ipkitten.blogspot.com/2020/08/the-improbable-marriage-of-popcorn-and_4.html?m=0)
+- [EconLife: el precio de las palomitas](https://econlife.com/2019/09/the-price-of-movie-theater-popcorn/)
+
+**Celular en arroz**
+- [PetaPixel: Apple dice que dejes de poner tu iPhone en arroz (2024)](https://petapixel.com/2024/02/20/apple-says-stop-putting-your-wet-iphone-in-rice)
+- [TechRadar: qué hacer en su lugar](https://www.techradar.com/phones/dont-dry-your-wet-iphone-in-a-bag-of-rice-apple-warns-do-this-instead)
+
+**Rayo en el auto**
+- [Live Science: video de un rayo que cae sobre un SUV](https://www.livescience.com/23540-russian-suv-lightning-strike.html)
+- [WTAMU: ¿las llantas te protegen de un rayo?](https://wtamu.edu/~cbaird/sq/2012/12/14/why-do-car-tires-protect-you-from-lightning-strikes/)
+- [ScienceABC: ¿estás a salvo en un auto con llantas de goma?](https://www.scienceabc.com/eyeopeners/since-a-car-has-rubber-tires-can-you-be-safe-inside-it-during-a-lightning-strike)
