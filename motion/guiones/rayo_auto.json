@@ -2,7 +2,9 @@
  "id": "rayo_auto",
  "estilo": {
   "acento": "#ffe14d",
-  "tinte": "#1a2240"
+  "tinte": "#1a2240",
+  "escenario": "tormenta",
+  "subtitulos": false
  },
  "beats": [
   {
@@ -26,19 +28,13 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "rayo",
+      "t": "ilus",
+      "nombre": "rayo_auto",
       "en": null,
-      "anim": "tiembla",
-      "size": 200,
-      "color": "#ffe14d"
-     },
-     {
-      "t": "icono",
-      "nombre": "auto",
-      "en": null,
-      "size": 280,
-      "color": "#c9d3e3"
+      "marcas": {
+       "impacto": "rayo"
+      },
+      "size": 560
      },
      {
       "t": "titulo",
@@ -165,18 +161,19 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "auto",
+      "t": "ilus",
+      "nombre": "rayo_auto",
       "en": null,
-      "anim": "late",
-      "size": 300,
-      "color": "#c9d3e3"
+      "marcas": {
+       "impacto": "salva"
+      },
+      "size": 580
      },
      {
       "t": "titulo",
       "texto": "La [carrocería] de metal",
       "en": "carrocería",
-      "size": 100
+      "size": 96
      }
     ]
    }
@@ -233,27 +230,13 @@
    "escena": {
     "el": [
      {
-      "t": "iconos",
-      "items": [
-       {
-        "nombre": "rayo",
-        "color": "#ffe14d"
-       },
-       {
-        "nombre": "auto",
-        "color": "#c9d3e3",
-        "en": "rodea"
-       },
-       {
-        "nombre": "flecha",
-        "color": "#ffe14d",
-        "size": 110,
-        "en": "suelo."
-       }
-      ],
+      "t": "ilus",
+      "nombre": "rayo_auto",
       "en": null,
-      "size": 190,
-      "gap": 20
+      "marcas": {
+       "impacto": "electricidad"
+      },
+      "size": 540
      },
      {
       "t": "pasos",
@@ -291,18 +274,17 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "escudo",
+      "t": "ilus",
+      "nombre": "rayo_auto",
       "en": null,
-      "anim": "late",
-      "size": 280,
-      "color": "verde"
+      "marcas": {},
+      "size": 520
      },
      {
       "t": "titulo",
       "texto": "[Protegido]",
       "en": "protegido.",
-      "size": 130
+      "size": 120
      }
     ]
    }
@@ -488,25 +470,17 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "nube",
+      "t": "ilus",
+      "nombre": "edificio_rayo",
       "en": null,
-      "size": 200,
-      "color": "#6b7a99"
-     },
-     {
-      "t": "icono",
-      "nombre": "edificio",
-      "en": "edificio.",
-      "anim": "late",
-      "size": 260,
-      "color": "#6b8bd6"
+      "marcas": {},
+      "size": 560
      },
      {
       "t": "titulo",
       "texto": "Lo más seguro: un [edificio]",
       "en": "edificio.",
-      "size": 92
+      "size": 90
      }
     ]
    }

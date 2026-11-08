@@ -157,30 +157,21 @@
    "escena": {
     "el": [
      {
-      "t": "iconos",
-      "items": [
-       {
-        "nombre": "ojo",
-        "texto": "Azules",
-        "color": "#4aa3ff",
-        "en": "azules"
-       },
-       {
-        "nombre": "ojo",
-        "texto": "Café",
-        "color": "#9a6235",
-        "en": "café?"
-       }
-      ],
+      "t": "ilus",
+      "nombre": "ojo_grande",
       "en": null,
-      "size": 230,
-      "anim": "flota"
+      "marcas": {
+       "cambia": "café?"
+      },
+      "color": "#4aa3ff",
+      "color2": "#9a6235",
+      "size": 540
      },
      {
       "t": "titulo",
-      "texto": "¿Por [qué]?",
+      "texto": "¿Azules… o [café]?",
       "en": null,
-      "size": 120
+      "size": 104
      }
     ]
    }
@@ -440,18 +431,11 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "mapa",
+      "t": "ilus",
+      "nombre": "sol_mapa",
       "en": null,
-      "size": 220,
-      "color": "#4aa3ff",
-      "color2": "#2a4a6a"
-     },
-     {
-      "t": "titulo",
-      "texto": "Norte de Europa: [menos luz]",
-      "en": "menos",
-      "size": 90
+      "marcas": {},
+      "size": 560
      },
      {
       "t": "pildora",
@@ -777,19 +761,20 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "adn",
+      "t": "ilus",
+      "nombre": "adn_helice",
       "en": null,
-      "anim": "flota",
-      "size": 280,
-      "color": "#4aa3ff",
-      "color2": "#a78bfa"
+      "marcas": {
+       "marca": "mutación."
+      },
+      "etiqueta": "MUTACIÓN",
+      "size": 540
      },
      {
       "t": "titulo",
       "texto": "[1] misma mutación",
       "en": "mutación.",
-      "size": 110
+      "size": 104
      }
     ]
    }
@@ -931,18 +916,11 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "persona",
+      "t": "ilus",
+      "nombre": "arbol_familia",
       "en": null,
-      "anim": "flota",
-      "size": 220,
-      "color": "#4aa3ff"
-     },
-     {
-      "t": "titulo",
-      "texto": "[1] sola persona",
-      "en": "sola",
-      "size": 100
+      "marcas": {},
+      "size": 480
      },
      {
       "t": "titulo",
@@ -1104,12 +1082,11 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "grupo",
+      "t": "ilus",
+      "nombre": "arbol_familia",
       "en": null,
-      "size": 260,
-      "color": "#4aa3ff",
-      "color2": "#2f6fa8"
+      "marcas": {},
+      "size": 520
      },
      {
       "t": "titulo",
@@ -1232,12 +1209,12 @@
       "size": 50
      },
      {
-      "t": "icono",
-      "nombre": "ojo",
+      "t": "ilus",
+      "nombre": "ojo_grande",
       "en": null,
-      "anim": "late",
-      "size": 260,
-      "color": "#4aa3ff"
+      "marcas": {},
+      "color": "#4aa3ff",
+      "size": 480
      },
      {
       "t": "sello",
@@ -1431,28 +1408,20 @@
    "escena": {
     "el": [
      {
-      "t": "iconos",
-      "items": [
-       {
-        "nombre": "ojo",
-        "texto": "Iris",
-        "color": "#4aa3ff"
-       },
-       {
-        "nombre": "nube",
-        "texto": "Cielo",
-        "color": "#9fd0ff",
-        "en": "cielo"
-       }
-      ],
+      "t": "ilus",
+      "nombre": "luz_iris",
       "en": null,
-      "size": 220
+      "marcas": {
+       "rebota": "rebota",
+       "cielo": "cielo"
+      },
+      "size": 560
      },
      {
       "t": "titulo",
       "texto": "La luz [rebota]",
       "en": "rebota",
-      "size": 110
+      "size": 104
      }
     ]
    }
@@ -2032,6 +2001,15 @@
    "escena": {
     "el": [
      {
+      "t": "ilus",
+      "nombre": "ojo_grande",
+      "en": null,
+      "marcas": {},
+      "color": "#4aa3ff",
+      "dilata": true,
+      "size": 380
+     },
+     {
       "t": "tarjetas",
       "items": [
        {
@@ -2210,29 +2188,21 @@
    "escena": {
     "el": [
      {
-      "t": "iconos",
-      "items": [
-       {
-        "nombre": "ojo",
-        "color": "#4aa3ff"
-       },
-       {
-        "nombre": "ojo",
-        "color": "#9a6235"
-       },
-       {
-        "nombre": "ojo",
-        "color": "#3e9d5a"
-       }
-      ],
+      "t": "ilus",
+      "nombre": "ojo_grande",
       "en": null,
-      "size": 180
+      "marcas": {
+       "cambia": "color"
+      },
+      "color": "#4aa3ff",
+      "color2": "#3e9d5a",
+      "size": 440
      },
      {
       "t": "titulo",
       "texto": "¿Tus [ojos]?",
       "en": null,
-      "size": 130
+      "size": 120
      },
      {
       "t": "pildora",
@@ -2248,6 +2218,8 @@
  ],
  "estilo": {
   "acento": "#5ac8ff",
-  "tinte": "#163050"
+  "tinte": "#163050",
+  "escenario": "adn",
+  "subtitulos": false
  }
 }

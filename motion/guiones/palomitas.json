@@ -2,7 +2,9 @@
  "id": "palomitas",
  "estilo": {
   "acento": "#ffc83d",
-  "tinte": "#3a1a1a"
+  "tinte": "#3a1a1a",
+  "escenario": "cine",
+  "subtitulos": false
  },
  "beats": [
   {
@@ -21,26 +23,17 @@
    "escena": {
     "el": [
      {
-      "t": "iconos",
-      "items": [
-       {
-        "nombre": "palomitas",
-        "color": "rojo"
-       },
-       {
-        "nombre": "boleto",
-        "color": "#7c5cff",
-        "en": "entrada?"
-       }
-      ],
+      "t": "ilus",
+      "nombre": "palomitas_maquina",
       "en": null,
-      "size": 230
+      "marcas": {},
+      "size": 520
      },
      {
       "t": "titulo",
-      "texto": "¿Casi [lo mismo]?",
-      "en": "mismo",
-      "size": 110
+      "texto": "¿Casi [lo mismo] que la entrada?",
+      "en": null,
+      "size": 92
      }
     ]
    }
@@ -61,19 +54,21 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "boleto",
+      "t": "ilus",
+      "nombre": "boleto_reparte",
       "en": null,
-      "anim": "balancea",
-      "size": 260,
-      "color": "#7c5cff"
+      "marcas": {
+       "corta": "nada."
+      },
+      "estudio": 70,
+      "size": 520
      },
      {
       "t": "titulo",
       "texto": "Al cine le queda [casi nada]",
       "en": "nada.",
       "acento": "rojo",
-      "size": 92
+      "size": 90
      }
     ]
    }
@@ -130,17 +125,22 @@
       "size": 50
      },
      {
+      "t": "ilus",
+      "nombre": "boleto_reparte",
+      "en": null,
+      "marcas": {
+       "corta": "70%,"
+      },
+      "estudio": 70,
+      "size": 520
+     },
+     {
       "t": "numero",
       "valor": 70,
       "en": "70%,",
       "sufijo": "%+",
-      "size": 230,
+      "size": 170,
       "color": "rojo"
-     },
-     {
-      "t": "texto",
-      "texto": "de tu boleto, para el estudio",
-      "en": "más."
      }
     ]
    }
@@ -163,21 +163,21 @@
       "t": "titulo",
       "texto": "¿De dónde gana?",
       "en": null,
-      "size": 110
+      "size": 104
      },
      {
-      "t": "icono",
-      "nombre": "palomitas",
+      "t": "ilus",
+      "nombre": "palomitas_maquina",
       "en": "dulcería.",
-      "anim": "late",
-      "size": 280,
-      "color": "rojo"
+      "marcas": {},
+      "size": 500,
+      "esperar": true
      },
      {
       "t": "titulo",
       "texto": "La [dulcería]",
       "en": "dulcería.",
-      "size": 120
+      "size": 110
      }
     ]
    }
@@ -262,6 +262,13 @@
       "size": 46
      },
      {
+      "t": "ilus",
+      "nombre": "dulceria",
+      "en": null,
+      "marcas": {},
+      "size": 460
+     },
+     {
       "t": "texto",
       "texto": "De cada $100 en dulcería:",
       "en": "100"
@@ -271,13 +278,8 @@
       "valor": 80,
       "en": "80",
       "prefijo": "+$",
-      "size": 220,
+      "size": 180,
       "color": "verde"
-     },
-     {
-      "t": "texto",
-      "texto": "eran [ganancia]",
-      "en": "ganancia."
      }
     ]
    }
@@ -417,15 +419,14 @@
       "t": "titulo",
       "texto": "El cine es una [tienda de palomitas]",
       "en": "tienda",
-      "size": 96
+      "size": 90
      },
      {
-      "t": "icono",
-      "nombre": "palomitas",
+      "t": "ilus",
+      "nombre": "palomitas_maquina",
       "en": null,
-      "anim": "late",
-      "size": 230,
-      "color": "rojo"
+      "marcas": {},
+      "size": 500
      },
      {
       "t": "texto",

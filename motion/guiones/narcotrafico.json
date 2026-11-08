@@ -2,7 +2,9 @@
  "id": "narcotrafico",
  "estilo": {
   "acento": "#ffc83d",
-  "tinte": "#3a1a22"
+  "tinte": "#3a1a22",
+  "escenario": "ciudad",
+  "subtitulos": false
  },
  "beats": [
   {
@@ -21,19 +23,22 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "balanza",
-      "en": null,
-      "anim": "balancea",
-      "size": 280,
-      "color": "verde",
-      "color2": "rojo"
-     },
-     {
       "t": "titulo",
       "texto": "¿El narco [ayuda] a la economía?",
       "en": null,
-      "size": 96
+      "size": 92
+     },
+     {
+      "t": "ilus",
+      "nombre": "balanza_inclina",
+      "en": null,
+      "marcas": {},
+      "angulo": 0,
+      "tizq": "¿ENTRA?",
+      "tder": "¿SE PIERDE?",
+      "nizq": 1,
+      "nder": 1,
+      "size": 520
      }
     ]
    }
@@ -85,23 +90,11 @@
    "escena": {
     "el": [
      {
-      "t": "iconos",
-      "items": [
-       {
-        "nombre": "billete",
-        "color": "verde"
-       },
-       {
-        "nombre": "bolsa"
-       },
-       {
-        "nombre": "billete",
-        "color": "verde"
-       }
-      ],
+      "t": "ilus",
+      "nombre": "lluvia_billetes",
       "en": null,
-      "size": 190,
-      "anim": "cae"
+      "marcas": {},
+      "size": 540
      },
      {
       "t": "titulo",
@@ -137,26 +130,21 @@
    "escena": {
     "el": [
      {
-      "t": "iconos",
-      "items": [
-       {
-        "nombre": "casa",
-        "texto": "Casas",
-        "en": "casas,"
-       },
-       {
-        "nombre": "edificio",
-        "texto": "Negocios",
-        "en": "negocios,"
-       },
-       {
-        "nombre": "auto",
-        "texto": "Autos",
-        "en": "autos."
-       }
-      ],
+      "t": "titulo",
+      "texto": "Casas, negocios, autos",
       "en": null,
-      "size": 190
+      "size": 86
+     },
+     {
+      "t": "ilus",
+      "nombre": "ciudad_crece",
+      "en": null,
+      "marcas": {
+       "casas": "casas,",
+       "negocios": "negocios,",
+       "autos": "autos."
+      },
+      "size": 560
      }
     ]
    }
@@ -233,15 +221,16 @@
       "t": "titulo",
       "texto": "La cuenta que [no te muestran]",
       "en": null,
-      "size": 104
+      "size": 96
      },
      {
-      "t": "icono",
-      "nombre": "lupa",
+      "t": "ilus",
+      "nombre": "grafico",
       "en": null,
-      "anim": "balancea",
-      "size": 230,
-      "color": "#ffffff"
+      "marcas": {},
+      "forma": "baja",
+      "etiqueta": "LA OTRA CUENTA",
+      "size": 500
      }
     ]
    }
@@ -269,23 +258,27 @@
       "size": 50
      },
      {
-      "t": "texto",
-      "texto": "La violencia costó:",
-      "en": "violencia"
-     },
-     {
       "t": "numero",
       "valor": 4,
       "en": "4",
       "prefijo": "$",
       "sufijo": " billones",
-      "size": 150,
+      "size": 140,
       "color": "rojo"
      },
      {
       "t": "texto",
-      "texto": "de pesos",
+      "texto": "de pesos: el costo de la violencia",
       "en": "pesos"
+     },
+     {
+      "t": "ilus",
+      "nombre": "grafico",
+      "en": null,
+      "marcas": {},
+      "forma": "baja",
+      "color": "#ff4d5e",
+      "size": 400
      }
     ],
     "tinte": "#4a1a24"
@@ -352,7 +345,16 @@
       "t": "titulo",
       "texto": "¿Por qué?",
       "en": null,
-      "size": 110
+      "size": 100
+     },
+     {
+      "t": "ilus",
+      "nombre": "tienda_cerrada",
+      "en": null,
+      "marcas": {
+       "cierra": "extorsión."
+      },
+      "size": 380
      },
      {
       "t": "tarjetas",
@@ -398,19 +400,13 @@
    "escena": {
     "el": [
      {
-      "t": "iconos",
-      "items": [
-       {
-        "nombre": "casa"
-       },
-       {
-        "nombre": "grafico_sube",
-        "color": "rojo",
-        "en": "infla"
-       }
-      ],
+      "t": "ilus",
+      "nombre": "casa_precio",
       "en": null,
-      "size": 210
+      "marcas": {
+       "sube": "infla"
+      },
+      "size": 540
      },
      {
       "t": "titulo",
@@ -442,20 +438,13 @@
    "escena": {
     "el": [
      {
-      "t": "vs",
-      "a": {
-       "icono": "bolsa",
-       "texto": "Arriba: la ganancia",
-       "color": "oro",
-       "en": "ganancia"
+      "t": "ilus",
+      "nombre": "piramide",
+      "en": null,
+      "marcas": {
+       "riesgo": "riesgo."
       },
-      "b": {
-       "icono": "alerta",
-       "texto": "Abajo: el riesgo",
-       "color": "rojo",
-       "en": "riesgo."
-      },
-      "en": null
+      "size": 600
      }
     ]
    }
@@ -476,39 +465,18 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "balanza",
+      "t": "ilus",
+      "nombre": "balanza_inclina",
       "en": null,
-      "anim": "balancea",
-      "size": 240,
-      "color": "verde",
-      "color2": "rojo"
-     },
-     {
-      "t": "barras",
-      "items": [
-       {
-        "texto": "Lo que entra",
-        "valor": 25,
-        "color": "verde",
-        "en": "entra"
-       },
-       {
-        "texto": "Lo que se pierde",
-        "valor": 100,
-        "color": "rojo",
-        "en": "pierde."
-       }
-      ],
-      "en": null,
-      "max": 100,
-      "ocultar": true
-     },
-     {
-      "t": "texto",
-      "texto": "(proporción ilustrativa)",
-      "en": "pierde.",
-      "size": 30
+      "marcas": {
+       "inclina": "pierde."
+      },
+      "angulo": 24,
+      "tizq": "LO QUE ENTRA",
+      "tder": "LO QUE SE PIERDE",
+      "nizq": 1,
+      "nder": 3,
+      "size": 560
      }
     ]
    }

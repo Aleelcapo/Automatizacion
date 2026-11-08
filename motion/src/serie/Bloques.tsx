@@ -3,6 +3,7 @@ import {AbsoluteFill, Easing, interpolate, spring, useCurrentFrame, useVideoConf
 import {Beat, C, FUENTE} from './tema';
 import {BeatCtx, Contador, Pildora, Titular} from './util';
 import {Icono} from './iconos';
+import {ILUSTRACIONES} from './ilustraciones';
 
 /*
  Escena descrita en JSON (campo "escena" de cada beat del guion):
@@ -329,6 +330,22 @@ const Elemento: React.FC<{el: El; d: number; beat: Beat}> = ({el, d, beat}) => {
         </div>
       );
     }
+    case 'ilus': {
+      const Comp = ILUSTRACIONES[el.nombre];
+      if (!Comp) return null;
+      const marcas: Record<string, number> = {};
+      Object.entries(el.marcas ?? {}).forEach(([k, w]) => {
+        marcas[k] = frameDe(beat, fps, w as string, 9999) - d;
+      });
+      const sz = el.size ?? 560;
+      return (
+        <Aparece desde={d}>
+          <div style={{width: sz, height: (sz * (el.alto ?? 600)) / 600}}>
+            <Comp f={Math.max(0, f - d)} m={marcas} p={el} />
+          </div>
+        </Aparece>
+      );
+    }
     case 'espacio':
       return <div style={{height: el.alto ?? 40}} />;
     default:
@@ -364,8 +381,8 @@ export const EscenaGenerica: React.FC = () => {
               position: 'absolute',
               left: 0,
               right: 0,
-              top: 430,
-              height: 1150,
+              top: 230,
+              height: 1440,
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
@@ -378,7 +395,7 @@ export const EscenaGenerica: React.FC = () => {
             <div style={{zoom: 1.3, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 30}}>
             {m.el.map((el, k) => {
               // el primer elemento "decorativo" aparece de inmediato para que la pantalla nunca quede vacía
-              const inmediato = k === 0 && ['titulo', 'icono', 'pildora', 'texto', 'iconos'].includes(el.t);
+              const inmediato = k === 0 && ['titulo', 'icono', 'pildora', 'texto', 'iconos', 'ilus'].includes(el.t) && !el.esperar;
               const d = inmediato ? ini + 3 : frameDe(beat, fps, el.en, ini + 3 + k * 5);
               return <Elemento key={k} el={inmediato ? {...el, en: undefined} : el} d={d} beat={beat} />;
             })}

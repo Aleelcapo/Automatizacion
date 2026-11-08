@@ -420,3 +420,13 @@ export const Icono: React.FC<{nombre: string; size?: number; color?: string; col
     </svg>
   );
 };
+
+/** Ícono como grupo SVG (para usar dentro de otro SVG), centrado en (0,0), tamaño s. */
+export const IconoG: React.FC<{nombre: string; s: number; color?: string; color2?: string}> = ({nombre, s, color = C.oro, color2 = C.cian}) => {
+  const Comp = I[nombre] ?? I.pregunta;
+  return (
+    <g transform={`scale(${s / 100})`}>
+      <Comp c={color} c2={color2} />
+    </g>
+  );
+};

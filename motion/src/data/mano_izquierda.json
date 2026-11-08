@@ -117,28 +117,19 @@
    "escena": {
     "el": [
      {
-      "t": "iconos",
-      "items": [
-       {
-        "nombre": "mano",
-        "texto": "Diestro",
-        "color": "verde"
-       },
-       {
-        "nombre": "mano",
-        "texto": "¿Izquierda?",
-        "en": "izquierda"
-       }
-      ],
+      "t": "titulo",
+      "texto": "¿Cuánto tarda la [izquierda]?",
       "en": null,
-      "size": 200,
-      "anim": "flota"
+      "size": 96
      },
      {
-      "t": "titulo",
-      "texto": "¿Cuánto [tiempo]?",
-      "en": "cuánto",
-      "size": 110
+      "t": "ilus",
+      "nombre": "mano_firma",
+      "en": null,
+      "marcas": {},
+      "temblor": 1.2,
+      "dur": 80,
+      "etiqueta": "MANO IZQUIERDA"
      }
     ]
    }
@@ -273,11 +264,12 @@
       "size": 56
      },
      {
-      "t": "icono",
-      "nombre": "pluma",
+      "t": "ilus",
+      "nombre": "mano_firma",
       "en": null,
-      "anim": "tiembla",
-      "size": 240
+      "marcas": {},
+      "temblor": 1,
+      "dur": 60
      },
      {
       "t": "titulo",
@@ -533,17 +525,13 @@
         "size": 50
        },
        {
-        "t": "icono",
-        "nombre": "pluma",
+        "t": "ilus",
+        "nombre": "mano_firma",
         "en": null,
-        "anim": "flota",
-        "size": 220
-       },
-       {
-        "t": "titulo",
-        "texto": "Dibujo con la [izquierda]",
-        "en": "izquierda",
-        "size": 88
+        "marcas": {},
+        "temblor": 0.6,
+        "dur": 60,
+        "etiqueta": "PRACTICANDO"
        }
       ]
      },
@@ -551,17 +539,15 @@
       "en": "10",
       "el": [
        {
-        "t": "icono",
-        "nombre": "calendario",
+        "t": "ilus",
+        "nombre": "calendario_hojas",
         "en": null,
-        "size": 200
-       },
-       {
-        "t": "numero",
-        "valor": 10,
-        "en": "10",
-        "sufijo": " días",
-        "size": 190
+        "marcas": {},
+        "desde": 1,
+        "hasta": 10,
+        "titulo": "DÍAS",
+        "dur": 30,
+        "size": 440
        },
        {
         "t": "texto",
@@ -705,12 +691,17 @@
       "valor": 89,
       "en": "89",
       "sufijo": "%",
-      "size": 230
+      "size": 190
      },
      {
-      "t": "texto",
-      "texto": "mejoró en:",
-      "en": "mejoró"
+      "t": "ilus",
+      "nombre": "grafico",
+      "en": null,
+      "marcas": {},
+      "forma": "sube",
+      "color": "#a78bfa",
+      "etiqueta": "MEJORARON",
+      "size": 380
      },
      {
       "t": "lista",
@@ -842,17 +833,13 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "reloj",
+      "t": "ilus",
+      "nombre": "reloj_vueltas",
       "en": null,
-      "anim": "balancea",
-      "size": 230
-     },
-     {
-      "t": "titulo",
-      "texto": "[6 meses] después…",
-      "en": "6",
-      "size": 100
+      "marcas": {},
+      "velocidad": 5,
+      "etiqueta": "6 MESES DESPUÉS",
+      "size": 480
      },
      {
       "t": "pildora",
@@ -1062,11 +1049,15 @@
       "size": 56
      },
      {
-      "t": "numero",
-      "valor": 6,
+      "t": "ilus",
+      "nombre": "calendario_hojas",
       "en": "6",
-      "sufijo": " semanas",
-      "size": 170
+      "marcas": {},
+      "desde": 1,
+      "hasta": 6,
+      "titulo": "SEMANA",
+      "dur": 36,
+      "size": 420
      },
      {
       "t": "iconos",
@@ -1083,7 +1074,7 @@
        }
       ],
       "en": null,
-      "size": 170
+      "size": 150
      }
     ]
    }
@@ -1314,13 +1305,14 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "cerebro",
+      "t": "ilus",
+      "nombre": "cerebro_puente",
       "en": null,
-      "anim": "late",
-      "size": 280,
-      "color": "#a78bfa",
-      "color2": "#ffc83d"
+      "marcas": {},
+      "izq": "MANO DERECHA",
+      "der": "MANO IZQUIERDA",
+      "c1": "#a78bfa",
+      "size": 500
      },
      {
       "t": "titulo",
@@ -1512,27 +1504,27 @@
       "en": "al",
       "el": [
        {
-        "t": "iconos",
-        "items": [
-         {
-          "nombre": "mano",
-          "texto": "Entrenas la izquierda"
-         },
-         {
-          "nombre": "flecha",
-          "color": "#ffffff",
-          "size": 110
-         },
-         {
-          "nombre": "mano",
-          "texto": "Mejora la derecha",
-          "color": "verde",
-          "en": "mejora."
-         }
-        ],
+        "t": "titulo",
+        "texto": "Entrenas la izquierda…",
         "en": null,
-        "size": 170,
-        "gap": 24
+        "size": 80
+       },
+       {
+        "t": "ilus",
+        "nombre": "cerebro_puente",
+        "en": null,
+        "marcas": {
+         "cruza": "derecha"
+        },
+        "izq": "IZQUIERDA",
+        "der": "DERECHA",
+        "size": 520
+       },
+       {
+        "t": "titulo",
+        "texto": "…y [mejora la derecha]",
+        "en": "mejora.",
+        "size": 80
        }
       ]
      }
@@ -1627,13 +1619,15 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "cerebro",
+      "t": "ilus",
+      "nombre": "cerebro_puente",
       "en": null,
-      "anim": "late",
-      "size": 280,
-      "color": "#a78bfa",
-      "color2": "verde"
+      "marcas": {
+       "cruza": "comparte"
+      },
+      "izq": "APRENDE",
+      "der": "COMPARTE",
+      "size": 520
      },
      {
       "t": "titulo",
@@ -1714,17 +1708,21 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "calendario",
+      "t": "ilus",
+      "nombre": "calendario_hojas",
       "en": null,
-      "anim": "late",
-      "size": 220
+      "marcas": {},
+      "desde": 1,
+      "hasta": 7,
+      "titulo": "1 SEMANA",
+      "dur": 40,
+      "size": 400
      },
      {
       "t": "titulo",
-      "texto": "¿[1 semana]?",
+      "texto": "¿Te [animas]?",
       "en": null,
-      "size": 130
+      "size": 120
      },
      {
       "t": "pildora",
@@ -1740,6 +1738,8 @@
  ],
  "estilo": {
   "acento": "#a78bfa",
-  "tinte": "#2a2050"
+  "tinte": "#2a2050",
+  "escenario": "papel",
+  "subtitulos": false
  }
 }

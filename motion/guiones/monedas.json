@@ -2,7 +2,9 @@
  "id": "monedas",
  "estilo": {
   "acento": "#ffc83d",
-  "tinte": "#3a3016"
+  "tinte": "#3a3016",
+  "escenario": "monedas",
+  "subtitulos": false
  },
  "beats": [
   {
@@ -25,11 +27,11 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "bimetalica",
+      "t": "ilus",
+      "nombre": "moneda_bimetalica",
       "en": null,
-      "anim": "balancea",
-      "size": 280
+      "marcas": {},
+      "size": 500
      },
      {
       "t": "sello",
@@ -41,7 +43,7 @@
       "t": "titulo",
       "texto": "Vale [más] de lo que crees",
       "en": "vale",
-      "size": 88
+      "size": 84
      }
     ]
    }
@@ -62,25 +64,13 @@
    "escena": {
     "el": [
      {
-      "t": "iconos",
-      "items": [
-       {
-        "nombre": "bimetalica"
-       },
-       {
-        "nombre": "flecha",
-        "color": "#ffffff",
-        "size": 110,
-        "en": "quita"
-       },
-       {
-        "nombre": "centro_plata",
-        "en": "anillo"
-       }
-      ],
+      "t": "ilus",
+      "nombre": "moneda_bimetalica",
       "en": null,
-      "size": 200,
-      "gap": 24
+      "marcas": {
+       "separa": "anillo"
+      },
+      "size": 520
      },
      {
       "t": "titulo",
@@ -105,6 +95,15 @@
    ],
    "escena": {
     "el": [
+     {
+      "t": "ilus",
+      "nombre": "moneda_bimetalica",
+      "en": null,
+      "marcas": {
+       "separa": "adentro."
+      },
+      "size": 420
+     },
      {
       "t": "lista",
       "items": [
@@ -141,22 +140,20 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "bimetalica",
-      "en": null,
-      "size": 240
-     },
-     {
       "t": "pildora",
       "texto": "10 nuevos pesos · años 90",
       "en": "10",
       "size": 48
      },
      {
-      "t": "titulo",
-      "texto": "Centro de [plata]",
-      "en": "plata.",
-      "size": 110
+      "t": "ilus",
+      "nombre": "moneda_bimetalica",
+      "en": null,
+      "marcas": {
+       "separa": "plata."
+      },
+      "etiqueta": "CENTRO DE PLATA",
+      "size": 520
      }
     ]
    }
@@ -176,17 +173,14 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "centro_plata",
+      "t": "ilus",
+      "nombre": "moneda_bimetalica",
       "en": null,
-      "anim": "late",
-      "size": 300
-     },
-     {
-      "t": "titulo",
-      "texto": "Ley [.925]",
-      "en": "925.",
-      "size": 130
+      "marcas": {
+       "separa": "plata"
+      },
+      "etiqueta": "LEY .925",
+      "size": 560
      }
     ]
    }
@@ -207,26 +201,19 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "balanza",
+      "t": "ilus",
+      "nombre": "bascula",
       "en": null,
-      "size": 240,
-      "color": "#dfe6ee",
-      "color2": "#dfe6ee"
-     },
-     {
-      "t": "numero",
+      "marcas": {},
       "valor": 5,
-      "en": "5",
-      "prefijo": "≈ ",
       "sufijo": " g",
-      "size": 200,
-      "color": "#dfe6ee"
+      "size": 520
      },
      {
       "t": "texto",
       "texto": "de plata pura",
-      "en": "pura."
+      "en": "pura.",
+      "size": 56
      }
     ]
    }
@@ -256,14 +243,16 @@
       "valor": 100,
       "en": "100",
       "prefijo": "+$",
-      "size": 220
+      "size": 200
      },
      {
-      "t": "icono",
-      "nombre": "grafico_sube",
+      "t": "ilus",
+      "nombre": "grafico",
       "en": null,
-      "size": 180,
-      "color": "verde"
+      "marcas": {},
+      "forma": "sube",
+      "etiqueta": "PRECIO DE LA PLATA",
+      "size": 420
      }
     ]
    }
@@ -413,7 +402,16 @@
       "t": "titulo",
       "texto": "Revisa también:",
       "en": null,
-      "size": 96
+      "size": 90
+     },
+     {
+      "t": "ilus",
+      "nombre": "lupa_moneda",
+      "en": null,
+      "marcas": {
+       "encuentra": "errores"
+      },
+      "size": 380
      },
      {
       "t": "tarjetas",
@@ -422,20 +420,20 @@
         "icono": "lupa",
         "texto": "Errores de fábrica",
         "en": "errores",
-        "size": 52
+        "size": 50
        },
        {
         "icono": "calendario",
         "texto": "Poca producción",
         "en": "producción",
-        "size": 52
+        "size": 50
        },
        {
         "icono": "moneda",
         "texto": "Antiguas de plata",
         "color": "#dfe6ee",
         "en": "antiguas",
-        "size": 52
+        "size": 50
        }
       ],
       "en": null
@@ -509,17 +507,17 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "bimetalica",
+      "t": "ilus",
+      "nombre": "moneda_bimetalica",
       "en": null,
-      "anim": "gira",
-      "size": 220
+      "marcas": {},
+      "size": 420
      },
      {
       "t": "titulo",
       "texto": "¿Tienes [alguna]?",
       "en": null,
-      "size": 120
+      "size": 110
      },
      {
       "t": "pildora",

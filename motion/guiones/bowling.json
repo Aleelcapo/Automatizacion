@@ -2,7 +2,9 @@
  "id": "bowling",
  "estilo": {
   "acento": "#ff8a3d",
-  "tinte": "#3a2a1a"
+  "tinte": "#3a2a1a",
+  "escenario": "bolera",
+  "subtitulos": false
  },
  "beats": [
   {
@@ -25,27 +27,22 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "bolo",
-      "en": null,
-      "anim": "balancea",
-      "size": 230
-     },
-     {
-      "t": "numero",
-      "valor": 190,
-      "en": "puntos",
-      "sufijo": " pts",
-      "size": 200
-     },
-     {
       "t": "titulo",
-      "texto": "sin un [strike]",
-      "en": "sin",
-      "size": 96
+      "texto": "¿[190] puntos sin un strike?",
+      "en": null,
+      "size": 92
+     },
+     {
+      "t": "ilus",
+      "nombre": "bolera",
+      "en": null,
+      "marcas": {
+       "tiro": "bowling"
+      },
+      "modo": "nueve",
+      "etiqueta": "SIN STRIKE"
      }
-    ],
-    "icono_fondo": "bola"
+    ]
    }
   },
   {
@@ -66,49 +63,23 @@
     ]
    ],
    "escena": {
-    "momentos": [
+    "el": [
      {
+      "t": "titulo",
+      "texto": "El truco: el [spare]",
       "en": null,
-      "el": [
-       {
-        "t": "pildora",
-        "texto": "El truco",
-        "en": null
-       },
-       {
-        "t": "titulo",
-        "texto": "[Spare]",
-        "en": "spare,",
-        "size": 150
-       }
-      ]
+      "size": 96
      },
      {
-      "en": "derribar",
-      "el": [
-       {
-        "t": "iconos",
-        "items": [
-         {
-          "nombre": "bola",
-          "texto": "Tiro 1"
-         },
-         {
-          "nombre": "bola",
-          "texto": "Tiro 2",
-          "en": "dos"
-         }
-        ],
-        "en": null,
-        "size": 180
-       },
-       {
-        "t": "titulo",
-        "texto": "= [10] pinos",
-        "en": "10",
-        "size": 96
-       }
-      ]
+      "t": "ilus",
+      "nombre": "bolera",
+      "en": null,
+      "marcas": {
+       "tiro": "derribar",
+       "segunda": "dos"
+      },
+      "modo": "spare",
+      "etiqueta": "SPARE = 10 EN 2 TIROS"
      }
     ]
    }
@@ -130,23 +101,28 @@
    "escena": {
     "el": [
      {
-      "t": "titulo",
-      "texto": "Spare =",
-      "en": null,
-      "size": 100
-     },
-     {
       "t": "numero",
       "valor": 10,
       "en": "10",
       "sufijo": " pts",
-      "size": 190
+      "size": 150
      },
      {
       "t": "titulo",
       "texto": "+ la [siguiente bola]",
       "en": "siguiente",
       "size": 80
+     },
+     {
+      "t": "ilus",
+      "nombre": "bolera",
+      "en": "siguiente",
+      "marcas": {
+       "tiro": "siguiente"
+      },
+      "modo": "strike",
+      "size": 430,
+      "esperar": true
      }
     ]
    }
@@ -172,24 +148,22 @@
    "escena": {
     "el": [
      {
-      "t": "titulo",
-      "texto": "[9] pinos + spare",
-      "en": "9",
-      "size": 96
-     },
-     {
-      "t": "icono",
-      "nombre": "bolo",
-      "en": "spare,",
-      "anim": "balancea",
-      "size": 200
+      "t": "ilus",
+      "nombre": "bolera",
+      "en": null,
+      "marcas": {
+       "tiro": "9",
+       "segunda": "spare,"
+      },
+      "modo": "spare",
+      "size": 500
      },
      {
       "t": "numero",
       "valor": 19,
       "en": "19",
       "sufijo": " por cuadro",
-      "size": 130
+      "size": 120
      }
     ]
    }
@@ -284,9 +258,19 @@
      {
       "t": "titulo",
       "texto": "[Sin] spare",
-      "en": "nunca",
+      "en": null,
       "acento": "rojo",
       "size": 110
+     },
+     {
+      "t": "ilus",
+      "nombre": "bolera",
+      "en": null,
+      "marcas": {
+       "tiro": "tiras"
+      },
+      "modo": "nueve",
+      "size": 470
      },
      {
       "t": "numero",
@@ -294,7 +278,7 @@
       "en": "90",
       "sufijo": " pts",
       "color": "rojo",
-      "size": 200
+      "size": 160
      }
     ]
    }
@@ -358,17 +342,17 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "trofeo",
+      "t": "ilus",
+      "nombre": "trofeo_brillo",
       "en": null,
-      "anim": "late",
-      "size": 260
+      "marcas": {},
+      "size": 480
      },
      {
       "t": "titulo",
       "texto": "190 = [altísimo]",
       "en": "190",
-      "size": 110
+      "size": 104
      }
     ]
    }
@@ -494,15 +478,19 @@
      {
       "t": "titulo",
       "texto": "“[Dutch 200]”",
-      "en": "dutch",
-      "size": 130
+      "en": null,
+      "size": 120
      },
      {
-      "t": "icono",
-      "nombre": "bola",
+      "t": "ilus",
+      "nombre": "bolera",
       "en": null,
-      "anim": "gira",
-      "size": 200
+      "marcas": {
+       "tiro": "dutch"
+      },
+      "modo": "strike",
+      "etiqueta": "¡STRIKE!",
+      "size": 480
      }
     ]
    }
@@ -525,6 +513,17 @@
    ],
    "escena": {
     "el": [
+     {
+      "t": "ilus",
+      "nombre": "bolera",
+      "en": null,
+      "marcas": {
+       "tiro": "asegura",
+       "segunda": "spare."
+      },
+      "modo": "spare",
+      "size": 440
+     },
      {
       "t": "lista",
       "items": [
@@ -559,17 +558,17 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "comentario",
+      "t": "ilus",
+      "nombre": "trofeo_brillo",
       "en": null,
-      "anim": "late",
-      "size": 200
+      "marcas": {},
+      "size": 380
      },
      {
       "t": "titulo",
       "texto": "¿Tu mejor [puntaje]?",
       "en": null,
-      "size": 110
+      "size": 104
      },
      {
       "t": "pildora",

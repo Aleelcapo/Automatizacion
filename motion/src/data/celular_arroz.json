@@ -121,26 +121,11 @@
    "escena": {
     "el": [
      {
-      "t": "iconos",
-      "items": [
-       {
-        "nombre": "celular"
-       },
-       {
-        "nombre": "gota",
-        "color": "#5ac8ff",
-        "en": "moja"
-       }
-      ],
+      "t": "ilus",
+      "nombre": "celular_agua",
       "en": null,
-      "size": 200
-     },
-     {
-      "t": "icono",
-      "nombre": "arroz",
-      "en": "arroz.",
-      "size": 200,
-      "color": "#e7ecf3"
+      "marcas": {},
+      "size": 540
      },
      {
       "t": "sello",
@@ -737,57 +722,27 @@
     }
    ],
    "escena": {
-    "momentos": [
+    "el": [
      {
+      "t": "titulo",
+      "texto": "¿Por qué?",
       "en": null,
-      "el": [
-       {
-        "t": "titulo",
-        "texto": "¿Por qué?",
-        "en": null,
-        "size": 120
-       },
-       {
-        "t": "iconos",
-        "items": [
-         {
-          "nombre": "arroz",
-          "color": "#e7ecf3"
-         },
-         {
-          "nombre": "nube",
-          "texto": "Polvo + almidón",
-          "color": "#c9d3e3",
-          "en": "polvo"
-         }
-        ],
-        "en": null,
-        "size": 180
-       }
-      ]
+      "size": 110
      },
      {
-      "en": "partículas",
-      "el": [
-       {
-        "t": "icono",
-        "nombre": "celular",
-        "en": null,
-        "size": 220
-       },
-       {
-        "t": "pildora",
-        "texto": "Puerto de carga",
-        "en": "puerto",
-        "size": 50
-       },
-       {
-        "t": "sello",
-        "texto": "Más daño",
-        "en": "dañarlo",
-        "color": "rojo"
-       }
-      ]
+      "t": "ilus",
+      "nombre": "celular_arroz",
+      "en": null,
+      "marcas": {
+       "particulas": "polvo"
+      },
+      "size": 580
+     },
+     {
+      "t": "sello",
+      "texto": "Más daño",
+      "en": "dañarlo",
+      "color": "rojo"
      }
     ]
    }
@@ -916,11 +871,13 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "reloj",
+      "t": "ilus",
+      "nombre": "reloj_vueltas",
       "en": null,
-      "anim": "gira",
-      "size": 220
+      "marcas": {},
+      "velocidad": 3,
+      "color": "#5ac8ff",
+      "size": 460
      },
      {
       "t": "titulo",
@@ -1059,6 +1016,13 @@
    ],
    "escena": {
     "el": [
+     {
+      "t": "ilus",
+      "nombre": "celular_aire",
+      "en": null,
+      "marcas": {},
+      "size": 420
+     },
      {
       "t": "pasos",
       "items": [
@@ -1241,6 +1205,13 @@
    "escena": {
     "el": [
      {
+      "t": "ilus",
+      "nombre": "celular_golpes",
+      "en": null,
+      "marcas": {},
+      "size": 460
+     },
+     {
       "t": "pasos",
       "items": [
        {
@@ -1252,14 +1223,6 @@
        }
       ],
       "en": null
-     },
-     {
-      "t": "icono",
-      "nombre": "gota",
-      "en": "agua.",
-      "anim": "cae",
-      "size": 150,
-      "color": "#5ac8ff"
      }
     ]
    }
@@ -1396,6 +1359,13 @@
    ],
    "escena": {
     "el": [
+     {
+      "t": "ilus",
+      "nombre": "celular_aire",
+      "en": null,
+      "marcas": {},
+      "size": 440
+     },
      {
       "t": "pasos",
       "items": [
@@ -1893,6 +1863,8 @@
  ],
  "estilo": {
   "acento": "#5ac8ff",
-  "tinte": "#14304a"
+  "tinte": "#14304a",
+  "escenario": "agua",
+  "subtitulos": false
  }
 }

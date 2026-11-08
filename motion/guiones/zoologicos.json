@@ -2,7 +2,9 @@
  "id": "zoologicos",
  "estilo": {
   "acento": "#3ddc84",
-  "tinte": "#163a2a"
+  "tinte": "#163a2a",
+  "escenario": "sabana",
+  "subtitulos": false
  },
  "beats": [
   {
@@ -21,18 +23,19 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "jaula",
-      "en": null,
-      "anim": "balancea",
-      "size": 280,
-      "color": "#c9d3e3"
-     },
-     {
       "t": "titulo",
       "texto": "¿Por qué desaparecen los [zoológicos]?",
       "en": null,
-      "size": 96
+      "size": 90
+     },
+     {
+      "t": "ilus",
+      "nombre": "jaula_abre",
+      "en": null,
+      "marcas": {
+       "abre": "desapareciendo"
+      },
+      "size": 540
      }
     ]
    }
@@ -60,17 +63,20 @@
       "size": 50
      },
      {
-      "t": "icono",
-      "nombre": "jaula",
+      "t": "ilus",
+      "nombre": "mapa_pin",
       "en": null,
-      "size": 200,
-      "color": "#c9d3e3"
+      "marcas": {},
+      "x": 320,
+      "y": 430,
+      "etiqueta": "BUENOS AIRES",
+      "size": 460
      },
      {
       "t": "titulo",
       "texto": "+[100] años",
       "en": "100",
-      "size": 110
+      "size": 96
      },
      {
       "t": "pildora",
@@ -105,18 +111,14 @@
       "size": 50
      },
      {
-      "t": "icono",
-      "nombre": "mapa",
+      "t": "ilus",
+      "nombre": "mapa_pin",
       "en": null,
-      "size": 220,
-      "color": "rojo",
-      "color2": "#2b6b4a"
-     },
-     {
-      "t": "titulo",
-      "texto": "Zoológicos [estatales]",
-      "en": "estatales.",
-      "size": 92
+      "marcas": {},
+      "x": 235,
+      "y": 110,
+      "etiqueta": "COSTA RICA",
+      "size": 480
      },
      {
       "t": "sello",
@@ -151,26 +153,15 @@
       "valor": 300,
       "en": "300",
       "prefijo": "~",
-      "size": 220
+      "sufijo": " animales",
+      "size": 150
      },
      {
-      "t": "texto",
-      "texto": "animales trasladados",
-      "en": "animales"
-     },
-     {
-      "t": "icono",
-      "nombre": "corazon",
-      "en": "rescate.",
-      "anim": "late",
-      "size": 180,
-      "color": "rojo"
-     },
-     {
-      "t": "pildora",
-      "texto": "Centro de rescate",
-      "en": "rescate.",
-      "size": 50
+      "t": "ilus",
+      "nombre": "camion",
+      "en": null,
+      "marcas": {},
+      "size": 520
      }
     ]
    }
@@ -239,22 +230,30 @@
       "size": 50
      },
      {
+      "t": "ilus",
+      "nombre": "elefante_camina",
+      "en": null,
+      "marcas": {},
+      "etiqueta": "ELEFANTAS",
+      "size": 420
+     },
+     {
       "t": "iconos",
       "items": [
        {
-        "nombre": "elefante",
+        "nombre": "jaula",
         "texto": "Zoológico",
-        "color": "#9aa6b4",
+        "color": "#c9d3e3",
         "en": "zoológicos"
        },
        {
-        "nombre": "elefante",
-        "texto": "Salvaje · Kenia",
+        "nombre": "hoja",
+        "texto": "Salvajes · Kenia",
         "en": "salvajes"
        }
       ],
       "en": null,
-      "size": 220
+      "size": 150
      }
     ]
    }
@@ -279,10 +278,11 @@
    "escena": {
     "el": [
      {
-      "t": "texto",
-      "texto": "Vida promedio de elefantas africanas",
+      "t": "ilus",
+      "nombre": "elefante_camina",
       "en": null,
-      "size": 42
+      "marcas": {},
+      "size": 380
      },
      {
       "t": "barras",
@@ -407,26 +407,13 @@
       "en": "transformando",
       "el": [
        {
-        "t": "iconos",
-        "items": [
-         {
-          "nombre": "jaula",
-          "color": "#c9d3e3"
-         },
-         {
-          "nombre": "flecha",
-          "color": "#ffffff",
-          "size": 110
-         },
-         {
-          "nombre": "hoja",
-          "texto": "Santuario",
-          "en": "santuarios"
-         }
-        ],
+        "t": "ilus",
+        "nombre": "jaula_abre",
         "en": null,
-        "size": 180,
-        "gap": 24
+        "marcas": {
+         "abre": "santuarios"
+        },
+        "size": 480
        },
        {
         "t": "lista",

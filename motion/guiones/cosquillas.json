@@ -2,7 +2,9 @@
  "id": "cosquillas",
  "estilo": {
   "acento": "#ff7ab6",
-  "tinte": "#3a1a3a"
+  "tinte": "#3a1a3a",
+  "escenario": null,
+  "subtitulos": false
  },
  "beats": [
   {
@@ -21,17 +23,18 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "pluma_cosquilla",
-      "en": null,
-      "anim": "balancea",
-      "size": 280
-     },
-     {
       "t": "titulo",
       "texto": "¿Cosquillas a [ti mismo]?",
       "en": null,
-      "size": 104
+      "size": 100
+     },
+     {
+      "t": "ilus",
+      "nombre": "pluma_mano",
+      "en": null,
+      "marcas": {},
+      "siente": false,
+      "size": 540
      }
     ]
    }
@@ -52,20 +55,12 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "mano",
+      "t": "ilus",
+      "nombre": "pluma_mano",
       "en": null,
-      "anim": "tiembla",
-      "size": 240,
-      "color": "#f2c9a0"
-     },
-     {
-      "t": "numero",
-      "valor": 0,
-      "en": "funciona.",
-      "sufijo": "%",
-      "size": 200,
-      "color": "rojo"
+      "marcas": {},
+      "siente": false,
+      "size": 520
      },
      {
       "t": "sello",
@@ -130,28 +125,13 @@
    "escena": {
     "el": [
      {
-      "t": "iconos",
-      "items": [
-       {
-        "nombre": "mano",
-        "color": "#f2c9a0"
-       },
-       {
-        "nombre": "flecha",
-        "color": "#ffffff",
-        "size": 110,
-        "en": "copia"
-       },
-       {
-        "nombre": "cerebro",
-        "color": "#ff7ab6",
-        "color2": "oro",
-        "en": "cerebelo,"
-       }
-      ],
+      "t": "ilus",
+      "nombre": "senal_cerebro",
       "en": null,
-      "size": 190,
-      "gap": 24
+      "marcas": {
+       "copia": "copia"
+      },
+      "size": 580
      },
      {
       "t": "pildora",
@@ -188,24 +168,14 @@
       "size": 90
      },
      {
-      "t": "barras",
-      "items": [
-       {
-        "texto": "Volumen de las cosquillas",
-        "valor": 15,
-        "color": "rojo",
-        "en": "volumen."
-       }
-      ],
+      "t": "ilus",
+      "nombre": "volumen",
       "en": null,
-      "max": 100,
-      "ocultar": true
-     },
-     {
-      "t": "texto",
-      "texto": "(baja el volumen)",
-      "en": "baja",
-      "size": 40
+      "marcas": {
+       "baja": "volumen."
+      },
+      "etiqueta": "COSQUILLAS",
+      "size": 520
      }
     ]
    }
@@ -226,25 +196,18 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "persona",
+      "t": "ilus",
+      "nombre": "pluma_mano",
       "en": null,
-      "size": 200,
-      "color": "oro"
+      "marcas": {},
+      "siente": true,
+      "size": 540
      },
      {
       "t": "titulo",
       "texto": "No lo [vio venir]",
       "en": "venir,",
-      "size": 110
-     },
-     {
-      "t": "numero",
-      "valor": 100,
-      "en": "cosquillas.",
-      "sufijo": "%",
-      "size": 180,
-      "color": "verde"
+      "size": 104
      }
     ]
    }
@@ -271,18 +234,17 @@
       "size": 50
      },
      {
-      "t": "icono",
-      "nombre": "robot",
-      "en": "brazo",
-      "anim": "balancea",
-      "size": 260,
-      "color": "#c9d3e3"
+      "t": "ilus",
+      "nombre": "robot_cosquillas",
+      "en": null,
+      "marcas": {},
+      "size": 540
      },
      {
       "t": "titulo",
       "texto": "Brazo [robótico]",
       "en": "robótico.",
-      "size": 104
+      "size": 100
      }
     ]
    }
@@ -307,23 +269,19 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "reloj",
+      "t": "ilus",
+      "nombre": "robot_cosquillas",
       "en": null,
-      "anim": "gira",
-      "size": 220
-     },
-     {
-      "t": "pildora",
-      "texto": "+ pequeño retraso",
-      "en": "retraso,",
-      "size": 52
+      "marcas": {
+       "retraso": "retraso,"
+      },
+      "size": 560
      },
      {
       "t": "titulo",
       "texto": "¡Las cosquillas [volvían]!",
       "en": "volvían.",
-      "size": 96
+      "size": 92
      }
     ]
    }
@@ -356,6 +314,15 @@
         "texto": "¿Para qué [sirve]?",
         "en": null,
         "size": 110
+       },
+       {
+        "t": "icono",
+        "nombre": "cerebro",
+        "en": null,
+        "anim": "late",
+        "size": 240,
+        "color": "#ff7ab6",
+        "color2": "oro"
        }
       ]
      },
@@ -379,12 +346,13 @@
         "en": null
        },
        {
-        "t": "icono",
-        "nombre": "bicho",
-        "en": "insecto",
-        "anim": "tiembla",
-        "size": 200,
-        "color": "#9ae66e"
+        "t": "ilus",
+        "nombre": "insecto_brazo",
+        "en": null,
+        "marcas": {
+         "detecta": "insecto"
+        },
+        "size": 480
        }
       ]
      }
@@ -439,17 +407,18 @@
    "escena": {
     "el": [
      {
-      "t": "icono",
-      "nombre": "pluma_cosquilla",
+      "t": "ilus",
+      "nombre": "pluma_mano",
       "en": null,
-      "anim": "balancea",
-      "size": 220
+      "marcas": {},
+      "siente": true,
+      "size": 420
      },
      {
       "t": "titulo",
       "texto": "¿Eres [cosquilloso]?",
       "en": null,
-      "size": 110
+      "size": 104
      },
      {
       "t": "pildora",

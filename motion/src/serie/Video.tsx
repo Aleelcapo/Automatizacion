@@ -1,6 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, Audio, Sequence, staticFile, useVideoConfig} from 'remotion';
-import {Escena, Fondo, Progreso} from './Fondo';
+import {Escena, Escenario, Fondo, Progreso} from './Fondo';
 import {Subtitulos} from './Subtitulos';
 import {BeatCtx} from './util';
 import {buscar} from '../registro';
@@ -21,12 +21,13 @@ export const VideoSerie: React.FC<{id: string}> = ({id}) => {
           <Sequence key={i} from={desde[i]} durationInFrames={fin - desde[i]} name={b.scene}>
             <BeatCtx.Provider value={beat}>
               <Fondo tinte={b.escena?.tinte ?? tintes[b.scene] ?? datos.estilo?.tinte} />
+              <Escenario tipo={b.escena?.escenario ?? datos.estilo?.escenario} />
               <Escena>{Comp ? <Comp /> : null}</Escena>
             </BeatCtx.Provider>
           </Sequence>
         );
       })}
-      <Subtitulos datos={datos} />
+      {datos.estilo?.subtitulos ? <Subtitulos datos={datos} /> : null}
       <Progreso total={durationInFrames} />
       <Audio src={staticFile(`${datos.id}/voz.wav`)} />
       <Audio src={staticFile(`${datos.id}/musica.wav`)} />
