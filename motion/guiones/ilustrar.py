@@ -44,7 +44,7 @@ V.update({
     'm5': [il('reloj_vueltas', velocidad=5, etiqueta='6 MESES DESPUÉS', size=480), pil('Seguían mejor', 'conservaba', fondo='verde', color='#032312', size=52)],
     'm6': [pil('15 min al día', '15', size=56), il('calendario_hojas', '6', desde=1, hasta=6, titulo='SEMANA', dur=36, size=420),
            icos([dict(nombre='pluma', texto='Escribir', en='escribir'), dict(nombre='mouse', texto='Mouse', en='mouse')], size=150)],
-    'm8': [il('cerebro_puente', izq='MANO DERECHA', der='MANO IZQUIERDA', c1='#a78bfa', size=500), tit('Toda la vida con [un solo lado]', 'entrenando', size=84)],
+    'm8': [il('cerebro_puente', izq='ENTRENADO', der='SIN USO', c1='#a78bfa', cruzar=False, size=500), tit('Toda la vida con [un solo lado]', 'entrenando', size=84)],
     'm9': ('momentos', [(None, [tit('Lo más [loco]…', size=120), ico('estrella', anim='gira', size=180)]),
                         ('al', [tit('Entrenas la izquierda…', size=80), il('cerebro_puente', izq='IZQUIERDA', der='DERECHA', marcas={'cruza': 'derecha'}, size=520),
                                 tit('…y [mejora la derecha]', 'mejora.', size=80)])]),

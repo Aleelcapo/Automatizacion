@@ -53,9 +53,9 @@ const Brillos: React.FC<{f: number; x: number; y: number; r: number; n?: number;
 };
 
 // ======================= BOWLING =======================
-const PINOS: [number, number][] = [[300, 225], [283, 203], [317, 203], [266, 181], [300, 181], [334, 181], [249, 159], [283, 159], [317, 159], [351, 159]];
+const PINOS: [number, number][] = [[300, 235], [278, 200], [322, 200], [256, 165], [300, 165], [344, 165], [234, 130], [278, 130], [322, 130], [366, 130]];
 const Pino: React.FC<{x: number; y: number; r?: number; o?: number}> = ({x, y, r = 0, o = 1}) => (
-  <g transform={`translate(${x} ${y}) rotate(${r}) scale(0.55)`} opacity={o}>
+  <g transform={`translate(${x} ${y}) rotate(${r}) scale(0.95)`} opacity={o}>
     <path d="M-6,-40 Q6,-40 6,-28 Q6,-20 3,-15 Q16,0 14,16 Q12,30 0,30 Q-12,30 -14,16 Q-16,0 -3,-15 Q-6,-20 -6,-28 Q-6,-40 0,-40 Z" fill="#f7f8fc" stroke="#c9d3e3" strokeWidth={2} />
     <rect x={-5} y={-22} width={10} height={3} fill={C.rojo} />
     <rect x={-5} y={-17} width={10} height={3} fill={C.rojo} />
@@ -69,9 +69,9 @@ const Bolera: React.FC<Props> = ({f, m, p}) => {
   const bola = (t0: number, xFin: number) => {
     const k = cl((f - t0) / viaje);
     if (f < t0 || f > t0 + viaje + 2) return null;
-    const y = 560 - (560 - 210) * ease(k * 0.9 + k * 0.1);
+    const y = 560 - (560 - 225) * ease(k * 0.9 + k * 0.1);
     const x = 300 + (xFin - 300) * k;
-    const r = 42 - 28 * k;
+    const r = 62 - 38 * k;
     return (
       <g>
         <circle cx={x} cy={y} r={r} fill={p.color ?? '#ff8a3d'} />
@@ -91,12 +91,12 @@ const Bolera: React.FC<Props> = ({f, m, p}) => {
           <stop offset="1" stopColor="#e7b273" />
         </linearGradient>
       </defs>
-      <polygon points="130,600 470,600 362,120 238,120" fill="url(#madera)" />
+      <polygon points="50,600 550,600 400,70 200,70" fill="url(#madera)" />
       {[0.2, 0.4, 0.6, 0.8].map((k) => (
-        <line key={k} x1={130 + 340 * k} y1={600} x2={238 + 124 * k} y2={120} stroke="#000" strokeOpacity={0.12} strokeWidth={2} />
+        <line key={k} x1={50 + 500 * k} y1={600} x2={200 + 200 * k} y2={70} stroke="#000" strokeOpacity={0.12} strokeWidth={2} />
       ))}
-      <polygon points="100,600 130,600 238,120 228,120" fill="#1d2433" />
-      <polygon points="500,600 470,600 362,120 372,120" fill="#1d2433" />
+      <polygon points="0,600 50,600 200,70 185,70" fill="#1d2433" />
+      <polygon points="600,600 550,600 400,70 415,70" fill="#1d2433" />
       {[0, 1, 2].map((i) => <path key={i} d={`M${290 + i * 10},470 l5,-14 l5,14 z`} fill="#fff" opacity={0.5} />)}
       {PINOS.map(([x, y], i) => {
         const queda = (modo === 'nueve' || modo === 'spare') && i === 9;
@@ -107,9 +107,9 @@ const Bolera: React.FC<Props> = ({f, m, p}) => {
         return <Pino key={i} x={x + dx * t} y={y - 6 * t + 0.6 * t * t} r={(random(`pr${i}`) - 0.5) * 40 * t} o={cl(1 - t / 20)} />;
       })}
       {bola(t1, 300)}
-      {modo === 'spare' && bola(t2, 345)}
-      {f >= golpe1 && f < golpe1 + 12 && <circle cx={300} cy={195} r={40 + (f - golpe1) * 8} fill="none" stroke="#fff" strokeWidth={6} opacity={1 - (f - golpe1) / 12} />}
-      {p.etiqueta && <Etq x={300} y={60} t={p.etiqueta} o={cl((f - (modo === 'spare' ? golpe2 : golpe1)) / 8)} fondo={p.color ?? '#ff8a3d'} c="#1a0d00" />}
+      {modo === 'spare' && bola(t2, 366)}
+      {f >= golpe1 && f < golpe1 + 12 && <circle cx={300} cy={190} r={50 + (f - golpe1) * 10} fill="none" stroke="#fff" strokeWidth={6} opacity={1 - (f - golpe1) / 12} />}
+      {p.etiqueta && <Etq x={300} y={45} t={p.etiqueta} o={cl((f - (modo === 'spare' ? golpe2 : golpe1)) / 8)} fondo={p.color ?? '#ff8a3d'} c="#1a0d00" s={34} />}
     </svg>
   );
 };
@@ -167,7 +167,7 @@ const ManoFirma: React.FC<Props> = ({f, p}) => {
 const CerebroPuente: React.FC<Props> = ({f, m, p}) => {
   const c1 = p.c1 ?? '#a78bfa';
   const c2 = p.c2 ?? C.verde;
-  const cruza = mk(m, 'cruza', 15);
+  const cruza = mk(m, 'cruza', p.cruzar === false ? 99999 : 15);
   const der = prog(f, cruza + 10, 30);
   const pliegues = (cx: number, lado: number) =>
     [0, 1, 2, 3, 4].map((i) => (
@@ -186,8 +186,8 @@ const CerebroPuente: React.FC<Props> = ({f, m, p}) => {
           const t = ((f - cruza) / 18 + i / 3) % 1;
           return <circle key={i} cx={190 + 220 * t} cy={300 + Math.sin(t * Math.PI) * -30} r={16} fill="#fff" opacity={1 - Math.abs(t - 0.5)} />;
         })}
-      <Etq x={190} y={550} t={p.izq ?? 'IZQUIERDA'} fondo={c1} c="#120a2a" s={28} />
-      <Etq x={410} y={550} t={p.der ?? 'DERECHA'} fondo={der > 0.5 ? c2 : '#5d6b7a'} c="#062012" s={28} />
+      <Etq x={160} y={560} t={p.izq ?? 'IZQUIERDA'} fondo={c1} c="#120a2a" s={28} />
+      <Etq x={440} y={560} t={p.der ?? 'DERECHA'} fondo={der > 0.5 ? c2 : '#5d6b7a'} c={der > 0.5 ? '#062012' : '#e3e8f2'} s={28} />
     </svg>
   );
 };
@@ -475,7 +475,7 @@ const MapaPin: React.FC<Props> = ({f, p}) => {
 };
 
 const Camion: React.FC<Props> = ({f}) => {
-  const x = -200 + 500 * prog(f, 2, 40);
+  const x = -260 + 340 * prog(f, 2, 40);
   const giro = f * 12;
   return (
     <svg viewBox="0 0 600 600" width="100%" height="100%">
@@ -495,9 +495,9 @@ const Camion: React.FC<Props> = ({f}) => {
         ))}
       </g>
       <g opacity={prog(f, 30, 10)}>
-        <rect x={450} y={160} width={8} height={260} fill="#c9d3e3" />
-        <rect x={380} y={150} width={180} height={70} rx={10} fill={C.verde} />
-        <text x={470} y={198} textAnchor="middle" fontFamily={FUENTE} fontWeight={900} fontSize={30} fill="#032312">
+        <rect x={296} y={110} width={8} height={130} fill="#c9d3e3" />
+        <rect x={190} y={60} width={220} height={70} rx={10} fill={C.verde} />
+        <text x={300} y={108} textAnchor="middle" fontFamily={FUENTE} fontWeight={900} fontSize={34} fill="#032312">
           RESCATE
         </text>
       </g>
@@ -810,10 +810,9 @@ const MonedaBimetalica: React.FC<Props> = ({f, m, p}) => {
           <stop offset="1" stopColor="#9aa6b4" />
         </radialGradient>
       </defs>
-      <g transform={`translate(300 300) scale(${giro * anillo} ${anillo})`} opacity={1 - sep * 0.85}>
-        <circle r={220} fill="url(#oroAnillo)" />
+      <g transform={`translate(300 300) scale(${giro * anillo} ${anillo})`} opacity={1 - sep}>
+        <circle r={180} fill="none" stroke="url(#oroAnillo)" strokeWidth={80} />
         <circle r={205} fill="none" stroke="#8a6420" strokeWidth={4} strokeDasharray="6 6" />
-        <circle r={140} fill="#0b1430" />
       </g>
       <g transform={`translate(300 ${300 - sep * 20}) scale(${giro} 1)`}>
         <circle r={135} fill="url(#plata)" />

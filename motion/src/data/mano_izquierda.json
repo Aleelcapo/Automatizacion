@@ -1309,9 +1309,10 @@
       "nombre": "cerebro_puente",
       "en": null,
       "marcas": {},
-      "izq": "MANO DERECHA",
-      "der": "MANO IZQUIERDA",
+      "izq": "ENTRENADO",
+      "der": "SIN USO",
       "c1": "#a78bfa",
+      "cruzar": false,
       "size": 500
      },
      {

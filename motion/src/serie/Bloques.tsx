@@ -142,7 +142,7 @@ const Elemento: React.FC<{el: El; d: number; beat: Beat}> = ({el, d, beat}) => {
       return (
         <Aparece desde={d}>
           <div style={{transform: animIcono(el.anim, f), filter: `drop-shadow(0 0 40px ${col(el.color) ?? acento}44)`}}>
-            <Icono nombre={el.nombre} size={el.size ?? 260} color={col(el.color) ?? acento} color2={col(el.color2) ?? C.cian} />
+            <Icono nombre={el.nombre} size={Math.min(560, (el.size ?? 260) * ((el._n ?? 3) <= 2 ? 1.35 : 1.1))} color={col(el.color) ?? acento} color2={col(el.color2) ?? C.cian} />
           </div>
         </Aparece>
       );
@@ -337,7 +337,9 @@ const Elemento: React.FC<{el: El; d: number; beat: Beat}> = ({el, d, beat}) => {
       Object.entries(el.marcas ?? {}).forEach(([k, w]) => {
         marcas[k] = frameDe(beat, fps, w as string, 9999) - d;
       });
-      const sz = el.size ?? 560;
+      // crece cuando la escena tiene pocos elementos (la ilustración es la protagonista)
+      const mult = (el._n ?? 3) <= 2 ? 1.45 : (el._n ?? 3) === 3 ? 1.2 : 1.05;
+      const sz = Math.min(770, (el.size ?? 560) * mult);
       return (
         <Aparece desde={d}>
           <div style={{width: sz, height: (sz * (el.alto ?? 600)) / 600}}>
@@ -397,7 +399,7 @@ export const EscenaGenerica: React.FC = () => {
               // el primer elemento "decorativo" aparece de inmediato para que la pantalla nunca quede vacía
               const inmediato = k === 0 && ['titulo', 'icono', 'pildora', 'texto', 'iconos', 'ilus'].includes(el.t) && !el.esperar;
               const d = inmediato ? ini + 3 : frameDe(beat, fps, el.en, ini + 3 + k * 5);
-              return <Elemento key={k} el={inmediato ? {...el, en: undefined} : el} d={d} beat={beat} />;
+              return <Elemento key={k} el={{...(inmediato ? {...el, en: undefined} : el), _n: m.el.length}} d={d} beat={beat} />;
             })}
             </div>
           </div>
