@@ -30,6 +30,14 @@ export const frameDe = (beat: Beat, fps: number, ancla: string | undefined, fall
   return Math.max(0, Math.round((p.t - beat.start) * fps) - 3);
 };
 
+// achica la letra solo si el texto no cabe en el ancho disponible (740 px antes del zoom)
+const ajustar = (size: number, texto: string, factor = 0.62, ancho = 740) => {
+  const palabras = texto.replace(/\[|\]/g, '').split(/\s+/);
+  const larga = Math.max(...palabras.map((w) => w.length), 1);
+  return Math.min(size, ancho / (factor * larga));
+};
+const ajustarLinea = (size: number, texto: string, factor = 0.6, ancho = 740) => Math.min(size, ancho / (factor * Math.max(texto.length, 1)));
+
 const useAcento = () => {
   const beat = useContext(BeatCtx) as any;
   return (beat?.acento as string) || C.oro;
@@ -93,7 +101,7 @@ const Elemento: React.FC<{el: El; d: number; beat: Beat}> = ({el, d, beat}) => {
     case 'titulo':
       return (
         <Aparece desde={d}>
-          <Titular size={el.size ?? 104} color={col(el.color) ?? C.texto} style={{maxWidth: 760, whiteSpace: 'normal'}}>
+          <Titular size={ajustar(el.size ?? 104, el.texto, 0.7)} color={col(el.color) ?? C.texto} style={{maxWidth: 760, whiteSpace: 'normal'}}>
             <Resaltado texto={el.texto} acento={col(el.acento) ?? acento} />
           </Titular>
         </Aparece>
@@ -116,7 +124,7 @@ const Elemento: React.FC<{el: El; d: number; beat: Beat}> = ({el, d, beat}) => {
             dur={el.dur ?? 22}
             prefijo={el.prefijo ?? ''}
             sufijo={el.sufijo ?? ''}
-            size={el.size ?? 190}
+            size={ajustarLinea(el.size ?? 190, `${el.prefijo ?? ''}${el.valor.toLocaleString('es')}${el.sufijo ?? ''}`, 0.6)}
             color={col(el.color) ?? acento}
           />
         </Aparece>
@@ -124,7 +132,7 @@ const Elemento: React.FC<{el: El; d: number; beat: Beat}> = ({el, d, beat}) => {
     case 'pildora':
       return (
         <Aparece desde={d}>
-          <Pildora size={el.size ?? 44} fondo={col(el.fondo) ?? C.tarjeta} color={col(el.color) ?? C.texto}>
+          <Pildora size={ajustarLinea(el.size ?? 44, el.texto, 0.78, 640)} fondo={col(el.fondo) ?? C.tarjeta} color={col(el.color) ?? C.texto}>
             {el.texto}
           </Pildora>
         </Aparece>
