@@ -1,20 +1,17 @@
 # "The Tower That Was Saved by War" — script v1 (2026-11-08)
 Format: ~65 s vertical cartoon 3D short, 1080x1920, 30 fps. Voice recorded by the user, in Spanish (user request 2026-11-08, overrides the skill's English-only rule).
 
-## Guion en español (v2, el que se graba)
+## Guion en español (v3, el que se graba; ~60 s)
 La Torre de Pisa sigue en pie solo porque su ciudad no paraba de ir a la guerra.
-Es 1173, y Pisa está construyendo un campanario de mármol para mostrar lo rica que es.
-Los constructores cavan unos cimientos de apenas tres metros, directo sobre arcilla y arena blanda.
-Cinco años después llegan al segundo piso, y la torre empieza a hundirse de un lado.
-Entonces Pisa entra en guerra con Génova, Lucca y Florencia, y la torre a medio hacer queda abandonada casi cien años.
-Resulta que el suelo blando funciona como la arena mojada de la playa.
-La pisás y se te hunden los talones. Pero si te quedás quieto un rato, el agua se escurre, la arena se compacta y dejás de hundirte.
-Un siglo de guerra le dio tiempo al suelo para compactarse. Sin eso, la torre se habría caído.
-Cuando los constructores por fin vuelven, sigue inclinada, así que hacen cada piso nuevo un poco más alto del lado que se hunde.
-Por eso la torre no está solo torcida. Está curvada, como una banana.
-En 1934, a Mussolini le da vergüenza una torre torcida, así que hace perforar cientos de agujeros en la base y meterle toneladas de cemento.
-Por suerte, la torre no se cayó. Por desgracia, se inclinó todavía más.
-Para 1990 ya está inclinada cinco grados y medio, así que los ingenieros sacan tierra de abajo del lado alto, y la torre se acomoda despacio.
+En 1173, Pisa construye un campanario de mármol sobre apenas tres metros de cimientos, en suelo blando.
+Cinco años después, en el segundo piso, la torre empieza a hundirse de un lado.
+Entonces Pisa se va a la guerra, y la torre queda abandonada casi cien años.
+Resulta que el suelo blando es como la arena mojada: te hundís, pero si te quedás quieto, el agua se escurre y la arena se compacta.
+Un siglo de guerra compactó el suelo. Sin eso, la torre se caía.
+Cuando vuelven, hacen cada piso más alto del lado que se hunde. Por eso la torre está curvada, como una banana.
+En 1934, Mussolini manda meterle toneladas de cemento en la base para enderezarla.
+Por suerte, no se cayó. Por desgracia, se inclinó todavía más.
+En 1990, los ingenieros sacan tierra de abajo del lado alto, y la torre se endereza un poco.
 Podrían haberla enderezado del todo, pero frenaron a propósito. Nadie cruza el mundo para ver la Torre Derecha de Pisa.
 
 ## Facts (sources)
