@@ -1789,7 +1789,8 @@
        }
       ],
       "en": null,
-      "max": 100
+      "max": 100,
+      "ocultar": true
      },
      {
       "t": "texto",

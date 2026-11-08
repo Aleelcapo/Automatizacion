@@ -757,13 +757,13 @@
        {
         "texto": "Volumen de las cosquillas",
         "valor": 15,
-        "sufijo": "%",
         "color": "rojo",
         "en": "volumen."
        }
       ],
       "en": null,
-      "max": 100
+      "max": 100,
+      "ocultar": true
      },
      {
       "t": "texto",

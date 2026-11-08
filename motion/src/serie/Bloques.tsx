@@ -93,7 +93,7 @@ const Elemento: React.FC<{el: El; d: number; beat: Beat}> = ({el, d, beat}) => {
     case 'titulo':
       return (
         <Aparece desde={d}>
-          <Titular size={el.size ?? 104} color={col(el.color) ?? C.texto} style={{maxWidth: 940, whiteSpace: 'normal'}}>
+          <Titular size={el.size ?? 104} color={col(el.color) ?? C.texto} style={{maxWidth: 760, whiteSpace: 'normal'}}>
             <Resaltado texto={el.texto} acento={col(el.acento) ?? acento} />
           </Titular>
         </Aparece>
@@ -101,7 +101,7 @@ const Elemento: React.FC<{el: El; d: number; beat: Beat}> = ({el, d, beat}) => {
     case 'texto':
       return (
         <Aparece desde={d}>
-          <div style={{fontFamily: FUENTE, fontWeight: 700, fontSize: el.size ?? 48, color: col(el.color) ?? C.tenue, textAlign: 'center', maxWidth: 880, whiteSpace: 'normal', lineHeight: 1.2}}>
+          <div style={{fontFamily: FUENTE, fontWeight: 700, fontSize: el.size ?? 48, color: col(el.color) ?? C.tenue, textAlign: 'center', maxWidth: 740, whiteSpace: 'normal', lineHeight: 1.2}}>
             <Resaltado texto={el.texto} acento={col(el.acento) ?? acento} />
           </div>
         </Aparece>
@@ -161,8 +161,8 @@ const Elemento: React.FC<{el: El; d: number; beat: Beat}> = ({el, d, beat}) => {
               <Aparece key={i} desde={en(it.en, d + i * 6)} desde_x={-160}>
                 <div
                   style={{
-                    width: 820,
-                    minHeight: 150,
+                    width: 740,
+                    minHeight: 140,
                     display: 'flex',
                     alignItems: 'center',
                     gap: 36,
@@ -185,7 +185,7 @@ const Elemento: React.FC<{el: El; d: number; beat: Beat}> = ({el, d, beat}) => {
     case 'barras': {
       const max = el.max ?? Math.max(...el.items.map((x: any) => x.valor));
       return (
-        <div style={{display: 'flex', flexDirection: 'column', gap: 30, width: 860}}>
+        <div style={{display: 'flex', flexDirection: 'column', gap: 30, width: 740}}>
           {el.items.map((it: any, i: number) => {
             const di = en(it.en, d + i * 10);
             const p = interpolate(f, [di, di + 26], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
@@ -194,8 +194,8 @@ const Elemento: React.FC<{el: El; d: number; beat: Beat}> = ({el, d, beat}) => {
               <div key={i} style={{opacity: f >= di ? 1 : 0}}>
                 <div style={{fontFamily: FUENTE, fontWeight: 800, fontSize: 40, color: C.tenue, marginBottom: 10, textTransform: 'uppercase'}}>{it.texto}</div>
                 <div style={{display: 'flex', alignItems: 'center', gap: 20}}>
-                  <div style={{height: 70, width: Math.max(8, (640 * it.valor * p) / max), background: c, borderRadius: 14, boxShadow: `0 0 30px ${c}55`}} />
-                  <div style={{fontFamily: FUENTE, fontWeight: 900, fontSize: 64, color: c, fontVariantNumeric: 'tabular-nums'}}>
+                  <div style={{height: 70, width: Math.max(8, (470 * it.valor * p) / max), background: c, borderRadius: 14, boxShadow: `0 0 30px ${c}55`}} />
+                  <div style={{fontFamily: FUENTE, fontWeight: 900, fontSize: 60, color: c, fontVariantNumeric: 'tabular-nums', whiteSpace: 'nowrap', display: el.ocultar ? 'none' : 'block'}}>
                     {(it.prefijo ?? '') + Math.round(it.valor * p).toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.') + (it.sufijo ?? '')}
                   </div>
                 </div>
@@ -207,7 +207,7 @@ const Elemento: React.FC<{el: El; d: number; beat: Beat}> = ({el, d, beat}) => {
     }
     case 'pasos':
       return (
-        <div style={{display: 'flex', flexDirection: 'column', gap: 24, width: 860}}>
+        <div style={{display: 'flex', flexDirection: 'column', gap: 24, width: 740}}>
           {el.items.map((it: any, i: number) => (
             <Aparece key={i} desde={en(it.en, d + i * 8)} desde_x={-120}>
               <div style={{display: 'flex', alignItems: 'center', gap: 30}}>
@@ -224,7 +224,7 @@ const Elemento: React.FC<{el: El; d: number; beat: Beat}> = ({el, d, beat}) => {
       );
     case 'lista':
       return (
-        <div style={{display: 'flex', flexDirection: 'column', gap: 24, width: 860}}>
+        <div style={{display: 'flex', flexDirection: 'column', gap: 24, width: 740}}>
           {el.items.map((it: any, i: number) => (
             <Aparece key={i} desde={en(it.en, d + i * 8)} desde_x={-120}>
               <div style={{display: 'flex', alignItems: 'center', gap: 30}}>
@@ -253,7 +253,7 @@ const Elemento: React.FC<{el: El; d: number; beat: Beat}> = ({el, d, beat}) => {
         const c = col(x.color) ?? (i ? C.rojo : C.verde);
         return (
           <Aparece desde={di}>
-            <div style={{width: 380, padding: '30px 20px', boxSizing: 'border-box', background: C.tarjeta, border: `3px solid ${c}66`, borderRadius: 34, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 16}}>
+            <div style={{width: 330, padding: '30px 18px', boxSizing: 'border-box', background: C.tarjeta, border: `3px solid ${c}66`, borderRadius: 34, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 16}}>
               {x.icono && <Icono nombre={x.icono} size={130} color={c} color2={col(x.color2) ?? C.cian} />}
               {x.valor !== undefined && <Contador hasta={x.valor} inicio={di + 2} dur={20} prefijo={x.prefijo ?? ''} sufijo={x.sufijo ?? ''} size={x.size ?? 110} color={c} />}
               <div style={{fontFamily: FUENTE, fontWeight: 800, fontSize: 38, color: C.texto, textAlign: 'center', whiteSpace: 'normal', textTransform: 'uppercase', lineHeight: 1.1}}>{x.texto}</div>
@@ -367,12 +367,14 @@ export const EscenaGenerica: React.FC = () => {
               transform: `translateY(${(1 - sale) * -60}px)`,
             }}
           >
+            <div style={{zoom: 1.3, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 30}}>
             {m.el.map((el, k) => {
               // el primer elemento "decorativo" aparece de inmediato para que la pantalla nunca quede vacía
               const inmediato = k === 0 && ['titulo', 'icono', 'pildora', 'texto', 'iconos'].includes(el.t);
               const d = inmediato ? ini + 3 : frameDe(beat, fps, el.en, ini + 3 + k * 5);
               return <Elemento key={k} el={inmediato ? {...el, en: undefined} : el} d={d} beat={beat} />;
             })}
+            </div>
           </div>
         );
       })}
