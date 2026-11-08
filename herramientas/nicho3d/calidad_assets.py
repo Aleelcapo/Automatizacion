@@ -9,7 +9,7 @@ BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'assets_cache')
 TEXTURAS = ['brown_mud_02', 'farm_soil', 'forest_leaves_02', 'leafy_grass', 'coast_sand_01', 'rock_wall_08', 'dark_rock',
             'stone_wall', 'clay_plaster', 'brown_planks_05', 'bark_willow', 'thatch_roof_angled', 'snow_02']
 TEXTURAS += ['excavated_soil_wall', 'patterned_paving', 'blue_floor_tiles_01', 'smooth_concrete_floor', 'rebar_reinforced_concrete',
-             'brown_mud_rocks_01', 'grass_path_2', 'rough_concrete', 'clay_roof_tiles_02', 'plastered_wall_04', 'white_sandstone_blocks_02']
+             'brown_mud_rocks_01', 'grass_path_2', 'rough_concrete', 'clay_roof_tiles_02', 'plastered_wall_04', 'white_sandstone_blocks_02', 'gravel_ground_01']
 MODELOS = ['plastic_monobloc_chair_01', 'potted_plant_01', 'potted_plant_02', 'shrub_01', 'shrub_02', 'shrub_04',
            'outdoor_table_chair_set_01', 'garden_hose_wall_mounted_01', 'tree_small_02', 'planter_pot_clay', 'wooden_ladder']
 CIELOS = ['kloofendal_48d_partly_cloudy_puresky', 'belfast_sunset_puresky']
