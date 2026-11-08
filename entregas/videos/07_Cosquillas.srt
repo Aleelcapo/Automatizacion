@@ -1,0 +1,112 @@
+1
+00:00:00,120 --> 00:00:01,665
+¿Por qué no te puedes hacer cosquillas
+
+2
+00:00:01,685 --> 00:00:02,455
+a ti mismo?
+
+3
+00:00:02,590 --> 00:00:03,755
+¡Inténtalo ahora mismo!
+
+4
+00:00:03,990 --> 00:00:04,755
+No funciona.
+
+5
+00:00:05,090 --> 00:00:06,920
+La culpa la tiene tu cerebelo,
+
+6
+00:00:06,940 --> 00:00:08,765
+una parte del cerebro que está aquí
+
+7
+00:00:08,785 --> 00:00:09,215
+atrás.
+
+8
+00:00:09,560 --> 00:00:10,985
+Cada vez que mueves la mano,
+
+9
+00:00:11,105 --> 00:00:12,865
+tu cerebro manda una copia de esa
+
+10
+00:00:12,885 --> 00:00:13,990
+orden al cerebelo,
+
+11
+00:00:14,010 --> 00:00:16,430
+y el cerebelo hace algo increíble,
+
+12
+00:00:16,450 --> 00:00:18,985
+predice exactamente lo que vas a sentir,
+
+13
+00:00:19,090 --> 00:00:20,165
+y le baja el volumen.
+
+14
+00:00:20,340 --> 00:00:22,315
+Por eso, cuando alguien más te toca,
+
+15
+00:00:22,480 --> 00:00:24,005
+tu cerebro no lo vio venir,
+
+16
+00:00:24,100 --> 00:00:26,095
+y ahí sí sientes las cosquillas.
+
+17
+00:00:26,115 --> 00:00:28,015
+En un experimento en Londres,
+
+18
+00:00:28,185 --> 00:00:30,285
+voluntarios se hacían cosquillas con un brazo
+
+19
+00:00:30,305 --> 00:00:32,805
+robótico. Cuando el robot respondía con un
+
+20
+00:00:32,825 --> 00:00:35,435
+pequeño retraso, las cosquillas volvían.
+
+21
+00:00:35,660 --> 00:00:36,895
+¿Y para qué sirve esto?
+
+22
+00:00:37,100 --> 00:00:38,555
+Para que tu cerebro ignore lo que
+
+23
+00:00:38,575 --> 00:00:40,085
+tú mismo provocas,
+
+24
+00:00:40,130 --> 00:00:41,915
+y detecte lo que viene de afuera,
+
+25
+00:00:41,950 --> 00:00:44,125
+como un insecto subiendo por tu brazo.
+
+26
+00:00:44,145 --> 00:00:46,265
+O sea, no te puedes hacer cosquillas
+
+27
+00:00:46,285 --> 00:00:49,305
+porque tu cerebro es demasiado bueno prediciendo.
+
+28
+00:00:49,450 --> 00:00:50,735
+¿Eres muy cosquilloso?
+
