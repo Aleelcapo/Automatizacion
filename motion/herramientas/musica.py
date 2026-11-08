@@ -218,7 +218,7 @@ def main(gid):
 
     for k, b in enumerate(data['beats']):
         if k > 0:
-            add(whoosh(), b['start'] - 0.2)
+            pass  # whoosh entre escenas desactivado (muy fuerte)
         for kind, word in b.get('sfx', []):
             w = next((w for w in b['words'] if strip(w['w']) == strip(word)), None)
             if w:
