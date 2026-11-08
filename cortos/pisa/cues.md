@@ -1,0 +1,94 @@
+# Pisa short - cue sheet
+
+- Duration 62.667 s (3008000 samples, 48 kHz, stereo)
+- Master: integrated -15.0 LUFS, true peak -1.2 dBTP, LRA 1.7 LU, limiter min gain -1.67 dB
+- Stems: voice -15.4 LUFS, music -25.4 LUFS, sfx -33.7 LUFS
+
+## Music
+-   0.00 s (f0): hook: tarantella (A minor, 6/8) tutti, button + clash on the white flash
+-   5.40 s (f162): 1173: tarantella in C major, glock then mandolin; stops as the tower starts to lean
+-  15.23 s (f457): lean: descending muted-brass slide (G-F#-F-E) on 'hundirse'
+-  16.50 s (f495): off to war: field snare + fife on the theme
+-  18.93 s (f568): a century passes: slow music box over a soft A minor pad
+-  21.10 s (f633): beach: breezy vibes + plucked guitar in F; pluck slide down on 'hundís', glock up on 'compacta'
+-  30.53 s (f916): topple: snare roll + rising pad, timpani on the impact (f962), then silence
+-  33.00 s (f990): builders return: tarantella in C; glock climbs C-D-E-F-G-A-C on each new storey
+-  39.20 s (f1176): 1934: pompous brass oom-pah in Bb; brass stab + timpani on 'Mussolini'
+-  46.17 s (f1385): 'no se cayó': little ta-da; 'se inclinó todavía más': sad trombone Wah-wah-wah-waaah
+-  49.47 s (f1484): 1990: pizzicato bass + brushes; glock scale climbs while the tower straightens
+-  55.73 s (f1672): reprise: tarantella A minor; music cuts dead on the cut to the straight, empty tower (f1837)
+-  62.23 s (f1867): one lonely plucked A on 'Pisa'
+
+## SFX (level = momentary max / integrated vs voice, LU)
+-   0.00 s (f0) piazza breeze: -24.0
+-   0.00 s (f0) birds: -27.0
+-   3.07 s (f92) column footfall: -19.0
+-   3.57 s (f107) column footfall: -19.0
+-   4.07 s (f122) column footfall: -19.0
+-   4.57 s (f137) column footfall: -19.0
+-   4.75 s (f142) flash whoosh: -16.0
+-   4.90 s (f147) builders murmur: -27.0
+-   5.49 s (f165) mason's hammer: -24.0
+-   5.94 s (f178) mason's hammer: -24.0
+-   6.49 s (f195) mason's hammer: -24.0
+-   6.89 s (f207) mason's hammer: -24.0
+-   7.39 s (f222) mason's hammer: -24.0
+-   7.94 s (f238) mason's hammer: -24.0
+-   8.33 s (f250) mason's hammer: -24.0
+-   8.84 s (f265) mason's hammer: -24.0
+-   9.29 s (f279) mason's hammer: -24.0
+-   9.79 s (f294) mason's hammer: -24.0
+-  10.29 s (f309) mason's hammer: -24.0
+-  10.81 s (f324) mason's hammer: -24.0
+-  11.20 s (f336) mud squelch: -16.0
+-  11.26 s (f338) mason's hammer: -24.0
+-  11.70 s (f351) mason's hammer: -24.0
+-  15.00 s (f450) stone groan: -16.0
+-  15.23 s (f457) lean thud: -15.0
+-  16.50 s (f495) march: -17.0
+-  16.50 s (f495) flag: -26.0
+-  17.00 s (f510) march: -17.0
+-  17.50 s (f525) march: -17.0
+-  18.00 s (f540) march: -17.0
+-  18.50 s (f555) march: -17.0
+-  19.00 s (f570) lonely wind: -21.0
+-  19.00 s (f570) crickets: -25.0
+-  20.97 s (f629) sea: -19.0
+-  20.97 s (f629) sea breeze: -25.0
+-  23.87 s (f716) wet sand squelch: -14.0
+-  25.97 s (f779) water trickles out: -20.0
+-  28.40 s (f852) distant march: -24.0
+-  28.90 s (f867) distant march: -24.0
+-  29.40 s (f882) distant march: -24.0
+-  29.90 s (f897) distant march: -24.0
+-  31.13 s (f934) tower groan: -15.0
+-  31.62 s (f949) fall whoosh: -15.0
+-  32.07 s (f962) impact boom: -11.0
+-  32.09 s (f963) rubble: -17.0
+-  33.73 s (f1012) storey thunk: -18.0
+-  34.20 s (f1026) storey thunk: -18.0
+-  34.60 s (f1038) storey thunk: -18.0
+-  35.00 s (f1050) storey thunk: -18.0
+-  35.43 s (f1063) storey thunk: -18.0
+-  36.03 s (f1081) storey thunk: -18.0
+-  37.37 s (f1121) storey thunk: -18.0
+-  38.33 s (f1150) banana slide whistle: -15.0
+-  39.07 s (f1172) 1934 crowd: -26.0
+-  42.40 s (f1272) cement pour: -18.0
+-  47.70 s (f1431) stone groan 2: -15.0
+-  47.90 s (f1437) tilt thud: -14.0
+-  48.05 s (f1442) the Duce's whoa: -19.0
+-  51.50 s (f1545) soil auger: -20.0
+-  51.87 s (f1556) dirt spray: -20.0
+-  52.43 s (f1573) dirt spray: -20.0
+-  53.00 s (f1590) dirt spray: -20.0
+-  53.53 s (f1606) dirt spray: -20.0
+-  54.23 s (f1627) tower settles back: -17.0
+-  54.83 s (f1645) engineers cheer: -19.0
+-  59.13 s (f1774) tourist chatter: -22.0
+-  60.00 s (f1800) camera shutter: -19.0
+-  60.40 s (f1812) camera shutter: -19.0
+-  60.75 s (f1822) camera shutter: -19.0
+-  61.00 s (f1830) camera shutter: -19.0
+-  61.23 s (f1837) empty wind: -21.0
+-  61.58 s (f1848) one cricket: -24.0
