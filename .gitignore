@@ -1,2 +1,5 @@
 entregas/*.zip
 entregas/zip_partes/
+clips/
+*_momentos.jpg
+__pycache__/
