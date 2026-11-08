@@ -1,0 +1,1745 @@
+{
+ "id": "mano_izquierda",
+ "duration": 48.51,
+ "beats": [
+  {
+   "scene": "m1",
+   "sfx": [
+    [
+     "pop",
+     "izquierda?"
+    ]
+   ],
+   "start": 0.0,
+   "dur": 3.76,
+   "text": "Si eres diestro, ¿cuánto te tomaría a dominar la mano izquierda?",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.355,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.355,
+     "e": 0.535,
+     "w": "eres",
+     "a": [
+      "eres"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.535,
+     "e": 1.035,
+     "w": "diestro,",
+     "a": [
+      "diestro"
+     ],
+     "k": true
+    },
+    {
+     "t": 1.46,
+     "e": 1.735,
+     "w": "¿cuánto",
+     "a": [
+      "cuánto"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.735,
+     "e": 1.835,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.835,
+     "e": 2.255,
+     "w": "tomaría",
+     "a": [
+      "tomaría"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.255,
+     "e": 2.375,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.375,
+     "e": 2.695,
+     "w": "dominar",
+     "a": [
+      "dominar"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.695,
+     "e": 2.915,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.915,
+     "e": 3.095,
+     "w": "mano",
+     "a": [
+      "mano"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.095,
+     "e": 3.88,
+     "w": "izquierda?",
+     "a": [
+      "izquierda"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "mano",
+        "texto": "Diestro",
+        "color": "verde"
+       },
+       {
+        "nombre": "mano",
+        "texto": "¿Izquierda?",
+        "en": "izquierda"
+       }
+      ],
+      "en": null,
+      "size": 200,
+      "anim": "flota"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Cuánto [tiempo]?",
+      "en": "cuánto",
+      "size": 110
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m2",
+   "sfx": [
+    [
+     "pop",
+     "niño"
+    ]
+   ],
+   "start": 3.76,
+   "dur": 3.77,
+   "text": "Día 1. Tu firma parece la de un niño de 5 años.",
+   "words": [
+    {
+     "t": 3.88,
+     "e": 4.175,
+     "w": "Día",
+     "a": [
+      "día"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.175,
+     "e": 4.415,
+     "w": "1.",
+     "a": [
+      "1"
+     ],
+     "k": true
+    },
+    {
+     "t": 4.75,
+     "e": 4.845,
+     "w": "Tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.845,
+     "e": 5.185,
+     "w": "firma",
+     "a": [
+      "firma"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.185,
+     "e": 5.525,
+     "w": "parece",
+     "a": [
+      "parece"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.525,
+     "e": 5.705,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.705,
+     "e": 5.805,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.805,
+     "e": 5.945,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.945,
+     "e": 6.185,
+     "w": "niño",
+     "a": [
+      "niño"
+     ],
+     "k": true
+    },
+    {
+     "t": 6.185,
+     "e": 6.345,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.345,
+     "e": 6.765,
+     "w": "5",
+     "a": [
+      "5"
+     ],
+     "k": true
+    },
+    {
+     "t": 6.765,
+     "e": 7.205,
+     "w": "años.",
+     "a": [
+      "años"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "Día 1",
+      "en": null,
+      "size": 56
+     },
+     {
+      "t": "icono",
+      "nombre": "pluma",
+      "en": null,
+      "anim": "tiembla",
+      "size": 240
+     },
+     {
+      "t": "titulo",
+      "texto": "Firma de [niño de 5]",
+      "en": "niño",
+      "size": 96
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m3",
+   "sfx": [
+    [
+     "pop",
+     "10"
+    ],
+    [
+     "pop",
+     "menos"
+    ]
+   ],
+   "start": 7.53,
+   "dur": 7.8,
+   "text": "Pero en un estudio, personas diestras practicaron dibujo con la mano izquierda durante unos 10 días, menos de 3 horas y media en total.",
+   "words": [
+    {
+     "t": 7.65,
+     "e": 7.805,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.805,
+     "e": 7.945,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.945,
+     "e": 8.065,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.065,
+     "e": 8.445,
+     "w": "estudio,",
+     "a": [
+      "estudio"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.885,
+     "e": 9.105,
+     "w": "personas",
+     "a": [
+      "personas"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.105,
+     "e": 9.665,
+     "w": "diestras",
+     "a": [
+      "diestras"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.665,
+     "e": 10.285,
+     "w": "practicaron",
+     "a": [
+      "practicaron"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.285,
+     "e": 10.785,
+     "w": "dibujo",
+     "a": [
+      "dibujo"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.785,
+     "e": 10.925,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.925,
+     "e": 11.045,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.045,
+     "e": 11.245,
+     "w": "mano",
+     "a": [
+      "mano"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.245,
+     "e": 11.745,
+     "w": "izquierda",
+     "a": [
+      "izquierda"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.745,
+     "e": 12.005,
+     "w": "durante",
+     "a": [
+      "durante"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.005,
+     "e": 12.345,
+     "w": "unos",
+     "a": [
+      "unos"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.345,
+     "e": 12.725,
+     "w": "10",
+     "a": [
+      "10"
+     ],
+     "k": true
+    },
+    {
+     "t": 12.725,
+     "e": 13.085,
+     "w": "días,",
+     "a": [
+      "días"
+     ],
+     "k": true
+    },
+    {
+     "t": 13.44,
+     "e": 13.615,
+     "w": "menos",
+     "a": [
+      "menos"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.615,
+     "e": 13.815,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.815,
+     "e": 14.115,
+     "w": "3",
+     "a": [
+      "3"
+     ],
+     "k": true
+    },
+    {
+     "t": 14.115,
+     "e": 14.315,
+     "w": "horas",
+     "a": [
+      "horas"
+     ],
+     "k": true
+    },
+    {
+     "t": 14.315,
+     "e": 14.515,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.515,
+     "e": 14.695,
+     "w": "media",
+     "a": [
+      "media"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.695,
+     "e": 14.835,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.835,
+     "e": 15.075,
+     "w": "total.",
+     "a": [
+      "total"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "pildora",
+        "texto": "Un estudio",
+        "en": null,
+        "size": 50
+       },
+       {
+        "t": "icono",
+        "nombre": "pluma",
+        "en": null,
+        "anim": "flota",
+        "size": 220
+       },
+       {
+        "t": "titulo",
+        "texto": "Dibujo con la [izquierda]",
+        "en": "izquierda",
+        "size": 88
+       }
+      ]
+     },
+     {
+      "en": "10",
+      "el": [
+       {
+        "t": "icono",
+        "nombre": "calendario",
+        "en": null,
+        "size": 200
+       },
+       {
+        "t": "numero",
+        "valor": 10,
+        "en": "10",
+        "sufijo": " días",
+        "size": 190
+       },
+       {
+        "t": "texto",
+        "texto": "Menos de [3 h 30 min] en total",
+        "en": "menos",
+        "size": 52
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m4",
+   "sfx": [
+    [
+     "coin",
+     "89"
+    ],
+    [
+     "pop",
+     "velocidad,"
+    ],
+    [
+     "pop",
+     "precisión"
+    ],
+    [
+     "pop",
+     "suavidad."
+    ]
+   ],
+   "start": 15.33,
+   "dur": 5.6,
+   "text": "El resultado? El 89 % mejoró en velocidad, precisión y suavidad.",
+   "words": [
+    {
+     "t": 15.45,
+     "e": 15.565,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.565,
+     "e": 15.965,
+     "w": "resultado?",
+     "a": [
+      "resultado"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.475,
+     "e": 16.575,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.575,
+     "e": 17.135,
+     "w": "89",
+     "a": [
+      "89"
+     ],
+     "k": true
+    },
+    {
+     "t": 17.135,
+     "e": 17.695,
+     "w": "%",
+     "a": [
+      "%"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.695,
+     "e": 18.355,
+     "w": "mejoró",
+     "a": [
+      "mejoró"
+     ],
+     "k": true
+    },
+    {
+     "t": 18.355,
+     "e": 18.475,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.475,
+     "e": 18.815,
+     "w": "velocidad,",
+     "a": [
+      "velocidad"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.35,
+     "e": 19.975,
+     "w": "precisión",
+     "a": [
+      "precisión"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.975,
+     "e": 20.215,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.215,
+     "e": 20.755,
+     "w": "suavidad.",
+     "a": [
+      "suavidad"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "numero",
+      "valor": 89,
+      "en": "89",
+      "sufijo": "%",
+      "size": 230
+     },
+     {
+      "t": "texto",
+      "texto": "mejoró en:",
+      "en": "mejoró"
+     },
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Velocidad",
+        "ok": true,
+        "en": "velocidad,"
+       },
+       {
+        "texto": "Precisión",
+        "ok": true,
+        "en": "precisión"
+       },
+       {
+        "texto": "Suavidad",
+        "ok": true,
+        "en": "suavidad."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m5",
+   "sfx": [
+    [
+     "pop",
+     "conservaba"
+    ]
+   ],
+   "start": 20.93,
+   "dur": 3.73,
+   "text": "Y 6 meses después, la mayoría todavía conservaba la mejora.",
+   "words": [
+    {
+     "t": 21.05,
+     "e": 21.175,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.175,
+     "e": 21.415,
+     "w": "6",
+     "a": [
+      "6"
+     ],
+     "k": true
+    },
+    {
+     "t": 21.415,
+     "e": 21.595,
+     "w": "meses",
+     "a": [
+      "meses"
+     ],
+     "k": true
+    },
+    {
+     "t": 21.595,
+     "e": 22.035,
+     "w": "después,",
+     "a": [
+      "después"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.395,
+     "e": 22.475,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.475,
+     "e": 22.815,
+     "w": "mayoría",
+     "a": [
+      "mayoría"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.815,
+     "e": 23.435,
+     "w": "todavía",
+     "a": [
+      "todavía"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.435,
+     "e": 24.095,
+     "w": "conservaba",
+     "a": [
+      "conservaba"
+     ],
+     "k": true
+    },
+    {
+     "t": 24.095,
+     "e": 24.295,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.295,
+     "e": 24.78,
+     "w": "mejora.",
+     "a": [
+      "mejora"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "reloj",
+      "en": null,
+      "anim": "balancea",
+      "size": 230
+     },
+     {
+      "t": "titulo",
+      "texto": "[6 meses] después…",
+      "en": "6",
+      "size": 100
+     },
+     {
+      "t": "pildora",
+      "texto": "Seguían mejor",
+      "en": "conservaba",
+      "fondo": "verde",
+      "color": "#032312",
+      "size": 52
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m6",
+   "sfx": [
+    [
+     "pop",
+     "escribir"
+    ],
+    [
+     "pop",
+     "mouse"
+    ]
+   ],
+   "start": 24.66,
+   "dur": 6.24,
+   "text": "Con unos 15 minutos al día, en 6 semanas ya puedes escribir legible y usar el mouse sin problema.",
+   "words": [
+    {
+     "t": 24.78,
+     "e": 24.895,
+     "w": "Con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.895,
+     "e": 25.095,
+     "w": "unos",
+     "a": [
+      "unos"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.095,
+     "e": 25.435,
+     "w": "15",
+     "a": [
+      "15"
+     ],
+     "k": true
+    },
+    {
+     "t": 25.435,
+     "e": 25.835,
+     "w": "minutos",
+     "a": [
+      "minutos"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.835,
+     "e": 26.115,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.115,
+     "e": 26.355,
+     "w": "día,",
+     "a": [
+      "día"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.695,
+     "e": 26.795,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.795,
+     "e": 27.075,
+     "w": "6",
+     "a": [
+      "6"
+     ],
+     "k": true
+    },
+    {
+     "t": 27.075,
+     "e": 27.495,
+     "w": "semanas",
+     "a": [
+      "semanas"
+     ],
+     "k": true
+    },
+    {
+     "t": 27.495,
+     "e": 27.815,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.815,
+     "e": 28.115,
+     "w": "puedes",
+     "a": [
+      "puedes"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.115,
+     "e": 28.615,
+     "w": "escribir",
+     "a": [
+      "escribir"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.615,
+     "e": 29.155,
+     "w": "legible",
+     "a": [
+      "legible"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.155,
+     "e": 29.375,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.375,
+     "e": 29.575,
+     "w": "usar",
+     "a": [
+      "usar"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.575,
+     "e": 29.735,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.735,
+     "e": 29.955,
+     "w": "mouse",
+     "a": [
+      "mouse"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.955,
+     "e": 30.295,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.295,
+     "e": 31.02,
+     "w": "problema.",
+     "a": [
+      "problema"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "15 min al día",
+      "en": "15",
+      "size": 56
+     },
+     {
+      "t": "numero",
+      "valor": 6,
+      "en": "6",
+      "sufijo": " semanas",
+      "size": 170
+     },
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "pluma",
+        "texto": "Escribir",
+        "en": "escribir"
+       },
+       {
+        "nombre": "mouse",
+        "texto": "Mouse",
+        "en": "mouse"
+       }
+      ],
+      "en": null,
+      "size": 170
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m7",
+   "sfx": [
+    [
+     "stamp",
+     "nunca."
+    ]
+   ],
+   "start": 30.9,
+   "dur": 3.28,
+   "text": "Ahora, igual de buena que la derecha? Casi nunca.",
+   "words": [
+    {
+     "t": 31.02,
+     "e": 31.265,
+     "w": "Ahora,",
+     "a": [
+      "ahora"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.57,
+     "e": 31.865,
+     "w": "igual",
+     "a": [
+      "igual"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.865,
+     "e": 32.045,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.045,
+     "e": 32.245,
+     "w": "buena",
+     "a": [
+      "buena"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.245,
+     "e": 32.405,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.405,
+     "e": 32.525,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.525,
+     "e": 32.925,
+     "w": "derecha?",
+     "a": [
+      "derecha"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.335,
+     "e": 33.595,
+     "w": "Casi",
+     "a": [
+      "casi"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.595,
+     "e": 33.875,
+     "w": "nunca.",
+     "a": [
+      "nunca"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "vs",
+      "a": {
+       "icono": "mano",
+       "texto": "Derecha",
+       "color": "verde"
+      },
+      "b": {
+       "icono": "mano",
+       "texto": "Izquierda",
+       "color": "#a78bfa",
+       "en": "derecha?"
+      },
+      "en": null
+     },
+     {
+      "t": "sello",
+      "texto": "Casi nunca",
+      "en": "nunca.",
+      "color": "rojo"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m8",
+   "sfx": [
+    [
+     "pop",
+     "lado."
+    ]
+   ],
+   "start": 34.18,
+   "dur": 3.525,
+   "text": "Tu cerebro lleva toda tu vida entrenando un solo lado.",
+   "words": [
+    {
+     "t": 34.3,
+     "e": 34.395,
+     "w": "Tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.395,
+     "e": 34.795,
+     "w": "cerebro",
+     "a": [
+      "cerebro"
+     ],
+     "k": true
+    },
+    {
+     "t": 34.795,
+     "e": 35.055,
+     "w": "lleva",
+     "a": [
+      "lleva"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.055,
+     "e": 35.405,
+     "w": "toda",
+     "a": [
+      "toda"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.405,
+     "e": 35.665,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.665,
+     "e": 35.945,
+     "w": "vida",
+     "a": [
+      "vida"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.945,
+     "e": 36.505,
+     "w": "entrenando",
+     "a": [
+      "entrenando"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.505,
+     "e": 36.845,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.845,
+     "e": 37.125,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": true
+    },
+    {
+     "t": 37.125,
+     "e": 37.445,
+     "w": "lado.",
+     "a": [
+      "lado"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "cerebro",
+      "en": null,
+      "anim": "late",
+      "size": 280,
+      "color": "#a78bfa",
+      "color2": "#ffc83d"
+     },
+     {
+      "t": "titulo",
+      "texto": "Toda la vida con [un solo lado]",
+      "en": "entrenando",
+      "size": 84
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m9",
+   "sfx": [
+    [
+     "coin",
+     "mejora."
+    ]
+   ],
+   "start": 37.705,
+   "dur": 5.6,
+   "text": "Pero lo más loco es esto. Al entrenar la mano izquierda, tu mano derecha también mejora.",
+   "words": [
+    {
+     "t": 37.825,
+     "e": 37.885,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.885,
+     "e": 38.045,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.045,
+     "e": 38.365,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.365,
+     "e": 38.705,
+     "w": "loco",
+     "a": [
+      "loco"
+     ],
+     "k": true
+    },
+    {
+     "t": 38.705,
+     "e": 38.945,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.945,
+     "e": 39.265,
+     "w": "esto.",
+     "a": [
+      "esto"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.565,
+     "e": 39.685,
+     "w": "Al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.685,
+     "e": 40.145,
+     "w": "entrenar",
+     "a": [
+      "entrenar"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.145,
+     "e": 40.245,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.245,
+     "e": 40.405,
+     "w": "mano",
+     "a": [
+      "mano"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.405,
+     "e": 41.045,
+     "w": "izquierda,",
+     "a": [
+      "izquierda"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.255,
+     "e": 41.315,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.315,
+     "e": 41.555,
+     "w": "mano",
+     "a": [
+      "mano"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.555,
+     "e": 42.095,
+     "w": "derecha",
+     "a": [
+      "derecha"
+     ],
+     "k": true
+    },
+    {
+     "t": 42.095,
+     "e": 42.535,
+     "w": "también",
+     "a": [
+      "también"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.535,
+     "e": 43.42,
+     "w": "mejora.",
+     "a": [
+      "mejora"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "titulo",
+        "texto": "Lo más [loco]…",
+        "en": null,
+        "size": 120
+       },
+       {
+        "t": "icono",
+        "nombre": "estrella",
+        "en": null,
+        "anim": "gira",
+        "size": 180
+       }
+      ]
+     },
+     {
+      "en": "al",
+      "el": [
+       {
+        "t": "iconos",
+        "items": [
+         {
+          "nombre": "mano",
+          "texto": "Entrenas la izquierda"
+         },
+         {
+          "nombre": "flecha",
+          "color": "#ffffff",
+          "size": 110
+         },
+         {
+          "nombre": "mano",
+          "texto": "Mejora la derecha",
+          "color": "verde",
+          "en": "mejora."
+         }
+        ],
+        "en": null,
+        "size": 170,
+        "gap": 24
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m10",
+   "sfx": [
+    [
+     "pop",
+     "comparte"
+    ]
+   ],
+   "start": 43.305,
+   "dur": 2.485,
+   "text": "El cerebro comparte parte de lo que aprende.",
+   "words": [
+    {
+     "t": 43.425,
+     "e": 43.525,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.525,
+     "e": 43.925,
+     "w": "cerebro",
+     "a": [
+      "cerebro"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.925,
+     "e": 44.485,
+     "w": "comparte",
+     "a": [
+      "comparte"
+     ],
+     "k": true
+    },
+    {
+     "t": 44.485,
+     "e": 44.805,
+     "w": "parte",
+     "a": [
+      "parte"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.805,
+     "e": 45.065,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.065,
+     "e": 45.165,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.165,
+     "e": 45.265,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.265,
+     "e": 45.91,
+     "w": "aprende.",
+     "a": [
+      "aprende"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "cerebro",
+      "en": null,
+      "anim": "late",
+      "size": 280,
+      "color": "#a78bfa",
+      "color2": "verde"
+     },
+     {
+      "t": "titulo",
+      "texto": "Comparte lo que [aprende]",
+      "en": "comparte",
+      "size": 90
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m11",
+   "sfx": [
+    [
+     "pop",
+     "semana?"
+    ]
+   ],
+   "start": 45.79,
+   "dur": 2.72,
+   "text": "¿Te animas a probar una semana?",
+   "words": [
+    {
+     "t": 45.91,
+     "e": 45.985,
+     "w": "¿Te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.985,
+     "e": 46.265,
+     "w": "animas",
+     "a": [
+      "animas"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.265,
+     "e": 46.385,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.385,
+     "e": 46.685,
+     "w": "probar",
+     "a": [
+      "probar"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.685,
+     "e": 46.805,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.805,
+     "e": 47.105,
+     "w": "semana?",
+     "a": [
+      "semana"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "calendario",
+      "en": null,
+      "anim": "late",
+      "size": 220
+     },
+     {
+      "t": "titulo",
+      "texto": "¿[1 semana]?",
+      "en": null,
+      "size": 130
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ],
+ "estilo": {
+  "acento": "#a78bfa",
+  "tinte": "#2a2050"
+ }
+}

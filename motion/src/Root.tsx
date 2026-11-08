@@ -19,7 +19,7 @@ export const Root: React.FC = () => (
     {VIDEOS.map((v) => (
       <Composition
         key={v.id}
-        id={v.id}
+        id={v.id.replace(/_/g, '-')}
         component={VideoSerie}
         durationInFrames={Math.ceil(v.datos.duration * FPS)}
         fps={FPS}

@@ -1,0 +1,2012 @@
+{
+ "id": "palomitas",
+ "duration": 54.08,
+ "beats": [
+  {
+   "scene": "p1",
+   "sfx": [
+    [
+     "pop",
+     "entrada?"
+    ]
+   ],
+   "start": 0.0,
+   "dur": 3.71,
+   "text": "¿Por qué las palomitas del cine cuestan casi lo mismo que la entrada?",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.235,
+     "w": "¿Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.235,
+     "e": 0.395,
+     "w": "qué",
+     "a": [
+      "qué"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.395,
+     "e": 0.555,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.555,
+     "e": 0.995,
+     "w": "palomitas",
+     "a": [
+      "palomitas"
+     ],
+     "k": true
+    },
+    {
+     "t": 0.995,
+     "e": 1.195,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.195,
+     "e": 1.495,
+     "w": "cine",
+     "a": [
+      "cine"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.495,
+     "e": 1.975,
+     "w": "cuestan",
+     "a": [
+      "cuestan"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.975,
+     "e": 2.335,
+     "w": "casi",
+     "a": [
+      "casi"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.335,
+     "e": 2.555,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.555,
+     "e": 2.795,
+     "w": "mismo",
+     "a": [
+      "mismo"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.795,
+     "e": 2.975,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.975,
+     "e": 3.095,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.095,
+     "e": 3.435,
+     "w": "entrada?",
+     "a": [
+      "entrada"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "palomitas",
+        "color": "rojo"
+       },
+       {
+        "nombre": "boleto",
+        "color": "#7c5cff",
+        "en": "entrada?"
+       }
+      ],
+      "en": null,
+      "size": 230
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Casi [lo mismo]?",
+      "en": "mismo",
+      "size": 110
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p2",
+   "sfx": [
+    [
+     "drop",
+     "nada."
+    ]
+   ],
+   "start": 3.71,
+   "dur": 3.88,
+   "text": "Porque de tu boleto, al cine casi no le queda nada.",
+   "words": [
+    {
+     "t": 3.83,
+     "e": 4.045,
+     "w": "Porque",
+     "a": [
+      "porque"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.045,
+     "e": 4.225,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.225,
+     "e": 4.365,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.365,
+     "e": 4.825,
+     "w": "boleto,",
+     "a": [
+      "boleto"
+     ],
+     "k": true
+    },
+    {
+     "t": 5.245,
+     "e": 5.365,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.365,
+     "e": 5.645,
+     "w": "cine",
+     "a": [
+      "cine"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.645,
+     "e": 6.145,
+     "w": "casi",
+     "a": [
+      "casi"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.145,
+     "e": 6.545,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.545,
+     "e": 6.725,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.725,
+     "e": 6.905,
+     "w": "queda",
+     "a": [
+      "queda"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.905,
+     "e": 7.285,
+     "w": "nada.",
+     "a": [
+      "nada"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "boleto",
+      "en": null,
+      "anim": "balancea",
+      "size": 260,
+      "color": "#7c5cff"
+     },
+     {
+      "t": "titulo",
+      "texto": "Al cine le queda [casi nada]",
+      "en": "nada.",
+      "acento": "rojo",
+      "size": 92
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p3",
+   "sfx": [
+    [
+     "pop",
+     "estudio"
+    ]
+   ],
+   "start": 7.59,
+   "dur": 4.2,
+   "text": "Cuando pagas la entrada, la mayor parte se la lleva el estudio de la película.",
+   "words": [
+    {
+     "t": 7.71,
+     "e": 7.875,
+     "w": "Cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.875,
+     "e": 8.255,
+     "w": "pagas",
+     "a": [
+      "pagas"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.255,
+     "e": 8.395,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.395,
+     "e": 8.755,
+     "w": "entrada,",
+     "a": [
+      "entrada"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.165,
+     "e": 9.205,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.205,
+     "e": 9.445,
+     "w": "mayor",
+     "a": [
+      "mayor"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.445,
+     "e": 9.825,
+     "w": "parte",
+     "a": [
+      "parte"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.825,
+     "e": 10.025,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.025,
+     "e": 10.145,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.145,
+     "e": 10.345,
+     "w": "lleva",
+     "a": [
+      "lleva"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.345,
+     "e": 10.505,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.505,
+     "e": 10.885,
+     "w": "estudio",
+     "a": [
+      "estudio"
+     ],
+     "k": true
+    },
+    {
+     "t": 10.885,
+     "e": 11.065,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.065,
+     "e": 11.165,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.165,
+     "e": 11.545,
+     "w": "película.",
+     "a": [
+      "película"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "claqueta",
+      "en": null,
+      "anim": "balancea",
+      "size": 230
+     },
+     {
+      "t": "titulo",
+      "texto": "Se lo lleva el [estudio]",
+      "en": "estudio",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p4",
+   "sfx": [
+    [
+     "drop",
+     "70%,"
+    ]
+   ],
+   "start": 11.79,
+   "dur": 5.4,
+   "text": "Y en la primera semana de un estreno se puede llevar hasta el 70%, o más.",
+   "words": [
+    {
+     "t": 11.91,
+     "e": 12.005,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.005,
+     "e": 12.105,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.105,
+     "e": 12.205,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.205,
+     "e": 12.465,
+     "w": "primera",
+     "a": [
+      "primera"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.465,
+     "e": 12.905,
+     "w": "semana",
+     "a": [
+      "semana"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.905,
+     "e": 13.085,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.085,
+     "e": 13.185,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.185,
+     "e": 13.565,
+     "w": "estreno",
+     "a": [
+      "estreno"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.565,
+     "e": 13.925,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.925,
+     "e": 14.105,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.105,
+     "e": 14.445,
+     "w": "llevar",
+     "a": [
+      "llevar"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.445,
+     "e": 14.805,
+     "w": "hasta",
+     "a": [
+      "hasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.805,
+     "e": 15.005,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.005,
+     "e": 16.225,
+     "w": "70%,",
+     "a": [
+      "70%"
+     ],
+     "k": true
+    },
+    {
+     "t": 16.225,
+     "e": 16.625,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.625,
+     "e": 16.845,
+     "w": "más.",
+     "a": [
+      "más"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "1.ª semana de estreno",
+      "en": null,
+      "size": 50
+     },
+     {
+      "t": "numero",
+      "valor": 70,
+      "en": "70%,",
+      "sufijo": "%+",
+      "size": 230,
+      "color": "rojo"
+     },
+     {
+      "t": "texto",
+      "texto": "de tu boleto, para el estudio",
+      "en": "más."
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p5",
+   "sfx": [
+    [
+     "coin",
+     "dulcería."
+    ]
+   ],
+   "start": 17.19,
+   "dur": 3.295,
+   "text": "Entonces, ¿de dónde gana el cine? De la dulcería.",
+   "words": [
+    {
+     "t": 17.31,
+     "e": 17.655,
+     "w": "Entonces,",
+     "a": [
+      "entonces"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.165,
+     "e": 18.245,
+     "w": "¿de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.245,
+     "e": 18.405,
+     "w": "dónde",
+     "a": [
+      "dónde"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.405,
+     "e": 18.685,
+     "w": "gana",
+     "a": [
+      "gana"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.685,
+     "e": 18.845,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.845,
+     "e": 19.065,
+     "w": "cine?",
+     "a": [
+      "cine"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.42,
+     "e": 19.605,
+     "w": "De",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.605,
+     "e": 19.725,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.725,
+     "e": 20.325,
+     "w": "dulcería.",
+     "a": [
+      "dulcería"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "¿De dónde gana?",
+      "en": null,
+      "size": 110
+     },
+     {
+      "t": "icono",
+      "nombre": "palomitas",
+      "en": "dulcería.",
+      "anim": "late",
+      "size": 280,
+      "color": "rojo"
+     },
+     {
+      "t": "titulo",
+      "texto": "La [dulcería]",
+      "en": "dulcería.",
+      "size": 120
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p6",
+   "sfx": [
+    [
+     "pop",
+     "maíz,"
+    ],
+    [
+     "pop",
+     "aceite"
+    ],
+    [
+     "pop",
+     "sal"
+    ]
+   ],
+   "start": 20.485,
+   "dur": 3.295,
+   "text": "El maíz, el aceite y la sal cuestan muy poco.",
+   "words": [
+    {
+     "t": 20.605,
+     "e": 20.745,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.745,
+     "e": 21.185,
+     "w": "maíz,",
+     "a": [
+      "maíz"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.505,
+     "e": 21.565,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.565,
+     "e": 21.825,
+     "w": "aceite",
+     "a": [
+      "aceite"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.825,
+     "e": 22.205,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.205,
+     "e": 22.305,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.305,
+     "e": 22.585,
+     "w": "sal",
+     "a": [
+      "sal"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.585,
+     "e": 23.025,
+     "w": "cuestan",
+     "a": [
+      "cuestan"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.025,
+     "e": 23.265,
+     "w": "muy",
+     "a": [
+      "muy"
+     ],
+     "k": true
+    },
+    {
+     "t": 23.265,
+     "e": 23.565,
+     "w": "poco.",
+     "a": [
+      "poco"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "estrella",
+        "texto": "Maíz",
+        "color": "oro",
+        "en": "maíz,"
+       },
+       {
+        "nombre": "gota",
+        "texto": "Aceite",
+        "color": "#e8c14a",
+        "en": "aceite"
+       },
+       {
+        "nombre": "arroz",
+        "texto": "Sal",
+        "color": "#9fb0c8",
+        "en": "sal"
+       }
+      ],
+      "en": null,
+      "size": 170
+     },
+     {
+      "t": "titulo",
+      "texto": "Cuestan [muy poco]",
+      "en": "poco.",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p7",
+   "sfx": [
+    [
+     "coin",
+     "80"
+    ]
+   ],
+   "start": 23.78,
+   "dur": 7.475,
+   "text": "En una de las cadenas de cine más grandes de Estados Unidos, de cada 100 dólares en dulcería más de 80 eran ganancia.",
+   "words": [
+    {
+     "t": 23.9,
+     "e": 24.045,
+     "w": "En",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.045,
+     "e": 24.185,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.185,
+     "e": 24.305,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.305,
+     "e": 24.445,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.445,
+     "e": 24.785,
+     "w": "cadenas",
+     "a": [
+      "cadenas"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.785,
+     "e": 24.965,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.965,
+     "e": 25.185,
+     "w": "cine",
+     "a": [
+      "cine"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.185,
+     "e": 25.545,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.545,
+     "e": 25.885,
+     "w": "grandes",
+     "a": [
+      "grandes"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.885,
+     "e": 26.065,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.065,
+     "e": 26.265,
+     "w": "Estados",
+     "a": [
+      "estados"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.265,
+     "e": 26.765,
+     "w": "Unidos,",
+     "a": [
+      "unidos"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.765,
+     "e": 27.235,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.235,
+     "e": 27.435,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.435,
+     "e": 27.855,
+     "w": "100",
+     "a": [
+      "100"
+     ],
+     "k": true
+    },
+    {
+     "t": 27.855,
+     "e": 28.255,
+     "w": "dólares",
+     "a": [
+      "dólares"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.255,
+     "e": 28.495,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.495,
+     "e": 29.015,
+     "w": "dulcería",
+     "a": [
+      "dulcería"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.015,
+     "e": 29.385,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.385,
+     "e": 29.585,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.585,
+     "e": 30.065,
+     "w": "80",
+     "a": [
+      "80"
+     ],
+     "k": true
+    },
+    {
+     "t": 30.065,
+     "e": 30.505,
+     "w": "eran",
+     "a": [
+      "eran"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.505,
+     "e": 31.025,
+     "w": "ganancia.",
+     "a": [
+      "ganancia"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "Gran cadena de cines · EE. UU.",
+      "en": null,
+      "size": 46
+     },
+     {
+      "t": "texto",
+      "texto": "De cada $100 en dulcería:",
+      "en": "100"
+     },
+     {
+      "t": "numero",
+      "valor": 80,
+      "en": "80",
+      "prefijo": "+$",
+      "size": 220,
+      "color": "verde"
+     },
+     {
+      "t": "texto",
+      "texto": "eran [ganancia]",
+      "en": "ganancia."
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p8",
+   "sfx": [
+    [
+     "coin",
+     "nada."
+    ]
+   ],
+   "start": 31.255,
+   "dur": 4.295,
+   "text": "Y lo mejor para ellos, de las palomitas el estudio no se lleva nada.",
+   "words": [
+    {
+     "t": 31.375,
+     "e": 31.435,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.435,
+     "e": 31.535,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.535,
+     "e": 31.775,
+     "w": "mejor",
+     "a": [
+      "mejor"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.775,
+     "e": 32.015,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.015,
+     "e": 32.295,
+     "w": "ellos,",
+     "a": [
+      "ellos"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.675,
+     "e": 32.775,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.775,
+     "e": 32.935,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.935,
+     "e": 33.455,
+     "w": "palomitas",
+     "a": [
+      "palomitas"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.455,
+     "e": 33.795,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.795,
+     "e": 34.175,
+     "w": "estudio",
+     "a": [
+      "estudio"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.175,
+     "e": 34.535,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.535,
+     "e": 34.695,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.695,
+     "e": 34.955,
+     "w": "lleva",
+     "a": [
+      "lleva"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.955,
+     "e": 35.375,
+     "w": "nada.",
+     "a": [
+      "nada"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "palomitas",
+      "en": null,
+      "anim": "late",
+      "size": 240,
+      "color": "rojo"
+     },
+     {
+      "t": "numero",
+      "valor": 0,
+      "en": "nada.",
+      "prefijo": "Estudio: ",
+      "sufijo": "%",
+      "size": 130,
+      "color": "verde"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p9",
+   "sfx": [
+    [
+     "coin",
+     "mitad"
+    ]
+   ],
+   "start": 35.55,
+   "dur": 5.845,
+   "text": "Por eso la dulcería es apenas una parte de lo que vende el cine, pero puede ser la mitad de lo que gana.",
+   "words": [
+    {
+     "t": 35.67,
+     "e": 35.805,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.805,
+     "e": 36.025,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.025,
+     "e": 36.185,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.185,
+     "e": 36.725,
+     "w": "dulcería",
+     "a": [
+      "dulcería"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.725,
+     "e": 36.885,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.885,
+     "e": 37.105,
+     "w": "apenas",
+     "a": [
+      "apenas"
+     ],
+     "k": true
+    },
+    {
+     "t": 37.105,
+     "e": 37.565,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.565,
+     "e": 37.925,
+     "w": "parte",
+     "a": [
+      "parte"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.925,
+     "e": 38.105,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.105,
+     "e": 38.205,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.205,
+     "e": 38.305,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.305,
+     "e": 38.545,
+     "w": "vende",
+     "a": [
+      "vende"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.545,
+     "e": 38.685,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.685,
+     "e": 38.925,
+     "w": "cine,",
+     "a": [
+      "cine"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.17,
+     "e": 39.315,
+     "w": "pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.315,
+     "e": 39.535,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.535,
+     "e": 39.775,
+     "w": "ser",
+     "a": [
+      "ser"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.775,
+     "e": 40.035,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.035,
+     "e": 40.395,
+     "w": "mitad",
+     "a": [
+      "mitad"
+     ],
+     "k": true
+    },
+    {
+     "t": 40.395,
+     "e": 40.695,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.695,
+     "e": 40.815,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.815,
+     "e": 40.935,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.935,
+     "e": 41.215,
+     "w": "gana.",
+     "a": [
+      "gana"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "barras",
+      "items": [
+       {
+        "texto": "De lo que VENDE",
+        "valor": 30,
+        "sufijo": "%",
+        "color": "#9aa6b4",
+        "en": "vende"
+       },
+       {
+        "texto": "De lo que GANA",
+        "valor": 50,
+        "sufijo": "%",
+        "color": "verde",
+        "en": "mitad"
+       }
+      ],
+      "en": null,
+      "max": 60
+     },
+     {
+      "t": "texto",
+      "texto": "(aprox., grandes cadenas)",
+      "en": "gana.",
+      "size": 30
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p10",
+   "sfx": [
+    [
+     "stamp",
+     "comida"
+    ]
+   ],
+   "start": 41.395,
+   "dur": 2.9,
+   "text": "Y por eso no te dejan entrar con comida de afuera.",
+   "words": [
+    {
+     "t": 41.515,
+     "e": 41.615,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.615,
+     "e": 41.775,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.775,
+     "e": 42.015,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.015,
+     "e": 42.295,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.295,
+     "e": 42.475,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.475,
+     "e": 42.735,
+     "w": "dejan",
+     "a": [
+      "dejan"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.735,
+     "e": 43.075,
+     "w": "entrar",
+     "a": [
+      "entrar"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.075,
+     "e": 43.295,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.295,
+     "e": 43.615,
+     "w": "comida",
+     "a": [
+      "comida"
+     ],
+     "k": true
+    },
+    {
+     "t": 43.615,
+     "e": 43.775,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.775,
+     "e": 44.095,
+     "w": "afuera.",
+     "a": [
+      "afuera"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "candado",
+      "en": null,
+      "anim": "tiembla",
+      "size": 240,
+      "color": "rojo"
+     },
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Comida de afuera",
+        "ok": false,
+        "en": "comida"
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p11",
+   "sfx": [
+    [
+     "coin",
+     "tienda"
+    ]
+   ],
+   "start": 44.295,
+   "dur": 5.735,
+   "text": "O sea, el cine en realidad es una tienda de palomitas que te pone una película mientras comes.",
+   "words": [
+    {
+     "t": 44.415,
+     "e": 44.495,
+     "w": "O",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.495,
+     "e": 44.695,
+     "w": "sea,",
+     "a": [
+      "sea"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.985,
+     "e": 45.065,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.065,
+     "e": 45.405,
+     "w": "cine",
+     "a": [
+      "cine"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.405,
+     "e": 45.645,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.645,
+     "e": 46.085,
+     "w": "realidad",
+     "a": [
+      "realidad"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.085,
+     "e": 46.465,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.465,
+     "e": 46.625,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.625,
+     "e": 47.005,
+     "w": "tienda",
+     "a": [
+      "tienda"
+     ],
+     "k": true
+    },
+    {
+     "t": 47.005,
+     "e": 47.165,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.165,
+     "e": 47.725,
+     "w": "palomitas",
+     "a": [
+      "palomitas"
+     ],
+     "k": true
+    },
+    {
+     "t": 47.725,
+     "e": 48.075,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.075,
+     "e": 48.215,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.215,
+     "e": 48.435,
+     "w": "pone",
+     "a": [
+      "pone"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.435,
+     "e": 48.595,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.595,
+     "e": 48.995,
+     "w": "película",
+     "a": [
+      "película"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.995,
+     "e": 49.295,
+     "w": "mientras",
+     "a": [
+      "mientras"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.295,
+     "e": 49.715,
+     "w": "comes.",
+     "a": [
+      "comes"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "El cine es una [tienda de palomitas]",
+      "en": "tienda",
+      "size": 96
+     },
+     {
+      "t": "icono",
+      "nombre": "palomitas",
+      "en": null,
+      "anim": "late",
+      "size": 230,
+      "color": "rojo"
+     },
+     {
+      "t": "texto",
+      "texto": "…con una película de regalo",
+      "en": "película"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p12",
+   "sfx": [
+    [
+     "pop",
+     "escondidas?"
+    ]
+   ],
+   "start": 50.03,
+   "dur": 4.05,
+   "text": "¿Tú compras palomitas o las metes escondidas?",
+   "words": [
+    {
+     "t": 50.15,
+     "e": 50.265,
+     "w": "¿Tú",
+     "a": [
+      "tú"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.265,
+     "e": 50.525,
+     "w": "compras",
+     "a": [
+      "compras"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.525,
+     "e": 51.085,
+     "w": "palomitas",
+     "a": [
+      "palomitas"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.085,
+     "e": 51.525,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.525,
+     "e": 51.785,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.785,
+     "e": 52.085,
+     "w": "metes",
+     "a": [
+      "metes"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.085,
+     "e": 52.605,
+     "w": "escondidas?",
+     "a": [
+      "escondidas"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "palomitas",
+      "en": null,
+      "anim": "balancea",
+      "size": 220,
+      "color": "rojo"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Compras o [escondes]?",
+      "en": null,
+      "size": 104
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ],
+ "estilo": {
+  "acento": "#ffc83d",
+  "tinte": "#3a1a1a"
+ }
+}

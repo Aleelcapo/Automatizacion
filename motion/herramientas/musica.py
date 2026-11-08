@@ -220,7 +220,7 @@ def main(gid):
         if k > 0:
             pass  # whoosh entre escenas desactivado (muy fuerte)
         for kind, word in b.get('sfx', []):
-            w = next((w for w in b['words'] if strip(w['w']) == strip(word)), None)
+            w = next((w for w in b['words'] if strip(w['w']) == strip(word) or strip(word) in [strip(x) for x in w.get('a', [])]), None)
             if w:
                 add(SFX[kind](), w['t'])
             else:

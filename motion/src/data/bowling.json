@@ -1,0 +1,1830 @@
+{
+ "id": "bowling",
+ "duration": 51.5,
+ "beats": [
+  {
+   "scene": "b1",
+   "sfx": [
+    [
+     "coin",
+     "190"
+    ],
+    [
+     "thud",
+     "strike?"
+    ]
+   ],
+   "start": 0.0,
+   "dur": 5.05,
+   "text": "¿Sabías que en el bowling puedes hacer 190 puntos sin un solo strike?",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.475,
+     "w": "¿Sabías",
+     "a": [
+      "sabías"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.475,
+     "e": 0.695,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.695,
+     "e": 0.795,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.795,
+     "e": 0.895,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.895,
+     "e": 1.195,
+     "w": "bowling",
+     "a": [
+      "bowling"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.195,
+     "e": 1.555,
+     "w": "puedes",
+     "a": [
+      "puedes"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.555,
+     "e": 1.895,
+     "w": "hacer",
+     "a": [
+      "hacer"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.895,
+     "e": 2.675,
+     "w": "190",
+     "a": [
+      "190"
+     ],
+     "k": true
+    },
+    {
+     "t": 2.675,
+     "e": 3.395,
+     "w": "puntos",
+     "a": [
+      "puntos"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.395,
+     "e": 4.015,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.015,
+     "e": 4.195,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.195,
+     "e": 4.435,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.435,
+     "e": 4.735,
+     "w": "strike?",
+     "a": [
+      "strike"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "bolo",
+      "en": null,
+      "anim": "balancea",
+      "size": 230
+     },
+     {
+      "t": "numero",
+      "valor": 190,
+      "en": "puntos",
+      "sufijo": " pts",
+      "size": 200
+     },
+     {
+      "t": "titulo",
+      "texto": "sin un [strike]",
+      "en": "sin",
+      "size": 96
+     }
+    ],
+    "icono_fondo": "bola"
+   }
+  },
+  {
+   "scene": "b2",
+   "sfx": [
+    [
+     "pop",
+     "spare,"
+    ],
+    [
+     "pop",
+     "dos"
+    ]
+   ],
+   "start": 5.05,
+   "dur": 4.235,
+   "text": "El truco está en el spare, derribar los 10 pinos en dos tiros.",
+   "words": [
+    {
+     "t": 5.17,
+     "e": 5.305,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.305,
+     "e": 5.625,
+     "w": "truco",
+     "a": [
+      "truco"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.625,
+     "e": 5.945,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.945,
+     "e": 6.085,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.085,
+     "e": 6.185,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.185,
+     "e": 6.485,
+     "w": "spare,",
+     "a": [
+      "spare"
+     ],
+     "k": true
+    },
+    {
+     "t": 6.82,
+     "e": 7.245,
+     "w": "derribar",
+     "a": [
+      "derribar"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.245,
+     "e": 7.445,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.445,
+     "e": 7.705,
+     "w": "10",
+     "a": [
+      "10"
+     ],
+     "k": true
+    },
+    {
+     "t": 7.705,
+     "e": 8.165,
+     "w": "pinos",
+     "a": [
+      "pinos"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.165,
+     "e": 8.425,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.425,
+     "e": 8.665,
+     "w": "dos",
+     "a": [
+      "dos"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.665,
+     "e": 9.065,
+     "w": "tiros.",
+     "a": [
+      "tiros"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "pildora",
+        "texto": "El truco",
+        "en": null
+       },
+       {
+        "t": "titulo",
+        "texto": "[Spare]",
+        "en": "spare,",
+        "size": 150
+       }
+      ]
+     },
+     {
+      "en": "derribar",
+      "el": [
+       {
+        "t": "iconos",
+        "items": [
+         {
+          "nombre": "bola",
+          "texto": "Tiro 1"
+         },
+         {
+          "nombre": "bola",
+          "texto": "Tiro 2",
+          "en": "dos"
+         }
+        ],
+        "en": null,
+        "size": 180
+       },
+       {
+        "t": "titulo",
+        "texto": "= [10] pinos",
+        "en": "10",
+        "size": 96
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b3",
+   "sfx": [
+    [
+     "coin",
+     "10"
+    ]
+   ],
+   "start": 9.285,
+   "dur": 4.305,
+   "text": "Mira, un spare vale 10 puntos, más lo que tires en la siguiente bola.",
+   "words": [
+    {
+     "t": 9.405,
+     "e": 9.505,
+     "w": "Mira,",
+     "a": [
+      "mira"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.76,
+     "e": 9.925,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.925,
+     "e": 10.245,
+     "w": "spare",
+     "a": [
+      "spare"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.245,
+     "e": 10.585,
+     "w": "vale",
+     "a": [
+      "vale"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.585,
+     "e": 10.945,
+     "w": "10",
+     "a": [
+      "10"
+     ],
+     "k": true
+    },
+    {
+     "t": 10.945,
+     "e": 11.325,
+     "w": "puntos,",
+     "a": [
+      "puntos"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.71,
+     "e": 11.955,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.955,
+     "e": 12.135,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.135,
+     "e": 12.255,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.255,
+     "e": 12.475,
+     "w": "tires",
+     "a": [
+      "tires"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.475,
+     "e": 12.655,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.655,
+     "e": 12.755,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.755,
+     "e": 12.995,
+     "w": "siguiente",
+     "a": [
+      "siguiente"
+     ],
+     "k": true
+    },
+    {
+     "t": 12.995,
+     "e": 13.395,
+     "w": "bola.",
+     "a": [
+      "bola"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "Spare =",
+      "en": null,
+      "size": 100
+     },
+     {
+      "t": "numero",
+      "valor": 10,
+      "en": "10",
+      "sufijo": " pts",
+      "size": 190
+     },
+     {
+      "t": "titulo",
+      "texto": "+ la [siguiente bola]",
+      "en": "siguiente",
+      "size": 80
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b4",
+   "sfx": [
+    [
+     "pop",
+     "spare,"
+    ],
+    [
+     "coin",
+     "19"
+    ]
+   ],
+   "start": 13.59,
+   "dur": 6.12,
+   "text": "Si en cada turno tiras 9 pinos y luego haces spare, cada cuadro te da 19 puntos.",
+   "words": [
+    {
+     "t": 13.71,
+     "e": 13.875,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.875,
+     "e": 13.975,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.975,
+     "e": 14.215,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.215,
+     "e": 14.695,
+     "w": "turno",
+     "a": [
+      "turno"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.695,
+     "e": 14.975,
+     "w": "tiras",
+     "a": [
+      "tiras"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.975,
+     "e": 15.295,
+     "w": "9",
+     "a": [
+      "9"
+     ],
+     "k": true
+    },
+    {
+     "t": 15.295,
+     "e": 15.855,
+     "w": "pinos",
+     "a": [
+      "pinos"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.855,
+     "e": 16.055,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.055,
+     "e": 16.255,
+     "w": "luego",
+     "a": [
+      "luego"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.255,
+     "e": 16.615,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.615,
+     "e": 16.955,
+     "w": "spare,",
+     "a": [
+      "spare"
+     ],
+     "k": true
+    },
+    {
+     "t": 17.27,
+     "e": 17.465,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.465,
+     "e": 17.905,
+     "w": "cuadro",
+     "a": [
+      "cuadro"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.905,
+     "e": 18.105,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.105,
+     "e": 18.225,
+     "w": "da",
+     "a": [
+      "da"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.225,
+     "e": 18.925,
+     "w": "19",
+     "a": [
+      "19"
+     ],
+     "k": true
+    },
+    {
+     "t": 18.925,
+     "e": 19.365,
+     "w": "puntos.",
+     "a": [
+      "puntos"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "[9] pinos + spare",
+      "en": "9",
+      "size": 96
+     },
+     {
+      "t": "icono",
+      "nombre": "bolo",
+      "en": "spare,",
+      "anim": "balancea",
+      "size": 200
+     },
+     {
+      "t": "numero",
+      "valor": 19,
+      "en": "19",
+      "sufijo": " por cuadro",
+      "size": 130
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b5",
+   "sfx": [
+    [
+     "coin",
+     "190."
+    ]
+   ],
+   "start": 19.71,
+   "dur": 2.85,
+   "text": "10 cuadros así y terminas con 190.",
+   "words": [
+    {
+     "t": 19.83,
+     "e": 20.075,
+     "w": "10",
+     "a": [
+      "10"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.075,
+     "e": 20.455,
+     "w": "cuadros",
+     "a": [
+      "cuadros"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.455,
+     "e": 20.775,
+     "w": "así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.775,
+     "e": 21.085,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.085,
+     "e": 21.525,
+     "w": "terminas",
+     "a": [
+      "terminas"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.525,
+     "e": 21.665,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.665,
+     "e": 22.125,
+     "w": "190.",
+     "a": [
+      "190"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "fila",
+      "items": [
+       {
+        "arriba": "9 /",
+        "abajo": "19"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "38"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "57"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "76"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "95"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "114"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "133"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "152"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "171"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "190"
+       }
+      ],
+      "en": null,
+      "ancho": 150,
+      "ritmo": 3
+     },
+     {
+      "t": "numero",
+      "valor": 190,
+      "en": "190",
+      "sufijo": " pts",
+      "size": 210
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b6",
+   "sfx": [
+    [
+     "drop",
+     "90."
+    ]
+   ],
+   "start": 22.56,
+   "dur": 5.39,
+   "text": "Ahora, si tiras 9 en cada turno pero nunca haces spare, sacas solo 90.",
+   "words": [
+    {
+     "t": 22.68,
+     "e": 22.815,
+     "w": "Ahora,",
+     "a": [
+      "ahora"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.15,
+     "e": 23.305,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.305,
+     "e": 23.605,
+     "w": "tiras",
+     "a": [
+      "tiras"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.605,
+     "e": 23.885,
+     "w": "9",
+     "a": [
+      "9"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.885,
+     "e": 24.165,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.165,
+     "e": 24.445,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.445,
+     "e": 24.965,
+     "w": "turno",
+     "a": [
+      "turno"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.965,
+     "e": 25.165,
+     "w": "pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.165,
+     "e": 25.605,
+     "w": "nunca",
+     "a": [
+      "nunca"
+     ],
+     "k": true
+    },
+    {
+     "t": 25.605,
+     "e": 25.925,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.925,
+     "e": 26.285,
+     "w": "spare,",
+     "a": [
+      "spare"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.62,
+     "e": 26.995,
+     "w": "sacas",
+     "a": [
+      "sacas"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.995,
+     "e": 27.255,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.255,
+     "e": 27.715,
+     "w": "90.",
+     "a": [
+      "90"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "[Sin] spare",
+      "en": "nunca",
+      "acento": "rojo",
+      "size": 110
+     },
+     {
+      "t": "numero",
+      "valor": 90,
+      "en": "90",
+      "sufijo": " pts",
+      "color": "rojo",
+      "size": 200
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b7",
+   "sfx": [
+    [
+     "stamp",
+     "duplica"
+    ]
+   ],
+   "start": 27.95,
+   "dur": 4.12,
+   "text": "Mismos pinos derribados casi y el spare te duplica el puntaje.",
+   "words": [
+    {
+     "t": 28.07,
+     "e": 28.475,
+     "w": "Mismos",
+     "a": [
+      "mismos"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.475,
+     "e": 28.775,
+     "w": "pinos",
+     "a": [
+      "pinos"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.775,
+     "e": 29.275,
+     "w": "derribados",
+     "a": [
+      "derribados"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.275,
+     "e": 29.715,
+     "w": "casi",
+     "a": [
+      "casi"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.715,
+     "e": 30.175,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.175,
+     "e": 30.295,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.295,
+     "e": 30.615,
+     "w": "spare",
+     "a": [
+      "spare"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.615,
+     "e": 30.835,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.835,
+     "e": 31.315,
+     "w": "duplica",
+     "a": [
+      "duplica"
+     ],
+     "k": true
+    },
+    {
+     "t": 31.315,
+     "e": 31.415,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.415,
+     "e": 31.915,
+     "w": "puntaje.",
+     "a": [
+      "puntaje"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "barras",
+      "items": [
+       {
+        "texto": "Sin spare",
+        "valor": 90,
+        "sufijo": " pts",
+        "color": "rojo"
+       },
+       {
+        "texto": "Con spare",
+        "valor": 190,
+        "sufijo": " pts",
+        "color": "verde",
+        "en": "spare"
+       }
+      ],
+      "en": null
+     },
+     {
+      "t": "sello",
+      "texto": "×2",
+      "en": "duplica",
+      "color": "verde",
+      "size": 120
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b8",
+   "sfx": [
+    [
+     "coin",
+     "altísimo."
+    ]
+   ],
+   "start": 32.07,
+   "dur": 4.46,
+   "text": "Para alguien que juega por diversión, 190 es un puntaje altísimo.",
+   "words": [
+    {
+     "t": 32.19,
+     "e": 32.335,
+     "w": "Para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.335,
+     "e": 32.575,
+     "w": "alguien",
+     "a": [
+      "alguien"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.575,
+     "e": 32.735,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.735,
+     "e": 32.955,
+     "w": "juega",
+     "a": [
+      "juega"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.955,
+     "e": 33.135,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.135,
+     "e": 33.655,
+     "w": "diversión,",
+     "a": [
+      "diversión"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.015,
+     "e": 34.435,
+     "w": "190",
+     "a": [
+      "190"
+     ],
+     "k": true
+    },
+    {
+     "t": 34.435,
+     "e": 34.915,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.915,
+     "e": 35.035,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.035,
+     "e": 35.575,
+     "w": "puntaje",
+     "a": [
+      "puntaje"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.575,
+     "e": 36.375,
+     "w": "altísimo.",
+     "a": [
+      "altísimo"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "trofeo",
+      "en": null,
+      "anim": "late",
+      "size": 260
+     },
+     {
+      "t": "titulo",
+      "texto": "190 = [altísimo]",
+      "en": "190",
+      "size": 110
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b9",
+   "sfx": [
+    [
+     "coin",
+     "200."
+    ]
+   ],
+   "start": 36.53,
+   "dur": 6.34,
+   "text": "Y un dato extra. Si alternas strike y spare toda la partida, terminas con exactamente 200.",
+   "words": [
+    {
+     "t": 36.65,
+     "e": 36.765,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.765,
+     "e": 36.865,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.865,
+     "e": 37.025,
+     "w": "dato",
+     "a": [
+      "dato"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.025,
+     "e": 37.365,
+     "w": "extra.",
+     "a": [
+      "extra"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.775,
+     "e": 37.875,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.875,
+     "e": 38.315,
+     "w": "alternas",
+     "a": [
+      "alternas"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.315,
+     "e": 38.735,
+     "w": "strike",
+     "a": [
+      "strike"
+     ],
+     "k": true
+    },
+    {
+     "t": 38.735,
+     "e": 38.995,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.995,
+     "e": 39.275,
+     "w": "spare",
+     "a": [
+      "spare"
+     ],
+     "k": true
+    },
+    {
+     "t": 39.275,
+     "e": 39.615,
+     "w": "toda",
+     "a": [
+      "toda"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.615,
+     "e": 39.815,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.815,
+     "e": 40.275,
+     "w": "partida,",
+     "a": [
+      "partida"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.575,
+     "e": 40.935,
+     "w": "terminas",
+     "a": [
+      "terminas"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.935,
+     "e": 41.095,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.095,
+     "e": 41.735,
+     "w": "exactamente",
+     "a": [
+      "exactamente"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.735,
+     "e": 42.235,
+     "w": "200.",
+     "a": [
+      "200"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "pildora",
+        "texto": "Dato extra",
+        "en": null,
+        "size": 54
+       },
+       {
+        "t": "icono",
+        "nombre": "estrella",
+        "en": null,
+        "anim": "gira",
+        "size": 200
+       }
+      ]
+     },
+     {
+      "en": "alternas",
+      "el": [
+       {
+        "t": "titulo",
+        "texto": "Strike + spare + strike…",
+        "en": null,
+        "size": 72
+       },
+       {
+        "t": "fila",
+        "items": [
+         {
+          "arriba": "X",
+          "abajo": "20"
+         },
+         {
+          "arriba": "9 /",
+          "abajo": "40"
+         },
+         {
+          "arriba": "X",
+          "abajo": "60"
+         },
+         {
+          "arriba": "9 /",
+          "abajo": "80"
+         },
+         {
+          "arriba": "X",
+          "abajo": "100"
+         },
+         {
+          "arriba": "9 /",
+          "abajo": "120"
+         },
+         {
+          "arriba": "X",
+          "abajo": "140"
+         },
+         {
+          "arriba": "9 /",
+          "abajo": "160"
+         },
+         {
+          "arriba": "X",
+          "abajo": "180"
+         },
+         {
+          "arriba": "9 /",
+          "abajo": "200"
+         }
+        ],
+        "en": null,
+        "ancho": 150,
+        "ritmo": 3
+       },
+       {
+        "t": "numero",
+        "valor": 200,
+        "en": "200.",
+        "sufijo": " pts",
+        "size": 200
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b10",
+   "sfx": [
+    [
+     "pop",
+     "dutch"
+    ]
+   ],
+   "start": 42.87,
+   "dur": 2.2,
+   "text": "Se llama el Dutch 200.",
+   "words": [
+    {
+     "t": 42.99,
+     "e": 43.135,
+     "w": "Se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.135,
+     "e": 43.415,
+     "w": "llama",
+     "a": [
+      "llama"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.415,
+     "e": 43.755,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.755,
+     "e": 44.115,
+     "w": "Dutch",
+     "a": [
+      "dutch"
+     ],
+     "k": true
+    },
+    {
+     "t": 44.115,
+     "e": 44.575,
+     "w": "200.",
+     "a": [
+      "200"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "“[Dutch 200]”",
+      "en": "dutch",
+      "size": 130
+     },
+     {
+      "t": "icono",
+      "nombre": "bola",
+      "en": null,
+      "anim": "gira",
+      "size": 200
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b11",
+   "sfx": [
+    [
+     "pop",
+     "busques"
+    ],
+    [
+     "coin",
+     "asegura"
+    ]
+   ],
+   "start": 45.07,
+   "dur": 3.95,
+   "text": "Así que la próxima vez no busques el strike, asegura el spare.",
+   "words": [
+    {
+     "t": 45.19,
+     "e": 45.345,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.345,
+     "e": 45.525,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.525,
+     "e": 45.765,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.765,
+     "e": 46.005,
+     "w": "próxima",
+     "a": [
+      "próxima"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.005,
+     "e": 46.425,
+     "w": "vez",
+     "a": [
+      "vez"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.425,
+     "e": 46.795,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.795,
+     "e": 47.075,
+     "w": "busques",
+     "a": [
+      "busques"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.075,
+     "e": 47.255,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.255,
+     "e": 47.575,
+     "w": "strike,",
+     "a": [
+      "strike"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.835,
+     "e": 48.355,
+     "w": "asegura",
+     "a": [
+      "asegura"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.355,
+     "e": 48.515,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.515,
+     "e": 48.795,
+     "w": "spare.",
+     "a": [
+      "spare"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Buscar el strike",
+        "ok": false,
+        "en": "busques"
+       },
+       {
+        "texto": "Asegurar el spare",
+        "ok": true,
+        "en": "asegura"
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b12",
+   "sfx": [
+    [
+     "pop",
+     "puntaje?"
+    ]
+   ],
+   "start": 49.02,
+   "dur": 2.48,
+   "text": "¿Cuál es tu mejor puntaje?",
+   "words": [
+    {
+     "t": 49.14,
+     "e": 49.315,
+     "w": "¿Cuál",
+     "a": [
+      "cuál"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.315,
+     "e": 49.395,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.395,
+     "e": 49.475,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.475,
+     "e": 49.695,
+     "w": "mejor",
+     "a": [
+      "mejor"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.695,
+     "e": 50.195,
+     "w": "puntaje?",
+     "a": [
+      "puntaje"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "comentario",
+      "en": null,
+      "anim": "late",
+      "size": 200
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Tu mejor [puntaje]?",
+      "en": null,
+      "size": 110
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ],
+ "estilo": {
+  "acento": "#ff8a3d",
+  "tinte": "#3a2a1a"
+ }
+}

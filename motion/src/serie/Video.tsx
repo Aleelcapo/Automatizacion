@@ -4,6 +4,7 @@ import {Escena, Fondo, Progreso} from './Fondo';
 import {Subtitulos} from './Subtitulos';
 import {BeatCtx} from './util';
 import {buscar} from '../registro';
+import {EscenaGenerica} from './Bloques';
 
 /** Arma un video de la serie: fondo + escenas (una por beat) + subtítulos + audio. */
 export const VideoSerie: React.FC<{id: string}> = ({id}) => {
@@ -14,12 +15,12 @@ export const VideoSerie: React.FC<{id: string}> = ({id}) => {
     <AbsoluteFill style={{backgroundColor: '#060b1c'}}>
       {datos.beats.map((b, i) => {
         const fin = i + 1 < datos.beats.length ? desde[i + 1] : durationInFrames;
-        const Comp = escenas[b.scene];
-        const beat = {...b, start: desde[i] / fps, dur: (fin - desde[i]) / fps};
+        const Comp = escenas[b.scene] ?? (b.escena ? EscenaGenerica : null);
+        const beat = {...b, start: desde[i] / fps, dur: (fin - desde[i]) / fps, acento: datos.estilo?.acento};
         return (
           <Sequence key={i} from={desde[i]} durationInFrames={fin - desde[i]} name={b.scene}>
             <BeatCtx.Provider value={beat}>
-              <Fondo tinte={tintes[b.scene]} />
+              <Fondo tinte={b.escena?.tinte ?? tintes[b.scene] ?? datos.estilo?.tinte} />
               <Escena>{Comp ? <Comp /> : null}</Escena>
             </BeatCtx.Provider>
           </Sequence>

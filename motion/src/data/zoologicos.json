@@ -1,0 +1,1723 @@
+{
+ "id": "zoologicos",
+ "duration": 53.33,
+ "beats": [
+  {
+   "scene": "z1",
+   "sfx": [
+    [
+     "pop",
+     "zoológicos?"
+    ]
+   ],
+   "start": 0.0,
+   "dur": 2.52,
+   "text": "¿Por qué están desapareciendo los zoológicos?",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.255,
+     "w": "¿Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.255,
+     "e": 0.455,
+     "w": "qué",
+     "a": [
+      "qué"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.455,
+     "e": 0.735,
+     "w": "están",
+     "a": [
+      "están"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.735,
+     "e": 1.415,
+     "w": "desapareciendo",
+     "a": [
+      "desapareciendo"
+     ],
+     "k": true
+    },
+    {
+     "t": 1.415,
+     "e": 1.615,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.615,
+     "e": 2.215,
+     "w": "zoológicos?",
+     "a": [
+      "zoológicos"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "jaula",
+      "en": null,
+      "anim": "balancea",
+      "size": 280,
+      "color": "#c9d3e3"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Por qué desaparecen los [zoológicos]?",
+      "en": null,
+      "size": 96
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z2",
+   "sfx": [
+    [
+     "pop",
+     "ecoparque."
+    ]
+   ],
+   "start": 2.52,
+   "dur": 6.41,
+   "text": "En 2016, Buenos Aires cerró su zoológico de más de 100 años y lo convirtió en un ecoparque.",
+   "words": [
+    {
+     "t": 2.64,
+     "e": 2.775,
+     "w": "En",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.775,
+     "e": 3.375,
+     "w": "2016,",
+     "a": [
+      "2016"
+     ],
+     "k": true
+    },
+    {
+     "t": 4.075,
+     "e": 4.275,
+     "w": "Buenos",
+     "a": [
+      "buenos"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.275,
+     "e": 4.555,
+     "w": "Aires",
+     "a": [
+      "aires"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.555,
+     "e": 4.975,
+     "w": "cerró",
+     "a": [
+      "cerró"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.975,
+     "e": 5.135,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.135,
+     "e": 5.755,
+     "w": "zoológico",
+     "a": [
+      "zoológico"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.755,
+     "e": 5.955,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.955,
+     "e": 6.115,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.115,
+     "e": 6.315,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.315,
+     "e": 6.655,
+     "w": "100",
+     "a": [
+      "100"
+     ],
+     "k": true
+    },
+    {
+     "t": 6.655,
+     "e": 7.015,
+     "w": "años",
+     "a": [
+      "años"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.015,
+     "e": 7.395,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.395,
+     "e": 7.495,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.495,
+     "e": 7.975,
+     "w": "convirtió",
+     "a": [
+      "convirtió"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.975,
+     "e": 8.115,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.115,
+     "e": 8.235,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.235,
+     "e": 8.755,
+     "w": "ecoparque.",
+     "a": [
+      "ecoparque"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "Buenos Aires · 2016",
+      "en": null,
+      "size": 50
+     },
+     {
+      "t": "icono",
+      "nombre": "jaula",
+      "en": null,
+      "size": 200,
+      "color": "#c9d3e3"
+     },
+     {
+      "t": "titulo",
+      "texto": "+[100] años",
+      "en": "100",
+      "size": 110
+     },
+     {
+      "t": "pildora",
+      "texto": "→ Ecoparque",
+      "en": "ecoparque.",
+      "fondo": "verde",
+      "color": "#032312",
+      "size": 56
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z3",
+   "sfx": [
+    [
+     "stamp",
+     "cerró"
+    ]
+   ],
+   "start": 8.93,
+   "dur": 5.25,
+   "text": "Y en mayo de 2024, Costa Rica cerró sus últimos zoológicos estatales.",
+   "words": [
+    {
+     "t": 9.05,
+     "e": 9.155,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.155,
+     "e": 9.255,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.255,
+     "e": 9.515,
+     "w": "mayo",
+     "a": [
+      "mayo"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.515,
+     "e": 9.675,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.675,
+     "e": 10.415,
+     "w": "2024,",
+     "a": [
+      "2024"
+     ],
+     "k": true
+    },
+    {
+     "t": 10.995,
+     "e": 11.155,
+     "w": "Costa",
+     "a": [
+      "costa"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.155,
+     "e": 11.455,
+     "w": "Rica",
+     "a": [
+      "rica"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.455,
+     "e": 11.855,
+     "w": "cerró",
+     "a": [
+      "cerró"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.855,
+     "e": 12.075,
+     "w": "sus",
+     "a": [
+      "sus"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.075,
+     "e": 12.495,
+     "w": "últimos",
+     "a": [
+      "últimos"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.495,
+     "e": 13.275,
+     "w": "zoológicos",
+     "a": [
+      "zoológicos"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.275,
+     "e": 13.855,
+     "w": "estatales.",
+     "a": [
+      "estatales"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "Costa Rica · Mayo 2024",
+      "en": null,
+      "size": 50
+     },
+     {
+      "t": "icono",
+      "nombre": "mapa",
+      "en": null,
+      "size": 220,
+      "color": "rojo",
+      "color2": "#2b6b4a"
+     },
+     {
+      "t": "titulo",
+      "texto": "Zoológicos [estatales]",
+      "en": "estatales.",
+      "size": 92
+     },
+     {
+      "t": "sello",
+      "texto": "Cerrados",
+      "en": "cerró",
+      "color": "rojo"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z4",
+   "sfx": [
+    [
+     "coin",
+     "300"
+    ],
+    [
+     "pop",
+     "rescate."
+    ]
+   ],
+   "start": 14.18,
+   "dur": 3.89,
+   "text": "Casi 300 animales fueron trasladados a un centro de rescate.",
+   "words": [
+    {
+     "t": 14.3,
+     "e": 14.525,
+     "w": "Casi",
+     "a": [
+      "casi"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.525,
+     "e": 14.925,
+     "w": "300",
+     "a": [
+      "300"
+     ],
+     "k": true
+    },
+    {
+     "t": 14.925,
+     "e": 15.725,
+     "w": "animales",
+     "a": [
+      "animales"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.725,
+     "e": 16.045,
+     "w": "fueron",
+     "a": [
+      "fueron"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.045,
+     "e": 16.685,
+     "w": "trasladados",
+     "a": [
+      "trasladados"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.685,
+     "e": 16.865,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.865,
+     "e": 16.965,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.965,
+     "e": 17.245,
+     "w": "centro",
+     "a": [
+      "centro"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.245,
+     "e": 17.405,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.405,
+     "e": 17.865,
+     "w": "rescate.",
+     "a": [
+      "rescate"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "numero",
+      "valor": 300,
+      "en": "300",
+      "prefijo": "~",
+      "size": 220
+     },
+     {
+      "t": "texto",
+      "texto": "animales trasladados",
+      "en": "animales"
+     },
+     {
+      "t": "icono",
+      "nombre": "corazon",
+      "en": "rescate.",
+      "anim": "late",
+      "size": 180,
+      "color": "rojo"
+     },
+     {
+      "t": "pildora",
+      "texto": "Centro de rescate",
+      "en": "rescate.",
+      "size": 50
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z5",
+   "sfx": [
+    [
+     "pop",
+     "bienestar"
+    ]
+   ],
+   "start": 18.07,
+   "dur": 2.12,
+   "text": "¿La razón? El bienestar animal.",
+   "words": [
+    {
+     "t": 18.19,
+     "e": 18.305,
+     "w": "¿La",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.305,
+     "e": 18.565,
+     "w": "razón?",
+     "a": [
+      "razón"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.02,
+     "e": 19.155,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.155,
+     "e": 19.555,
+     "w": "bienestar",
+     "a": [
+      "bienestar"
+     ],
+     "k": true
+    },
+    {
+     "t": 19.555,
+     "e": 19.955,
+     "w": "animal.",
+     "a": [
+      "animal"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "¿La razón?",
+      "en": null,
+      "size": 110
+     },
+     {
+      "t": "icono",
+      "nombre": "corazon",
+      "en": "bienestar",
+      "anim": "late",
+      "size": 260,
+      "color": "verde"
+     },
+     {
+      "t": "titulo",
+      "texto": "[Bienestar] animal",
+      "en": "bienestar",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z6",
+   "sfx": [
+    [
+     "pop",
+     "zoológicos"
+    ],
+    [
+     "pop",
+     "salvajes"
+    ]
+   ],
+   "start": 20.19,
+   "dur": 6.26,
+   "text": "Un estudio publicado en la revista Science comparó elefantas en zoológicos con elefantas salvajes en Kenia.",
+   "words": [
+    {
+     "t": 20.31,
+     "e": 20.435,
+     "w": "Un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.435,
+     "e": 20.715,
+     "w": "estudio",
+     "a": [
+      "estudio"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.715,
+     "e": 21.335,
+     "w": "publicado",
+     "a": [
+      "publicado"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.335,
+     "e": 21.435,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.435,
+     "e": 21.535,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.535,
+     "e": 21.895,
+     "w": "revista",
+     "a": [
+      "revista"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.895,
+     "e": 22.315,
+     "w": "Science",
+     "a": [
+      "science"
+     ],
+     "k": true
+    },
+    {
+     "t": 22.315,
+     "e": 23.035,
+     "w": "comparó",
+     "a": [
+      "comparó"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.035,
+     "e": 23.475,
+     "w": "elefantas",
+     "a": [
+      "elefantas"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.475,
+     "e": 23.735,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.735,
+     "e": 24.475,
+     "w": "zoológicos",
+     "a": [
+      "zoológicos"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.475,
+     "e": 24.675,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.675,
+     "e": 25.135,
+     "w": "elefantas",
+     "a": [
+      "elefantas"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.135,
+     "e": 25.715,
+     "w": "salvajes",
+     "a": [
+      "salvajes"
+     ],
+     "k": true
+    },
+    {
+     "t": 25.715,
+     "e": 25.915,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.915,
+     "e": 26.315,
+     "w": "Kenia.",
+     "a": [
+      "kenia"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "Revista Science",
+      "en": null,
+      "size": 50
+     },
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "elefante",
+        "texto": "Zoológico",
+        "color": "#9aa6b4",
+        "en": "zoológicos"
+       },
+       {
+        "nombre": "elefante",
+        "texto": "Salvaje · Kenia",
+        "en": "salvajes"
+       }
+      ],
+      "en": null,
+      "size": 220
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z7",
+   "sfx": [
+    [
+     "coin",
+     "56"
+    ],
+    [
+     "drop",
+     "17."
+    ]
+   ],
+   "start": 26.45,
+   "dur": 5.65,
+   "text": "Las salvajes vivían en promedio de 56 años. Las de zoológico, unos 17.",
+   "words": [
+    {
+     "t": 26.57,
+     "e": 26.685,
+     "w": "Las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.685,
+     "e": 27.165,
+     "w": "salvajes",
+     "a": [
+      "salvajes"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.165,
+     "e": 27.625,
+     "w": "vivían",
+     "a": [
+      "vivían"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.625,
+     "e": 27.745,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.745,
+     "e": 28.165,
+     "w": "promedio",
+     "a": [
+      "promedio"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.165,
+     "e": 28.305,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.305,
+     "e": 28.885,
+     "w": "56",
+     "a": [
+      "56"
+     ],
+     "k": true
+    },
+    {
+     "t": 28.885,
+     "e": 29.445,
+     "w": "años.",
+     "a": [
+      "años"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.87,
+     "e": 30.015,
+     "w": "Las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.015,
+     "e": 30.135,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.135,
+     "e": 30.655,
+     "w": "zoológico,",
+     "a": [
+      "zoológico"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.06,
+     "e": 31.265,
+     "w": "unos",
+     "a": [
+      "unos"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.265,
+     "e": 31.745,
+     "w": "17.",
+     "a": [
+      "17"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "texto",
+      "texto": "Vida promedio de elefantas africanas",
+      "en": null,
+      "size": 42
+     },
+     {
+      "t": "barras",
+      "items": [
+       {
+        "texto": "Salvajes (Kenia)",
+        "valor": 56,
+        "sufijo": " años",
+        "color": "verde",
+        "en": "56"
+       },
+       {
+        "texto": "En zoológico",
+        "valor": 17,
+        "sufijo": " años",
+        "color": "rojo",
+        "en": "17."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z8",
+   "sfx": [
+    [
+     "pop",
+     "estrés,"
+    ],
+    [
+     "pop",
+     "espacio"
+    ],
+    [
+     "pop",
+     "sobrepeso"
+    ]
+   ],
+   "start": 32.1,
+   "dur": 4.115,
+   "text": "El estrés, el poco espacio y el sobrepeso pasan factura.",
+   "words": [
+    {
+     "t": 32.22,
+     "e": 32.335,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.335,
+     "e": 32.755,
+     "w": "estrés,",
+     "a": [
+      "estrés"
+     ],
+     "k": true
+    },
+    {
+     "t": 33.195,
+     "e": 33.235,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.235,
+     "e": 33.475,
+     "w": "poco",
+     "a": [
+      "poco"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.475,
+     "e": 34.015,
+     "w": "espacio",
+     "a": [
+      "espacio"
+     ],
+     "k": true
+    },
+    {
+     "t": 34.015,
+     "e": 34.295,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.295,
+     "e": 34.395,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.395,
+     "e": 35.095,
+     "w": "sobrepeso",
+     "a": [
+      "sobrepeso"
+     ],
+     "k": true
+    },
+    {
+     "t": 35.095,
+     "e": 35.525,
+     "w": "pasan",
+     "a": [
+      "pasan"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.525,
+     "e": 35.965,
+     "w": "factura.",
+     "a": [
+      "factura"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "tarjetas",
+      "items": [
+       {
+        "icono": "alerta",
+        "texto": "Estrés",
+        "color": "rojo",
+        "en": "estrés,"
+       },
+       {
+        "icono": "jaula",
+        "texto": "Poco espacio",
+        "color": "rojo",
+        "en": "espacio"
+       },
+       {
+        "icono": "balanza",
+        "texto": "Sobrepeso",
+        "color": "rojo",
+        "color2": "rojo",
+        "en": "sobrepeso"
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z9",
+   "sfx": [
+    [
+     "pop",
+     "santuarios"
+    ],
+    [
+     "pop",
+     "rescatan"
+    ],
+    [
+     "pop",
+     "especies"
+    ]
+   ],
+   "start": 36.215,
+   "dur": 8.795,
+   "text": "Ojo, no todos desaparecen. Muchos se están transformando en santuarios y centros de conservación que rescatan animales y ayudan a especies en peligro.",
+   "words": [
+    {
+     "t": 36.335,
+     "e": 36.575,
+     "w": "Ojo,",
+     "a": [
+      "ojo"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.875,
+     "e": 37.055,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": true
+    },
+    {
+     "t": 37.055,
+     "e": 37.455,
+     "w": "todos",
+     "a": [
+      "todos"
+     ],
+     "k": true
+    },
+    {
+     "t": 37.455,
+     "e": 38.135,
+     "w": "desaparecen.",
+     "a": [
+      "desaparecen"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.46,
+     "e": 38.845,
+     "w": "Muchos",
+     "a": [
+      "muchos"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.845,
+     "e": 39.005,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.005,
+     "e": 39.225,
+     "w": "están",
+     "a": [
+      "están"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.225,
+     "e": 39.825,
+     "w": "transformando",
+     "a": [
+      "transformando"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.825,
+     "e": 39.945,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.945,
+     "e": 40.505,
+     "w": "santuarios",
+     "a": [
+      "santuarios"
+     ],
+     "k": true
+    },
+    {
+     "t": 40.505,
+     "e": 40.785,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.785,
+     "e": 41.145,
+     "w": "centros",
+     "a": [
+      "centros"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.145,
+     "e": 41.265,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.265,
+     "e": 41.925,
+     "w": "conservación",
+     "a": [
+      "conservación"
+     ],
+     "k": true
+    },
+    {
+     "t": 41.925,
+     "e": 42.175,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.175,
+     "e": 42.635,
+     "w": "rescatan",
+     "a": [
+      "rescatan"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.635,
+     "e": 42.975,
+     "w": "animales",
+     "a": [
+      "animales"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.975,
+     "e": 43.395,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.395,
+     "e": 43.815,
+     "w": "ayudan",
+     "a": [
+      "ayudan"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.815,
+     "e": 43.895,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.895,
+     "e": 44.255,
+     "w": "especies",
+     "a": [
+      "especies"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.255,
+     "e": 44.435,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.435,
+     "e": 45.13,
+     "w": "peligro.",
+     "a": [
+      "peligro"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "titulo",
+        "texto": "Ojo: [no todos] desaparecen",
+        "en": null,
+        "size": 100
+       },
+       {
+        "t": "icono",
+        "nombre": "ojo",
+        "en": null,
+        "anim": "late",
+        "size": 200,
+        "color": "verde"
+       }
+      ]
+     },
+     {
+      "en": "transformando",
+      "el": [
+       {
+        "t": "iconos",
+        "items": [
+         {
+          "nombre": "jaula",
+          "color": "#c9d3e3"
+         },
+         {
+          "nombre": "flecha",
+          "color": "#ffffff",
+          "size": 110
+         },
+         {
+          "nombre": "hoja",
+          "texto": "Santuario",
+          "en": "santuarios"
+         }
+        ],
+        "en": null,
+        "size": 180,
+        "gap": 24
+       },
+       {
+        "t": "lista",
+        "items": [
+         {
+          "texto": "Rescatan animales",
+          "ok": true,
+          "en": "rescatan"
+         },
+         {
+          "texto": "Protegen especies",
+          "ok": true,
+          "en": "especies"
+         }
+        ],
+        "en": null
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z10",
+   "sfx": [
+    [
+     "drop",
+     "desapareciendo."
+    ],
+    [
+     "coin",
+     "protege"
+    ]
+   ],
+   "start": 45.01,
+   "dur": 5.42,
+   "text": "Así que el zoológico de jaulas está desapareciendo. Pero el que protege animales, no.",
+   "words": [
+    {
+     "t": 45.13,
+     "e": 45.295,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.295,
+     "e": 45.515,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.515,
+     "e": 45.815,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.815,
+     "e": 46.415,
+     "w": "zoológico",
+     "a": [
+      "zoológico"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.415,
+     "e": 46.535,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.535,
+     "e": 46.895,
+     "w": "jaulas",
+     "a": [
+      "jaulas"
+     ],
+     "k": true
+    },
+    {
+     "t": 46.895,
+     "e": 47.355,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.355,
+     "e": 48.155,
+     "w": "desapareciendo.",
+     "a": [
+      "desapareciendo"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.47,
+     "e": 48.605,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.605,
+     "e": 48.725,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.725,
+     "e": 48.805,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.805,
+     "e": 49.205,
+     "w": "protege",
+     "a": [
+      "protege"
+     ],
+     "k": true
+    },
+    {
+     "t": 49.205,
+     "e": 49.585,
+     "w": "animales,",
+     "a": [
+      "animales"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.04,
+     "e": 50.285,
+     "w": "no.",
+     "a": [
+      "no"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "vs",
+      "a": {
+       "icono": "jaula",
+       "texto": "Jaulas: desaparecen",
+       "color": "rojo"
+      },
+      "b": {
+       "icono": "escudo",
+       "texto": "Protección: se queda",
+       "color": "verde",
+       "en": "protege"
+      },
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z11",
+   "sfx": [
+    [
+     "pop",
+     "irías"
+    ]
+   ],
+   "start": 50.43,
+   "dur": 2.9,
+   "text": "¿Tú irías a un zoológico hoy?",
+   "words": [
+    {
+     "t": 50.55,
+     "e": 50.665,
+     "w": "¿Tú",
+     "a": [
+      "tú"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.665,
+     "e": 50.945,
+     "w": "irías",
+     "a": [
+      "irías"
+     ],
+     "k": true
+    },
+    {
+     "t": 50.945,
+     "e": 51.125,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.125,
+     "e": 51.225,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.225,
+     "e": 51.765,
+     "w": "zoológico",
+     "a": [
+      "zoológico"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.765,
+     "e": 51.985,
+     "w": "hoy?",
+     "a": [
+      "hoy"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "comentario",
+      "en": null,
+      "anim": "late",
+      "size": 200
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Tú [irías]?",
+      "en": null,
+      "size": 130
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ],
+ "estilo": {
+  "acento": "#3ddc84",
+  "tinte": "#163a2a"
+ }
+}

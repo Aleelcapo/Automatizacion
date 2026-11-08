@@ -1,0 +1,608 @@
+{
+ "id": "ojos_claros",
+ "estilo": {
+  "acento": "#5ac8ff",
+  "tinte": "#163050"
+ },
+ "beats": [
+  {
+   "scene": "o1",
+   "text": "¿Por qué hay personas con ojos azules si casi todo el mundo los tiene café?",
+   "keys": [
+    "azules",
+    "café?"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "azules"
+    ],
+    [
+     "pop",
+     "café?"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "ojo",
+        "texto": "Azules",
+        "color": "#4aa3ff",
+        "en": "azules"
+       },
+       {
+        "nombre": "ojo",
+        "texto": "Café",
+        "color": "#9a6235",
+        "en": "café?"
+       }
+      ],
+      "en": null,
+      "size": 230,
+      "anim": "flota"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Por [qué]?",
+      "en": null,
+      "size": 120
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o2",
+   "text": "La explicación más famosa es el sol.",
+   "keys": [
+    "sol."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "sol."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "sol",
+      "en": null,
+      "anim": "gira",
+      "size": 300,
+      "color": "oro"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿El [sol]?",
+      "en": "sol.",
+      "size": 130
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o3",
+   "text": "En el norte de Europa hay menos luz y el cuerpo necesita menos pigmento para protegerse.",
+   "keys": [
+    "menos",
+    "luz",
+    "pigmento"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "pigmento"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "mapa",
+      "en": null,
+      "size": 220,
+      "color": "#4aa3ff",
+      "color2": "#2a4a6a"
+     },
+     {
+      "t": "titulo",
+      "texto": "Norte de Europa: [menos luz]",
+      "en": "menos",
+      "size": 90
+     },
+     {
+      "t": "pildora",
+      "texto": "Menos pigmento",
+      "en": "pigmento",
+      "size": 52
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o4",
+   "text": "Y eso es cierto, para la piel. Con los ojos, la historia es más loca.",
+   "keys": [
+    "piel.",
+    "loca."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "piel."
+    ],
+    [
+     "pop",
+     "loca."
+    ]
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "lista",
+        "items": [
+         {
+          "texto": "Cierto para la piel",
+          "ok": true,
+          "en": "piel."
+         }
+        ],
+        "en": null
+       }
+      ]
+     },
+     {
+      "en": "ojos,",
+      "el": [
+       {
+        "t": "icono",
+        "nombre": "pregunta",
+        "en": null,
+        "anim": "late",
+        "size": 220
+       },
+       {
+        "t": "titulo",
+        "texto": "¿Y los [ojos]?",
+        "en": null,
+        "size": 120
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o5",
+   "text": "Todas las personas con ojos azules del mundo comparten una misma mutación.",
+   "keys": [
+    "misma",
+    "mutación."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "mutación."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "adn",
+      "en": null,
+      "anim": "flota",
+      "size": 280,
+      "color": "#4aa3ff",
+      "color2": "#a78bfa"
+     },
+     {
+      "t": "titulo",
+      "texto": "[1] misma mutación",
+      "en": "mutación.",
+      "size": 110
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o6",
+   "text": "Apareció en una sola persona hace entre 6 mil y 10 mil años.",
+   "keys": [
+    "sola",
+    "persona",
+    "6",
+    "10"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "sola"
+    ],
+    [
+     "coin",
+     "años."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "persona",
+      "en": null,
+      "anim": "flota",
+      "size": 220,
+      "color": "#4aa3ff"
+     },
+     {
+      "t": "titulo",
+      "texto": "[1] sola persona",
+      "en": "sola",
+      "size": 100
+     },
+     {
+      "t": "titulo",
+      "texto": "Hace [6.000 – 10.000] años",
+      "en": "6",
+      "size": 84
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o7",
+   "text": "O sea, si tienes ojos azules, tienes un ancestro en común con todos los demás.",
+   "keys": [
+    "ancestro",
+    "común"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "ancestro"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "grupo",
+      "en": null,
+      "size": 260,
+      "color": "#4aa3ff",
+      "color2": "#2f6fa8"
+     },
+     {
+      "t": "titulo",
+      "texto": "Un [ancestro] en común",
+      "en": "ancestro",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o8",
+   "text": "Y otro dato. Los ojos azules no tienen pigmento azul.",
+   "keys": [
+    "no",
+    "pigmento"
+   ],
+   "sfx": [
+    [
+     "stamp",
+     "pigmento"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "Otro dato",
+      "en": null,
+      "size": 50
+     },
+     {
+      "t": "icono",
+      "nombre": "ojo",
+      "en": null,
+      "anim": "late",
+      "size": 260,
+      "color": "#4aa3ff"
+     },
+     {
+      "t": "sello",
+      "texto": "0 pigmento azul",
+      "en": "pigmento",
+      "color": "rojo",
+      "size": 80
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o9",
+   "text": "Tienen tan poca melanina que la luz rebota en el iris, igual que el cielo se ve azul.",
+   "keys": [
+    "melanina",
+    "rebota",
+    "cielo"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "rebota"
+    ],
+    [
+     "pop",
+     "cielo"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "ojo",
+        "texto": "Iris",
+        "color": "#4aa3ff"
+       },
+       {
+        "nombre": "nube",
+        "texto": "Cielo",
+        "color": "#9fd0ff",
+        "en": "cielo"
+       }
+      ],
+      "en": null,
+      "size": 220
+     },
+     {
+      "t": "titulo",
+      "texto": "La luz [rebota]",
+      "en": "rebota",
+      "size": 110
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o10",
+   "text": "Pero aquí viene lo raro. Se encontró un europeo de hace 7 mil años con piel oscura y ojos azules.",
+   "keys": [
+    "raro.",
+    "7",
+    "oscura",
+    "azules."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "oscura"
+    ],
+    [
+     "pop",
+     "azules."
+    ]
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "titulo",
+        "texto": "Lo [raro]…",
+        "en": null,
+        "size": 140
+       },
+       {
+        "t": "icono",
+        "nombre": "lupa",
+        "en": null,
+        "anim": "balancea",
+        "size": 220,
+        "color": "#ffffff"
+       }
+      ]
+     },
+     {
+      "en": "encontró",
+      "el": [
+       {
+        "t": "numero",
+        "valor": 7000,
+        "en": "7",
+        "prefijo": "Hace ",
+        "sufijo": " años",
+        "size": 120
+       },
+       {
+        "t": "iconos",
+        "items": [
+         {
+          "nombre": "persona",
+          "texto": "Piel oscura",
+          "color": "#6b4226",
+          "en": "oscura"
+         },
+         {
+          "nombre": "ojo",
+          "texto": "Ojos azules",
+          "color": "#4aa3ff",
+          "en": "azules."
+         }
+        ],
+        "en": null,
+        "size": 200
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o11",
+   "text": "Así que el sol no explica todo.",
+   "keys": [
+    "todo."
+   ],
+   "sfx": [
+    [
+     "stamp",
+     "todo."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "sol",
+      "en": null,
+      "anim": "gira",
+      "size": 260,
+      "color": "oro"
+     },
+     {
+      "t": "sello",
+      "texto": "No explica todo",
+      "en": "todo.",
+      "color": "rojo"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o12",
+   "text": "Puede que los mismos genes que aclaran la piel también aclaren los ojos, o que los ojos claros vean mejor con poca luz.",
+   "keys": [
+    "genes",
+    "poca",
+    "luz."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "genes"
+    ],
+    [
+     "pop",
+     "vean"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "tarjetas",
+      "items": [
+       {
+        "icono": "adn",
+        "texto": "Mismos genes: piel y ojos",
+        "color": "#4aa3ff",
+        "color2": "#a78bfa",
+        "en": "genes",
+        "size": 50
+       },
+       {
+        "icono": "ojo",
+        "texto": "Ver mejor con poca luz",
+        "color": "#4aa3ff",
+        "en": "vean",
+        "size": 50
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o13",
+   "text": "La ciencia todavía no lo resuelve.",
+   "keys": [
+    "resuelve."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "resuelve."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "pregunta",
+      "en": null,
+      "anim": "late",
+      "size": 260
+     },
+     {
+      "t": "titulo",
+      "texto": "[Sin resolver]",
+      "en": "resuelve.",
+      "size": 120
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o14",
+   "text": "¿De qué color son tus ojos?",
+   "keys": [
+    "ojos?"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "ojos?"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "ojo",
+        "color": "#4aa3ff"
+       },
+       {
+        "nombre": "ojo",
+        "color": "#9a6235"
+       },
+       {
+        "nombre": "ojo",
+        "color": "#3e9d5a"
+       }
+      ],
+      "en": null,
+      "size": 180
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Tus [ojos]?",
+      "en": null,
+      "size": 130
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ]
+}

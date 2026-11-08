@@ -1,0 +1,478 @@
+{
+ "id": "palomitas",
+ "estilo": {
+  "acento": "#ffc83d",
+  "tinte": "#3a1a1a"
+ },
+ "beats": [
+  {
+   "scene": "p1",
+   "text": "¿Por qué las palomitas del cine cuestan casi lo mismo que la entrada?",
+   "keys": [
+    "palomitas",
+    "entrada?"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "entrada?"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "palomitas",
+        "color": "rojo"
+       },
+       {
+        "nombre": "boleto",
+        "color": "#7c5cff",
+        "en": "entrada?"
+       }
+      ],
+      "en": null,
+      "size": 230
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Casi [lo mismo]?",
+      "en": "mismo",
+      "size": 110
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p2",
+   "text": "Porque de tu boleto, al cine casi no le queda nada.",
+   "keys": [
+    "boleto,",
+    "nada."
+   ],
+   "sfx": [
+    [
+     "drop",
+     "nada."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "boleto",
+      "en": null,
+      "anim": "balancea",
+      "size": 260,
+      "color": "#7c5cff"
+     },
+     {
+      "t": "titulo",
+      "texto": "Al cine le queda [casi nada]",
+      "en": "nada.",
+      "acento": "rojo",
+      "size": 92
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p3",
+   "text": "Cuando pagas la entrada, la mayor parte se la lleva el estudio de la película.",
+   "keys": [
+    "estudio"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "estudio"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "claqueta",
+      "en": null,
+      "anim": "balancea",
+      "size": 230
+     },
+     {
+      "t": "titulo",
+      "texto": "Se lo lleva el [estudio]",
+      "en": "estudio",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p4",
+   "text": "Y en la primera semana de un estreno se puede llevar hasta el 70%, o más.",
+   "keys": [
+    "70%,",
+    "más."
+   ],
+   "sfx": [
+    [
+     "drop",
+     "70%,"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "1.ª semana de estreno",
+      "en": null,
+      "size": 50
+     },
+     {
+      "t": "numero",
+      "valor": 70,
+      "en": "70%,",
+      "sufijo": "%+",
+      "size": 230,
+      "color": "rojo"
+     },
+     {
+      "t": "texto",
+      "texto": "de tu boleto, para el estudio",
+      "en": "más."
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p5",
+   "text": "Entonces, ¿de dónde gana el cine? De la dulcería.",
+   "keys": [
+    "dulcería."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "dulcería."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "¿De dónde gana?",
+      "en": null,
+      "size": 110
+     },
+     {
+      "t": "icono",
+      "nombre": "palomitas",
+      "en": "dulcería.",
+      "anim": "late",
+      "size": 280,
+      "color": "rojo"
+     },
+     {
+      "t": "titulo",
+      "texto": "La [dulcería]",
+      "en": "dulcería.",
+      "size": 120
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p6",
+   "text": "El maíz, el aceite y la sal cuestan muy poco.",
+   "keys": [
+    "muy",
+    "poco."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "maíz,"
+    ],
+    [
+     "pop",
+     "aceite"
+    ],
+    [
+     "pop",
+     "sal"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "estrella",
+        "texto": "Maíz",
+        "color": "oro",
+        "en": "maíz,"
+       },
+       {
+        "nombre": "gota",
+        "texto": "Aceite",
+        "color": "#e8c14a",
+        "en": "aceite"
+       },
+       {
+        "nombre": "arroz",
+        "texto": "Sal",
+        "color": "#9fb0c8",
+        "en": "sal"
+       }
+      ],
+      "en": null,
+      "size": 170
+     },
+     {
+      "t": "titulo",
+      "texto": "Cuestan [muy poco]",
+      "en": "poco.",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p7",
+   "text": "En una de las cadenas de cine más grandes de Estados Unidos, de cada 100 dólares en dulcería más de 80 eran ganancia.",
+   "keys": [
+    "100",
+    "80",
+    "ganancia."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "80"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "Gran cadena de cines · EE. UU.",
+      "en": null,
+      "size": 46
+     },
+     {
+      "t": "texto",
+      "texto": "De cada $100 en dulcería:",
+      "en": "100"
+     },
+     {
+      "t": "numero",
+      "valor": 80,
+      "en": "80",
+      "prefijo": "+$",
+      "size": 220,
+      "color": "verde"
+     },
+     {
+      "t": "texto",
+      "texto": "eran [ganancia]",
+      "en": "ganancia."
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p8",
+   "text": "Y lo mejor para ellos, de las palomitas el estudio no se lleva nada.",
+   "keys": [
+    "nada."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "nada."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "palomitas",
+      "en": null,
+      "anim": "late",
+      "size": 240,
+      "color": "rojo"
+     },
+     {
+      "t": "numero",
+      "valor": 0,
+      "en": "nada.",
+      "prefijo": "Estudio: ",
+      "sufijo": "%",
+      "size": 130,
+      "color": "verde"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p9",
+   "text": "Por eso la dulcería es apenas una parte de lo que vende el cine, pero puede ser la mitad de lo que gana.",
+   "keys": [
+    "apenas",
+    "mitad"
+   ],
+   "sfx": [
+    [
+     "coin",
+     "mitad"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "barras",
+      "items": [
+       {
+        "texto": "De lo que VENDE",
+        "valor": 30,
+        "sufijo": "%",
+        "color": "#9aa6b4",
+        "en": "vende"
+       },
+       {
+        "texto": "De lo que GANA",
+        "valor": 50,
+        "sufijo": "%",
+        "color": "verde",
+        "en": "mitad"
+       }
+      ],
+      "en": null,
+      "max": 60
+     },
+     {
+      "t": "texto",
+      "texto": "(aprox., grandes cadenas)",
+      "en": "gana.",
+      "size": 30
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p10",
+   "text": "Y por eso no te dejan entrar con comida de afuera.",
+   "keys": [
+    "comida",
+    "afuera."
+   ],
+   "sfx": [
+    [
+     "stamp",
+     "comida"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "candado",
+      "en": null,
+      "anim": "tiembla",
+      "size": 240,
+      "color": "rojo"
+     },
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Comida de afuera",
+        "ok": false,
+        "en": "comida"
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p11",
+   "text": "O sea, el cine en realidad es una tienda de palomitas que te pone una película mientras comes.",
+   "keys": [
+    "tienda",
+    "palomitas"
+   ],
+   "sfx": [
+    [
+     "coin",
+     "tienda"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "El cine es una [tienda de palomitas]",
+      "en": "tienda",
+      "size": 96
+     },
+     {
+      "t": "icono",
+      "nombre": "palomitas",
+      "en": null,
+      "anim": "late",
+      "size": 230,
+      "color": "rojo"
+     },
+     {
+      "t": "texto",
+      "texto": "…con una película de regalo",
+      "en": "película"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "p12",
+   "text": "¿Tú compras palomitas o las metes escondidas?",
+   "keys": [
+    "escondidas?"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "escondidas?"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "palomitas",
+      "en": null,
+      "anim": "balancea",
+      "size": 220,
+      "color": "rojo"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Compras o [escondes]?",
+      "en": null,
+      "size": 104
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ]
+}

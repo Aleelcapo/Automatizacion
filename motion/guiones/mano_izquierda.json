@@ -1,0 +1,525 @@
+{
+ "id": "mano_izquierda",
+ "estilo": {
+  "acento": "#a78bfa",
+  "tinte": "#2a2050"
+ },
+ "beats": [
+  {
+   "scene": "m1",
+   "text": "Si eres diestro, ¿cuánto te tomaría a dominar la mano izquierda?",
+   "keys": [
+    "diestro,",
+    "izquierda?"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "izquierda?"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "mano",
+        "texto": "Diestro",
+        "color": "verde"
+       },
+       {
+        "nombre": "mano",
+        "texto": "¿Izquierda?",
+        "en": "izquierda"
+       }
+      ],
+      "en": null,
+      "size": 200,
+      "anim": "flota"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Cuánto [tiempo]?",
+      "en": "cuánto",
+      "size": 110
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m2",
+   "text": "Día 1. Tu firma parece la de un niño de 5 años.",
+   "keys": [
+    "1.",
+    "niño",
+    "5"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "niño"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "Día 1",
+      "en": null,
+      "size": 56
+     },
+     {
+      "t": "icono",
+      "nombre": "pluma",
+      "en": null,
+      "anim": "tiembla",
+      "size": 240
+     },
+     {
+      "t": "titulo",
+      "texto": "Firma de [niño de 5]",
+      "en": "niño",
+      "size": 96
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m3",
+   "text": "Pero en un estudio, personas diestras practicaron dibujo con la mano izquierda durante unos 10 días, menos de 3 horas y media en total.",
+   "keys": [
+    "10",
+    "días,",
+    "3",
+    "horas"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "10"
+    ],
+    [
+     "pop",
+     "menos"
+    ]
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "pildora",
+        "texto": "Un estudio",
+        "en": null,
+        "size": 50
+       },
+       {
+        "t": "icono",
+        "nombre": "pluma",
+        "en": null,
+        "anim": "flota",
+        "size": 220
+       },
+       {
+        "t": "titulo",
+        "texto": "Dibujo con la [izquierda]",
+        "en": "izquierda",
+        "size": 88
+       }
+      ]
+     },
+     {
+      "en": "10",
+      "el": [
+       {
+        "t": "icono",
+        "nombre": "calendario",
+        "en": null,
+        "size": 200
+       },
+       {
+        "t": "numero",
+        "valor": 10,
+        "en": "10",
+        "sufijo": " días",
+        "size": 190
+       },
+       {
+        "t": "texto",
+        "texto": "Menos de [3 h 30 min] en total",
+        "en": "menos",
+        "size": 52
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m4",
+   "text": "El resultado? El 89 % mejoró en velocidad, precisión y suavidad.",
+   "keys": [
+    "89",
+    "mejoró"
+   ],
+   "sfx": [
+    [
+     "coin",
+     "89"
+    ],
+    [
+     "pop",
+     "velocidad,"
+    ],
+    [
+     "pop",
+     "precisión"
+    ],
+    [
+     "pop",
+     "suavidad."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "numero",
+      "valor": 89,
+      "en": "89",
+      "sufijo": "%",
+      "size": 230
+     },
+     {
+      "t": "texto",
+      "texto": "mejoró en:",
+      "en": "mejoró"
+     },
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Velocidad",
+        "ok": true,
+        "en": "velocidad,"
+       },
+       {
+        "texto": "Precisión",
+        "ok": true,
+        "en": "precisión"
+       },
+       {
+        "texto": "Suavidad",
+        "ok": true,
+        "en": "suavidad."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m5",
+   "text": "Y 6 meses después, la mayoría todavía conservaba la mejora.",
+   "keys": [
+    "6",
+    "meses",
+    "conservaba"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "conservaba"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "reloj",
+      "en": null,
+      "anim": "balancea",
+      "size": 230
+     },
+     {
+      "t": "titulo",
+      "texto": "[6 meses] después…",
+      "en": "6",
+      "size": 100
+     },
+     {
+      "t": "pildora",
+      "texto": "Seguían mejor",
+      "en": "conservaba",
+      "fondo": "verde",
+      "color": "#032312",
+      "size": 52
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m6",
+   "text": "Con unos 15 minutos al día, en 6 semanas ya puedes escribir legible y usar el mouse sin problema.",
+   "keys": [
+    "15",
+    "6",
+    "semanas"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "escribir"
+    ],
+    [
+     "pop",
+     "mouse"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "15 min al día",
+      "en": "15",
+      "size": 56
+     },
+     {
+      "t": "numero",
+      "valor": 6,
+      "en": "6",
+      "sufijo": " semanas",
+      "size": 170
+     },
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "pluma",
+        "texto": "Escribir",
+        "en": "escribir"
+       },
+       {
+        "nombre": "mouse",
+        "texto": "Mouse",
+        "en": "mouse"
+       }
+      ],
+      "en": null,
+      "size": 170
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m7",
+   "text": "Ahora, igual de buena que la derecha? Casi nunca.",
+   "keys": [
+    "nunca."
+   ],
+   "sfx": [
+    [
+     "stamp",
+     "nunca."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "vs",
+      "a": {
+       "icono": "mano",
+       "texto": "Derecha",
+       "color": "verde"
+      },
+      "b": {
+       "icono": "mano",
+       "texto": "Izquierda",
+       "color": "#a78bfa",
+       "en": "derecha?"
+      },
+      "en": null
+     },
+     {
+      "t": "sello",
+      "texto": "Casi nunca",
+      "en": "nunca.",
+      "color": "rojo"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m8",
+   "text": "Tu cerebro lleva toda tu vida entrenando un solo lado.",
+   "keys": [
+    "cerebro",
+    "solo",
+    "lado."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "lado."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "cerebro",
+      "en": null,
+      "anim": "late",
+      "size": 280,
+      "color": "#a78bfa",
+      "color2": "#ffc83d"
+     },
+     {
+      "t": "titulo",
+      "texto": "Toda la vida con [un solo lado]",
+      "en": "entrenando",
+      "size": 84
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m9",
+   "text": "Pero lo más loco es esto. Al entrenar la mano izquierda, tu mano derecha también mejora.",
+   "keys": [
+    "loco",
+    "derecha",
+    "mejora."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "mejora."
+    ]
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "titulo",
+        "texto": "Lo más [loco]…",
+        "en": null,
+        "size": 120
+       },
+       {
+        "t": "icono",
+        "nombre": "estrella",
+        "en": null,
+        "anim": "gira",
+        "size": 180
+       }
+      ]
+     },
+     {
+      "en": "al",
+      "el": [
+       {
+        "t": "iconos",
+        "items": [
+         {
+          "nombre": "mano",
+          "texto": "Entrenas la izquierda"
+         },
+         {
+          "nombre": "flecha",
+          "color": "#ffffff",
+          "size": 110
+         },
+         {
+          "nombre": "mano",
+          "texto": "Mejora la derecha",
+          "color": "verde",
+          "en": "mejora."
+         }
+        ],
+        "en": null,
+        "size": 170,
+        "gap": 24
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m10",
+   "text": "El cerebro comparte parte de lo que aprende.",
+   "keys": [
+    "comparte",
+    "aprende."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "comparte"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "cerebro",
+      "en": null,
+      "anim": "late",
+      "size": 280,
+      "color": "#a78bfa",
+      "color2": "verde"
+     },
+     {
+      "t": "titulo",
+      "texto": "Comparte lo que [aprende]",
+      "en": "comparte",
+      "size": 90
+     }
+    ]
+   }
+  },
+  {
+   "scene": "m11",
+   "text": "¿Te animas a probar una semana?",
+   "keys": [
+    "semana?"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "semana?"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "calendario",
+      "en": null,
+      "anim": "late",
+      "size": 220
+     },
+     {
+      "t": "titulo",
+      "texto": "¿[1 semana]?",
+      "en": null,
+      "size": 130
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ]
+}

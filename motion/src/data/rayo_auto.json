@@ -1,0 +1,1984 @@
+{
+ "id": "rayo_auto",
+ "duration": 52.54,
+ "beats": [
+  {
+   "scene": "r1",
+   "sfx": [
+    [
+     "thunder",
+     "rayo"
+    ],
+    [
+     "pop",
+     "sobrevivas,"
+    ]
+   ],
+   "start": 0.0,
+   "dur": 6.23,
+   "text": "Si te cae un rayo dentro de un auto, lo más probable es que sobrevivas, pero no por lo que crees.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.295,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.295,
+     "e": 0.415,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.415,
+     "e": 0.675,
+     "w": "cae",
+     "a": [
+      "cae"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.675,
+     "e": 0.835,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.835,
+     "e": 1.195,
+     "w": "rayo",
+     "a": [
+      "rayo"
+     ],
+     "k": true
+    },
+    {
+     "t": 1.195,
+     "e": 1.375,
+     "w": "dentro",
+     "a": [
+      "dentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.375,
+     "e": 1.655,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.655,
+     "e": 1.795,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.795,
+     "e": 2.095,
+     "w": "auto,",
+     "a": [
+      "auto"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.44,
+     "e": 2.605,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.605,
+     "e": 2.925,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.925,
+     "e": 3.305,
+     "w": "probable",
+     "a": [
+      "probable"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.305,
+     "e": 3.665,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.665,
+     "e": 3.785,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.785,
+     "e": 4.365,
+     "w": "sobrevivas,",
+     "a": [
+      "sobrevivas"
+     ],
+     "k": true
+    },
+    {
+     "t": 4.73,
+     "e": 4.895,
+     "w": "pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.895,
+     "e": 5.155,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.155,
+     "e": 5.375,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.375,
+     "e": 5.495,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.495,
+     "e": 5.615,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.615,
+     "e": 6.035,
+     "w": "crees.",
+     "a": [
+      "crees"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "rayo",
+      "en": null,
+      "anim": "tiembla",
+      "size": 200,
+      "color": "#ffe14d"
+     },
+     {
+      "t": "icono",
+      "nombre": "auto",
+      "en": null,
+      "size": 280,
+      "color": "#c9d3e3"
+     },
+     {
+      "t": "titulo",
+      "texto": "[Sobrevives]… pero no por lo que crees",
+      "en": "sobrevivas,",
+      "size": 80
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r2",
+   "sfx": [
+    [
+     "pop",
+     "llantas"
+    ]
+   ],
+   "start": 6.23,
+   "dur": 3.955,
+   "text": "Casi todos piensan que es por las llantas de goma que te aislan del suelo.",
+   "words": [
+    {
+     "t": 6.35,
+     "e": 6.545,
+     "w": "Casi",
+     "a": [
+      "casi"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.545,
+     "e": 6.905,
+     "w": "todos",
+     "a": [
+      "todos"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.905,
+     "e": 7.425,
+     "w": "piensan",
+     "a": [
+      "piensan"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.425,
+     "e": 7.585,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.585,
+     "e": 7.725,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.725,
+     "e": 7.865,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.865,
+     "e": 8.025,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.025,
+     "e": 8.325,
+     "w": "llantas",
+     "a": [
+      "llantas"
+     ],
+     "k": true
+    },
+    {
+     "t": 8.325,
+     "e": 8.525,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.525,
+     "e": 8.785,
+     "w": "goma",
+     "a": [
+      "goma"
+     ],
+     "k": true
+    },
+    {
+     "t": 8.785,
+     "e": 9.005,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.005,
+     "e": 9.145,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.145,
+     "e": 9.505,
+     "w": "aislan",
+     "a": [
+      "aislan"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.505,
+     "e": 9.665,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.665,
+     "e": 9.945,
+     "w": "suelo.",
+     "a": [
+      "suelo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "llanta",
+      "en": null,
+      "anim": "gira",
+      "size": 260
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Las [llantas] de goma?",
+      "en": "llantas",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r3",
+   "sfx": [
+    [
+     "stamp",
+     "falso."
+    ]
+   ],
+   "start": 10.185,
+   "dur": 0.705,
+   "text": "Falso.",
+   "words": [
+    {
+     "t": 10.305,
+     "e": 10.725,
+     "w": "Falso.",
+     "a": [
+      "falso"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "llanta",
+      "en": null,
+      "size": 220
+     },
+     {
+      "t": "sello",
+      "texto": "Falso",
+      "en": "falso.",
+      "color": "rojo",
+      "size": 130
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r4",
+   "sfx": [
+    [
+     "pop",
+     "kilómetros"
+    ],
+    [
+     "pop",
+     "centímetros"
+    ]
+   ],
+   "start": 10.89,
+   "dur": 5.36,
+   "text": "Un rayo puede viajar kilómetros por el aire. Unos centímetros de goma no lo van a detener.",
+   "words": [
+    {
+     "t": 11.01,
+     "e": 11.145,
+     "w": "Un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.145,
+     "e": 11.525,
+     "w": "rayo",
+     "a": [
+      "rayo"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.525,
+     "e": 11.725,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.725,
+     "e": 12.085,
+     "w": "viajar",
+     "a": [
+      "viajar"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.085,
+     "e": 12.865,
+     "w": "kilómetros",
+     "a": [
+      "kilómetros"
+     ],
+     "k": true
+    },
+    {
+     "t": 12.865,
+     "e": 13.165,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.165,
+     "e": 13.285,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.285,
+     "e": 13.485,
+     "w": "aire.",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.825,
+     "e": 14.045,
+     "w": "Unos",
+     "a": [
+      "unos"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.045,
+     "e": 14.485,
+     "w": "centímetros",
+     "a": [
+      "centímetros"
+     ],
+     "k": true
+    },
+    {
+     "t": 14.485,
+     "e": 14.685,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.685,
+     "e": 14.945,
+     "w": "goma",
+     "a": [
+      "goma"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.945,
+     "e": 15.305,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.305,
+     "e": 15.445,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.445,
+     "e": 15.605,
+     "w": "van",
+     "a": [
+      "van"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.605,
+     "e": 15.685,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.685,
+     "e": 16.045,
+     "w": "detener.",
+     "a": [
+      "detener"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "vs",
+      "a": {
+       "icono": "rayo",
+       "texto": "Kilómetros de aire",
+       "color": "#ffe14d",
+       "en": "kilómetros"
+      },
+      "b": {
+       "icono": "llanta",
+       "texto": "Centímetros de goma",
+       "color": "rojo",
+       "en": "centímetros"
+      },
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r5",
+   "sfx": [
+    [
+     "coin",
+     "carrocería"
+    ]
+   ],
+   "start": 16.25,
+   "dur": 2.71,
+   "text": "Lo que te salva es la carrocería de metal.",
+   "words": [
+    {
+     "t": 16.37,
+     "e": 16.465,
+     "w": "Lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.465,
+     "e": 16.565,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.565,
+     "e": 16.705,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.705,
+     "e": 17.105,
+     "w": "salva",
+     "a": [
+      "salva"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.105,
+     "e": 17.405,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.405,
+     "e": 17.525,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.525,
+     "e": 18.205,
+     "w": "carrocería",
+     "a": [
+      "carrocería"
+     ],
+     "k": true
+    },
+    {
+     "t": 18.205,
+     "e": 18.345,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.345,
+     "e": 18.625,
+     "w": "metal.",
+     "a": [
+      "metal"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "auto",
+      "en": null,
+      "anim": "late",
+      "size": 300,
+      "color": "#c9d3e3"
+     },
+     {
+      "t": "titulo",
+      "texto": "La [carrocería] de metal",
+      "en": "carrocería",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r6",
+   "sfx": [
+    [
+     "pop",
+     "faraday."
+    ]
+   ],
+   "start": 18.96,
+   "dur": 2.52,
+   "text": "El auto funciona como una jaula de Faraday.",
+   "words": [
+    {
+     "t": 19.08,
+     "e": 19.205,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.205,
+     "e": 19.365,
+     "w": "auto",
+     "a": [
+      "auto"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.365,
+     "e": 19.805,
+     "w": "funciona",
+     "a": [
+      "funciona"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.805,
+     "e": 20.105,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.105,
+     "e": 20.325,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.325,
+     "e": 20.685,
+     "w": "jaula",
+     "a": [
+      "jaula"
+     ],
+     "k": true
+    },
+    {
+     "t": 20.685,
+     "e": 20.845,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.845,
+     "e": 21.6,
+     "w": "Faraday.",
+     "a": [
+      "faraday"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "jaula",
+      "en": null,
+      "size": 260,
+      "color": "#ffe14d"
+     },
+     {
+      "t": "titulo",
+      "texto": "Jaula de [Faraday]",
+      "en": "faraday.",
+      "size": 110
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r7",
+   "sfx": [
+    [
+     "thunder",
+     "electricidad"
+    ],
+    [
+     "pop",
+     "suelo."
+    ]
+   ],
+   "start": 21.48,
+   "dur": 4.66,
+   "text": "La electricidad corre por afuera del metal, rodea el auto y se va al suelo.",
+   "words": [
+    {
+     "t": 21.6,
+     "e": 21.695,
+     "w": "La",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.695,
+     "e": 22.275,
+     "w": "electricidad",
+     "a": [
+      "electricidad"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.275,
+     "e": 22.675,
+     "w": "corre",
+     "a": [
+      "corre"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.675,
+     "e": 22.895,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.895,
+     "e": 23.275,
+     "w": "afuera",
+     "a": [
+      "afuera"
+     ],
+     "k": true
+    },
+    {
+     "t": 23.275,
+     "e": 23.455,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.455,
+     "e": 23.735,
+     "w": "metal,",
+     "a": [
+      "metal"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.155,
+     "e": 24.595,
+     "w": "rodea",
+     "a": [
+      "rodea"
+     ],
+     "k": true
+    },
+    {
+     "t": 24.595,
+     "e": 24.735,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.735,
+     "e": 24.995,
+     "w": "auto",
+     "a": [
+      "auto"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.995,
+     "e": 25.325,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.325,
+     "e": 25.425,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.425,
+     "e": 25.565,
+     "w": "va",
+     "a": [
+      "va"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.565,
+     "e": 25.685,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.685,
+     "e": 25.945,
+     "w": "suelo.",
+     "a": [
+      "suelo"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "rayo",
+        "color": "#ffe14d"
+       },
+       {
+        "nombre": "auto",
+        "color": "#c9d3e3",
+        "en": "rodea"
+       },
+       {
+        "nombre": "flecha",
+        "color": "#ffe14d",
+        "size": 110,
+        "en": "suelo."
+       }
+      ],
+      "en": null,
+      "size": 190,
+      "gap": 20
+     },
+     {
+      "t": "pasos",
+      "items": [
+       {
+        "texto": "Corre por [afuera]",
+        "en": "afuera"
+       },
+       {
+        "texto": "Rodea el auto",
+        "en": "rodea"
+       },
+       {
+        "texto": "Se va al [suelo]",
+        "en": "suelo."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r8",
+   "sfx": [
+    [
+     "coin",
+     "protegido."
+    ]
+   ],
+   "start": 26.14,
+   "dur": 2.3,
+   "text": "Tú, adentro, quedas protegido.",
+   "words": [
+    {
+     "t": 26.26,
+     "e": 26.455,
+     "w": "Tú,",
+     "a": [
+      "tú"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.745,
+     "e": 27.245,
+     "w": "adentro,",
+     "a": [
+      "adentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.245,
+     "e": 27.725,
+     "w": "quedas",
+     "a": [
+      "quedas"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.725,
+     "e": 28.56,
+     "w": "protegido.",
+     "a": [
+      "protegido"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "escudo",
+      "en": null,
+      "anim": "late",
+      "size": 280,
+      "color": "verde"
+     },
+     {
+      "t": "titulo",
+      "texto": "[Protegido]",
+      "en": "protegido.",
+      "size": 130
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r9",
+   "sfx": [
+    [
+     "pop",
+     "puerta"
+    ],
+    [
+     "pop",
+     "volante."
+    ]
+   ],
+   "start": 28.44,
+   "dur": 4.7,
+   "text": "Pero hay condiciones. No toques las partes de metal de la puerta ni del volante.",
+   "words": [
+    {
+     "t": 28.56,
+     "e": 28.685,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.685,
+     "e": 28.845,
+     "w": "hay",
+     "a": [
+      "hay"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.845,
+     "e": 29.285,
+     "w": "condiciones.",
+     "a": [
+      "condiciones"
+     ],
+     "k": true
+    },
+    {
+     "t": 29.82,
+     "e": 30.065,
+     "w": "No",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.065,
+     "e": 30.485,
+     "w": "toques",
+     "a": [
+      "toques"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.485,
+     "e": 30.625,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.625,
+     "e": 30.945,
+     "w": "partes",
+     "a": [
+      "partes"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.945,
+     "e": 31.125,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.125,
+     "e": 31.385,
+     "w": "metal",
+     "a": [
+      "metal"
+     ],
+     "k": true
+    },
+    {
+     "t": 31.385,
+     "e": 31.525,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.525,
+     "e": 31.625,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.625,
+     "e": 31.945,
+     "w": "puerta",
+     "a": [
+      "puerta"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.945,
+     "e": 32.305,
+     "w": "ni",
+     "a": [
+      "ni"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.305,
+     "e": 32.485,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.485,
+     "e": 32.945,
+     "w": "volante.",
+     "a": [
+      "volante"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "Condiciones",
+      "en": null,
+      "size": 54
+     },
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Metal de la puerta",
+        "ok": false,
+        "en": "puerta"
+       },
+       {
+        "texto": "El volante",
+        "ok": false,
+        "en": "volante."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r10",
+   "sfx": [
+    [
+     "pop",
+     "convertibles,"
+    ],
+    [
+     "pop",
+     "fibra"
+    ],
+    [
+     "pop",
+     "golf."
+    ]
+   ],
+   "start": 33.14,
+   "dur": 4.88,
+   "text": "Y esto no funciona en convertibles, autos de fibra de vidrio ni carritos de golf.",
+   "words": [
+    {
+     "t": 33.26,
+     "e": 33.375,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.375,
+     "e": 33.635,
+     "w": "esto",
+     "a": [
+      "esto"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.635,
+     "e": 33.955,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.955,
+     "e": 34.355,
+     "w": "funciona",
+     "a": [
+      "funciona"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.355,
+     "e": 34.555,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.555,
+     "e": 35.235,
+     "w": "convertibles,",
+     "a": [
+      "convertibles"
+     ],
+     "k": true
+    },
+    {
+     "t": 35.555,
+     "e": 35.855,
+     "w": "autos",
+     "a": [
+      "autos"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.855,
+     "e": 35.975,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.975,
+     "e": 36.275,
+     "w": "fibra",
+     "a": [
+      "fibra"
+     ],
+     "k": true
+    },
+    {
+     "t": 36.275,
+     "e": 36.395,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.395,
+     "e": 36.755,
+     "w": "vidrio",
+     "a": [
+      "vidrio"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.755,
+     "e": 37.075,
+     "w": "ni",
+     "a": [
+      "ni"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.075,
+     "e": 37.475,
+     "w": "carritos",
+     "a": [
+      "carritos"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.475,
+     "e": 37.635,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.635,
+     "e": 37.855,
+     "w": "golf.",
+     "a": [
+      "golf"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "[No] funciona en:",
+      "en": null,
+      "size": 96,
+      "acento": "rojo"
+     },
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Convertibles",
+        "ok": false,
+        "en": "convertibles,"
+       },
+       {
+        "texto": "Fibra de vidrio",
+        "ok": false,
+        "en": "fibra"
+       },
+       {
+        "texto": "Carritos de golf",
+        "ok": false,
+        "en": "golf."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r11",
+   "sfx": [
+    [
+     "pop",
+     "antena,"
+    ],
+    [
+     "pop",
+     "sistema"
+    ],
+    [
+     "pop",
+     "llantas"
+    ]
+   ],
+   "start": 38.02,
+   "dur": 5.685,
+   "text": "Eso sí, el auto puede terminar con la antena, el sistema eléctrico o hasta las llantas dañadas.",
+   "words": [
+    {
+     "t": 38.14,
+     "e": 38.335,
+     "w": "Eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.335,
+     "e": 38.535,
+     "w": "sí,",
+     "a": [
+      "sí"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.805,
+     "e": 38.905,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.905,
+     "e": 39.125,
+     "w": "auto",
+     "a": [
+      "auto"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.125,
+     "e": 39.385,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.385,
+     "e": 39.805,
+     "w": "terminar",
+     "a": [
+      "terminar"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.805,
+     "e": 40.025,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.025,
+     "e": 40.165,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.165,
+     "e": 40.665,
+     "w": "antena,",
+     "a": [
+      "antena"
+     ],
+     "k": true
+    },
+    {
+     "t": 40.885,
+     "e": 40.925,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.925,
+     "e": 41.265,
+     "w": "sistema",
+     "a": [
+      "sistema"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.265,
+     "e": 41.825,
+     "w": "eléctrico",
+     "a": [
+      "eléctrico"
+     ],
+     "k": true
+    },
+    {
+     "t": 41.825,
+     "e": 42.105,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.105,
+     "e": 42.325,
+     "w": "hasta",
+     "a": [
+      "hasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.325,
+     "e": 42.505,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.505,
+     "e": 42.825,
+     "w": "llantas",
+     "a": [
+      "llantas"
+     ],
+     "k": true
+    },
+    {
+     "t": 42.825,
+     "e": 43.38,
+     "w": "dañadas.",
+     "a": [
+      "dañadas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "auto",
+      "en": null,
+      "anim": "tiembla",
+      "size": 240,
+      "color": "#c9d3e3"
+     },
+     {
+      "t": "tarjetas",
+      "items": [
+       {
+        "icono": "rayo",
+        "texto": "Antena",
+        "color": "rojo",
+        "en": "antena,",
+        "size": 50
+       },
+       {
+        "icono": "alerta",
+        "texto": "Sistema eléctrico",
+        "color": "rojo",
+        "en": "sistema",
+        "size": 50
+       },
+       {
+        "icono": "llanta",
+        "texto": "Llantas",
+        "color": "rojo",
+        "en": "llantas",
+        "size": 50
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r12",
+   "sfx": [
+    [
+     "thunder",
+     "tormenta,"
+    ],
+    [
+     "coin",
+     "edificio."
+    ]
+   ],
+   "start": 43.705,
+   "dur": 4.585,
+   "text": "Y aún así, durante una tormenta, lo más seguro sigue siendo un edificio.",
+   "words": [
+    {
+     "t": 43.825,
+     "e": 43.885,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.885,
+     "e": 43.985,
+     "w": "aún",
+     "a": [
+      "aún"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.985,
+     "e": 44.285,
+     "w": "así,",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.645,
+     "e": 44.805,
+     "w": "durante",
+     "a": [
+      "durante"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.805,
+     "e": 45.045,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.045,
+     "e": 45.645,
+     "w": "tormenta,",
+     "a": [
+      "tormenta"
+     ],
+     "k": true
+    },
+    {
+     "t": 45.945,
+     "e": 46.025,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.025,
+     "e": 46.285,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.285,
+     "e": 46.685,
+     "w": "seguro",
+     "a": [
+      "seguro"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.685,
+     "e": 47.085,
+     "w": "sigue",
+     "a": [
+      "sigue"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.085,
+     "e": 47.445,
+     "w": "siendo",
+     "a": [
+      "siendo"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.445,
+     "e": 47.605,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.605,
+     "e": 48.41,
+     "w": "edificio.",
+     "a": [
+      "edificio"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "nube",
+      "en": null,
+      "size": 200,
+      "color": "#6b7a99"
+     },
+     {
+      "t": "icono",
+      "nombre": "edificio",
+      "en": "edificio.",
+      "anim": "late",
+      "size": 260,
+      "color": "#6b8bd6"
+     },
+     {
+      "t": "titulo",
+      "texto": "Lo más seguro: un [edificio]",
+      "en": "edificio.",
+      "size": 92
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r13",
+   "sfx": [
+    [
+     "pop",
+     "esto?"
+    ]
+   ],
+   "start": 48.29,
+   "dur": 4.25,
+   "text": "¿Sabías esto? O también pensabas lo de las llantas.",
+   "words": [
+    {
+     "t": 48.41,
+     "e": 48.725,
+     "w": "¿Sabías",
+     "a": [
+      "sabías"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.725,
+     "e": 49.065,
+     "w": "esto?",
+     "a": [
+      "esto"
+     ],
+     "k": true
+    },
+    {
+     "t": 49.465,
+     "e": 49.505,
+     "w": "O",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.505,
+     "e": 49.825,
+     "w": "también",
+     "a": [
+      "también"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.825,
+     "e": 50.365,
+     "w": "pensabas",
+     "a": [
+      "pensabas"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.365,
+     "e": 50.485,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.485,
+     "e": 50.605,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.605,
+     "e": 50.725,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.725,
+     "e": 51.025,
+     "w": "llantas.",
+     "a": [
+      "llantas"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "rayo",
+      "en": null,
+      "anim": "tiembla",
+      "size": 200,
+      "color": "#ffe14d"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Sabías [esto]?",
+      "en": null,
+      "size": 120
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ],
+ "estilo": {
+  "acento": "#ffe14d",
+  "tinte": "#1a2240"
+ }
+}

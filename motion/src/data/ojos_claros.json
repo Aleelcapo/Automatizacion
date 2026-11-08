@@ -1,0 +1,2253 @@
+{
+ "id": "ojos_claros",
+ "duration": 60.67,
+ "beats": [
+  {
+   "scene": "o1",
+   "sfx": [
+    [
+     "pop",
+     "azules"
+    ],
+    [
+     "pop",
+     "café?"
+    ]
+   ],
+   "start": 0.0,
+   "dur": 4.58,
+   "text": "¿Por qué hay personas con ojos azules si casi todo el mundo los tiene café?",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.235,
+     "w": "¿Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.235,
+     "e": 0.395,
+     "w": "qué",
+     "a": [
+      "qué"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.395,
+     "e": 0.515,
+     "w": "hay",
+     "a": [
+      "hay"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.515,
+     "e": 0.895,
+     "w": "personas",
+     "a": [
+      "personas"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.895,
+     "e": 1.215,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.215,
+     "e": 1.395,
+     "w": "ojos",
+     "a": [
+      "ojos"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.395,
+     "e": 1.855,
+     "w": "azules",
+     "a": [
+      "azules"
+     ],
+     "k": true
+    },
+    {
+     "t": 1.855,
+     "e": 2.535,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.535,
+     "e": 2.815,
+     "w": "casi",
+     "a": [
+      "casi"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.815,
+     "e": 3.195,
+     "w": "todo",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.195,
+     "e": 3.415,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.415,
+     "e": 3.575,
+     "w": "mundo",
+     "a": [
+      "mundo"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.575,
+     "e": 3.775,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.775,
+     "e": 3.975,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.975,
+     "e": 4.255,
+     "w": "café?",
+     "a": [
+      "café"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "ojo",
+        "texto": "Azules",
+        "color": "#4aa3ff",
+        "en": "azules"
+       },
+       {
+        "nombre": "ojo",
+        "texto": "Café",
+        "color": "#9a6235",
+        "en": "café?"
+       }
+      ],
+      "en": null,
+      "size": 230,
+      "anim": "flota"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Por [qué]?",
+      "en": null,
+      "size": 120
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o2",
+   "sfx": [
+    [
+     "pop",
+     "sol."
+    ]
+   ],
+   "start": 4.58,
+   "dur": 2.545,
+   "text": "La explicación más famosa es el sol.",
+   "words": [
+    {
+     "t": 4.7,
+     "e": 4.815,
+     "w": "La",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.815,
+     "e": 5.355,
+     "w": "explicación",
+     "a": [
+      "explicación"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.355,
+     "e": 5.655,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.655,
+     "e": 6.155,
+     "w": "famosa",
+     "a": [
+      "famosa"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.155,
+     "e": 6.515,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.515,
+     "e": 6.655,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.655,
+     "e": 6.895,
+     "w": "sol.",
+     "a": [
+      "sol"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "sol",
+      "en": null,
+      "anim": "gira",
+      "size": 300,
+      "color": "oro"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿El [sol]?",
+      "en": "sol.",
+      "size": 130
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o3",
+   "sfx": [
+    [
+     "pop",
+     "pigmento"
+    ]
+   ],
+   "start": 7.125,
+   "dur": 5.355,
+   "text": "En el norte de Europa hay menos luz y el cuerpo necesita menos pigmento para protegerse.",
+   "words": [
+    {
+     "t": 7.245,
+     "e": 7.365,
+     "w": "En",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.365,
+     "e": 7.505,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.505,
+     "e": 7.705,
+     "w": "norte",
+     "a": [
+      "norte"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.705,
+     "e": 7.865,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.865,
+     "e": 8.225,
+     "w": "Europa",
+     "a": [
+      "europa"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.225,
+     "e": 8.565,
+     "w": "hay",
+     "a": [
+      "hay"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.565,
+     "e": 8.905,
+     "w": "menos",
+     "a": [
+      "menos"
+     ],
+     "k": true
+    },
+    {
+     "t": 8.905,
+     "e": 9.205,
+     "w": "luz",
+     "a": [
+      "luz"
+     ],
+     "k": true
+    },
+    {
+     "t": 9.205,
+     "e": 9.575,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.575,
+     "e": 9.675,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.675,
+     "e": 9.995,
+     "w": "cuerpo",
+     "a": [
+      "cuerpo"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.995,
+     "e": 10.495,
+     "w": "necesita",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.495,
+     "e": 10.895,
+     "w": "menos",
+     "a": [
+      "menos"
+     ],
+     "k": true
+    },
+    {
+     "t": 10.895,
+     "e": 11.515,
+     "w": "pigmento",
+     "a": [
+      "pigmento"
+     ],
+     "k": true
+    },
+    {
+     "t": 11.515,
+     "e": 11.675,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.675,
+     "e": 12.335,
+     "w": "protegerse.",
+     "a": [
+      "protegerse"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "mapa",
+      "en": null,
+      "size": 220,
+      "color": "#4aa3ff",
+      "color2": "#2a4a6a"
+     },
+     {
+      "t": "titulo",
+      "texto": "Norte de Europa: [menos luz]",
+      "en": "menos",
+      "size": 90
+     },
+     {
+      "t": "pildora",
+      "texto": "Menos pigmento",
+      "en": "pigmento",
+      "size": 52
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o4",
+   "sfx": [
+    [
+     "pop",
+     "piel."
+    ],
+    [
+     "pop",
+     "loca."
+    ]
+   ],
+   "start": 12.48,
+   "dur": 4.55,
+   "text": "Y eso es cierto, para la piel. Con los ojos, la historia es más loca.",
+   "words": [
+    {
+     "t": 12.6,
+     "e": 12.725,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.725,
+     "e": 12.905,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.905,
+     "e": 13.045,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.045,
+     "e": 13.405,
+     "w": "cierto,",
+     "a": [
+      "cierto"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.64,
+     "e": 13.785,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.785,
+     "e": 13.945,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.945,
+     "e": 14.205,
+     "w": "piel.",
+     "a": [
+      "piel"
+     ],
+     "k": true
+    },
+    {
+     "t": 14.57,
+     "e": 14.675,
+     "w": "Con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.675,
+     "e": 14.855,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.855,
+     "e": 15.155,
+     "w": "ojos,",
+     "a": [
+      "ojos"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.495,
+     "e": 15.635,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.635,
+     "e": 15.935,
+     "w": "historia",
+     "a": [
+      "historia"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.935,
+     "e": 16.175,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.175,
+     "e": 16.455,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.455,
+     "e": 16.815,
+     "w": "loca.",
+     "a": [
+      "loca"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "lista",
+        "items": [
+         {
+          "texto": "Cierto para la piel",
+          "ok": true,
+          "en": "piel."
+         }
+        ],
+        "en": null
+       }
+      ]
+     },
+     {
+      "en": "ojos,",
+      "el": [
+       {
+        "t": "icono",
+        "nombre": "pregunta",
+        "en": null,
+        "anim": "late",
+        "size": 220
+       },
+       {
+        "t": "titulo",
+        "texto": "¿Y los [ojos]?",
+        "en": null,
+        "size": 120
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o5",
+   "sfx": [
+    [
+     "pop",
+     "mutación."
+    ]
+   ],
+   "start": 17.03,
+   "dur": 4.67,
+   "text": "Todas las personas con ojos azules del mundo comparten una misma mutación.",
+   "words": [
+    {
+     "t": 17.15,
+     "e": 17.435,
+     "w": "Todas",
+     "a": [
+      "todas"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.435,
+     "e": 17.595,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.595,
+     "e": 18.015,
+     "w": "personas",
+     "a": [
+      "personas"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.015,
+     "e": 18.275,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.275,
+     "e": 18.475,
+     "w": "ojos",
+     "a": [
+      "ojos"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.475,
+     "e": 18.855,
+     "w": "azules",
+     "a": [
+      "azules"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.855,
+     "e": 19.075,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.075,
+     "e": 19.415,
+     "w": "mundo",
+     "a": [
+      "mundo"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.415,
+     "e": 20.095,
+     "w": "comparten",
+     "a": [
+      "comparten"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.095,
+     "e": 20.475,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.475,
+     "e": 20.855,
+     "w": "misma",
+     "a": [
+      "misma"
+     ],
+     "k": true
+    },
+    {
+     "t": 20.855,
+     "e": 21.455,
+     "w": "mutación.",
+     "a": [
+      "mutación"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "adn",
+      "en": null,
+      "anim": "flota",
+      "size": 280,
+      "color": "#4aa3ff",
+      "color2": "#a78bfa"
+     },
+     {
+      "t": "titulo",
+      "texto": "[1] misma mutación",
+      "en": "mutación.",
+      "size": 110
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o6",
+   "sfx": [
+    [
+     "pop",
+     "sola"
+    ],
+    [
+     "coin",
+     "años."
+    ]
+   ],
+   "start": 21.7,
+   "dur": 4.59,
+   "text": "Apareció en una sola persona hace entre 6 mil y 10 mil años.",
+   "words": [
+    {
+     "t": 21.82,
+     "e": 22.335,
+     "w": "Apareció",
+     "a": [
+      "apareció"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.335,
+     "e": 22.595,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.595,
+     "e": 22.915,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.915,
+     "e": 23.155,
+     "w": "sola",
+     "a": [
+      "sola"
+     ],
+     "k": true
+    },
+    {
+     "t": 23.155,
+     "e": 23.755,
+     "w": "persona",
+     "a": [
+      "persona"
+     ],
+     "k": true
+    },
+    {
+     "t": 23.755,
+     "e": 24.075,
+     "w": "hace",
+     "a": [
+      "hace"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.075,
+     "e": 24.375,
+     "w": "entre",
+     "a": [
+      "entre"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.375,
+     "e": 24.715,
+     "w": "6",
+     "a": [
+      "6"
+     ],
+     "k": true
+    },
+    {
+     "t": 24.715,
+     "e": 24.935,
+     "w": "mil",
+     "a": [
+      "mil"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.935,
+     "e": 25.195,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.195,
+     "e": 25.395,
+     "w": "10",
+     "a": [
+      "10"
+     ],
+     "k": true
+    },
+    {
+     "t": 25.395,
+     "e": 25.655,
+     "w": "mil",
+     "a": [
+      "mil"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.655,
+     "e": 26.015,
+     "w": "años.",
+     "a": [
+      "años"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "persona",
+      "en": null,
+      "anim": "flota",
+      "size": 220,
+      "color": "#4aa3ff"
+     },
+     {
+      "t": "titulo",
+      "texto": "[1] sola persona",
+      "en": "sola",
+      "size": 100
+     },
+     {
+      "t": "titulo",
+      "texto": "Hace [6.000 – 10.000] años",
+      "en": "6",
+      "size": 84
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o7",
+   "sfx": [
+    [
+     "pop",
+     "ancestro"
+    ]
+   ],
+   "start": 26.29,
+   "dur": 4.9,
+   "text": "O sea, si tienes ojos azules, tienes un ancestro en común con todos los demás.",
+   "words": [
+    {
+     "t": 26.41,
+     "e": 26.515,
+     "w": "O",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.515,
+     "e": 26.735,
+     "w": "sea,",
+     "a": [
+      "sea"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.985,
+     "e": 27.125,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.125,
+     "e": 27.365,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.365,
+     "e": 27.565,
+     "w": "ojos",
+     "a": [
+      "ojos"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.565,
+     "e": 28.005,
+     "w": "azules,",
+     "a": [
+      "azules"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.41,
+     "e": 28.615,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.615,
+     "e": 28.795,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.795,
+     "e": 29.255,
+     "w": "ancestro",
+     "a": [
+      "ancestro"
+     ],
+     "k": true
+    },
+    {
+     "t": 29.255,
+     "e": 29.355,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.355,
+     "e": 29.615,
+     "w": "común",
+     "a": [
+      "común"
+     ],
+     "k": true
+    },
+    {
+     "t": 29.615,
+     "e": 29.895,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.895,
+     "e": 30.335,
+     "w": "todos",
+     "a": [
+      "todos"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.335,
+     "e": 30.555,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.555,
+     "e": 30.835,
+     "w": "demás.",
+     "a": [
+      "demás"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "grupo",
+      "en": null,
+      "size": 260,
+      "color": "#4aa3ff",
+      "color2": "#2f6fa8"
+     },
+     {
+      "t": "titulo",
+      "texto": "Un [ancestro] en común",
+      "en": "ancestro",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o8",
+   "sfx": [
+    [
+     "stamp",
+     "pigmento"
+    ]
+   ],
+   "start": 31.19,
+   "dur": 3.655,
+   "text": "Y otro dato. Los ojos azules no tienen pigmento azul.",
+   "words": [
+    {
+     "t": 31.31,
+     "e": 31.425,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.425,
+     "e": 31.625,
+     "w": "otro",
+     "a": [
+      "otro"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.625,
+     "e": 31.905,
+     "w": "dato.",
+     "a": [
+      "dato"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.275,
+     "e": 32.395,
+     "w": "Los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.395,
+     "e": 32.615,
+     "w": "ojos",
+     "a": [
+      "ojos"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.615,
+     "e": 33.035,
+     "w": "azules",
+     "a": [
+      "azules"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.035,
+     "e": 33.475,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": true
+    },
+    {
+     "t": 33.475,
+     "e": 33.855,
+     "w": "tienen",
+     "a": [
+      "tienen"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.855,
+     "e": 34.375,
+     "w": "pigmento",
+     "a": [
+      "pigmento"
+     ],
+     "k": true
+    },
+    {
+     "t": 34.375,
+     "e": 34.615,
+     "w": "azul.",
+     "a": [
+      "azul"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "Otro dato",
+      "en": null,
+      "size": 50
+     },
+     {
+      "t": "icono",
+      "nombre": "ojo",
+      "en": null,
+      "anim": "late",
+      "size": 260,
+      "color": "#4aa3ff"
+     },
+     {
+      "t": "sello",
+      "texto": "0 pigmento azul",
+      "en": "pigmento",
+      "color": "rojo",
+      "size": 80
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o9",
+   "sfx": [
+    [
+     "pop",
+     "rebota"
+    ],
+    [
+     "pop",
+     "cielo"
+    ]
+   ],
+   "start": 34.845,
+   "dur": 5.085,
+   "text": "Tienen tan poca melanina que la luz rebota en el iris, igual que el cielo se ve azul.",
+   "words": [
+    {
+     "t": 34.965,
+     "e": 35.165,
+     "w": "Tienen",
+     "a": [
+      "tienen"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.165,
+     "e": 35.505,
+     "w": "tan",
+     "a": [
+      "tan"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.505,
+     "e": 35.845,
+     "w": "poca",
+     "a": [
+      "poca"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.845,
+     "e": 36.345,
+     "w": "melanina",
+     "a": [
+      "melanina"
+     ],
+     "k": true
+    },
+    {
+     "t": 36.345,
+     "e": 36.625,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.625,
+     "e": 36.765,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.765,
+     "e": 36.965,
+     "w": "luz",
+     "a": [
+      "luz"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.965,
+     "e": 37.525,
+     "w": "rebota",
+     "a": [
+      "rebota"
+     ],
+     "k": true
+    },
+    {
+     "t": 37.525,
+     "e": 37.685,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.685,
+     "e": 37.785,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.785,
+     "e": 38.185,
+     "w": "iris,",
+     "a": [
+      "iris"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.36,
+     "e": 38.575,
+     "w": "igual",
+     "a": [
+      "igual"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.575,
+     "e": 38.775,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.775,
+     "e": 38.895,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.895,
+     "e": 39.115,
+     "w": "cielo",
+     "a": [
+      "cielo"
+     ],
+     "k": true
+    },
+    {
+     "t": 39.115,
+     "e": 39.315,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.315,
+     "e": 39.415,
+     "w": "ve",
+     "a": [
+      "ve"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.415,
+     "e": 39.735,
+     "w": "azul.",
+     "a": [
+      "azul"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "ojo",
+        "texto": "Iris",
+        "color": "#4aa3ff"
+       },
+       {
+        "nombre": "nube",
+        "texto": "Cielo",
+        "color": "#9fd0ff",
+        "en": "cielo"
+       }
+      ],
+      "en": null,
+      "size": 220
+     },
+     {
+      "t": "titulo",
+      "texto": "La luz [rebota]",
+      "en": "rebota",
+      "size": 110
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o10",
+   "sfx": [
+    [
+     "pop",
+     "oscura"
+    ],
+    [
+     "pop",
+     "azules."
+    ]
+   ],
+   "start": 39.93,
+   "dur": 6.66,
+   "text": "Pero aquí viene lo raro. Se encontró un europeo de hace 7 mil años con piel oscura y ojos azules.",
+   "words": [
+    {
+     "t": 40.05,
+     "e": 40.195,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.195,
+     "e": 40.535,
+     "w": "aquí",
+     "a": [
+      "aquí"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.535,
+     "e": 40.815,
+     "w": "viene",
+     "a": [
+      "viene"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.815,
+     "e": 40.975,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.975,
+     "e": 41.295,
+     "w": "raro.",
+     "a": [
+      "raro"
+     ],
+     "k": true
+    },
+    {
+     "t": 41.55,
+     "e": 41.695,
+     "w": "Se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.695,
+     "e": 42.095,
+     "w": "encontró",
+     "a": [
+      "encontró"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.095,
+     "e": 42.255,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.255,
+     "e": 42.815,
+     "w": "europeo",
+     "a": [
+      "europeo"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.815,
+     "e": 42.915,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.915,
+     "e": 43.095,
+     "w": "hace",
+     "a": [
+      "hace"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.095,
+     "e": 43.475,
+     "w": "7",
+     "a": [
+      "7"
+     ],
+     "k": true
+    },
+    {
+     "t": 43.475,
+     "e": 43.755,
+     "w": "mil",
+     "a": [
+      "mil"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.755,
+     "e": 44.155,
+     "w": "años",
+     "a": [
+      "años"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.155,
+     "e": 44.495,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.495,
+     "e": 44.775,
+     "w": "piel",
+     "a": [
+      "piel"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.775,
+     "e": 45.255,
+     "w": "oscura",
+     "a": [
+      "oscura"
+     ],
+     "k": true
+    },
+    {
+     "t": 45.255,
+     "e": 45.555,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.555,
+     "e": 45.795,
+     "w": "ojos",
+     "a": [
+      "ojos"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.795,
+     "e": 46.215,
+     "w": "azules.",
+     "a": [
+      "azules"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "titulo",
+        "texto": "Lo [raro]…",
+        "en": null,
+        "size": 140
+       },
+       {
+        "t": "icono",
+        "nombre": "lupa",
+        "en": null,
+        "anim": "balancea",
+        "size": 220,
+        "color": "#ffffff"
+       }
+      ]
+     },
+     {
+      "en": "encontró",
+      "el": [
+       {
+        "t": "numero",
+        "valor": 7000,
+        "en": "7",
+        "prefijo": "Hace ",
+        "sufijo": " años",
+        "size": 120
+       },
+       {
+        "t": "iconos",
+        "items": [
+         {
+          "nombre": "persona",
+          "texto": "Piel oscura",
+          "color": "#6b4226",
+          "en": "oscura"
+         },
+         {
+          "nombre": "ojo",
+          "texto": "Ojos azules",
+          "color": "#4aa3ff",
+          "en": "azules."
+         }
+        ],
+        "en": null,
+        "size": 200
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o11",
+   "sfx": [
+    [
+     "stamp",
+     "todo."
+    ]
+   ],
+   "start": 46.59,
+   "dur": 2.1,
+   "text": "Así que el sol no explica todo.",
+   "words": [
+    {
+     "t": 46.71,
+     "e": 46.905,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.905,
+     "e": 47.085,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.085,
+     "e": 47.225,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.225,
+     "e": 47.405,
+     "w": "sol",
+     "a": [
+      "sol"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.405,
+     "e": 47.685,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.685,
+     "e": 48.185,
+     "w": "explica",
+     "a": [
+      "explica"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.185,
+     "e": 48.485,
+     "w": "todo.",
+     "a": [
+      "todo"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "sol",
+      "en": null,
+      "anim": "gira",
+      "size": 260,
+      "color": "oro"
+     },
+     {
+      "t": "sello",
+      "texto": "No explica todo",
+      "en": "todo.",
+      "color": "rojo"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o12",
+   "sfx": [
+    [
+     "pop",
+     "genes"
+    ],
+    [
+     "pop",
+     "vean"
+    ]
+   ],
+   "start": 48.69,
+   "dur": 6.915,
+   "text": "Puede que los mismos genes que aclaran la piel también aclaren los ojos, o que los ojos claros vean mejor con poca luz.",
+   "words": [
+    {
+     "t": 48.81,
+     "e": 49.015,
+     "w": "Puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.015,
+     "e": 49.155,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.155,
+     "e": 49.295,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.295,
+     "e": 49.635,
+     "w": "mismos",
+     "a": [
+      "mismos"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.635,
+     "e": 50.015,
+     "w": "genes",
+     "a": [
+      "genes"
+     ],
+     "k": true
+    },
+    {
+     "t": 50.015,
+     "e": 50.255,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.255,
+     "e": 50.635,
+     "w": "aclaran",
+     "a": [
+      "aclaran"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.635,
+     "e": 50.755,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.755,
+     "e": 51.015,
+     "w": "piel",
+     "a": [
+      "piel"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.015,
+     "e": 51.455,
+     "w": "también",
+     "a": [
+      "también"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.455,
+     "e": 51.975,
+     "w": "aclaren",
+     "a": [
+      "aclaren"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.975,
+     "e": 52.155,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.155,
+     "e": 52.475,
+     "w": "ojos,",
+     "a": [
+      "ojos"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.79,
+     "e": 52.955,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.955,
+     "e": 53.135,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.135,
+     "e": 53.275,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.275,
+     "e": 53.455,
+     "w": "ojos",
+     "a": [
+      "ojos"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.455,
+     "e": 53.995,
+     "w": "claros",
+     "a": [
+      "claros"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.995,
+     "e": 54.275,
+     "w": "vean",
+     "a": [
+      "vean"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.275,
+     "e": 54.615,
+     "w": "mejor",
+     "a": [
+      "mejor"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.615,
+     "e": 54.815,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.815,
+     "e": 55.075,
+     "w": "poca",
+     "a": [
+      "poca"
+     ],
+     "k": true
+    },
+    {
+     "t": 55.075,
+     "e": 55.255,
+     "w": "luz.",
+     "a": [
+      "luz"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "tarjetas",
+      "items": [
+       {
+        "icono": "adn",
+        "texto": "Mismos genes: piel y ojos",
+        "color": "#4aa3ff",
+        "color2": "#a78bfa",
+        "en": "genes",
+        "size": 50
+       },
+       {
+        "icono": "ojo",
+        "texto": "Ver mejor con poca luz",
+        "color": "#4aa3ff",
+        "en": "vean",
+        "size": 50
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o13",
+   "sfx": [
+    [
+     "pop",
+     "resuelve."
+    ]
+   ],
+   "start": 55.605,
+   "dur": 2.385,
+   "text": "La ciencia todavía no lo resuelve.",
+   "words": [
+    {
+     "t": 55.725,
+     "e": 55.825,
+     "w": "La",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.825,
+     "e": 56.265,
+     "w": "ciencia",
+     "a": [
+      "ciencia"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.265,
+     "e": 56.825,
+     "w": "todavía",
+     "a": [
+      "todavía"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.825,
+     "e": 57.205,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.205,
+     "e": 57.325,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.325,
+     "e": 58.11,
+     "w": "resuelve.",
+     "a": [
+      "resuelve"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "pregunta",
+      "en": null,
+      "anim": "late",
+      "size": 260
+     },
+     {
+      "t": "titulo",
+      "texto": "[Sin resolver]",
+      "en": "resuelve.",
+      "size": 120
+     }
+    ]
+   }
+  },
+  {
+   "scene": "o14",
+   "sfx": [
+    [
+     "pop",
+     "ojos?"
+    ]
+   ],
+   "start": 57.99,
+   "dur": 2.68,
+   "text": "¿De qué color son tus ojos?",
+   "words": [
+    {
+     "t": 58.11,
+     "e": 58.245,
+     "w": "¿De",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.245,
+     "e": 58.345,
+     "w": "qué",
+     "a": [
+      "qué"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.345,
+     "e": 58.545,
+     "w": "color",
+     "a": [
+      "color"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.545,
+     "e": 58.785,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.785,
+     "e": 58.925,
+     "w": "tus",
+     "a": [
+      "tus"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.925,
+     "e": 59.185,
+     "w": "ojos?",
+     "a": [
+      "ojos"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "ojo",
+        "color": "#4aa3ff"
+       },
+       {
+        "nombre": "ojo",
+        "color": "#9a6235"
+       },
+       {
+        "nombre": "ojo",
+        "color": "#3e9d5a"
+       }
+      ],
+      "en": null,
+      "size": 180
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Tus [ojos]?",
+      "en": null,
+      "size": 130
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ],
+ "estilo": {
+  "acento": "#5ac8ff",
+  "tinte": "#163050"
+ }
+}

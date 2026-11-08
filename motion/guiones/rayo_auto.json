@@ -1,0 +1,555 @@
+{
+ "id": "rayo_auto",
+ "estilo": {
+  "acento": "#ffe14d",
+  "tinte": "#1a2240"
+ },
+ "beats": [
+  {
+   "scene": "r1",
+   "text": "Si te cae un rayo dentro de un auto, lo más probable es que sobrevivas, pero no por lo que crees.",
+   "keys": [
+    "rayo",
+    "sobrevivas,",
+    "crees."
+   ],
+   "sfx": [
+    [
+     "thunder",
+     "rayo"
+    ],
+    [
+     "pop",
+     "sobrevivas,"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "rayo",
+      "en": null,
+      "anim": "tiembla",
+      "size": 200,
+      "color": "#ffe14d"
+     },
+     {
+      "t": "icono",
+      "nombre": "auto",
+      "en": null,
+      "size": 280,
+      "color": "#c9d3e3"
+     },
+     {
+      "t": "titulo",
+      "texto": "[Sobrevives]… pero no por lo que crees",
+      "en": "sobrevivas,",
+      "size": 80
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r2",
+   "text": "Casi todos piensan que es por las llantas de goma que te aislan del suelo.",
+   "keys": [
+    "llantas",
+    "goma"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "llantas"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "llanta",
+      "en": null,
+      "anim": "gira",
+      "size": 260
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Las [llantas] de goma?",
+      "en": "llantas",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r3",
+   "text": "Falso.",
+   "keys": [
+    "falso."
+   ],
+   "sfx": [
+    [
+     "stamp",
+     "falso."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "llanta",
+      "en": null,
+      "size": 220
+     },
+     {
+      "t": "sello",
+      "texto": "Falso",
+      "en": "falso.",
+      "color": "rojo",
+      "size": 130
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r4",
+   "text": "Un rayo puede viajar kilómetros por el aire. Unos centímetros de goma no lo van a detener.",
+   "keys": [
+    "kilómetros",
+    "centímetros",
+    "detener."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "kilómetros"
+    ],
+    [
+     "pop",
+     "centímetros"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "vs",
+      "a": {
+       "icono": "rayo",
+       "texto": "Kilómetros de aire",
+       "color": "#ffe14d",
+       "en": "kilómetros"
+      },
+      "b": {
+       "icono": "llanta",
+       "texto": "Centímetros de goma",
+       "color": "rojo",
+       "en": "centímetros"
+      },
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r5",
+   "text": "Lo que te salva es la carrocería de metal.",
+   "keys": [
+    "carrocería",
+    "metal."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "carrocería"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "auto",
+      "en": null,
+      "anim": "late",
+      "size": 300,
+      "color": "#c9d3e3"
+     },
+     {
+      "t": "titulo",
+      "texto": "La [carrocería] de metal",
+      "en": "carrocería",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r6",
+   "text": "El auto funciona como una jaula de Faraday.",
+   "keys": [
+    "jaula",
+    "faraday."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "faraday."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "jaula",
+      "en": null,
+      "size": 260,
+      "color": "#ffe14d"
+     },
+     {
+      "t": "titulo",
+      "texto": "Jaula de [Faraday]",
+      "en": "faraday.",
+      "size": 110
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r7",
+   "text": "La electricidad corre por afuera del metal, rodea el auto y se va al suelo.",
+   "keys": [
+    "afuera",
+    "rodea",
+    "suelo."
+   ],
+   "sfx": [
+    [
+     "thunder",
+     "electricidad"
+    ],
+    [
+     "pop",
+     "suelo."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "rayo",
+        "color": "#ffe14d"
+       },
+       {
+        "nombre": "auto",
+        "color": "#c9d3e3",
+        "en": "rodea"
+       },
+       {
+        "nombre": "flecha",
+        "color": "#ffe14d",
+        "size": 110,
+        "en": "suelo."
+       }
+      ],
+      "en": null,
+      "size": 190,
+      "gap": 20
+     },
+     {
+      "t": "pasos",
+      "items": [
+       {
+        "texto": "Corre por [afuera]",
+        "en": "afuera"
+       },
+       {
+        "texto": "Rodea el auto",
+        "en": "rodea"
+       },
+       {
+        "texto": "Se va al [suelo]",
+        "en": "suelo."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r8",
+   "text": "Tú, adentro, quedas protegido.",
+   "keys": [
+    "protegido."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "protegido."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "escudo",
+      "en": null,
+      "anim": "late",
+      "size": 280,
+      "color": "verde"
+     },
+     {
+      "t": "titulo",
+      "texto": "[Protegido]",
+      "en": "protegido.",
+      "size": 130
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r9",
+   "text": "Pero hay condiciones. No toques las partes de metal de la puerta ni del volante.",
+   "keys": [
+    "condiciones.",
+    "metal"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "puerta"
+    ],
+    [
+     "pop",
+     "volante."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "Condiciones",
+      "en": null,
+      "size": 54
+     },
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Metal de la puerta",
+        "ok": false,
+        "en": "puerta"
+       },
+       {
+        "texto": "El volante",
+        "ok": false,
+        "en": "volante."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r10",
+   "text": "Y esto no funciona en convertibles, autos de fibra de vidrio ni carritos de golf.",
+   "keys": [
+    "convertibles,",
+    "fibra",
+    "golf."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "convertibles,"
+    ],
+    [
+     "pop",
+     "fibra"
+    ],
+    [
+     "pop",
+     "golf."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "[No] funciona en:",
+      "en": null,
+      "size": 96,
+      "acento": "rojo"
+     },
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Convertibles",
+        "ok": false,
+        "en": "convertibles,"
+       },
+       {
+        "texto": "Fibra de vidrio",
+        "ok": false,
+        "en": "fibra"
+       },
+       {
+        "texto": "Carritos de golf",
+        "ok": false,
+        "en": "golf."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r11",
+   "text": "Eso sí, el auto puede terminar con la antena, el sistema eléctrico o hasta las llantas dañadas.",
+   "keys": [
+    "antena,",
+    "eléctrico",
+    "llantas"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "antena,"
+    ],
+    [
+     "pop",
+     "sistema"
+    ],
+    [
+     "pop",
+     "llantas"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "auto",
+      "en": null,
+      "anim": "tiembla",
+      "size": 240,
+      "color": "#c9d3e3"
+     },
+     {
+      "t": "tarjetas",
+      "items": [
+       {
+        "icono": "rayo",
+        "texto": "Antena",
+        "color": "rojo",
+        "en": "antena,",
+        "size": 50
+       },
+       {
+        "icono": "alerta",
+        "texto": "Sistema eléctrico",
+        "color": "rojo",
+        "en": "sistema",
+        "size": 50
+       },
+       {
+        "icono": "llanta",
+        "texto": "Llantas",
+        "color": "rojo",
+        "en": "llantas",
+        "size": 50
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r12",
+   "text": "Y aún así, durante una tormenta, lo más seguro sigue siendo un edificio.",
+   "keys": [
+    "tormenta,",
+    "edificio."
+   ],
+   "sfx": [
+    [
+     "thunder",
+     "tormenta,"
+    ],
+    [
+     "coin",
+     "edificio."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "nube",
+      "en": null,
+      "size": 200,
+      "color": "#6b7a99"
+     },
+     {
+      "t": "icono",
+      "nombre": "edificio",
+      "en": "edificio.",
+      "anim": "late",
+      "size": 260,
+      "color": "#6b8bd6"
+     },
+     {
+      "t": "titulo",
+      "texto": "Lo más seguro: un [edificio]",
+      "en": "edificio.",
+      "size": 92
+     }
+    ]
+   }
+  },
+  {
+   "scene": "r13",
+   "text": "¿Sabías esto? O también pensabas lo de las llantas.",
+   "keys": [
+    "esto?",
+    "llantas."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "esto?"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "rayo",
+      "en": null,
+      "anim": "tiembla",
+      "size": 200,
+      "color": "#ffe14d"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Sabías [esto]?",
+      "en": null,
+      "size": 120
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,554 @@
+{
+ "id": "narcotrafico",
+ "estilo": {
+  "acento": "#ffc83d",
+  "tinte": "#3a1a22"
+ },
+ "beats": [
+  {
+   "scene": "n1",
+   "text": "¿El narcotráfico ayuda a la economía?",
+   "keys": [
+    "ayuda",
+    "economía?"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "economía?"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "balanza",
+      "en": null,
+      "anim": "balancea",
+      "size": 280,
+      "color": "verde",
+      "color2": "rojo"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿El narco [ayuda] a la economía?",
+      "en": null,
+      "size": 96
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n2",
+   "text": "En las películas parece que sí.",
+   "keys": [
+    "películas",
+    "sí."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "sí."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "claqueta",
+      "en": null,
+      "anim": "balancea",
+      "size": 240
+     },
+     {
+      "t": "titulo",
+      "texto": "En las películas: [sí]",
+      "en": "sí.",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n3",
+   "text": "Entra muchísimo dinero en efectivo.",
+   "keys": [
+    "muchísimo",
+    "dinero"
+   ],
+   "sfx": [
+    [
+     "coin",
+     "dinero"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "billete",
+        "color": "verde"
+       },
+       {
+        "nombre": "bolsa"
+       },
+       {
+        "nombre": "billete",
+        "color": "verde"
+       }
+      ],
+      "en": null,
+      "size": 190,
+      "anim": "cae"
+     },
+     {
+      "t": "titulo",
+      "texto": "Dinero en [efectivo]",
+      "en": "efectivo.",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n4",
+   "text": "Se construyen casas, se abren negocios, se compran autos.",
+   "keys": [
+    "casas,",
+    "negocios,",
+    "autos."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "casas,"
+    ],
+    [
+     "pop",
+     "negocios,"
+    ],
+    [
+     "pop",
+     "autos."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "casa",
+        "texto": "Casas",
+        "en": "casas,"
+       },
+       {
+        "nombre": "edificio",
+        "texto": "Negocios",
+        "en": "negocios,"
+       },
+       {
+        "nombre": "auto",
+        "texto": "Autos",
+        "en": "autos."
+       }
+      ],
+      "en": null,
+      "size": 190
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n5",
+   "text": "Algunos narcos hasta construyeron canchas y viviendas para ganarse al barrio.",
+   "keys": [
+    "canchas",
+    "viviendas",
+    "barrio."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "canchas"
+    ],
+    [
+     "pop",
+     "viviendas"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "estrella",
+        "texto": "Canchas",
+        "en": "canchas"
+       },
+       {
+        "nombre": "casa",
+        "texto": "Viviendas",
+        "en": "viviendas"
+       }
+      ],
+      "en": null,
+      "size": 180
+     },
+     {
+      "t": "icono",
+      "nombre": "grupo",
+      "en": "barrio.",
+      "size": 180,
+      "color2": "#9fb0c8"
+     },
+     {
+      "t": "titulo",
+      "texto": "Para ganarse al [barrio]",
+      "en": "ganarse",
+      "size": 84
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n6",
+   "text": "Pero hay una cuenta que las películas nunca te muestran.",
+   "keys": [
+    "cuenta",
+    "nunca"
+   ],
+   "sfx": [
+    [
+     "drop",
+     "cuenta"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "La cuenta que [no te muestran]",
+      "en": null,
+      "size": 104
+     },
+     {
+      "t": "icono",
+      "nombre": "lupa",
+      "en": null,
+      "anim": "balancea",
+      "size": 230,
+      "color": "#ffffff"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n7",
+   "text": "En México, la violencia le costó al país cerca de 4 billones de pesos en 2025.",
+   "keys": [
+    "violencia",
+    "4",
+    "billones"
+   ],
+   "sfx": [
+    [
+     "drop",
+     "billones"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "México · 2025",
+      "en": null,
+      "size": 50
+     },
+     {
+      "t": "texto",
+      "texto": "La violencia costó:",
+      "en": "violencia"
+     },
+     {
+      "t": "numero",
+      "valor": 4,
+      "en": "4",
+      "prefijo": "$",
+      "sufijo": " billones",
+      "size": 150,
+      "color": "rojo"
+     },
+     {
+      "t": "texto",
+      "texto": "de pesos",
+      "en": "pesos"
+     }
+    ],
+    "tinte": "#4a1a24"
+   }
+  },
+  {
+   "scene": "n8",
+   "text": "Eso es como el 11 % de toda su economía.",
+   "keys": [
+    "11",
+    "%"
+   ],
+   "sfx": [
+    [
+     "stamp",
+     "11"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "numero",
+      "valor": 11,
+      "en": "11",
+      "sufijo": "%",
+      "size": 260,
+      "color": "rojo"
+     },
+     {
+      "t": "titulo",
+      "texto": "de toda la [economía]",
+      "en": "economía.",
+      "size": 88
+     }
+    ],
+    "tinte": "#4a1a24"
+   }
+  },
+  {
+   "scene": "n9",
+   "text": "¿Por qué tanto? Porque donde hay violencia, las empresas no invierten, los turistas no llegan y los negocios pagan extorsión.",
+   "keys": [
+    "invierten,",
+    "turistas",
+    "extorsión."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "invierten,"
+    ],
+    [
+     "pop",
+     "turistas"
+    ],
+    [
+     "pop",
+     "extorsión."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "¿Por qué?",
+      "en": null,
+      "size": 110
+     },
+     {
+      "t": "tarjetas",
+      "items": [
+       {
+        "icono": "fabrica",
+        "texto": "Sin inversión",
+        "color": "rojo",
+        "en": "invierten,"
+       },
+       {
+        "icono": "avion",
+        "texto": "Sin turistas",
+        "color": "rojo",
+        "en": "turistas"
+       },
+       {
+        "icono": "candado",
+        "texto": "Extorsión",
+        "color": "rojo",
+        "en": "extorsión."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n10",
+   "text": "Además, el dinero lavado infla el precio de las casas y la gente común ya no puede pagarlas.",
+   "keys": [
+    "lavado",
+    "infla",
+    "pagarlas."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "infla"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "casa"
+       },
+       {
+        "nombre": "grafico_sube",
+        "color": "rojo",
+        "en": "infla"
+       }
+      ],
+      "en": null,
+      "size": 210
+     },
+     {
+      "t": "titulo",
+      "texto": "Casas [impagables]",
+      "en": "pagarlas.",
+      "acento": "rojo",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n11",
+   "text": "Y la mayor parte de la ganancia se queda arriba, mientras los de abajo ponen el riesgo.",
+   "keys": [
+    "arriba,",
+    "riesgo."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "arriba,"
+    ],
+    [
+     "drop",
+     "riesgo."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "vs",
+      "a": {
+       "icono": "bolsa",
+       "texto": "Arriba: la ganancia",
+       "color": "oro",
+       "en": "ganancia"
+      },
+      "b": {
+       "icono": "alerta",
+       "texto": "Abajo: el riesgo",
+       "color": "rojo",
+       "en": "riesgo."
+      },
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n12",
+   "text": "Entonces, ¿ayuda a la economía? Lo que entra es mucho menos de lo que se pierde.",
+   "keys": [
+    "menos",
+    "pierde."
+   ],
+   "sfx": [
+    [
+     "drop",
+     "pierde."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "balanza",
+      "en": null,
+      "anim": "balancea",
+      "size": 240,
+      "color": "verde",
+      "color2": "rojo"
+     },
+     {
+      "t": "barras",
+      "items": [
+       {
+        "texto": "Lo que entra",
+        "valor": 25,
+        "color": "verde",
+        "en": "entra"
+       },
+       {
+        "texto": "Lo que se pierde",
+        "valor": 100,
+        "color": "rojo",
+        "en": "pierde."
+       }
+      ],
+      "en": null,
+      "max": 100
+     },
+     {
+      "t": "texto",
+      "texto": "(proporción ilustrativa)",
+      "en": "pierde.",
+      "size": 30
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n13",
+   "text": "¿Qué película te hizo pensar lo contrario?",
+   "keys": [
+    "película"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "película"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "claqueta",
+      "en": null,
+      "anim": "balancea",
+      "size": 220
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Qué [película]?",
+      "en": null,
+      "size": 120
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ]
+}

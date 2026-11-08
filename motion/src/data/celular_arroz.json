@@ -1,0 +1,1898 @@
+{
+ "id": "celular_arroz",
+ "duration": 53.51,
+ "beats": [
+  {
+   "scene": "a1",
+   "sfx": [
+    [
+     "splash",
+     "moja"
+    ],
+    [
+     "stamp",
+     "arroz."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 3.48,
+   "text": "Si se te moja el celular, no lo metas en arroz.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.285,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.285,
+     "e": 0.425,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.425,
+     "e": 0.565,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.565,
+     "e": 0.885,
+     "w": "moja",
+     "a": [
+      "moja"
+     ],
+     "k": true
+    },
+    {
+     "t": 0.885,
+     "e": 1.005,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.005,
+     "e": 1.425,
+     "w": "celular,",
+     "a": [
+      "celular"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.81,
+     "e": 2.065,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.065,
+     "e": 2.205,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.205,
+     "e": 2.665,
+     "w": "metas",
+     "a": [
+      "metas"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.665,
+     "e": 2.805,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.805,
+     "e": 3.205,
+     "w": "arroz.",
+     "a": [
+      "arroz"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "celular"
+       },
+       {
+        "nombre": "gota",
+        "color": "#5ac8ff",
+        "en": "moja"
+       }
+      ],
+      "en": null,
+      "size": 200
+     },
+     {
+      "t": "icono",
+      "nombre": "arroz",
+      "en": "arroz.",
+      "size": 200,
+      "color": "#e7ecf3"
+     },
+     {
+      "t": "sello",
+      "texto": "No lo metas en arroz",
+      "en": "arroz.",
+      "color": "rojo",
+      "size": 70
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a2",
+   "sfx": [
+    [
+     "drop",
+     "mal."
+    ]
+   ],
+   "start": 3.48,
+   "dur": 3.05,
+   "text": "Sí, lo que todos hacemos está mal.",
+   "words": [
+    {
+     "t": 3.6,
+     "e": 3.875,
+     "w": "Sí,",
+     "a": [
+      "sí"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.255,
+     "e": 4.375,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.375,
+     "e": 4.495,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.495,
+     "e": 4.795,
+     "w": "todos",
+     "a": [
+      "todos"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.795,
+     "e": 5.295,
+     "w": "hacemos",
+     "a": [
+      "hacemos"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.295,
+     "e": 5.935,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.935,
+     "e": 6.375,
+     "w": "mal.",
+     "a": [
+      "mal"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "arroz",
+      "en": null,
+      "anim": "tiembla",
+      "size": 240,
+      "color": "#e7ecf3"
+     },
+     {
+      "t": "titulo",
+      "texto": "Está [mal]",
+      "en": "mal.",
+      "acento": "rojo",
+      "size": 130
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a3",
+   "sfx": [
+    [
+     "pop",
+     "apple."
+    ]
+   ],
+   "start": 6.53,
+   "dur": 2.36,
+   "text": "Y no lo digo yo, lo dice Apple.",
+   "words": [
+    {
+     "t": 6.65,
+     "e": 6.765,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.765,
+     "e": 6.925,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.925,
+     "e": 7.045,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.045,
+     "e": 7.225,
+     "w": "digo",
+     "a": [
+      "digo"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.225,
+     "e": 7.505,
+     "w": "yo,",
+     "a": [
+      "yo"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.735,
+     "e": 7.895,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.895,
+     "e": 8.175,
+     "w": "dice",
+     "a": [
+      "dice"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.175,
+     "e": 8.655,
+     "w": "Apple.",
+     "a": [
+      "apple"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "escudo",
+      "en": null,
+      "size": 220,
+      "color": "#c9d3e3"
+     },
+     {
+      "t": "pildora",
+      "texto": "Soporte oficial de Apple",
+      "en": "apple.",
+      "size": 48
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a4",
+   "sfx": [
+    [
+     "stamp",
+     "bolsa"
+    ]
+   ],
+   "start": 8.89,
+   "dur": 4.93,
+   "text": "En su página oficial, Apple pide no meter el teléfono en una bolsa de arroz.",
+   "words": [
+    {
+     "t": 9.01,
+     "e": 9.125,
+     "w": "En",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.125,
+     "e": 9.245,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.245,
+     "e": 9.485,
+     "w": "página",
+     "a": [
+      "página"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.485,
+     "e": 10.005,
+     "w": "oficial,",
+     "a": [
+      "oficial"
+     ],
+     "k": true
+    },
+    {
+     "t": 10.445,
+     "e": 10.645,
+     "w": "Apple",
+     "a": [
+      "apple"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.645,
+     "e": 10.985,
+     "w": "pide",
+     "a": [
+      "pide"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.985,
+     "e": 11.325,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.325,
+     "e": 11.605,
+     "w": "meter",
+     "a": [
+      "meter"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.605,
+     "e": 11.805,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.805,
+     "e": 12.265,
+     "w": "teléfono",
+     "a": [
+      "teléfono"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.265,
+     "e": 12.505,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.505,
+     "e": 12.685,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.685,
+     "e": 13.065,
+     "w": "bolsa",
+     "a": [
+      "bolsa"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.065,
+     "e": 13.205,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.205,
+     "e": 13.545,
+     "w": "arroz.",
+     "a": [
+      "arroz"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "celular",
+      "en": null,
+      "size": 200
+     },
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Bolsa de arroz",
+        "ok": false,
+        "en": "bolsa"
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a5",
+   "sfx": [
+    [
+     "pop",
+     "polvo"
+    ],
+    [
+     "stamp",
+     "dañarlo"
+    ]
+   ],
+   "start": 13.82,
+   "dur": 7.63,
+   "text": "¿Por qué? Porque el arroz suelta polvo y almidón, y esas partículas pueden meterse en el puerto de carga y dañarlo más.",
+   "words": [
+    {
+     "t": 13.94,
+     "e": 14.075,
+     "w": "¿Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.075,
+     "e": 14.255,
+     "w": "qué?",
+     "a": [
+      "qué"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.61,
+     "e": 14.825,
+     "w": "Porque",
+     "a": [
+      "porque"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.825,
+     "e": 14.985,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.985,
+     "e": 15.285,
+     "w": "arroz",
+     "a": [
+      "arroz"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.285,
+     "e": 15.805,
+     "w": "suelta",
+     "a": [
+      "suelta"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.805,
+     "e": 16.345,
+     "w": "polvo",
+     "a": [
+      "polvo"
+     ],
+     "k": true
+    },
+    {
+     "t": 16.345,
+     "e": 16.525,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.525,
+     "e": 17.065,
+     "w": "almidón,",
+     "a": [
+      "almidón"
+     ],
+     "k": true
+    },
+    {
+     "t": 17.27,
+     "e": 17.365,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.365,
+     "e": 17.545,
+     "w": "esas",
+     "a": [
+      "esas"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.545,
+     "e": 18.245,
+     "w": "partículas",
+     "a": [
+      "partículas"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.245,
+     "e": 18.505,
+     "w": "pueden",
+     "a": [
+      "pueden"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.505,
+     "e": 19.045,
+     "w": "meterse",
+     "a": [
+      "meterse"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.045,
+     "e": 19.165,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.165,
+     "e": 19.285,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.285,
+     "e": 19.545,
+     "w": "puerto",
+     "a": [
+      "puerto"
+     ],
+     "k": true
+    },
+    {
+     "t": 19.545,
+     "e": 19.705,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.705,
+     "e": 20.005,
+     "w": "carga",
+     "a": [
+      "carga"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.005,
+     "e": 20.385,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.385,
+     "e": 20.805,
+     "w": "dañarlo",
+     "a": [
+      "dañarlo"
+     ],
+     "k": true
+    },
+    {
+     "t": 20.805,
+     "e": 21.145,
+     "w": "más.",
+     "a": [
+      "más"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "titulo",
+        "texto": "¿Por qué?",
+        "en": null,
+        "size": 120
+       },
+       {
+        "t": "iconos",
+        "items": [
+         {
+          "nombre": "arroz",
+          "color": "#e7ecf3"
+         },
+         {
+          "nombre": "nube",
+          "texto": "Polvo + almidón",
+          "color": "#c9d3e3",
+          "en": "polvo"
+         }
+        ],
+        "en": null,
+        "size": 180
+       }
+      ]
+     },
+     {
+      "en": "partículas",
+      "el": [
+       {
+        "t": "icono",
+        "nombre": "celular",
+        "en": null,
+        "size": 220
+       },
+       {
+        "t": "pildora",
+        "texto": "Puerto de carga",
+        "en": "puerto",
+        "size": 50
+       },
+       {
+        "t": "sello",
+        "texto": "Más daño",
+        "en": "dañarlo",
+        "color": "rojo"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a6",
+   "sfx": [
+    [
+     "pop",
+     "rápido"
+    ]
+   ],
+   "start": 21.45,
+   "dur": 4.16,
+   "text": "Además, el arroz no seca lo de adentro tan rápido como crees.",
+   "words": [
+    {
+     "t": 21.57,
+     "e": 21.865,
+     "w": "Además,",
+     "a": [
+      "además"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.285,
+     "e": 22.365,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.365,
+     "e": 22.685,
+     "w": "arroz",
+     "a": [
+      "arroz"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.685,
+     "e": 22.945,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.945,
+     "e": 23.305,
+     "w": "seca",
+     "a": [
+      "seca"
+     ],
+     "k": true
+    },
+    {
+     "t": 23.305,
+     "e": 23.445,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.445,
+     "e": 23.585,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.585,
+     "e": 23.985,
+     "w": "adentro",
+     "a": [
+      "adentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.985,
+     "e": 24.245,
+     "w": "tan",
+     "a": [
+      "tan"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.245,
+     "e": 24.665,
+     "w": "rápido",
+     "a": [
+      "rápido"
+     ],
+     "k": true
+    },
+    {
+     "t": 24.665,
+     "e": 24.965,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.965,
+     "e": 25.425,
+     "w": "crees.",
+     "a": [
+      "crees"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "reloj",
+      "en": null,
+      "anim": "gira",
+      "size": 220
+     },
+     {
+      "t": "titulo",
+      "texto": "No seca [tan rápido]",
+      "en": "rápido",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a7",
+   "sfx": [
+    [
+     "pop",
+     "hacer?"
+    ]
+   ],
+   "start": 25.61,
+   "dur": 1.51,
+   "text": "Entonces, ¿qué hacer?",
+   "words": [
+    {
+     "t": 25.73,
+     "e": 26.075,
+     "w": "Entonces,",
+     "a": [
+      "entonces"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.535,
+     "e": 26.615,
+     "w": "¿qué",
+     "a": [
+      "qué"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.615,
+     "e": 26.815,
+     "w": "hacer?",
+     "a": [
+      "hacer"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "¿Qué [hacer]?",
+      "en": null,
+      "size": 140
+     },
+     {
+      "t": "icono",
+      "nombre": "check",
+      "en": null,
+      "anim": "late",
+      "size": 200,
+      "color": "verde"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a8",
+   "sfx": [
+    [
+     "pop",
+     "apágalo"
+    ]
+   ],
+   "start": 27.12,
+   "dur": 2.625,
+   "text": "Primero, apágalo y no lo cargues.",
+   "words": [
+    {
+     "t": 27.24,
+     "e": 27.625,
+     "w": "Primero,",
+     "a": [
+      "primero"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.82,
+     "e": 28.465,
+     "w": "apágalo",
+     "a": [
+      "apágalo"
+     ],
+     "k": true
+    },
+    {
+     "t": 28.465,
+     "e": 28.685,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.685,
+     "e": 28.885,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.885,
+     "e": 29.025,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.025,
+     "e": 29.505,
+     "w": "cargues.",
+     "a": [
+      "cargues"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pasos",
+      "items": [
+       {
+        "texto": "[Apágalo] y no lo cargues",
+        "en": "apágalo"
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a9",
+   "sfx": [
+    [
+     "pop",
+     "golpecitos"
+    ]
+   ],
+   "start": 29.745,
+   "dur": 5.78,
+   "text": "Segundo, con el puerto hacia abajo, dale golpecitos suaves contra tu mano para que salga el agua.",
+   "words": [
+    {
+     "t": 29.865,
+     "e": 30.305,
+     "w": "Segundo,",
+     "a": [
+      "segundo"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.575,
+     "e": 30.695,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.695,
+     "e": 30.855,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.855,
+     "e": 31.115,
+     "w": "puerto",
+     "a": [
+      "puerto"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.115,
+     "e": 31.315,
+     "w": "hacia",
+     "a": [
+      "hacia"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.315,
+     "e": 31.695,
+     "w": "abajo,",
+     "a": [
+      "abajo"
+     ],
+     "k": true
+    },
+    {
+     "t": 32.095,
+     "e": 32.215,
+     "w": "dale",
+     "a": [
+      "dale"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.215,
+     "e": 32.835,
+     "w": "golpecitos",
+     "a": [
+      "golpecitos"
+     ],
+     "k": true
+    },
+    {
+     "t": 32.835,
+     "e": 33.295,
+     "w": "suaves",
+     "a": [
+      "suaves"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.295,
+     "e": 33.575,
+     "w": "contra",
+     "a": [
+      "contra"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.575,
+     "e": 33.795,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.795,
+     "e": 34.075,
+     "w": "mano",
+     "a": [
+      "mano"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.075,
+     "e": 34.395,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.395,
+     "e": 34.535,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.535,
+     "e": 34.875,
+     "w": "salga",
+     "a": [
+      "salga"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.875,
+     "e": 34.995,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.995,
+     "e": 35.235,
+     "w": "agua.",
+     "a": [
+      "agua"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pasos",
+      "items": [
+       {
+        "texto": "Apágalo y no lo cargues"
+       },
+       {
+        "texto": "Puerto abajo: [golpecitos]",
+        "en": "golpecitos"
+       }
+      ],
+      "en": null
+     },
+     {
+      "t": "icono",
+      "nombre": "gota",
+      "en": "agua.",
+      "anim": "cae",
+      "size": 150,
+      "color": "#5ac8ff"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a10",
+   "sfx": [
+    [
+     "pop",
+     "seco,"
+    ]
+   ],
+   "start": 35.525,
+   "dur": 4.245,
+   "text": "Tercero, déjalo en un lugar seco, con aire, por lo menos un día.",
+   "words": [
+    {
+     "t": 35.645,
+     "e": 36.29,
+     "w": "Tercero,",
+     "a": [
+      "tercero"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.395,
+     "e": 36.715,
+     "w": "déjalo",
+     "a": [
+      "déjalo"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.715,
+     "e": 36.855,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.855,
+     "e": 36.955,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.955,
+     "e": 37.195,
+     "w": "lugar",
+     "a": [
+      "lugar"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.195,
+     "e": 37.86,
+     "w": "seco,",
+     "a": [
+      "seco"
+     ],
+     "k": true
+    },
+    {
+     "t": 37.875,
+     "e": 38.035,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.035,
+     "e": 38.255,
+     "w": "aire,",
+     "a": [
+      "aire"
+     ],
+     "k": true
+    },
+    {
+     "t": 38.535,
+     "e": 38.615,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.615,
+     "e": 38.775,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.775,
+     "e": 38.975,
+     "w": "menos",
+     "a": [
+      "menos"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.975,
+     "e": 39.355,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.355,
+     "e": 39.615,
+     "w": "día.",
+     "a": [
+      "día"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pasos",
+      "items": [
+       {
+        "texto": "Apágalo y no lo cargues"
+       },
+       {
+        "texto": "Puerto abajo: golpecitos"
+       },
+       {
+        "texto": "Lugar seco, con aire, [1 día]",
+        "en": "seco,"
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a11",
+   "sfx": [
+    [
+     "pop",
+     "secador"
+    ],
+    [
+     "pop",
+     "comprimido,"
+    ],
+    [
+     "pop",
+     "algodón"
+    ]
+   ],
+   "start": 39.77,
+   "dur": 5.545,
+   "text": "Y nada de secador de pelo, ni aire comprimido, ni meterle algodón o papel en el puerto.",
+   "words": [
+    {
+     "t": 39.89,
+     "e": 40.035,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.035,
+     "e": 40.395,
+     "w": "nada",
+     "a": [
+      "nada"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.395,
+     "e": 40.595,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.595,
+     "e": 41.015,
+     "w": "secador",
+     "a": [
+      "secador"
+     ],
+     "k": true
+    },
+    {
+     "t": 41.015,
+     "e": 41.175,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.175,
+     "e": 41.535,
+     "w": "pelo,",
+     "a": [
+      "pelo"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.755,
+     "e": 41.835,
+     "w": "ni",
+     "a": [
+      "ni"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.835,
+     "e": 42.055,
+     "w": "aire",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.055,
+     "e": 42.795,
+     "w": "comprimido,",
+     "a": [
+      "comprimido"
+     ],
+     "k": true
+    },
+    {
+     "t": 43.035,
+     "e": 43.115,
+     "w": "ni",
+     "a": [
+      "ni"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.115,
+     "e": 43.535,
+     "w": "meterle",
+     "a": [
+      "meterle"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.535,
+     "e": 44.055,
+     "w": "algodón",
+     "a": [
+      "algodón"
+     ],
+     "k": true
+    },
+    {
+     "t": 44.055,
+     "e": 44.175,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.175,
+     "e": 44.455,
+     "w": "papel",
+     "a": [
+      "papel"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.455,
+     "e": 44.655,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.655,
+     "e": 44.775,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.775,
+     "e": 45.095,
+     "w": "puerto.",
+     "a": [
+      "puerto"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Secador de pelo",
+        "ok": false,
+        "en": "secador"
+       },
+       {
+        "texto": "Aire comprimido",
+        "ok": false,
+        "en": "comprimido,"
+       },
+       {
+        "texto": "Algodón o papel",
+        "ok": false,
+        "en": "algodón"
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a12",
+   "sfx": [
+    [
+     "coin",
+     "ayudan."
+    ]
+   ],
+   "start": 45.315,
+   "dur": 5.295,
+   "text": "Si tienes esos sobrecitos de sílica que vienen en las cajas de zapatos, esos sí ayudan.",
+   "words": [
+    {
+     "t": 45.435,
+     "e": 45.555,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.555,
+     "e": 45.795,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.795,
+     "e": 46.055,
+     "w": "esos",
+     "a": [
+      "esos"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.055,
+     "e": 46.675,
+     "w": "sobrecitos",
+     "a": [
+      "sobrecitos"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.675,
+     "e": 46.875,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.875,
+     "e": 47.315,
+     "w": "sílica",
+     "a": [
+      "sílica"
+     ],
+     "k": true
+    },
+    {
+     "t": 47.315,
+     "e": 47.515,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.515,
+     "e": 47.755,
+     "w": "vienen",
+     "a": [
+      "vienen"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.755,
+     "e": 47.935,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.935,
+     "e": 48.075,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.075,
+     "e": 48.355,
+     "w": "cajas",
+     "a": [
+      "cajas"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.355,
+     "e": 48.515,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.515,
+     "e": 48.975,
+     "w": "zapatos,",
+     "a": [
+      "zapatos"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.305,
+     "e": 49.565,
+     "w": "esos",
+     "a": [
+      "esos"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.565,
+     "e": 49.965,
+     "w": "sí",
+     "a": [
+      "sí"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.965,
+     "e": 50.445,
+     "w": "ayudan.",
+     "a": [
+      "ayudan"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "silica",
+      "en": null,
+      "anim": "balancea",
+      "size": 260,
+      "color": "#3a8fd0"
+     },
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Sílica gel: sí ayuda",
+        "ok": true,
+        "en": "ayudan."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a13",
+   "sfx": [
+    [
+     "pop",
+     "arroz?"
+    ]
+   ],
+   "start": 50.61,
+   "dur": 2.9,
+   "text": "¿Tú también lo metías en arroz?",
+   "words": [
+    {
+     "t": 50.73,
+     "e": 50.875,
+     "w": "¿Tú",
+     "a": [
+      "tú"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.875,
+     "e": 51.135,
+     "w": "también",
+     "a": [
+      "también"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.135,
+     "e": 51.295,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.295,
+     "e": 51.595,
+     "w": "metías",
+     "a": [
+      "metías"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.595,
+     "e": 51.795,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.795,
+     "e": 52.075,
+     "w": "arroz?",
+     "a": [
+      "arroz"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "arroz",
+      "en": null,
+      "anim": "balancea",
+      "size": 220,
+      "color": "#e7ecf3"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Tú también? [Confiesa]",
+      "en": null,
+      "size": 100
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ],
+ "estilo": {
+  "acento": "#5ac8ff",
+  "tinte": "#14304a"
+ }
+}

@@ -1,0 +1,521 @@
+{
+ "id": "celular_arroz",
+ "estilo": {
+  "acento": "#5ac8ff",
+  "tinte": "#14304a"
+ },
+ "beats": [
+  {
+   "scene": "a1",
+   "text": "Si se te moja el celular, no lo metas en arroz.",
+   "keys": [
+    "moja",
+    "arroz."
+   ],
+   "sfx": [
+    [
+     "splash",
+     "moja"
+    ],
+    [
+     "stamp",
+     "arroz."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "celular"
+       },
+       {
+        "nombre": "gota",
+        "color": "#5ac8ff",
+        "en": "moja"
+       }
+      ],
+      "en": null,
+      "size": 200
+     },
+     {
+      "t": "icono",
+      "nombre": "arroz",
+      "en": "arroz.",
+      "size": 200,
+      "color": "#e7ecf3"
+     },
+     {
+      "t": "sello",
+      "texto": "No lo metas en arroz",
+      "en": "arroz.",
+      "color": "rojo",
+      "size": 70
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a2",
+   "text": "Sí, lo que todos hacemos está mal.",
+   "keys": [
+    "mal."
+   ],
+   "sfx": [
+    [
+     "drop",
+     "mal."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "arroz",
+      "en": null,
+      "anim": "tiembla",
+      "size": 240,
+      "color": "#e7ecf3"
+     },
+     {
+      "t": "titulo",
+      "texto": "Está [mal]",
+      "en": "mal.",
+      "acento": "rojo",
+      "size": 130
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a3",
+   "text": "Y no lo digo yo, lo dice Apple.",
+   "keys": [
+    "apple."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "apple."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "escudo",
+      "en": null,
+      "size": 220,
+      "color": "#c9d3e3"
+     },
+     {
+      "t": "pildora",
+      "texto": "Soporte oficial de Apple",
+      "en": "apple.",
+      "size": 48
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a4",
+   "text": "En su página oficial, Apple pide no meter el teléfono en una bolsa de arroz.",
+   "keys": [
+    "oficial,",
+    "arroz."
+   ],
+   "sfx": [
+    [
+     "stamp",
+     "bolsa"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "celular",
+      "en": null,
+      "size": 200
+     },
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Bolsa de arroz",
+        "ok": false,
+        "en": "bolsa"
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a5",
+   "text": "¿Por qué? Porque el arroz suelta polvo y almidón, y esas partículas pueden meterse en el puerto de carga y dañarlo más.",
+   "keys": [
+    "polvo",
+    "almidón,",
+    "puerto",
+    "dañarlo"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "polvo"
+    ],
+    [
+     "stamp",
+     "dañarlo"
+    ]
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "titulo",
+        "texto": "¿Por qué?",
+        "en": null,
+        "size": 120
+       },
+       {
+        "t": "iconos",
+        "items": [
+         {
+          "nombre": "arroz",
+          "color": "#e7ecf3"
+         },
+         {
+          "nombre": "nube",
+          "texto": "Polvo + almidón",
+          "color": "#c9d3e3",
+          "en": "polvo"
+         }
+        ],
+        "en": null,
+        "size": 180
+       }
+      ]
+     },
+     {
+      "en": "partículas",
+      "el": [
+       {
+        "t": "icono",
+        "nombre": "celular",
+        "en": null,
+        "size": 220
+       },
+       {
+        "t": "pildora",
+        "texto": "Puerto de carga",
+        "en": "puerto",
+        "size": 50
+       },
+       {
+        "t": "sello",
+        "texto": "Más daño",
+        "en": "dañarlo",
+        "color": "rojo"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a6",
+   "text": "Además, el arroz no seca lo de adentro tan rápido como crees.",
+   "keys": [
+    "seca",
+    "rápido"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "rápido"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "reloj",
+      "en": null,
+      "anim": "gira",
+      "size": 220
+     },
+     {
+      "t": "titulo",
+      "texto": "No seca [tan rápido]",
+      "en": "rápido",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a7",
+   "text": "Entonces, ¿qué hacer?",
+   "keys": [
+    "hacer?"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "hacer?"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "¿Qué [hacer]?",
+      "en": null,
+      "size": 140
+     },
+     {
+      "t": "icono",
+      "nombre": "check",
+      "en": null,
+      "anim": "late",
+      "size": 200,
+      "color": "verde"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a8",
+   "text": "Primero, apágalo y no lo cargues.",
+   "keys": [
+    "apágalo",
+    "cargues."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "apágalo"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pasos",
+      "items": [
+       {
+        "texto": "[Apágalo] y no lo cargues",
+        "en": "apágalo"
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a9",
+   "text": "Segundo, con el puerto hacia abajo, dale golpecitos suaves contra tu mano para que salga el agua.",
+   "keys": [
+    "abajo,",
+    "golpecitos",
+    "agua."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "golpecitos"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pasos",
+      "items": [
+       {
+        "texto": "Apágalo y no lo cargues"
+       },
+       {
+        "texto": "Puerto abajo: [golpecitos]",
+        "en": "golpecitos"
+       }
+      ],
+      "en": null
+     },
+     {
+      "t": "icono",
+      "nombre": "gota",
+      "en": "agua.",
+      "anim": "cae",
+      "size": 150,
+      "color": "#5ac8ff"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a10",
+   "text": "Tercero, déjalo en un lugar seco, con aire, por lo menos un día.",
+   "keys": [
+    "seco,",
+    "aire,",
+    "día."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "seco,"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pasos",
+      "items": [
+       {
+        "texto": "Apágalo y no lo cargues"
+       },
+       {
+        "texto": "Puerto abajo: golpecitos"
+       },
+       {
+        "texto": "Lugar seco, con aire, [1 día]",
+        "en": "seco,"
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a11",
+   "text": "Y nada de secador de pelo, ni aire comprimido, ni meterle algodón o papel en el puerto.",
+   "keys": [
+    "secador",
+    "comprimido,",
+    "algodón"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "secador"
+    ],
+    [
+     "pop",
+     "comprimido,"
+    ],
+    [
+     "pop",
+     "algodón"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Secador de pelo",
+        "ok": false,
+        "en": "secador"
+       },
+       {
+        "texto": "Aire comprimido",
+        "ok": false,
+        "en": "comprimido,"
+       },
+       {
+        "texto": "Algodón o papel",
+        "ok": false,
+        "en": "algodón"
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a12",
+   "text": "Si tienes esos sobrecitos de sílica que vienen en las cajas de zapatos, esos sí ayudan.",
+   "keys": [
+    "sílica",
+    "ayudan."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "ayudan."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "silica",
+      "en": null,
+      "anim": "balancea",
+      "size": 260,
+      "color": "#3a8fd0"
+     },
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Sílica gel: sí ayuda",
+        "ok": true,
+        "en": "ayudan."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "a13",
+   "text": "¿Tú también lo metías en arroz?",
+   "keys": [
+    "arroz?"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "arroz?"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "arroz",
+      "en": null,
+      "anim": "balancea",
+      "size": 220,
+      "color": "#e7ecf3"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Tú también? [Confiesa]",
+      "en": null,
+      "size": 100
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ]
+}

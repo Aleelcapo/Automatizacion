@@ -12,7 +12,8 @@ export const usePalabra = (w: string, n = 0, fallback = 0): number => {
   const beat = useContext(BeatCtx);
   const {fps} = useVideoConfig();
   if (!beat) return fallback;
-  const hits = beat.words.filter((p) => limpiar(p.w) === limpiar(w));
+  const obj = limpiar(w);
+  const hits = beat.words.filter((p) => limpiar(p.w) === obj || (p.a ?? []).some((x) => limpiar(x) === obj));
   const p = hits[n];
   if (!p) return fallback;
   return Math.round((p.t - beat.start) * fps);

@@ -1,0 +1,528 @@
+{
+ "id": "zoologicos",
+ "estilo": {
+  "acento": "#3ddc84",
+  "tinte": "#163a2a"
+ },
+ "beats": [
+  {
+   "scene": "z1",
+   "text": "¿Por qué están desapareciendo los zoológicos?",
+   "keys": [
+    "desapareciendo",
+    "zoológicos?"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "zoológicos?"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "jaula",
+      "en": null,
+      "anim": "balancea",
+      "size": 280,
+      "color": "#c9d3e3"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Por qué desaparecen los [zoológicos]?",
+      "en": null,
+      "size": 96
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z2",
+   "text": "En 2016, Buenos Aires cerró su zoológico de más de 100 años y lo convirtió en un ecoparque.",
+   "keys": [
+    "2016,",
+    "100",
+    "ecoparque."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "ecoparque."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "Buenos Aires · 2016",
+      "en": null,
+      "size": 50
+     },
+     {
+      "t": "icono",
+      "nombre": "jaula",
+      "en": null,
+      "size": 200,
+      "color": "#c9d3e3"
+     },
+     {
+      "t": "titulo",
+      "texto": "+[100] años",
+      "en": "100",
+      "size": 110
+     },
+     {
+      "t": "pildora",
+      "texto": "→ Ecoparque",
+      "en": "ecoparque.",
+      "fondo": "verde",
+      "color": "#032312",
+      "size": 56
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z3",
+   "text": "Y en mayo de 2024, Costa Rica cerró sus últimos zoológicos estatales.",
+   "keys": [
+    "2024,",
+    "estatales."
+   ],
+   "sfx": [
+    [
+     "stamp",
+     "cerró"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "Costa Rica · Mayo 2024",
+      "en": null,
+      "size": 50
+     },
+     {
+      "t": "icono",
+      "nombre": "mapa",
+      "en": null,
+      "size": 220,
+      "color": "rojo",
+      "color2": "#2b6b4a"
+     },
+     {
+      "t": "titulo",
+      "texto": "Zoológicos [estatales]",
+      "en": "estatales.",
+      "size": 92
+     },
+     {
+      "t": "sello",
+      "texto": "Cerrados",
+      "en": "cerró",
+      "color": "rojo"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z4",
+   "text": "Casi 300 animales fueron trasladados a un centro de rescate.",
+   "keys": [
+    "300",
+    "rescate."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "300"
+    ],
+    [
+     "pop",
+     "rescate."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "numero",
+      "valor": 300,
+      "en": "300",
+      "prefijo": "~",
+      "size": 220
+     },
+     {
+      "t": "texto",
+      "texto": "animales trasladados",
+      "en": "animales"
+     },
+     {
+      "t": "icono",
+      "nombre": "corazon",
+      "en": "rescate.",
+      "anim": "late",
+      "size": 180,
+      "color": "rojo"
+     },
+     {
+      "t": "pildora",
+      "texto": "Centro de rescate",
+      "en": "rescate.",
+      "size": 50
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z5",
+   "text": "¿La razón? El bienestar animal.",
+   "keys": [
+    "bienestar",
+    "animal."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "bienestar"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "¿La razón?",
+      "en": null,
+      "size": 110
+     },
+     {
+      "t": "icono",
+      "nombre": "corazon",
+      "en": "bienestar",
+      "anim": "late",
+      "size": 260,
+      "color": "verde"
+     },
+     {
+      "t": "titulo",
+      "texto": "[Bienestar] animal",
+      "en": "bienestar",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z6",
+   "text": "Un estudio publicado en la revista Science comparó elefantas en zoológicos con elefantas salvajes en Kenia.",
+   "keys": [
+    "science",
+    "salvajes"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "zoológicos"
+    ],
+    [
+     "pop",
+     "salvajes"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "Revista Science",
+      "en": null,
+      "size": 50
+     },
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "elefante",
+        "texto": "Zoológico",
+        "color": "#9aa6b4",
+        "en": "zoológicos"
+       },
+       {
+        "nombre": "elefante",
+        "texto": "Salvaje · Kenia",
+        "en": "salvajes"
+       }
+      ],
+      "en": null,
+      "size": 220
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z7",
+   "text": "Las salvajes vivían en promedio de 56 años. Las de zoológico, unos 17.",
+   "keys": [
+    "56",
+    "17."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "56"
+    ],
+    [
+     "drop",
+     "17."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "texto",
+      "texto": "Vida promedio de elefantas africanas",
+      "en": null,
+      "size": 42
+     },
+     {
+      "t": "barras",
+      "items": [
+       {
+        "texto": "Salvajes (Kenia)",
+        "valor": 56,
+        "sufijo": " años",
+        "color": "verde",
+        "en": "56"
+       },
+       {
+        "texto": "En zoológico",
+        "valor": 17,
+        "sufijo": " años",
+        "color": "rojo",
+        "en": "17."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z8",
+   "text": "El estrés, el poco espacio y el sobrepeso pasan factura.",
+   "keys": [
+    "estrés,",
+    "espacio",
+    "sobrepeso"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "estrés,"
+    ],
+    [
+     "pop",
+     "espacio"
+    ],
+    [
+     "pop",
+     "sobrepeso"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "tarjetas",
+      "items": [
+       {
+        "icono": "alerta",
+        "texto": "Estrés",
+        "color": "rojo",
+        "en": "estrés,"
+       },
+       {
+        "icono": "jaula",
+        "texto": "Poco espacio",
+        "color": "rojo",
+        "en": "espacio"
+       },
+       {
+        "icono": "balanza",
+        "texto": "Sobrepeso",
+        "color": "rojo",
+        "color2": "rojo",
+        "en": "sobrepeso"
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z9",
+   "text": "Ojo, no todos desaparecen. Muchos se están transformando en santuarios y centros de conservación que rescatan animales y ayudan a especies en peligro.",
+   "keys": [
+    "no",
+    "todos",
+    "santuarios",
+    "conservación"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "santuarios"
+    ],
+    [
+     "pop",
+     "rescatan"
+    ],
+    [
+     "pop",
+     "especies"
+    ]
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "titulo",
+        "texto": "Ojo: [no todos] desaparecen",
+        "en": null,
+        "size": 100
+       },
+       {
+        "t": "icono",
+        "nombre": "ojo",
+        "en": null,
+        "anim": "late",
+        "size": 200,
+        "color": "verde"
+       }
+      ]
+     },
+     {
+      "en": "transformando",
+      "el": [
+       {
+        "t": "iconos",
+        "items": [
+         {
+          "nombre": "jaula",
+          "color": "#c9d3e3"
+         },
+         {
+          "nombre": "flecha",
+          "color": "#ffffff",
+          "size": 110
+         },
+         {
+          "nombre": "hoja",
+          "texto": "Santuario",
+          "en": "santuarios"
+         }
+        ],
+        "en": null,
+        "size": 180,
+        "gap": 24
+       },
+       {
+        "t": "lista",
+        "items": [
+         {
+          "texto": "Rescatan animales",
+          "ok": true,
+          "en": "rescatan"
+         },
+         {
+          "texto": "Protegen especies",
+          "ok": true,
+          "en": "especies"
+         }
+        ],
+        "en": null
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z10",
+   "text": "Así que el zoológico de jaulas está desapareciendo. Pero el que protege animales, no.",
+   "keys": [
+    "jaulas",
+    "protege"
+   ],
+   "sfx": [
+    [
+     "drop",
+     "desapareciendo."
+    ],
+    [
+     "coin",
+     "protege"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "vs",
+      "a": {
+       "icono": "jaula",
+       "texto": "Jaulas: desaparecen",
+       "color": "rojo"
+      },
+      "b": {
+       "icono": "escudo",
+       "texto": "Protección: se queda",
+       "color": "verde",
+       "en": "protege"
+      },
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "z11",
+   "text": "¿Tú irías a un zoológico hoy?",
+   "keys": [
+    "irías"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "irías"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "comentario",
+      "en": null,
+      "anim": "late",
+      "size": 200
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Tú [irías]?",
+      "en": null,
+      "size": 130
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ]
+}

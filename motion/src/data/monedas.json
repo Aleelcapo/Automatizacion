@@ -1,0 +1,1987 @@
+{
+ "id": "monedas",
+ "duration": 54.77,
+ "beats": [
+  {
+   "scene": "mo1",
+   "sfx": [
+    [
+     "stamp",
+     "vendas."
+    ],
+    [
+     "coin",
+     "vale"
+    ]
+   ],
+   "start": 0.0,
+   "dur": 5.9,
+   "text": "Si te quieren comprar una moneda que ya no circula, no la vendas. Vale más de lo que crees.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.265,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.265,
+     "e": 0.385,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.385,
+     "e": 0.605,
+     "w": "quieren",
+     "a": [
+      "quieren"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.605,
+     "e": 0.985,
+     "w": "comprar",
+     "a": [
+      "comprar"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.985,
+     "e": 1.225,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.225,
+     "e": 1.605,
+     "w": "moneda",
+     "a": [
+      "moneda"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.605,
+     "e": 1.805,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.805,
+     "e": 2.065,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.065,
+     "e": 2.185,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.185,
+     "e": 2.785,
+     "w": "circula,",
+     "a": [
+      "circula"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.115,
+     "e": 3.315,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.315,
+     "e": 3.455,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.455,
+     "e": 3.935,
+     "w": "vendas.",
+     "a": [
+      "vendas"
+     ],
+     "k": true
+    },
+    {
+     "t": 4.34,
+     "e": 4.595,
+     "w": "Vale",
+     "a": [
+      "vale"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.595,
+     "e": 4.955,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": true
+    },
+    {
+     "t": 4.955,
+     "e": 5.095,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.095,
+     "e": 5.195,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.195,
+     "e": 5.315,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.315,
+     "e": 5.735,
+     "w": "crees.",
+     "a": [
+      "crees"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "bimetalica",
+      "en": null,
+      "anim": "balancea",
+      "size": 280
+     },
+     {
+      "t": "sello",
+      "texto": "No la vendas",
+      "en": "vendas.",
+      "color": "rojo"
+     },
+     {
+      "t": "titulo",
+      "texto": "Vale [más] de lo que crees",
+      "en": "vale",
+      "size": 88
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo2",
+   "sfx": [
+    [
+     "pop",
+     "quita"
+    ]
+   ],
+   "start": 5.9,
+   "dur": 4.29,
+   "text": "¿Has visto gente que compra monedas viejas y les quita el anillo de afuera?",
+   "words": [
+    {
+     "t": 6.02,
+     "e": 6.135,
+     "w": "¿Has",
+     "a": [
+      "has"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.135,
+     "e": 6.335,
+     "w": "visto",
+     "a": [
+      "visto"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.335,
+     "e": 6.695,
+     "w": "gente",
+     "a": [
+      "gente"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.695,
+     "e": 6.875,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.875,
+     "e": 7.175,
+     "w": "compra",
+     "a": [
+      "compra"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.175,
+     "e": 7.595,
+     "w": "monedas",
+     "a": [
+      "monedas"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.595,
+     "e": 8.055,
+     "w": "viejas",
+     "a": [
+      "viejas"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.055,
+     "e": 8.555,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.555,
+     "e": 8.775,
+     "w": "les",
+     "a": [
+      "les"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.775,
+     "e": 9.095,
+     "w": "quita",
+     "a": [
+      "quita"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.095,
+     "e": 9.235,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.235,
+     "e": 9.475,
+     "w": "anillo",
+     "a": [
+      "anillo"
+     ],
+     "k": true
+    },
+    {
+     "t": 9.475,
+     "e": 9.635,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.635,
+     "e": 9.975,
+     "w": "afuera?",
+     "a": [
+      "afuera"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "bimetalica"
+       },
+       {
+        "nombre": "flecha",
+        "color": "#ffffff",
+        "size": 110,
+        "en": "quita"
+       },
+       {
+        "nombre": "centro_plata",
+        "en": "anillo"
+       }
+      ],
+      "en": null,
+      "size": 200,
+      "gap": 24
+     },
+     {
+      "t": "titulo",
+      "texto": "Les quitan el [anillo]",
+      "en": "anillo",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo3",
+   "sfx": [
+    [
+     "pop",
+     "adentro."
+    ]
+   ],
+   "start": 10.19,
+   "dur": 2.89,
+   "text": "No es por coleccionar, es por lo que tienen adentro.",
+   "words": [
+    {
+     "t": 10.31,
+     "e": 10.485,
+     "w": "No",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.485,
+     "e": 10.665,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.665,
+     "e": 10.765,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.765,
+     "e": 11.345,
+     "w": "coleccionar,",
+     "a": [
+      "coleccionar"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.62,
+     "e": 11.745,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.745,
+     "e": 11.885,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.885,
+     "e": 12.025,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.025,
+     "e": 12.125,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.125,
+     "e": 12.405,
+     "w": "tienen",
+     "a": [
+      "tienen"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.405,
+     "e": 12.945,
+     "w": "adentro.",
+     "a": [
+      "adentro"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Coleccionar",
+        "ok": false,
+        "en": "coleccionar,"
+       },
+       {
+        "texto": "Lo que tiene adentro",
+        "ok": true,
+        "en": "adentro."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo4",
+   "sfx": [
+    [
+     "coin",
+     "plata."
+    ]
+   ],
+   "start": 13.08,
+   "dur": 4.74,
+   "text": "La moneda de 10 nuevos pesos de los años 90 tiene el centro de plata.",
+   "words": [
+    {
+     "t": 13.2,
+     "e": 13.315,
+     "w": "La",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.315,
+     "e": 13.635,
+     "w": "moneda",
+     "a": [
+      "moneda"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.635,
+     "e": 13.815,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.815,
+     "e": 14.115,
+     "w": "10",
+     "a": [
+      "10"
+     ],
+     "k": true
+    },
+    {
+     "t": 14.115,
+     "e": 14.355,
+     "w": "nuevos",
+     "a": [
+      "nuevos"
+     ],
+     "k": true
+    },
+    {
+     "t": 14.355,
+     "e": 14.835,
+     "w": "pesos",
+     "a": [
+      "pesos"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.835,
+     "e": 15.175,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.175,
+     "e": 15.295,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.295,
+     "e": 15.515,
+     "w": "años",
+     "a": [
+      "años"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.515,
+     "e": 15.815,
+     "w": "90",
+     "a": [
+      "90"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.815,
+     "e": 16.435,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.435,
+     "e": 16.595,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.595,
+     "e": 16.955,
+     "w": "centro",
+     "a": [
+      "centro"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.955,
+     "e": 17.155,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.155,
+     "e": 17.495,
+     "w": "plata.",
+     "a": [
+      "plata"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "bimetalica",
+      "en": null,
+      "size": 240
+     },
+     {
+      "t": "pildora",
+      "texto": "10 nuevos pesos · años 90",
+      "en": "10",
+      "size": 48
+     },
+     {
+      "t": "titulo",
+      "texto": "Centro de [plata]",
+      "en": "plata.",
+      "size": 110
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo5",
+   "sfx": [
+    [
+     "pop",
+     "925."
+    ]
+   ],
+   "start": 17.82,
+   "dur": 2.35,
+   "text": "Plata de ley 925.",
+   "words": [
+    {
+     "t": 17.94,
+     "e": 18.205,
+     "w": "Plata",
+     "a": [
+      "plata"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.205,
+     "e": 18.385,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.385,
+     "e": 18.565,
+     "w": "ley",
+     "a": [
+      "ley"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.565,
+     "e": 19.665,
+     "w": "925.",
+     "a": [
+      "925"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "centro_plata",
+      "en": null,
+      "anim": "late",
+      "size": 300
+     },
+     {
+      "t": "titulo",
+      "texto": "Ley [.925]",
+      "en": "925.",
+      "size": 130
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo6",
+   "sfx": [
+    [
+     "thud",
+     "5"
+    ]
+   ],
+   "start": 20.17,
+   "dur": 3.09,
+   "text": "Esa monedita trae unos 5 gramos de plata pura.",
+   "words": [
+    {
+     "t": 20.29,
+     "e": 20.525,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.525,
+     "e": 20.985,
+     "w": "monedita",
+     "a": [
+      "monedita"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.985,
+     "e": 21.325,
+     "w": "trae",
+     "a": [
+      "trae"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.325,
+     "e": 21.445,
+     "w": "unos",
+     "a": [
+      "unos"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.445,
+     "e": 21.965,
+     "w": "5",
+     "a": [
+      "5"
+     ],
+     "k": true
+    },
+    {
+     "t": 21.965,
+     "e": 22.385,
+     "w": "gramos",
+     "a": [
+      "gramos"
+     ],
+     "k": true
+    },
+    {
+     "t": 22.385,
+     "e": 22.505,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.505,
+     "e": 22.725,
+     "w": "plata",
+     "a": [
+      "plata"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.725,
+     "e": 23.38,
+     "w": "pura.",
+     "a": [
+      "pura"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "balanza",
+      "en": null,
+      "size": 240,
+      "color": "#dfe6ee",
+      "color2": "#dfe6ee"
+     },
+     {
+      "t": "numero",
+      "valor": 5,
+      "en": "5",
+      "prefijo": "≈ ",
+      "sufijo": " g",
+      "size": 200,
+      "color": "#dfe6ee"
+     },
+     {
+      "t": "texto",
+      "texto": "de plata pura",
+      "en": "pura."
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo7",
+   "sfx": [
+    [
+     "coin",
+     "100"
+    ]
+   ],
+   "start": 23.26,
+   "dur": 4.505,
+   "text": "Con el precio de la plata hoy, solo el metal puede valer más de 100 pesos.",
+   "words": [
+    {
+     "t": 23.38,
+     "e": 23.475,
+     "w": "Con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.475,
+     "e": 23.595,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.595,
+     "e": 23.855,
+     "w": "precio",
+     "a": [
+      "precio"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.855,
+     "e": 23.995,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.995,
+     "e": 24.095,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.095,
+     "e": 24.375,
+     "w": "plata",
+     "a": [
+      "plata"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.375,
+     "e": 24.655,
+     "w": "hoy,",
+     "a": [
+      "hoy"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.965,
+     "e": 25.165,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.165,
+     "e": 25.325,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.325,
+     "e": 25.725,
+     "w": "metal",
+     "a": [
+      "metal"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.725,
+     "e": 26.005,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.005,
+     "e": 26.365,
+     "w": "valer",
+     "a": [
+      "valer"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.365,
+     "e": 26.525,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.525,
+     "e": 26.685,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.685,
+     "e": 26.945,
+     "w": "100",
+     "a": [
+      "100"
+     ],
+     "k": true
+    },
+    {
+     "t": 26.945,
+     "e": 27.345,
+     "w": "pesos.",
+     "a": [
+      "pesos"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "texto",
+      "texto": "Solo el metal:",
+      "en": "metal"
+     },
+     {
+      "t": "numero",
+      "valor": 100,
+      "en": "100",
+      "prefijo": "+$",
+      "size": 220
+     },
+     {
+      "t": "icono",
+      "nombre": "grafico_sube",
+      "en": null,
+      "size": 180,
+      "color": "verde"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo8",
+   "sfx": [
+    [
+     "stamp",
+     "veces"
+    ]
+   ],
+   "start": 27.765,
+   "dur": 1.925,
+   "text": "10 veces lo que dice la moneda.",
+   "words": [
+    {
+     "t": 27.885,
+     "e": 28.125,
+     "w": "10",
+     "a": [
+      "10"
+     ],
+     "k": true
+    },
+    {
+     "t": 28.125,
+     "e": 28.505,
+     "w": "veces",
+     "a": [
+      "veces"
+     ],
+     "k": true
+    },
+    {
+     "t": 28.505,
+     "e": 28.705,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.705,
+     "e": 28.825,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.825,
+     "e": 29.005,
+     "w": "dice",
+     "a": [
+      "dice"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.005,
+     "e": 29.165,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.165,
+     "e": 29.505,
+     "w": "moneda.",
+     "a": [
+      "moneda"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "vs",
+      "a": {
+       "texto": "Dice la moneda",
+       "valor": 10,
+       "prefijo": "$",
+       "color": "#9aa6b4"
+      },
+      "b": {
+       "texto": "Vale en plata",
+       "valor": 100,
+       "prefijo": "+$",
+       "color": "oro",
+       "en": "veces"
+      },
+      "en": null
+     },
+     {
+      "t": "sello",
+      "texto": "×10",
+      "en": "veces",
+      "color": "verde",
+      "size": 120
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo9",
+   "sfx": [
+    [
+     "coin",
+     "más."
+    ]
+   ],
+   "start": 29.69,
+   "dur": 4.17,
+   "text": "Y si está bien conservada, un coleccionista puede pagar todavía más.",
+   "words": [
+    {
+     "t": 29.81,
+     "e": 29.905,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.905,
+     "e": 30.005,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.005,
+     "e": 30.225,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.225,
+     "e": 30.445,
+     "w": "bien",
+     "a": [
+      "bien"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.445,
+     "e": 31.085,
+     "w": "conservada,",
+     "a": [
+      "conservada"
+     ],
+     "k": true
+    },
+    {
+     "t": 31.385,
+     "e": 31.465,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.465,
+     "e": 32.085,
+     "w": "coleccionista",
+     "a": [
+      "coleccionista"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.085,
+     "e": 32.325,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.325,
+     "e": 32.685,
+     "w": "pagar",
+     "a": [
+      "pagar"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.685,
+     "e": 33.245,
+     "w": "todavía",
+     "a": [
+      "todavía"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.245,
+     "e": 33.545,
+     "w": "más.",
+     "a": [
+      "más"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "lupa",
+      "en": null,
+      "anim": "balancea",
+      "size": 220
+     },
+     {
+      "t": "titulo",
+      "texto": "Bien [conservada]",
+      "en": "conservada,",
+      "size": 100
+     },
+     {
+      "t": "pildora",
+      "texto": "Coleccionista: paga más",
+      "en": "coleccionista",
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo10",
+   "sfx": [
+    [
+     "pop",
+     "poquito"
+    ]
+   ],
+   "start": 33.86,
+   "dur": 5.25,
+   "text": "Por eso, si alguien te ofrece poquito por ella, ya sabes por qué tiene tanto interés.",
+   "words": [
+    {
+     "t": 33.98,
+     "e": 34.105,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.105,
+     "e": 34.325,
+     "w": "eso,",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.685,
+     "e": 34.765,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.765,
+     "e": 35.025,
+     "w": "alguien",
+     "a": [
+      "alguien"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.025,
+     "e": 35.185,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.185,
+     "e": 35.445,
+     "w": "ofrece",
+     "a": [
+      "ofrece"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.445,
+     "e": 35.925,
+     "w": "poquito",
+     "a": [
+      "poquito"
+     ],
+     "k": true
+    },
+    {
+     "t": 35.925,
+     "e": 36.365,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.365,
+     "e": 36.585,
+     "w": "ella,",
+     "a": [
+      "ella"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.895,
+     "e": 37.115,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.115,
+     "e": 37.415,
+     "w": "sabes",
+     "a": [
+      "sabes"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.415,
+     "e": 37.655,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.655,
+     "e": 37.855,
+     "w": "qué",
+     "a": [
+      "qué"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.855,
+     "e": 38.155,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.155,
+     "e": 38.395,
+     "w": "tanto",
+     "a": [
+      "tanto"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.395,
+     "e": 38.875,
+     "w": "interés.",
+     "a": [
+      "interés"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "billete",
+      "en": null,
+      "size": 200,
+      "color": "rojo"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Te ofrecen [poquito]?",
+      "en": "poquito",
+      "size": 100
+     },
+     {
+      "t": "texto",
+      "texto": "Ya sabes por qué tanto interés",
+      "en": "interés."
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo11",
+   "sfx": [
+    [
+     "pop",
+     "errores"
+    ],
+    [
+     "pop",
+     "producción"
+    ],
+    [
+     "pop",
+     "antiguas"
+    ]
+   ],
+   "start": 39.11,
+   "dur": 7.75,
+   "text": "Y no son solo esas. Revisa también monedas con errores de fábrica, de años con poca producción o monedas antiguas de plata.",
+   "words": [
+    {
+     "t": 39.23,
+     "e": 39.335,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.335,
+     "e": 39.435,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.435,
+     "e": 39.615,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.615,
+     "e": 39.835,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.835,
+     "e": 40.095,
+     "w": "esas.",
+     "a": [
+      "esas"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.615,
+     "e": 40.995,
+     "w": "Revisa",
+     "a": [
+      "revisa"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.995,
+     "e": 41.315,
+     "w": "también",
+     "a": [
+      "también"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.315,
+     "e": 41.855,
+     "w": "monedas",
+     "a": [
+      "monedas"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.855,
+     "e": 42.035,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.035,
+     "e": 42.435,
+     "w": "errores",
+     "a": [
+      "errores"
+     ],
+     "k": true
+    },
+    {
+     "t": 42.435,
+     "e": 42.535,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.535,
+     "e": 43.035,
+     "w": "fábrica,",
+     "a": [
+      "fábrica"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.375,
+     "e": 43.495,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.495,
+     "e": 43.715,
+     "w": "años",
+     "a": [
+      "años"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.715,
+     "e": 43.975,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.975,
+     "e": 44.315,
+     "w": "poca",
+     "a": [
+      "poca"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.315,
+     "e": 44.735,
+     "w": "producción",
+     "a": [
+      "producción"
+     ],
+     "k": true
+    },
+    {
+     "t": 44.735,
+     "e": 45.305,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.305,
+     "e": 45.725,
+     "w": "monedas",
+     "a": [
+      "monedas"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.725,
+     "e": 46.265,
+     "w": "antiguas",
+     "a": [
+      "antiguas"
+     ],
+     "k": true
+    },
+    {
+     "t": 46.265,
+     "e": 46.365,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.365,
+     "e": 46.645,
+     "w": "plata.",
+     "a": [
+      "plata"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "Revisa también:",
+      "en": null,
+      "size": 96
+     },
+     {
+      "t": "tarjetas",
+      "items": [
+       {
+        "icono": "lupa",
+        "texto": "Errores de fábrica",
+        "en": "errores",
+        "size": 52
+       },
+       {
+        "icono": "calendario",
+        "texto": "Poca producción",
+        "en": "producción",
+        "size": 52
+       },
+       {
+        "icono": "moneda",
+        "texto": "Antiguas de plata",
+        "color": "#dfe6ee",
+        "en": "antiguas",
+        "size": 52
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo12",
+   "sfx": [
+    [
+     "pop",
+     "busca"
+    ],
+    [
+     "pop",
+     "compara"
+    ],
+    [
+     "pop",
+     "anuncios."
+    ]
+   ],
+   "start": 46.86,
+   "dur": 5.47,
+   "text": "Antes de vender, busca su año y compara precios de ventas reales, no de anuncios.",
+   "words": [
+    {
+     "t": 46.98,
+     "e": 47.235,
+     "w": "Antes",
+     "a": [
+      "antes"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.235,
+     "e": 47.395,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.395,
+     "e": 47.655,
+     "w": "vender,",
+     "a": [
+      "vender"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.035,
+     "e": 48.275,
+     "w": "busca",
+     "a": [
+      "busca"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.275,
+     "e": 48.535,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.535,
+     "e": 48.795,
+     "w": "año",
+     "a": [
+      "año"
+     ],
+     "k": true
+    },
+    {
+     "t": 48.795,
+     "e": 49.075,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.075,
+     "e": 49.455,
+     "w": "compara",
+     "a": [
+      "compara"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.455,
+     "e": 49.855,
+     "w": "precios",
+     "a": [
+      "precios"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.855,
+     "e": 49.995,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.995,
+     "e": 50.355,
+     "w": "ventas",
+     "a": [
+      "ventas"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.355,
+     "e": 51.24,
+     "w": "reales,",
+     "a": [
+      "reales"
+     ],
+     "k": true
+    },
+    {
+     "t": 51.315,
+     "e": 51.455,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.455,
+     "e": 51.575,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.575,
+     "e": 52.155,
+     "w": "anuncios.",
+     "a": [
+      "anuncios"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pasos",
+      "items": [
+       {
+        "texto": "Busca su [año]",
+        "en": "busca"
+       },
+       {
+        "texto": "Compara ventas [reales]",
+        "en": "compara"
+       }
+      ],
+      "en": null
+     },
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Precios de anuncios",
+        "ok": false,
+        "en": "anuncios."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo13",
+   "sfx": [
+    [
+     "coin",
+     "guardada?"
+    ]
+   ],
+   "start": 52.33,
+   "dur": 2.44,
+   "text": "¿Tienes alguna guardada?",
+   "words": [
+    {
+     "t": 52.45,
+     "e": 52.715,
+     "w": "¿Tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.715,
+     "e": 52.935,
+     "w": "alguna",
+     "a": [
+      "alguna"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.935,
+     "e": 53.435,
+     "w": "guardada?",
+     "a": [
+      "guardada"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "bimetalica",
+      "en": null,
+      "anim": "gira",
+      "size": 220
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Tienes [alguna]?",
+      "en": null,
+      "size": 120
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ],
+ "estilo": {
+  "acento": "#ffc83d",
+  "tinte": "#3a3016"
+ }
+}

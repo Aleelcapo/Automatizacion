@@ -1,0 +1,1910 @@
+{
+ "id": "narcotrafico",
+ "duration": 53.34,
+ "beats": [
+  {
+   "scene": "n1",
+   "sfx": [
+    [
+     "pop",
+     "economía?"
+    ]
+   ],
+   "start": 0.0,
+   "dur": 2.27,
+   "text": "¿El narcotráfico ayuda a la economía?",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.235,
+     "w": "¿El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.235,
+     "e": 0.935,
+     "w": "narcotráfico",
+     "a": [
+      "narcotráfico"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.935,
+     "e": 1.255,
+     "w": "ayuda",
+     "a": [
+      "ayuda"
+     ],
+     "k": true
+    },
+    {
+     "t": 1.255,
+     "e": 1.475,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.475,
+     "e": 1.535,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.535,
+     "e": 2.015,
+     "w": "economía?",
+     "a": [
+      "economía"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "balanza",
+      "en": null,
+      "anim": "balancea",
+      "size": 280,
+      "color": "verde",
+      "color2": "rojo"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿El narco [ayuda] a la economía?",
+      "en": null,
+      "size": 96
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n2",
+   "sfx": [
+    [
+     "pop",
+     "sí."
+    ]
+   ],
+   "start": 2.27,
+   "dur": 1.88,
+   "text": "En las películas parece que sí.",
+   "words": [
+    {
+     "t": 2.39,
+     "e": 2.515,
+     "w": "En",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.515,
+     "e": 2.655,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.655,
+     "e": 3.195,
+     "w": "películas",
+     "a": [
+      "películas"
+     ],
+     "k": true
+    },
+    {
+     "t": 3.195,
+     "e": 3.455,
+     "w": "parece",
+     "a": [
+      "parece"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.455,
+     "e": 3.715,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.715,
+     "e": 3.935,
+     "w": "sí.",
+     "a": [
+      "sí"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "claqueta",
+      "en": null,
+      "anim": "balancea",
+      "size": 240
+     },
+     {
+      "t": "titulo",
+      "texto": "En las películas: [sí]",
+      "en": "sí.",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n3",
+   "sfx": [
+    [
+     "coin",
+     "dinero"
+    ]
+   ],
+   "start": 4.15,
+   "dur": 2.4,
+   "text": "Entra muchísimo dinero en efectivo.",
+   "words": [
+    {
+     "t": 4.27,
+     "e": 4.555,
+     "w": "Entra",
+     "a": [
+      "entra"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.555,
+     "e": 5.255,
+     "w": "muchísimo",
+     "a": [
+      "muchísimo"
+     ],
+     "k": true
+    },
+    {
+     "t": 5.255,
+     "e": 5.715,
+     "w": "dinero",
+     "a": [
+      "dinero"
+     ],
+     "k": true
+    },
+    {
+     "t": 5.715,
+     "e": 5.875,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.875,
+     "e": 6.375,
+     "w": "efectivo.",
+     "a": [
+      "efectivo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "billete",
+        "color": "verde"
+       },
+       {
+        "nombre": "bolsa"
+       },
+       {
+        "nombre": "billete",
+        "color": "verde"
+       }
+      ],
+      "en": null,
+      "size": 190,
+      "anim": "cae"
+     },
+     {
+      "t": "titulo",
+      "texto": "Dinero en [efectivo]",
+      "en": "efectivo.",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n4",
+   "sfx": [
+    [
+     "pop",
+     "casas,"
+    ],
+    [
+     "pop",
+     "negocios,"
+    ],
+    [
+     "pop",
+     "autos."
+    ]
+   ],
+   "start": 6.55,
+   "dur": 3.86,
+   "text": "Se construyen casas, se abren negocios, se compran autos.",
+   "words": [
+    {
+     "t": 6.67,
+     "e": 6.765,
+     "w": "Se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.765,
+     "e": 7.245,
+     "w": "construyen",
+     "a": [
+      "construyen"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.245,
+     "e": 7.845,
+     "w": "casas,",
+     "a": [
+      "casas"
+     ],
+     "k": true
+    },
+    {
+     "t": 8.105,
+     "e": 8.185,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.185,
+     "e": 8.385,
+     "w": "abren",
+     "a": [
+      "abren"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.385,
+     "e": 8.985,
+     "w": "negocios,",
+     "a": [
+      "negocios"
+     ],
+     "k": true
+    },
+    {
+     "t": 9.345,
+     "e": 9.425,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.425,
+     "e": 9.725,
+     "w": "compran",
+     "a": [
+      "compran"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.725,
+     "e": 10.225,
+     "w": "autos.",
+     "a": [
+      "autos"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "casa",
+        "texto": "Casas",
+        "en": "casas,"
+       },
+       {
+        "nombre": "edificio",
+        "texto": "Negocios",
+        "en": "negocios,"
+       },
+       {
+        "nombre": "auto",
+        "texto": "Autos",
+        "en": "autos."
+       }
+      ],
+      "en": null,
+      "size": 190
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n5",
+   "sfx": [
+    [
+     "pop",
+     "canchas"
+    ],
+    [
+     "pop",
+     "viviendas"
+    ]
+   ],
+   "start": 10.41,
+   "dur": 4.27,
+   "text": "Algunos narcos hasta construyeron canchas y viviendas para ganarse al barrio.",
+   "words": [
+    {
+     "t": 10.53,
+     "e": 10.885,
+     "w": "Algunos",
+     "a": [
+      "algunos"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.885,
+     "e": 11.225,
+     "w": "narcos",
+     "a": [
+      "narcos"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.225,
+     "e": 11.585,
+     "w": "hasta",
+     "a": [
+      "hasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.585,
+     "e": 12.245,
+     "w": "construyeron",
+     "a": [
+      "construyeron"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.245,
+     "e": 12.785,
+     "w": "canchas",
+     "a": [
+      "canchas"
+     ],
+     "k": true
+    },
+    {
+     "t": 12.785,
+     "e": 12.945,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.945,
+     "e": 13.465,
+     "w": "viviendas",
+     "a": [
+      "viviendas"
+     ],
+     "k": true
+    },
+    {
+     "t": 13.465,
+     "e": 13.665,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.665,
+     "e": 14.065,
+     "w": "ganarse",
+     "a": [
+      "ganarse"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.065,
+     "e": 14.205,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.205,
+     "e": 14.8,
+     "w": "barrio.",
+     "a": [
+      "barrio"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "estrella",
+        "texto": "Canchas",
+        "en": "canchas"
+       },
+       {
+        "nombre": "casa",
+        "texto": "Viviendas",
+        "en": "viviendas"
+       }
+      ],
+      "en": null,
+      "size": 180
+     },
+     {
+      "t": "icono",
+      "nombre": "grupo",
+      "en": "barrio.",
+      "size": 180,
+      "color2": "#9fb0c8"
+     },
+     {
+      "t": "titulo",
+      "texto": "Para ganarse al [barrio]",
+      "en": "ganarse",
+      "size": 84
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n6",
+   "sfx": [
+    [
+     "drop",
+     "cuenta"
+    ]
+   ],
+   "start": 14.68,
+   "dur": 3.41,
+   "text": "Pero hay una cuenta que las películas nunca te muestran.",
+   "words": [
+    {
+     "t": 14.8,
+     "e": 14.955,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.955,
+     "e": 15.335,
+     "w": "hay",
+     "a": [
+      "hay"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.335,
+     "e": 15.515,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.515,
+     "e": 15.855,
+     "w": "cuenta",
+     "a": [
+      "cuenta"
+     ],
+     "k": true
+    },
+    {
+     "t": 15.855,
+     "e": 16.055,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.055,
+     "e": 16.235,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.235,
+     "e": 16.815,
+     "w": "películas",
+     "a": [
+      "películas"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.815,
+     "e": 17.275,
+     "w": "nunca",
+     "a": [
+      "nunca"
+     ],
+     "k": true
+    },
+    {
+     "t": 17.275,
+     "e": 17.515,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.515,
+     "e": 17.915,
+     "w": "muestran.",
+     "a": [
+      "muestran"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "La cuenta que [no te muestran]",
+      "en": null,
+      "size": 104
+     },
+     {
+      "t": "icono",
+      "nombre": "lupa",
+      "en": null,
+      "anim": "balancea",
+      "size": 230,
+      "color": "#ffffff"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n7",
+   "sfx": [
+    [
+     "drop",
+     "billones"
+    ]
+   ],
+   "start": 18.09,
+   "dur": 5.95,
+   "text": "En México, la violencia le costó al país cerca de 4 billones de pesos en 2025.",
+   "words": [
+    {
+     "t": 18.21,
+     "e": 18.355,
+     "w": "En",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.355,
+     "e": 18.675,
+     "w": "México,",
+     "a": [
+      "méxico"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.135,
+     "e": 19.195,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.195,
+     "e": 19.595,
+     "w": "violencia",
+     "a": [
+      "violencia"
+     ],
+     "k": true
+    },
+    {
+     "t": 19.595,
+     "e": 19.755,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.755,
+     "e": 20.075,
+     "w": "costó",
+     "a": [
+      "costó"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.075,
+     "e": 20.195,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.195,
+     "e": 20.475,
+     "w": "país",
+     "a": [
+      "país"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.475,
+     "e": 20.875,
+     "w": "cerca",
+     "a": [
+      "cerca"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.875,
+     "e": 21.095,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.095,
+     "e": 21.545,
+     "w": "4",
+     "a": [
+      "4"
+     ],
+     "k": true
+    },
+    {
+     "t": 21.545,
+     "e": 22.145,
+     "w": "billones",
+     "a": [
+      "billones"
+     ],
+     "k": true
+    },
+    {
+     "t": 22.145,
+     "e": 22.365,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.365,
+     "e": 22.665,
+     "w": "pesos",
+     "a": [
+      "pesos"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.665,
+     "e": 22.885,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.885,
+     "e": 23.485,
+     "w": "2025.",
+     "a": [
+      "2025"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "México · 2025",
+      "en": null,
+      "size": 50
+     },
+     {
+      "t": "texto",
+      "texto": "La violencia costó:",
+      "en": "violencia"
+     },
+     {
+      "t": "numero",
+      "valor": 4,
+      "en": "4",
+      "prefijo": "$",
+      "sufijo": " billones",
+      "size": 150,
+      "color": "rojo"
+     },
+     {
+      "t": "texto",
+      "texto": "de pesos",
+      "en": "pesos"
+     }
+    ],
+    "tinte": "#4a1a24"
+   }
+  },
+  {
+   "scene": "n8",
+   "sfx": [
+    [
+     "stamp",
+     "11"
+    ]
+   ],
+   "start": 24.04,
+   "dur": 3.17,
+   "text": "Eso es como el 11 % de toda su economía.",
+   "words": [
+    {
+     "t": 24.16,
+     "e": 24.315,
+     "w": "Eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.315,
+     "e": 24.435,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.435,
+     "e": 24.615,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.615,
+     "e": 24.775,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.775,
+     "e": 25.175,
+     "w": "11",
+     "a": [
+      "11"
+     ],
+     "k": true
+    },
+    {
+     "t": 25.175,
+     "e": 25.655,
+     "w": "%",
+     "a": [
+      "%"
+     ],
+     "k": true
+    },
+    {
+     "t": 25.655,
+     "e": 25.995,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.995,
+     "e": 26.295,
+     "w": "toda",
+     "a": [
+      "toda"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.295,
+     "e": 26.535,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.535,
+     "e": 27.075,
+     "w": "economía.",
+     "a": [
+      "economía"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "numero",
+      "valor": 11,
+      "en": "11",
+      "sufijo": "%",
+      "size": 260,
+      "color": "rojo"
+     },
+     {
+      "t": "titulo",
+      "texto": "de toda la [economía]",
+      "en": "economía.",
+      "size": 88
+     }
+    ],
+    "tinte": "#4a1a24"
+   }
+  },
+  {
+   "scene": "n9",
+   "sfx": [
+    [
+     "pop",
+     "invierten,"
+    ],
+    [
+     "pop",
+     "turistas"
+    ],
+    [
+     "pop",
+     "extorsión."
+    ]
+   ],
+   "start": 27.21,
+   "dur": 7.53,
+   "text": "¿Por qué tanto? Porque donde hay violencia, las empresas no invierten, los turistas no llegan y los negocios pagan extorsión.",
+   "words": [
+    {
+     "t": 27.33,
+     "e": 27.445,
+     "w": "¿Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.445,
+     "e": 27.585,
+     "w": "qué",
+     "a": [
+      "qué"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.585,
+     "e": 27.885,
+     "w": "tanto?",
+     "a": [
+      "tanto"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.29,
+     "e": 28.455,
+     "w": "Porque",
+     "a": [
+      "porque"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.455,
+     "e": 28.695,
+     "w": "donde",
+     "a": [
+      "donde"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.695,
+     "e": 28.975,
+     "w": "hay",
+     "a": [
+      "hay"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.975,
+     "e": 29.435,
+     "w": "violencia,",
+     "a": [
+      "violencia"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.835,
+     "e": 29.875,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.875,
+     "e": 30.255,
+     "w": "empresas",
+     "a": [
+      "empresas"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.255,
+     "e": 30.635,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.635,
+     "e": 31.075,
+     "w": "invierten,",
+     "a": [
+      "invierten"
+     ],
+     "k": true
+    },
+    {
+     "t": 31.36,
+     "e": 31.495,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.495,
+     "e": 31.895,
+     "w": "turistas",
+     "a": [
+      "turistas"
+     ],
+     "k": true
+    },
+    {
+     "t": 31.895,
+     "e": 32.215,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.215,
+     "e": 32.635,
+     "w": "llegan",
+     "a": [
+      "llegan"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.635,
+     "e": 32.835,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.835,
+     "e": 32.975,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.975,
+     "e": 33.415,
+     "w": "negocios",
+     "a": [
+      "negocios"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.415,
+     "e": 33.905,
+     "w": "pagan",
+     "a": [
+      "pagan"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.905,
+     "e": 34.585,
+     "w": "extorsión.",
+     "a": [
+      "extorsión"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "¿Por qué?",
+      "en": null,
+      "size": 110
+     },
+     {
+      "t": "tarjetas",
+      "items": [
+       {
+        "icono": "fabrica",
+        "texto": "Sin inversión",
+        "color": "rojo",
+        "en": "invierten,"
+       },
+       {
+        "icono": "avion",
+        "texto": "Sin turistas",
+        "color": "rojo",
+        "en": "turistas"
+       },
+       {
+        "icono": "candado",
+        "texto": "Extorsión",
+        "color": "rojo",
+        "en": "extorsión."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n10",
+   "sfx": [
+    [
+     "pop",
+     "infla"
+    ]
+   ],
+   "start": 34.74,
+   "dur": 5.7,
+   "text": "Además, el dinero lavado infla el precio de las casas y la gente común ya no puede pagarlas.",
+   "words": [
+    {
+     "t": 34.86,
+     "e": 35.165,
+     "w": "Además,",
+     "a": [
+      "además"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.605,
+     "e": 35.665,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.665,
+     "e": 35.905,
+     "w": "dinero",
+     "a": [
+      "dinero"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.905,
+     "e": 36.365,
+     "w": "lavado",
+     "a": [
+      "lavado"
+     ],
+     "k": true
+    },
+    {
+     "t": 36.365,
+     "e": 36.885,
+     "w": "infla",
+     "a": [
+      "infla"
+     ],
+     "k": true
+    },
+    {
+     "t": 36.885,
+     "e": 36.965,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.965,
+     "e": 37.185,
+     "w": "precio",
+     "a": [
+      "precio"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.185,
+     "e": 37.365,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.365,
+     "e": 37.525,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.525,
+     "e": 37.985,
+     "w": "casas",
+     "a": [
+      "casas"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.985,
+     "e": 38.215,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.215,
+     "e": 38.315,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.315,
+     "e": 38.495,
+     "w": "gente",
+     "a": [
+      "gente"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.495,
+     "e": 38.915,
+     "w": "común",
+     "a": [
+      "común"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.915,
+     "e": 39.255,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.255,
+     "e": 39.395,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.395,
+     "e": 39.595,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.595,
+     "e": 40.275,
+     "w": "pagarlas.",
+     "a": [
+      "pagarlas"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "casa"
+       },
+       {
+        "nombre": "grafico_sube",
+        "color": "rojo",
+        "en": "infla"
+       }
+      ],
+      "en": null,
+      "size": 210
+     },
+     {
+      "t": "titulo",
+      "texto": "Casas [impagables]",
+      "en": "pagarlas.",
+      "acento": "rojo",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n11",
+   "sfx": [
+    [
+     "coin",
+     "arriba,"
+    ],
+    [
+     "drop",
+     "riesgo."
+    ]
+   ],
+   "start": 40.44,
+   "dur": 4.58,
+   "text": "Y la mayor parte de la ganancia se queda arriba, mientras los de abajo ponen el riesgo.",
+   "words": [
+    {
+     "t": 40.56,
+     "e": 40.645,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.645,
+     "e": 40.745,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.745,
+     "e": 40.965,
+     "w": "mayor",
+     "a": [
+      "mayor"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.965,
+     "e": 41.305,
+     "w": "parte",
+     "a": [
+      "parte"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.305,
+     "e": 41.485,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.485,
+     "e": 41.585,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.585,
+     "e": 42.025,
+     "w": "ganancia",
+     "a": [
+      "ganancia"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.025,
+     "e": 42.205,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.205,
+     "e": 42.445,
+     "w": "queda",
+     "a": [
+      "queda"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.445,
+     "e": 42.785,
+     "w": "arriba,",
+     "a": [
+      "arriba"
+     ],
+     "k": true
+    },
+    {
+     "t": 43.02,
+     "e": 43.235,
+     "w": "mientras",
+     "a": [
+      "mientras"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.235,
+     "e": 43.455,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.455,
+     "e": 43.615,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.615,
+     "e": 43.915,
+     "w": "abajo",
+     "a": [
+      "abajo"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.915,
+     "e": 44.455,
+     "w": "ponen",
+     "a": [
+      "ponen"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.455,
+     "e": 44.575,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.575,
+     "e": 45.14,
+     "w": "riesgo.",
+     "a": [
+      "riesgo"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "vs",
+      "a": {
+       "icono": "bolsa",
+       "texto": "Arriba: la ganancia",
+       "color": "oro",
+       "en": "ganancia"
+      },
+      "b": {
+       "icono": "alerta",
+       "texto": "Abajo: el riesgo",
+       "color": "rojo",
+       "en": "riesgo."
+      },
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n12",
+   "sfx": [
+    [
+     "drop",
+     "pierde."
+    ]
+   ],
+   "start": 45.02,
+   "dur": 5.06,
+   "text": "Entonces, ¿ayuda a la economía? Lo que entra es mucho menos de lo que se pierde.",
+   "words": [
+    {
+     "t": 45.14,
+     "e": 45.525,
+     "w": "Entonces,",
+     "a": [
+      "entonces"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.97,
+     "e": 46.315,
+     "w": "¿ayuda",
+     "a": [
+      "ayuda"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.315,
+     "e": 46.455,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.455,
+     "e": 46.515,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.515,
+     "e": 46.975,
+     "w": "economía?",
+     "a": [
+      "economía"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.32,
+     "e": 47.445,
+     "w": "Lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.445,
+     "e": 47.585,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.585,
+     "e": 47.885,
+     "w": "entra",
+     "a": [
+      "entra"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.885,
+     "e": 48.295,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.295,
+     "e": 48.735,
+     "w": "mucho",
+     "a": [
+      "mucho"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.735,
+     "e": 49.095,
+     "w": "menos",
+     "a": [
+      "menos"
+     ],
+     "k": true
+    },
+    {
+     "t": 49.095,
+     "e": 49.295,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.295,
+     "e": 49.375,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.375,
+     "e": 49.495,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.495,
+     "e": 49.615,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.615,
+     "e": 50.2,
+     "w": "pierde.",
+     "a": [
+      "pierde"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "balanza",
+      "en": null,
+      "anim": "balancea",
+      "size": 240,
+      "color": "verde",
+      "color2": "rojo"
+     },
+     {
+      "t": "barras",
+      "items": [
+       {
+        "texto": "Lo que entra",
+        "valor": 25,
+        "color": "verde",
+        "en": "entra"
+       },
+       {
+        "texto": "Lo que se pierde",
+        "valor": 100,
+        "color": "rojo",
+        "en": "pierde."
+       }
+      ],
+      "en": null,
+      "max": 100
+     },
+     {
+      "t": "texto",
+      "texto": "(proporción ilustrativa)",
+      "en": "pierde.",
+      "size": 30
+     }
+    ]
+   }
+  },
+  {
+   "scene": "n13",
+   "sfx": [
+    [
+     "pop",
+     "película"
+    ]
+   ],
+   "start": 50.08,
+   "dur": 3.26,
+   "text": "¿Qué película te hizo pensar lo contrario?",
+   "words": [
+    {
+     "t": 50.2,
+     "e": 50.295,
+     "w": "¿Qué",
+     "a": [
+      "qué"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.295,
+     "e": 50.655,
+     "w": "película",
+     "a": [
+      "película"
+     ],
+     "k": true
+    },
+    {
+     "t": 50.655,
+     "e": 50.915,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.915,
+     "e": 51.095,
+     "w": "hizo",
+     "a": [
+      "hizo"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.095,
+     "e": 51.355,
+     "w": "pensar",
+     "a": [
+      "pensar"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.355,
+     "e": 51.615,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.615,
+     "e": 51.875,
+     "w": "contrario?",
+     "a": [
+      "contrario"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "claqueta",
+      "en": null,
+      "anim": "balancea",
+      "size": 220
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Qué [película]?",
+      "en": null,
+      "size": 120
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ],
+ "estilo": {
+  "acento": "#ffc83d",
+  "tinte": "#3a1a22"
+ }
+}

@@ -1,0 +1,536 @@
+{
+ "id": "monedas",
+ "estilo": {
+  "acento": "#ffc83d",
+  "tinte": "#3a3016"
+ },
+ "beats": [
+  {
+   "scene": "mo1",
+   "text": "Si te quieren comprar una moneda que ya no circula, no la vendas. Vale más de lo que crees.",
+   "keys": [
+    "vendas.",
+    "más"
+   ],
+   "sfx": [
+    [
+     "stamp",
+     "vendas."
+    ],
+    [
+     "coin",
+     "vale"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "bimetalica",
+      "en": null,
+      "anim": "balancea",
+      "size": 280
+     },
+     {
+      "t": "sello",
+      "texto": "No la vendas",
+      "en": "vendas.",
+      "color": "rojo"
+     },
+     {
+      "t": "titulo",
+      "texto": "Vale [más] de lo que crees",
+      "en": "vale",
+      "size": 88
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo2",
+   "text": "¿Has visto gente que compra monedas viejas y les quita el anillo de afuera?",
+   "keys": [
+    "anillo",
+    "afuera?"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "quita"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "bimetalica"
+       },
+       {
+        "nombre": "flecha",
+        "color": "#ffffff",
+        "size": 110,
+        "en": "quita"
+       },
+       {
+        "nombre": "centro_plata",
+        "en": "anillo"
+       }
+      ],
+      "en": null,
+      "size": 200,
+      "gap": 24
+     },
+     {
+      "t": "titulo",
+      "texto": "Les quitan el [anillo]",
+      "en": "anillo",
+      "size": 100
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo3",
+   "text": "No es por coleccionar, es por lo que tienen adentro.",
+   "keys": [
+    "adentro."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "adentro."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Coleccionar",
+        "ok": false,
+        "en": "coleccionar,"
+       },
+       {
+        "texto": "Lo que tiene adentro",
+        "ok": true,
+        "en": "adentro."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo4",
+   "text": "La moneda de 10 nuevos pesos de los años 90 tiene el centro de plata.",
+   "keys": [
+    "10",
+    "nuevos",
+    "plata."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "plata."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "bimetalica",
+      "en": null,
+      "size": 240
+     },
+     {
+      "t": "pildora",
+      "texto": "10 nuevos pesos · años 90",
+      "en": "10",
+      "size": 48
+     },
+     {
+      "t": "titulo",
+      "texto": "Centro de [plata]",
+      "en": "plata.",
+      "size": 110
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo5",
+   "text": "Plata de ley 925.",
+   "keys": [
+    "925."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "925."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "centro_plata",
+      "en": null,
+      "anim": "late",
+      "size": 300
+     },
+     {
+      "t": "titulo",
+      "texto": "Ley [.925]",
+      "en": "925.",
+      "size": 130
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo6",
+   "text": "Esa monedita trae unos 5 gramos de plata pura.",
+   "keys": [
+    "5",
+    "gramos"
+   ],
+   "sfx": [
+    [
+     "thud",
+     "5"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "balanza",
+      "en": null,
+      "size": 240,
+      "color": "#dfe6ee",
+      "color2": "#dfe6ee"
+     },
+     {
+      "t": "numero",
+      "valor": 5,
+      "en": "5",
+      "prefijo": "≈ ",
+      "sufijo": " g",
+      "size": 200,
+      "color": "#dfe6ee"
+     },
+     {
+      "t": "texto",
+      "texto": "de plata pura",
+      "en": "pura."
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo7",
+   "text": "Con el precio de la plata hoy, solo el metal puede valer más de 100 pesos.",
+   "keys": [
+    "100",
+    "pesos."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "100"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "texto",
+      "texto": "Solo el metal:",
+      "en": "metal"
+     },
+     {
+      "t": "numero",
+      "valor": 100,
+      "en": "100",
+      "prefijo": "+$",
+      "size": 220
+     },
+     {
+      "t": "icono",
+      "nombre": "grafico_sube",
+      "en": null,
+      "size": 180,
+      "color": "verde"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo8",
+   "text": "10 veces lo que dice la moneda.",
+   "keys": [
+    "10",
+    "veces"
+   ],
+   "sfx": [
+    [
+     "stamp",
+     "veces"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "vs",
+      "a": {
+       "texto": "Dice la moneda",
+       "valor": 10,
+       "prefijo": "$",
+       "color": "#9aa6b4"
+      },
+      "b": {
+       "texto": "Vale en plata",
+       "valor": 100,
+       "prefijo": "+$",
+       "color": "oro",
+       "en": "veces"
+      },
+      "en": null
+     },
+     {
+      "t": "sello",
+      "texto": "×10",
+      "en": "veces",
+      "color": "verde",
+      "size": 120
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo9",
+   "text": "Y si está bien conservada, un coleccionista puede pagar todavía más.",
+   "keys": [
+    "conservada,",
+    "más."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "más."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "lupa",
+      "en": null,
+      "anim": "balancea",
+      "size": 220
+     },
+     {
+      "t": "titulo",
+      "texto": "Bien [conservada]",
+      "en": "conservada,",
+      "size": 100
+     },
+     {
+      "t": "pildora",
+      "texto": "Coleccionista: paga más",
+      "en": "coleccionista",
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo10",
+   "text": "Por eso, si alguien te ofrece poquito por ella, ya sabes por qué tiene tanto interés.",
+   "keys": [
+    "poquito",
+    "interés."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "poquito"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "billete",
+      "en": null,
+      "size": 200,
+      "color": "rojo"
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Te ofrecen [poquito]?",
+      "en": "poquito",
+      "size": 100
+     },
+     {
+      "t": "texto",
+      "texto": "Ya sabes por qué tanto interés",
+      "en": "interés."
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo11",
+   "text": "Y no son solo esas. Revisa también monedas con errores de fábrica, de años con poca producción o monedas antiguas de plata.",
+   "keys": [
+    "errores",
+    "producción",
+    "antiguas"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "errores"
+    ],
+    [
+     "pop",
+     "producción"
+    ],
+    [
+     "pop",
+     "antiguas"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "Revisa también:",
+      "en": null,
+      "size": 96
+     },
+     {
+      "t": "tarjetas",
+      "items": [
+       {
+        "icono": "lupa",
+        "texto": "Errores de fábrica",
+        "en": "errores",
+        "size": 52
+       },
+       {
+        "icono": "calendario",
+        "texto": "Poca producción",
+        "en": "producción",
+        "size": 52
+       },
+       {
+        "icono": "moneda",
+        "texto": "Antiguas de plata",
+        "color": "#dfe6ee",
+        "en": "antiguas",
+        "size": 52
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo12",
+   "text": "Antes de vender, busca su año y compara precios de ventas reales, no de anuncios.",
+   "keys": [
+    "año",
+    "reales,"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "busca"
+    ],
+    [
+     "pop",
+     "compara"
+    ],
+    [
+     "pop",
+     "anuncios."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pasos",
+      "items": [
+       {
+        "texto": "Busca su [año]",
+        "en": "busca"
+       },
+       {
+        "texto": "Compara ventas [reales]",
+        "en": "compara"
+       }
+      ],
+      "en": null
+     },
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Precios de anuncios",
+        "ok": false,
+        "en": "anuncios."
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "mo13",
+   "text": "¿Tienes alguna guardada?",
+   "keys": [
+    "guardada?"
+   ],
+   "sfx": [
+    [
+     "coin",
+     "guardada?"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "bimetalica",
+      "en": null,
+      "anim": "gira",
+      "size": 220
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Tienes [alguna]?",
+      "en": null,
+      "size": 120
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -19,6 +19,6 @@ export const C = {
 
 export const FUENTE = 'Inter';
 
-export type Palabra = {t: number; e: number; w: string; k: boolean};
-export type Beat = {scene: string; start: number; dur: number; text: string; words: Palabra[]; sfx: string[][]};
-export type Datos = {id: string; duration: number; beats: Beat[]};
+export type Palabra = {t: number; e: number; w: string; k: boolean; a?: string[]};
+export type Beat = {scene: string; start: number; dur: number; text: string; words: Palabra[]; sfx: string[][]; escena?: any};
+export type Datos = {id: string; duration: number; beats: Beat[]; estilo?: any};

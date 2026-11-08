@@ -1,0 +1,586 @@
+{
+ "id": "bowling",
+ "estilo": {
+  "acento": "#ff8a3d",
+  "tinte": "#3a2a1a"
+ },
+ "beats": [
+  {
+   "scene": "b1",
+   "text": "¿Sabías que en el bowling puedes hacer 190 puntos sin un solo strike?",
+   "keys": [
+    "190",
+    "strike?"
+   ],
+   "sfx": [
+    [
+     "coin",
+     "190"
+    ],
+    [
+     "thud",
+     "strike?"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "bolo",
+      "en": null,
+      "anim": "balancea",
+      "size": 230
+     },
+     {
+      "t": "numero",
+      "valor": 190,
+      "en": "puntos",
+      "sufijo": " pts",
+      "size": 200
+     },
+     {
+      "t": "titulo",
+      "texto": "sin un [strike]",
+      "en": "sin",
+      "size": 96
+     }
+    ],
+    "icono_fondo": "bola"
+   }
+  },
+  {
+   "scene": "b2",
+   "text": "El truco está en el spare, derribar los 10 pinos en dos tiros.",
+   "keys": [
+    "spare,",
+    "10"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "spare,"
+    ],
+    [
+     "pop",
+     "dos"
+    ]
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "pildora",
+        "texto": "El truco",
+        "en": null
+       },
+       {
+        "t": "titulo",
+        "texto": "[Spare]",
+        "en": "spare,",
+        "size": 150
+       }
+      ]
+     },
+     {
+      "en": "derribar",
+      "el": [
+       {
+        "t": "iconos",
+        "items": [
+         {
+          "nombre": "bola",
+          "texto": "Tiro 1"
+         },
+         {
+          "nombre": "bola",
+          "texto": "Tiro 2",
+          "en": "dos"
+         }
+        ],
+        "en": null,
+        "size": 180
+       },
+       {
+        "t": "titulo",
+        "texto": "= [10] pinos",
+        "en": "10",
+        "size": 96
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b3",
+   "text": "Mira, un spare vale 10 puntos, más lo que tires en la siguiente bola.",
+   "keys": [
+    "10",
+    "siguiente",
+    "bola."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "10"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "Spare =",
+      "en": null,
+      "size": 100
+     },
+     {
+      "t": "numero",
+      "valor": 10,
+      "en": "10",
+      "sufijo": " pts",
+      "size": 190
+     },
+     {
+      "t": "titulo",
+      "texto": "+ la [siguiente bola]",
+      "en": "siguiente",
+      "size": 80
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b4",
+   "text": "Si en cada turno tiras 9 pinos y luego haces spare, cada cuadro te da 19 puntos.",
+   "keys": [
+    "9",
+    "spare,",
+    "19"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "spare,"
+    ],
+    [
+     "coin",
+     "19"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "[9] pinos + spare",
+      "en": "9",
+      "size": 96
+     },
+     {
+      "t": "icono",
+      "nombre": "bolo",
+      "en": "spare,",
+      "anim": "balancea",
+      "size": 200
+     },
+     {
+      "t": "numero",
+      "valor": 19,
+      "en": "19",
+      "sufijo": " por cuadro",
+      "size": 130
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b5",
+   "text": "10 cuadros así y terminas con 190.",
+   "keys": [
+    "190."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "190."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "fila",
+      "items": [
+       {
+        "arriba": "9 /",
+        "abajo": "19"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "38"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "57"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "76"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "95"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "114"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "133"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "152"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "171"
+       },
+       {
+        "arriba": "9 /",
+        "abajo": "190"
+       }
+      ],
+      "en": null,
+      "ancho": 150,
+      "ritmo": 3
+     },
+     {
+      "t": "numero",
+      "valor": 190,
+      "en": "190",
+      "sufijo": " pts",
+      "size": 210
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b6",
+   "text": "Ahora, si tiras 9 en cada turno pero nunca haces spare, sacas solo 90.",
+   "keys": [
+    "nunca",
+    "90."
+   ],
+   "sfx": [
+    [
+     "drop",
+     "90."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "[Sin] spare",
+      "en": "nunca",
+      "acento": "rojo",
+      "size": 110
+     },
+     {
+      "t": "numero",
+      "valor": 90,
+      "en": "90",
+      "sufijo": " pts",
+      "color": "rojo",
+      "size": 200
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b7",
+   "text": "Mismos pinos derribados casi y el spare te duplica el puntaje.",
+   "keys": [
+    "duplica"
+   ],
+   "sfx": [
+    [
+     "stamp",
+     "duplica"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "barras",
+      "items": [
+       {
+        "texto": "Sin spare",
+        "valor": 90,
+        "sufijo": " pts",
+        "color": "rojo"
+       },
+       {
+        "texto": "Con spare",
+        "valor": 190,
+        "sufijo": " pts",
+        "color": "verde",
+        "en": "spare"
+       }
+      ],
+      "en": null
+     },
+     {
+      "t": "sello",
+      "texto": "×2",
+      "en": "duplica",
+      "color": "verde",
+      "size": 120
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b8",
+   "text": "Para alguien que juega por diversión, 190 es un puntaje altísimo.",
+   "keys": [
+    "190",
+    "altísimo."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "altísimo."
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "trofeo",
+      "en": null,
+      "anim": "late",
+      "size": 260
+     },
+     {
+      "t": "titulo",
+      "texto": "190 = [altísimo]",
+      "en": "190",
+      "size": 110
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b9",
+   "text": "Y un dato extra. Si alternas strike y spare toda la partida, terminas con exactamente 200.",
+   "keys": [
+    "strike",
+    "spare",
+    "200."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "200."
+    ]
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "pildora",
+        "texto": "Dato extra",
+        "en": null,
+        "size": 54
+       },
+       {
+        "t": "icono",
+        "nombre": "estrella",
+        "en": null,
+        "anim": "gira",
+        "size": 200
+       }
+      ]
+     },
+     {
+      "en": "alternas",
+      "el": [
+       {
+        "t": "titulo",
+        "texto": "Strike + spare + strike…",
+        "en": null,
+        "size": 72
+       },
+       {
+        "t": "fila",
+        "items": [
+         {
+          "arriba": "X",
+          "abajo": "20"
+         },
+         {
+          "arriba": "9 /",
+          "abajo": "40"
+         },
+         {
+          "arriba": "X",
+          "abajo": "60"
+         },
+         {
+          "arriba": "9 /",
+          "abajo": "80"
+         },
+         {
+          "arriba": "X",
+          "abajo": "100"
+         },
+         {
+          "arriba": "9 /",
+          "abajo": "120"
+         },
+         {
+          "arriba": "X",
+          "abajo": "140"
+         },
+         {
+          "arriba": "9 /",
+          "abajo": "160"
+         },
+         {
+          "arriba": "X",
+          "abajo": "180"
+         },
+         {
+          "arriba": "9 /",
+          "abajo": "200"
+         }
+        ],
+        "en": null,
+        "ancho": 150,
+        "ritmo": 3
+       },
+       {
+        "t": "numero",
+        "valor": 200,
+        "en": "200.",
+        "sufijo": " pts",
+        "size": 200
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b10",
+   "text": "Se llama el Dutch 200.",
+   "keys": [
+    "dutch",
+    "200."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "dutch"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "“[Dutch 200]”",
+      "en": "dutch",
+      "size": 130
+     },
+     {
+      "t": "icono",
+      "nombre": "bola",
+      "en": null,
+      "anim": "gira",
+      "size": 200
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b11",
+   "text": "Así que la próxima vez no busques el strike, asegura el spare.",
+   "keys": [
+    "spare."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "busques"
+    ],
+    [
+     "coin",
+     "asegura"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "lista",
+      "items": [
+       {
+        "texto": "Buscar el strike",
+        "ok": false,
+        "en": "busques"
+       },
+       {
+        "texto": "Asegurar el spare",
+        "ok": true,
+        "en": "asegura"
+       }
+      ],
+      "en": null
+     }
+    ]
+   }
+  },
+  {
+   "scene": "b12",
+   "text": "¿Cuál es tu mejor puntaje?",
+   "keys": [
+    "puntaje?"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "puntaje?"
+    ]
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "comentario",
+      "en": null,
+      "anim": "late",
+      "size": 200
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Tu mejor [puntaje]?",
+      "en": null,
+      "size": 110
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ]
+}

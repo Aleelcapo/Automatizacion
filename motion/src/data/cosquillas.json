@@ -1,0 +1,1835 @@
+{
+ "id": "cosquillas",
+ "duration": 51.96,
+ "beats": [
+  {
+   "scene": "c1",
+   "sfx": [
+    [
+     "pop",
+     "mismo?"
+    ]
+   ],
+   "start": 0.0,
+   "dur": 2.47,
+   "text": "¿Por qué no te puedes hacer cosquillas a ti mismo?",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.245,
+     "w": "¿Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.245,
+     "e": 0.385,
+     "w": "qué",
+     "a": [
+      "qué"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.385,
+     "e": 0.485,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.485,
+     "e": 0.625,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.625,
+     "e": 0.845,
+     "w": "puedes",
+     "a": [
+      "puedes"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.845,
+     "e": 1.165,
+     "w": "hacer",
+     "a": [
+      "hacer"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.165,
+     "e": 1.685,
+     "w": "cosquillas",
+     "a": [
+      "cosquillas"
+     ],
+     "k": true
+    },
+    {
+     "t": 1.685,
+     "e": 1.905,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.905,
+     "e": 1.945,
+     "w": "ti",
+     "a": [
+      "ti"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.945,
+     "e": 2.305,
+     "w": "mismo?",
+     "a": [
+      "mismo"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "pluma_cosquilla",
+      "en": null,
+      "anim": "balancea",
+      "size": 280
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Cosquillas a [ti mismo]?",
+      "en": null,
+      "size": 104
+     }
+    ]
+   }
+  },
+  {
+   "scene": "c2",
+   "sfx": [
+    [
+     "stamp",
+     "funciona."
+    ]
+   ],
+   "start": 2.47,
+   "dur": 2.5,
+   "text": "¡Inténtalo ahora mismo! No funciona.",
+   "words": [
+    {
+     "t": 2.59,
+     "e": 3.045,
+     "w": "¡Inténtalo",
+     "a": [
+      "inténtalo"
+     ],
+     "k": true
+    },
+    {
+     "t": 3.045,
+     "e": 3.305,
+     "w": "ahora",
+     "a": [
+      "ahora"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.305,
+     "e": 3.605,
+     "w": "mismo!",
+     "a": [
+      "mismo"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.99,
+     "e": 4.225,
+     "w": "No",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.225,
+     "e": 4.605,
+     "w": "funciona.",
+     "a": [
+      "funciona"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "mano",
+      "en": null,
+      "anim": "tiembla",
+      "size": 240,
+      "color": "#f2c9a0"
+     },
+     {
+      "t": "numero",
+      "valor": 0,
+      "en": "funciona.",
+      "sufijo": "%",
+      "size": 200,
+      "color": "rojo"
+     },
+     {
+      "t": "sello",
+      "texto": "No funciona",
+      "en": "funciona.",
+      "color": "rojo"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "c3",
+   "sfx": [
+    [
+     "pop",
+     "cerebelo,"
+    ]
+   ],
+   "start": 4.97,
+   "dur": 4.47,
+   "text": "La culpa la tiene tu cerebelo, una parte del cerebro que está aquí atrás.",
+   "words": [
+    {
+     "t": 5.09,
+     "e": 5.215,
+     "w": "La",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.215,
+     "e": 5.495,
+     "w": "culpa",
+     "a": [
+      "culpa"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.495,
+     "e": 5.755,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.755,
+     "e": 5.975,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.975,
+     "e": 6.175,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.175,
+     "e": 6.94,
+     "w": "cerebelo,",
+     "a": [
+      "cerebelo"
+     ],
+     "k": true
+    },
+    {
+     "t": 6.94,
+     "e": 7.085,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.085,
+     "e": 7.365,
+     "w": "parte",
+     "a": [
+      "parte"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.365,
+     "e": 7.585,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.585,
+     "e": 8.005,
+     "w": "cerebro",
+     "a": [
+      "cerebro"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.005,
+     "e": 8.165,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.165,
+     "e": 8.405,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.405,
+     "e": 8.785,
+     "w": "aquí",
+     "a": [
+      "aquí"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.785,
+     "e": 9.065,
+     "w": "atrás.",
+     "a": [
+      "atrás"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "cerebro",
+      "en": null,
+      "anim": "late",
+      "size": 300,
+      "color": "#ff7ab6",
+      "color2": "oro"
+     },
+     {
+      "t": "titulo",
+      "texto": "El [cerebelo]",
+      "en": "cerebelo,",
+      "size": 120
+     },
+     {
+      "t": "texto",
+      "texto": "Aquí atrás ↘",
+      "en": "atrás."
+     }
+    ]
+   }
+  },
+  {
+   "scene": "c4",
+   "sfx": [
+    [
+     "pop",
+     "copia"
+    ]
+   ],
+   "start": 9.44,
+   "dur": 4.45,
+   "text": "Cada vez que mueves la mano, tu cerebro manda una copia de esa orden al cerebelo,",
+   "words": [
+    {
+     "t": 9.56,
+     "e": 9.735,
+     "w": "Cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.735,
+     "e": 9.955,
+     "w": "vez",
+     "a": [
+      "vez"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.955,
+     "e": 10.075,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.075,
+     "e": 10.375,
+     "w": "mueves",
+     "a": [
+      "mueves"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.375,
+     "e": 10.555,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.555,
+     "e": 10.835,
+     "w": "mano,",
+     "a": [
+      "mano"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.105,
+     "e": 11.205,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.205,
+     "e": 11.585,
+     "w": "cerebro",
+     "a": [
+      "cerebro"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.585,
+     "e": 11.885,
+     "w": "manda",
+     "a": [
+      "manda"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.885,
+     "e": 12.085,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.085,
+     "e": 12.545,
+     "w": "copia",
+     "a": [
+      "copia"
+     ],
+     "k": true
+    },
+    {
+     "t": 12.545,
+     "e": 12.665,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.665,
+     "e": 12.885,
+     "w": "esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.885,
+     "e": 13.225,
+     "w": "orden",
+     "a": [
+      "orden"
+     ],
+     "k": true
+    },
+    {
+     "t": 13.225,
+     "e": 13.405,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.405,
+     "e": 14.01,
+     "w": "cerebelo,",
+     "a": [
+      "cerebelo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "iconos",
+      "items": [
+       {
+        "nombre": "mano",
+        "color": "#f2c9a0"
+       },
+       {
+        "nombre": "flecha",
+        "color": "#ffffff",
+        "size": 110,
+        "en": "copia"
+       },
+       {
+        "nombre": "cerebro",
+        "color": "#ff7ab6",
+        "color2": "oro",
+        "en": "cerebelo,"
+       }
+      ],
+      "en": null,
+      "size": 190,
+      "gap": 24
+     },
+     {
+      "t": "pildora",
+      "texto": "Copia de la orden",
+      "en": "copia",
+      "size": 52
+     }
+    ]
+   }
+  },
+  {
+   "scene": "c5",
+   "sfx": [
+    [
+     "pop",
+     "predice"
+    ],
+    [
+     "drop",
+     "volumen."
+    ]
+   ],
+   "start": 13.89,
+   "dur": 6.33,
+   "text": "y el cerebelo hace algo increíble, predice exactamente lo que vas a sentir, y le baja el volumen.",
+   "words": [
+    {
+     "t": 14.01,
+     "e": 14.105,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.105,
+     "e": 14.205,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.205,
+     "e": 14.765,
+     "w": "cerebelo",
+     "a": [
+      "cerebelo"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.765,
+     "e": 15.025,
+     "w": "hace",
+     "a": [
+      "hace"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.025,
+     "e": 15.325,
+     "w": "algo",
+     "a": [
+      "algo"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.325,
+     "e": 16.285,
+     "w": "increíble,",
+     "a": [
+      "increíble"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.45,
+     "e": 16.875,
+     "w": "predice",
+     "a": [
+      "predice"
+     ],
+     "k": true
+    },
+    {
+     "t": 16.875,
+     "e": 17.595,
+     "w": "exactamente",
+     "a": [
+      "exactamente"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.595,
+     "e": 18.095,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.095,
+     "e": 18.215,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.215,
+     "e": 18.395,
+     "w": "vas",
+     "a": [
+      "vas"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.395,
+     "e": 18.495,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.495,
+     "e": 18.835,
+     "w": "sentir,",
+     "a": [
+      "sentir"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.09,
+     "e": 19.215,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.215,
+     "e": 19.295,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.295,
+     "e": 19.495,
+     "w": "baja",
+     "a": [
+      "baja"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.495,
+     "e": 19.635,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.635,
+     "e": 20.015,
+     "w": "volumen.",
+     "a": [
+      "volumen"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "titulo",
+      "texto": "[Predice] lo que vas a sentir",
+      "en": "predice",
+      "size": 90
+     },
+     {
+      "t": "barras",
+      "items": [
+       {
+        "texto": "Volumen de las cosquillas",
+        "valor": 15,
+        "sufijo": "%",
+        "color": "rojo",
+        "en": "volumen."
+       }
+      ],
+      "en": null,
+      "max": 100
+     },
+     {
+      "t": "texto",
+      "texto": "(baja el volumen)",
+      "en": "baja",
+      "size": 40
+     }
+    ]
+   }
+  },
+  {
+   "scene": "c6",
+   "sfx": [
+    [
+     "coin",
+     "cosquillas."
+    ]
+   ],
+   "start": 20.22,
+   "dur": 5.775,
+   "text": "Por eso, cuando alguien más te toca, tu cerebro no lo vio venir, y ahí sí sientes las cosquillas.",
+   "words": [
+    {
+     "t": 20.34,
+     "e": 20.485,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.485,
+     "e": 20.725,
+     "w": "eso,",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.945,
+     "e": 21.065,
+     "w": "cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.065,
+     "e": 21.445,
+     "w": "alguien",
+     "a": [
+      "alguien"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.445,
+     "e": 21.725,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.725,
+     "e": 21.865,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.865,
+     "e": 22.165,
+     "w": "toca,",
+     "a": [
+      "toca"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.48,
+     "e": 22.575,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.575,
+     "e": 22.975,
+     "w": "cerebro",
+     "a": [
+      "cerebro"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.975,
+     "e": 23.255,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.255,
+     "e": 23.415,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.415,
+     "e": 23.535,
+     "w": "vio",
+     "a": [
+      "vio"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.535,
+     "e": 23.855,
+     "w": "venir,",
+     "a": [
+      "venir"
+     ],
+     "k": true
+    },
+    {
+     "t": 24.1,
+     "e": 24.235,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.235,
+     "e": 24.455,
+     "w": "ahí",
+     "a": [
+      "ahí"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.455,
+     "e": 24.975,
+     "w": "sí",
+     "a": [
+      "sí"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.975,
+     "e": 25.355,
+     "w": "sientes",
+     "a": [
+      "sientes"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.355,
+     "e": 25.595,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.595,
+     "e": 26.115,
+     "w": "cosquillas.",
+     "a": [
+      "cosquillas"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "persona",
+      "en": null,
+      "size": 200,
+      "color": "oro"
+     },
+     {
+      "t": "titulo",
+      "texto": "No lo [vio venir]",
+      "en": "venir,",
+      "size": 110
+     },
+     {
+      "t": "numero",
+      "valor": 100,
+      "en": "cosquillas.",
+      "sufijo": "%",
+      "size": 180,
+      "color": "verde"
+     }
+    ]
+   }
+  },
+  {
+   "scene": "c7",
+   "sfx": [
+    [
+     "pop",
+     "robótico."
+    ]
+   ],
+   "start": 25.995,
+   "dur": 5.115,
+   "text": "En un experimento en Londres, voluntarios se hacían cosquillas con un brazo robótico.",
+   "words": [
+    {
+     "t": 26.115,
+     "e": 26.665,
+     "w": "En",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.665,
+     "e": 26.785,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.785,
+     "e": 27.425,
+     "w": "experimento",
+     "a": [
+      "experimento"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.425,
+     "e": 27.485,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.485,
+     "e": 27.865,
+     "w": "Londres,",
+     "a": [
+      "londres"
+     ],
+     "k": true
+    },
+    {
+     "t": 28.185,
+     "e": 28.725,
+     "w": "voluntarios",
+     "a": [
+      "voluntarios"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.725,
+     "e": 28.865,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.865,
+     "e": 29.105,
+     "w": "hacían",
+     "a": [
+      "hacían"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.105,
+     "e": 29.625,
+     "w": "cosquillas",
+     "a": [
+      "cosquillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.625,
+     "e": 29.865,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.865,
+     "e": 30.005,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.005,
+     "e": 30.305,
+     "w": "brazo",
+     "a": [
+      "brazo"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.305,
+     "e": 30.945,
+     "w": "robótico.",
+     "a": [
+      "robótico"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "pildora",
+      "texto": "Experimento · Londres",
+      "en": null,
+      "size": 50
+     },
+     {
+      "t": "icono",
+      "nombre": "robot",
+      "en": "brazo",
+      "anim": "balancea",
+      "size": 260,
+      "color": "#c9d3e3"
+     },
+     {
+      "t": "titulo",
+      "texto": "Brazo [robótico]",
+      "en": "robótico.",
+      "size": 104
+     }
+    ]
+   }
+  },
+  {
+   "scene": "c8",
+   "sfx": [
+    [
+     "pop",
+     "retraso,"
+    ],
+    [
+     "coin",
+     "volvían."
+    ]
+   ],
+   "start": 31.11,
+   "dur": 4.43,
+   "text": "Cuando el robot respondía con un pequeño retraso, las cosquillas volvían.",
+   "words": [
+    {
+     "t": 31.23,
+     "e": 31.385,
+     "w": "Cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.385,
+     "e": 31.545,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.545,
+     "e": 31.785,
+     "w": "robot",
+     "a": [
+      "robot"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.785,
+     "e": 32.465,
+     "w": "respondía",
+     "a": [
+      "respondía"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.465,
+     "e": 32.685,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.685,
+     "e": 32.825,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.825,
+     "e": 33.225,
+     "w": "pequeño",
+     "a": [
+      "pequeño"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.225,
+     "e": 33.965,
+     "w": "retraso,",
+     "a": [
+      "retraso"
+     ],
+     "k": true
+    },
+    {
+     "t": 34.245,
+     "e": 34.365,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.365,
+     "e": 34.805,
+     "w": "cosquillas",
+     "a": [
+      "cosquillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.805,
+     "e": 35.285,
+     "w": "volvían.",
+     "a": [
+      "volvían"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "reloj",
+      "en": null,
+      "anim": "gira",
+      "size": 220
+     },
+     {
+      "t": "pildora",
+      "texto": "+ pequeño retraso",
+      "en": "retraso,",
+      "size": 52
+     },
+     {
+      "t": "titulo",
+      "texto": "¡Las cosquillas [volvían]!",
+      "en": "volvían.",
+      "size": 96
+     }
+    ]
+   }
+  },
+  {
+   "scene": "c9",
+   "sfx": [
+    [
+     "pop",
+     "detecte"
+    ],
+    [
+     "pop",
+     "insecto"
+    ]
+   ],
+   "start": 35.54,
+   "dur": 8.485,
+   "text": "¿Y para qué sirve esto? Para que tu cerebro ignore lo que tú mismo provocas, y detecte lo que viene de afuera, como un insecto subiendo por tu brazo.",
+   "words": [
+    {
+     "t": 35.66,
+     "e": 35.765,
+     "w": "¿Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.765,
+     "e": 35.945,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.945,
+     "e": 36.125,
+     "w": "qué",
+     "a": [
+      "qué"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.125,
+     "e": 36.465,
+     "w": "sirve",
+     "a": [
+      "sirve"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.465,
+     "e": 36.745,
+     "w": "esto?",
+     "a": [
+      "esto"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.1,
+     "e": 37.235,
+     "w": "Para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.235,
+     "e": 37.355,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.355,
+     "e": 37.515,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.515,
+     "e": 37.875,
+     "w": "cerebro",
+     "a": [
+      "cerebro"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.875,
+     "e": 38.215,
+     "w": "ignore",
+     "a": [
+      "ignore"
+     ],
+     "k": true
+    },
+    {
+     "t": 38.215,
+     "e": 38.435,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.435,
+     "e": 38.575,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.575,
+     "e": 38.835,
+     "w": "tú",
+     "a": [
+      "tú"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.835,
+     "e": 39.135,
+     "w": "mismo",
+     "a": [
+      "mismo"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.135,
+     "e": 39.935,
+     "w": "provocas,",
+     "a": [
+      "provocas"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.13,
+     "e": 40.245,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.245,
+     "e": 40.765,
+     "w": "detecte",
+     "a": [
+      "detecte"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.765,
+     "e": 40.885,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.885,
+     "e": 41.005,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.005,
+     "e": 41.245,
+     "w": "viene",
+     "a": [
+      "viene"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.245,
+     "e": 41.405,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.405,
+     "e": 41.765,
+     "w": "afuera,",
+     "a": [
+      "afuera"
+     ],
+     "k": true
+    },
+    {
+     "t": 41.95,
+     "e": 42.095,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.095,
+     "e": 42.255,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.255,
+     "e": 42.795,
+     "w": "insecto",
+     "a": [
+      "insecto"
+     ],
+     "k": true
+    },
+    {
+     "t": 42.795,
+     "e": 43.195,
+     "w": "subiendo",
+     "a": [
+      "subiendo"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.195,
+     "e": 43.415,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.415,
+     "e": 43.535,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.535,
+     "e": 44.14,
+     "w": "brazo.",
+     "a": [
+      "brazo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "momentos": [
+     {
+      "en": null,
+      "el": [
+       {
+        "t": "titulo",
+        "texto": "¿Para qué [sirve]?",
+        "en": null,
+        "size": 110
+       }
+      ]
+     },
+     {
+      "en": "ignore",
+      "el": [
+       {
+        "t": "lista",
+        "items": [
+         {
+          "texto": "Ignora lo tuyo",
+          "ok": false,
+          "en": "ignore"
+         },
+         {
+          "texto": "Detecta lo de afuera",
+          "ok": true,
+          "en": "detecte"
+         }
+        ],
+        "en": null
+       },
+       {
+        "t": "icono",
+        "nombre": "bicho",
+        "en": "insecto",
+        "anim": "tiembla",
+        "size": 200,
+        "color": "#9ae66e"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "scene": "c10",
+   "sfx": [
+    [
+     "coin",
+     "bueno"
+    ]
+   ],
+   "start": 44.025,
+   "dur": 5.305,
+   "text": "O sea, no te puedes hacer cosquillas porque tu cerebro es demasiado bueno prediciendo.",
+   "words": [
+    {
+     "t": 44.145,
+     "e": 44.245,
+     "w": "O",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.245,
+     "e": 44.465,
+     "w": "sea,",
+     "a": [
+      "sea"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.785,
+     "e": 44.965,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.965,
+     "e": 45.125,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.125,
+     "e": 45.405,
+     "w": "puedes",
+     "a": [
+      "puedes"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.405,
+     "e": 45.685,
+     "w": "hacer",
+     "a": [
+      "hacer"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.685,
+     "e": 46.285,
+     "w": "cosquillas",
+     "a": [
+      "cosquillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.285,
+     "e": 46.675,
+     "w": "porque",
+     "a": [
+      "porque"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.675,
+     "e": 46.895,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.895,
+     "e": 47.275,
+     "w": "cerebro",
+     "a": [
+      "cerebro"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.275,
+     "e": 47.395,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.395,
+     "e": 47.975,
+     "w": "demasiado",
+     "a": [
+      "demasiado"
+     ],
+     "k": true
+    },
+    {
+     "t": 47.975,
+     "e": 48.435,
+     "w": "bueno",
+     "a": [
+      "bueno"
+     ],
+     "k": true
+    },
+    {
+     "t": 48.435,
+     "e": 49.155,
+     "w": "prediciendo.",
+     "a": [
+      "prediciendo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "cerebro",
+      "en": null,
+      "anim": "late",
+      "size": 280,
+      "color": "#ff7ab6",
+      "color2": "oro"
+     },
+     {
+      "t": "titulo",
+      "texto": "Demasiado [bueno] prediciendo",
+      "en": "bueno",
+      "size": 96
+     }
+    ]
+   }
+  },
+  {
+   "scene": "c11",
+   "sfx": [
+    [
+     "pop",
+     "cosquilloso?"
+    ]
+   ],
+   "start": 49.33,
+   "dur": 2.63,
+   "text": "¿Eres muy cosquilloso?",
+   "words": [
+    {
+     "t": 49.45,
+     "e": 49.625,
+     "w": "¿Eres",
+     "a": [
+      "eres"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.625,
+     "e": 49.965,
+     "w": "muy",
+     "a": [
+      "muy"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.965,
+     "e": 50.585,
+     "w": "cosquilloso?",
+     "a": [
+      "cosquilloso"
+     ],
+     "k": true
+    }
+   ],
+   "escena": {
+    "el": [
+     {
+      "t": "icono",
+      "nombre": "pluma_cosquilla",
+      "en": null,
+      "anim": "balancea",
+      "size": 220
+     },
+     {
+      "t": "titulo",
+      "texto": "¿Eres [cosquilloso]?",
+      "en": null,
+      "size": 110
+     },
+     {
+      "t": "pildora",
+      "texto": "Comenta abajo",
+      "en": null,
+      "fondo": "oro",
+      "color": "#2a1c00",
+      "size": 48
+     }
+    ]
+   }
+  }
+ ],
+ "estilo": {
+  "acento": "#ff7ab6",
+  "tinte": "#3a1a3a"
+ }
+}
