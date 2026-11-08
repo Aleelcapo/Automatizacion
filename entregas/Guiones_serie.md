@@ -107,6 +107,88 @@ Así que el zoológico de jaulas está desapareciendo… pero el que **protege**
 
 ---
 
+## 👁️ 5. ¿Por qué hay gente con ojos claros?
+
+¿Por qué hay personas con **ojos azules**… si casi todo el mundo los tiene **café**?
+
+La explicación más famosa es el **sol**. En el norte de Europa hay **menos luz**, y el cuerpo necesita **menos pigmento** para protegerse.
+
+Y eso es cierto… para la **piel**. Con los ojos, la historia es más **loca**.
+
+Todas las personas con ojos azules del mundo comparten **una misma mutación**. Apareció en **una sola persona**, hace entre **seis mil y diez mil años**.
+
+O sea, si tienes ojos azules… tienes un **ancestro en común** con todos los demás.
+
+Y otro dato: los ojos azules **no tienen pigmento azul**. Tienen tan poca melanina, que la luz rebota en el iris… igual que el **cielo** se ve azul.
+
+Pero aquí viene lo raro: se encontró un europeo de hace **siete mil años**… con **piel oscura** y **ojos azules**.
+
+Así que el sol no explica todo. Puede que los mismos genes que aclaran la piel también aclaren los ojos… o que los ojos claros **vean mejor con poca luz**.
+
+La ciencia todavía **no lo resuelve**.
+
+¿De qué color son tus ojos? Te leo en los **comentarios**.
+
+**En pantalla:** mapa con un degradado de sol; iris que se aclara; árbol genealógico que nace de una sola persona; luz que rebota en el iris como en el cielo; silueta del cazador de hace 7.000 años con un signo de interrogación.
+
+---
+
+## 🧠 6. ¿Por qué no te puedes hacer cosquillas a ti mismo?
+
+¿Por qué no te puedes hacer **cosquillas** a ti mismo?
+
+Inténtalo ahora mismo. **No funciona**.
+
+La culpa la tiene tu **cerebelo**, una parte del cerebro que está aquí atrás.
+
+Cada vez que mueves la mano, tu cerebro manda una **copia** de esa orden al cerebelo.
+
+Y el cerebelo hace algo increíble: **predice** exactamente lo que vas a sentir… y le **baja el volumen**.
+
+Por eso, cuando alguien más te toca, tu cerebro **no lo vio venir**… y ahí sí sientes las cosquillas.
+
+En un experimento en Londres, voluntarios se hacían cosquillas con un **brazo robótico**. Cuando el robot respondía con un pequeño **retraso**… las cosquillas **volvían**.
+
+¿Y para qué sirve esto? Para que tu cerebro **ignore** lo que tú mismo provocas… y detecte lo que viene de **afuera**. Como un insecto subiendo por tu brazo.
+
+O sea, no te puedes hacer cosquillas… porque tu cerebro es **demasiado bueno** prediciendo.
+
+¿Eres muy cosquilloso? Te leo en los **comentarios**.
+
+**En pantalla:** mano que intenta hacer cosquillas y aparece "0 %"; cerebro con el cerebelo iluminado; señal que viaja de la mano al cerebelo con el texto "COPIA"; barra de volumen que baja; brazo robótico con un reloj "+ retraso"; insecto en el brazo.
+
+---
+
+## 🪙 7. No vendas esa moneda vieja
+
+Si te quieren **comprar** una moneda que ya **no circula**… **no la vendas**. Vale más de lo que crees.
+
+¿Has visto gente que compra monedas viejas… y les **quita el anillo** de afuera?
+
+No es por coleccionar. Es por lo que tienen **adentro**.
+
+La moneda de **diez nuevos pesos**, de los años noventa, tiene el centro de **plata**. Plata de ley **novecientos veinticinco**.
+
+Esa monedita trae unos **cinco gramos** de plata pura.
+
+Con el precio de la plata hoy, solo el metal puede valer **más de cien pesos**. **Diez veces** lo que dice la moneda.
+
+Y si está bien **conservada**, un coleccionista puede pagar **todavía más**.
+
+Por eso, si alguien te ofrece **poquito** por ella… ya sabes por qué tiene tanto interés.
+
+Y no son solo esas. Revisa también monedas con **errores de fábrica**, de años con **poca producción**, o monedas antiguas de **plata**.
+
+Antes de vender, busca su **año** y compara precios de ventas **reales**… no de anuncios.
+
+¿Tienes alguna guardada? Dime el **año** en los **comentarios**.
+
+**En pantalla:** moneda girando; mano que le quita el anillo y el centro brilla como plata; báscula con "≈ 5 g de plata"; contador de "$10" a "$100+"; lupa sobre una moneda con error; lista de qué revisar.
+
+> ⚠️ **Nota:** el valor de la plata cambia todos los días. En 2026 la onza estuvo entre unos 50 y 80 dólares, así que **"más de cien pesos" es un cálculo conservador**. Si eres de otro país que no sea México, dime qué monedas compran allá y adapto el guion.
+
+---
+
 ## Fuentes
 
 **Bowling**
@@ -124,3 +206,18 @@ Así que el zoológico de jaulas está desapareciendo… pero el que **protege**
 - [Tico Times: casi 300 animales trasladados tras el cierre de los zoológicos (2024)](https://ticotimes.net/2024/05/12/almost-300-animals-transferred-to-refuge-after-closure-of-zoos-in-costa-rica)
 - [La Prensa: Buenos Aires dice adiós a su zoológico (2016)](https://www.laprensani.com/2016/06/26/internacionales/2058634-buenos-aires-dice-adios-a-su-zoologico-del-siglo-xix)
 - [National Geographic: los elefantes salvajes viven más que los de zoológico](https://www.nationalgeographic.com/animals/article/wild-elephants-live-longer-than-their-zoo-counterparts)
+
+**Ojos claros**
+- [ScienceDaily: los ojos azules vienen de un ancestro común (2008)](https://sciencedaily.com/releases/2008/01/080130170343.htm)
+- [UCSB Science Line: color de ojos y clima](https://scienceline.ucsb.edu/getkey.php?key=1605)
+- [CSMonitor: cazador antiguo con ojos azules y piel oscura](https://www.csmonitor.com:443/Science/2014/0127/Ancient-European-hunter-gatherer-had-blue-eyes-dark-skin)
+- [LJMU: los ojos azules ven mejor en la oscuridad (2024)](https://www.ljmu.ac.uk/about-us/news/articles/2024/2/7/blue-eyes)
+
+**Cosquillas**
+- [Scientific American: ¿por qué no podemos hacernos cosquillas?](https://www.scientificamerican.com/article/why-cant-a-person-tickle/)
+- [ScienceAlert: la razón científica](https://www.sciencealert.com/the-scientific-reason-you-can-t-tickle-yourself)
+
+**Monedas**
+- [Numismaster: 10 nuevos pesos, centro de plata .925, 0,1667 oz](https://numismaster.com/MC_1916)
+- [Banxico: monedas en nuevos pesos](https://www.banxico.org.mx/billetes-y-monedas/monedas-en-nuevos-pesos-circu.html)
+- [Kitco: precio de la plata en vivo](https://www.kitco.com/charts/silver)
