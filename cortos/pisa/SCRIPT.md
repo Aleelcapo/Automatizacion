@@ -1,5 +1,21 @@
 # "The Tower That Was Saved by War" — script v1 (2026-11-08)
-Format: ~65 s vertical cartoon 3D short, 1080x1920, 30 fps. Voice recorded by the user.
+Format: ~65 s vertical cartoon 3D short, 1080x1920, 30 fps. Voice recorded by the user, in Spanish (user request 2026-11-08, overrides the skill's English-only rule).
+
+## Guion en español (v2, el que se graba)
+La Torre de Pisa sigue en pie solo porque su ciudad no paraba de ir a la guerra.
+Es 1173, y Pisa está construyendo un campanario de mármol para mostrar lo rica que es.
+Los constructores cavan unos cimientos de apenas tres metros, directo sobre arcilla y arena blanda.
+Cinco años después llegan al segundo piso, y la torre empieza a hundirse de un lado.
+Entonces Pisa entra en guerra con Génova, Lucca y Florencia, y la torre a medio hacer queda abandonada casi cien años.
+Resulta que el suelo blando funciona como la arena mojada de la playa.
+La pisás y se te hunden los talones. Pero si te quedás quieto un rato, el agua se escurre, la arena se compacta y dejás de hundirte.
+Un siglo de guerra le dio tiempo al suelo para compactarse. Sin eso, la torre se habría caído.
+Cuando los constructores por fin vuelven, sigue inclinada, así que hacen cada piso nuevo un poco más alto del lado que se hunde.
+Por eso la torre no está solo torcida. Está curvada, como una banana.
+En 1934, a Mussolini le da vergüenza una torre torcida, así que hace perforar cientos de agujeros en la base y meterle toneladas de cemento.
+Por suerte, la torre no se cayó. Por desgracia, se inclinó todavía más.
+Para 1990 ya está inclinada cinco grados y medio, así que los ingenieros sacan tierra de abajo del lado alto, y la torre se acomoda despacio.
+Podrían haberla enderezado del todo, pero frenaron a propósito. Nadie cruza el mundo para ver la Torre Derecha de Pisa.
 
 ## Facts (sources)
 - Foundations laid 9 Aug 1173; shallow 3 m foundation in weak, soft subsoil (clay/sand). Began to sink in 1178,
@@ -14,7 +30,7 @@ Format: ~65 s vertical cartoon 3D short, 1080x1920, 30 fps. Voice recorded by th
   870 t of lead counterweights; tilt reduced by ~45 cm to ~3.97°; reopened 15 Dec 2001; declared stable for
   200-300 years. The goal was a safer angle, never a straight tower (the lean was deemed important for tourism). (Wikipedia)
 
-## Script (251 words, ~68 s at 3.7 words/s)
+## Script in English (v1, alternate; 251 words, ~68 s at 3.7 words/s)
 The Leaning Tower of Pisa is only standing today because its city kept going to war.
 It's 1173, and Pisa is building a marble bell tower to show off its wealth.
 The builders dig a foundation just three meters deep, straight into soft clay and sand.
