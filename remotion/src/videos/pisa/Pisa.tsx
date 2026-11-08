@@ -61,10 +61,11 @@ const Inner: React.FC<{ id: number; kit: Kit }> = ({ id, kit }) => {
     grain: new GrainEffect({ amount: 0.025, cellPx: 1.5 }), // film grain, OFF by default (inputProps post.grain): the reference measures no grain and it quadruples the file size
   }), [camera, scene]);
   useEffect(() => () => fx.ink.dispose(), [fx]);
-  // speed (software GL): the lens passes only while a shot has depth of field, bloom only with the golden sun disc
+  // speed (software GL): the lens passes only while a shot has depth of field, bloom only with the golden sun disc;
+  // the lens reads the composer's depth, which with MSAA 0 is the buffer being written (feedback loop): MSAA >= 2 there
   const lensOn = on.lens && dofAt(f).cInf > 0.25, bloomOn = on.bloom && SHOTS[id - 1].light === "golden";
   const post = useMemo(() => (
-    <EffectComposer multisampling={on.msaa}>
+    <EffectComposer multisampling={lensOn ? Math.max(2, on.msaa) : on.msaa}>
       {on.ink ? <primitive object={fx.ink} dispose={null} /> : null}
       {lensOn && on.pre ? <primitive object={fx.lens.pre} dispose={null} /> : null}
       {lensOn ? <primitive object={fx.lens.main} dispose={null} /> : null}

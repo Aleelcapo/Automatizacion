@@ -167,10 +167,10 @@ const CAMS: Record<number, Key[]> = {
   10: [
     { f: 1168, s: (f) => dolly([13, 3.2, -42], [0, 15, 0], pushK(f, 1168, 0.002), { fov: 44 }) },
     { f: 1231, cut: true, s: (f) => dolly([6.9, 2.45, -19.4], [6.2, 2.25, -15.5], pushK(f, 1231, 0.002, 0.007, 30), { fov: 36 }) },
-    { f: 1268, cut: true, s: (f) => zoom([13, 1.3, -17.5], [2, 1.8, -6.5], 46, pushK(f, 1268, 0.0025)) },
+    { f: 1268, cut: true, s: (f) => zoom([-6, 2.4, -17], [0.5, 1.3, -8.8], 44, pushK(f, 1268, 0.0025)) },
   ],
   11: [
-    { f: 1354, s: (f) => dolly([8.4, 2.3, -22.4], [4.2, 5.2, -11], pushK(f, 1354, 0.0025), { fov: 46 }) },
+    { f: 1354, s: (f) => dolly([7.4, 1.9, -20.2], [5.4, 4.2, -12], pushK(f, 1354, 0.0025), { fov: 50 }) },
     { f: 1400, cut: true, s: (f) => dolly([15, 3, -46], [0, 16, 0], pushK(f, 1400, 0.002), { fov: 44 }) },
     { f: 1437, dur: 18, s: (f) => dolly([15, 3, -46], [0, 16, 0], pushK(f, 1400, 0.002), { fov: 44, roll: -0.045 }) },
     { f: 1455, cut: true, s: (f) => dolly([6.9, 2.45, -19.4], [6.2, 2.25, -15.5], pushK(f, 1455, 0.0025), { fov: 36, roll: 0.03 }) },
@@ -243,6 +243,5 @@ export const focusAt = (id: number, f: number): V3 => {
 /** near framing objects (procedural bushes from build.ts), visible a <= f < b inside their own shot */
 export type Fg = { a: number; b: number; kit: string; pos: V3; s?: number; yaw?: number };
 export const FOREGROUND: Fg[] = [
-  { a: 495, b: 570, kit: "plant_bushDetailed", pos: [8.6, 0, -33.4], s: 1.3, yaw: 0.3 },
   { a: 1669, b: 1774, kit: "plant_bushDetailed", pos: [6.8, 0, -14.6], s: 0.9, yaw: 0.5 },
 ];

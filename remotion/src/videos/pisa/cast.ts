@@ -276,17 +276,17 @@ export const stage = (id: number, f: number, ts: TowerState, cam: CamInfo, top: 
   const B = (i: number): Who => ({ i: 100 + i, o: BUILDER[i % 4], okey: `b${i % 4}` });
   switch (s.crowd) {
     case "hook":
-      if (f >= 86) column(cam, f, out, { n: 22, files: 2, z0: -54, dz: -1.3, lead: (ff) => -3 - 1.6 * (ff - 92) / FPS, dir: -1, flag: true,
+      if (f >= 86) column(cam, f, out, { n: 22, files: 2, z0: -45.5, dz: -1.3, lead: (ff) => -3 - 1.6 * (ff - 92) / FPS, dir: -1, flag: true,
         expr: (i) => (i % 3 === 0 ? "grin" : i % 3 === 1 ? "stern" : "laugh") });
       break;
     case "dig": {
       // pit diggers (seen from the edge), edge workers, the one sinking into the soft ground
       stand(cam, t, out, B(0), 8.7, -3, -5.0, at(f, 300) ? "nervous" : "stern", {}, 1);
       stand(cam, t, out, B(1), 9.2, -3, -2.4, "neutral");
-      const ring: [number, number][] = [[14, -2], [13.5, 4], [-12, 7], [-13, -4], [3, 14], [-5, -13.5], [6, -13], [15, -9]];
+      const ring: [number, number][] = [[14, -2], [13.5, 4], [-12, 7], [-13, -4], [3, 14], [-5, -13.5], [6, -13], [17, -2.5]];
       ring.forEach(([x, z], i) => stand(cam, t, out, B(i + 2), x, 0, z, (["neutral", "smile", "stern", "grin"] as Expr[])[i % 4]));
       const sink = 0.32 * easeOut((f - 336) / 14);
-      stand(cam, t, out, { i: 140, o: builder(2, false), okey: "bsink" }, 12.2, -sink, -7.6, at(f, 338) ? (f > 352 ? "shock" : "nervous") : "neutral", { look: f > 345 ? -1 : 0 });
+      if (f >= 326) stand(cam, t, out, { i: 140, o: builder(2, false), okey: "bsink" }, 12.2, -sink, -7.6, at(f, 338) ? (f > 352 ? "shock" : "nervous") : "neutral", { look: f > 345 ? -1 : 0 });
       if (f >= 334) fxAt(out, "blob|contact|mud", 128, 128, (p) => fxContact(p, "#6b4a32"), 12.2, 0.02, -7.6, 1.1, 0.8, 0, true);
       break;
     }
@@ -342,7 +342,7 @@ export const stage = (id: number, f: number, ts: TowerState, cam: CamInfo, top: 
         who: (i) => ({ i: 100 + i, o: BUILDER[i % 4], okey: `b${i % 4}` }) });
       if (f >= 1150) {
         const k = easeOut((f - 1150) / 7), wob = 0.03 * Math.sin((f - 1150) * 0.5) * Math.exp(-(f - 1150) / 10);
-        fxAt(out, "banana", 500, 500, fxBanana, 26, 27, 6, 34 * k, 34 * k, -0.25 + wob);
+        fxAt(out, "banana", 500, 500, fxBanana, 13, 22, -22, 20 * k, 20 * k, -1.4 + wob);
       }
       for (const w of [1012, 1026, 1038, 1050, 1063, 1081, 1121]) dust(out, f, w, [[-2, 0, 0]].map(() => [top.x, top.y, top.z - 6] as V3), 4, 14);
       break;
@@ -352,12 +352,12 @@ export const stage = (id: number, f: number, ts: TowerState, cam: CamInfo, top: 
       const point = id === 10 && f >= 1243 - L && f < 1340;
       stand(cam, t, out, { i: 160, o: DUCE, okey: "duce" }, d[0], d[1], d[2], shock ? "shock" : glad ? "grin" : "stern", { wave: point ? q(0.6 + 0.2 * Math.sin(t * 2), 20) : undefined });
       // workers pour cement at the base (shot 10 c) and look on
-      const wk: [number, number][] = [[3.5, -9.6], [0.2, -10.4], [-3.6, -9.8], [9.5, -11.5]];
+      const wk: [number, number][] = [[4.6, -11.4], [0.8, -12.2], [-3.8, -11.6], [9.5, -11.5]];
       wk.forEach(([x, z], i) => stand(cam, t, out, { i: 170 + i, o: WORKER[i % 3], okey: `w${i % 3}` }, x, 0, z, shock ? "shock" : i % 2 ? "stern" : "neutral", { look: i % 2 ? -1 : 1 }));
       const g = id === 10 ? clamp01((f - 1272) / 60) : 1;
-      if (g > 0) for (const [x, z, sc] of [[2.4, -7.9, 1], [-1.2, -8.2, 1.2], [-4.6, -7.2, 0.9], [5.6, -6.0, 0.8]] as const) {
+      if (g > 0) for (const [x, z, sc] of [[2.8, -9.2, 1], [-1.4, -9.7, 1.2], [-5.4, -8.4, 0.9], [6.4, -7.6, 0.8]] as const) {
         const kk = q(g, 20);
-        fxAt(out, `cement${kk}`, 400, 260, (p) => fxCement(p, kk, "#a7a8a6"), x, 0.5 * sc * (0.4 + 0.6 * kk), z, 2.0 * sc, 1.3 * sc);
+        fxAt(out, `cement${kk}`, 400, 260, (p) => fxCement(p, kk, "#a7a8a6"), x, 0.7 * sc * (0.4 + 0.6 * kk), z, 2.8 * sc, 1.8 * sc);
       }
       if (id === 11 && f >= 1430 && f < 1455) { const u = q((t * 1.3) % 1, 30); fxAt(out, `creak${u}`, 300, 300, (p) => fxCreak(p, u), -8, 2, -2, 2.4, 2.4, -0.4); }
       if (id === 11) dust(out, f, 1437, [[-8.5, 0.5, -3], [-6, 0.5, -6]], 3, 20);
@@ -365,7 +365,7 @@ export const stage = (id: number, f: number, ts: TowerState, cam: CamInfo, top: 
     }
     case "engineers": {
       const happy = f >= 1630;
-      const pos: [number, number][] = [[12.4, -6.6], [13.6, -2.6], [11.2, -9.4]];
+      const pos: [number, number][] = [[13.8, -1.2], [15.4, -3.6], [11.4, -11.4]];
       pos.forEach(([x, z], i) => stand(cam, t, out, { i: 180 + i, o: ENG[i % 2], okey: `e${i % 2}` }, x, 0, z, happy ? (i % 2 ? "laugh" : "grin") : "neutral",
         { wave: happy && i !== 1 ? q(Math.sin(t * 8 + i), 20) : undefined, look: happy ? 0 : -1 }));
       stand(cam, t, out, { i: 190, o: DRILLER, okey: "drill" }, 10.1, 0, -3.6, happy ? "grin" : "stern", { look: -1 });
