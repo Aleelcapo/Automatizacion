@@ -1,0 +1,200 @@
+{
+ "id": "atun",
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+8%",
+ "gap": 0.35,
+ "beats": [
+  {
+   "scene": "hook",
+   "text": "Si te digo que puedes ganar diez mil dólares en un solo día con un trabajo… ¿lo harías?",
+   "keys": [
+    "diez",
+    "mil",
+    "dólares",
+    "día",
+    "harías?"
+   ],
+   "sfx": [
+    [
+     "coin",
+     "dólares"
+    ],
+    [
+     "pop",
+     "harías?"
+    ]
+   ]
+  },
+  {
+   "scene": "reveal",
+   "text": "Ese trabajo existe: pescar atún rojo.",
+   "keys": [
+    "atún",
+    "rojo."
+   ],
+   "sfx": [
+    [
+     "splash",
+     "atún"
+    ]
+   ]
+  },
+  {
+   "scene": "scale",
+   "text": "Un atún rojo grande puede pesar más de trescientos kilos. Y en el muelle, un solo pez puede pagarte hasta quince mil dólares.",
+   "keys": [
+    "trescientos",
+    "kilos.",
+    "quince",
+    "mil",
+    "dólares."
+   ],
+   "sfx": [
+    [
+     "thud",
+     "trescientos"
+    ],
+    [
+     "coin",
+     "quince"
+    ]
+   ]
+  },
+  {
+   "scene": "storm",
+   "text": "Pero hay truco. Puedes pasar días enteros en alta mar, con frío y tormentas… y volver sin nada.",
+   "keys": [
+    "truco.",
+    "días",
+    "tormentas…",
+    "nada."
+   ],
+   "sfx": [
+    [
+     "thunder",
+     "tormentas…"
+    ],
+    [
+     "drop",
+     "nada."
+    ]
+   ]
+  },
+  {
+   "scene": "fight",
+   "text": "Y si uno pica, la pelea puede durar horas. Si el pez se golpea o se calienta, su precio se desploma.",
+   "keys": [
+    "horas.",
+    "desploma."
+   ],
+   "sfx": [
+    [
+     "reel",
+     "pelea"
+    ],
+    [
+     "drop",
+     "desploma."
+    ]
+   ]
+  },
+  {
+   "scene": "auction",
+   "text": "Ahora, el extremo: en enero de dos mil veintiséis, en Tokio, un atún de doscientos cuarenta y tres kilos se vendió en tres millones doscientos mil dólares.",
+   "keys": [
+    "Tokio,",
+    "tres",
+    "millones",
+    "doscientos",
+    "mil",
+    "dólares."
+   ],
+   "sfx": [
+    [
+     "gavel",
+     "vendió"
+    ],
+    [
+     "coin",
+     "millones"
+    ]
+   ]
+  },
+  {
+   "scene": "perkilo",
+   "text": "Eso es más de trece mil dólares… por cada kilo.",
+   "keys": [
+    "trece",
+    "mil",
+    "kilo."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "kilo."
+    ]
+   ]
+  },
+  {
+   "scene": "why",
+   "text": "¿Por qué tanto? Porque el primer atún del año da suerte, prestigio, y publicidad gratis en todo el mundo.",
+   "keys": [
+    "suerte,",
+    "prestigio,",
+    "publicidad"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "suerte,"
+    ],
+    [
+     "pop",
+     "prestigio,"
+    ],
+    [
+     "pop",
+     "publicidad"
+    ]
+   ]
+  },
+  {
+   "scene": "danger",
+   "text": "Tanto valor lo puso en peligro. Hoy su pesca está controlada con cuotas.",
+   "keys": [
+    "peligro.",
+    "cuotas."
+   ],
+   "sfx": [
+    [
+     "stamp",
+     "peligro."
+    ],
+    [
+     "pop",
+     "cuotas."
+    ]
+   ]
+  },
+  {
+   "scene": "outro",
+   "text": "Entonces… diez mil dólares en un día. ¿Lo harías? Te leo en los comentarios.",
+   "keys": [
+    "diez",
+    "mil",
+    "harías?",
+    "comentarios."
+   ],
+   "sfx": [
+    [
+     "coin",
+     "dólares"
+    ],
+    [
+     "pop",
+     "harías?"
+    ]
+   ]
+  }
+ ]
+}

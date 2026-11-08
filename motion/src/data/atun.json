@@ -1,0 +1,1196 @@
+{
+ "id": "atun",
+ "duration": 60.101,
+ "beats": [
+  {
+   "scene": "hook",
+   "sfx": [
+    [
+     "coin",
+     "dólares"
+    ],
+    [
+     "pop",
+     "harías?"
+    ]
+   ],
+   "start": 0.4,
+   "dur": 4.804,
+   "text": "Si te digo que puedes ganar diez mil dólares en un solo día con un trabajo… ¿lo harías?",
+   "words": [
+    {
+     "t": 0.328,
+     "e": 0.559,
+     "w": "Si",
+     "k": false
+    },
+    {
+     "t": 0.571,
+     "e": 0.652,
+     "w": "te",
+     "k": false
+    },
+    {
+     "t": 0.663,
+     "e": 0.929,
+     "w": "digo",
+     "k": false
+    },
+    {
+     "t": 0.941,
+     "e": 1.068,
+     "w": "que",
+     "k": false
+    },
+    {
+     "t": 1.08,
+     "e": 1.392,
+     "w": "puedes",
+     "k": false
+    },
+    {
+     "t": 1.404,
+     "e": 1.693,
+     "w": "ganar",
+     "k": false
+    },
+    {
+     "t": 1.705,
+     "e": 1.902,
+     "w": "diez",
+     "k": true
+    },
+    {
+     "t": 1.913,
+     "e": 2.064,
+     "w": "mil",
+     "k": true
+    },
+    {
+     "t": 2.075,
+     "e": 2.492,
+     "w": "dólares",
+     "k": true
+    },
+    {
+     "t": 2.504,
+     "e": 2.596,
+     "w": "en",
+     "k": false
+    },
+    {
+     "t": 2.608,
+     "e": 2.723,
+     "w": "un",
+     "k": false
+    },
+    {
+     "t": 2.735,
+     "e": 2.978,
+     "w": "solo",
+     "k": false
+    },
+    {
+     "t": 2.99,
+     "e": 3.233,
+     "w": "día",
+     "k": true
+    },
+    {
+     "t": 3.244,
+     "e": 3.418,
+     "w": "con",
+     "k": false
+    },
+    {
+     "t": 3.429,
+     "e": 3.534,
+     "w": "un",
+     "k": false
+    },
+    {
+     "t": 3.545,
+     "e": 3.997,
+     "w": "trabajo…",
+     "k": false
+    },
+    {
+     "t": 4.251,
+     "e": 4.309,
+     "w": "¿lo",
+     "k": false
+    },
+    {
+     "t": 4.321,
+     "e": 4.83,
+     "w": "harías?",
+     "k": true
+    }
+   ]
+  },
+  {
+   "scene": "reveal",
+   "sfx": [
+    [
+     "splash",
+     "atún"
+    ]
+   ],
+   "start": 5.204,
+   "dur": 2.687,
+   "text": "Ese trabajo existe: pescar atún rojo.",
+   "words": [
+    {
+     "t": 5.14,
+     "e": 5.395,
+     "w": "Ese",
+     "k": false
+    },
+    {
+     "t": 5.406,
+     "e": 5.777,
+     "w": "trabajo",
+     "k": false
+    },
+    {
+     "t": 5.788,
+     "e": 6.228,
+     "w": "existe:",
+     "k": false
+    },
+    {
+     "t": 6.471,
+     "e": 6.83,
+     "w": "pescar",
+     "k": false
+    },
+    {
+     "t": 6.842,
+     "e": 7.119,
+     "w": "atún",
+     "k": true
+    },
+    {
+     "t": 7.131,
+     "e": 7.49,
+     "w": "rojo.",
+     "k": true
+    }
+   ]
+  },
+  {
+   "scene": "scale",
+   "sfx": [
+    [
+     "thud",
+     "trescientos"
+    ],
+    [
+     "coin",
+     "quince"
+    ]
+   ],
+   "start": 7.891,
+   "dur": 7.854,
+   "text": "Un atún rojo grande puede pesar más de trescientos kilos. Y en el muelle, un solo pez puede pagarte hasta quince mil dólares.",
+   "words": [
+    {
+     "t": 7.843,
+     "e": 7.981,
+     "w": "Un",
+     "k": false
+    },
+    {
+     "t": 7.993,
+     "e": 8.271,
+     "w": "atún",
+     "k": false
+    },
+    {
+     "t": 8.282,
+     "e": 8.56,
+     "w": "rojo",
+     "k": false
+    },
+    {
+     "t": 8.572,
+     "e": 8.907,
+     "w": "grande",
+     "k": false
+    },
+    {
+     "t": 8.919,
+     "e": 9.174,
+     "w": "puede",
+     "k": false
+    },
+    {
+     "t": 9.185,
+     "e": 9.532,
+     "w": "pesar",
+     "k": false
+    },
+    {
+     "t": 9.544,
+     "e": 9.764,
+     "w": "más",
+     "k": false
+    },
+    {
+     "t": 9.775,
+     "e": 9.868,
+     "w": "de",
+     "k": false
+    },
+    {
+     "t": 9.88,
+     "e": 10.447,
+     "w": "trescientos",
+     "k": true
+    },
+    {
+     "t": 10.458,
+     "e": 10.933,
+     "w": "kilos.",
+     "k": true
+    },
+    {
+     "t": 11.728,
+     "e": 11.878,
+     "w": "Y",
+     "k": false
+    },
+    {
+     "t": 11.89,
+     "e": 11.982,
+     "w": "en",
+     "k": false
+    },
+    {
+     "t": 11.994,
+     "e": 12.098,
+     "w": "el",
+     "k": false
+    },
+    {
+     "t": 12.11,
+     "e": 12.468,
+     "w": "muelle,",
+     "k": false
+    },
+    {
+     "t": 12.793,
+     "e": 12.885,
+     "w": "un",
+     "k": false
+    },
+    {
+     "t": 12.897,
+     "e": 13.14,
+     "w": "solo",
+     "k": false
+    },
+    {
+     "t": 13.151,
+     "e": 13.371,
+     "w": "pez",
+     "k": false
+    },
+    {
+     "t": 13.383,
+     "e": 13.603,
+     "w": "puede",
+     "k": false
+    },
+    {
+     "t": 13.614,
+     "e": 14.031,
+     "w": "pagarte",
+     "k": false
+    },
+    {
+     "t": 14.043,
+     "e": 14.228,
+     "w": "hasta",
+     "k": false
+    },
+    {
+     "t": 14.239,
+     "e": 14.552,
+     "w": "quince",
+     "k": true
+    },
+    {
+     "t": 14.563,
+     "e": 14.772,
+     "w": "mil",
+     "k": true
+    },
+    {
+     "t": 14.783,
+     "e": 15.362,
+     "w": "dólares.",
+     "k": true
+    }
+   ]
+  },
+  {
+   "scene": "storm",
+   "sfx": [
+    [
+     "thunder",
+     "tormentas…"
+    ],
+    [
+     "drop",
+     "nada."
+    ]
+   ],
+   "start": 15.745,
+   "dur": 6.355,
+   "text": "Pero hay truco. Puedes pasar días enteros en alta mar, con frío y tormentas… y volver sin nada.",
+   "words": [
+    {
+     "t": 15.676,
+     "e": 15.907,
+     "w": "Pero",
+     "k": false
+    },
+    {
+     "t": 15.919,
+     "e": 16.023,
+     "w": "hay",
+     "k": false
+    },
+    {
+     "t": 16.034,
+     "e": 16.428,
+     "w": "truco.",
+     "k": true
+    },
+    {
+     "t": 17.223,
+     "e": 17.501,
+     "w": "Puedes",
+     "k": false
+    },
+    {
+     "t": 17.512,
+     "e": 17.825,
+     "w": "pasar",
+     "k": false
+    },
+    {
+     "t": 17.836,
+     "e": 18.102,
+     "w": "días",
+     "k": true
+    },
+    {
+     "t": 18.114,
+     "e": 18.542,
+     "w": "enteros",
+     "k": false
+    },
+    {
+     "t": 18.554,
+     "e": 18.658,
+     "w": "en",
+     "k": false
+    },
+    {
+     "t": 18.67,
+     "e": 18.89,
+     "w": "alta",
+     "k": false
+    },
+    {
+     "t": 18.901,
+     "e": 19.144,
+     "w": "mar,",
+     "k": false
+    },
+    {
+     "t": 19.341,
+     "e": 19.538,
+     "w": "con",
+     "k": false
+    },
+    {
+     "t": 19.549,
+     "e": 19.815,
+     "w": "frío",
+     "k": false
+    },
+    {
+     "t": 19.827,
+     "e": 19.885,
+     "w": "y",
+     "k": false
+    },
+    {
+     "t": 19.896,
+     "e": 20.475,
+     "w": "tormentas…",
+     "k": true
+    },
+    {
+     "t": 20.672,
+     "e": 20.753,
+     "w": "y",
+     "k": false
+    },
+    {
+     "t": 20.764,
+     "e": 21.135,
+     "w": "volver",
+     "k": false
+    },
+    {
+     "t": 21.146,
+     "e": 21.343,
+     "w": "sin",
+     "k": false
+    },
+    {
+     "t": 21.355,
+     "e": 21.702,
+     "w": "nada.",
+     "k": true
+    }
+   ]
+  },
+  {
+   "scene": "fight",
+   "sfx": [
+    [
+     "reel",
+     "pelea"
+    ],
+    [
+     "drop",
+     "desploma."
+    ]
+   ],
+   "start": 22.1,
+   "dur": 6.867,
+   "text": "Y si uno pica, la pelea puede durar horas. Si el pez se golpea o se calienta, su precio se desploma.",
+   "words": [
+    {
+     "t": 22.033,
+     "e": 22.149,
+     "w": "Y",
+     "k": false
+    },
+    {
+     "t": 22.16,
+     "e": 22.311,
+     "w": "si",
+     "k": false
+    },
+    {
+     "t": 22.322,
+     "e": 22.53,
+     "w": "uno",
+     "k": false
+    },
+    {
+     "t": 22.542,
+     "e": 22.878,
+     "w": "pica,",
+     "k": false
+    },
+    {
+     "t": 23.167,
+     "e": 23.26,
+     "w": "la",
+     "k": false
+    },
+    {
+     "t": 23.271,
+     "e": 23.63,
+     "w": "pelea",
+     "k": false
+    },
+    {
+     "t": 23.642,
+     "e": 23.885,
+     "w": "puede",
+     "k": false
+    },
+    {
+     "t": 23.896,
+     "e": 24.197,
+     "w": "durar",
+     "k": false
+    },
+    {
+     "t": 24.209,
+     "e": 24.614,
+     "w": "horas.",
+     "k": true
+    },
+    {
+     "t": 25.409,
+     "e": 25.629,
+     "w": "Si",
+     "k": false
+    },
+    {
+     "t": 25.64,
+     "e": 25.744,
+     "w": "el",
+     "k": false
+    },
+    {
+     "t": 25.756,
+     "e": 25.93,
+     "w": "pez",
+     "k": false
+    },
+    {
+     "t": 25.941,
+     "e": 26.022,
+     "w": "se",
+     "k": false
+    },
+    {
+     "t": 26.034,
+     "e": 26.474,
+     "w": "golpea",
+     "k": false
+    },
+    {
+     "t": 26.485,
+     "e": 26.531,
+     "w": "o",
+     "k": false
+    },
+    {
+     "t": 26.543,
+     "e": 26.67,
+     "w": "se",
+     "k": false
+    },
+    {
+     "t": 26.682,
+     "e": 27.18,
+     "w": "calienta,",
+     "k": false
+    },
+    {
+     "t": 27.399,
+     "e": 27.527,
+     "w": "su",
+     "k": false
+    },
+    {
+     "t": 27.538,
+     "e": 27.862,
+     "w": "precio",
+     "k": false
+    },
+    {
+     "t": 27.874,
+     "e": 28.001,
+     "w": "se",
+     "k": false
+    },
+    {
+     "t": 28.013,
+     "e": 28.568,
+     "w": "desploma.",
+     "k": true
+    }
+   ]
+  },
+  {
+   "scene": "auction",
+   "sfx": [
+    [
+     "gavel",
+     "vendió"
+    ],
+    [
+     "coin",
+     "millones"
+    ]
+   ],
+   "start": 28.966,
+   "dur": 8.989,
+   "text": "Ahora, el extremo: en enero de dos mil veintiséis, en Tokio, un atún de doscientos cuarenta y tres kilos se vendió en tres millones doscientos mil dólares.",
+   "words": [
+    {
+     "t": 28.899,
+     "e": 29.35,
+     "w": "Ahora,",
+     "k": false
+    },
+    {
+     "t": 29.593,
+     "e": 29.732,
+     "w": "el",
+     "k": false
+    },
+    {
+     "t": 29.744,
+     "e": 30.265,
+     "w": "extremo:",
+     "k": false
+    },
+    {
+     "t": 30.484,
+     "e": 30.623,
+     "w": "en",
+     "k": false
+    },
+    {
+     "t": 30.635,
+     "e": 30.936,
+     "w": "enero",
+     "k": false
+    },
+    {
+     "t": 30.947,
+     "e": 31.028,
+     "w": "de",
+     "k": false
+    },
+    {
+     "t": 31.04,
+     "e": 31.237,
+     "w": "dos",
+     "k": false
+    },
+    {
+     "t": 31.248,
+     "e": 31.387,
+     "w": "mil",
+     "k": true
+    },
+    {
+     "t": 31.399,
+     "e": 31.989,
+     "w": "veintiséis,",
+     "k": false
+    },
+    {
+     "t": 32.128,
+     "e": 32.29,
+     "w": "en",
+     "k": false
+    },
+    {
+     "t": 32.302,
+     "e": 32.718,
+     "w": "Tokio,",
+     "k": true
+    },
+    {
+     "t": 33.019,
+     "e": 33.123,
+     "w": "un",
+     "k": false
+    },
+    {
+     "t": 33.135,
+     "e": 33.401,
+     "w": "atún",
+     "k": false
+    },
+    {
+     "t": 33.413,
+     "e": 33.494,
+     "w": "de",
+     "k": false
+    },
+    {
+     "t": 33.505,
+     "e": 34.026,
+     "w": "doscientos",
+     "k": true
+    },
+    {
+     "t": 34.038,
+     "e": 34.35,
+     "w": "cuarenta",
+     "k": false
+    },
+    {
+     "t": 34.362,
+     "e": 34.42,
+     "w": "y",
+     "k": false
+    },
+    {
+     "t": 34.431,
+     "e": 34.697,
+     "w": "tres",
+     "k": true
+    },
+    {
+     "t": 34.709,
+     "e": 35.01,
+     "w": "kilos",
+     "k": false
+    },
+    {
+     "t": 35.021,
+     "e": 35.114,
+     "w": "se",
+     "k": false
+    },
+    {
+     "t": 35.126,
+     "e": 35.461,
+     "w": "vendió",
+     "k": false
+    },
+    {
+     "t": 35.473,
+     "e": 35.6,
+     "w": "en",
+     "k": false
+    },
+    {
+     "t": 35.612,
+     "e": 35.855,
+     "w": "tres",
+     "k": true
+    },
+    {
+     "t": 35.866,
+     "e": 36.283,
+     "w": "millones",
+     "k": true
+    },
+    {
+     "t": 36.295,
+     "e": 36.804,
+     "w": "doscientos",
+     "k": true
+    },
+    {
+     "t": 36.815,
+     "e": 36.977,
+     "w": "mil",
+     "k": true
+    },
+    {
+     "t": 36.989,
+     "e": 37.579,
+     "w": "dólares.",
+     "k": true
+    }
+   ]
+  },
+  {
+   "scene": "perkilo",
+   "sfx": [
+    [
+     "coin",
+     "kilo."
+    ]
+   ],
+   "start": 37.956,
+   "dur": 3.099,
+   "text": "Eso es más de trece mil dólares… por cada kilo.",
+   "words": [
+    {
+     "t": 37.89,
+     "e": 38.156,
+     "w": "Eso",
+     "k": false
+    },
+    {
+     "t": 38.167,
+     "e": 38.295,
+     "w": "es",
+     "k": false
+    },
+    {
+     "t": 38.306,
+     "e": 38.48,
+     "w": "más",
+     "k": false
+    },
+    {
+     "t": 38.491,
+     "e": 38.584,
+     "w": "de",
+     "k": false
+    },
+    {
+     "t": 38.596,
+     "e": 38.862,
+     "w": "trece",
+     "k": true
+    },
+    {
+     "t": 38.873,
+     "e": 39.082,
+     "w": "mil",
+     "k": true
+    },
+    {
+     "t": 39.093,
+     "e": 39.603,
+     "w": "dólares…",
+     "k": false
+    },
+    {
+     "t": 39.811,
+     "e": 39.984,
+     "w": "por",
+     "k": false
+    },
+    {
+     "t": 39.996,
+     "e": 40.251,
+     "w": "cada",
+     "k": false
+    },
+    {
+     "t": 40.262,
+     "e": 40.644,
+     "w": "kilo.",
+     "k": true
+    }
+   ]
+  },
+  {
+   "scene": "why",
+   "sfx": [
+    [
+     "pop",
+     "suerte,"
+    ],
+    [
+     "pop",
+     "prestigio,"
+    ],
+    [
+     "pop",
+     "publicidad"
+    ]
+   ],
+   "start": 41.055,
+   "dur": 6.782,
+   "text": "¿Por qué tanto? Porque el primer atún del año da suerte, prestigio, y publicidad gratis en todo el mundo.",
+   "words": [
+    {
+     "t": 40.99,
+     "e": 41.152,
+     "w": "¿Por",
+     "k": false
+    },
+    {
+     "t": 41.164,
+     "e": 41.28,
+     "w": "qué",
+     "k": false
+    },
+    {
+     "t": 41.291,
+     "e": 41.696,
+     "w": "tanto?",
+     "k": false
+    },
+    {
+     "t": 42.491,
+     "e": 42.746,
+     "w": "Porque",
+     "k": false
+    },
+    {
+     "t": 42.757,
+     "e": 42.85,
+     "w": "el",
+     "k": false
+    },
+    {
+     "t": 42.862,
+     "e": 43.139,
+     "w": "primer",
+     "k": false
+    },
+    {
+     "t": 43.151,
+     "e": 43.406,
+     "w": "atún",
+     "k": false
+    },
+    {
+     "t": 43.417,
+     "e": 43.568,
+     "w": "del",
+     "k": false
+    },
+    {
+     "t": 43.579,
+     "e": 43.799,
+     "w": "año",
+     "k": false
+    },
+    {
+     "t": 43.811,
+     "e": 43.926,
+     "w": "da",
+     "k": false
+    },
+    {
+     "t": 43.938,
+     "e": 44.366,
+     "w": "suerte,",
+     "k": true
+    },
+    {
+     "t": 44.598,
+     "e": 45.2,
+     "w": "prestigio,",
+     "k": true
+    },
+    {
+     "t": 45.431,
+     "e": 45.512,
+     "w": "y",
+     "k": false
+    },
+    {
+     "t": 45.524,
+     "e": 46.102,
+     "w": "publicidad",
+     "k": true
+    },
+    {
+     "t": 46.114,
+     "e": 46.519,
+     "w": "gratis",
+     "k": false
+    },
+    {
+     "t": 46.531,
+     "e": 46.693,
+     "w": "en",
+     "k": false
+    },
+    {
+     "t": 46.704,
+     "e": 46.959,
+     "w": "todo",
+     "k": false
+    },
+    {
+     "t": 46.97,
+     "e": 47.04,
+     "w": "el",
+     "k": false
+    },
+    {
+     "t": 47.051,
+     "e": 47.445,
+     "w": "mundo.",
+     "k": false
+    }
+   ]
+  },
+  {
+   "scene": "danger",
+   "sfx": [
+    [
+     "stamp",
+     "peligro."
+    ],
+    [
+     "pop",
+     "cuotas."
+    ]
+   ],
+   "start": 47.837,
+   "dur": 4.808,
+   "text": "Tanto valor lo puso en peligro. Hoy su pesca está controlada con cuotas.",
+   "words": [
+    {
+     "t": 47.768,
+     "e": 48.057,
+     "w": "Tanto",
+     "k": false
+    },
+    {
+     "t": 48.069,
+     "e": 48.37,
+     "w": "valor",
+     "k": false
+    },
+    {
+     "t": 48.381,
+     "e": 48.474,
+     "w": "lo",
+     "k": false
+    },
+    {
+     "t": 48.486,
+     "e": 48.74,
+     "w": "puso",
+     "k": false
+    },
+    {
+     "t": 48.752,
+     "e": 48.833,
+     "w": "en",
+     "k": false
+    },
+    {
+     "t": 48.844,
+     "e": 49.319,
+     "w": "peligro.",
+     "k": true
+    },
+    {
+     "t": 50.114,
+     "e": 50.264,
+     "w": "Hoy",
+     "k": false
+    },
+    {
+     "t": 50.276,
+     "e": 50.415,
+     "w": "su",
+     "k": false
+    },
+    {
+     "t": 50.426,
+     "e": 50.739,
+     "w": "pesca",
+     "k": false
+    },
+    {
+     "t": 50.75,
+     "e": 50.97,
+     "w": "está",
+     "k": false
+    },
+    {
+     "t": 50.982,
+     "e": 51.526,
+     "w": "controlada",
+     "k": false
+    },
+    {
+     "t": 51.537,
+     "e": 51.711,
+     "w": "con",
+     "k": false
+    },
+    {
+     "t": 51.723,
+     "e": 52.255,
+     "w": "cuotas.",
+     "k": true
+    }
+   ]
+  },
+  {
+   "scene": "outro",
+   "sfx": [
+    [
+     "coin",
+     "dólares"
+    ],
+    [
+     "pop",
+     "harías?"
+    ]
+   ],
+   "start": 52.644,
+   "dur": 7.457,
+   "text": "Entonces… diez mil dólares en un día. ¿Lo harías? Te leo en los comentarios.",
+   "words": [
+    {
+     "t": 52.572,
+     "e": 53.22,
+     "w": "Entonces…",
+     "k": false
+    },
+    {
+     "t": 53.463,
+     "e": 53.694,
+     "w": "diez",
+     "k": true
+    },
+    {
+     "t": 53.706,
+     "e": 53.879,
+     "w": "mil",
+     "k": true
+    },
+    {
+     "t": 53.891,
+     "e": 54.319,
+     "w": "dólares",
+     "k": false
+    },
+    {
+     "t": 54.331,
+     "e": 54.423,
+     "w": "en",
+     "k": false
+    },
+    {
+     "t": 54.435,
+     "e": 54.551,
+     "w": "un",
+     "k": false
+    },
+    {
+     "t": 54.562,
+     "e": 54.886,
+     "w": "día.",
+     "k": false
+    },
+    {
+     "t": 55.693,
+     "e": 55.843,
+     "w": "¿Lo",
+     "k": false
+    },
+    {
+     "t": 55.855,
+     "e": 56.387,
+     "w": "harías?",
+     "k": true
+    },
+    {
+     "t": 57.197,
+     "e": 57.302,
+     "w": "Te",
+     "k": false
+    },
+    {
+     "t": 57.313,
+     "e": 57.545,
+     "w": "leo",
+     "k": false
+    },
+    {
+     "t": 57.556,
+     "e": 57.614,
+     "w": "en",
+     "k": false
+    },
+    {
+     "t": 57.626,
+     "e": 57.741,
+     "w": "los",
+     "k": false
+    },
+    {
+     "t": 57.753,
+     "e": 58.517,
+     "w": "comentarios.",
+     "k": true
+    }
+   ]
+  }
+ ]
+}

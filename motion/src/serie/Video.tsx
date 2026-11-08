@@ -1,0 +1,34 @@
+import React from 'react';
+import {AbsoluteFill, Audio, Sequence, staticFile, useVideoConfig} from 'remotion';
+import {Escena, Fondo, Progreso} from './Fondo';
+import {Subtitulos} from './Subtitulos';
+import {BeatCtx} from './util';
+import {buscar} from '../registro';
+
+/** Arma un video de la serie: fondo + escenas (una por beat) + subtítulos + audio. */
+export const VideoSerie: React.FC<{id: string}> = ({id}) => {
+  const {datos, escenas, tintes} = buscar(id);
+  const {fps, durationInFrames} = useVideoConfig();
+  const desde = datos.beats.map((b, i) => (i === 0 ? 0 : Math.round(b.start * fps)));
+  return (
+    <AbsoluteFill style={{backgroundColor: '#060b1c'}}>
+      {datos.beats.map((b, i) => {
+        const fin = i + 1 < datos.beats.length ? desde[i + 1] : durationInFrames;
+        const Comp = escenas[b.scene];
+        const beat = {...b, start: desde[i] / fps, dur: (fin - desde[i]) / fps};
+        return (
+          <Sequence key={i} from={desde[i]} durationInFrames={fin - desde[i]} name={b.scene}>
+            <BeatCtx.Provider value={beat}>
+              <Fondo tinte={tintes[b.scene]} />
+              <Escena>{Comp ? <Comp /> : null}</Escena>
+            </BeatCtx.Provider>
+          </Sequence>
+        );
+      })}
+      <Subtitulos datos={datos} />
+      <Progreso total={durationInFrames} />
+      <Audio src={staticFile(`${datos.id}/voz.wav`)} />
+      <Audio src={staticFile(`${datos.id}/musica.wav`)} />
+    </AbsoluteFill>
+  );
+};
