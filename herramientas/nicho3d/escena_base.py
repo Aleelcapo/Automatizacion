@@ -313,8 +313,9 @@ def terreno(M, huecos, ancho=(-16, 18)):
     suelo.data.materials.append(M['tierra'])
     suelo.data.materials.append(M['pasto'])
     cortes = []
-    for i, (x0, x1, y1, z0) in enumerate(huecos):
-        c = D.caja(f'hueco{i}', x0, x1, Y0 - 3, y1, z0, 1.0)
+    huecos = [h if len(h) == 5 else (*h, 1.0) for h in huecos]
+    for i, (x0, x1, y1, z0, z1) in enumerate(huecos):
+        c = D.caja(f'hueco{i}', x0, x1, Y0 - 3, y1, z0, z1)
         D.restar(suelo, c)
         cortes.append(c)
     D.aplicar_mods(suelo)
@@ -326,12 +327,12 @@ def terreno(M, huecos, ancho=(-16, 18)):
     borrar = []
     for f in bm.faces:
         c = f.calc_center_median()
-        if any(x0 < c.x < x1 and c.z > z0 for x0, x1, y1, z0 in huecos):
+        if any(x0 < c.x < x1 and z0 < c.z < z1 for x0, x1, y1, z0, z1 in huecos):
             borrar.append(f)
     bmesh.ops.delete(bm, geom=borrar, context='FACES')
     bm.to_mesh(frente.data)
     bm.free()
-    xs = sorted((x0, x1) for x0, x1, _, _ in huecos)
+    xs = sorted((x0, x1) for x0, x1, _, _, z1 in huecos if z1 > 0)
     a = -40
     for x0, x1 in xs + [(40, 40)]:
         if x0 > a:
