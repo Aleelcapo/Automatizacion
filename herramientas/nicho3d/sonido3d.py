@@ -199,7 +199,8 @@ def mezclar(voz_f, eventos, salida, tramos=None, vol_fx=0.5, vol_mus=0.16, cola=
             s = lluvia(t1 - t0) if tipo == 'lluvia' else np.zeros(1, np.float32)
             i = int(t0 * SR)
             fx[i:i + len(s)] += s[:n - i]
-    mus = musica(n / SR)
+    mus = musica(n / SR + 0.01)[:n]
+    mus = np.pad(mus, (0, n - len(mus)))
     # ducking: la musica baja cuando hay voz
     w = int(0.05 * SR)
     envv = np.convolve(np.abs(v), np.ones(w) / w, mode='same')
