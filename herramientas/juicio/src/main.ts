@@ -172,11 +172,19 @@ const SU = 0.00216; // metros por unidad de diseño (1000 = 2,16 m)
 type Who = { o: Outfit; opts: FrontOpts; at: THREE.Vector3; scale?: number };
 const cards: THREE.Mesh[] = [];
 const contactTex = ctex(128, 64, (g) => { const r = g.createRadialGradient(64, 32, 2, 64, 32, 62); r.addColorStop(0, "rgba(30,15,10,0.55)"); r.addColorStop(1, "rgba(30,15,10,0)"); g.fillStyle = r; g.save(); g.scale(1, 0.5); g.fillRect(0, 0, 128, 128); g.restore(); });
-const addChar = (root: THREE.Object3D, w: Who) => {
+type Live = { m: THREE.Mesh; base: THREE.Vector3; set: (o: FrontOpts) => void };
+const live: Live[] = [];
+const addChar = (root: THREE.Object3D, w: Who): Live => {
   const cw = 600, ch = 1000, k = 1.6;
   const c = document.createElement("canvas"); c.width = cw * k; c.height = ch * k;
-  const g = c.getContext("2d")!; g.setTransform(k, 0, 0, k, 0, 0);
-  bodyFront(new Pen(g), w.o, w.opts);
+  const g = c.getContext("2d")!;
+  let last = "";
+  const draw = (o: FrontOpts) => {
+    const key = JSON.stringify(o); if (key === last) return false; last = key;
+    g.setTransform(1, 0, 0, 1, 0, 0); g.clearRect(0, 0, c.width, c.height); g.setTransform(k, 0, 0, k, 0, 0);
+    bodyFront(new Pen(g), w.o, o); return true;
+  };
+  draw(w.opts);
   const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 8;
   const s = (w.scale ?? 1) * SU;
   const m = new THREE.Mesh(new THREE.PlaneGeometry(cw * s, ch * s), new THREE.MeshBasicMaterial({ map: t, transparent: true, alphaTest: 0.5 }));
@@ -187,6 +195,8 @@ const addChar = (root: THREE.Object3D, w: Who) => {
   root.add(m); cards.push(m);
   const sh = new THREE.Mesh(new THREE.PlaneGeometry(0.9 * (w.scale ?? 1), 0.45 * (w.scale ?? 1)), new THREE.MeshBasicMaterial({ map: contactTex, transparent: true, depthWrite: false }));
   sh.rotation.x = -Math.PI / 2; sh.position.set(w.at.x, w.at.y + 0.015, w.at.z); sh.layers.set(NOINK); root.add(sh);
+  const L: Live = { m, base: w.at.clone(), set: (o) => { if (draw(o)) t.needsUpdate = true; } };
+  live.push(L); return L;
 };
 const hair = (col: string, extra: Partial<Outfit> = {}): Outfit => ({ jacket: "#3f6fb5", pants: "#3b3f52", boots: "#2a1f1a", hat: "hair", hair: col, ...extra });
 const JUDGE: Outfit = { jacket: "#1f1d24", pants: "#1f1d24", boots: INK, hat: "hair", hair: "#d9d4cc", dress: "#1f1d24", skin: SKINS[1], moustache: "#d9d4cc", build: "stout" };
@@ -223,6 +233,7 @@ const evidenceCard = (root: THREE.Object3D, at: THREE.Vector3, size: number, tit
   });
   const m = new THREE.Mesh(new THREE.PlaneGeometry(size, size * 760 / 600), new THREE.MeshBasicMaterial({ map: t, transparent: true }));
   m.position.copy(at); m.rotation.z = rot; m.layers.set(NOINK); root.add(m); cards.push(m);
+  return m;
 };
 const fingerprint = (g: CanvasRenderingContext2D) => {
   g.strokeStyle = "#3a5a9a"; g.lineWidth = 9; g.lineCap = "round";
@@ -292,4 +303,97 @@ const run = async () => {
   }
   (window as unknown as { __done: boolean }).__done = true;
 };
-run();
+
+// ------------------------------------------------------------------ animación de prueba (10 s, 30 fps)
+// La página arma la escena una vez y expone window.__frame(i): posa todo para el cuadro i y lo renderiza.
+const FPS = 30;
+const clamp01 = (x: number) => Math.max(0, Math.min(1, x));
+const sstep = (x: number) => { x = clamp01(x); return x * x * x * (x * (x * 6 - 15) + 10); };
+const backOut = (x: number) => { x = clamp01(x) - 1; return 1 + x * x * (2.7 * x + 1.7); };
+const lerpV = (a: THREE.Vector3, b: THREE.Vector3, k: number) => a.clone().lerp(b, k);
+type Shot = { a: number; b: number; p0: THREE.Vector3; p1: THREE.Vector3; l0: THREE.Vector3; l1: THREE.Vector3; fov: number; roll: number; cap: string; capAt: number };
+const SHOTS_A: Shot[] = [
+  { a: 0, b: 3.0, p0: V(-3.4, 4.8, 9.0), p1: V(-2.6, 4.0, 7.2), l0: V(1.6, 1.4, -3.8), l1: V(1.6, 1.4, -4.2), fov: 56, roll: -2, cap: '¿<span class="red">culpable</span><br>o inocente?', capAt: 0.25 },
+  { a: 3.0, b: 5.5, p0: V(0.9, 2.75, -3.2), p1: V(0.7, 2.65, -3.9), l0: V(-0.1, 2.45, -6.9), l1: V(-0.1, 2.45, -6.9), fov: 36, roll: 3, cap: "orden en la sala", capAt: 3.75 },
+  { a: 5.5, b: 8.0, p0: V(-1.6, 1.85, 4.2), p1: V(-1.8, 1.75, 3.6), l0: V(-2.5, 1.35, 0.3), l1: V(-2.5, 1.35, 0.3), fov: 52, roll: 2, cap: '<span class="red">¡objeción!</span>', capAt: 6.6 },
+  { a: 8.0, b: 10.0, p0: V(1.2, 2.7, -0.7), p1: V(1.9, 2.45, -1.4), l0: V(6.3, 1.45, -2.3), l1: V(6.3, 1.45, -2.3), fov: 50, roll: -3, cap: "el jurado decide…", capAt: 8.45 },
+];
+const STRIKES = [3.8, 4.45];
+const blinkAt = (t: number, seed: number) => { const per = 1.4 + (seed % 5) * 0.23, ph = (seed * 0.37) % per; return ((t + ph) % per) < 4 / FPS; };
+
+const anim = async () => {
+  await document.fonts.ready;
+  const renderer = new THREE.WebGLRenderer({ antialias: false, preserveDrawingBuffer: true, powerPreference: "high-performance" });
+  renderer.setPixelRatio(1); renderer.setSize(W, H);
+  renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+  document.body.appendChild(renderer.domElement);
+  const scene = new THREE.Scene(); scene.background = new THREE.Color("#f2efe6");
+  const root = new THREE.Group(); scene.add(root);
+  buildRoom(root);
+  const judge = addChar(root, { o: JUDGE, opts: { mode: "sit", expr: "neutral", seed: 4 }, at: V(0, 1.0, -6.75), scale: 1.2 });
+  const jur = JURORS.map((o, i) => addChar(root, { o, opts: { mode: "sit", expr: "neutral", seed: 10 + i, facing: -1, look: -0.4 }, at: V(i < 4 ? 5.35 : 7.45, i < 4 ? 0.25 : 0.6, -4.8 + (i % 4) * 1.5) }));
+  const pros = addChar(root, { o: PROSECUTOR, opts: { mode: "stand", expr: "stern", seed: 31 }, at: V(1.9, 0, 0.55) });
+  const def = addChar(root, { o: DEFENSE, opts: { mode: "stand", expr: "neutral", seed: 32 }, at: V(-2.1, 0, 0.55) });
+  const acc = addChar(root, { o: ACCUSED, opts: { mode: "sit", expr: "nervous", seed: 33 }, at: V(-3.1, 0, 0.5) });
+  const gal = GALLERY.map((o, i) => addChar(root, { o, opts: { mode: "sit", expr: "neutral", seed: 50 + i }, at: V([-6.5, -4.5, -2.8, 2.8, 4.6, 6.6][i], 0.1, 3.6 + (i % 2) * 1.6) }));
+  const card = evidenceCard(root, V(-1.75, 2.15, 0.9), 0.62, "HUELLA", fingerprint, -0.08);
+  scene.add(new THREE.HemisphereLight("#f4f6ff", "#6d5a50", 1.5));
+  const sun = new THREE.DirectionalLight("#fff0d6", 3.0);
+  sun.position.set(-14, 11, 4); sun.target.position.set(1, 0, -2); scene.add(sun, sun.target);
+  sun.castShadow = true; sun.shadow.mapSize.set(4096, 4096); sun.shadow.bias = -0.0004; sun.shadow.normalBias = 0.02;
+  const sc = sun.shadow.camera as THREE.OrthographicCamera; sc.left = -14; sc.right = 14; sc.top = 14; sc.bottom = -14; sc.near = 1; sc.far = 50;
+  const fill = new THREE.DirectionalLight("#bcd2ff", 0.35); fill.position.set(8, 6, 10); scene.add(fill);
+  const cam = new THREE.PerspectiveCamera(50, W / H, 0.1, 200);
+  noInkFallback(root);
+  const composer = new EffectComposer(renderer, { multisampling: 4, frameBufferType: THREE.HalfFloatType });
+  composer.addPass(new RenderPass(scene, cam));
+  composer.addPass(new InkPass(scene, cam, {}));
+  composer.addPass(new EffectPass(cam, new BloomEffect({ luminanceThreshold: 1.0, intensity: 0.4 }), new ToneMappingEffect({ mode: ToneMappingMode.NEUTRAL })));
+  composer.setSize(W, H);
+  const capEl = document.createElement("div"); capEl.className = "cap"; document.body.appendChild(capEl);
+
+  (window as unknown as { __frame: (i: number) => void }).__frame = (i: number) => {
+    const t = i / FPS;
+    const sh = SHOTS_A.find((s) => t >= s.a && t < s.b) ?? SHOTS_A[SHOTS_A.length - 1];
+    const k = sstep((t - sh.a) / (sh.b - sh.a));
+    // sacudida al golpe del martillo: cambia de signo cada cuadro y se apaga en 7 cuadros
+    let shake = 0;
+    for (const s of STRIKES) { const f = Math.round((t - s) * FPS); if (f >= 0 && f < 7 && sh.a === 3.0) shake += (f % 2 ? -1 : 1) * 0.03 * (1 - f / 7); }
+    const evK = backOut((t - 5.9) / 0.35);
+    if (sh.a === 5.5) { const f = Math.round((t - 6.6) * FPS); if (f >= 0 && f < 7) shake += (f % 2 ? -1 : 1) * 0.025 * (1 - f / 7); }
+    cam.fov = sh.fov; cam.updateProjectionMatrix();
+    cam.position.copy(lerpV(sh.p0, sh.p1, k)); cam.position.y += shake;
+    cam.up.set(0, 1, 0); cam.lookAt(lerpV(sh.l0, sh.l1, k)); cam.rotateZ((sh.roll * Math.PI) / 180);
+    // poses y caras según el tiempo
+    const strike = Math.max(0, ...STRIKES.map((s) => (t >= s - 0.12 && t < s ? (t - (s - 0.12)) / 0.12 : t >= s && t < s + 0.25 ? 1 - (t - s) / 0.25 : 0)));
+    judge.set({ mode: "sit", expr: t >= 3.6 ? "stern" : "neutral", seed: 4, prop: t >= 3.0 ? ["hammer", Math.round(strike * 10) / 10] : null, blink: blinkAt(t, 4) && strike === 0 });
+    jur.forEach((L, j) => {
+      const react = t >= 8.4 + j * 0.12;
+      const ex: Expr[] = ["shock", "nervous", "stern", "shock", "pained", "shock", "nervous", "shock"];
+      L.set({ mode: "sit", expr: react ? ex[j] : "neutral", seed: 10 + j, facing: -1, look: -0.4, blink: blinkAt(t, 10 + j) && !react });
+    });
+    const obj = t >= 6.6;
+    def.set({ mode: "stand", expr: obj ? "grin" : "neutral", seed: 32, wave: obj ? 1 : undefined, blink: blinkAt(t, 32) });
+    pros.set({ mode: "stand", expr: t >= 6.75 ? "shock" : "stern", seed: 31, blink: blinkAt(t, 31) });
+    acc.set({ mode: "sit", expr: "nervous", seed: 33, blink: blinkAt(t, 33), look: Math.sin(t * 5) > 0.6 ? 0.4 : 0 });
+    gal.forEach((L, j) => L.set({ mode: "sit", expr: t >= 6.7 && j % 2 === 0 ? "shock" : "neutral", seed: 50 + j, blink: blinkAt(t, 50 + j) }));
+    // tarjeta de prueba: entra girando con rebote
+    card.visible = t >= 5.9 && sh.a === 5.5;
+    card.scale.setScalar(Math.max(0.001, evK)); card.rotation.z = -0.08 + (1 - clamp01((t - 5.9) / 0.35)) * 0.6;
+    // tarjetas de personajes: miran a la cámara; las sentadas se adelantan para no quedar tras respaldos
+    for (const L of live) {
+      const d = cam.position.clone().sub(L.base); d.y = 0; d.normalize();
+      L.m.position.copy(L.base); if (L.m.userData.sit) L.m.position.addScaledVector(d, 0.3);
+      const e = cam.position.clone().sub(L.m.position); L.m.rotation.y = Math.atan2(e.x, e.z);
+    }
+    { const e = cam.position.clone().sub(card.position); card.rotation.y = Math.atan2(e.x, e.z); }
+    composer.render();
+    // rótulo: aparece con un pequeño rebote
+    const ck = t >= sh.capAt ? backOut((t - sh.capAt) / 0.22) : 0;
+    capEl.innerHTML = ck > 0 ? `<div>${sh.cap}</div>` : "";
+    capEl.style.transform = `scale(${0.7 + 0.3 * ck})`; capEl.style.opacity = String(clamp01(ck * 1.4));
+  };
+  (window as unknown as { __done: boolean }).__done = true;
+};
+
+if (params.get("anim")) anim(); else run();
