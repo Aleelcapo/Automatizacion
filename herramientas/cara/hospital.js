@@ -68,10 +68,19 @@ const shoulders = cap(.07, .44); shoulders.rotation.z = Math.PI / 2; shoulders.p
 const neck = cap(.06, .06); neck.position.y = 1.99; body.add(neck);
 // cabeza: plano con la foto, apoyado sobre el cuello (el mentón tapa la parte de arriba del cuello)
 const headG = new THREE.Group(); headG.position.set(0, 2.03, .1); body.add(headG);
-const tex = new THREE.TextureLoader().load('/house_cara.png'); tex.colorSpace = THREE.SRGBColorSpace; tex.anisotropy = 8;
-const HH = .74, HW = HH * 130 / 188;
-const headM = new THREE.Mesh(new THREE.PlaneGeometry(HW, HH), new THREE.MeshBasicMaterial({ map: tex, transparent: true, alphaTest: .05 }));
-headM.position.y = HH / 2 - .06; headG.add(headM);
+const HEAD = new URLSearchParams(location.search).get('head') || 'C0';
+const tex = new THREE.TextureLoader().load({ A: '/house_head3d.png', B: '/house_sticker.png', C: '/house_badge.png' }[HEAD] || '/house_cara.png'); tex.colorSpace = THREE.SRGBColorSpace; tex.anisotropy = 8;
+let headM;
+if (HEAD === 'A') {
+  // cabeza 3D con forma de huevo; la foto se proyecta de frente sobre la cara
+  const g = new THREE.SphereGeometry(.25, 48, 36); const p = g.attributes.position, uv = g.attributes.uv;
+  for (let k = 0; k < p.count; k++) { const x = p.getX(k), y = p.getY(k), z = p.getZ(k); if (z > -.02) uv.setXY(k, .5 + x / .4, .42 + (y + .02) / .44); else uv.setXY(k, .02, .98); }
+  headM = new THREE.Mesh(g, new THREE.MeshStandardMaterial({ map: tex, roughness: .55 })); headM.scale.set(.92, 1.2, .95); headM.position.y = .27; headM.castShadow = true; headG.add(headM); headG.position.z = 0;
+} else {
+  const AR = HEAD === 'C' ? 1 : HEAD === 'B' ? (130 + 48) / (188 + 48) : 130 / 188, HH = HEAD === 'C' ? .62 : .8;
+  headM = new THREE.Mesh(new THREE.PlaneGeometry(HH * AR, HH), new THREE.MeshBasicMaterial({ map: tex, transparent: true, alphaTest: .05 }));
+  headM.position.y = HH / 2 - (HEAD === 'C' ? .02 : .07); headG.add(headM);
+}
 // sombra suave del mentón sobre el cuello
 const shadowC = new THREE.Mesh(new THREE.CircleGeometry(.09, 20), new THREE.MeshBasicMaterial({ color: '#000', transparent: true, opacity: .18 })); shadowC.scale.set(1, .5, 1); shadowC.visible = false;
 function limb(len1, len2, r) { const a = new THREE.Group(), u = cap(r, len1 - 2 * r); u.position.y = -len1 / 2; a.add(u); const j = new THREE.Group(); j.position.y = -len1 - .02; a.add(j); const l = cap(r * .92, len2 - 2 * r); l.position.y = -len2 / 2; j.add(l); return { root: a, joint: j }; }
@@ -85,6 +94,7 @@ arms[0].joint.add(cane); cane.position.set(0, -.49, .03);
 // ---------------- ANIMACIÓN ----------------
 window.renderFrame = (i) => {
   const t = i / 30;
+  if (new URLSearchParams(location.search).get('still')) { man.position.set(0, 0, -2); legs.forEach(l => { l.root.rotation.x = 0; l.joint.rotation.x = 0; }); arms[0].root.rotation.set(-.1, 0, -.1); arms[0].joint.rotation.x = -.35; arms[1].root.rotation.set(0, 0, .12); arms[1].joint.rotation.x = -.15; headG.rotation.y = -.25; body.rotation.y = .25; cam.position.set(.7, 2.05, 1.5); cam.lookAt(0, 1.85, -2); R.render(S, cam); return R.domElement.toDataURL('image/jpeg', .92); }
   const z = lerp(-6.5, -1.2, clamp(t / 6, 0, 1));      // camina hacia la cámara por el pasillo
   const w = t * 5.0, sw = Math.sin(w);
   man.position.set(-.1, Math.abs(Math.cos(w)) * .035, z);
