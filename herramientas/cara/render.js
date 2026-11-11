@@ -1,6 +1,6 @@
 const { chromium } = require('playwright'); const http = require('http'); const fs = require('fs'); const path = require('path'); const { spawn } = require('child_process');
 const [out, n, at, w0, w1] = process.argv.slice(2); const root = __dirname;
-const types = { '.js': 'text/javascript', '.html': 'text/html', '.woff2': 'font/woff2', '.png': 'image/png' };
+const types = { '.js': 'text/javascript', '.html': 'text/html', '.woff2': 'font/woff2', '.png': 'image/png', '.glb': 'model/gltf-binary' };
 const srv = http.createServer((q, r) => { let p = path.join(root, decodeURIComponent(q.url.split('?')[0])); if (p.endsWith('/')) p += 'index.html'; fs.readFile(p, (e, d) => { if (e) { r.writeHead(404); return r.end(); } r.writeHead(200, { 'Content-Type': types[path.extname(p)] || 'application/octet-stream' }); r.end(d); }); }).listen(0, async () => {
   const b = await chromium.launch({ args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] });
   const pg = await b.newPage({ viewport: { width: 400, height: 400 } }); pg.on('pageerror', e => console.log('ERR', e.message)); pg.on('console', m => { if (m.type() === 'error') console.log('[c]', m.text()); });
