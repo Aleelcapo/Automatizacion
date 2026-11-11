@@ -1,0 +1,65 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face { font-family: 'Montserrat'; font-weight: 800; src: url('/node_modules/@fontsource/montserrat/files/montserrat-latin-800-normal.woff2'); }
+html,body{margin:0;background:#000}</style></head><body>
+<svg id="s" xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+<script type="module">
+const VX = 540, VY = 860; // punto de fuga
+let o = `<defs>
+ <linearGradient id="wh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".6" stop-color="#f1f4f9"/><stop offset="1" stop-color="#d9e0ea"/></linearGradient>
+ <linearGradient id="ceil" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9f1f1"/><stop offset="1" stop-color="#d4e2e2"/></linearGradient>
+ <linearGradient id="flo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfdadd"/><stop offset="1" stop-color="#e8eef0"/></linearGradient>
+ <radialGradient id="glowB" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#bfe0ff" stop-opacity=".55"/><stop offset="1" stop-color="#bfe0ff" stop-opacity="0"/></radialGradient>
+ <radialGradient id="end" cx=".5" cy=".5" r=".6"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dcebea"/></radialGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="10"/></filter><filter id="ds"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#5a6a80" flood-opacity=".25"/></filter>
+</defs>`;
+// ---------- PASILLO 2D PLANO
+const P = (x, y, k) => [VX + (x - VX) * k, VY + (y - VY) * k];
+o += `<rect width="1080" height="1920" fill="#cfe5e0"/>`;
+o += `<path d="M0 0 L1080 0 L${VX + 150} ${VY - 230} L${VX - 150} ${VY - 230} Z" fill="url(#ceil)"/>`;
+o += `<path d="M0 1920 L1080 1920 L${VX + 150} ${VY + 190} L${VX - 150} ${VY + 190} Z" fill="url(#flo)"/>`;
+o += `<path d="M0 0 L${VX - 150} ${VY - 230} L${VX - 150} ${VY + 190} L0 1920 Z" fill="#bfe0d8"/><path d="M1080 0 L${VX + 150} ${VY - 230} L${VX + 150} ${VY + 190} L1080 1920 Z" fill="#b2d7ce"/>`;
+// líneas del piso
+for (let i = -6; i <= 6; i++) { const [x2, y2] = [VX + i * 25, VY + 190]; o += `<path d="M${VX + i * 230} 1920 L${x2} ${y2}" stroke="#b9c7cb" stroke-width="3"/>`; }
+for (const k of [.05, .12, .22, .36, .55, .8]) { const y = VY + 190 + (1920 - VY - 190) * k; const xl = (VX - 150) * (1 - k) * 1, xr = 1080 - xl; o += `<path d="M${(VX - 150) - (VX - 150) * k} ${y} L${VX + 150 + (1080 - VX - 150) * k} ${y}" stroke="#b9c7cb" stroke-width="3"/>`; }
+// zócalo verde y pasamanos
+o += `<path d="M0 1640 L${VX - 150} ${VY + 150} L${VX - 150} ${VY + 190} L0 1920 Z" fill="#4f9f95"/><path d="M1080 1640 L${VX + 150} ${VY + 150} L${VX + 150} ${VY + 190} L1080 1920 Z" fill="#46938a"/>`;
+o += `<path d="M0 1240 L${VX - 150} ${VY + 60}" stroke="#eef2f4" stroke-width="18" stroke-linecap="round"/><path d="M1080 1240 L${VX + 150} ${VY + 60}" stroke="#eef2f4" stroke-width="18" stroke-linecap="round"/>`;
+// puertas
+function door(side, k1, k2, num) {
+  const X = k => side < 0 ? (VX - 150) * k : 1080 - (1080 - VX - 150) * k, T = k => (VY - 230) * k, B = k => 1920 + (VY + 190 - 1920) * k, D = k => B(k) - (B(k) - T(k)) * .6;
+  o += `<path d="M${X(k1)} ${D(k1)} L${X(k2)} ${D(k2)} L${X(k2)} ${B(k2)} L${X(k1)} ${B(k1)} Z" fill="#7fb8d6"/>`;
+  o += `<path d="M${X(k1)} ${D(k1)} L${X(k2)} ${D(k2)}" stroke="#f2f6f6" stroke-width="${10 * (1 - k1) + 3}"/><path d="M${X(k1)} ${D(k1)} L${X(k1)} ${B(k1)} M${X(k2)} ${D(k2)} L${X(k2)} ${B(k2)}" stroke="#f2f6f6" stroke-width="${10 * (1 - k1) + 3}"/>`;
+  const km = (k1 + k2) / 2, wg = (X(k2) - X(k1)) * .35; o += `<path d="M${X(km) - wg / 2} ${D(km) + (B(km) - D(km)) * .12} l${wg} ${(D(k2) - D(k1)) * .35} l0 ${(B(km) - D(km)) * .2} l${-wg} ${-(D(k2) - D(k1)) * .35} Z" fill="#d6ecf7"/>`;
+  const sz = 46 * (1 - km) + 10; o += `<rect x="${X(km) - sz / 2}" y="${D(km) - sz * .9}" width="${sz}" height="${sz * .55}" rx="4" fill="#2c4f8a"/><text x="${X(km)}" y="${D(km) - sz * .48}" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="${sz * .38}" fill="#fff">${num}</text>`;
+}
+door(-1, .1, .3, 101); door(-1, .5, .62, 103); door(-1, .76, .84, 105); door(1, .2, .38, 102); door(1, .58, .68, 104);
+// luces de techo
+for (const k of [.15, .38, .58, .74]) { const w = 380 * (1 - k) + 60, y = 0 + (VY - 230) * k + 60 * (1 - k); o += `<rect x="${VX - w / 2}" y="${y}" width="${w}" height="${26 * (1 - k) + 6}" rx="6" fill="#ffffff"/>`; }
+// fondo: puertas de urgencias
+o += `<rect x="${VX - 150}" y="${VY - 230}" width="300" height="420" fill="url(#end)"/><rect x="${VX - 70}" y="${VY - 40}" width="66" height="230" fill="#e2ecef"/><rect x="${VX + 4}" y="${VY - 40}" width="66" height="230" fill="#e2ecef"/><rect x="${VX - 80}" y="${VY - 200}" width="160" height="44" rx="6" fill="#c0201a"/><text x="${VX}" y="${VY - 168}" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="26" fill="#fff">URGENCIAS</text>`;
+// camilla plana a la izquierda
+o += `<g opacity=".95"><rect x="40" y="1150" width="250" height="40" rx="10" fill="#f6f7f8"/><rect x="40" y="1140" width="250" height="18" rx="8" fill="#9fc8e0"/><rect x="60" y="1190" width="10" height="150" fill="#9aa6b0"/><rect x="260" y="1190" width="10" height="150" fill="#9aa6b0"/><circle cx="65" cy="1350" r="14" fill="#3a3f48"/><circle cx="265" cy="1350" r="14" fill="#3a3f48"/></g>`;
+// ---------- MANIQUÍ 2D
+const part = (x, y, w, h, r, extra = '') => `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${r}" fill="url(#wh)" stroke="#cbd4df" stroke-width="2" ${extra}/>`;
+let m = `<ellipse cx="540" cy="1785" rx="190" ry="26" fill="#2a3a48" opacity=".18" filter="url(#soft)"/>`;
+m += `<ellipse cx="540" cy="1180" rx="330" ry="620" fill="url(#glowB)"/>`;
+// piernas
+for (const s of [-1, 1]) { const cx = 540 + s * 55; m += part(cx - 42, 1290, 84, 225, 40) + part(cx - 37, 1528, 74, 215, 36) + `<rect x="${cx - 52 + s * 4}" y="${1738}" width="104" height="46" rx="22" fill="url(#wh)" stroke="#cbd4df" stroke-width="2"/>`; }
+m += part(430, 1158, 220, 118, 52);
+// brazos
+for (const s of [-1, 1]) { const x = s < 0 ? 330 : 690; m += part(x, 830, 60, 195, 30) + part(x + 3, 1040, 56, 180, 28) + `<ellipse cx="${x + 31}" cy="${1252}" rx="34" ry="44" fill="url(#wh)" stroke="#cbd4df" stroke-width="2"/>`; }
+// torso (más ancho en hombros)
+m += `<path d="M418 810 Q400 810 400 860 L412 1090 Q416 1142 470 1142 L610 1142 Q664 1142 668 1090 L680 860 Q680 810 662 810 Z" fill="url(#wh)" stroke="#cbd4df" stroke-width="2"/>`;
+// cuello
+m += `<rect x="512" y="760" width="56" height="62" rx="24" fill="url(#wh)" stroke="#cbd4df" stroke-width="2"/>`;
+// bastón en la mano (lado izquierdo de pantalla)
+m += `<path d="M362 1262 L330 1784" stroke="#5a341c" stroke-width="20" stroke-linecap="round"/><path d="M362 1262 L330 1784" stroke="#8a5530" stroke-width="12" stroke-linecap="round"/><path d="M362 1262 Q366 1212 404 1214 Q430 1218 426 1244" fill="none" stroke="#5a341c" stroke-width="20" stroke-linecap="round"/><path d="M362 1262 Q366 1212 404 1214 Q430 1218 426 1244" fill="none" stroke="#8a5530" stroke-width="12" stroke-linecap="round"/>`;
+m += `<ellipse cx="361" cy="1256" rx="36" ry="42" fill="url(#wh)" stroke="#cbd4df" stroke-width="2"/>`;
+// cabeza en foto: el mentón apoya sobre el cuello
+const HW = 250, HH = HW * 188 / 130;
+m += `<image href="/house_cara_hd.png" x="${540 - HW / 2}" y="${800 - HH}" width="${HW}" height="${HH}" filter="url(#ds)"/>`;
+o += `<g>${m}</g>`;
+document.getElementById('s').innerHTML = o; await document.fonts.ready;
+await new Promise(r => { const im = new Image(); im.onload = r; im.src = '/house_cara_hd.png'; });
+window.ready = true;
+</script></body></html>
