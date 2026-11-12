@@ -182,7 +182,7 @@ def leer(f):
     return np.frombuffer(raw, np.float32).copy()
 
 
-def mezclar(voz_f, eventos, salida, tramos=None, vol_fx=0.5, vol_mus=0.16, cola=0.6):
+def mezclar(voz_f, eventos, salida, tramos=None, vol_fx=0.22, vol_mus=0.16, cola=0.6):
     voz = leer(voz_f)
     n = len(voz) + int(cola * SR)
     v = np.zeros(n, np.float32)
