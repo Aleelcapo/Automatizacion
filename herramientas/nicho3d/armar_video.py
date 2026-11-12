@@ -3,6 +3,9 @@
 Uso: python3 armar_video.py FRAMES_DIR AUDIO PALABRAS.json SALIDA_BASE [--fps 24] [--estilo anton]
 Genera SALIDA_BASE.mp4 (1080x1920, 30 fps), SALIDA_BASE.srt y SALIDA_BASE.txt.
 
+--titulo "¿UN TREN *BAJO EL MAR*?" agrega un título fijo arriba todo el video (lo que va entre * sale en amarillo;
+  | parte la línea).
+
 Estilos de subtítulo (una palabra a la vez):
   inter : Inter ExtraBold, Capitalizada, centro de la pantalla (video del iglú)
   anton : Anton, minúsculas, blanca, un poco por debajo del centro
@@ -77,8 +80,14 @@ with open(ass, 'w', encoding='utf-8') as fh:
     fh.write('[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\n\n'
              '[V4+ Styles]\nFormat: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, '
              'BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV\n'
-             + STYLE + '\n\n'
+             + STYLE + '\n'
+             + 'Style: T,Anton,116,&H00FFFFFF,&H00000000,&H78000000,0,1,7,3,8,60,60,250\n\n'
              '[Events]\nFormat: Layer, Start, End, Style, Text\n')
+    titulo = arg.get('--titulo')
+    if titulo:
+        t = re.sub(r'\*(.+?)\*', r'{\\c&H00D7FF&}\1{\\c&HFFFFFF&}', titulo.upper()).replace('|', '\\N')
+        fin = max(e for _, e, _ in words) + 5
+        fh.write(f'Dialogue: 1,{ts(0)},{ts(fin)},T,{t}\n')
     for i, (s, e, w) in enumerate(words):
         e2 = words[i + 1][0] if i + 1 < len(words) and words[i + 1][0] - e < 0.35 else e + 0.15
         fh.write(f'Dialogue: 0,{ts(s)},{ts(e2)},W,{{\\pos({POS[0]},{POS[1]})\\fscx90\\fscy90\\t(0,80,\\fscx100\\fscy100)}}{clean(w)}\n')
