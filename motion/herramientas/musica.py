@@ -9,6 +9,7 @@ import sys, os, json, wave
 import numpy as np
 
 SR = 48000
+SFX_GANANCIA = 0.35   # efectos suaves, por debajo de la voz (~-9 dB)
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 rng = np.random.default_rng(7)
 
@@ -207,7 +208,7 @@ def main(gid):
     # entrada y salida
     fade = np.minimum(1, np.arange(n) / (0.8 * SR)) * np.minimum(1, (n - np.arange(n)) / (1.5 * SR))
     mus *= fade[None]
-    out = mus * 0.45
+    out = mus * 0.38
 
     def add(sig, at):
         i = int(at * SR)
@@ -222,7 +223,7 @@ def main(gid):
         for kind, word in b.get('sfx', []):
             w = next((w for w in b['words'] if strip(w['w']) == strip(word) or strip(word) in [strip(x) for x in w.get('a', [])]), None)
             if w:
-                add(SFX[kind](), w['t'])
+                add(SFX[kind]() * SFX_GANANCIA, w['t'])
             else:
                 print('palabra no encontrada para sfx:', kind, word)
     out = np.tanh(out * 1.1) / 1.1

@@ -1,5 +1,6 @@
 import React, {useMemo} from 'react';
 import * as THREE from 'three';
+import {RoundedBoxGeometry} from 'three/examples/jsm/geometries/RoundedBoxGeometry.js';
 
 /*
  Kit de "3D con acabado de dibujo":
@@ -14,8 +15,8 @@ export const GROSOR = 0.0038;
 let _grad: THREE.DataTexture | null = null;
 export const gradiente = () => {
   if (_grad) return _grad;
-  const data = new Uint8Array([90, 90, 90, 255, 175, 175, 175, 255, 255, 255, 255, 255]);
-  _grad = new THREE.DataTexture(data, 3, 1, THREE.RGBAFormat);
+  const data = new Uint8Array([105, 105, 105, 255, 160, 160, 160, 255, 212, 212, 212, 255, 255, 255, 255, 255]);
+  _grad = new THREE.DataTexture(data, 4, 1, THREE.RGBAFormat);
   _grad.minFilter = THREE.NearestFilter;
   _grad.magFilter = THREE.NearestFilter;
   _grad.generateMipmaps = false;
@@ -190,16 +191,128 @@ export const texturaBaldosas = (c1 = '#e9e6df', c2 = '#c9c4ba', n = 8) => {
   return t;
 };
 
-/** Capa de papel/pincel encima del render (da el acabado de "dibujo"). */
+/** Capa de papel/acuarela encima del render (da el acabado de "dibujo"): grano fino + manchas suaves. */
 export const Papel: React.FC = () => (
-  <svg width="100%" height="100%" style={{position: 'absolute', inset: 0, mixBlendMode: 'multiply', opacity: 0.22, pointerEvents: 'none'}}>
-    <filter id="papelRuido">
-      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves={3} seed={7} />
-      <feColorMatrix type="saturate" values="0" />
-      <feComponentTransfer>
-        <feFuncA type="linear" slope={1} />
-      </feComponentTransfer>
-    </filter>
-    <rect width="100%" height="100%" filter="url(#papelRuido)" />
-  </svg>
+  <>
+    <svg width="100%" height="100%" style={{position: 'absolute', inset: 0, mixBlendMode: 'multiply', opacity: 0.16, pointerEvents: 'none'}}>
+      <filter id="papelGrano">
+        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves={3} seed={7} />
+        <feColorMatrix type="saturate" values="0" />
+      </filter>
+      <rect width="100%" height="100%" filter="url(#papelGrano)" />
+    </svg>
+    <svg width="100%" height="100%" style={{position: 'absolute', inset: 0, mixBlendMode: 'multiply', opacity: 0.1, pointerEvents: 'none'}}>
+      <filter id="papelManchas">
+        <feTurbulence type="fractalNoise" baseFrequency="0.006" numOctaves={4} seed={3} />
+        <feColorMatrix type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.42  0 0 0 0 0.38  0 0 0 1.4 -0.35" />
+      </filter>
+      <rect width="100%" height="100%" filter="url(#papelManchas)" />
+    </svg>
+  </>
 );
+
+const MatTinta2: React.FC = () => <meshBasicMaterial color={TINTA} side={THREE.BackSide} />;
+
+/** Caja con bordes redondeados (porcelana, plástico) + contorno. */
+export const Redondeada: React.FC<Base & {w: number; h: number; d: number; radio?: number; escala?: [number, number, number]}> = ({
+  w,
+  h,
+  d,
+  radio = 0.015,
+  position,
+  rotation,
+  color,
+  opacity = 1,
+  contorno = true,
+  sombra = true,
+  escala,
+}) => {
+  const geo = useMemo(() => new RoundedBoxGeometry(w, h, d, 4, radio), [w, h, d, radio]);
+  const tinta = useMemo(() => new RoundedBoxGeometry(w + GROSOR * 2, h + GROSOR * 2, d + GROSOR * 2, 4, radio + GROSOR), [w, h, d, radio]);
+  return (
+    <group position={position} rotation={rotation} scale={escala}>
+      <mesh geometry={geo} castShadow={sombra} receiveShadow>
+        <MatToon color={color} opacity={opacity} />
+      </mesh>
+      {contorno && (
+        <mesh geometry={tinta}>
+          <MatTinta2 />
+        </mesh>
+      )}
+    </group>
+  );
+};
+
+/** Pieza de revolución (taza, botella...) a partir de un perfil [radio, altura]. */
+export const Torno: React.FC<Base & {perfil: [number, number][]; escala?: [number, number, number]; doble?: boolean}> = ({
+  perfil,
+  position,
+  rotation,
+  color,
+  opacity = 1,
+  contorno = true,
+  sombra = true,
+  escala,
+  doble = false,
+}) => {
+  const geo = useMemo(() => new THREE.LatheGeometry(perfil.map(([r, y]) => new THREE.Vector2(r, y)), 64), [JSON.stringify(perfil)]);
+  const tinta = useMemo(() => new THREE.LatheGeometry(perfil.map(([r, y]) => new THREE.Vector2(r + GROSOR, y)), 64), [JSON.stringify(perfil)]);
+  return (
+    <group position={position} rotation={rotation} scale={escala}>
+      <mesh geometry={geo} castShadow={sombra} receiveShadow>
+        <MatToon color={color} opacity={opacity} side={doble ? THREE.DoubleSide : undefined} />
+      </mesh>
+      {contorno && (
+        <mesh geometry={tinta}>
+          <MatTinta2 />
+        </mesh>
+      )}
+    </group>
+  );
+};
+
+let _sombraTex: THREE.CanvasTexture | null = null;
+/** Sombra de contacto suave (mancha oscura difuminada) bajo un objeto. */
+export const SombraContacto: React.FC<{position: [number, number, number]; w: number; d: number; o?: number}> = ({position, w, d, o = 0.35}) => {
+  if (!_sombraTex) {
+    const cv = document.createElement('canvas');
+    cv.width = cv.height = 128;
+    const g = cv.getContext('2d')!;
+    const gr = g.createRadialGradient(64, 64, 4, 64, 64, 64);
+    gr.addColorStop(0, 'rgba(20,25,35,1)');
+    gr.addColorStop(1, 'rgba(20,25,35,0)');
+    g.fillStyle = gr;
+    g.fillRect(0, 0, 128, 128);
+    _sombraTex = new THREE.CanvasTexture(cv);
+  }
+  return (
+    <mesh position={position} rotation={[-Math.PI / 2, 0, 0]}>
+      <planeGeometry args={[w, d]} />
+      <meshBasicMaterial map={_sombraTex} transparent opacity={o} depthWrite={false} />
+    </mesh>
+  );
+};
+
+/** Textura de azulejo tipo "metro" (ladrillito blanco con junta). */
+export const texturaAzulejo = (c1 = '#f4f6f4', c2 = '#c9d3cf') => {
+  const cv = document.createElement('canvas');
+  cv.width = cv.height = 512;
+  const g = cv.getContext('2d')!;
+  g.fillStyle = c2;
+  g.fillRect(0, 0, 512, 512);
+  const fh = 64;
+  const fw = 128;
+  for (let r = 0; r < 8; r++) {
+    for (let c = -1; c < 5; c++) {
+      const x = c * fw + (r % 2 ? fw / 2 : 0);
+      g.fillStyle = c1;
+      g.fillRect(x + 4, r * fh + 4, fw - 8, fh - 8);
+      g.fillStyle = 'rgba(255,255,255,0.6)';
+      g.fillRect(x + 10, r * fh + 10, fw - 40, 6);
+    }
+  }
+  const t = new THREE.CanvasTexture(cv);
+  t.wrapS = t.wrapT = THREE.RepeatWrapping;
+  t.colorSpace = THREE.SRGBColorSpace;
+  return t;
+};
