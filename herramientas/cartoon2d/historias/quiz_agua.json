@@ -1,0 +1,628 @@
+{
+ "out": "Quiz_prueba_agua",
+ "title": "¿Cuál es el diagnóstico? – alergia al agua",
+ "sfx_gain": 0.38,
+ "maxShot": 2.4,
+ "tail": 1.2,
+ "scenes": {
+  "houseC": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 690,
+     "y": 2560,
+     "s": 2.25,
+     "expr": "smug",
+     "pose": {
+      "propL": "cane",
+      "armL": [
+       8,
+       -6
+      ],
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "entrada": {
+   "bg": "officeB",
+   "actors": [
+    {
+     "id": "house",
+     "char": "house",
+     "x": 1450,
+     "y": 2420,
+     "s": 2.0,
+     "expr": "smug",
+     "pose": {
+      "armL": [
+       8,
+       -6
+      ],
+      "propL": "cane",
+      "armR": [
+       6,
+       -8
+      ]
+     }
+    }
+   ]
+  },
+  "aula": {
+   "bg": "officeA",
+   "actors": [
+    {
+     "id": "leo",
+     "char": "leo",
+     "x": 560,
+     "y": 2520,
+     "s": 2.15,
+     "expr": "neutral",
+     "pose": {
+      "propR": "notebook",
+      "armR": [
+       8,
+       -116
+      ]
+     }
+    }
+   ]
+  },
+  "anaC": {
+   "bg": "corridor",
+   "actors": [
+    {
+     "id": "ana",
+     "char": "ana",
+     "x": 520,
+     "y": 2600,
+     "s": 2.3,
+     "expr": "neutral",
+     "pose": {
+      "propR": "clipboard",
+      "armR": [
+       10,
+       -118
+      ]
+     }
+    }
+   ]
+  },
+  "chica": {
+   "bg": "er",
+   "actors": [
+    {
+     "id": "c",
+     "char": "chica",
+     "x": 540,
+     "y": 2420,
+     "s": 2.1,
+     "expr": {
+      "mood": "sad",
+      "browL": -12,
+      "browR": -12,
+      "hives": 1
+     }
+    }
+   ]
+  },
+  "bano": {
+   "bg": "bathroom",
+   "actors": [
+    {
+     "id": "c",
+     "char": "chica",
+     "x": 330,
+     "y": 2350,
+     "s": 1.75,
+     "expr": {
+      "mood": "sad",
+      "hives": 0
+     }
+    }
+   ]
+  },
+  "llanto": {
+   "bg": "bedroom",
+   "actors": [
+    {
+     "id": "c",
+     "char": "chica",
+     "x": 540,
+     "y": 2650,
+     "s": 2.6,
+     "expr": {
+      "mood": "sad",
+      "browL": -14,
+      "browR": -14,
+      "tears": 0,
+      "hives": 0
+     }
+    }
+   ]
+  },
+  "agua": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 620,
+     "s": 1.15,
+     "cols": 2,
+     "gap": 440,
+     "items": [
+      [
+       "soap",
+       "JABÓN",
+       "x"
+      ],
+      [
+       "chlorine",
+       "CLORO",
+       "x"
+      ]
+     ],
+     "value": 2,
+     "marks": 0
+    },
+    {
+     "id": "d",
+     "type": "icons",
+     "x": 540,
+     "y": 1240,
+     "s": 1.3,
+     "items": [
+      [
+       "drop",
+       "AGUA",
+       "ok"
+      ]
+     ],
+     "ring": "#3ddc84",
+     "hidden": true
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a4a6e",
+    "c2": "#0a1a2a"
+   }
+  },
+  "piel": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "s",
+     "type": "skinlayer",
+     "x": 540,
+     "y": 800,
+     "s": 1.0,
+     "value": 0
+    }
+   ],
+   "bgOpts": {
+    "c1": "#3b1a2a",
+    "c2": "#120810"
+   }
+  },
+  "titulo": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "t",
+     "type": "title2",
+     "x": 540,
+     "y": 760,
+     "s": 1.0,
+     "value": 0,
+     "l1": "ES LA B",
+     "l2": "URTICARIA",
+     "l3": "ACUAGÉNICA"
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a4a6e",
+    "c2": "#0a1a2a"
+   }
+  },
+  "quiz": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "q",
+     "type": "quiz",
+     "x": 540,
+     "y": 980,
+     "s": 0.98,
+     "value": 0,
+     "answer": 1,
+     "reveal": 0,
+     "q": "¿QUÉ TIENE?",
+     "options": [
+      "Alergia al jabón",
+      "Alergia al agua",
+      "Estrés"
+     ]
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a2a5e",
+    "c2": "#080c22"
+   }
+  },
+  "cuenta": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "c",
+     "type": "countdown",
+     "x": 540,
+     "y": 820,
+     "s": 1.05,
+     "n": 3,
+     "total": 3
+    }
+   ],
+   "bgOpts": {
+    "c1": "#5e1a2a",
+    "c2": "#1d0810"
+   }
+  },
+  "final": {
+   "bg": "diagram",
+   "warm": 0.2,
+   "cool": 0.3,
+   "props": [
+    {
+     "id": "k1",
+     "type": "kicker",
+     "x": 540,
+     "y": 640,
+     "text": "¿ACERTASTE?",
+     "size": 140,
+     "color": "#ffcf3a",
+     "hidden": true
+    },
+    {
+     "id": "k2",
+     "type": "kicker",
+     "x": 540,
+     "y": 900,
+     "text": "DÍMELO EN LOS COMENTARIOS",
+     "size": 64,
+     "color": "#ffffff",
+     "hidden": true
+    },
+    {
+     "id": "i",
+     "type": "icons",
+     "x": 540,
+     "y": 1250,
+     "s": 1.2,
+     "items": [
+      [
+       "tear",
+       "",
+       ""
+      ]
+     ],
+     "hidden": true
+    }
+   ],
+   "bgOpts": {
+    "c1": "#1a2a5e",
+    "c2": "#080c22"
+   }
+  }
+ },
+ "beats": [
+  {
+   "text": "Una chica de quince años tiene ronchas rojas cada vez que se baña.",
+   "shots": [
+    {
+     "scene": "chica",
+     "cam": {
+      "on": "c",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "c",
+       "expr": {
+        "mood": "sad",
+        "browL": -12,
+        "browR": -12,
+        "hives": 1
+       }
+      }
+     ]
+    },
+    {
+     "scene": "bano",
+     "from": "cada",
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "baña",
+       "target": "c",
+       "expr": {
+        "mood": "sad",
+        "hives": 1
+       },
+       "dur": 0.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Cambiaron el jabón. Cambiaron el agua. Las ronchas siguen.",
+   "shots": [
+    {
+     "scene": "agua",
+     "cam": {
+      "x": 540,
+      "y": 700,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "jabón",
+       "target": "i",
+       "marks": 1,
+       "dur": 0.01,
+       "sfx": "boing",
+       "vol": 0.5
+      },
+      {
+       "on": "agua",
+       "target": "i",
+       "marks": 2,
+       "dur": 0.01,
+       "sfx": "boing",
+       "vol": 0.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Hasta sus propias lágrimas le dejan marcas.",
+   "shots": [
+    {
+     "scene": "llanto",
+     "cam": {
+      "on": "c",
+      "shot": "face",
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "c",
+       "expr": {
+        "mood": "sad",
+        "browL": -14,
+        "browR": -14,
+        "tears": 1,
+        "hives": 1
+       },
+       "dur": 0.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "¿Qué tiene? A: alergia al jabón. B: alergia al agua. O C: estrés.",
+   "shots": [
+    {
+     "scene": "quiz",
+     "flash": true,
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "A",
+       "target": "q",
+       "value": 1,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "B",
+       "target": "q",
+       "value": 2,
+       "dur": 0.3,
+       "sfx": "pop"
+      },
+      {
+       "on": "C",
+       "target": "q",
+       "value": 3,
+       "dur": 0.3,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Comenta tu respuesta antes de que te lo diga. Tres, dos, uno.",
+   "shots": [
+    {
+     "scene": "cuenta",
+     "cam": {
+      "x": 540,
+      "y": 860,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "c",
+       "n": 3,
+       "dur": 0.01
+      },
+      {
+       "on": "Tres",
+       "target": "c",
+       "n": 2,
+       "dur": 0.9,
+       "linear": true,
+       "sfx": "tick"
+      },
+      {
+       "on": "dos",
+       "target": "c",
+       "n": 1,
+       "dur": 0.9,
+       "linear": true,
+       "sfx": "tick"
+      },
+      {
+       "on": "uno",
+       "target": "c",
+       "n": 0,
+       "dur": 0.6,
+       "linear": true,
+       "sfx": "ding"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Es la B. Alergia al agua: urticaria acuagénica.",
+   "shots": [
+    {
+     "scene": "quiz",
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "q",
+       "value": 3,
+       "dur": 0.01
+      },
+      {
+       "at": 0.15,
+       "target": "q",
+       "reveal": 1,
+       "dur": 0.5,
+       "sfx": "ding",
+       "camshake": 10
+      }
+     ]
+    },
+    {
+     "scene": "titulo",
+     "from": "urticaria",
+     "cam": {
+      "x": 540,
+      "y": 800,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "on": "urticaria",
+       "target": "t",
+       "value": 1,
+       "dur": 0.45,
+       "sfx": "thud",
+       "camshake": 14
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Su piel reacciona con cualquier agua, incluso con el sudor.",
+   "shots": [
+    {
+     "scene": "piel",
+     "cam": {
+      "x": 540,
+      "y": 820,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0.1,
+       "target": "s",
+       "value": 5,
+       "dur": 2.2,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "¿Acertaste? Dímelo en los comentarios.",
+   "shots": [
+    {
+     "scene": "final",
+     "cam": {
+      "x": 540,
+      "y": 900,
+      "z": 1.0,
+      "move": "push"
+     },
+     "do": [
+      {
+       "at": 0,
+       "target": "k1",
+       "pop": true,
+       "sfx": "pop"
+      },
+      {
+       "on": "Dímelo",
+       "target": "k2",
+       "pop": true,
+       "sfx": "pop"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+8%"
+}

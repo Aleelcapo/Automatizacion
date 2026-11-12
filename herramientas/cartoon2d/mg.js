@@ -238,3 +238,23 @@ Object.assign(MG, {
   photo: p => `<g transform="rotate(${p.r ?? 4})"><rect x="-200" y="-250" width="400" height="500" fill="#fff" ${S(6)}/><rect x="-170" y="-220" width="340" height="380" fill="#bfd0e0"/><g transform="translate(0 -40) scale(.55)">${MG.facepuzzle({ value: p.value ?? 1, t: p.t })}</g>${p.q ? txt(0, 220, '¿?', 60, O).replace(/stroke="[^"]*"/, 'stroke="none"') : ''}</g>`,
 });
 ICON.eye = () => `<path d="M-110 0 Q0 -90 110 0 Q0 90 -110 0 Z" fill="#fff" ${S(6)}/><circle r="40" fill="#3a6ed6"/><circle r="18" fill="${O}"/><circle cx="12" cy="-12" r="7" fill="#fff"/>`;
+
+// ---------- formato interactivo: pregunta con opciones + cuenta regresiva ----------
+Object.assign(MG, {
+  quiz: p => { const v = p.value ?? 3, rv = clamp(p.reveal || 0, 0, 1), ans = p.answer ?? 1, opts = p.options || ['A', 'B', 'C'], cols = ['#4f82ea', '#ff9f1a', '#b06af0'];
+    let s = `<g transform="translate(0 -560)"><rect x="-470" y="-110" width="940" height="200" rx="34" fill="#0e1528" stroke="${YEL}" stroke-width="8"/>` + txt(0, 20, p.q || '¿QUÉ TIENE?', 92, '#fff', 'middle', 'Anton', 400) + `</g>`;
+    opts.forEach((o, i) => { const k = clamp(v - i, 0, 1); if (k <= 0) return; const y = -250 + i * 260, ok = i === ans, dim = rv > 0 && !ok;
+      const fill = rv > 0 && ok ? GREEN : '#ffffff', sc = eob(k) * (rv > 0 && ok ? 1 + .06 * eob(rv) : 1);
+      s += `<g transform="translate(0 ${y}) scale(${sc})" opacity="${dim ? 1 - .55 * rv : 1}"><rect x="-460" y="-100" width="920" height="200" rx="40" fill="${fill}" ${S(7)}/><circle cx="-360" cy="0" r="70" fill="${cols[i]}" ${S(6)}/>` + txt(-360, 30, 'ABC'[i], 86, '#fff', 'middle', 'Anton', 400) +
+        `<text x="-260" y="26" font-family="Montserrat" font-weight="800" font-size="${o.length > 18 ? 52 : 64}" fill="${O}">${String(o).replace(/&/g, '&amp;').replace(/</g, '&lt;')}</text>` +
+        (rv > 0 ? (ok ? mark('ok', eob(rv) * 1.3).replace('translate(80 -80)', 'translate(400 -70)') : mark('x', eob(rv)).replace('translate(80 -80)', 'translate(400 -70)')) : '') + `</g>`; });
+    return s; },
+  countdown: p => { const n = Math.max(0, p.n ?? 5), f = n - Math.floor(n), num = Math.ceil(n - 1e-6), t = p.t;
+    const k = 1 + .25 * Math.max(0, f - .75) * 4;
+    let s = `<circle r="230" fill="#0e1528" ${S(8)}/><circle r="200" fill="none" stroke="#2a3a60" stroke-width="26"/>`;
+    s += `<circle r="200" fill="none" stroke="${RED}" stroke-width="26" stroke-linecap="round" stroke-dasharray="${2 * Math.PI * 200}" stroke-dashoffset="${2 * Math.PI * 200 * (1 - n / (p.total || 5))}" transform="rotate(-90)"/>`;
+    s += `<g transform="scale(${k})">${txt(0, 75, num > 0 ? num : '!', 230, '#fff', 'middle', 'Anton', 400)}</g>`;
+    s += `<g transform="translate(0 420)"><rect x="-430" y="-90" width="860" height="160" rx="80" fill="${YEL}" ${S(7)} transform="rotate(${Math.sin(t * 6) * 1.5})"/>` + txt(0, 25, 'COMENTA TU RESPUESTA', 64, O, 'middle', 'Anton', 400).replace(/stroke="[^"]*"/, 'stroke="none"') + `</g>`;
+    s += `<g transform="translate(330 -250) rotate(${Math.sin(t * 5) * 8})"><path d="M-90 -60 Q-90 -110 -40 -110 L90 -110 Q140 -110 140 -60 L140 10 Q140 60 90 60 L-10 60 L-60 110 L-50 60 Q-90 60 -90 10 Z" fill="#fff" ${S(6)}/><circle cx="-20" cy="-25" r="12" fill="${O}"/><circle cx="25" cy="-25" r="12" fill="${O}"/><circle cx="70" cy="-25" r="12" fill="${O}"/></g>`;
+    return s; },
+});
