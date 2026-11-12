@@ -1,0 +1,41 @@
+{
+ "total": 35.51,
+ "lines": [
+  {
+   "who": "enf",
+   "t0": 1.6,
+   "t1": 7.016,
+   "text": "¡Ey, ey! Abrí los ojos... ¿me escuchás? Estás en el hospital."
+  },
+  {
+   "who": "enf",
+   "t0": 7.466,
+   "t1": 11.431,
+   "text": "Te encontraron desmayado en la calle. No tenías documentos."
+  },
+  {
+   "who": "doc",
+   "t0": 11.881,
+   "t1": 17.343,
+   "text": "Así que este es nuestro misterioso. Pulso acelerado, pupilas dilatadas..."
+  },
+  {
+   "who": "doc",
+   "t0": 17.793,
+   "t1": 22.603,
+   "text": "y un olor a almendras amargas. Nadie huele así por casualidad."
+  },
+  {
+   "who": "enf",
+   "t0": 23.053,
+   "t1": 24.587,
+   "text": "¿Qué hacemos, doctor?"
+  },
+  {
+   "who": "doc",
+   "t0": 25.037,
+   "t1": 32.862,
+   "text": "Primero, que nos diga qué comió anoche. ¿Y bien?... Ah, cierto. No puede hablar."
+  }
+ ]
+}
