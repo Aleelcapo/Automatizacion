@@ -4,6 +4,7 @@ import {loadFont} from '@remotion/fonts';
 import {FPS, H, W} from './serie/tema';
 import {VideoSerie} from './serie/Video';
 import {VIDEOS} from './registro';
+import {DURACION_TANQUE, TanqueBano} from './tres/TanqueBano';
 
 for (const [archivo, peso] of [
   ['Inter-SemiBold.otf', '600'],
@@ -28,5 +29,6 @@ export const Root: React.FC = () => (
         defaultProps={{id: v.id}}
       />
     ))}
+    <Composition id="tanque-bano" component={TanqueBano} durationInFrames={Math.ceil(DURACION_TANQUE * FPS)} fps={FPS} width={W} height={H} />
   </>
 );

@@ -5,14 +5,18 @@
     "render": "remotion render"
   },
   "dependencies": {
+    "@react-three/fiber": "^9.1.2",
     "@remotion/cli": "4.0.541",
     "@remotion/fonts": "4.0.541",
-    "remotion": "4.0.541",
+    "@remotion/three": "^4.0.541",
+    "@types/three": "^0.170.0",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "remotion": "4.0.541",
+    "three": "^0.170.0"
   },
   "devDependencies": {
-    "typescript": "5.9.3",
-    "@types/react": "19.1.8"
+    "@types/react": "19.1.8",
+    "typescript": "5.9.3"
   }
 }

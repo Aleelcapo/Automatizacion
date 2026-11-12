@@ -1,0 +1,214 @@
+{
+ "id": "tanque_bano",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "t1",
+   "text": "Si pones un tanque con agua arriba de una taza y le haces un hoyo en el fondo, ya tienes un baño.",
+   "keys": [
+    "baño."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "taza"
+    ],
+    [
+     "splash",
+     "agua"
+    ]
+   ]
+  },
+  {
+   "scene": "t2",
+   "text": "Pero el agua se va toda de golpe.",
+   "keys": [
+    "golpe."
+   ],
+   "sfx": [
+    [
+     "splash",
+     "golpe."
+    ]
+   ]
+  },
+  {
+   "scene": "t3",
+   "text": "Así que tapas el hoyo con un tapón de hule que se levanta. Ese es el sapo.",
+   "keys": [
+    "sapo."
+   ],
+   "sfx": [
+    [
+     "thud",
+     "tapas"
+    ],
+    [
+     "pop",
+     "sapo."
+    ]
+   ]
+  },
+  {
+   "scene": "t4",
+   "text": "Pero tendrías que meter la mano al agua.",
+   "keys": [
+    "mano"
+   ],
+   "sfx": [
+    [
+     "splash",
+     "mano"
+    ]
+   ]
+  },
+  {
+   "scene": "t5",
+   "text": "Así que le pones una cadenita y una palanca por fuera. Esa es la manija.",
+   "keys": [
+    "manija."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "palanca"
+    ],
+    [
+     "splash",
+     "manija."
+    ]
+   ]
+  },
+  {
+   "scene": "t6",
+   "text": "Pero el tanque se queda vacío.",
+   "keys": [
+    "vacío."
+   ],
+   "sfx": [
+    [
+     "drop",
+     "vacío."
+    ]
+   ]
+  },
+  {
+   "scene": "t7",
+   "text": "Así que le conectas la llave del agua con una válvula. Esa es la válvula de llenado.",
+   "keys": [
+    "llenado."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "válvula"
+    ]
+   ]
+  },
+  {
+   "scene": "t8",
+   "text": "Pero el agua entra y entra sin parar.",
+   "keys": [
+    "parar."
+   ],
+   "sfx": []
+  },
+  {
+   "scene": "t9",
+   "text": "Así que le pones una boya. El agua la sube y la boya cierra la válvula. Ese es el flotador.",
+   "keys": [
+    "flotador."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "boya."
+    ],
+    [
+     "stamp",
+     "cierra"
+    ]
+   ]
+  },
+  {
+   "scene": "t10",
+   "text": "Pero al jalar, también se vacía el fondo de la taza y por el caño sube el olor del drenaje.",
+   "keys": [
+    "olor"
+   ],
+   "sfx": [
+    [
+     "splash",
+     "jalar,"
+    ],
+    [
+     "drop",
+     "olor"
+    ]
+   ]
+  },
+  {
+   "scene": "t11",
+   "text": "Así que la válvula manda un chorrito por una manguerita y vuelve a llenar ese fondo, que tapa el olor.",
+   "keys": [
+    "manguerita"
+   ],
+   "sfx": [
+    [
+     "pop",
+     "manguerita"
+    ]
+   ]
+  },
+  {
+   "scene": "t12",
+   "text": "Pero un día el flotador se atora y el agua llega hasta el borde.",
+   "keys": [
+    "atora"
+   ],
+   "sfx": [
+    [
+     "stamp",
+     "atora"
+    ]
+   ]
+  },
+  {
+   "scene": "t13",
+   "text": "Así que pones un tubo abierto en medio, más bajito que el borde. Si el agua sube de más, se va por ahí a la taza, nunca al piso. Ese es el tubo de rebose.",
+   "keys": [
+    "rebose."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "tubo"
+    ],
+    [
+     "coin",
+     "rebose."
+    ]
+   ]
+  },
+  {
+   "scene": "t14",
+   "text": "Si oyes el agua correr sin parar y se mete por ese tubo, tu flotador está muy alto. Bájalo un poco y dejas de tirar agua y dinero.",
+   "keys": [
+    "bájalo",
+    "dinero."
+   ],
+   "sfx": [
+    [
+     "pop",
+     "bájalo"
+    ],
+    [
+     "coin",
+     "dinero."
+    ]
+   ]
+  }
+ ]
+}

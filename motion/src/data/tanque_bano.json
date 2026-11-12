@@ -1,0 +1,2384 @@
+{
+ "id": "tanque_bano",
+ "duration": 68.7,
+ "beats": [
+  {
+   "scene": "t1",
+   "sfx": [
+    [
+     "pop",
+     "taza"
+    ],
+    [
+     "splash",
+     "agua"
+    ]
+   ],
+   "start": 0.0,
+   "dur": 5.74,
+   "text": "Si pones un tanque con agua arriba de una taza y le haces un hoyo en el fondo, ya tienes un baño.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.265,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.265,
+     "e": 0.485,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.485,
+     "e": 0.685,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.685,
+     "e": 1.045,
+     "w": "tanque",
+     "a": [
+      "tanque"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.045,
+     "e": 1.245,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.245,
+     "e": 1.525,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.525,
+     "e": 1.945,
+     "w": "arriba",
+     "a": [
+      "arriba"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.945,
+     "e": 2.145,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.145,
+     "e": 2.285,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.285,
+     "e": 2.645,
+     "w": "taza",
+     "a": [
+      "taza"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.645,
+     "e": 3.005,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.005,
+     "e": 3.105,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.105,
+     "e": 3.325,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.325,
+     "e": 3.545,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.545,
+     "e": 3.805,
+     "w": "hoyo",
+     "a": [
+      "hoyo"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.805,
+     "e": 3.885,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.885,
+     "e": 4.005,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.005,
+     "e": 4.305,
+     "w": "fondo,",
+     "a": [
+      "fondo"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.645,
+     "e": 4.785,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.785,
+     "e": 5.145,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.145,
+     "e": 5.285,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.285,
+     "e": 5.585,
+     "w": "baño.",
+     "a": [
+      "baño"
+     ],
+     "k": true
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "t2",
+   "sfx": [
+    [
+     "splash",
+     "golpe."
+    ]
+   ],
+   "start": 5.74,
+   "dur": 2.03,
+   "text": "Pero el agua se va toda de golpe.",
+   "words": [
+    {
+     "t": 5.86,
+     "e": 5.985,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.985,
+     "e": 6.145,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.145,
+     "e": 6.365,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.365,
+     "e": 6.585,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.585,
+     "e": 6.705,
+     "w": "va",
+     "a": [
+      "va"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.705,
+     "e": 7.045,
+     "w": "toda",
+     "a": [
+      "toda"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.045,
+     "e": 7.265,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.265,
+     "e": 7.545,
+     "w": "golpe.",
+     "a": [
+      "golpe"
+     ],
+     "k": true
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "t3",
+   "sfx": [
+    [
+     "thud",
+     "tapas"
+    ],
+    [
+     "pop",
+     "sapo."
+    ]
+   ],
+   "start": 7.77,
+   "dur": 4.49,
+   "text": "Así que tapas el hoyo con un tapón de hule que se levanta. Ese es el sapo.",
+   "words": [
+    {
+     "t": 7.89,
+     "e": 8.045,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.045,
+     "e": 8.205,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.205,
+     "e": 8.665,
+     "w": "tapas",
+     "a": [
+      "tapas"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.665,
+     "e": 8.825,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.825,
+     "e": 9.065,
+     "w": "hoyo",
+     "a": [
+      "hoyo"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.065,
+     "e": 9.225,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.225,
+     "e": 9.345,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.345,
+     "e": 9.665,
+     "w": "tapón",
+     "a": [
+      "tapón"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.665,
+     "e": 9.825,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.825,
+     "e": 10.085,
+     "w": "hule",
+     "a": [
+      "hule"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.085,
+     "e": 10.225,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.225,
+     "e": 10.345,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.345,
+     "e": 11.09,
+     "w": "levanta.",
+     "a": [
+      "levanta"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.095,
+     "e": 11.415,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.415,
+     "e": 11.755,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.755,
+     "e": 11.915,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.915,
+     "e": 12.38,
+     "w": "sapo.",
+     "a": [
+      "sapo"
+     ],
+     "k": true
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "t4",
+   "sfx": [
+    [
+     "splash",
+     "mano"
+    ]
+   ],
+   "start": 12.26,
+   "dur": 2.16,
+   "text": "Pero tendrías que meter la mano al agua.",
+   "words": [
+    {
+     "t": 12.38,
+     "e": 12.515,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.515,
+     "e": 12.975,
+     "w": "tendrías",
+     "a": [
+      "tendrías"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.975,
+     "e": 13.115,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.115,
+     "e": 13.395,
+     "w": "meter",
+     "a": [
+      "meter"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.395,
+     "e": 13.595,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.595,
+     "e": 13.835,
+     "w": "mano",
+     "a": [
+      "mano"
+     ],
+     "k": true
+    },
+    {
+     "t": 13.835,
+     "e": 14.015,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.015,
+     "e": 14.54,
+     "w": "agua.",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "t5",
+   "sfx": [
+    [
+     "pop",
+     "palanca"
+    ],
+    [
+     "splash",
+     "manija."
+    ]
+   ],
+   "start": 14.42,
+   "dur": 4.71,
+   "text": "Así que le pones una cadenita y una palanca por fuera. Esa es la manija.",
+   "words": [
+    {
+     "t": 14.54,
+     "e": 14.715,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.715,
+     "e": 14.875,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.875,
+     "e": 14.975,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.975,
+     "e": 15.235,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.235,
+     "e": 15.535,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.535,
+     "e": 16.115,
+     "w": "cadenita",
+     "a": [
+      "cadenita"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.115,
+     "e": 16.375,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.375,
+     "e": 16.535,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.535,
+     "e": 16.975,
+     "w": "palanca",
+     "a": [
+      "palanca"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.975,
+     "e": 17.175,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.175,
+     "e": 17.475,
+     "w": "fuera.",
+     "a": [
+      "fuera"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.8,
+     "e": 18.135,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.135,
+     "e": 18.415,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.415,
+     "e": 18.555,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.555,
+     "e": 18.935,
+     "w": "manija.",
+     "a": [
+      "manija"
+     ],
+     "k": true
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "t6",
+   "sfx": [
+    [
+     "drop",
+     "vacío."
+    ]
+   ],
+   "start": 19.13,
+   "dur": 1.75,
+   "text": "Pero el tanque se queda vacío.",
+   "words": [
+    {
+     "t": 19.25,
+     "e": 19.405,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.405,
+     "e": 19.525,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.525,
+     "e": 19.885,
+     "w": "tanque",
+     "a": [
+      "tanque"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.885,
+     "e": 20.045,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.045,
+     "e": 20.285,
+     "w": "queda",
+     "a": [
+      "queda"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.285,
+     "e": 20.745,
+     "w": "vacío.",
+     "a": [
+      "vacío"
+     ],
+     "k": true
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "t7",
+   "sfx": [
+    [
+     "pop",
+     "válvula"
+    ]
+   ],
+   "start": 20.88,
+   "dur": 4.555,
+   "text": "Así que le conectas la llave del agua con una válvula. Esa es la válvula de llenado.",
+   "words": [
+    {
+     "t": 21.0,
+     "e": 21.165,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.165,
+     "e": 21.325,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.325,
+     "e": 21.425,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.425,
+     "e": 21.865,
+     "w": "conectas",
+     "a": [
+      "conectas"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.865,
+     "e": 22.025,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.025,
+     "e": 22.265,
+     "w": "llave",
+     "a": [
+      "llave"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.265,
+     "e": 22.445,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.445,
+     "e": 22.725,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.725,
+     "e": 22.965,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.965,
+     "e": 23.125,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.125,
+     "e": 23.525,
+     "w": "válvula.",
+     "a": [
+      "válvula"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.855,
+     "e": 24.215,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.215,
+     "e": 24.475,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.475,
+     "e": 24.635,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.635,
+     "e": 25.035,
+     "w": "válvula",
+     "a": [
+      "válvula"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.035,
+     "e": 25.175,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.175,
+     "e": 25.555,
+     "w": "llenado.",
+     "a": [
+      "llenado"
+     ],
+     "k": true
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "t8",
+   "sfx": [],
+   "start": 25.435,
+   "dur": 2.985,
+   "text": "Pero el agua entra y entra sin parar.",
+   "words": [
+    {
+     "t": 25.555,
+     "e": 26.005,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.005,
+     "e": 26.165,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.165,
+     "e": 26.345,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.345,
+     "e": 26.965,
+     "w": "entra",
+     "a": [
+      "entra"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.965,
+     "e": 27.225,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.225,
+     "e": 27.545,
+     "w": "entra",
+     "a": [
+      "entra"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.545,
+     "e": 27.845,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.845,
+     "e": 28.185,
+     "w": "parar.",
+     "a": [
+      "parar"
+     ],
+     "k": true
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "t9",
+   "sfx": [
+    [
+     "pop",
+     "boya."
+    ],
+    [
+     "stamp",
+     "cierra"
+    ]
+   ],
+   "start": 28.42,
+   "dur": 5.95,
+   "text": "Así que le pones una boya. El agua la sube y la boya cierra la válvula. Ese es el flotador.",
+   "words": [
+    {
+     "t": 28.54,
+     "e": 28.685,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.685,
+     "e": 28.825,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.825,
+     "e": 28.925,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.925,
+     "e": 29.145,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.145,
+     "e": 29.445,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.445,
+     "e": 29.785,
+     "w": "boya.",
+     "a": [
+      "boya"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.07,
+     "e": 30.205,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.205,
+     "e": 30.385,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.385,
+     "e": 30.525,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.525,
+     "e": 30.885,
+     "w": "sube",
+     "a": [
+      "sube"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.885,
+     "e": 31.155,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.155,
+     "e": 31.275,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.275,
+     "e": 31.595,
+     "w": "boya",
+     "a": [
+      "boya"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.595,
+     "e": 32.075,
+     "w": "cierra",
+     "a": [
+      "cierra"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.075,
+     "e": 32.235,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.235,
+     "e": 32.615,
+     "w": "válvula.",
+     "a": [
+      "válvula"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.935,
+     "e": 33.215,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.215,
+     "e": 33.555,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.555,
+     "e": 33.695,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.695,
+     "e": 34.135,
+     "w": "flotador.",
+     "a": [
+      "flotador"
+     ],
+     "k": true
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "t10",
+   "sfx": [
+    [
+     "splash",
+     "jalar,"
+    ],
+    [
+     "drop",
+     "olor"
+    ]
+   ],
+   "start": 34.37,
+   "dur": 5.61,
+   "text": "Pero al jalar, también se vacía el fondo de la taza y por el caño sube el olor del drenaje.",
+   "words": [
+    {
+     "t": 34.49,
+     "e": 34.615,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.615,
+     "e": 34.795,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.795,
+     "e": 35.095,
+     "w": "jalar,",
+     "a": [
+      "jalar"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.435,
+     "e": 35.775,
+     "w": "también",
+     "a": [
+      "también"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.775,
+     "e": 35.995,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.995,
+     "e": 36.355,
+     "w": "vacía",
+     "a": [
+      "vacía"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.355,
+     "e": 36.495,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.495,
+     "e": 36.755,
+     "w": "fondo",
+     "a": [
+      "fondo"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.755,
+     "e": 36.915,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.915,
+     "e": 37.015,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.015,
+     "e": 37.355,
+     "w": "taza",
+     "a": [
+      "taza"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.355,
+     "e": 37.595,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.595,
+     "e": 37.775,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.775,
+     "e": 37.915,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.915,
+     "e": 38.275,
+     "w": "caño",
+     "a": [
+      "caño"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.275,
+     "e": 38.755,
+     "w": "sube",
+     "a": [
+      "sube"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.755,
+     "e": 38.895,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.895,
+     "e": 39.155,
+     "w": "olor",
+     "a": [
+      "olor"
+     ],
+     "k": true
+    },
+    {
+     "t": 39.155,
+     "e": 39.315,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.315,
+     "e": 39.835,
+     "w": "drenaje.",
+     "a": [
+      "drenaje"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "t11",
+   "sfx": [
+    [
+     "pop",
+     "manguerita"
+    ]
+   ],
+   "start": 39.98,
+   "dur": 5.8,
+   "text": "Así que la válvula manda un chorrito por una manguerita y vuelve a llenar ese fondo, que tapa el olor.",
+   "words": [
+    {
+     "t": 40.1,
+     "e": 40.275,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.275,
+     "e": 40.415,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.415,
+     "e": 40.535,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.535,
+     "e": 40.955,
+     "w": "válvula",
+     "a": [
+      "válvula"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.955,
+     "e": 41.335,
+     "w": "manda",
+     "a": [
+      "manda"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.335,
+     "e": 41.455,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.455,
+     "e": 41.935,
+     "w": "chorrito",
+     "a": [
+      "chorrito"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.935,
+     "e": 42.175,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.175,
+     "e": 42.315,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.315,
+     "e": 42.895,
+     "w": "manguerita",
+     "a": [
+      "manguerita"
+     ],
+     "k": true
+    },
+    {
+     "t": 42.895,
+     "e": 43.215,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.215,
+     "e": 43.635,
+     "w": "vuelve",
+     "a": [
+      "vuelve"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.635,
+     "e": 43.735,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.735,
+     "e": 43.995,
+     "w": "llenar",
+     "a": [
+      "llenar"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.995,
+     "e": 44.175,
+     "w": "ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.175,
+     "e": 44.515,
+     "w": "fondo,",
+     "a": [
+      "fondo"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.76,
+     "e": 44.875,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.875,
+     "e": 45.155,
+     "w": "tapa",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.155,
+     "e": 45.355,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.355,
+     "e": 45.635,
+     "w": "olor.",
+     "a": [
+      "olor"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "t12",
+   "sfx": [
+    [
+     "stamp",
+     "atora"
+    ]
+   ],
+   "start": 45.78,
+   "dur": 3.495,
+   "text": "Pero un día el flotador se atora y el agua llega hasta el borde.",
+   "words": [
+    {
+     "t": 45.9,
+     "e": 46.035,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.035,
+     "e": 46.195,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.195,
+     "e": 46.415,
+     "w": "día",
+     "a": [
+      "día"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.415,
+     "e": 46.715,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.715,
+     "e": 47.155,
+     "w": "flotador",
+     "a": [
+      "flotador"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.155,
+     "e": 47.355,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.355,
+     "e": 47.675,
+     "w": "atora",
+     "a": [
+      "atora"
+     ],
+     "k": true
+    },
+    {
+     "t": 47.675,
+     "e": 47.915,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.915,
+     "e": 48.055,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.055,
+     "e": 48.315,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.315,
+     "e": 48.695,
+     "w": "llega",
+     "a": [
+      "llega"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.695,
+     "e": 48.975,
+     "w": "hasta",
+     "a": [
+      "hasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.975,
+     "e": 49.135,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.135,
+     "e": 49.395,
+     "w": "borde.",
+     "a": [
+      "borde"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "t13",
+   "sfx": [
+    [
+     "pop",
+     "tubo"
+    ],
+    [
+     "coin",
+     "rebose."
+    ]
+   ],
+   "start": 49.275,
+   "dur": 9.825,
+   "text": "Así que pones un tubo abierto en medio, más bajito que el borde. Si el agua sube de más, se va por ahí a la taza, nunca al piso. Ese es el tubo de rebose.",
+   "words": [
+    {
+     "t": 49.395,
+     "e": 49.835,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.835,
+     "e": 49.995,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.995,
+     "e": 50.255,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.255,
+     "e": 50.435,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.435,
+     "e": 50.795,
+     "w": "tubo",
+     "a": [
+      "tubo"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.795,
+     "e": 51.155,
+     "w": "abierto",
+     "a": [
+      "abierto"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.155,
+     "e": 51.295,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.295,
+     "e": 51.615,
+     "w": "medio,",
+     "a": [
+      "medio"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.915,
+     "e": 52.095,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.095,
+     "e": 52.535,
+     "w": "bajito",
+     "a": [
+      "bajito"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.535,
+     "e": 52.675,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.675,
+     "e": 52.775,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.775,
+     "e": 53.28,
+     "w": "borde.",
+     "a": [
+      "borde"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.335,
+     "e": 53.435,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.435,
+     "e": 53.535,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.535,
+     "e": 53.715,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.715,
+     "e": 54.035,
+     "w": "sube",
+     "a": [
+      "sube"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.035,
+     "e": 54.135,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.135,
+     "e": 54.355,
+     "w": "más,",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.695,
+     "e": 54.795,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.795,
+     "e": 54.935,
+     "w": "va",
+     "a": [
+      "va"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.935,
+     "e": 55.115,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.115,
+     "e": 55.315,
+     "w": "ahí",
+     "a": [
+      "ahí"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.315,
+     "e": 55.415,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.415,
+     "e": 55.495,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.495,
+     "e": 55.855,
+     "w": "taza,",
+     "a": [
+      "taza"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.085,
+     "e": 56.305,
+     "w": "nunca",
+     "a": [
+      "nunca"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.305,
+     "e": 56.625,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.625,
+     "e": 56.925,
+     "w": "piso.",
+     "a": [
+      "piso"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.245,
+     "e": 57.545,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.545,
+     "e": 57.865,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.865,
+     "e": 58.025,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.025,
+     "e": 58.405,
+     "w": "tubo",
+     "a": [
+      "tubo"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.405,
+     "e": 58.505,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.505,
+     "e": 58.885,
+     "w": "rebose.",
+     "a": [
+      "rebose"
+     ],
+     "k": true
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "t14",
+   "sfx": [
+    [
+     "pop",
+     "bájalo"
+    ],
+    [
+     "coin",
+     "dinero."
+    ]
+   ],
+   "start": 59.1,
+   "dur": 9.6,
+   "text": "Si oyes el agua correr sin parar y se mete por ese tubo, tu flotador está muy alto. Bájalo un poco y dejas de tirar agua y dinero.",
+   "words": [
+    {
+     "t": 59.22,
+     "e": 59.405,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.405,
+     "e": 59.665,
+     "w": "oyes",
+     "a": [
+      "oyes"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.665,
+     "e": 59.825,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.825,
+     "e": 60.005,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.005,
+     "e": 60.405,
+     "w": "correr",
+     "a": [
+      "correr"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.405,
+     "e": 60.765,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.765,
+     "e": 61.145,
+     "w": "parar",
+     "a": [
+      "parar"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.145,
+     "e": 61.405,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.405,
+     "e": 61.525,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.525,
+     "e": 61.745,
+     "w": "mete",
+     "a": [
+      "mete"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.745,
+     "e": 61.985,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.985,
+     "e": 62.125,
+     "w": "ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.125,
+     "e": 62.545,
+     "w": "tubo,",
+     "a": [
+      "tubo"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.735,
+     "e": 62.815,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.815,
+     "e": 63.315,
+     "w": "flotador",
+     "a": [
+      "flotador"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.315,
+     "e": 63.675,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.675,
+     "e": 64.055,
+     "w": "muy",
+     "a": [
+      "muy"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.055,
+     "e": 64.415,
+     "w": "alto.",
+     "a": [
+      "alto"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.74,
+     "e": 65.135,
+     "w": "Bájalo",
+     "a": [
+      "bájalo"
+     ],
+     "k": true
+    },
+    {
+     "t": 65.135,
+     "e": 65.255,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.255,
+     "e": 65.495,
+     "w": "poco",
+     "a": [
+      "poco"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.495,
+     "e": 65.835,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.835,
+     "e": 66.115,
+     "w": "dejas",
+     "a": [
+      "dejas"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.115,
+     "e": 66.255,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.255,
+     "e": 66.435,
+     "w": "tirar",
+     "a": [
+      "tirar"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.435,
+     "e": 66.795,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.795,
+     "e": 67.015,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.015,
+     "e": 67.315,
+     "w": "dinero.",
+     "a": [
+      "dinero"
+     ],
+     "k": true
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}
