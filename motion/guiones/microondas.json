@@ -1,0 +1,16 @@
+{
+ "id": "microondas",
+ "estilo": {"subtitulos": false},
+ "beats": [
+  {"scene": "m1", "text": "Si metes comida en una caja de metal y le disparas ondas de radio muy rápidas, ya tienes un microondas.", "keys": [], "sfx": [["thud", "caja"], ["pop", "disparas"], ["coin", "microondas."]]},
+  {"scene": "m2", "text": "Las ondas hacen girar el agua de la comida miles de millones de veces por segundo, y ese movimiento es calor.", "keys": [], "sfx": [["pop", "girar"], ["splash", "calor."]]},
+  {"scene": "m3", "text": "Las ondas salen de un tubo especial. Ese es el magnetrón.", "keys": [], "sfx": [["coin", "magnetrón."]]},
+  {"scene": "m4", "text": "Pero las ondas tienen que llegar del magnetrón a la caja. Así que las mandas por un tubo de metal rectangular que las guía, como una manguera de ondas. Esa es la guía de ondas.", "keys": [], "sfx": [["pop", "rectangular"], ["coin", "Esa"]]},
+  {"scene": "m5", "text": "Pero el magnetrón se calienta muchísimo. Así que le pones un ventilador que le sopla aire todo el tiempo.", "keys": [], "sfx": [["thunder", "muchísimo."], ["pop", "ventilador"]]},
+  {"scene": "m6", "text": "Pero las ondas rebotan dentro de la caja y forman zonas que calientan mucho y zonas que casi no. Así que pones el plato a girar para que toda la comida pase por las zonas calientes. Ese es el plato giratorio.", "keys": [], "sfx": [["pop", "zonas"], ["gavel", "girar"], ["coin", "giratorio."]]},
+  {"scene": "m7", "text": "Pero si abres la puerta con las ondas funcionando, te calientan a ti. Así que la puerta tiene unos seguros que apagan todo en cuanto la abres. Esos son los interruptores de seguridad.", "keys": [], "sfx": [["thud", "puerta"], ["thunder", "ti."], ["gavel", "apagan"], ["coin", "seguridad."]]},
+  {"scene": "m8", "text": "Pero necesitas ver tu comida. Y por un vidrio normal las ondas se escapan.", "keys": [], "sfx": [["splash", "escapan."]]},
+  {"scene": "m9", "text": "Así que al vidrio le pegas una lámina de metal con hoyitos. Los hoyitos son más chicos que las ondas y ellas no caben. Pero la luz, que es mucho más pequeña, sí pasa. Esa es la rejilla.", "keys": [], "sfx": [["thud", "lámina"], ["gavel", "caben."], ["pop", "pasa."], ["coin", "rejilla."]]},
+  {"scene": "m10", "text": "Si tu rejilla está rota o la puerta no cierra bien, no lo uses.", "keys": [], "sfx": [["thunder", "uses."]]}
+ ]
+}

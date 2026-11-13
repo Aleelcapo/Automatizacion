@@ -9,6 +9,7 @@ import {DURACION_OLLA, OllaExpres} from './tres/OllaExpres';
 import {DURACION_TERMO, Termo} from './tres/Termo';
 import {DURACION_LATA, Lata} from './tres/Lata';
 import {Contacto, DURACION_CONTACTO} from './tres/Contacto';
+import {DURACION_MICROONDAS, Microondas} from './tres/Microondas';
 
 for (const [archivo, peso] of [
   ['Inter-SemiBold.otf', '600'],
@@ -38,5 +39,6 @@ export const Root: React.FC = () => (
     <Composition id="termo" component={Termo} durationInFrames={Math.ceil(DURACION_TERMO * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="lata" component={Lata} durationInFrames={Math.ceil(DURACION_LATA * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="contacto" component={Contacto} durationInFrames={Math.ceil(DURACION_CONTACTO * FPS)} fps={FPS} width={W} height={H} />
+    <Composition id="microondas" component={Microondas} durationInFrames={Math.ceil(DURACION_MICROONDAS * FPS)} fps={FPS} width={W} height={H} />
   </>
 );

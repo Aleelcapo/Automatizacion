@@ -1,0 +1,2425 @@
+{
+ "id": "microondas",
+ "duration": 79.37,
+ "beats": [
+  {
+   "scene": "m1",
+   "sfx": [
+    [
+     "thud",
+     "caja"
+    ],
+    [
+     "pop",
+     "disparas"
+    ],
+    [
+     "coin",
+     "microondas."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 6.655,
+   "text": "Si metes comida en una caja de metal y le disparas ondas de radio muy rápidas, ya tienes un microondas.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.325,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.325,
+     "e": 0.585,
+     "w": "metes",
+     "a": [
+      "metes"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.585,
+     "e": 0.825,
+     "w": "comida",
+     "a": [
+      "comida"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.825,
+     "e": 1.105,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.105,
+     "e": 1.265,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.265,
+     "e": 1.545,
+     "w": "caja",
+     "a": [
+      "caja"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.545,
+     "e": 1.705,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.705,
+     "e": 2.065,
+     "w": "metal",
+     "a": [
+      "metal"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.065,
+     "e": 2.365,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.365,
+     "e": 2.445,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.445,
+     "e": 2.945,
+     "w": "disparas",
+     "a": [
+      "disparas"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.945,
+     "e": 3.325,
+     "w": "ondas",
+     "a": [
+      "ondas"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.325,
+     "e": 3.485,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.485,
+     "e": 3.765,
+     "w": "radio",
+     "a": [
+      "radio"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.765,
+     "e": 4.145,
+     "w": "muy",
+     "a": [
+      "muy"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.145,
+     "e": 4.685,
+     "w": "rápidas,",
+     "a": [
+      "rápidas"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.995,
+     "e": 5.275,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.275,
+     "e": 5.595,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.595,
+     "e": 5.775,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.775,
+     "e": 6.415,
+     "w": "microondas.",
+     "a": [
+      "microondas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "m2",
+   "sfx": [
+    [
+     "pop",
+     "girar"
+    ],
+    [
+     "splash",
+     "calor."
+    ]
+   ],
+   "start": 6.655,
+   "dur": 6.815,
+   "text": "Las ondas hacen girar el agua de la comida miles de millones de veces por segundo, y ese movimiento es calor.",
+   "words": [
+    {
+     "t": 6.775,
+     "e": 6.915,
+     "w": "Las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.915,
+     "e": 7.335,
+     "w": "ondas",
+     "a": [
+      "ondas"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.335,
+     "e": 7.735,
+     "w": "hacen",
+     "a": [
+      "hacen"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.735,
+     "e": 8.115,
+     "w": "girar",
+     "a": [
+      "girar"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.115,
+     "e": 8.255,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.255,
+     "e": 8.475,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.475,
+     "e": 8.615,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.615,
+     "e": 8.715,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.715,
+     "e": 8.995,
+     "w": "comida",
+     "a": [
+      "comida"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.995,
+     "e": 9.615,
+     "w": "miles",
+     "a": [
+      "miles"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.615,
+     "e": 9.875,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.875,
+     "e": 10.135,
+     "w": "millones",
+     "a": [
+      "millones"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.135,
+     "e": 10.435,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.435,
+     "e": 10.635,
+     "w": "veces",
+     "a": [
+      "veces"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.635,
+     "e": 10.915,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.915,
+     "e": 11.355,
+     "w": "segundo,",
+     "a": [
+      "segundo"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.61,
+     "e": 11.745,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.745,
+     "e": 11.925,
+     "w": "ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.925,
+     "e": 12.305,
+     "w": "movimiento",
+     "a": [
+      "movimiento"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.305,
+     "e": 12.935,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.935,
+     "e": 13.195,
+     "w": "calor.",
+     "a": [
+      "calor"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "m3",
+   "sfx": [
+    [
+     "coin",
+     "magnetrón."
+    ]
+   ],
+   "start": 13.47,
+   "dur": 4.09,
+   "text": "Las ondas salen de un tubo especial. Ese es el magnetrón.",
+   "words": [
+    {
+     "t": 13.59,
+     "e": 13.725,
+     "w": "Las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.725,
+     "e": 14.145,
+     "w": "ondas",
+     "a": [
+      "ondas"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.145,
+     "e": 14.585,
+     "w": "salen",
+     "a": [
+      "salen"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.585,
+     "e": 14.705,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.705,
+     "e": 14.865,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.865,
+     "e": 15.205,
+     "w": "tubo",
+     "a": [
+      "tubo"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.205,
+     "e": 15.525,
+     "w": "especial.",
+     "a": [
+      "especial"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.045,
+     "e": 16.345,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.345,
+     "e": 16.665,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.665,
+     "e": 16.805,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.805,
+     "e": 17.345,
+     "w": "magnetrón.",
+     "a": [
+      "magnetrón"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "m4",
+   "sfx": [
+    [
+     "pop",
+     "rectangular"
+    ],
+    [
+     "coin",
+     "Esa"
+    ]
+   ],
+   "start": 17.56,
+   "dur": 10.56,
+   "text": "Pero las ondas tienen que llegar del magnetrón a la caja. Así que las mandas por un tubo de metal rectangular que las guía, como una manguera de ondas. Esa es la guía de ondas.",
+   "words": [
+    {
+     "t": 17.68,
+     "e": 17.805,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.805,
+     "e": 17.985,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.985,
+     "e": 18.345,
+     "w": "ondas",
+     "a": [
+      "ondas"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.345,
+     "e": 18.665,
+     "w": "tienen",
+     "a": [
+      "tienen"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.665,
+     "e": 18.845,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.845,
+     "e": 19.125,
+     "w": "llegar",
+     "a": [
+      "llegar"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.125,
+     "e": 19.425,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.425,
+     "e": 20.065,
+     "w": "magnetrón",
+     "a": [
+      "magnetrón"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.065,
+     "e": 20.265,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.265,
+     "e": 20.365,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.365,
+     "e": 20.785,
+     "w": "caja.",
+     "a": [
+      "caja"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.04,
+     "e": 21.215,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.215,
+     "e": 21.355,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.355,
+     "e": 21.515,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.515,
+     "e": 21.855,
+     "w": "mandas",
+     "a": [
+      "mandas"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.855,
+     "e": 22.035,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.035,
+     "e": 22.155,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.155,
+     "e": 22.515,
+     "w": "tubo",
+     "a": [
+      "tubo"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.515,
+     "e": 22.595,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.595,
+     "e": 22.855,
+     "w": "metal",
+     "a": [
+      "metal"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.855,
+     "e": 23.455,
+     "w": "rectangular",
+     "a": [
+      "rectangular"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.455,
+     "e": 23.695,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.695,
+     "e": 23.895,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.895,
+     "e": 24.215,
+     "w": "guía,",
+     "a": [
+      "guía"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.415,
+     "e": 24.555,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.555,
+     "e": 24.775,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.775,
+     "e": 25.215,
+     "w": "manguera",
+     "a": [
+      "manguera"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.215,
+     "e": 25.375,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.375,
+     "e": 25.715,
+     "w": "ondas.",
+     "a": [
+      "ondas"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.715,
+     "e": 26.505,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.505,
+     "e": 26.805,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.805,
+     "e": 26.965,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.965,
+     "e": 27.265,
+     "w": "guía",
+     "a": [
+      "guía"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.265,
+     "e": 27.445,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.445,
+     "e": 27.785,
+     "w": "ondas.",
+     "a": [
+      "ondas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "m5",
+   "sfx": [
+    [
+     "thunder",
+     "muchísimo."
+    ],
+    [
+     "pop",
+     "ventilador"
+    ]
+   ],
+   "start": 28.12,
+   "dur": 6.05,
+   "text": "Pero el magnetrón se calienta muchísimo. Así que le pones un ventilador que le sopla aire todo el tiempo.",
+   "words": [
+    {
+     "t": 28.24,
+     "e": 28.375,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.375,
+     "e": 28.515,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.515,
+     "e": 28.995,
+     "w": "magnetrón",
+     "a": [
+      "magnetrón"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.995,
+     "e": 29.135,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.135,
+     "e": 29.655,
+     "w": "calienta",
+     "a": [
+      "calienta"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.655,
+     "e": 30.295,
+     "w": "muchísimo.",
+     "a": [
+      "muchísimo"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.7,
+     "e": 30.855,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.855,
+     "e": 31.015,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.015,
+     "e": 31.115,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.115,
+     "e": 31.355,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.355,
+     "e": 31.535,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.535,
+     "e": 32.075,
+     "w": "ventilador",
+     "a": [
+      "ventilador"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.075,
+     "e": 32.275,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.275,
+     "e": 32.375,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.375,
+     "e": 32.695,
+     "w": "sopla",
+     "a": [
+      "sopla"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.695,
+     "e": 33.015,
+     "w": "aire",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.015,
+     "e": 33.385,
+     "w": "todo",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.385,
+     "e": 33.605,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.605,
+     "e": 33.945,
+     "w": "tiempo.",
+     "a": [
+      "tiempo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "m6",
+   "sfx": [
+    [
+     "pop",
+     "zonas"
+    ],
+    [
+     "gavel",
+     "girar"
+    ],
+    [
+     "coin",
+     "giratorio."
+    ]
+   ],
+   "start": 34.17,
+   "dur": 12.71,
+   "text": "Pero las ondas rebotan dentro de la caja y forman zonas que calientan mucho y zonas que casi no. Así que pones el plato a girar para que toda la comida pase por las zonas calientes. Ese es el plato giratorio.",
+   "words": [
+    {
+     "t": 34.29,
+     "e": 34.425,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.425,
+     "e": 34.625,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.625,
+     "e": 34.965,
+     "w": "ondas",
+     "a": [
+      "ondas"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.965,
+     "e": 35.665,
+     "w": "rebotan",
+     "a": [
+      "rebotan"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.665,
+     "e": 35.945,
+     "w": "dentro",
+     "a": [
+      "dentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.945,
+     "e": 36.145,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.145,
+     "e": 36.245,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.245,
+     "e": 36.625,
+     "w": "caja",
+     "a": [
+      "caja"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.625,
+     "e": 36.805,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.805,
+     "e": 37.125,
+     "w": "forman",
+     "a": [
+      "forman"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.125,
+     "e": 37.425,
+     "w": "zonas",
+     "a": [
+      "zonas"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.425,
+     "e": 37.625,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.625,
+     "e": 38.125,
+     "w": "calientan",
+     "a": [
+      "calientan"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.125,
+     "e": 38.505,
+     "w": "mucho",
+     "a": [
+      "mucho"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.505,
+     "e": 38.895,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.895,
+     "e": 39.175,
+     "w": "zonas",
+     "a": [
+      "zonas"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.175,
+     "e": 39.435,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.435,
+     "e": 39.695,
+     "w": "casi",
+     "a": [
+      "casi"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.695,
+     "e": 39.955,
+     "w": "no.",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.27,
+     "e": 40.425,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.425,
+     "e": 40.585,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.585,
+     "e": 40.865,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.865,
+     "e": 41.065,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.065,
+     "e": 41.345,
+     "w": "plato",
+     "a": [
+      "plato"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.345,
+     "e": 41.465,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.465,
+     "e": 41.9,
+     "w": "girar",
+     "a": [
+      "girar"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.9,
+     "e": 42.035,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.035,
+     "e": 42.195,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.195,
+     "e": 42.495,
+     "w": "toda",
+     "a": [
+      "toda"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.495,
+     "e": 42.675,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.675,
+     "e": 43.015,
+     "w": "comida",
+     "a": [
+      "comida"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.015,
+     "e": 43.395,
+     "w": "pase",
+     "a": [
+      "pase"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.395,
+     "e": 43.615,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.615,
+     "e": 43.735,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.735,
+     "e": 43.975,
+     "w": "zonas",
+     "a": [
+      "zonas"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.975,
+     "e": 44.475,
+     "w": "calientes.",
+     "a": [
+      "calientes"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.99,
+     "e": 45.325,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.325,
+     "e": 45.625,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.625,
+     "e": 45.785,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.785,
+     "e": 46.065,
+     "w": "plato",
+     "a": [
+      "plato"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.065,
+     "e": 46.625,
+     "w": "giratorio.",
+     "a": [
+      "giratorio"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "m7",
+   "sfx": [
+    [
+     "thud",
+     "puerta"
+    ],
+    [
+     "thunder",
+     "ti."
+    ],
+    [
+     "gavel",
+     "apagan"
+    ],
+    [
+     "coin",
+     "seguridad."
+    ]
+   ],
+   "start": 46.88,
+   "dur": 10.6,
+   "text": "Pero si abres la puerta con las ondas funcionando, te calientan a ti. Así que la puerta tiene unos seguros que apagan todo en cuanto la abres. Esos son los interruptores de seguridad.",
+   "words": [
+    {
+     "t": 47.0,
+     "e": 47.135,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.135,
+     "e": 47.315,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.315,
+     "e": 47.555,
+     "w": "abres",
+     "a": [
+      "abres"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.555,
+     "e": 47.755,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.755,
+     "e": 48.015,
+     "w": "puerta",
+     "a": [
+      "puerta"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.015,
+     "e": 48.295,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.295,
+     "e": 48.435,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.435,
+     "e": 48.675,
+     "w": "ondas",
+     "a": [
+      "ondas"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.675,
+     "e": 49.355,
+     "w": "funcionando,",
+     "a": [
+      "funcionando"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.575,
+     "e": 49.655,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.655,
+     "e": 50.215,
+     "w": "calientan",
+     "a": [
+      "calientan"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.215,
+     "e": 50.375,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.375,
+     "e": 50.535,
+     "w": "ti.",
+     "a": [
+      "ti"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.535,
+     "e": 51.045,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.045,
+     "e": 51.185,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.185,
+     "e": 51.325,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.325,
+     "e": 51.505,
+     "w": "puerta",
+     "a": [
+      "puerta"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.505,
+     "e": 51.945,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.945,
+     "e": 52.125,
+     "w": "unos",
+     "a": [
+      "unos"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.125,
+     "e": 52.605,
+     "w": "seguros",
+     "a": [
+      "seguros"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.605,
+     "e": 52.825,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.825,
+     "e": 53.165,
+     "w": "apagan",
+     "a": [
+      "apagan"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.165,
+     "e": 53.595,
+     "w": "todo",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.595,
+     "e": 53.915,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.915,
+     "e": 54.075,
+     "w": "cuanto",
+     "a": [
+      "cuanto"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.075,
+     "e": 54.335,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.335,
+     "e": 54.695,
+     "w": "abres.",
+     "a": [
+      "abres"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.09,
+     "e": 55.425,
+     "w": "Esos",
+     "a": [
+      "esos"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.425,
+     "e": 55.745,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.745,
+     "e": 55.885,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.885,
+     "e": 56.585,
+     "w": "interruptores",
+     "a": [
+      "interruptores"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.585,
+     "e": 56.745,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.745,
+     "e": 57.225,
+     "w": "seguridad.",
+     "a": [
+      "seguridad"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "m8",
+   "sfx": [
+    [
+     "splash",
+     "escapan."
+    ]
+   ],
+   "start": 57.48,
+   "dur": 4.45,
+   "text": "Pero necesitas ver tu comida. Y por un vidrio normal las ondas se escapan.",
+   "words": [
+    {
+     "t": 57.6,
+     "e": 57.745,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.745,
+     "e": 58.325,
+     "w": "necesitas",
+     "a": [
+      "necesitas"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.325,
+     "e": 58.645,
+     "w": "ver",
+     "a": [
+      "ver"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.645,
+     "e": 58.825,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.825,
+     "e": 59.105,
+     "w": "comida.",
+     "a": [
+      "comida"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.53,
+     "e": 59.635,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.635,
+     "e": 59.795,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.795,
+     "e": 59.895,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.895,
+     "e": 60.175,
+     "w": "vidrio",
+     "a": [
+      "vidrio"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.175,
+     "e": 60.515,
+     "w": "normal",
+     "a": [
+      "normal"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.515,
+     "e": 60.855,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.855,
+     "e": 61.115,
+     "w": "ondas",
+     "a": [
+      "ondas"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.115,
+     "e": 61.295,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.295,
+     "e": 61.755,
+     "w": "escapan.",
+     "a": [
+      "escapan"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "m9",
+   "sfx": [
+    [
+     "thud",
+     "lámina"
+    ],
+    [
+     "gavel",
+     "caben."
+    ],
+    [
+     "pop",
+     "pasa."
+    ],
+    [
+     "coin",
+     "rejilla."
+    ]
+   ],
+   "start": 61.93,
+   "dur": 12.085,
+   "text": "Así que al vidrio le pegas una lámina de metal con hoyitos. Los hoyitos son más chicos que las ondas y ellas no caben. Pero la luz, que es mucho más pequeña, sí pasa. Esa es la rejilla.",
+   "words": [
+    {
+     "t": 62.05,
+     "e": 62.215,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.215,
+     "e": 62.375,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.375,
+     "e": 62.475,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.475,
+     "e": 62.815,
+     "w": "vidrio",
+     "a": [
+      "vidrio"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.815,
+     "e": 62.995,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.995,
+     "e": 63.255,
+     "w": "pegas",
+     "a": [
+      "pegas"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.255,
+     "e": 63.475,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.475,
+     "e": 63.895,
+     "w": "lámina",
+     "a": [
+      "lámina"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.895,
+     "e": 64.055,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.055,
+     "e": 64.375,
+     "w": "metal",
+     "a": [
+      "metal"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.375,
+     "e": 64.655,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.655,
+     "e": 65.075,
+     "w": "hoyitos.",
+     "a": [
+      "hoyitos"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.57,
+     "e": 65.715,
+     "w": "Los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.715,
+     "e": 66.135,
+     "w": "hoyitos",
+     "a": [
+      "hoyitos"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.135,
+     "e": 66.475,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.475,
+     "e": 66.775,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.775,
+     "e": 67.035,
+     "w": "chicos",
+     "a": [
+      "chicos"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.035,
+     "e": 67.255,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.255,
+     "e": 67.395,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.395,
+     "e": 67.775,
+     "w": "ondas",
+     "a": [
+      "ondas"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.775,
+     "e": 68.115,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.115,
+     "e": 68.375,
+     "w": "ellas",
+     "a": [
+      "ellas"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.375,
+     "e": 68.655,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.655,
+     "e": 69.055,
+     "w": "caben.",
+     "a": [
+      "caben"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.33,
+     "e": 69.475,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.475,
+     "e": 69.635,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.635,
+     "e": 69.895,
+     "w": "luz,",
+     "a": [
+      "luz"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.175,
+     "e": 70.255,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.255,
+     "e": 70.395,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.395,
+     "e": 70.735,
+     "w": "mucho",
+     "a": [
+      "mucho"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.735,
+     "e": 70.935,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.935,
+     "e": 71.275,
+     "w": "pequeña,",
+     "a": [
+      "pequeña"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.755,
+     "e": 71.895,
+     "w": "sí",
+     "a": [
+      "sí"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.895,
+     "e": 72.155,
+     "w": "pasa.",
+     "a": [
+      "pasa"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.575,
+     "e": 72.935,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.935,
+     "e": 73.175,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.175,
+     "e": 73.315,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.315,
+     "e": 73.795,
+     "w": "rejilla.",
+     "a": [
+      "rejilla"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "m10",
+   "sfx": [
+    [
+     "thunder",
+     "uses."
+    ]
+   ],
+   "start": 74.015,
+   "dur": 5.355,
+   "text": "Si tu rejilla está rota o la puerta no cierra bien, no lo uses.",
+   "words": [
+    {
+     "t": 74.135,
+     "e": 74.275,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.275,
+     "e": 74.375,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.375,
+     "e": 74.755,
+     "w": "rejilla",
+     "a": [
+      "rejilla"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.755,
+     "e": 75.015,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.015,
+     "e": 75.495,
+     "w": "rota",
+     "a": [
+      "rota"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.495,
+     "e": 75.655,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.655,
+     "e": 75.775,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.775,
+     "e": 75.995,
+     "w": "puerta",
+     "a": [
+      "puerta"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.995,
+     "e": 76.335,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.335,
+     "e": 76.615,
+     "w": "cierra",
+     "a": [
+      "cierra"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.615,
+     "e": 76.915,
+     "w": "bien,",
+     "a": [
+      "bien"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.235,
+     "e": 77.435,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.435,
+     "e": 77.595,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.595,
+     "e": 77.855,
+     "w": "uses.",
+     "a": [
+      "uses"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}
