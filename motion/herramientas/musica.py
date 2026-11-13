@@ -220,8 +220,10 @@ def main(gid):
     for k, b in enumerate(data['beats']):
         if k > 0:
             pass  # whoosh entre escenas desactivado (muy fuerte)
-        for kind, word in b.get('sfx', []):
-            w = next((w for w in b['words'] if strip(w['w']) == strip(word) or strip(word) in [strip(x) for x in w.get('a', [])]), None)
+        for kind, word, *resto in b.get('sfx', []):
+            nth = resto[0] if resto else 1
+            hits = [w for w in b['words'] if strip(w['w']) == strip(word) or strip(word) in [strip(x) for x in w.get('a', [])]]
+            w = hits[nth - 1] if len(hits) >= nth else (hits[-1] if hits else None)
             if w:
                 add(SFX[kind]() * SFX_GANANCIA, w['t'])
             else:

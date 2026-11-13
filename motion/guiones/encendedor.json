@@ -1,0 +1,18 @@
+{
+ "id": "encendedor",
+ "estilo": {"subtitulos": false},
+ "beats": [
+  {"scene": "e1", "text": "Si metes gas en un tanquecito de plástico y le haces un ojito arriba, ya tienes un encendedor.", "keys": [], "sfx": [["thud", "tanquecito"], ["pop", "ojito"], ["coin", "encendedor."]]},
+  {"scene": "e2", "text": "Pero el gas se escapa todo el tiempo.", "keys": [], "sfx": [["splash", "escapa"]]},
+  {"scene": "e3", "text": "Así que tapas el ojito con una válvula y para abrirla le pones un botón. Esa es la palanca de gas.", "keys": [], "sfx": [["gavel", "válvula"], ["pop", "botón."], ["coin", "gas."]]},
+  {"scene": "e4", "text": "Pero el gas solo sale, no se prende.", "keys": [], "sfx": [["splash", "sale,"]]},
+  {"scene": "e5", "text": "Así que le pones una piedrita dura y una rueda de metal rasposa. Al girarla con el dedo, raspas pedacitos de la piedra que salen al rojo vivo. Esa es la piedra.", "keys": [], "sfx": [["pop", "piedrita"], ["pop", "rueda"], ["thunder", "raspas"], ["coin", "piedra.", 2]]},
+  {"scene": "e6", "text": "Pero las chispas salen para todos lados y no siempre caen en el gas.", "keys": [], "sfx": [["pop", "lados"]]},
+  {"scene": "e7", "text": "Así que pones la piedra justo abajo de la rueda, empujada por un resorte para que siempre la toque. Y las chispas saltan directo al gas.", "keys": [], "sfx": [["thud", "abajo"], ["pop", "resorte"], ["thunder", "saltan"], ["splash", "gas."]]},
+  {"scene": "e8", "text": "Pero la flama sale muy alta y te quema el dedo. Así que le pones una perilla que deja salir más o menos gas. Ese es el regulador de flama.", "keys": [], "sfx": [["thunder", "quema"], ["pop", "perilla"], ["coin", "flama.", 2]]},
+  {"scene": "e9", "text": "Pero el viento apaga la flama. Así que la rodeas con un capuchón de metal con ojitos que la protege del viento pero deja entrar aire. Ese es el protector.", "keys": [], "sfx": [["splash", "apaga"], ["thud", "capuchón"], ["coin", "protector."]]},
+  {"scene": "e10", "text": "¿Y por qué el tanque es transparente? Para que veas el gas. Adentro está líquido por la presión y al salir se vuelve gas.", "keys": [], "sfx": [["pop", "transparente?"], ["splash", "vuelve"]]},
+  {"scene": "e11", "text": "Por eso no lo dejes en el carro al sol. El líquido se expande y el tanque puede tronar.", "keys": [], "sfx": [["thunder", "tronar."]]},
+  {"scene": "e12", "text": "Si tu encendedor ya no echa chispa, no es el gas. Se acabó la piedra.", "keys": [], "sfx": [["pop", "chispa,"], ["thud", "piedra."]]}
+ ]
+}

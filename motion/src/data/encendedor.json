@@ -1,0 +1,2460 @@
+{
+ "id": "encendedor",
+ "duration": 75.68,
+ "beats": [
+  {
+   "scene": "e1",
+   "sfx": [
+    [
+     "thud",
+     "tanquecito"
+    ],
+    [
+     "pop",
+     "ojito"
+    ],
+    [
+     "coin",
+     "encendedor."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 5.59,
+   "text": "Si metes gas en un tanquecito de plástico y le haces un ojito arriba, ya tienes un encendedor.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.295,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.295,
+     "e": 0.575,
+     "w": "metes",
+     "a": [
+      "metes"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.575,
+     "e": 0.795,
+     "w": "gas",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.795,
+     "e": 1.015,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.015,
+     "e": 1.135,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.135,
+     "e": 1.675,
+     "w": "tanquecito",
+     "a": [
+      "tanquecito"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.675,
+     "e": 1.855,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.855,
+     "e": 2.375,
+     "w": "plástico",
+     "a": [
+      "plástico"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.375,
+     "e": 2.735,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.735,
+     "e": 2.835,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.835,
+     "e": 3.055,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.055,
+     "e": 3.235,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.235,
+     "e": 3.515,
+     "w": "ojito",
+     "a": [
+      "ojito"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.515,
+     "e": 3.835,
+     "w": "arriba,",
+     "a": [
+      "arriba"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.245,
+     "e": 4.365,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.365,
+     "e": 4.685,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.685,
+     "e": 4.865,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.865,
+     "e": 5.425,
+     "w": "encendedor.",
+     "a": [
+      "encendedor"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "e2",
+   "sfx": [
+    [
+     "splash",
+     "escapa"
+    ]
+   ],
+   "start": 5.59,
+   "dur": 2.39,
+   "text": "Pero el gas se escapa todo el tiempo.",
+   "words": [
+    {
+     "t": 5.71,
+     "e": 5.855,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.855,
+     "e": 6.015,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.015,
+     "e": 6.215,
+     "w": "gas",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.215,
+     "e": 6.495,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.495,
+     "e": 6.895,
+     "w": "escapa",
+     "a": [
+      "escapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.895,
+     "e": 7.215,
+     "w": "todo",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.215,
+     "e": 7.435,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.435,
+     "e": 7.795,
+     "w": "tiempo.",
+     "a": [
+      "tiempo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "e3",
+   "sfx": [
+    [
+     "gavel",
+     "válvula"
+    ],
+    [
+     "pop",
+     "botón."
+    ],
+    [
+     "coin",
+     "gas."
+    ]
+   ],
+   "start": 7.98,
+   "dur": 6.47,
+   "text": "Así que tapas el ojito con una válvula y para abrirla le pones un botón. Esa es la palanca de gas.",
+   "words": [
+    {
+     "t": 8.1,
+     "e": 8.255,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.255,
+     "e": 8.435,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.435,
+     "e": 8.895,
+     "w": "tapas",
+     "a": [
+      "tapas"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.895,
+     "e": 9.035,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.035,
+     "e": 9.355,
+     "w": "ojito",
+     "a": [
+      "ojito"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.355,
+     "e": 9.575,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.575,
+     "e": 9.755,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.755,
+     "e": 10.195,
+     "w": "válvula",
+     "a": [
+      "válvula"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.195,
+     "e": 10.445,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.445,
+     "e": 10.645,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.645,
+     "e": 11.145,
+     "w": "abrirla",
+     "a": [
+      "abrirla"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.145,
+     "e": 11.405,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.405,
+     "e": 11.665,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.665,
+     "e": 11.825,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.825,
+     "e": 12.145,
+     "w": "botón.",
+     "a": [
+      "botón"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.48,
+     "e": 12.835,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.835,
+     "e": 13.095,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.095,
+     "e": 13.255,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.255,
+     "e": 13.715,
+     "w": "palanca",
+     "a": [
+      "palanca"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.715,
+     "e": 13.895,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.895,
+     "e": 14.155,
+     "w": "gas.",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "e4",
+   "sfx": [
+    [
+     "splash",
+     "sale,"
+    ]
+   ],
+   "start": 14.45,
+   "dur": 2.54,
+   "text": "Pero el gas solo sale, no se prende.",
+   "words": [
+    {
+     "t": 14.57,
+     "e": 14.725,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.725,
+     "e": 14.865,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.865,
+     "e": 15.045,
+     "w": "gas",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.045,
+     "e": 15.465,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.465,
+     "e": 15.865,
+     "w": "sale,",
+     "a": [
+      "sale"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.165,
+     "e": 16.285,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.285,
+     "e": 16.445,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.445,
+     "e": 17.11,
+     "w": "prende.",
+     "a": [
+      "prende"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "e5",
+   "sfx": [
+    [
+     "pop",
+     "piedrita"
+    ],
+    [
+     "pop",
+     "rueda"
+    ],
+    [
+     "thunder",
+     "raspas"
+    ],
+    [
+     "coin",
+     "piedra.",
+     2
+    ]
+   ],
+   "start": 16.99,
+   "dur": 9.835,
+   "text": "Así que le pones una piedrita dura y una rueda de metal rasposa. Al girarla con el dedo, raspas pedacitos de la piedra que salen al rojo vivo. Esa es la piedra.",
+   "words": [
+    {
+     "t": 17.11,
+     "e": 17.265,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.265,
+     "e": 17.425,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.425,
+     "e": 17.545,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.545,
+     "e": 17.785,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.785,
+     "e": 18.025,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.025,
+     "e": 18.405,
+     "w": "piedrita",
+     "a": [
+      "piedrita"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.405,
+     "e": 18.785,
+     "w": "dura",
+     "a": [
+      "dura"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.785,
+     "e": 19.205,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.205,
+     "e": 19.345,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.345,
+     "e": 19.685,
+     "w": "rueda",
+     "a": [
+      "rueda"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.685,
+     "e": 19.845,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.845,
+     "e": 20.105,
+     "w": "metal",
+     "a": [
+      "metal"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.105,
+     "e": 20.725,
+     "w": "rasposa.",
+     "a": [
+      "rasposa"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.015,
+     "e": 21.175,
+     "w": "Al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.175,
+     "e": 21.555,
+     "w": "girarla",
+     "a": [
+      "girarla"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.555,
+     "e": 21.755,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.755,
+     "e": 21.875,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.875,
+     "e": 22.275,
+     "w": "dedo,",
+     "a": [
+      "dedo"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.475,
+     "e": 22.835,
+     "w": "raspas",
+     "a": [
+      "raspas"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.835,
+     "e": 23.415,
+     "w": "pedacitos",
+     "a": [
+      "pedacitos"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.415,
+     "e": 23.635,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.635,
+     "e": 23.755,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.755,
+     "e": 24.115,
+     "w": "piedra",
+     "a": [
+      "piedra"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.115,
+     "e": 24.255,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.255,
+     "e": 24.655,
+     "w": "salen",
+     "a": [
+      "salen"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.655,
+     "e": 24.775,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.775,
+     "e": 25.175,
+     "w": "rojo",
+     "a": [
+      "rojo"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.175,
+     "e": 25.415,
+     "w": "vivo.",
+     "a": [
+      "vivo"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.81,
+     "e": 26.185,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.185,
+     "e": 26.425,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.425,
+     "e": 26.545,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.545,
+     "e": 26.945,
+     "w": "piedra.",
+     "a": [
+      "piedra"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "e6",
+   "sfx": [
+    [
+     "pop",
+     "lados"
+    ]
+   ],
+   "start": 26.825,
+   "dur": 4.435,
+   "text": "Pero las chispas salen para todos lados y no siempre caen en el gas.",
+   "words": [
+    {
+     "t": 26.945,
+     "e": 27.315,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.315,
+     "e": 27.535,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.535,
+     "e": 27.935,
+     "w": "chispas",
+     "a": [
+      "chispas"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.935,
+     "e": 28.275,
+     "w": "salen",
+     "a": [
+      "salen"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.275,
+     "e": 28.475,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.475,
+     "e": 28.815,
+     "w": "todos",
+     "a": [
+      "todos"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.815,
+     "e": 29.215,
+     "w": "lados",
+     "a": [
+      "lados"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.215,
+     "e": 29.555,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.555,
+     "e": 29.715,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.715,
+     "e": 30.115,
+     "w": "siempre",
+     "a": [
+      "siempre"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.115,
+     "e": 30.495,
+     "w": "caen",
+     "a": [
+      "caen"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.495,
+     "e": 30.575,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.575,
+     "e": 30.715,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.715,
+     "e": 30.975,
+     "w": "gas.",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "e7",
+   "sfx": [
+    [
+     "thud",
+     "abajo"
+    ],
+    [
+     "pop",
+     "resorte"
+    ],
+    [
+     "thunder",
+     "saltan"
+    ],
+    [
+     "splash",
+     "gas."
+    ]
+   ],
+   "start": 31.26,
+   "dur": 8.28,
+   "text": "Así que pones la piedra justo abajo de la rueda, empujada por un resorte para que siempre la toque. Y las chispas saltan directo al gas.",
+   "words": [
+    {
+     "t": 31.38,
+     "e": 31.545,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.545,
+     "e": 31.685,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.685,
+     "e": 31.945,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.945,
+     "e": 32.125,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.125,
+     "e": 32.465,
+     "w": "piedra",
+     "a": [
+      "piedra"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.465,
+     "e": 32.845,
+     "w": "justo",
+     "a": [
+      "justo"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.845,
+     "e": 33.245,
+     "w": "abajo",
+     "a": [
+      "abajo"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.245,
+     "e": 33.465,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.465,
+     "e": 33.585,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.585,
+     "e": 33.925,
+     "w": "rueda,",
+     "a": [
+      "rueda"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.175,
+     "e": 34.635,
+     "w": "empujada",
+     "a": [
+      "empujada"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.635,
+     "e": 34.835,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.835,
+     "e": 34.975,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.975,
+     "e": 35.415,
+     "w": "resorte",
+     "a": [
+      "resorte"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.415,
+     "e": 35.675,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.675,
+     "e": 35.855,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.855,
+     "e": 36.295,
+     "w": "siempre",
+     "a": [
+      "siempre"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.295,
+     "e": 36.495,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.495,
+     "e": 36.835,
+     "w": "toque.",
+     "a": [
+      "toque"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.14,
+     "e": 37.235,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.235,
+     "e": 37.395,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.395,
+     "e": 37.835,
+     "w": "chispas",
+     "a": [
+      "chispas"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.835,
+     "e": 38.335,
+     "w": "saltan",
+     "a": [
+      "saltan"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.335,
+     "e": 38.915,
+     "w": "directo",
+     "a": [
+      "directo"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.915,
+     "e": 39.015,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.015,
+     "e": 39.235,
+     "w": "gas.",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "e8",
+   "sfx": [
+    [
+     "thunder",
+     "quema"
+    ],
+    [
+     "pop",
+     "perilla"
+    ],
+    [
+     "coin",
+     "flama.",
+     2
+    ]
+   ],
+   "start": 39.54,
+   "dur": 8.51,
+   "text": "Pero la flama sale muy alta y te quema el dedo. Así que le pones una perilla que deja salir más o menos gas. Ese es el regulador de flama.",
+   "words": [
+    {
+     "t": 39.66,
+     "e": 39.795,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.795,
+     "e": 39.935,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.935,
+     "e": 40.195,
+     "w": "flama",
+     "a": [
+      "flama"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.195,
+     "e": 40.455,
+     "w": "sale",
+     "a": [
+      "sale"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.455,
+     "e": 40.835,
+     "w": "muy",
+     "a": [
+      "muy"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.835,
+     "e": 41.195,
+     "w": "alta",
+     "a": [
+      "alta"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.195,
+     "e": 41.375,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.375,
+     "e": 41.515,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.515,
+     "e": 41.735,
+     "w": "quema",
+     "a": [
+      "quema"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.735,
+     "e": 41.855,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.855,
+     "e": 42.47,
+     "w": "dedo.",
+     "a": [
+      "dedo"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.47,
+     "e": 42.625,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.625,
+     "e": 42.785,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.785,
+     "e": 42.885,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.885,
+     "e": 43.125,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.125,
+     "e": 43.345,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.345,
+     "e": 43.805,
+     "w": "perilla",
+     "a": [
+      "perilla"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.805,
+     "e": 44.045,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.045,
+     "e": 44.265,
+     "w": "deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.265,
+     "e": 44.565,
+     "w": "salir",
+     "a": [
+      "salir"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.565,
+     "e": 44.965,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.965,
+     "e": 45.165,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.165,
+     "e": 45.365,
+     "w": "menos",
+     "a": [
+      "menos"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.365,
+     "e": 45.665,
+     "w": "gas.",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.13,
+     "e": 46.435,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.435,
+     "e": 46.695,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.695,
+     "e": 46.855,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.855,
+     "e": 47.355,
+     "w": "regulador",
+     "a": [
+      "regulador"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.355,
+     "e": 47.535,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.535,
+     "e": 47.875,
+     "w": "flama.",
+     "a": [
+      "flama"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "e9",
+   "sfx": [
+    [
+     "splash",
+     "apaga"
+    ],
+    [
+     "thud",
+     "capuchón"
+    ],
+    [
+     "coin",
+     "protector."
+    ]
+   ],
+   "start": 48.05,
+   "dur": 9.235,
+   "text": "Pero el viento apaga la flama. Así que la rodeas con un capuchón de metal con ojitos que la protege del viento pero deja entrar aire. Ese es el protector.",
+   "words": [
+    {
+     "t": 48.17,
+     "e": 48.315,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.315,
+     "e": 48.475,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.475,
+     "e": 48.755,
+     "w": "viento",
+     "a": [
+      "viento"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.755,
+     "e": 49.175,
+     "w": "apaga",
+     "a": [
+      "apaga"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.175,
+     "e": 49.355,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.355,
+     "e": 49.715,
+     "w": "flama.",
+     "a": [
+      "flama"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.05,
+     "e": 50.205,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.205,
+     "e": 50.365,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.365,
+     "e": 50.485,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.485,
+     "e": 50.905,
+     "w": "rodeas",
+     "a": [
+      "rodeas"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.905,
+     "e": 51.085,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.085,
+     "e": 51.185,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.185,
+     "e": 51.685,
+     "w": "capuchón",
+     "a": [
+      "capuchón"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.685,
+     "e": 51.825,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.825,
+     "e": 52.125,
+     "w": "metal",
+     "a": [
+      "metal"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.125,
+     "e": 52.365,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.365,
+     "e": 52.745,
+     "w": "ojitos",
+     "a": [
+      "ojitos"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.745,
+     "e": 53.135,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.135,
+     "e": 53.255,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.255,
+     "e": 53.675,
+     "w": "protege",
+     "a": [
+      "protege"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.675,
+     "e": 53.835,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.835,
+     "e": 54.195,
+     "w": "viento",
+     "a": [
+      "viento"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.195,
+     "e": 54.555,
+     "w": "pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.555,
+     "e": 54.875,
+     "w": "deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.875,
+     "e": 55.175,
+     "w": "entrar",
+     "a": [
+      "entrar"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.175,
+     "e": 55.475,
+     "w": "aire.",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.475,
+     "e": 56.095,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.095,
+     "e": 56.375,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.375,
+     "e": 56.495,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.495,
+     "e": 56.895,
+     "w": "protector.",
+     "a": [
+      "protector"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "e10",
+   "sfx": [
+    [
+     "pop",
+     "transparente?"
+    ],
+    [
+     "splash",
+     "vuelve"
+    ]
+   ],
+   "start": 57.285,
+   "dur": 7.595,
+   "text": "¿Y por qué el tanque es transparente? Para que veas el gas. Adentro está líquido por la presión y al salir se vuelve gas.",
+   "words": [
+    {
+     "t": 57.405,
+     "e": 57.485,
+     "w": "¿Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.485,
+     "e": 57.825,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.825,
+     "e": 58.005,
+     "w": "qué",
+     "a": [
+      "qué"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.005,
+     "e": 58.125,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.125,
+     "e": 58.425,
+     "w": "tanque",
+     "a": [
+      "tanque"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.425,
+     "e": 58.525,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.525,
+     "e": 59.225,
+     "w": "transparente?",
+     "a": [
+      "transparente"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.5,
+     "e": 59.645,
+     "w": "Para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.645,
+     "e": 59.805,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.805,
+     "e": 60.125,
+     "w": "veas",
+     "a": [
+      "veas"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.125,
+     "e": 60.245,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.245,
+     "e": 60.485,
+     "w": "gas.",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.935,
+     "e": 61.455,
+     "w": "Adentro",
+     "a": [
+      "adentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.455,
+     "e": 61.755,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.755,
+     "e": 62.235,
+     "w": "líquido",
+     "a": [
+      "líquido"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.235,
+     "e": 62.435,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.435,
+     "e": 62.555,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.555,
+     "e": 63.015,
+     "w": "presión",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.015,
+     "e": 63.245,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.245,
+     "e": 63.345,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.345,
+     "e": 63.705,
+     "w": "salir",
+     "a": [
+      "salir"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.705,
+     "e": 64.025,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.025,
+     "e": 64.345,
+     "w": "vuelve",
+     "a": [
+      "vuelve"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.345,
+     "e": 64.605,
+     "w": "gas.",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "e11",
+   "sfx": [
+    [
+     "thunder",
+     "tronar."
+    ]
+   ],
+   "start": 64.88,
+   "dur": 5.245,
+   "text": "Por eso no lo dejes en el carro al sol. El líquido se expande y el tanque puede tronar.",
+   "words": [
+    {
+     "t": 65.0,
+     "e": 65.135,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.135,
+     "e": 65.315,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.315,
+     "e": 65.595,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.595,
+     "e": 65.735,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.735,
+     "e": 66.035,
+     "w": "dejes",
+     "a": [
+      "dejes"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.035,
+     "e": 66.195,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.195,
+     "e": 66.315,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.315,
+     "e": 66.575,
+     "w": "carro",
+     "a": [
+      "carro"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.575,
+     "e": 66.715,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.715,
+     "e": 66.935,
+     "w": "sol.",
+     "a": [
+      "sol"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.295,
+     "e": 67.395,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.395,
+     "e": 67.735,
+     "w": "líquido",
+     "a": [
+      "líquido"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.735,
+     "e": 67.895,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.895,
+     "e": 68.515,
+     "w": "expande",
+     "a": [
+      "expande"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.515,
+     "e": 68.675,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.675,
+     "e": 68.795,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.795,
+     "e": 69.175,
+     "w": "tanque",
+     "a": [
+      "tanque"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.175,
+     "e": 69.455,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.455,
+     "e": 70.21,
+     "w": "tronar.",
+     "a": [
+      "tronar"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "e12",
+   "sfx": [
+    [
+     "pop",
+     "chispa,"
+    ],
+    [
+     "thud",
+     "piedra."
+    ]
+   ],
+   "start": 70.125,
+   "dur": 5.555,
+   "text": "Si tu encendedor ya no echa chispa, no es el gas. Se acabó la piedra.",
+   "words": [
+    {
+     "t": 70.245,
+     "e": 70.365,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.365,
+     "e": 70.425,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.425,
+     "e": 70.985,
+     "w": "encendedor",
+     "a": [
+      "encendedor"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.985,
+     "e": 71.185,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.185,
+     "e": 71.345,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.345,
+     "e": 71.525,
+     "w": "echa",
+     "a": [
+      "echa"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.525,
+     "e": 72.005,
+     "w": "chispa,",
+     "a": [
+      "chispa"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.325,
+     "e": 72.485,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.485,
+     "e": 72.685,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.685,
+     "e": 72.805,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.805,
+     "e": 73.025,
+     "w": "gas.",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.41,
+     "e": 73.565,
+     "w": "Se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.565,
+     "e": 73.905,
+     "w": "acabó",
+     "a": [
+      "acabó"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.905,
+     "e": 74.025,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.025,
+     "e": 74.405,
+     "w": "piedra.",
+     "a": [
+      "piedra"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}
