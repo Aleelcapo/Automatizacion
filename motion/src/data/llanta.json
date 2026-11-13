@@ -1,0 +1,2382 @@
+{
+ "id": "llanta",
+ "duration": 79.68,
+ "beats": [
+  {
+   "scene": "n1",
+   "sfx": [
+    [
+     "pop",
+     "aro"
+    ],
+    [
+     "splash",
+     "inflas"
+    ],
+    [
+     "coin",
+     "llanta."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 5.55,
+   "text": "Si pones un aro de hule alrededor de una rueda y lo inflas con aire, ya tienes una llanta.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.285,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.285,
+     "e": 0.545,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.545,
+     "e": 0.765,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.765,
+     "e": 0.965,
+     "w": "aro",
+     "a": [
+      "aro"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.965,
+     "e": 1.125,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.125,
+     "e": 1.425,
+     "w": "hule",
+     "a": [
+      "hule"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.425,
+     "e": 1.725,
+     "w": "alrededor",
+     "a": [
+      "alrededor"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.725,
+     "e": 2.205,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.205,
+     "e": 2.345,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.345,
+     "e": 2.745,
+     "w": "rueda",
+     "a": [
+      "rueda"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.745,
+     "e": 3.045,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.045,
+     "e": 3.145,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.145,
+     "e": 3.485,
+     "w": "inflas",
+     "a": [
+      "inflas"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.485,
+     "e": 3.725,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.725,
+     "e": 3.925,
+     "w": "aire,",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.265,
+     "e": 4.445,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.445,
+     "e": 4.805,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.805,
+     "e": 5.005,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.005,
+     "e": 5.305,
+     "w": "llanta.",
+     "a": [
+      "llanta"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "n2",
+   "sfx": [
+    [
+     "splash",
+     "escapa,"
+    ],
+    [
+     "pop",
+     "válvula"
+    ],
+    [
+     "coin",
+     "válvula.",
+     2
+    ]
+   ],
+   "start": 5.55,
+   "dur": 7.57,
+   "text": "Pero el aire se escapa, así que le pones una válvula con un resorte que solo deja entrar aire. Esa es la válvula.",
+   "words": [
+    {
+     "t": 5.67,
+     "e": 5.865,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.865,
+     "e": 6.245,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.245,
+     "e": 6.405,
+     "w": "aire",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.405,
+     "e": 6.605,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.605,
+     "e": 7.125,
+     "w": "escapa,",
+     "a": [
+      "escapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.33,
+     "e": 7.505,
+     "w": "así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.505,
+     "e": 7.725,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.725,
+     "e": 7.945,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.945,
+     "e": 8.185,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.185,
+     "e": 8.405,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.405,
+     "e": 8.925,
+     "w": "válvula",
+     "a": [
+      "válvula"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.925,
+     "e": 9.145,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.145,
+     "e": 9.285,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.285,
+     "e": 9.785,
+     "w": "resorte",
+     "a": [
+      "resorte"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.785,
+     "e": 10.065,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.065,
+     "e": 10.425,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.425,
+     "e": 10.765,
+     "w": "deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.765,
+     "e": 11.045,
+     "w": "entrar",
+     "a": [
+      "entrar"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.045,
+     "e": 11.385,
+     "w": "aire.",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.705,
+     "e": 12.065,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.065,
+     "e": 12.385,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.385,
+     "e": 12.525,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.525,
+     "e": 12.965,
+     "w": "válvula.",
+     "a": [
+      "válvula"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "n3",
+   "sfx": [
+    [
+     "thunder",
+     "revienta"
+    ],
+    [
+     "pop",
+     "capas"
+    ],
+    [
+     "coin",
+     "cuerdas."
+    ]
+   ],
+   "start": 13.12,
+   "dur": 10.12,
+   "text": "Pero el hule solo se estira como globo y revienta con el peso del carro, así que por dentro le pones capas de hilos de acero y tela. Esas son las cuerdas.",
+   "words": [
+    {
+     "t": 13.24,
+     "e": 13.395,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.395,
+     "e": 13.555,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.555,
+     "e": 13.815,
+     "w": "hule",
+     "a": [
+      "hule"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.815,
+     "e": 14.215,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.215,
+     "e": 14.435,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.435,
+     "e": 14.835,
+     "w": "estira",
+     "a": [
+      "estira"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.835,
+     "e": 15.095,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.095,
+     "e": 15.555,
+     "w": "globo",
+     "a": [
+      "globo"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.555,
+     "e": 15.795,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.795,
+     "e": 16.435,
+     "w": "revienta",
+     "a": [
+      "revienta"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.435,
+     "e": 16.595,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.595,
+     "e": 16.715,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.715,
+     "e": 16.935,
+     "w": "peso",
+     "a": [
+      "peso"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.935,
+     "e": 17.135,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.135,
+     "e": 17.455,
+     "w": "carro,",
+     "a": [
+      "carro"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.66,
+     "e": 17.845,
+     "w": "así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.845,
+     "e": 18.065,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.065,
+     "e": 18.365,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.365,
+     "e": 18.725,
+     "w": "dentro",
+     "a": [
+      "dentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.725,
+     "e": 19.045,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.045,
+     "e": 19.285,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.285,
+     "e": 19.805,
+     "w": "capas",
+     "a": [
+      "capas"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.805,
+     "e": 19.945,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.945,
+     "e": 20.185,
+     "w": "hilos",
+     "a": [
+      "hilos"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.185,
+     "e": 20.365,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.365,
+     "e": 20.725,
+     "w": "acero",
+     "a": [
+      "acero"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.725,
+     "e": 20.985,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.985,
+     "e": 21.205,
+     "w": "tela.",
+     "a": [
+      "tela"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.635,
+     "e": 21.975,
+     "w": "Esas",
+     "a": [
+      "esas"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.975,
+     "e": 22.295,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.295,
+     "e": 22.475,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.475,
+     "e": 22.995,
+     "w": "cuerdas.",
+     "a": [
+      "cuerdas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "n4",
+   "sfx": [
+    [
+     "splash",
+     "agua"
+    ],
+    [
+     "thud",
+     "patina"
+    ]
+   ],
+   "start": 23.24,
+   "dur": 7.29,
+   "text": "Pero cuando llueve, una llanta lisa se monta sobre una capa de agua y deja de tocar el piso, el carro patina como en hielo.",
+   "words": [
+    {
+     "t": 23.36,
+     "e": 23.455,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.455,
+     "e": 23.695,
+     "w": "cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.695,
+     "e": 24.155,
+     "w": "llueve,",
+     "a": [
+      "llueve"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.41,
+     "e": 24.585,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.585,
+     "e": 24.885,
+     "w": "llanta",
+     "a": [
+      "llanta"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.885,
+     "e": 25.305,
+     "w": "lisa",
+     "a": [
+      "lisa"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.305,
+     "e": 25.565,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.565,
+     "e": 25.945,
+     "w": "monta",
+     "a": [
+      "monta"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.945,
+     "e": 26.145,
+     "w": "sobre",
+     "a": [
+      "sobre"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.145,
+     "e": 26.405,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.405,
+     "e": 26.725,
+     "w": "capa",
+     "a": [
+      "capa"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.725,
+     "e": 26.865,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.865,
+     "e": 27.145,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.145,
+     "e": 27.445,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.445,
+     "e": 27.725,
+     "w": "deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.725,
+     "e": 27.865,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.865,
+     "e": 28.065,
+     "w": "tocar",
+     "a": [
+      "tocar"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.065,
+     "e": 28.305,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.305,
+     "e": 28.585,
+     "w": "piso,",
+     "a": [
+      "piso"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.805,
+     "e": 28.945,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.945,
+     "e": 29.225,
+     "w": "carro",
+     "a": [
+      "carro"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.225,
+     "e": 29.845,
+     "w": "patina",
+     "a": [
+      "patina"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.845,
+     "e": 30.105,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.105,
+     "e": 30.265,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.265,
+     "e": 30.65,
+     "w": "hielo.",
+     "a": [
+      "hielo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "n5",
+   "sfx": [
+    [
+     "pop",
+     "canales"
+    ],
+    [
+     "splash",
+     "disparada"
+    ],
+    [
+     "coin",
+     "dibujo."
+    ]
+   ],
+   "start": 30.53,
+   "dur": 8.42,
+   "text": "Así que le haces canales profundos alrededor y hacia los lados para que el agua salga disparada por los costados. Ese es el dibujo.",
+   "words": [
+    {
+     "t": 30.65,
+     "e": 30.825,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.825,
+     "e": 31.045,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.045,
+     "e": 31.265,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.265,
+     "e": 31.525,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.525,
+     "e": 31.905,
+     "w": "canales",
+     "a": [
+      "canales"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.905,
+     "e": 32.625,
+     "w": "profundos",
+     "a": [
+      "profundos"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.625,
+     "e": 33.205,
+     "w": "alrededor",
+     "a": [
+      "alrededor"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.205,
+     "e": 33.765,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.765,
+     "e": 33.945,
+     "w": "hacia",
+     "a": [
+      "hacia"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.945,
+     "e": 34.165,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.165,
+     "e": 34.505,
+     "w": "lados",
+     "a": [
+      "lados"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.505,
+     "e": 34.885,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.885,
+     "e": 35.045,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.045,
+     "e": 35.205,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.205,
+     "e": 35.385,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.385,
+     "e": 35.805,
+     "w": "salga",
+     "a": [
+      "salga"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.805,
+     "e": 36.485,
+     "w": "disparada",
+     "a": [
+      "disparada"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.485,
+     "e": 36.685,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.685,
+     "e": 36.865,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.865,
+     "e": 37.345,
+     "w": "costados.",
+     "a": [
+      "costados"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.8,
+     "e": 38.125,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.125,
+     "e": 38.405,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.405,
+     "e": 38.565,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.565,
+     "e": 39.07,
+     "w": "dibujo.",
+     "a": [
+      "dibujo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "n6",
+   "sfx": [
+    [
+     "pop",
+     "rayitas"
+    ],
+    [
+     "gavel",
+     "agarran"
+    ],
+    [
+     "coin",
+     "laminillas."
+    ]
+   ],
+   "start": 38.95,
+   "dur": 9.47,
+   "text": "Pero los bloques grandes de hule se mueven y se resbalan, así que les cortas rayitas finas que agarran el piso como dientes. Esas son las laminillas.",
+   "words": [
+    {
+     "t": 39.07,
+     "e": 39.205,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.205,
+     "e": 39.385,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.385,
+     "e": 39.705,
+     "w": "bloques",
+     "a": [
+      "bloques"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.705,
+     "e": 40.125,
+     "w": "grandes",
+     "a": [
+      "grandes"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.125,
+     "e": 40.405,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.405,
+     "e": 40.645,
+     "w": "hule",
+     "a": [
+      "hule"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.645,
+     "e": 40.845,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.845,
+     "e": 41.305,
+     "w": "mueven",
+     "a": [
+      "mueven"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.305,
+     "e": 41.525,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.525,
+     "e": 41.625,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.625,
+     "e": 42.37,
+     "w": "resbalan,",
+     "a": [
+      "resbalan"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.37,
+     "e": 42.525,
+     "w": "así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.525,
+     "e": 42.805,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.805,
+     "e": 43.005,
+     "w": "les",
+     "a": [
+      "les"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.005,
+     "e": 43.425,
+     "w": "cortas",
+     "a": [
+      "cortas"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.425,
+     "e": 43.905,
+     "w": "rayitas",
+     "a": [
+      "rayitas"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.905,
+     "e": 44.445,
+     "w": "finas",
+     "a": [
+      "finas"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.445,
+     "e": 44.625,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.625,
+     "e": 45.025,
+     "w": "agarran",
+     "a": [
+      "agarran"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.025,
+     "e": 45.185,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.185,
+     "e": 45.505,
+     "w": "piso",
+     "a": [
+      "piso"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.505,
+     "e": 45.745,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.745,
+     "e": 46.165,
+     "w": "dientes.",
+     "a": [
+      "dientes"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.68,
+     "e": 47.015,
+     "w": "Esas",
+     "a": [
+      "esas"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.015,
+     "e": 47.355,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.355,
+     "e": 47.515,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.515,
+     "e": 48.055,
+     "w": "laminillas.",
+     "a": [
+      "laminillas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "n7",
+   "sfx": [
+    [
+     "pop",
+     "topes"
+    ],
+    [
+     "thud",
+     "sirve."
+    ],
+    [
+     "coin",
+     "desgaste."
+    ]
+   ],
+   "start": 48.42,
+   "dur": 13.71,
+   "text": "Pero con los años, el hule se gasta y los canales se hacen menos profundos, así que entre los canales escondes unos topes más bajitos. Cuando la llanta se gasta hasta ellos, ya no sirve. Ese es el indicador de desgaste.",
+   "words": [
+    {
+     "t": 48.54,
+     "e": 48.635,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.635,
+     "e": 48.835,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.835,
+     "e": 48.995,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.995,
+     "e": 49.275,
+     "w": "años,",
+     "a": [
+      "años"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.635,
+     "e": 49.735,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.735,
+     "e": 49.935,
+     "w": "hule",
+     "a": [
+      "hule"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.935,
+     "e": 50.115,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.115,
+     "e": 50.475,
+     "w": "gasta",
+     "a": [
+      "gasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.475,
+     "e": 50.775,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.775,
+     "e": 50.935,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.935,
+     "e": 51.315,
+     "w": "canales",
+     "a": [
+      "canales"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.315,
+     "e": 51.535,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.535,
+     "e": 51.755,
+     "w": "hacen",
+     "a": [
+      "hacen"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.755,
+     "e": 52.035,
+     "w": "menos",
+     "a": [
+      "menos"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.035,
+     "e": 52.635,
+     "w": "profundos,",
+     "a": [
+      "profundos"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.97,
+     "e": 53.135,
+     "w": "así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.135,
+     "e": 53.415,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.415,
+     "e": 53.795,
+     "w": "entre",
+     "a": [
+      "entre"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.795,
+     "e": 53.995,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.995,
+     "e": 54.475,
+     "w": "canales",
+     "a": [
+      "canales"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.475,
+     "e": 55.135,
+     "w": "escondes",
+     "a": [
+      "escondes"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.135,
+     "e": 55.275,
+     "w": "unos",
+     "a": [
+      "unos"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.275,
+     "e": 55.815,
+     "w": "topes",
+     "a": [
+      "topes"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.815,
+     "e": 56.075,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.075,
+     "e": 56.595,
+     "w": "bajitos.",
+     "a": [
+      "bajitos"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.04,
+     "e": 57.185,
+     "w": "Cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.185,
+     "e": 57.385,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.385,
+     "e": 57.605,
+     "w": "llanta",
+     "a": [
+      "llanta"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.605,
+     "e": 57.805,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.805,
+     "e": 58.105,
+     "w": "gasta",
+     "a": [
+      "gasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.105,
+     "e": 58.345,
+     "w": "hasta",
+     "a": [
+      "hasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.345,
+     "e": 58.685,
+     "w": "ellos,",
+     "a": [
+      "ellos"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.03,
+     "e": 59.285,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.285,
+     "e": 59.405,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.405,
+     "e": 59.765,
+     "w": "sirve.",
+     "a": [
+      "sirve"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.05,
+     "e": 60.355,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.355,
+     "e": 60.635,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.635,
+     "e": 60.795,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.795,
+     "e": 61.275,
+     "w": "indicador",
+     "a": [
+      "indicador"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.275,
+     "e": 61.435,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.435,
+     "e": 61.915,
+     "w": "desgaste.",
+     "a": [
+      "desgaste"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "n8",
+   "sfx": [
+    [
+     "thud",
+     "aplasta,"
+    ],
+    [
+     "thunder",
+     "reventar."
+    ],
+    [
+     "pop",
+     "escrita"
+    ],
+    [
+     "coin",
+     "mes."
+    ]
+   ],
+   "start": 62.13,
+   "dur": 10.75,
+   "text": "Pero si le falta aire, la llanta se aplasta, se calienta y puede reventar. Así que en la puerta de tu carro viene escrita la presión que necesita. Revísala cada mes.",
+   "words": [
+    {
+     "t": 62.25,
+     "e": 62.385,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.385,
+     "e": 62.505,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.505,
+     "e": 62.625,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.625,
+     "e": 62.865,
+     "w": "falta",
+     "a": [
+      "falta"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.865,
+     "e": 63.265,
+     "w": "aire,",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.625,
+     "e": 63.665,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.665,
+     "e": 63.925,
+     "w": "llanta",
+     "a": [
+      "llanta"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.925,
+     "e": 64.125,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.125,
+     "e": 64.685,
+     "w": "aplasta,",
+     "a": [
+      "aplasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.945,
+     "e": 65.025,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.025,
+     "e": 65.685,
+     "w": "calienta",
+     "a": [
+      "calienta"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.685,
+     "e": 65.925,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.925,
+     "e": 66.285,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.285,
+     "e": 66.905,
+     "w": "reventar.",
+     "a": [
+      "reventar"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.17,
+     "e": 67.345,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.345,
+     "e": 67.605,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.605,
+     "e": 67.805,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.805,
+     "e": 67.905,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.905,
+     "e": 68.165,
+     "w": "puerta",
+     "a": [
+      "puerta"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.165,
+     "e": 68.405,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.405,
+     "e": 68.525,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.525,
+     "e": 68.845,
+     "w": "carro",
+     "a": [
+      "carro"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.845,
+     "e": 69.185,
+     "w": "viene",
+     "a": [
+      "viene"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.185,
+     "e": 69.725,
+     "w": "escrita",
+     "a": [
+      "escrita"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.725,
+     "e": 69.845,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.845,
+     "e": 70.305,
+     "w": "presión",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.305,
+     "e": 70.445,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.445,
+     "e": 70.785,
+     "w": "necesita.",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.325,
+     "e": 71.885,
+     "w": "Revísala",
+     "a": [
+      "revísala"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.885,
+     "e": 72.265,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.265,
+     "e": 72.585,
+     "w": "mes.",
+     "a": [
+      "mes"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "n9",
+   "sfx": [
+    [
+     "gavel",
+     "cámbiala."
+    ],
+    [
+     "splash",
+     "agua."
+    ]
+   ],
+   "start": 72.88,
+   "dur": 6.8,
+   "text": "Si las rayas de tu llanta ya llegaron a esos topes, cámbiala. Con lluvia ya no saca el agua.",
+   "words": [
+    {
+     "t": 73.0,
+     "e": 73.105,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.105,
+     "e": 73.265,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.265,
+     "e": 73.645,
+     "w": "rayas",
+     "a": [
+      "rayas"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.645,
+     "e": 73.745,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.745,
+     "e": 73.865,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.865,
+     "e": 74.205,
+     "w": "llanta",
+     "a": [
+      "llanta"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.205,
+     "e": 74.445,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.445,
+     "e": 74.885,
+     "w": "llegaron",
+     "a": [
+      "llegaron"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.885,
+     "e": 74.985,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.985,
+     "e": 75.145,
+     "w": "esos",
+     "a": [
+      "esos"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.145,
+     "e": 75.665,
+     "w": "topes,",
+     "a": [
+      "topes"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.935,
+     "e": 76.65,
+     "w": "cámbiala.",
+     "a": [
+      "cámbiala"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.65,
+     "e": 76.775,
+     "w": "Con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.775,
+     "e": 77.195,
+     "w": "lluvia",
+     "a": [
+      "lluvia"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.195,
+     "e": 77.555,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.555,
+     "e": 77.735,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.735,
+     "e": 78.075,
+     "w": "saca",
+     "a": [
+      "saca"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.075,
+     "e": 78.175,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.175,
+     "e": 78.355,
+     "w": "agua.",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}

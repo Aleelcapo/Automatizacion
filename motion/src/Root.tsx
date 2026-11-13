@@ -13,6 +13,7 @@ import {DURACION_MICROONDAS, Microondas} from './tres/Microondas';
 import {DURACION_ENCENDEDOR, Encendedor} from './tres/Encendedor';
 import {DURACION_PASTILLA, PastillaVideo} from './tres/Pastilla';
 import {ChapaVideo, DURACION_CHAPA} from './tres/Chapa';
+import {DURACION_LLANTA, LlantaVideo} from './tres/Llanta';
 
 for (const [archivo, peso] of [
   ['Inter-SemiBold.otf', '600'],
@@ -46,5 +47,6 @@ export const Root: React.FC = () => (
     <Composition id="encendedor" component={Encendedor} durationInFrames={Math.ceil(DURACION_ENCENDEDOR * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="pastilla" component={PastillaVideo} durationInFrames={Math.ceil(DURACION_PASTILLA * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="chapa" component={ChapaVideo} durationInFrames={Math.ceil(DURACION_CHAPA * FPS)} fps={FPS} width={W} height={H} />
+    <Composition id="llanta" component={LlantaVideo} durationInFrames={Math.ceil(DURACION_LLANTA * FPS)} fps={FPS} width={W} height={H} />
   </>
 );

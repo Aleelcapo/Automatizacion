@@ -1,0 +1,15 @@
+{
+ "id": "llanta",
+ "estilo": {"subtitulos": false},
+ "beats": [
+  {"scene": "n1", "text": "Si pones un aro de hule alrededor de una rueda y lo inflas con aire, ya tienes una llanta.", "keys": [], "sfx": [["pop", "aro"], ["splash", "inflas"], ["coin", "llanta."]]},
+  {"scene": "n2", "text": "Pero el aire se escapa, así que le pones una válvula con un resorte que solo deja entrar aire. Esa es la válvula.", "keys": [], "sfx": [["splash", "escapa,"], ["pop", "válvula"], ["coin", "válvula.", 2]]},
+  {"scene": "n3", "text": "Pero el hule solo se estira como globo y revienta con el peso del carro, así que por dentro le pones capas de hilos de acero y tela. Esas son las cuerdas.", "keys": [], "sfx": [["thunder", "revienta"], ["pop", "capas"], ["coin", "cuerdas."]]},
+  {"scene": "n4", "text": "Pero cuando llueve, una llanta lisa se monta sobre una capa de agua y deja de tocar el piso, el carro patina como en hielo.", "keys": [], "sfx": [["splash", "agua"], ["thud", "patina"]]},
+  {"scene": "n5", "text": "Así que le haces canales profundos alrededor y hacia los lados para que el agua salga disparada por los costados. Ese es el dibujo.", "keys": [], "sfx": [["pop", "canales"], ["splash", "disparada"], ["coin", "dibujo."]]},
+  {"scene": "n6", "text": "Pero los bloques grandes de hule se mueven y se resbalan, así que les cortas rayitas finas que agarran el piso como dientes. Esas son las laminillas.", "keys": [], "sfx": [["pop", "rayitas"], ["gavel", "agarran"], ["coin", "laminillas."]]},
+  {"scene": "n7", "text": "Pero con los años, el hule se gasta y los canales se hacen menos profundos, así que entre los canales escondes unos topes más bajitos. Cuando la llanta se gasta hasta ellos, ya no sirve. Ese es el indicador de desgaste.", "keys": [], "sfx": [["pop", "topes"], ["thud", "sirve."], ["coin", "desgaste."]]},
+  {"scene": "n8", "text": "Pero si le falta aire, la llanta se aplasta, se calienta y puede reventar. Así que en la puerta de tu carro viene escrita la presión que necesita. Revísala cada mes.", "keys": [], "sfx": [["thud", "aplasta,"], ["thunder", "reventar."], ["pop", "escrita"], ["coin", "mes."]]},
+  {"scene": "n9", "text": "Si las rayas de tu llanta ya llegaron a esos topes, cámbiala. Con lluvia ya no saca el agua.", "keys": [], "sfx": [["gavel", "cámbiala."], ["splash", "agua."]]}
+ ]
+}
