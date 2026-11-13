@@ -427,6 +427,18 @@ def terminar(opt, salida, DUR):
     sc.render.image_settings.file_format = 'PNG'
     sc.render.use_overwrite = False
     sc.render.use_placeholder = True
+    franja = os.environ.get('FRANJA')  # x0,y0,x1,y1 en pixeles desde arriba-izquierda: re-render parcial
+    if franja:
+        x0, y0, x1, y1 = (int(v) for v in franja.split(','))
+        W, H = sc.render.resolution_x, sc.render.resolution_y
+        c = sc.camera.data
+        mm = c.sensor_width / max(W, H)  # sensor_fit AUTO: el sensor cubre el lado mayor
+        w, h = x1 - x0, y1 - y0
+        sc.render.resolution_x, sc.render.resolution_y = w, h
+        c.sensor_fit = 'AUTO'
+        c.sensor_width = mm * max(w, h)
+        c.shift_x = ((x0 + x1) / 2 - W / 2) / max(w, h)
+        c.shift_y = (H / 2 - (y0 + y1) / 2) / max(w, h)
     if '--stills' in opt:
         for t in opt['--stills'].split(','):
             sc.frame_set(F(float(t)))
