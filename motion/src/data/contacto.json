@@ -1,0 +1,2451 @@
+{
+ "id": "contacto",
+ "duration": 79.73,
+ "beats": [
+  {
+   "scene": "c1",
+   "sfx": [
+    [
+     "pop",
+     "cables"
+    ],
+    [
+     "coin",
+     "contacto."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 5.98,
+   "text": "Si sacas dos cables de la pared, uno con corriente y otro de regreso, ya tienes un contacto.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.295,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.295,
+     "e": 0.635,
+     "w": "sacas",
+     "a": [
+      "sacas"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.635,
+     "e": 0.895,
+     "w": "dos",
+     "a": [
+      "dos"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.895,
+     "e": 1.255,
+     "w": "cables",
+     "a": [
+      "cables"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.255,
+     "e": 1.435,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.435,
+     "e": 1.535,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.535,
+     "e": 1.835,
+     "w": "pared,",
+     "a": [
+      "pared"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.175,
+     "e": 2.335,
+     "w": "uno",
+     "a": [
+      "uno"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.335,
+     "e": 2.555,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.555,
+     "e": 3.015,
+     "w": "corriente",
+     "a": [
+      "corriente"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.015,
+     "e": 3.355,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.355,
+     "e": 3.595,
+     "w": "otro",
+     "a": [
+      "otro"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.595,
+     "e": 3.755,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.755,
+     "e": 4.235,
+     "w": "regreso,",
+     "a": [
+      "regreso"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.51,
+     "e": 4.735,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.735,
+     "e": 5.135,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.135,
+     "e": 5.315,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.315,
+     "e": 6.1,
+     "w": "contacto.",
+     "a": [
+      "contacto"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c2",
+   "sfx": [
+    [
+     "thunder",
+     "corriente"
+    ]
+   ],
+   "start": 5.98,
+   "dur": 3.33,
+   "text": "Pero si los tocas, la corriente pasa por tu cuerpo.",
+   "words": [
+    {
+     "t": 6.1,
+     "e": 6.325,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.325,
+     "e": 6.465,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.465,
+     "e": 6.645,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.645,
+     "e": 7.045,
+     "w": "tocas,",
+     "a": [
+      "tocas"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.445,
+     "e": 7.505,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.505,
+     "e": 7.965,
+     "w": "corriente",
+     "a": [
+      "corriente"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.965,
+     "e": 8.405,
+     "w": "pasa",
+     "a": [
+      "pasa"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.405,
+     "e": 8.625,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.625,
+     "e": 8.745,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.745,
+     "e": 9.105,
+     "w": "cuerpo.",
+     "a": [
+      "cuerpo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c3",
+   "sfx": [
+    [
+     "thud",
+     "caja"
+    ],
+    [
+     "pop",
+     "ranuritas"
+    ],
+    [
+     "gavel",
+     "clavija."
+    ],
+    [
+     "coin",
+     "contacto."
+    ]
+   ],
+   "start": 9.31,
+   "dur": 7.12,
+   "text": "Así que los escondes en una caja de plástico con dos ranuritas donde sólo entran las patitas de la clavija. Ese es el contacto.",
+   "words": [
+    {
+     "t": 9.43,
+     "e": 9.565,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.565,
+     "e": 9.725,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.725,
+     "e": 9.865,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.865,
+     "e": 10.405,
+     "w": "escondes",
+     "a": [
+      "escondes"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.405,
+     "e": 10.525,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.525,
+     "e": 10.705,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.705,
+     "e": 10.985,
+     "w": "caja",
+     "a": [
+      "caja"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.985,
+     "e": 11.105,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.105,
+     "e": 11.565,
+     "w": "plástico",
+     "a": [
+      "plástico"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.565,
+     "e": 11.885,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.885,
+     "e": 12.125,
+     "w": "dos",
+     "a": [
+      "dos"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.125,
+     "e": 12.745,
+     "w": "ranuritas",
+     "a": [
+      "ranuritas"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.745,
+     "e": 13.105,
+     "w": "donde",
+     "a": [
+      "donde"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.105,
+     "e": 13.505,
+     "w": "sólo",
+     "a": [
+      "sólo"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.505,
+     "e": 13.905,
+     "w": "entran",
+     "a": [
+      "entran"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.905,
+     "e": 14.105,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.105,
+     "e": 14.565,
+     "w": "patitas",
+     "a": [
+      "patitas"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.565,
+     "e": 14.725,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.725,
+     "e": 14.825,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.825,
+     "e": 15.245,
+     "w": "clavija.",
+     "a": [
+      "clavija"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.53,
+     "e": 15.815,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.815,
+     "e": 15.995,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.995,
+     "e": 16.115,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.115,
+     "e": 16.55,
+     "w": "contacto.",
+     "a": [
+      "contacto"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c4",
+   "sfx": [
+    [
+     "gavel",
+     "revés,"
+    ],
+    [
+     "splash",
+     "corriente"
+    ]
+   ],
+   "start": 16.43,
+   "dur": 5.375,
+   "text": "Pero si conectas la clavija al revés, algunos aparatos se quedan con corriente aunque estén apagados.",
+   "words": [
+    {
+     "t": 16.55,
+     "e": 16.695,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.695,
+     "e": 16.815,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.815,
+     "e": 17.235,
+     "w": "conectas",
+     "a": [
+      "conectas"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.235,
+     "e": 17.375,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.375,
+     "e": 17.775,
+     "w": "clavija",
+     "a": [
+      "clavija"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.775,
+     "e": 17.975,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.975,
+     "e": 18.455,
+     "w": "revés,",
+     "a": [
+      "revés"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.805,
+     "e": 18.965,
+     "w": "algunos",
+     "a": [
+      "algunos"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.965,
+     "e": 19.565,
+     "w": "aparatos",
+     "a": [
+      "aparatos"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.565,
+     "e": 19.725,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.725,
+     "e": 19.985,
+     "w": "quedan",
+     "a": [
+      "quedan"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.985,
+     "e": 20.165,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.165,
+     "e": 20.685,
+     "w": "corriente",
+     "a": [
+      "corriente"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.685,
+     "e": 21.005,
+     "w": "aunque",
+     "a": [
+      "aunque"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.005,
+     "e": 21.405,
+     "w": "estén",
+     "a": [
+      "estén"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.405,
+     "e": 21.925,
+     "w": "apagados.",
+     "a": [
+      "apagados"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c5",
+   "sfx": [
+    [
+     "pop",
+     "grande"
+    ],
+    [
+     "thud",
+     "sólo"
+    ],
+    [
+     "gavel",
+     "lado."
+    ],
+    [
+     "coin",
+     "polaridad."
+    ]
+   ],
+   "start": 21.805,
+   "dur": 7.015,
+   "text": "Así que haces una ranura más grande que la otra para que la clavija sólo entre de un lado. Esa es la polaridad.",
+   "words": [
+    {
+     "t": 21.925,
+     "e": 22.475,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.475,
+     "e": 22.655,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.655,
+     "e": 22.875,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.875,
+     "e": 23.095,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.095,
+     "e": 23.435,
+     "w": "ranura",
+     "a": [
+      "ranura"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.435,
+     "e": 23.835,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.835,
+     "e": 24.195,
+     "w": "grande",
+     "a": [
+      "grande"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.195,
+     "e": 24.315,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.315,
+     "e": 24.455,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.455,
+     "e": 24.755,
+     "w": "otra",
+     "a": [
+      "otra"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.755,
+     "e": 25.025,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.025,
+     "e": 25.145,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.145,
+     "e": 25.265,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.265,
+     "e": 25.665,
+     "w": "clavija",
+     "a": [
+      "clavija"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.665,
+     "e": 26.085,
+     "w": "sólo",
+     "a": [
+      "sólo"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.085,
+     "e": 26.425,
+     "w": "entre",
+     "a": [
+      "entre"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.425,
+     "e": 26.605,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.605,
+     "e": 26.785,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.785,
+     "e": 27.045,
+     "w": "lado.",
+     "a": [
+      "lado"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.37,
+     "e": 27.735,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.735,
+     "e": 27.975,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.975,
+     "e": 28.095,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.095,
+     "e": 28.635,
+     "w": "polaridad.",
+     "a": [
+      "polaridad"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c6",
+   "sfx": [
+    [
+     "pop",
+     "pela"
+    ],
+    [
+     "thunder",
+     "toca"
+    ],
+    [
+     "thunder",
+     "descalzo."
+    ]
+   ],
+   "start": 28.82,
+   "dur": 8.855,
+   "text": "Pero un día un cable se pela adentro de tu lavadora y toca la carcasa de metal. Ahora toda la lavadora tiene corriente y tú la tocas descalzo.",
+   "words": [
+    {
+     "t": 28.94,
+     "e": 29.065,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.065,
+     "e": 29.265,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.265,
+     "e": 29.485,
+     "w": "día",
+     "a": [
+      "día"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.485,
+     "e": 29.845,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.845,
+     "e": 30.145,
+     "w": "cable",
+     "a": [
+      "cable"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.145,
+     "e": 30.345,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.345,
+     "e": 30.705,
+     "w": "pela",
+     "a": [
+      "pela"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.705,
+     "e": 31.145,
+     "w": "adentro",
+     "a": [
+      "adentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.145,
+     "e": 31.265,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.265,
+     "e": 31.365,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.365,
+     "e": 31.825,
+     "w": "lavadora",
+     "a": [
+      "lavadora"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.825,
+     "e": 32.105,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.105,
+     "e": 32.385,
+     "w": "toca",
+     "a": [
+      "toca"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.385,
+     "e": 32.545,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.545,
+     "e": 32.965,
+     "w": "carcasa",
+     "a": [
+      "carcasa"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.965,
+     "e": 33.125,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.125,
+     "e": 33.325,
+     "w": "metal.",
+     "a": [
+      "metal"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.725,
+     "e": 33.945,
+     "w": "Ahora",
+     "a": [
+      "ahora"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.945,
+     "e": 34.315,
+     "w": "toda",
+     "a": [
+      "toda"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.315,
+     "e": 34.535,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.535,
+     "e": 34.935,
+     "w": "lavadora",
+     "a": [
+      "lavadora"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.935,
+     "e": 35.215,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.215,
+     "e": 35.735,
+     "w": "corriente",
+     "a": [
+      "corriente"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.735,
+     "e": 36.005,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.005,
+     "e": 36.305,
+     "w": "tú",
+     "a": [
+      "tú"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.305,
+     "e": 36.605,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.605,
+     "e": 36.905,
+     "w": "tocas",
+     "a": [
+      "tocas"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.905,
+     "e": 37.75,
+     "w": "descalzo.",
+     "a": [
+      "descalzo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c7",
+   "sfx": [
+    [
+     "pop",
+     "tercer"
+    ],
+    [
+     "thud",
+     "enterrada."
+    ],
+    [
+     "splash",
+     "camino"
+    ],
+    [
+     "gavel",
+     "bota."
+    ],
+    [
+     "coin",
+     "física."
+    ]
+   ],
+   "start": 37.675,
+   "dur": 16.69,
+   "text": "Así que agregas un tercer cable que conecta el metal del aparato directo a la tierra con una varilla enterrada. Si un cable toca el metal, la corriente se va por ese camino y no por ti. Y como es tanta, la pastilla se bota. Ese es el tercer hoyo, la tierra física.",
+   "words": [
+    {
+     "t": 37.795,
+     "e": 38.115,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.115,
+     "e": 38.275,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.275,
+     "e": 38.635,
+     "w": "agregas",
+     "a": [
+      "agregas"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.635,
+     "e": 38.795,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.795,
+     "e": 39.115,
+     "w": "tercer",
+     "a": [
+      "tercer"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.115,
+     "e": 39.635,
+     "w": "cable",
+     "a": [
+      "cable"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.635,
+     "e": 39.835,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.835,
+     "e": 40.255,
+     "w": "conecta",
+     "a": [
+      "conecta"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.255,
+     "e": 40.355,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.355,
+     "e": 40.655,
+     "w": "metal",
+     "a": [
+      "metal"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.655,
+     "e": 40.875,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.875,
+     "e": 41.335,
+     "w": "aparato",
+     "a": [
+      "aparato"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.335,
+     "e": 41.995,
+     "w": "directo",
+     "a": [
+      "directo"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.995,
+     "e": 42.075,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.075,
+     "e": 42.135,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.135,
+     "e": 42.455,
+     "w": "tierra",
+     "a": [
+      "tierra"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.455,
+     "e": 42.735,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.735,
+     "e": 42.915,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.915,
+     "e": 43.275,
+     "w": "varilla",
+     "a": [
+      "varilla"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.275,
+     "e": 43.815,
+     "w": "enterrada.",
+     "a": [
+      "enterrada"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.09,
+     "e": 44.255,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.255,
+     "e": 44.395,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.395,
+     "e": 44.675,
+     "w": "cable",
+     "a": [
+      "cable"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.675,
+     "e": 44.995,
+     "w": "toca",
+     "a": [
+      "toca"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.995,
+     "e": 45.175,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.175,
+     "e": 45.455,
+     "w": "metal,",
+     "a": [
+      "metal"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.865,
+     "e": 45.905,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.905,
+     "e": 46.305,
+     "w": "corriente",
+     "a": [
+      "corriente"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.305,
+     "e": 46.505,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.505,
+     "e": 46.645,
+     "w": "va",
+     "a": [
+      "va"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.645,
+     "e": 46.885,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.885,
+     "e": 47.045,
+     "w": "ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.045,
+     "e": 47.445,
+     "w": "camino",
+     "a": [
+      "camino"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.445,
+     "e": 47.745,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.745,
+     "e": 47.905,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.905,
+     "e": 48.105,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.105,
+     "e": 48.305,
+     "w": "ti.",
+     "a": [
+      "ti"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.305,
+     "e": 48.58,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.58,
+     "e": 48.865,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.865,
+     "e": 49.105,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.105,
+     "e": 49.405,
+     "w": "tanta,",
+     "a": [
+      "tanta"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.795,
+     "e": 49.875,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.875,
+     "e": 50.315,
+     "w": "pastilla",
+     "a": [
+      "pastilla"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.315,
+     "e": 50.575,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.575,
+     "e": 50.875,
+     "w": "bota.",
+     "a": [
+      "bota"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.23,
+     "e": 51.545,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.545,
+     "e": 51.825,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.825,
+     "e": 51.965,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.965,
+     "e": 52.285,
+     "w": "tercer",
+     "a": [
+      "tercer"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.285,
+     "e": 52.87,
+     "w": "hoyo,",
+     "a": [
+      "hoyo"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.915,
+     "e": 53.035,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.035,
+     "e": 53.455,
+     "w": "tierra",
+     "a": [
+      "tierra"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.455,
+     "e": 54.015,
+     "w": "física.",
+     "a": [
+      "física"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c8",
+   "sfx": [
+    [
+     "thunder",
+     "chispa."
+    ]
+   ],
+   "start": 54.365,
+   "dur": 3.875,
+   "text": "Pero las patitas de la clavija pueden quedar flojas y hacer chispa.",
+   "words": [
+    {
+     "t": 54.485,
+     "e": 54.765,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.765,
+     "e": 54.925,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.925,
+     "e": 55.325,
+     "w": "patitas",
+     "a": [
+      "patitas"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.325,
+     "e": 55.465,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.465,
+     "e": 55.565,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.565,
+     "e": 55.985,
+     "w": "clavija",
+     "a": [
+      "clavija"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.985,
+     "e": 56.325,
+     "w": "pueden",
+     "a": [
+      "pueden"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.325,
+     "e": 56.585,
+     "w": "quedar",
+     "a": [
+      "quedar"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.585,
+     "e": 57.205,
+     "w": "flojas",
+     "a": [
+      "flojas"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.205,
+     "e": 57.385,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.385,
+     "e": 57.565,
+     "w": "hacer",
+     "a": [
+      "hacer"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.565,
+     "e": 58.085,
+     "w": "chispa.",
+     "a": [
+      "chispa"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c9",
+   "sfx": [
+    [
+     "pop",
+     "laminitas"
+    ],
+    [
+     "gavel",
+     "aprietan"
+    ],
+    [
+     "coin",
+     "presión."
+    ]
+   ],
+   "start": 58.24,
+   "dur": 7.01,
+   "text": "Así que adentro pones unas laminitas de cobre dobladas que las aprietan como pinzas. Esos son los contactos de presión.",
+   "words": [
+    {
+     "t": 58.36,
+     "e": 58.515,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.515,
+     "e": 58.675,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.675,
+     "e": 59.075,
+     "w": "adentro",
+     "a": [
+      "adentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.075,
+     "e": 59.335,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.335,
+     "e": 59.535,
+     "w": "unas",
+     "a": [
+      "unas"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.535,
+     "e": 60.175,
+     "w": "laminitas",
+     "a": [
+      "laminitas"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.175,
+     "e": 60.375,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.375,
+     "e": 60.655,
+     "w": "cobre",
+     "a": [
+      "cobre"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.655,
+     "e": 61.175,
+     "w": "dobladas",
+     "a": [
+      "dobladas"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.175,
+     "e": 61.465,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.465,
+     "e": 61.625,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.625,
+     "e": 62.185,
+     "w": "aprietan",
+     "a": [
+      "aprietan"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.185,
+     "e": 62.385,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.385,
+     "e": 62.805,
+     "w": "pinzas.",
+     "a": [
+      "pinzas"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.26,
+     "e": 63.595,
+     "w": "Esos",
+     "a": [
+      "esos"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.595,
+     "e": 63.895,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.895,
+     "e": 64.015,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.015,
+     "e": 64.555,
+     "w": "contactos",
+     "a": [
+      "contactos"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.555,
+     "e": 64.655,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.655,
+     "e": 65.075,
+     "w": "presión.",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c10",
+   "sfx": [
+    [
+     "pop",
+     "adaptadores"
+    ],
+    [
+     "thud",
+     "protección."
+    ]
+   ],
+   "start": 65.25,
+   "dur": 6.925,
+   "text": "Pero muchas casas tienen el hoyo sin el cable atrás y hay adaptadores que lo eliminan. Con ellos pierdes la protección.",
+   "words": [
+    {
+     "t": 65.37,
+     "e": 65.505,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.505,
+     "e": 65.905,
+     "w": "muchas",
+     "a": [
+      "muchas"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.905,
+     "e": 66.385,
+     "w": "casas",
+     "a": [
+      "casas"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.385,
+     "e": 66.705,
+     "w": "tienen",
+     "a": [
+      "tienen"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.705,
+     "e": 66.905,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.905,
+     "e": 67.285,
+     "w": "hoyo",
+     "a": [
+      "hoyo"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.285,
+     "e": 67.745,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.745,
+     "e": 67.885,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.885,
+     "e": 68.145,
+     "w": "cable",
+     "a": [
+      "cable"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.145,
+     "e": 68.545,
+     "w": "atrás",
+     "a": [
+      "atrás"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.545,
+     "e": 68.885,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.885,
+     "e": 69.025,
+     "w": "hay",
+     "a": [
+      "hay"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.025,
+     "e": 69.625,
+     "w": "adaptadores",
+     "a": [
+      "adaptadores"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.625,
+     "e": 69.825,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.825,
+     "e": 69.945,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.945,
+     "e": 70.66,
+     "w": "eliminan.",
+     "a": [
+      "eliminan"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.66,
+     "e": 70.825,
+     "w": "Con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.825,
+     "e": 71.045,
+     "w": "ellos",
+     "a": [
+      "ellos"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.045,
+     "e": 71.655,
+     "w": "pierdes",
+     "a": [
+      "pierdes"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.655,
+     "e": 71.795,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.795,
+     "e": 72.295,
+     "w": "protección.",
+     "a": [
+      "protección"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c11",
+   "sfx": [
+    [
+     "thunder",
+     "toques,"
+    ],
+    [
+     "thud",
+     "física."
+    ]
+   ],
+   "start": 72.175,
+   "dur": 7.555,
+   "text": "Si tu refri o tu lavadora te da toques, no le quites la tercera patita, le falta la tierra física.",
+   "words": [
+    {
+     "t": 72.295,
+     "e": 72.735,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.735,
+     "e": 72.895,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.895,
+     "e": 73.295,
+     "w": "refri",
+     "a": [
+      "refri"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.295,
+     "e": 73.415,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.415,
+     "e": 73.515,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.515,
+     "e": 73.935,
+     "w": "lavadora",
+     "a": [
+      "lavadora"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.935,
+     "e": 74.135,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.135,
+     "e": 74.275,
+     "w": "da",
+     "a": [
+      "da"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.275,
+     "e": 74.735,
+     "w": "toques,",
+     "a": [
+      "toques"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.115,
+     "e": 75.235,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.235,
+     "e": 75.375,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.375,
+     "e": 75.695,
+     "w": "quites",
+     "a": [
+      "quites"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.695,
+     "e": 75.855,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.855,
+     "e": 76.215,
+     "w": "tercera",
+     "a": [
+      "tercera"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.215,
+     "e": 76.635,
+     "w": "patita,",
+     "a": [
+      "patita"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.84,
+     "e": 76.995,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.995,
+     "e": 77.315,
+     "w": "falta",
+     "a": [
+      "falta"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.315,
+     "e": 77.515,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.515,
+     "e": 77.895,
+     "w": "tierra",
+     "a": [
+      "tierra"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.895,
+     "e": 78.275,
+     "w": "física.",
+     "a": [
+      "física"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}

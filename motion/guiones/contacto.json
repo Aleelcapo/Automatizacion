@@ -1,0 +1,17 @@
+{
+ "id": "contacto",
+ "estilo": {"subtitulos": false},
+ "beats": [
+  {"scene": "c1", "text": "Si sacas dos cables de la pared, uno con corriente y otro de regreso, ya tienes un contacto.", "keys": [], "sfx": [["pop", "cables"], ["coin", "contacto."]]},
+  {"scene": "c2", "text": "Pero si los tocas, la corriente pasa por tu cuerpo.", "keys": [], "sfx": [["thunder", "corriente"]]},
+  {"scene": "c3", "text": "Así que los escondes en una caja de plástico con dos ranuritas donde sólo entran las patitas de la clavija. Ese es el contacto.", "keys": [], "sfx": [["thud", "caja"], ["pop", "ranuritas"], ["gavel", "clavija."], ["coin", "contacto."]]},
+  {"scene": "c4", "text": "Pero si conectas la clavija al revés, algunos aparatos se quedan con corriente aunque estén apagados.", "keys": [], "sfx": [["gavel", "revés,"], ["splash", "corriente"]]},
+  {"scene": "c5", "text": "Así que haces una ranura más grande que la otra para que la clavija sólo entre de un lado. Esa es la polaridad.", "keys": [], "sfx": [["pop", "grande"], ["thud", "sólo"], ["gavel", "lado."], ["coin", "polaridad."]]},
+  {"scene": "c6", "text": "Pero un día un cable se pela adentro de tu lavadora y toca la carcasa de metal. Ahora toda la lavadora tiene corriente y tú la tocas descalzo.", "keys": [], "sfx": [["pop", "pela"], ["thunder", "toca"], ["thunder", "descalzo."]]},
+  {"scene": "c7", "text": "Así que agregas un tercer cable que conecta el metal del aparato directo a la tierra con una varilla enterrada. Si un cable toca el metal, la corriente se va por ese camino y no por ti. Y como es tanta, la pastilla se bota. Ese es el tercer hoyo, la tierra física.", "keys": [], "sfx": [["pop", "tercer"], ["thud", "enterrada."], ["splash", "camino"], ["gavel", "bota."], ["coin", "física."]]},
+  {"scene": "c8", "text": "Pero las patitas de la clavija pueden quedar flojas y hacer chispa.", "keys": [], "sfx": [["thunder", "chispa."]]},
+  {"scene": "c9", "text": "Así que adentro pones unas laminitas de cobre dobladas que las aprietan como pinzas. Esos son los contactos de presión.", "keys": [], "sfx": [["pop", "laminitas"], ["gavel", "aprietan"], ["coin", "presión."]]},
+  {"scene": "c10", "text": "Pero muchas casas tienen el hoyo sin el cable atrás y hay adaptadores que lo eliminan. Con ellos pierdes la protección.", "keys": [], "sfx": [["pop", "adaptadores"], ["thud", "protección."]]},
+  {"scene": "c11", "text": "Si tu refri o tu lavadora te da toques, no le quites la tercera patita, le falta la tierra física.", "keys": [], "sfx": [["thunder", "toques,"], ["thud", "física."]]}
+ ]
+}
