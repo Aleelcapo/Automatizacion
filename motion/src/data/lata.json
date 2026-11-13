@@ -1,0 +1,2528 @@
+{
+ "id": "lata",
+ "duration": 80.7,
+ "beats": [
+  {
+   "scene": "l1",
+   "sfx": [
+    [
+     "pop",
+     "tubo"
+    ],
+    [
+     "thud",
+     "arriba"
+    ],
+    [
+     "thud",
+     "abajo,"
+    ],
+    [
+     "coin",
+     "lata."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 5.75,
+   "text": "Si haces un tubo de aluminio delgadito y le pones tapa arriba y abajo, ya tienes una lata.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.295,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.295,
+     "e": 0.575,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.575,
+     "e": 0.735,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.735,
+     "e": 1.095,
+     "w": "tubo",
+     "a": [
+      "tubo"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.095,
+     "e": 1.195,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.195,
+     "e": 1.615,
+     "w": "aluminio",
+     "a": [
+      "aluminio"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.615,
+     "e": 2.275,
+     "w": "delgadito",
+     "a": [
+      "delgadito"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.275,
+     "e": 2.535,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.535,
+     "e": 2.635,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.635,
+     "e": 2.855,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.855,
+     "e": 3.195,
+     "w": "tapa",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.195,
+     "e": 3.635,
+     "w": "arriba",
+     "a": [
+      "arriba"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.635,
+     "e": 3.835,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.835,
+     "e": 4.155,
+     "w": "abajo,",
+     "a": [
+      "abajo"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.5,
+     "e": 4.725,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.725,
+     "e": 5.065,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.065,
+     "e": 5.285,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.285,
+     "e": 5.525,
+     "w": "lata.",
+     "a": [
+      "lata"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "l2",
+   "sfx": [
+    [
+     "splash",
+     "refresco"
+    ],
+    [
+     "pop",
+     "infla"
+    ],
+    [
+     "thud",
+     "derecha."
+    ]
+   ],
+   "start": 5.75,
+   "dur": 8.38,
+   "text": "Pero el refresco trae gas a presión y empuja todas las paredes. El fondo plano se infla como globo y la lata ya no se para derecha.",
+   "words": [
+    {
+     "t": 5.87,
+     "e": 6.005,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.005,
+     "e": 6.125,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.125,
+     "e": 6.645,
+     "w": "refresco",
+     "a": [
+      "refresco"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.645,
+     "e": 6.985,
+     "w": "trae",
+     "a": [
+      "trae"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.985,
+     "e": 7.225,
+     "w": "gas",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.225,
+     "e": 7.365,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.365,
+     "e": 7.865,
+     "w": "presión",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.865,
+     "e": 8.105,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.105,
+     "e": 8.565,
+     "w": "empuja",
+     "a": [
+      "empuja"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.565,
+     "e": 8.885,
+     "w": "todas",
+     "a": [
+      "todas"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.885,
+     "e": 9.165,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.165,
+     "e": 9.725,
+     "w": "paredes.",
+     "a": [
+      "paredes"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.02,
+     "e": 10.135,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.135,
+     "e": 10.395,
+     "w": "fondo",
+     "a": [
+      "fondo"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.395,
+     "e": 10.755,
+     "w": "plano",
+     "a": [
+      "plano"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.755,
+     "e": 10.995,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.995,
+     "e": 11.375,
+     "w": "infla",
+     "a": [
+      "infla"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.375,
+     "e": 11.575,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.575,
+     "e": 12.015,
+     "w": "globo",
+     "a": [
+      "globo"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.015,
+     "e": 12.295,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.295,
+     "e": 12.415,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.415,
+     "e": 12.675,
+     "w": "lata",
+     "a": [
+      "lata"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.675,
+     "e": 12.995,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.995,
+     "e": 13.135,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.135,
+     "e": 13.295,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.295,
+     "e": 13.475,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.475,
+     "e": 13.975,
+     "w": "derecha.",
+     "a": [
+      "derecha"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "l3",
+   "sfx": [
+    [
+     "thud",
+     "hundes"
+    ],
+    [
+     "coin",
+     "domo."
+    ]
+   ],
+   "start": 14.13,
+   "dur": 7.75,
+   "text": "Así que le hundes el fondo hacia adentro, como un domo. Un arco aguanta mucho más presión que una pared plana. Ese es el domo.",
+   "words": [
+    {
+     "t": 14.25,
+     "e": 14.425,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.425,
+     "e": 14.585,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.585,
+     "e": 14.725,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.725,
+     "e": 15.065,
+     "w": "hundes",
+     "a": [
+      "hundes"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.065,
+     "e": 15.225,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.225,
+     "e": 15.505,
+     "w": "fondo",
+     "a": [
+      "fondo"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.505,
+     "e": 15.725,
+     "w": "hacia",
+     "a": [
+      "hacia"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.725,
+     "e": 16.265,
+     "w": "adentro,",
+     "a": [
+      "adentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.435,
+     "e": 16.575,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.575,
+     "e": 16.795,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.795,
+     "e": 17.36,
+     "w": "domo.",
+     "a": [
+      "domo"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.36,
+     "e": 17.525,
+     "w": "Un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.525,
+     "e": 17.825,
+     "w": "arco",
+     "a": [
+      "arco"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.825,
+     "e": 18.265,
+     "w": "aguanta",
+     "a": [
+      "aguanta"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.265,
+     "e": 18.665,
+     "w": "mucho",
+     "a": [
+      "mucho"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.665,
+     "e": 18.885,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.885,
+     "e": 19.405,
+     "w": "presión",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.405,
+     "e": 19.565,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.565,
+     "e": 19.745,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.745,
+     "e": 20.025,
+     "w": "pared",
+     "a": [
+      "pared"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.025,
+     "e": 20.69,
+     "w": "plana.",
+     "a": [
+      "plana"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.69,
+     "e": 21.025,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.025,
+     "e": 21.305,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.305,
+     "e": 21.465,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.465,
+     "e": 22.0,
+     "w": "domo.",
+     "a": [
+      "domo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "l4",
+   "sfx": [
+    [
+     "thunder",
+     "aplastan"
+    ]
+   ],
+   "start": 21.88,
+   "dur": 4.69,
+   "text": "Pero las paredes son tan delgadas como una hoja de papel y se aplastan con la mano.",
+   "words": [
+    {
+     "t": 22.0,
+     "e": 22.135,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.135,
+     "e": 22.335,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.335,
+     "e": 22.755,
+     "w": "paredes",
+     "a": [
+      "paredes"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.755,
+     "e": 22.915,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.915,
+     "e": 23.235,
+     "w": "tan",
+     "a": [
+      "tan"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.235,
+     "e": 23.775,
+     "w": "delgadas",
+     "a": [
+      "delgadas"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.775,
+     "e": 24.035,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.035,
+     "e": 24.275,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.275,
+     "e": 24.515,
+     "w": "hoja",
+     "a": [
+      "hoja"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.515,
+     "e": 24.655,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.655,
+     "e": 24.975,
+     "w": "papel",
+     "a": [
+      "papel"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.975,
+     "e": 25.285,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.285,
+     "e": 25.385,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.385,
+     "e": 25.885,
+     "w": "aplastan",
+     "a": [
+      "aplastan"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.885,
+     "e": 26.045,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.045,
+     "e": 26.165,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.165,
+     "e": 26.425,
+     "w": "mano.",
+     "a": [
+      "mano"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "l5",
+   "sfx": [
+    [
+     "gavel",
+     "duras."
+    ],
+    [
+     "thud",
+     "aguanta"
+    ],
+    [
+     "thunder",
+     "vacía"
+    ]
+   ],
+   "start": 26.57,
+   "dur": 10.16,
+   "text": "Así que no las haces más gruesas. El mismo gas, al empujarlas desde adentro, las pone duras. Por eso una lata cerrada aguanta mucho peso y una vacía no.",
+   "words": [
+    {
+     "t": 26.69,
+     "e": 26.875,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.875,
+     "e": 27.035,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.035,
+     "e": 27.255,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.255,
+     "e": 27.455,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.455,
+     "e": 27.675,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.675,
+     "e": 27.855,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.855,
+     "e": 28.235,
+     "w": "gruesas.",
+     "a": [
+      "gruesas"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.65,
+     "e": 28.805,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.805,
+     "e": 29.105,
+     "w": "mismo",
+     "a": [
+      "mismo"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.105,
+     "e": 29.485,
+     "w": "gas,",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.705,
+     "e": 29.805,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.805,
+     "e": 30.365,
+     "w": "empujarlas",
+     "a": [
+      "empujarlas"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.365,
+     "e": 30.545,
+     "w": "desde",
+     "a": [
+      "desde"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.545,
+     "e": 31.085,
+     "w": "adentro,",
+     "a": [
+      "adentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.325,
+     "e": 31.465,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.465,
+     "e": 31.725,
+     "w": "pone",
+     "a": [
+      "pone"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.725,
+     "e": 32.245,
+     "w": "duras.",
+     "a": [
+      "duras"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.61,
+     "e": 32.745,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.745,
+     "e": 32.965,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.965,
+     "e": 33.325,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.325,
+     "e": 33.565,
+     "w": "lata",
+     "a": [
+      "lata"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.565,
+     "e": 34.045,
+     "w": "cerrada",
+     "a": [
+      "cerrada"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.045,
+     "e": 34.585,
+     "w": "aguanta",
+     "a": [
+      "aguanta"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.585,
+     "e": 34.925,
+     "w": "mucho",
+     "a": [
+      "mucho"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.925,
+     "e": 35.285,
+     "w": "peso",
+     "a": [
+      "peso"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.285,
+     "e": 35.565,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.565,
+     "e": 35.725,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.725,
+     "e": 36.185,
+     "w": "vacía",
+     "a": [
+      "vacía"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.185,
+     "e": 36.595,
+     "w": "no.",
+     "a": [
+      "no"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "l6",
+   "sfx": [
+    [
+     "coin",
+     "caro."
+    ]
+   ],
+   "start": 36.73,
+   "dur": 3.92,
+   "text": "Pero la tapa tiene que ser más gruesa y el aluminio grueso es caro.",
+   "words": [
+    {
+     "t": 36.85,
+     "e": 37.075,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.075,
+     "e": 37.235,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.235,
+     "e": 37.515,
+     "w": "tapa",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.515,
+     "e": 37.815,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.815,
+     "e": 37.955,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.955,
+     "e": 38.175,
+     "w": "ser",
+     "a": [
+      "ser"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.175,
+     "e": 38.435,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.435,
+     "e": 39.03,
+     "w": "gruesa",
+     "a": [
+      "gruesa"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.03,
+     "e": 39.095,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.095,
+     "e": 39.215,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.215,
+     "e": 39.615,
+     "w": "aluminio",
+     "a": [
+      "aluminio"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.615,
+     "e": 40.115,
+     "w": "grueso",
+     "a": [
+      "grueso"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.115,
+     "e": 40.395,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.395,
+     "e": 40.77,
+     "w": "caro.",
+     "a": [
+      "caro"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "l7",
+   "sfx": [
+    [
+     "pop",
+     "angosta"
+    ],
+    [
+     "coin",
+     "cuello."
+    ]
+   ],
+   "start": 40.65,
+   "dur": 5.65,
+   "text": "Así que haces la boca más angosta que el cuerpo para que la tapa sea chiquita. Ese es el cuello.",
+   "words": [
+    {
+     "t": 40.77,
+     "e": 40.945,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.945,
+     "e": 41.125,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.125,
+     "e": 41.365,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.365,
+     "e": 41.505,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.505,
+     "e": 41.745,
+     "w": "boca",
+     "a": [
+      "boca"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.745,
+     "e": 42.105,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.105,
+     "e": 42.545,
+     "w": "angosta",
+     "a": [
+      "angosta"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.545,
+     "e": 42.745,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.745,
+     "e": 42.865,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.865,
+     "e": 43.225,
+     "w": "cuerpo",
+     "a": [
+      "cuerpo"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.225,
+     "e": 43.485,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.485,
+     "e": 43.605,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.605,
+     "e": 43.745,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.745,
+     "e": 44.025,
+     "w": "tapa",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.025,
+     "e": 44.265,
+     "w": "sea",
+     "a": [
+      "sea"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.265,
+     "e": 44.765,
+     "w": "chiquita.",
+     "a": [
+      "chiquita"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.06,
+     "e": 45.375,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.375,
+     "e": 45.655,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.655,
+     "e": 45.795,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.795,
+     "e": 46.42,
+     "w": "cuello.",
+     "a": [
+      "cuello"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "l8",
+   "sfx": [],
+   "start": 46.3,
+   "dur": 2.88,
+   "text": "Pero para abrirla necesitarías un abrelatas.",
+   "words": [
+    {
+     "t": 46.42,
+     "e": 46.565,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.565,
+     "e": 46.765,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.765,
+     "e": 47.265,
+     "w": "abrirla",
+     "a": [
+      "abrirla"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.265,
+     "e": 48.045,
+     "w": "necesitarías",
+     "a": [
+      "necesitarías"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.045,
+     "e": 48.515,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.515,
+     "e": 48.985,
+     "w": "abrelatas.",
+     "a": [
+      "abrelatas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "l9",
+   "sfx": [
+    [
+     "pop",
+     "palanca"
+    ],
+    [
+     "gavel",
+     "remachada."
+    ],
+    [
+     "splash",
+     "rompe"
+    ],
+    [
+     "coin",
+     "lengüeta."
+    ]
+   ],
+   "start": 49.18,
+   "dur": 10.06,
+   "text": "Así que le marcas a la tapa una línea más delgada y le pones una palanca remachada. Al levantarla, empuja y rompe justo por esa línea. Esa es la lengüeta.",
+   "words": [
+    {
+     "t": 49.3,
+     "e": 49.465,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.465,
+     "e": 49.625,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.625,
+     "e": 49.725,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.725,
+     "e": 50.125,
+     "w": "marcas",
+     "a": [
+      "marcas"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.125,
+     "e": 50.285,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.285,
+     "e": 50.345,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.345,
+     "e": 50.625,
+     "w": "tapa",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.625,
+     "e": 50.925,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.925,
+     "e": 51.165,
+     "w": "línea",
+     "a": [
+      "línea"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.165,
+     "e": 51.565,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.565,
+     "e": 52.005,
+     "w": "delgada",
+     "a": [
+      "delgada"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.005,
+     "e": 52.305,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.305,
+     "e": 52.425,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.425,
+     "e": 52.645,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.645,
+     "e": 52.865,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.865,
+     "e": 53.305,
+     "w": "palanca",
+     "a": [
+      "palanca"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.305,
+     "e": 54.19,
+     "w": "remachada.",
+     "a": [
+      "remachada"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.19,
+     "e": 54.325,
+     "w": "Al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.325,
+     "e": 54.945,
+     "w": "levantarla,",
+     "a": [
+      "levantarla"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.19,
+     "e": 55.765,
+     "w": "empuja",
+     "a": [
+      "empuja"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.765,
+     "e": 56.005,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.005,
+     "e": 56.465,
+     "w": "rompe",
+     "a": [
+      "rompe"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.465,
+     "e": 56.845,
+     "w": "justo",
+     "a": [
+      "justo"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.845,
+     "e": 57.165,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.165,
+     "e": 57.325,
+     "w": "esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.325,
+     "e": 57.585,
+     "w": "línea.",
+     "a": [
+      "línea"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.91,
+     "e": 58.265,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.265,
+     "e": 58.505,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.505,
+     "e": 58.625,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.625,
+     "e": 59.045,
+     "w": "lengüeta.",
+     "a": [
+      "lengüeta"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "l10",
+   "sfx": [
+    [
+     "thud",
+     "apilen"
+    ]
+   ],
+   "start": 59.24,
+   "dur": 5.43,
+   "text": "Y el aro de abajo del domo sirve para algo más. Deja que las latas se apilen sin resbalar.",
+   "words": [
+    {
+     "t": 59.36,
+     "e": 59.485,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.485,
+     "e": 59.605,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.605,
+     "e": 59.765,
+     "w": "aro",
+     "a": [
+      "aro"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.765,
+     "e": 59.885,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.885,
+     "e": 60.145,
+     "w": "abajo",
+     "a": [
+      "abajo"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.145,
+     "e": 60.365,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.365,
+     "e": 60.745,
+     "w": "domo",
+     "a": [
+      "domo"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.745,
+     "e": 61.105,
+     "w": "sirve",
+     "a": [
+      "sirve"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.105,
+     "e": 61.305,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.305,
+     "e": 61.565,
+     "w": "algo",
+     "a": [
+      "algo"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.565,
+     "e": 61.805,
+     "w": "más.",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.25,
+     "e": 62.505,
+     "w": "Deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.505,
+     "e": 62.645,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.645,
+     "e": 62.825,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.825,
+     "e": 63.145,
+     "w": "latas",
+     "a": [
+      "latas"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.145,
+     "e": 63.285,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.285,
+     "e": 63.625,
+     "w": "apilen",
+     "a": [
+      "apilen"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.625,
+     "e": 63.965,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.965,
+     "e": 64.525,
+     "w": "resbalar.",
+     "a": [
+      "resbalar"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "l11",
+   "sfx": [
+    [
+     "pop",
+     "suelta"
+    ]
+   ],
+   "start": 64.67,
+   "dur": 4.44,
+   "text": "Pero una lengüeta suelta sería basura en la calle y la tragarían los animales.",
+   "words": [
+    {
+     "t": 64.79,
+     "e": 64.915,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.915,
+     "e": 65.095,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.095,
+     "e": 65.495,
+     "w": "lengüeta",
+     "a": [
+      "lengüeta"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.495,
+     "e": 65.975,
+     "w": "suelta",
+     "a": [
+      "suelta"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.975,
+     "e": 66.255,
+     "w": "sería",
+     "a": [
+      "sería"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.255,
+     "e": 66.835,
+     "w": "basura",
+     "a": [
+      "basura"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.835,
+     "e": 66.935,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.935,
+     "e": 67.035,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.035,
+     "e": 67.355,
+     "w": "calle",
+     "a": [
+      "calle"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.355,
+     "e": 67.555,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.555,
+     "e": 67.695,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.695,
+     "e": 68.175,
+     "w": "tragarían",
+     "a": [
+      "tragarían"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.175,
+     "e": 68.315,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.315,
+     "e": 68.715,
+     "w": "animales.",
+     "a": [
+      "animales"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "l12",
+   "sfx": [
+    [
+     "gavel",
+     "remachada"
+    ],
+    [
+     "pop",
+     "dobla"
+    ]
+   ],
+   "start": 69.11,
+   "dur": 4.91,
+   "text": "Así que se queda remachada a la tapa. Se dobla hacia adentro y nunca se separa.",
+   "words": [
+    {
+     "t": 69.23,
+     "e": 69.415,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.415,
+     "e": 69.595,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.595,
+     "e": 69.695,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.695,
+     "e": 69.955,
+     "w": "queda",
+     "a": [
+      "queda"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.955,
+     "e": 70.655,
+     "w": "remachada",
+     "a": [
+      "remachada"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.655,
+     "e": 70.815,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.815,
+     "e": 70.895,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.895,
+     "e": 71.195,
+     "w": "tapa.",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.525,
+     "e": 71.685,
+     "w": "Se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.685,
+     "e": 71.985,
+     "w": "dobla",
+     "a": [
+      "dobla"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.985,
+     "e": 72.185,
+     "w": "hacia",
+     "a": [
+      "hacia"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.185,
+     "e": 72.665,
+     "w": "adentro",
+     "a": [
+      "adentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.665,
+     "e": 72.925,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.925,
+     "e": 73.305,
+     "w": "nunca",
+     "a": [
+      "nunca"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.305,
+     "e": 73.525,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.525,
+     "e": 74.14,
+     "w": "separa.",
+     "a": [
+      "separa"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "l13",
+   "sfx": [
+    [
+     "thunder",
+     "tomes."
+    ]
+   ],
+   "start": 74.02,
+   "dur": 6.68,
+   "text": "Si tu lata tiene el fondo inflado hacia afuera, no te la tomes. Algo adentro no está bien.",
+   "words": [
+    {
+     "t": 74.14,
+     "e": 74.305,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.305,
+     "e": 74.425,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.425,
+     "e": 74.645,
+     "w": "lata",
+     "a": [
+      "lata"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.645,
+     "e": 74.885,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.885,
+     "e": 75.045,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.045,
+     "e": 75.265,
+     "w": "fondo",
+     "a": [
+      "fondo"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.265,
+     "e": 75.785,
+     "w": "inflado",
+     "a": [
+      "inflado"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.785,
+     "e": 75.945,
+     "w": "hacia",
+     "a": [
+      "hacia"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.945,
+     "e": 76.405,
+     "w": "afuera,",
+     "a": [
+      "afuera"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.785,
+     "e": 76.885,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.885,
+     "e": 77.005,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.005,
+     "e": 77.125,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.125,
+     "e": 77.545,
+     "w": "tomes.",
+     "a": [
+      "tomes"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.88,
+     "e": 78.165,
+     "w": "Algo",
+     "a": [
+      "algo"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.165,
+     "e": 78.625,
+     "w": "adentro",
+     "a": [
+      "adentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.625,
+     "e": 78.945,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.945,
+     "e": 79.185,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 79.185,
+     "e": 79.425,
+     "w": "bien.",
+     "a": [
+      "bien"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}

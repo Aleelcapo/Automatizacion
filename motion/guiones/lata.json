@@ -1,0 +1,19 @@
+{
+ "id": "lata",
+ "estilo": {"subtitulos": false},
+ "beats": [
+  {"scene": "l1", "text": "Si haces un tubo de aluminio delgadito y le pones tapa arriba y abajo, ya tienes una lata.", "keys": [], "sfx": [["pop", "tubo"], ["thud", "arriba"], ["thud", "abajo,"], ["coin", "lata."]]},
+  {"scene": "l2", "text": "Pero el refresco trae gas a presión y empuja todas las paredes. El fondo plano se infla como globo y la lata ya no se para derecha.", "keys": [], "sfx": [["splash", "refresco"], ["pop", "infla"], ["thud", "derecha."]]},
+  {"scene": "l3", "text": "Así que le hundes el fondo hacia adentro, como un domo. Un arco aguanta mucho más presión que una pared plana. Ese es el domo.", "keys": [], "sfx": [["thud", "hundes"], ["coin", "domo."]]},
+  {"scene": "l4", "text": "Pero las paredes son tan delgadas como una hoja de papel y se aplastan con la mano.", "keys": [], "sfx": [["thunder", "aplastan"]]},
+  {"scene": "l5", "text": "Así que no las haces más gruesas. El mismo gas, al empujarlas desde adentro, las pone duras. Por eso una lata cerrada aguanta mucho peso y una vacía no.", "keys": [], "sfx": [["gavel", "duras."], ["thud", "aguanta"], ["thunder", "vacía"]]},
+  {"scene": "l6", "text": "Pero la tapa tiene que ser más gruesa y el aluminio grueso es caro.", "keys": [], "sfx": [["coin", "caro."]]},
+  {"scene": "l7", "text": "Así que haces la boca más angosta que el cuerpo para que la tapa sea chiquita. Ese es el cuello.", "keys": [], "sfx": [["pop", "angosta"], ["coin", "cuello."]]},
+  {"scene": "l8", "text": "Pero para abrirla necesitarías un abrelatas.", "keys": [], "sfx": []},
+  {"scene": "l9", "text": "Así que le marcas a la tapa una línea más delgada y le pones una palanca remachada. Al levantarla, empuja y rompe justo por esa línea. Esa es la lengüeta.", "keys": [], "sfx": [["pop", "palanca"], ["gavel", "remachada."], ["splash", "rompe"], ["coin", "lengüeta."]]},
+  {"scene": "l10", "text": "Y el aro de abajo del domo sirve para algo más. Deja que las latas se apilen sin resbalar.", "keys": [], "sfx": [["thud", "apilen"]]},
+  {"scene": "l11", "text": "Pero una lengüeta suelta sería basura en la calle y la tragarían los animales.", "keys": [], "sfx": [["pop", "suelta"]]},
+  {"scene": "l12", "text": "Así que se queda remachada a la tapa. Se dobla hacia adentro y nunca se separa.", "keys": [], "sfx": [["gavel", "remachada"], ["pop", "dobla"]]},
+  {"scene": "l13", "text": "Si tu lata tiene el fondo inflado hacia afuera, no te la tomes. Algo adentro no está bien.", "keys": [], "sfx": [["thunder", "tomes."]]}
+ ]
+}

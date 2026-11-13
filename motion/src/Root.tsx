@@ -7,6 +7,7 @@ import {VIDEOS} from './registro';
 import {DURACION_TANQUE, TanqueBano} from './tres/TanqueBano';
 import {DURACION_OLLA, OllaExpres} from './tres/OllaExpres';
 import {DURACION_TERMO, Termo} from './tres/Termo';
+import {DURACION_LATA, Lata} from './tres/Lata';
 
 for (const [archivo, peso] of [
   ['Inter-SemiBold.otf', '600'],
@@ -34,5 +35,6 @@ export const Root: React.FC = () => (
     <Composition id="tanque-bano" component={TanqueBano} durationInFrames={Math.ceil(DURACION_TANQUE * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="olla" component={OllaExpres} durationInFrames={Math.ceil(DURACION_OLLA * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="termo" component={Termo} durationInFrames={Math.ceil(DURACION_TERMO * FPS)} fps={FPS} width={W} height={H} />
+    <Composition id="lata" component={Lata} durationInFrames={Math.ceil(DURACION_LATA * FPS)} fps={FPS} width={W} height={H} />
   </>
 );
