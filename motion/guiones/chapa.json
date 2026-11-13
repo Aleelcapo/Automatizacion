@@ -1,0 +1,17 @@
+{
+ "id": "chapa",
+ "estilo": {"subtitulos": false},
+ "beats": [
+  {"scene": "h1", "text": "Si metes un cilindro que gira dentro de un tubo y el cilindro mueve un pestillo, ya tienes una chapa, pero cualquiera la puede girar con la mano.", "keys": [], "sfx": [["pop", "cilindro"], ["thud", "pestillo,"], ["coin", "chapa,"], ["gavel", "girar"]]},
+  {"scene": "h2", "text": "Así que le haces unos hoyos de arriba a abajo que cruzan el tubo y el cilindro y en cada uno metes un perno empujado por un resorte. El perno queda a medio camino y traba el cilindro. Esos son los pernos, pero así ni tú puedes abrirla.", "keys": [], "sfx": [["pop", "hoyos"], ["pop", "perno"], ["gavel", "traba"], ["coin", "pernos,"]]},
+  {"scene": "h3", "text": "Así que cortas cada perno en dos pedazos, de diferente largo. Si levantas cada perno a la altura exacta, el corte queda justo en la orilla del cilindro y el cilindro gira. Esa es la línea de corte.", "keys": [], "sfx": [["gavel", "cortas"], ["pop", "levantas"], ["thud", "gira."], ["coin", "corte.", 2]]},
+  {"scene": "h4", "text": "Pero necesitas levantar los cinco pernos a la altura exacta al mismo tiempo.", "keys": [], "sfx": []},
+  {"scene": "h5", "text": "Así que haces una lámina de metal con cinco dientes, cada uno de la altura que necesita su perno. Esa es la llave.", "keys": [], "sfx": [["pop", "dientes,"], ["thud", "perno."], ["coin", "llave."]]},
+  {"scene": "h6", "text": "Pero cualquier lámina podría entrar.", "keys": [], "sfx": []},
+  {"scene": "h7", "text": "Así que el ojo de la cerradura tiene una forma retorcida y sólo entra una llave con esas mismas ranuras. Ese es el perfil.", "keys": [], "sfx": [["pop", "retorcida"], ["thud", "entra"], ["coin", "perfil."]]},
+  {"scene": "h8", "text": "Pero un ladrón podría levantar los pernos uno por uno con un alambre.", "keys": [], "sfx": [["pop", "alambre."]]},
+  {"scene": "h9", "text": "Así que algunos pernos tienen forma de carrete. Se atoran a la mitad y hacen mucho más difícil abrirla sin la llave. Esos son los pernos de seguridad.", "keys": [], "sfx": [["pop", "carrete."], ["gavel", "atoran"], ["coin", "seguridad."]]},
+  {"scene": "h10", "text": "Por eso los dientes no son al azar. Cada uno levanta un perno exacto.", "keys": [], "sfx": [["pop", "exacto."]]},
+  {"scene": "h11", "text": "Si tu llave entra pero no gira, no la fuerces. Puede ser una copia mal hecha con un diente apenas más alto.", "keys": [], "sfx": [["gavel", "gira,"], ["thud", "alto."]]}
+ ]
+}

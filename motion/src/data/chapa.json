@@ -1,0 +1,2533 @@
+{
+ "id": "chapa",
+ "duration": 83.18,
+ "beats": [
+  {
+   "scene": "h1",
+   "sfx": [
+    [
+     "pop",
+     "cilindro"
+    ],
+    [
+     "thud",
+     "pestillo,"
+    ],
+    [
+     "coin",
+     "chapa,"
+    ],
+    [
+     "gavel",
+     "girar"
+    ]
+   ],
+   "start": 0.0,
+   "dur": 8.29,
+   "text": "Si metes un cilindro que gira dentro de un tubo y el cilindro mueve un pestillo, ya tienes una chapa, pero cualquiera la puede girar con la mano.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.315,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.315,
+     "e": 0.575,
+     "w": "metes",
+     "a": [
+      "metes"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.575,
+     "e": 0.735,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.735,
+     "e": 1.215,
+     "w": "cilindro",
+     "a": [
+      "cilindro"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.215,
+     "e": 1.395,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.395,
+     "e": 1.655,
+     "w": "gira",
+     "a": [
+      "gira"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.655,
+     "e": 1.995,
+     "w": "dentro",
+     "a": [
+      "dentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.995,
+     "e": 2.195,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.195,
+     "e": 2.315,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.315,
+     "e": 2.78,
+     "w": "tubo",
+     "a": [
+      "tubo"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.78,
+     "e": 2.865,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.865,
+     "e": 2.985,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.985,
+     "e": 3.445,
+     "w": "cilindro",
+     "a": [
+      "cilindro"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.445,
+     "e": 3.825,
+     "w": "mueve",
+     "a": [
+      "mueve"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.825,
+     "e": 3.945,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.945,
+     "e": 4.445,
+     "w": "pestillo,",
+     "a": [
+      "pestillo"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.745,
+     "e": 4.905,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.905,
+     "e": 5.265,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.265,
+     "e": 5.465,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.465,
+     "e": 5.805,
+     "w": "chapa,",
+     "a": [
+      "chapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.04,
+     "e": 6.185,
+     "w": "pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.185,
+     "e": 6.905,
+     "w": "cualquiera",
+     "a": [
+      "cualquiera"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.905,
+     "e": 7.025,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.025,
+     "e": 7.225,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.225,
+     "e": 7.585,
+     "w": "girar",
+     "a": [
+      "girar"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.585,
+     "e": 7.725,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.725,
+     "e": 7.865,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.865,
+     "e": 8.125,
+     "w": "mano.",
+     "a": [
+      "mano"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "h2",
+   "sfx": [
+    [
+     "pop",
+     "hoyos"
+    ],
+    [
+     "pop",
+     "perno"
+    ],
+    [
+     "gavel",
+     "traba"
+    ],
+    [
+     "coin",
+     "pernos,"
+    ]
+   ],
+   "start": 8.29,
+   "dur": 14.465,
+   "text": "Así que le haces unos hoyos de arriba a abajo que cruzan el tubo y el cilindro y en cada uno metes un perno empujado por un resorte. El perno queda a medio camino y traba el cilindro. Esos son los pernos, pero así ni tú puedes abrirla.",
+   "words": [
+    {
+     "t": 8.41,
+     "e": 8.585,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.585,
+     "e": 8.745,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.745,
+     "e": 8.865,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.865,
+     "e": 9.125,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.125,
+     "e": 9.325,
+     "w": "unos",
+     "a": [
+      "unos"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.325,
+     "e": 9.725,
+     "w": "hoyos",
+     "a": [
+      "hoyos"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.725,
+     "e": 9.865,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.865,
+     "e": 10.205,
+     "w": "arriba",
+     "a": [
+      "arriba"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.205,
+     "e": 10.425,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.425,
+     "e": 10.685,
+     "w": "abajo",
+     "a": [
+      "abajo"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.685,
+     "e": 10.965,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.965,
+     "e": 11.365,
+     "w": "cruzan",
+     "a": [
+      "cruzan"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.365,
+     "e": 11.545,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.545,
+     "e": 11.925,
+     "w": "tubo",
+     "a": [
+      "tubo"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.925,
+     "e": 12.045,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.045,
+     "e": 12.145,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.145,
+     "e": 12.645,
+     "w": "cilindro",
+     "a": [
+      "cilindro"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.645,
+     "e": 12.845,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.845,
+     "e": 12.965,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.965,
+     "e": 13.225,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.225,
+     "e": 13.565,
+     "w": "uno",
+     "a": [
+      "uno"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.565,
+     "e": 14.045,
+     "w": "metes",
+     "a": [
+      "metes"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.045,
+     "e": 14.205,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.205,
+     "e": 14.565,
+     "w": "perno",
+     "a": [
+      "perno"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.565,
+     "e": 15.105,
+     "w": "empujado",
+     "a": [
+      "empujado"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.105,
+     "e": 15.325,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.325,
+     "e": 15.445,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.445,
+     "e": 15.885,
+     "w": "resorte.",
+     "a": [
+      "resorte"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.22,
+     "e": 16.355,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.355,
+     "e": 16.715,
+     "w": "perno",
+     "a": [
+      "perno"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.715,
+     "e": 16.995,
+     "w": "queda",
+     "a": [
+      "queda"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.995,
+     "e": 17.195,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.195,
+     "e": 17.415,
+     "w": "medio",
+     "a": [
+      "medio"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.415,
+     "e": 17.855,
+     "w": "camino",
+     "a": [
+      "camino"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.855,
+     "e": 18.215,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.215,
+     "e": 18.595,
+     "w": "traba",
+     "a": [
+      "traba"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.595,
+     "e": 18.735,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.735,
+     "e": 19.215,
+     "w": "cilindro.",
+     "a": [
+      "cilindro"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.505,
+     "e": 19.825,
+     "w": "Esos",
+     "a": [
+      "esos"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.825,
+     "e": 20.145,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.145,
+     "e": 20.305,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.305,
+     "e": 20.685,
+     "w": "pernos,",
+     "a": [
+      "pernos"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.0,
+     "e": 21.135,
+     "w": "pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.135,
+     "e": 21.415,
+     "w": "así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.415,
+     "e": 21.755,
+     "w": "ni",
+     "a": [
+      "ni"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.755,
+     "e": 22.015,
+     "w": "tú",
+     "a": [
+      "tú"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.015,
+     "e": 22.335,
+     "w": "puedes",
+     "a": [
+      "puedes"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.335,
+     "e": 22.875,
+     "w": "abrirla.",
+     "a": [
+      "abrirla"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "h3",
+   "sfx": [
+    [
+     "gavel",
+     "cortas"
+    ],
+    [
+     "pop",
+     "levantas"
+    ],
+    [
+     "thud",
+     "gira."
+    ],
+    [
+     "coin",
+     "corte.",
+     2
+    ]
+   ],
+   "start": 22.755,
+   "dur": 12.375,
+   "text": "Así que cortas cada perno en dos pedazos, de diferente largo. Si levantas cada perno a la altura exacta, el corte queda justo en la orilla del cilindro y el cilindro gira. Esa es la línea de corte.",
+   "words": [
+    {
+     "t": 22.875,
+     "e": 23.315,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.315,
+     "e": 23.495,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.495,
+     "e": 23.935,
+     "w": "cortas",
+     "a": [
+      "cortas"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.935,
+     "e": 24.255,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.255,
+     "e": 24.655,
+     "w": "perno",
+     "a": [
+      "perno"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.655,
+     "e": 24.815,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.815,
+     "e": 25.035,
+     "w": "dos",
+     "a": [
+      "dos"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.035,
+     "e": 25.595,
+     "w": "pedazos,",
+     "a": [
+      "pedazos"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.8,
+     "e": 25.935,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.935,
+     "e": 26.235,
+     "w": "diferente",
+     "a": [
+      "diferente"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.235,
+     "e": 26.655,
+     "w": "largo.",
+     "a": [
+      "largo"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.025,
+     "e": 27.165,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.165,
+     "e": 27.645,
+     "w": "levantas",
+     "a": [
+      "levantas"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.645,
+     "e": 27.905,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.905,
+     "e": 28.345,
+     "w": "perno",
+     "a": [
+      "perno"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.345,
+     "e": 28.465,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.465,
+     "e": 28.525,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.525,
+     "e": 28.765,
+     "w": "altura",
+     "a": [
+      "altura"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.765,
+     "e": 29.465,
+     "w": "exacta,",
+     "a": [
+      "exacta"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.715,
+     "e": 29.795,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.795,
+     "e": 30.195,
+     "w": "corte",
+     "a": [
+      "corte"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.195,
+     "e": 30.415,
+     "w": "queda",
+     "a": [
+      "queda"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.415,
+     "e": 30.875,
+     "w": "justo",
+     "a": [
+      "justo"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.875,
+     "e": 31.135,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.135,
+     "e": 31.235,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.235,
+     "e": 31.495,
+     "w": "orilla",
+     "a": [
+      "orilla"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.495,
+     "e": 31.695,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.695,
+     "e": 32.215,
+     "w": "cilindro",
+     "a": [
+      "cilindro"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.215,
+     "e": 32.385,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.385,
+     "e": 32.505,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.505,
+     "e": 32.965,
+     "w": "cilindro",
+     "a": [
+      "cilindro"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.965,
+     "e": 33.305,
+     "w": "gira.",
+     "a": [
+      "gira"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.6,
+     "e": 33.965,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.965,
+     "e": 34.085,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.085,
+     "e": 34.225,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.225,
+     "e": 34.445,
+     "w": "línea",
+     "a": [
+      "línea"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.445,
+     "e": 34.625,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.625,
+     "e": 35.25,
+     "w": "corte.",
+     "a": [
+      "corte"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "h4",
+   "sfx": [],
+   "start": 35.13,
+   "dur": 4.74,
+   "text": "Pero necesitas levantar los cinco pernos a la altura exacta al mismo tiempo.",
+   "words": [
+    {
+     "t": 35.25,
+     "e": 35.385,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.385,
+     "e": 35.905,
+     "w": "necesitas",
+     "a": [
+      "necesitas"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.905,
+     "e": 36.445,
+     "w": "levantar",
+     "a": [
+      "levantar"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.445,
+     "e": 36.585,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.585,
+     "e": 36.965,
+     "w": "cinco",
+     "a": [
+      "cinco"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.965,
+     "e": 37.405,
+     "w": "pernos",
+     "a": [
+      "pernos"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.405,
+     "e": 37.585,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.585,
+     "e": 37.665,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.665,
+     "e": 37.925,
+     "w": "altura",
+     "a": [
+      "altura"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.925,
+     "e": 38.605,
+     "w": "exacta",
+     "a": [
+      "exacta"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.605,
+     "e": 38.845,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.845,
+     "e": 39.225,
+     "w": "mismo",
+     "a": [
+      "mismo"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.225,
+     "e": 39.685,
+     "w": "tiempo.",
+     "a": [
+      "tiempo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "h5",
+   "sfx": [
+    [
+     "pop",
+     "dientes,"
+    ],
+    [
+     "thud",
+     "perno."
+    ],
+    [
+     "coin",
+     "llave."
+    ]
+   ],
+   "start": 39.87,
+   "dur": 6.92,
+   "text": "Así que haces una lámina de metal con cinco dientes, cada uno de la altura que necesita su perno. Esa es la llave.",
+   "words": [
+    {
+     "t": 39.99,
+     "e": 40.205,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.205,
+     "e": 40.405,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.405,
+     "e": 40.645,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.645,
+     "e": 40.865,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.865,
+     "e": 41.225,
+     "w": "lámina",
+     "a": [
+      "lámina"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.225,
+     "e": 41.405,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.405,
+     "e": 41.705,
+     "w": "metal",
+     "a": [
+      "metal"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.705,
+     "e": 41.985,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.985,
+     "e": 42.385,
+     "w": "cinco",
+     "a": [
+      "cinco"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.385,
+     "e": 42.825,
+     "w": "dientes,",
+     "a": [
+      "dientes"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.19,
+     "e": 43.395,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.395,
+     "e": 43.715,
+     "w": "uno",
+     "a": [
+      "uno"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.715,
+     "e": 43.855,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.855,
+     "e": 43.975,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.975,
+     "e": 44.255,
+     "w": "altura",
+     "a": [
+      "altura"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.255,
+     "e": 44.455,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.455,
+     "e": 44.875,
+     "w": "necesita",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.875,
+     "e": 45.095,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.095,
+     "e": 45.475,
+     "w": "perno.",
+     "a": [
+      "perno"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.74,
+     "e": 46.085,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.085,
+     "e": 46.225,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.225,
+     "e": 46.345,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.345,
+     "e": 46.645,
+     "w": "llave.",
+     "a": [
+      "llave"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "h6",
+   "sfx": [],
+   "start": 46.79,
+   "dur": 2.36,
+   "text": "Pero cualquier lámina podría entrar.",
+   "words": [
+    {
+     "t": 46.91,
+     "e": 47.075,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.075,
+     "e": 47.555,
+     "w": "cualquier",
+     "a": [
+      "cualquier"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.555,
+     "e": 48.135,
+     "w": "lámina",
+     "a": [
+      "lámina"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.135,
+     "e": 48.515,
+     "w": "podría",
+     "a": [
+      "podría"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.515,
+     "e": 48.855,
+     "w": "entrar.",
+     "a": [
+      "entrar"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "h7",
+   "sfx": [
+    [
+     "pop",
+     "retorcida"
+    ],
+    [
+     "thud",
+     "entra"
+    ],
+    [
+     "coin",
+     "perfil."
+    ]
+   ],
+   "start": 49.15,
+   "dur": 8.16,
+   "text": "Así que el ojo de la cerradura tiene una forma retorcida y sólo entra una llave con esas mismas ranuras. Ese es el perfil.",
+   "words": [
+    {
+     "t": 49.27,
+     "e": 49.425,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.425,
+     "e": 49.665,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.665,
+     "e": 49.905,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.905,
+     "e": 50.165,
+     "w": "ojo",
+     "a": [
+      "ojo"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.165,
+     "e": 50.285,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.285,
+     "e": 50.385,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.385,
+     "e": 50.885,
+     "w": "cerradura",
+     "a": [
+      "cerradura"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.885,
+     "e": 51.185,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.185,
+     "e": 51.365,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.365,
+     "e": 51.685,
+     "w": "forma",
+     "a": [
+      "forma"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.685,
+     "e": 52.465,
+     "w": "retorcida",
+     "a": [
+      "retorcida"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.465,
+     "e": 52.675,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.675,
+     "e": 52.995,
+     "w": "sólo",
+     "a": [
+      "sólo"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.995,
+     "e": 53.355,
+     "w": "entra",
+     "a": [
+      "entra"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.355,
+     "e": 53.735,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.735,
+     "e": 54.095,
+     "w": "llave",
+     "a": [
+      "llave"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.095,
+     "e": 54.335,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.335,
+     "e": 54.535,
+     "w": "esas",
+     "a": [
+      "esas"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.535,
+     "e": 55.055,
+     "w": "mismas",
+     "a": [
+      "mismas"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.055,
+     "e": 55.515,
+     "w": "ranuras.",
+     "a": [
+      "ranuras"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.99,
+     "e": 56.315,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.315,
+     "e": 56.575,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.575,
+     "e": 56.715,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.715,
+     "e": 57.155,
+     "w": "perfil.",
+     "a": [
+      "perfil"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "h8",
+   "sfx": [
+    [
+     "pop",
+     "alambre."
+    ]
+   ],
+   "start": 57.31,
+   "dur": 3.97,
+   "text": "Pero un ladrón podría levantar los pernos uno por uno con un alambre.",
+   "words": [
+    {
+     "t": 57.43,
+     "e": 57.565,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.565,
+     "e": 57.725,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.725,
+     "e": 58.105,
+     "w": "ladrón",
+     "a": [
+      "ladrón"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.105,
+     "e": 58.485,
+     "w": "podría",
+     "a": [
+      "podría"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.485,
+     "e": 59.005,
+     "w": "levantar",
+     "a": [
+      "levantar"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.005,
+     "e": 59.145,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.145,
+     "e": 59.505,
+     "w": "pernos",
+     "a": [
+      "pernos"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.505,
+     "e": 59.885,
+     "w": "uno",
+     "a": [
+      "uno"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.885,
+     "e": 60.125,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.125,
+     "e": 60.365,
+     "w": "uno",
+     "a": [
+      "uno"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.365,
+     "e": 60.565,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.565,
+     "e": 60.725,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.725,
+     "e": 61.085,
+     "w": "alambre.",
+     "a": [
+      "alambre"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "h9",
+   "sfx": [
+    [
+     "pop",
+     "carrete."
+    ],
+    [
+     "gavel",
+     "atoran"
+    ],
+    [
+     "coin",
+     "seguridad."
+    ]
+   ],
+   "start": 61.28,
+   "dur": 9.19,
+   "text": "Así que algunos pernos tienen forma de carrete. Se atoran a la mitad y hacen mucho más difícil abrirla sin la llave. Esos son los pernos de seguridad.",
+   "words": [
+    {
+     "t": 61.4,
+     "e": 61.555,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.555,
+     "e": 61.755,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.755,
+     "e": 62.195,
+     "w": "algunos",
+     "a": [
+      "algunos"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.195,
+     "e": 62.715,
+     "w": "pernos",
+     "a": [
+      "pernos"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.715,
+     "e": 62.995,
+     "w": "tienen",
+     "a": [
+      "tienen"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.995,
+     "e": 63.335,
+     "w": "forma",
+     "a": [
+      "forma"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.335,
+     "e": 63.555,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.555,
+     "e": 64.015,
+     "w": "carrete.",
+     "a": [
+      "carrete"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.34,
+     "e": 64.485,
+     "w": "Se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.485,
+     "e": 64.905,
+     "w": "atoran",
+     "a": [
+      "atoran"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.905,
+     "e": 64.985,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.985,
+     "e": 65.025,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.025,
+     "e": 65.245,
+     "w": "mitad",
+     "a": [
+      "mitad"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.245,
+     "e": 65.665,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.665,
+     "e": 65.905,
+     "w": "hacen",
+     "a": [
+      "hacen"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.905,
+     "e": 66.345,
+     "w": "mucho",
+     "a": [
+      "mucho"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.345,
+     "e": 66.525,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.525,
+     "e": 66.825,
+     "w": "difícil",
+     "a": [
+      "difícil"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.825,
+     "e": 67.425,
+     "w": "abrirla",
+     "a": [
+      "abrirla"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.425,
+     "e": 67.705,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.705,
+     "e": 67.865,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.865,
+     "e": 68.145,
+     "w": "llave.",
+     "a": [
+      "llave"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.45,
+     "e": 68.805,
+     "w": "Esos",
+     "a": [
+      "esos"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.805,
+     "e": 69.105,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.105,
+     "e": 69.225,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.225,
+     "e": 69.605,
+     "w": "pernos",
+     "a": [
+      "pernos"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.605,
+     "e": 69.745,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.745,
+     "e": 70.105,
+     "w": "seguridad.",
+     "a": [
+      "seguridad"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "h10",
+   "sfx": [
+    [
+     "pop",
+     "exacto."
+    ]
+   ],
+   "start": 70.47,
+   "dur": 4.77,
+   "text": "Por eso los dientes no son al azar. Cada uno levanta un perno exacto.",
+   "words": [
+    {
+     "t": 70.59,
+     "e": 70.735,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.735,
+     "e": 70.975,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.975,
+     "e": 71.195,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.195,
+     "e": 71.475,
+     "w": "dientes",
+     "a": [
+      "dientes"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.475,
+     "e": 71.875,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.875,
+     "e": 72.095,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.095,
+     "e": 72.255,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.255,
+     "e": 72.555,
+     "w": "azar.",
+     "a": [
+      "azar"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.84,
+     "e": 73.055,
+     "w": "Cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.055,
+     "e": 73.375,
+     "w": "uno",
+     "a": [
+      "uno"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.375,
+     "e": 73.875,
+     "w": "levanta",
+     "a": [
+      "levanta"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.875,
+     "e": 74.035,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.035,
+     "e": 74.375,
+     "w": "perno",
+     "a": [
+      "perno"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.375,
+     "e": 75.36,
+     "w": "exacto.",
+     "a": [
+      "exacto"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "h11",
+   "sfx": [
+    [
+     "gavel",
+     "gira,"
+    ],
+    [
+     "thud",
+     "alto."
+    ]
+   ],
+   "start": 75.24,
+   "dur": 7.94,
+   "text": "Si tu llave entra pero no gira, no la fuerces. Puede ser una copia mal hecha con un diente apenas más alto.",
+   "words": [
+    {
+     "t": 75.36,
+     "e": 75.495,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.495,
+     "e": 75.635,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.635,
+     "e": 75.875,
+     "w": "llave",
+     "a": [
+      "llave"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.875,
+     "e": 76.235,
+     "w": "entra",
+     "a": [
+      "entra"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.235,
+     "e": 76.515,
+     "w": "pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.515,
+     "e": 76.755,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.755,
+     "e": 77.175,
+     "w": "gira,",
+     "a": [
+      "gira"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.485,
+     "e": 77.605,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.605,
+     "e": 77.745,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.745,
+     "e": 78.185,
+     "w": "fuerces.",
+     "a": [
+      "fuerces"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.58,
+     "e": 78.755,
+     "w": "Puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.755,
+     "e": 78.915,
+     "w": "ser",
+     "a": [
+      "ser"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.915,
+     "e": 79.115,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 79.115,
+     "e": 79.455,
+     "w": "copia",
+     "a": [
+      "copia"
+     ],
+     "k": false
+    },
+    {
+     "t": 79.455,
+     "e": 79.715,
+     "w": "mal",
+     "a": [
+      "mal"
+     ],
+     "k": false
+    },
+    {
+     "t": 79.715,
+     "e": 79.975,
+     "w": "hecha",
+     "a": [
+      "hecha"
+     ],
+     "k": false
+    },
+    {
+     "t": 79.975,
+     "e": 80.245,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 80.245,
+     "e": 80.365,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 80.365,
+     "e": 80.705,
+     "w": "diente",
+     "a": [
+      "diente"
+     ],
+     "k": false
+    },
+    {
+     "t": 80.705,
+     "e": 81.265,
+     "w": "apenas",
+     "a": [
+      "apenas"
+     ],
+     "k": false
+    },
+    {
+     "t": 81.265,
+     "e": 81.525,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 81.525,
+     "e": 81.825,
+     "w": "alto.",
+     "a": [
+      "alto"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}
