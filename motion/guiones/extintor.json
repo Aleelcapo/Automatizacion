@@ -1,0 +1,14 @@
+{
+ "id": "extintor",
+ "estilo": {"subtitulos": false},
+ "beats": [
+  {"scene": "x1", "text": "Si llenas un tanque de metal con un polvo que apaga el fuego, ya tienes un extintor.", "keys": [], "sfx": [["thud", "tanque"], ["pop", "polvo"], ["coin", "extintor."]]},
+  {"scene": "x2", "text": "Pero el polvo no sale solo, así que le metes gas a presión para que lo empuje hacia afuera. Ese es el gas impulsor.", "keys": [], "sfx": [["pop", "gas"], ["coin", "impulsor."]]},
+  {"scene": "x3", "text": "Pero el gas se escapa todo de una vez. Así que le pones una válvula con una palanca. Cuando la aprietas, se abre. Esa es la manija.", "keys": [], "sfx": [["splash", "escapa"], ["pop", "válvula"], ["gavel", "aprietas,"], ["coin", "manija."]]},
+  {"scene": "x4", "text": "Pero si alguien la aprieta sin querer, se vacía. Así que le pones un pasador de metal que traba la palanca, con un sello de plástico. Ese es el seguro.", "keys": [], "sfx": [["splash", "vacía."], ["pop", "pasador"], ["gavel", "traba"], ["coin", "seguro."]]},
+  {"scene": "x5", "text": "Pero el polvo sale para todos lados. Así que le pones una manguera con boquilla para apuntar a la base del fuego y no a las llamas. Esa es la boquilla.", "keys": [], "sfx": [["splash", "lados."], ["pop", "manguera"], ["coin", "boquilla.", 2]]},
+  {"scene": "x6", "text": "Pero el gas se puede ir escapando con los años y tu extintor estaría vacío sin que lo sepas. Así que le pones un reloj con una aguja. En verde tiene presión. En rojo ya no sirve. Ese es el manómetro.", "keys": [], "sfx": [["pop", "reloj"], ["thud", "rojo"], ["coin", "manómetro."]]},
+  {"scene": "x7", "text": "Pero no todos los fuegos son iguales. Si es de aceite o eléctrico, el agua lo empeora. Así que la etiqueta trae letras. A para madera y papel. B para líquidos. C para eléctricos. El polvo ABC sirve para los tres.", "keys": [], "sfx": [["thunder", "empeora."], ["pop", "A"], ["pop", "B"], ["pop", "C"], ["coin", "tres."]]},
+  {"scene": "x8", "text": "Revisa tu extintor. Si la aguja no está en verde, no funciona. Y para usarlo, jalas el seguro, apuntas a la base, aprietas la manija y barres de lado a lado.", "keys": [], "sfx": [["pop", "jalas"], ["thud", "apuntas"], ["splash", "aprietas"], ["coin", "lado.", 2]]}
+ ]
+}

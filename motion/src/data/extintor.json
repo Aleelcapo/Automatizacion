@@ -1,0 +1,2389 @@
+{
+ "id": "extintor",
+ "duration": 77.92,
+ "beats": [
+  {
+   "scene": "x1",
+   "sfx": [
+    [
+     "thud",
+     "tanque"
+    ],
+    [
+     "pop",
+     "polvo"
+    ],
+    [
+     "coin",
+     "extintor."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 4.77,
+   "text": "Si llenas un tanque de metal con un polvo que apaga el fuego, ya tienes un extintor.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.305,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.305,
+     "e": 0.525,
+     "w": "llenas",
+     "a": [
+      "llenas"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.525,
+     "e": 0.725,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.725,
+     "e": 1.045,
+     "w": "tanque",
+     "a": [
+      "tanque"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.045,
+     "e": 1.165,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.165,
+     "e": 1.505,
+     "w": "metal",
+     "a": [
+      "metal"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.505,
+     "e": 1.745,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.745,
+     "e": 1.905,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.905,
+     "e": 2.245,
+     "w": "polvo",
+     "a": [
+      "polvo"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.245,
+     "e": 2.385,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.385,
+     "e": 2.665,
+     "w": "apaga",
+     "a": [
+      "apaga"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.665,
+     "e": 2.785,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.785,
+     "e": 3.065,
+     "w": "fuego,",
+     "a": [
+      "fuego"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.475,
+     "e": 3.635,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.635,
+     "e": 3.935,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.935,
+     "e": 4.095,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.095,
+     "e": 4.615,
+     "w": "extintor.",
+     "a": [
+      "extintor"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "x2",
+   "sfx": [
+    [
+     "pop",
+     "gas"
+    ],
+    [
+     "coin",
+     "impulsor."
+    ]
+   ],
+   "start": 4.77,
+   "dur": 7.07,
+   "text": "Pero el polvo no sale solo, así que le metes gas a presión para que lo empuje hacia afuera. Ese es el gas impulsor.",
+   "words": [
+    {
+     "t": 4.89,
+     "e": 5.025,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.025,
+     "e": 5.165,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.165,
+     "e": 5.465,
+     "w": "polvo",
+     "a": [
+      "polvo"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.465,
+     "e": 5.785,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.785,
+     "e": 6.105,
+     "w": "sale",
+     "a": [
+      "sale"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.105,
+     "e": 6.485,
+     "w": "solo,",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.7,
+     "e": 6.845,
+     "w": "así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.845,
+     "e": 7.005,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.005,
+     "e": 7.105,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.105,
+     "e": 7.405,
+     "w": "metes",
+     "a": [
+      "metes"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.405,
+     "e": 7.645,
+     "w": "gas",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.645,
+     "e": 7.805,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.805,
+     "e": 8.225,
+     "w": "presión",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.225,
+     "e": 8.485,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.485,
+     "e": 8.605,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.605,
+     "e": 8.725,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.725,
+     "e": 9.105,
+     "w": "empuje",
+     "a": [
+      "empuje"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.105,
+     "e": 9.305,
+     "w": "hacia",
+     "a": [
+      "hacia"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.305,
+     "e": 9.705,
+     "w": "afuera.",
+     "a": [
+      "afuera"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.015,
+     "e": 10.335,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.335,
+     "e": 10.635,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.635,
+     "e": 10.815,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.815,
+     "e": 11.015,
+     "w": "gas",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.015,
+     "e": 11.675,
+     "w": "impulsor.",
+     "a": [
+      "impulsor"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "x3",
+   "sfx": [
+    [
+     "splash",
+     "escapa"
+    ],
+    [
+     "pop",
+     "válvula"
+    ],
+    [
+     "gavel",
+     "aprietas,"
+    ],
+    [
+     "coin",
+     "manija."
+    ]
+   ],
+   "start": 11.84,
+   "dur": 8.24,
+   "text": "Pero el gas se escapa todo de una vez. Así que le pones una válvula con una palanca. Cuando la aprietas, se abre. Esa es la manija.",
+   "words": [
+    {
+     "t": 11.96,
+     "e": 12.095,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.095,
+     "e": 12.235,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.235,
+     "e": 12.395,
+     "w": "gas",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.395,
+     "e": 12.595,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.595,
+     "e": 12.955,
+     "w": "escapa",
+     "a": [
+      "escapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.955,
+     "e": 13.305,
+     "w": "todo",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.305,
+     "e": 13.525,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.525,
+     "e": 13.665,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.665,
+     "e": 13.965,
+     "w": "vez.",
+     "a": [
+      "vez"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.34,
+     "e": 14.505,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.505,
+     "e": 14.665,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.665,
+     "e": 14.765,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.765,
+     "e": 15.005,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.005,
+     "e": 15.245,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.245,
+     "e": 15.745,
+     "w": "válvula",
+     "a": [
+      "válvula"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.745,
+     "e": 15.985,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.985,
+     "e": 16.145,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.145,
+     "e": 16.565,
+     "w": "palanca.",
+     "a": [
+      "palanca"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.91,
+     "e": 17.065,
+     "w": "Cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.065,
+     "e": 17.265,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.265,
+     "e": 17.765,
+     "w": "aprietas,",
+     "a": [
+      "aprietas"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.93,
+     "e": 18.105,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.105,
+     "e": 18.385,
+     "w": "abre.",
+     "a": [
+      "abre"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.705,
+     "e": 19.025,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.025,
+     "e": 19.345,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.345,
+     "e": 19.465,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.465,
+     "e": 19.905,
+     "w": "manija.",
+     "a": [
+      "manija"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "x4",
+   "sfx": [
+    [
+     "splash",
+     "vacía."
+    ],
+    [
+     "pop",
+     "pasador"
+    ],
+    [
+     "gavel",
+     "traba"
+    ],
+    [
+     "coin",
+     "seguro."
+    ]
+   ],
+   "start": 20.08,
+   "dur": 9.0,
+   "text": "Pero si alguien la aprieta sin querer, se vacía. Así que le pones un pasador de metal que traba la palanca, con un sello de plástico. Ese es el seguro.",
+   "words": [
+    {
+     "t": 20.2,
+     "e": 20.345,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.345,
+     "e": 20.505,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.505,
+     "e": 20.745,
+     "w": "alguien",
+     "a": [
+      "alguien"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.745,
+     "e": 20.925,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.925,
+     "e": 21.325,
+     "w": "aprieta",
+     "a": [
+      "aprieta"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.325,
+     "e": 21.585,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.585,
+     "e": 21.945,
+     "w": "querer,",
+     "a": [
+      "querer"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.245,
+     "e": 22.345,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.345,
+     "e": 22.765,
+     "w": "vacía.",
+     "a": [
+      "vacía"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.1,
+     "e": 23.255,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.255,
+     "e": 23.395,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.395,
+     "e": 23.515,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.515,
+     "e": 23.755,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.755,
+     "e": 23.935,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.935,
+     "e": 24.355,
+     "w": "pasador",
+     "a": [
+      "pasador"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.355,
+     "e": 24.515,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.515,
+     "e": 24.875,
+     "w": "metal",
+     "a": [
+      "metal"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.875,
+     "e": 25.055,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.055,
+     "e": 25.435,
+     "w": "traba",
+     "a": [
+      "traba"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.435,
+     "e": 25.555,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.555,
+     "e": 26.015,
+     "w": "palanca,",
+     "a": [
+      "palanca"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.23,
+     "e": 26.375,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.375,
+     "e": 26.495,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.495,
+     "e": 26.775,
+     "w": "sello",
+     "a": [
+      "sello"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.775,
+     "e": 26.875,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.875,
+     "e": 27.295,
+     "w": "plástico.",
+     "a": [
+      "plástico"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.295,
+     "e": 27.965,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.965,
+     "e": 28.325,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.325,
+     "e": 28.465,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.465,
+     "e": 28.865,
+     "w": "seguro.",
+     "a": [
+      "seguro"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "x5",
+   "sfx": [
+    [
+     "splash",
+     "lados."
+    ],
+    [
+     "pop",
+     "manguera"
+    ],
+    [
+     "coin",
+     "boquilla.",
+     2
+    ]
+   ],
+   "start": 29.08,
+   "dur": 9.19,
+   "text": "Pero el polvo sale para todos lados. Así que le pones una manguera con boquilla para apuntar a la base del fuego y no a las llamas. Esa es la boquilla.",
+   "words": [
+    {
+     "t": 29.2,
+     "e": 29.345,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.345,
+     "e": 29.465,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.465,
+     "e": 29.765,
+     "w": "polvo",
+     "a": [
+      "polvo"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.765,
+     "e": 30.085,
+     "w": "sale",
+     "a": [
+      "sale"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.085,
+     "e": 30.365,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.365,
+     "e": 30.725,
+     "w": "todos",
+     "a": [
+      "todos"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.725,
+     "e": 31.145,
+     "w": "lados.",
+     "a": [
+      "lados"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.63,
+     "e": 31.785,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.785,
+     "e": 31.925,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.925,
+     "e": 32.045,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.045,
+     "e": 32.265,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.265,
+     "e": 32.485,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.485,
+     "e": 32.925,
+     "w": "manguera",
+     "a": [
+      "manguera"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.925,
+     "e": 33.125,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.125,
+     "e": 33.585,
+     "w": "boquilla",
+     "a": [
+      "boquilla"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.585,
+     "e": 33.865,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.865,
+     "e": 34.325,
+     "w": "apuntar",
+     "a": [
+      "apuntar"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.325,
+     "e": 34.445,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.445,
+     "e": 34.525,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.525,
+     "e": 34.845,
+     "w": "base",
+     "a": [
+      "base"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.845,
+     "e": 35.025,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.025,
+     "e": 35.345,
+     "w": "fuego",
+     "a": [
+      "fuego"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.345,
+     "e": 35.685,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.685,
+     "e": 35.865,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.865,
+     "e": 35.985,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.985,
+     "e": 36.125,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.125,
+     "e": 36.565,
+     "w": "llamas.",
+     "a": [
+      "llamas"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.88,
+     "e": 37.215,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.215,
+     "e": 37.515,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.515,
+     "e": 37.655,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.655,
+     "e": 38.095,
+     "w": "boquilla.",
+     "a": [
+      "boquilla"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "x6",
+   "sfx": [
+    [
+     "pop",
+     "reloj"
+    ],
+    [
+     "thud",
+     "rojo"
+    ],
+    [
+     "coin",
+     "manómetro."
+    ]
+   ],
+   "start": 38.27,
+   "dur": 12.67,
+   "text": "Pero el gas se puede ir escapando con los años y tu extintor estaría vacío sin que lo sepas. Así que le pones un reloj con una aguja. En verde tiene presión. En rojo ya no sirve. Ese es el manómetro.",
+   "words": [
+    {
+     "t": 38.39,
+     "e": 38.515,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.515,
+     "e": 38.675,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.675,
+     "e": 38.815,
+     "w": "gas",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.815,
+     "e": 39.015,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.015,
+     "e": 39.195,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.195,
+     "e": 39.395,
+     "w": "ir",
+     "a": [
+      "ir"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.395,
+     "e": 39.895,
+     "w": "escapando",
+     "a": [
+      "escapando"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.895,
+     "e": 40.095,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.095,
+     "e": 40.255,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.255,
+     "e": 40.535,
+     "w": "años",
+     "a": [
+      "años"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.535,
+     "e": 40.935,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.935,
+     "e": 41.055,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.055,
+     "e": 41.535,
+     "w": "extintor",
+     "a": [
+      "extintor"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.535,
+     "e": 41.935,
+     "w": "estaría",
+     "a": [
+      "estaría"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.935,
+     "e": 42.375,
+     "w": "vacío",
+     "a": [
+      "vacío"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.375,
+     "e": 42.695,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.695,
+     "e": 42.875,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.875,
+     "e": 43.015,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.015,
+     "e": 43.375,
+     "w": "sepas.",
+     "a": [
+      "sepas"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.76,
+     "e": 43.915,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.915,
+     "e": 44.075,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.075,
+     "e": 44.175,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.175,
+     "e": 44.415,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.415,
+     "e": 44.595,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.595,
+     "e": 45.035,
+     "w": "reloj",
+     "a": [
+      "reloj"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.035,
+     "e": 45.215,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.215,
+     "e": 45.435,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.435,
+     "e": 45.835,
+     "w": "aguja.",
+     "a": [
+      "aguja"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.105,
+     "e": 46.245,
+     "w": "En",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.245,
+     "e": 46.505,
+     "w": "verde",
+     "a": [
+      "verde"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.505,
+     "e": 46.965,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.965,
+     "e": 47.405,
+     "w": "presión.",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.735,
+     "e": 47.875,
+     "w": "En",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.875,
+     "e": 48.215,
+     "w": "rojo",
+     "a": [
+      "rojo"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.215,
+     "e": 48.625,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.625,
+     "e": 48.745,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.745,
+     "e": 49.065,
+     "w": "sirve.",
+     "a": [
+      "sirve"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.36,
+     "e": 49.715,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.715,
+     "e": 50.015,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.015,
+     "e": 50.175,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.175,
+     "e": 50.755,
+     "w": "manómetro.",
+     "a": [
+      "manómetro"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "x7",
+   "sfx": [
+    [
+     "thunder",
+     "empeora."
+    ],
+    [
+     "pop",
+     "A"
+    ],
+    [
+     "pop",
+     "B"
+    ],
+    [
+     "pop",
+     "C"
+    ],
+    [
+     "coin",
+     "tres."
+    ]
+   ],
+   "start": 50.94,
+   "dur": 15.155,
+   "text": "Pero no todos los fuegos son iguales. Si es de aceite o eléctrico, el agua lo empeora. Así que la etiqueta trae letras. A para madera y papel. B para líquidos. C para eléctricos. El polvo ABC sirve para los tres.",
+   "words": [
+    {
+     "t": 51.06,
+     "e": 51.205,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.205,
+     "e": 51.425,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.425,
+     "e": 51.745,
+     "w": "todos",
+     "a": [
+      "todos"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.745,
+     "e": 51.965,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.965,
+     "e": 52.325,
+     "w": "fuegos",
+     "a": [
+      "fuegos"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.325,
+     "e": 52.505,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.505,
+     "e": 53.045,
+     "w": "iguales.",
+     "a": [
+      "iguales"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.045,
+     "e": 53.515,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.515,
+     "e": 53.655,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.655,
+     "e": 53.755,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.755,
+     "e": 54.075,
+     "w": "aceite",
+     "a": [
+      "aceite"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.075,
+     "e": 54.375,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.375,
+     "e": 54.895,
+     "w": "eléctrico,",
+     "a": [
+      "eléctrico"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.195,
+     "e": 55.315,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.315,
+     "e": 55.555,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.555,
+     "e": 55.735,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.735,
+     "e": 56.215,
+     "w": "empeora.",
+     "a": [
+      "empeora"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.51,
+     "e": 56.675,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.675,
+     "e": 56.795,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.795,
+     "e": 56.915,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.915,
+     "e": 57.355,
+     "w": "etiqueta",
+     "a": [
+      "etiqueta"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.355,
+     "e": 57.675,
+     "w": "trae",
+     "a": [
+      "trae"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.675,
+     "e": 58.075,
+     "w": "letras.",
+     "a": [
+      "letras"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.495,
+     "e": 58.655,
+     "w": "A",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.655,
+     "e": 58.955,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.955,
+     "e": 59.395,
+     "w": "madera",
+     "a": [
+      "madera"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.395,
+     "e": 59.515,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.515,
+     "e": 59.755,
+     "w": "papel.",
+     "a": [
+      "papel"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.19,
+     "e": 60.445,
+     "w": "B",
+     "a": [
+      "b"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.445,
+     "e": 60.765,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.765,
+     "e": 61.205,
+     "w": "líquidos.",
+     "a": [
+      "líquidos"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.67,
+     "e": 61.945,
+     "w": "C",
+     "a": [
+      "c"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.945,
+     "e": 62.285,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.285,
+     "e": 62.985,
+     "w": "eléctricos.",
+     "a": [
+      "eléctricos"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.325,
+     "e": 63.445,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.445,
+     "e": 63.825,
+     "w": "polvo",
+     "a": [
+      "polvo"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.825,
+     "e": 64.325,
+     "w": "ABC",
+     "a": [
+      "abc"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.325,
+     "e": 65.165,
+     "w": "sirve",
+     "a": [
+      "sirve"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.165,
+     "e": 65.345,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.345,
+     "e": 65.545,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.545,
+     "e": 65.745,
+     "w": "tres.",
+     "a": [
+      "tres"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "x8",
+   "sfx": [
+    [
+     "pop",
+     "jalas"
+    ],
+    [
+     "thud",
+     "apuntas"
+    ],
+    [
+     "splash",
+     "aprietas"
+    ],
+    [
+     "coin",
+     "lado.",
+     2
+    ]
+   ],
+   "start": 66.095,
+   "dur": 11.825,
+   "text": "Revisa tu extintor. Si la aguja no está en verde, no funciona. Y para usarlo, jalas el seguro, apuntas a la base, aprietas la manija y barres de lado a lado.",
+   "words": [
+    {
+     "t": 66.215,
+     "e": 66.615,
+     "w": "Revisa",
+     "a": [
+      "revisa"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.615,
+     "e": 66.775,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.775,
+     "e": 67.275,
+     "w": "extintor.",
+     "a": [
+      "extintor"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.625,
+     "e": 67.725,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.725,
+     "e": 67.865,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.865,
+     "e": 68.205,
+     "w": "aguja",
+     "a": [
+      "aguja"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.205,
+     "e": 68.425,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.425,
+     "e": 68.645,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.645,
+     "e": 68.785,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.785,
+     "e": 69.045,
+     "w": "verde,",
+     "a": [
+      "verde"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.465,
+     "e": 69.605,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.605,
+     "e": 70.025,
+     "w": "funciona.",
+     "a": [
+      "funciona"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.425,
+     "e": 70.525,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.525,
+     "e": 70.685,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.685,
+     "e": 71.185,
+     "w": "usarlo,",
+     "a": [
+      "usarlo"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.465,
+     "e": 71.745,
+     "w": "jalas",
+     "a": [
+      "jalas"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.745,
+     "e": 71.865,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.865,
+     "e": 72.205,
+     "w": "seguro,",
+     "a": [
+      "seguro"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.615,
+     "e": 73.055,
+     "w": "apuntas",
+     "a": [
+      "apuntas"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.055,
+     "e": 73.195,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.195,
+     "e": 73.235,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.235,
+     "e": 73.555,
+     "w": "base,",
+     "a": [
+      "base"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.915,
+     "e": 74.435,
+     "w": "aprietas",
+     "a": [
+      "aprietas"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.435,
+     "e": 74.535,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.535,
+     "e": 74.975,
+     "w": "manija",
+     "a": [
+      "manija"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.975,
+     "e": 75.315,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.315,
+     "e": 75.755,
+     "w": "barres",
+     "a": [
+      "barres"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.755,
+     "e": 75.895,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.895,
+     "e": 76.215,
+     "w": "lado",
+     "a": [
+      "lado"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.215,
+     "e": 76.335,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.335,
+     "e": 76.595,
+     "w": "lado.",
+     "a": [
+      "lado"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}
