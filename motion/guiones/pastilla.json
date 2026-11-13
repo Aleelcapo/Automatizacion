@@ -1,0 +1,16 @@
+{
+ "id": "pastilla",
+ "estilo": {"subtitulos": false},
+ "beats": [
+  {"scene": "p1", "text": "Si pones un switch en el cable que entra a tu casa, ya puedes cortar la luz cuando quieras.", "keys": [], "sfx": [["pop", "switch"], ["gavel", "cortar"]]},
+  {"scene": "p2", "text": "Pero si conectas muchos aparatos a la vez, por el cable pasa más corriente de la que aguanta. Se calienta, se derrite el plástico y se incendia la pared.", "keys": [], "sfx": [["pop", "aparatos"], ["thunder", "incendia"]]},
+  {"scene": "p3", "text": "Así que le pones una tira de dos metales pegados. Al calentarse, uno se estira más que el otro. La tira se dobla y empuja el switch hasta apagarlo. Esa es la lámina bimetálica.", "keys": [], "sfx": [["pop", "tira"], ["gavel", "apagarlo."], ["coin", "bimetálica."]]},
+  {"scene": "p4", "text": "Pero si dos cables se tocan, la corriente sube de golpe, en milésimas de segundo, y la lámina tarda demasiado en calentarse.", "keys": [], "sfx": [["thunder", "tocan,"]]},
+  {"scene": "p5", "text": "Así que le pones una bobina de alambre. Con una corriente enorme, se vuelve imán y jala el switch al instante. Ese es el disparo magnético.", "keys": [], "sfx": [["pop", "bobina"], ["gavel", "jala"], ["coin", "magnético."]]},
+  {"scene": "p6", "text": "Pero al separarse los contactos con tanta corriente, salta un arco de fuego entre ellos.", "keys": [], "sfx": [["thunder", "arco"]]},
+  {"scene": "p7", "text": "Así que le pones unas laminitas que atrapan el arco, lo cortan en pedacitos y lo apagan. Esa es la cámara de arqueo.", "keys": [], "sfx": [["pop", "laminitas"], ["splash", "apagan."], ["coin", "arqueo."]]},
+  {"scene": "p8", "text": "Y le pones una palanca que salta cuando se bota, para que sepas cuál fue. Eso es una pastilla.", "keys": [], "sfx": [["gavel", "salta"], ["coin", "pastilla."]]},
+  {"scene": "p9", "text": "Pero a veces la corriente no se va por los cables, se escapa por una persona. Para eso hay otras pastillas, con un botón de prueba, que detectan esa fuga y cortan en milésimas de segundo. Esas son las de falla a tierra.", "keys": [], "sfx": [["thunder", "persona."], ["pop", "botón"], ["gavel", "cortan"], ["coin", "tierra."]]},
+  {"scene": "p10", "text": "Si se bota seguido, no le pongas una más grande. El cable de tu casa no la aguantaría. Desconecta aparatos o revisa esa línea.", "keys": [], "sfx": [["thud", "grande."], ["pop", "Desconecta"]]}
+ ]
+}

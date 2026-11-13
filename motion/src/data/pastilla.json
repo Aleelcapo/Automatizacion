@@ -1,0 +1,2497 @@
+{
+ "id": "pastilla",
+ "duration": 83.17,
+ "beats": [
+  {
+   "scene": "p1",
+   "sfx": [
+    [
+     "pop",
+     "switch"
+    ],
+    [
+     "gavel",
+     "cortar"
+    ]
+   ],
+   "start": 0.0,
+   "dur": 5.15,
+   "text": "Si pones un switch en el cable que entra a tu casa, ya puedes cortar la luz cuando quieras.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.265,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.265,
+     "e": 0.525,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.525,
+     "e": 0.725,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.725,
+     "e": 0.985,
+     "w": "switch",
+     "a": [
+      "switch"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.985,
+     "e": 1.185,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.185,
+     "e": 1.325,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.325,
+     "e": 1.605,
+     "w": "cable",
+     "a": [
+      "cable"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.605,
+     "e": 1.785,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.785,
+     "e": 2.005,
+     "w": "entra",
+     "a": [
+      "entra"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.005,
+     "e": 2.165,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.165,
+     "e": 2.225,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.225,
+     "e": 2.505,
+     "w": "casa,",
+     "a": [
+      "casa"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.875,
+     "e": 3.055,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.055,
+     "e": 3.375,
+     "w": "puedes",
+     "a": [
+      "puedes"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.375,
+     "e": 3.675,
+     "w": "cortar",
+     "a": [
+      "cortar"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.675,
+     "e": 3.915,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.915,
+     "e": 4.095,
+     "w": "luz",
+     "a": [
+      "luz"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.095,
+     "e": 4.335,
+     "w": "cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.335,
+     "e": 4.955,
+     "w": "quieras.",
+     "a": [
+      "quieras"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p2",
+   "sfx": [
+    [
+     "pop",
+     "aparatos"
+    ],
+    [
+     "thunder",
+     "incendia"
+    ]
+   ],
+   "start": 5.15,
+   "dur": 9.24,
+   "text": "Pero si conectas muchos aparatos a la vez, por el cable pasa más corriente de la que aguanta. Se calienta, se derrite el plástico y se incendia la pared.",
+   "words": [
+    {
+     "t": 5.27,
+     "e": 5.435,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.435,
+     "e": 5.755,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.755,
+     "e": 6.215,
+     "w": "conectas",
+     "a": [
+      "conectas"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.215,
+     "e": 6.555,
+     "w": "muchos",
+     "a": [
+      "muchos"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.555,
+     "e": 7.195,
+     "w": "aparatos",
+     "a": [
+      "aparatos"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.195,
+     "e": 7.295,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.295,
+     "e": 7.355,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.355,
+     "e": 7.635,
+     "w": "vez,",
+     "a": [
+      "vez"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.91,
+     "e": 8.035,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.035,
+     "e": 8.135,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.135,
+     "e": 8.375,
+     "w": "cable",
+     "a": [
+      "cable"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.375,
+     "e": 8.695,
+     "w": "pasa",
+     "a": [
+      "pasa"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.695,
+     "e": 9.095,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.095,
+     "e": 9.575,
+     "w": "corriente",
+     "a": [
+      "corriente"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.575,
+     "e": 9.715,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.715,
+     "e": 9.815,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.815,
+     "e": 9.935,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.935,
+     "e": 10.375,
+     "w": "aguanta.",
+     "a": [
+      "aguanta"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.725,
+     "e": 10.805,
+     "w": "Se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.805,
+     "e": 11.505,
+     "w": "calienta,",
+     "a": [
+      "calienta"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.745,
+     "e": 11.845,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.845,
+     "e": 12.165,
+     "w": "derrite",
+     "a": [
+      "derrite"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.165,
+     "e": 12.325,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.325,
+     "e": 12.785,
+     "w": "plástico",
+     "a": [
+      "plástico"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.785,
+     "e": 13.165,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.165,
+     "e": 13.285,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.285,
+     "e": 13.865,
+     "w": "incendia",
+     "a": [
+      "incendia"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.865,
+     "e": 13.945,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.945,
+     "e": 14.225,
+     "w": "pared.",
+     "a": [
+      "pared"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p3",
+   "sfx": [
+    [
+     "pop",
+     "tira"
+    ],
+    [
+     "gavel",
+     "apagarlo."
+    ],
+    [
+     "coin",
+     "bimetálica."
+    ]
+   ],
+   "start": 14.39,
+   "dur": 11.125,
+   "text": "Así que le pones una tira de dos metales pegados. Al calentarse, uno se estira más que el otro. La tira se dobla y empuja el switch hasta apagarlo. Esa es la lámina bimetálica.",
+   "words": [
+    {
+     "t": 14.51,
+     "e": 14.665,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.665,
+     "e": 14.885,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.885,
+     "e": 15.085,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.085,
+     "e": 15.325,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.325,
+     "e": 15.545,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.545,
+     "e": 15.845,
+     "w": "tira",
+     "a": [
+      "tira"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.845,
+     "e": 16.005,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.005,
+     "e": 16.285,
+     "w": "dos",
+     "a": [
+      "dos"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.285,
+     "e": 16.685,
+     "w": "metales",
+     "a": [
+      "metales"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.685,
+     "e": 17.185,
+     "w": "pegados.",
+     "a": [
+      "pegados"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.63,
+     "e": 17.755,
+     "w": "Al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.755,
+     "e": 18.335,
+     "w": "calentarse,",
+     "a": [
+      "calentarse"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.645,
+     "e": 18.805,
+     "w": "uno",
+     "a": [
+      "uno"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.805,
+     "e": 18.985,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.985,
+     "e": 19.305,
+     "w": "estira",
+     "a": [
+      "estira"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.305,
+     "e": 19.605,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.605,
+     "e": 19.785,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.785,
+     "e": 19.925,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.925,
+     "e": 20.125,
+     "w": "otro.",
+     "a": [
+      "otro"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.5,
+     "e": 20.615,
+     "w": "La",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.615,
+     "e": 20.835,
+     "w": "tira",
+     "a": [
+      "tira"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.835,
+     "e": 21.015,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.015,
+     "e": 21.395,
+     "w": "dobla",
+     "a": [
+      "dobla"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.395,
+     "e": 21.645,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.645,
+     "e": 22.165,
+     "w": "empuja",
+     "a": [
+      "empuja"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.165,
+     "e": 22.285,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.285,
+     "e": 22.585,
+     "w": "switch",
+     "a": [
+      "switch"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.585,
+     "e": 22.925,
+     "w": "hasta",
+     "a": [
+      "hasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.925,
+     "e": 23.505,
+     "w": "apagarlo.",
+     "a": [
+      "apagarlo"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.81,
+     "e": 24.175,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.175,
+     "e": 24.435,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.435,
+     "e": 24.575,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.575,
+     "e": 24.955,
+     "w": "lámina",
+     "a": [
+      "lámina"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.955,
+     "e": 25.635,
+     "w": "bimetálica.",
+     "a": [
+      "bimetálica"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p4",
+   "sfx": [
+    [
+     "thunder",
+     "tocan,"
+    ]
+   ],
+   "start": 25.515,
+   "dur": 7.985,
+   "text": "Pero si dos cables se tocan, la corriente sube de golpe, en milésimas de segundo, y la lámina tarda demasiado en calentarse.",
+   "words": [
+    {
+     "t": 25.635,
+     "e": 26.135,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.135,
+     "e": 26.495,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.495,
+     "e": 26.755,
+     "w": "dos",
+     "a": [
+      "dos"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.755,
+     "e": 27.075,
+     "w": "cables",
+     "a": [
+      "cables"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.075,
+     "e": 27.315,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.315,
+     "e": 27.715,
+     "w": "tocan,",
+     "a": [
+      "tocan"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.015,
+     "e": 28.075,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.075,
+     "e": 28.475,
+     "w": "corriente",
+     "a": [
+      "corriente"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.475,
+     "e": 28.895,
+     "w": "sube",
+     "a": [
+      "sube"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.895,
+     "e": 29.015,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.015,
+     "e": 29.295,
+     "w": "golpe,",
+     "a": [
+      "golpe"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.56,
+     "e": 29.715,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.715,
+     "e": 30.255,
+     "w": "milésimas",
+     "a": [
+      "milésimas"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.255,
+     "e": 30.415,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.415,
+     "e": 30.795,
+     "w": "segundo,",
+     "a": [
+      "segundo"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.06,
+     "e": 31.165,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.165,
+     "e": 31.245,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.245,
+     "e": 31.565,
+     "w": "lámina",
+     "a": [
+      "lámina"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.565,
+     "e": 31.925,
+     "w": "tarda",
+     "a": [
+      "tarda"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.925,
+     "e": 32.525,
+     "w": "demasiado",
+     "a": [
+      "demasiado"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.525,
+     "e": 32.745,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.745,
+     "e": 33.305,
+     "w": "calentarse.",
+     "a": [
+      "calentarse"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p5",
+   "sfx": [
+    [
+     "pop",
+     "bobina"
+    ],
+    [
+     "gavel",
+     "jala"
+    ],
+    [
+     "coin",
+     "magnético."
+    ]
+   ],
+   "start": 33.5,
+   "dur": 9.05,
+   "text": "Así que le pones una bobina de alambre. Con una corriente enorme, se vuelve imán y jala el switch al instante. Ese es el disparo magnético.",
+   "words": [
+    {
+     "t": 33.62,
+     "e": 33.805,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.805,
+     "e": 34.065,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.065,
+     "e": 34.265,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.265,
+     "e": 34.485,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.485,
+     "e": 34.705,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.705,
+     "e": 35.125,
+     "w": "bobina",
+     "a": [
+      "bobina"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.125,
+     "e": 35.265,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.265,
+     "e": 35.645,
+     "w": "alambre.",
+     "a": [
+      "alambre"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.95,
+     "e": 36.085,
+     "w": "Con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.085,
+     "e": 36.225,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.225,
+     "e": 36.705,
+     "w": "corriente",
+     "a": [
+      "corriente"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.705,
+     "e": 37.305,
+     "w": "enorme,",
+     "a": [
+      "enorme"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.725,
+     "e": 37.825,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.825,
+     "e": 38.125,
+     "w": "vuelve",
+     "a": [
+      "vuelve"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.125,
+     "e": 38.405,
+     "w": "imán",
+     "a": [
+      "imán"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.405,
+     "e": 38.705,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.705,
+     "e": 39.025,
+     "w": "jala",
+     "a": [
+      "jala"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.025,
+     "e": 39.185,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.185,
+     "e": 39.445,
+     "w": "switch",
+     "a": [
+      "switch"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.445,
+     "e": 39.685,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.685,
+     "e": 40.265,
+     "w": "instante.",
+     "a": [
+      "instante"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.59,
+     "e": 40.915,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.915,
+     "e": 41.195,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.195,
+     "e": 41.335,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.335,
+     "e": 41.815,
+     "w": "disparo",
+     "a": [
+      "disparo"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.815,
+     "e": 42.335,
+     "w": "magnético.",
+     "a": [
+      "magnético"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p6",
+   "sfx": [
+    [
+     "thunder",
+     "arco"
+    ]
+   ],
+   "start": 42.55,
+   "dur": 5.39,
+   "text": "Pero al separarse los contactos con tanta corriente, salta un arco de fuego entre ellos.",
+   "words": [
+    {
+     "t": 42.67,
+     "e": 42.835,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.835,
+     "e": 43.095,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.095,
+     "e": 43.615,
+     "w": "separarse",
+     "a": [
+      "separarse"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.615,
+     "e": 43.795,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.795,
+     "e": 44.395,
+     "w": "contactos",
+     "a": [
+      "contactos"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.395,
+     "e": 44.555,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.555,
+     "e": 44.875,
+     "w": "tanta",
+     "a": [
+      "tanta"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.875,
+     "e": 45.515,
+     "w": "corriente,",
+     "a": [
+      "corriente"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.785,
+     "e": 46.165,
+     "w": "salta",
+     "a": [
+      "salta"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.165,
+     "e": 46.345,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.345,
+     "e": 46.625,
+     "w": "arco",
+     "a": [
+      "arco"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.625,
+     "e": 46.765,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.765,
+     "e": 47.025,
+     "w": "fuego",
+     "a": [
+      "fuego"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.025,
+     "e": 47.305,
+     "w": "entre",
+     "a": [
+      "entre"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.305,
+     "e": 47.625,
+     "w": "ellos.",
+     "a": [
+      "ellos"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p7",
+   "sfx": [
+    [
+     "pop",
+     "laminitas"
+    ],
+    [
+     "splash",
+     "apagan."
+    ],
+    [
+     "coin",
+     "arqueo."
+    ]
+   ],
+   "start": 47.94,
+   "dur": 7.28,
+   "text": "Así que le pones unas laminitas que atrapan el arco, lo cortan en pedacitos y lo apagan. Esa es la cámara de arqueo.",
+   "words": [
+    {
+     "t": 48.06,
+     "e": 48.235,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.235,
+     "e": 48.495,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.495,
+     "e": 48.695,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.695,
+     "e": 48.935,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.935,
+     "e": 49.115,
+     "w": "unas",
+     "a": [
+      "unas"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.115,
+     "e": 49.755,
+     "w": "laminitas",
+     "a": [
+      "laminitas"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.755,
+     "e": 49.975,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.975,
+     "e": 50.475,
+     "w": "atrapan",
+     "a": [
+      "atrapan"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.475,
+     "e": 50.595,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.595,
+     "e": 50.895,
+     "w": "arco,",
+     "a": [
+      "arco"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.195,
+     "e": 51.295,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.295,
+     "e": 51.655,
+     "w": "cortan",
+     "a": [
+      "cortan"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.655,
+     "e": 51.755,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.755,
+     "e": 52.295,
+     "w": "pedacitos",
+     "a": [
+      "pedacitos"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.295,
+     "e": 52.635,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.635,
+     "e": 52.755,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.755,
+     "e": 53.075,
+     "w": "apagan.",
+     "a": [
+      "apagan"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.075,
+     "e": 53.735,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.735,
+     "e": 54.015,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.015,
+     "e": 54.155,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.155,
+     "e": 54.475,
+     "w": "cámara",
+     "a": [
+      "cámara"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.475,
+     "e": 54.695,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.695,
+     "e": 55.34,
+     "w": "arqueo.",
+     "a": [
+      "arqueo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p8",
+   "sfx": [
+    [
+     "gavel",
+     "salta"
+    ],
+    [
+     "coin",
+     "pastilla."
+    ]
+   ],
+   "start": 55.22,
+   "dur": 5.64,
+   "text": "Y le pones una palanca que salta cuando se bota, para que sepas cuál fue. Eso es una pastilla.",
+   "words": [
+    {
+     "t": 55.34,
+     "e": 55.435,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.435,
+     "e": 55.535,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.535,
+     "e": 55.715,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.715,
+     "e": 55.955,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.955,
+     "e": 56.395,
+     "w": "palanca",
+     "a": [
+      "palanca"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.395,
+     "e": 56.595,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.595,
+     "e": 57.055,
+     "w": "salta",
+     "a": [
+      "salta"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.055,
+     "e": 57.235,
+     "w": "cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.235,
+     "e": 57.495,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.495,
+     "e": 57.755,
+     "w": "bota,",
+     "a": [
+      "bota"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.0,
+     "e": 58.135,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.135,
+     "e": 58.275,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.275,
+     "e": 58.595,
+     "w": "sepas",
+     "a": [
+      "sepas"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.595,
+     "e": 58.795,
+     "w": "cuál",
+     "a": [
+      "cuál"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.795,
+     "e": 59.035,
+     "w": "fue.",
+     "a": [
+      "fue"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.38,
+     "e": 59.655,
+     "w": "Eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.655,
+     "e": 59.975,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.975,
+     "e": 60.135,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.135,
+     "e": 60.675,
+     "w": "pastilla.",
+     "a": [
+      "pastilla"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p9",
+   "sfx": [
+    [
+     "thunder",
+     "persona."
+    ],
+    [
+     "pop",
+     "botón"
+    ],
+    [
+     "gavel",
+     "cortan"
+    ],
+    [
+     "coin",
+     "tierra."
+    ]
+   ],
+   "start": 60.86,
+   "dur": 13.36,
+   "text": "Pero a veces la corriente no se va por los cables, se escapa por una persona. Para eso hay otras pastillas, con un botón de prueba, que detectan esa fuga y cortan en milésimas de segundo. Esas son las de falla a tierra.",
+   "words": [
+    {
+     "t": 60.98,
+     "e": 61.105,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.105,
+     "e": 61.225,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.225,
+     "e": 61.485,
+     "w": "veces",
+     "a": [
+      "veces"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.485,
+     "e": 61.725,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.725,
+     "e": 62.145,
+     "w": "corriente",
+     "a": [
+      "corriente"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.145,
+     "e": 62.485,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.485,
+     "e": 62.645,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.645,
+     "e": 62.785,
+     "w": "va",
+     "a": [
+      "va"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.785,
+     "e": 62.985,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.985,
+     "e": 63.145,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.145,
+     "e": 63.425,
+     "w": "cables,",
+     "a": [
+      "cables"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.855,
+     "e": 63.995,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.995,
+     "e": 64.415,
+     "w": "escapa",
+     "a": [
+      "escapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.415,
+     "e": 64.655,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.655,
+     "e": 64.795,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.795,
+     "e": 65.295,
+     "w": "persona.",
+     "a": [
+      "persona"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.64,
+     "e": 65.775,
+     "w": "Para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.775,
+     "e": 66.055,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.055,
+     "e": 66.355,
+     "w": "hay",
+     "a": [
+      "hay"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.355,
+     "e": 66.695,
+     "w": "otras",
+     "a": [
+      "otras"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.695,
+     "e": 67.275,
+     "w": "pastillas,",
+     "a": [
+      "pastillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.61,
+     "e": 67.735,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.735,
+     "e": 67.835,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.835,
+     "e": 68.115,
+     "w": "botón",
+     "a": [
+      "botón"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.115,
+     "e": 68.215,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.215,
+     "e": 68.515,
+     "w": "prueba,",
+     "a": [
+      "prueba"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.83,
+     "e": 68.905,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.905,
+     "e": 69.445,
+     "w": "detectan",
+     "a": [
+      "detectan"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.445,
+     "e": 69.625,
+     "w": "esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.625,
+     "e": 69.965,
+     "w": "fuga",
+     "a": [
+      "fuga"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.965,
+     "e": 70.205,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.205,
+     "e": 70.645,
+     "w": "cortan",
+     "a": [
+      "cortan"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.645,
+     "e": 70.805,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.805,
+     "e": 71.365,
+     "w": "milésimas",
+     "a": [
+      "milésimas"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.365,
+     "e": 71.525,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.525,
+     "e": 71.905,
+     "w": "segundo.",
+     "a": [
+      "segundo"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.27,
+     "e": 72.605,
+     "w": "Esas",
+     "a": [
+      "esas"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.605,
+     "e": 72.925,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.925,
+     "e": 73.065,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.065,
+     "e": 73.225,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.225,
+     "e": 73.625,
+     "w": "falla",
+     "a": [
+      "falla"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.625,
+     "e": 73.745,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.745,
+     "e": 74.005,
+     "w": "tierra.",
+     "a": [
+      "tierra"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p10",
+   "sfx": [
+    [
+     "thud",
+     "grande."
+    ],
+    [
+     "pop",
+     "Desconecta"
+    ]
+   ],
+   "start": 74.22,
+   "dur": 8.95,
+   "text": "Si se bota seguido, no le pongas una más grande. El cable de tu casa no la aguantaría. Desconecta aparatos o revisa esa línea.",
+   "words": [
+    {
+     "t": 74.34,
+     "e": 74.495,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.495,
+     "e": 74.615,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.615,
+     "e": 74.815,
+     "w": "bota",
+     "a": [
+      "bota"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.815,
+     "e": 75.315,
+     "w": "seguido,",
+     "a": [
+      "seguido"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.635,
+     "e": 75.755,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.755,
+     "e": 75.895,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.895,
+     "e": 76.255,
+     "w": "pongas",
+     "a": [
+      "pongas"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.255,
+     "e": 76.415,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.415,
+     "e": 76.635,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.635,
+     "e": 76.935,
+     "w": "grande.",
+     "a": [
+      "grande"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.25,
+     "e": 77.375,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.375,
+     "e": 77.615,
+     "w": "cable",
+     "a": [
+      "cable"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.615,
+     "e": 77.815,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.815,
+     "e": 77.935,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.935,
+     "e": 78.175,
+     "w": "casa",
+     "a": [
+      "casa"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.175,
+     "e": 78.535,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.535,
+     "e": 78.675,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.675,
+     "e": 79.255,
+     "w": "aguantaría.",
+     "a": [
+      "aguantaría"
+     ],
+     "k": false
+    },
+    {
+     "t": 79.655,
+     "e": 80.215,
+     "w": "Desconecta",
+     "a": [
+      "desconecta"
+     ],
+     "k": false
+    },
+    {
+     "t": 80.215,
+     "e": 80.775,
+     "w": "aparatos",
+     "a": [
+      "aparatos"
+     ],
+     "k": false
+    },
+    {
+     "t": 80.775,
+     "e": 80.895,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 80.895,
+     "e": 81.375,
+     "w": "revisa",
+     "a": [
+      "revisa"
+     ],
+     "k": false
+    },
+    {
+     "t": 81.375,
+     "e": 81.555,
+     "w": "esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 81.555,
+     "e": 81.815,
+     "w": "línea.",
+     "a": [
+      "línea"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}
