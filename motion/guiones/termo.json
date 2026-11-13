@@ -1,0 +1,20 @@
+{
+ "id": "termo",
+ "estilo": {"subtitulos": false},
+ "beats": [
+  {"scene": "t1", "text": "Si metes café caliente en una botella de metal, ya tienes un termo.", "keys": [], "sfx": [["splash", "café"], ["coin", "termo."]]},
+  {"scene": "t2", "text": "Pero el metal pasa el calor hacia afuera y en media hora el café está tibio y la botella quema.", "keys": [], "sfx": [["thunder", "quema."]]},
+  {"scene": "t3", "text": "Así que le pones una segunda botella adentro y entre las dos dejas un espacio. Esa es la doble pared.", "keys": [], "sfx": [["thud", "adentro"], ["coin", "pared."]]},
+  {"scene": "t4", "text": "Pero el aire de ese espacio se calienta, se mueve y sigue llevando el calor hacia afuera.", "keys": [], "sfx": []},
+  {"scene": "t5", "text": "Así que le sacas todo el aire a ese espacio. Sin aire, el calor ya no tiene como cruzar. Ese es el vacío.", "keys": [], "sfx": [["pop", "sacas"], ["gavel", "cruzar."], ["coin", "vacío."]]},
+  {"scene": "t6", "text": "Pero el calor también viaja como luz invisible. Y esa sí cruza el vacío, igual que la luz del sol cruza el espacio.", "keys": [], "sfx": []},
+  {"scene": "t7", "text": "Así que pintas las paredes por dentro de un color brillante, como espejo, que rebota ese calor de regreso al café. Ese es el recubrimiento.", "keys": [], "sfx": [["pop", "brillante,"], ["pop", "rebota"], ["coin", "recubrimiento."]]},
+  {"scene": "t8", "text": "Pero el calor se sigue escapando por arriba, por la boca.", "keys": [], "sfx": []},
+  {"scene": "t9", "text": "Así que le pones un tapón grueso con un empaque de hule. Ese es el tapón.", "keys": [], "sfx": [["thud", "tapón"], ["pop", "hule."], ["coin", "tapón."]]},
+  {"scene": "t10", "text": "Pero las dos paredes tienen que unirse en algún lado. Y por ahí se fuga el calor.", "keys": [], "sfx": []},
+  {"scene": "t11", "text": "Así que solo se unen en el cuello, en la parte más angosta. Por eso el cuello de tu termo siempre es delgado.", "keys": [], "sfx": [["gavel", "unen"], ["coin", "delgado."]]},
+  {"scene": "t12", "text": "Pero si el termo se cae, la botella de adentro choca con la de afuera.", "keys": [], "sfx": [["thud", "cae,"], ["thunder", "choca"]]},
+  {"scene": "t13", "text": "Así que en el fondo le pones unos soportes chiquitos, que la sostienen tocando casi nada.", "keys": [], "sfx": [["pop", "soportes"], ["pop", "chiquitos,"]]},
+  {"scene": "t14", "text": "Si un día tu termo se siente caliente por fuera con café adentro, se le metió aire al vacío. Ya no tiene arreglo.", "keys": [], "sfx": [["splash", "aire"], ["thud", "arreglo."]]}
+ ]
+}
