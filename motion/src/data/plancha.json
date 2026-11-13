@@ -1,0 +1,2481 @@
+{
+ "id": "plancha",
+ "duration": 80.42,
+ "beats": [
+  {
+   "scene": "r1",
+   "sfx": [
+    [
+     "thud",
+     "placa"
+    ],
+    [
+     "pop",
+     "resistencia"
+    ],
+    [
+     "coin",
+     "plancha."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 4.95,
+   "text": "Si calientas una placa de metal con una resistencia eléctrica, ya tienes una plancha.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.265,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.265,
+     "e": 0.705,
+     "w": "calientas",
+     "a": [
+      "calientas"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.705,
+     "e": 0.905,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.905,
+     "e": 1.205,
+     "w": "placa",
+     "a": [
+      "placa"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.205,
+     "e": 1.385,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.385,
+     "e": 1.705,
+     "w": "metal",
+     "a": [
+      "metal"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.705,
+     "e": 1.965,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.965,
+     "e": 2.165,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.165,
+     "e": 2.805,
+     "w": "resistencia",
+     "a": [
+      "resistencia"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.805,
+     "e": 3.385,
+     "w": "eléctrica,",
+     "a": [
+      "eléctrica"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.645,
+     "e": 3.865,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.865,
+     "e": 4.185,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.185,
+     "e": 4.385,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.385,
+     "e": 4.785,
+     "w": "plancha.",
+     "a": [
+      "plancha"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "r2",
+   "sfx": [
+    [
+     "thunder",
+     "quema"
+    ]
+   ],
+   "start": 4.95,
+   "dur": 3.59,
+   "text": "Pero la placa se calienta sin parar y quema la ropa.",
+   "words": [
+    {
+     "t": 5.07,
+     "e": 5.205,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.205,
+     "e": 5.365,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.365,
+     "e": 5.745,
+     "w": "placa",
+     "a": [
+      "placa"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.745,
+     "e": 5.965,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.965,
+     "e": 6.505,
+     "w": "calienta",
+     "a": [
+      "calienta"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.505,
+     "e": 6.805,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.805,
+     "e": 7.165,
+     "w": "parar",
+     "a": [
+      "parar"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.165,
+     "e": 7.505,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.505,
+     "e": 7.865,
+     "w": "quema",
+     "a": [
+      "quema"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.865,
+     "e": 8.025,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.025,
+     "e": 8.385,
+     "w": "ropa.",
+     "a": [
+      "ropa"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "r3",
+   "sfx": [
+    [
+     "pop",
+     "metales"
+    ],
+    [
+     "gavel",
+     "cortan"
+    ],
+    [
+     "coin",
+     "termostato."
+    ]
+   ],
+   "start": 8.54,
+   "dur": 8.83,
+   "text": "Así que le pones dos metales pegados que se doblan con el calor y cortan la corriente cuando llega a la temperatura que eliges. Ese es el termostato.",
+   "words": [
+    {
+     "t": 8.66,
+     "e": 8.835,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.835,
+     "e": 8.995,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.995,
+     "e": 9.075,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.075,
+     "e": 9.355,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.355,
+     "e": 9.675,
+     "w": "dos",
+     "a": [
+      "dos"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.675,
+     "e": 10.095,
+     "w": "metales",
+     "a": [
+      "metales"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.095,
+     "e": 10.675,
+     "w": "pegados",
+     "a": [
+      "pegados"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.675,
+     "e": 10.895,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.895,
+     "e": 11.075,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.075,
+     "e": 11.455,
+     "w": "doblan",
+     "a": [
+      "doblan"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.455,
+     "e": 11.595,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.595,
+     "e": 11.735,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.735,
+     "e": 12.035,
+     "w": "calor",
+     "a": [
+      "calor"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.035,
+     "e": 12.345,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.345,
+     "e": 12.805,
+     "w": "cortan",
+     "a": [
+      "cortan"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.805,
+     "e": 12.925,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.925,
+     "e": 13.425,
+     "w": "corriente",
+     "a": [
+      "corriente"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.425,
+     "e": 13.645,
+     "w": "cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.645,
+     "e": 14.005,
+     "w": "llega",
+     "a": [
+      "llega"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.005,
+     "e": 14.165,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.165,
+     "e": 14.245,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.245,
+     "e": 14.705,
+     "w": "temperatura",
+     "a": [
+      "temperatura"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.705,
+     "e": 14.985,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.985,
+     "e": 15.305,
+     "w": "eliges.",
+     "a": [
+      "eliges"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.78,
+     "e": 16.135,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.135,
+     "e": 16.455,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.455,
+     "e": 16.595,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.595,
+     "e": 17.195,
+     "w": "termostato.",
+     "a": [
+      "termostato"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "r4",
+   "sfx": [
+    [
+     "thud",
+     "pega"
+    ],
+    [
+     "pop",
+     "capa"
+    ],
+    [
+     "coin",
+     "suela."
+    ]
+   ],
+   "start": 17.37,
+   "dur": 8.225,
+   "text": "Pero el metal desnudo raspa y se pega a la tela. Así que lo cubres con una capa lisa, antiadherente o de cerámica. Esa es la suela.",
+   "words": [
+    {
+     "t": 17.49,
+     "e": 17.645,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.645,
+     "e": 17.765,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.765,
+     "e": 17.965,
+     "w": "metal",
+     "a": [
+      "metal"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.965,
+     "e": 18.525,
+     "w": "desnudo",
+     "a": [
+      "desnudo"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.525,
+     "e": 19.165,
+     "w": "raspa",
+     "a": [
+      "raspa"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.165,
+     "e": 19.325,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.325,
+     "e": 19.425,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.425,
+     "e": 19.745,
+     "w": "pega",
+     "a": [
+      "pega"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.745,
+     "e": 19.905,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.905,
+     "e": 20.005,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.005,
+     "e": 20.245,
+     "w": "tela.",
+     "a": [
+      "tela"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.57,
+     "e": 20.735,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.735,
+     "e": 20.895,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.895,
+     "e": 20.995,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.995,
+     "e": 21.335,
+     "w": "cubres",
+     "a": [
+      "cubres"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.335,
+     "e": 21.535,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.535,
+     "e": 21.715,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.715,
+     "e": 22.035,
+     "w": "capa",
+     "a": [
+      "capa"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.035,
+     "e": 22.435,
+     "w": "lisa,",
+     "a": [
+      "lisa"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.735,
+     "e": 23.435,
+     "w": "antiadherente",
+     "a": [
+      "antiadherente"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.435,
+     "e": 23.715,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.715,
+     "e": 23.835,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.835,
+     "e": 24.295,
+     "w": "cerámica.",
+     "a": [
+      "cerámica"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.6,
+     "e": 24.955,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.955,
+     "e": 25.235,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.235,
+     "e": 25.375,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.375,
+     "e": 25.715,
+     "w": "suela.",
+     "a": [
+      "suela"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "r5",
+   "sfx": [
+    [
+     "splash",
+     "agua."
+    ],
+    [
+     "coin",
+     "tanque."
+    ]
+   ],
+   "start": 25.595,
+   "dur": 8.395,
+   "text": "Pero la placa caliente sola no quita las arrugas de la tela gruesa. Así que le pones arriba un depósito de agua. Ese es el tanque.",
+   "words": [
+    {
+     "t": 25.715,
+     "e": 26.115,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.115,
+     "e": 26.295,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.295,
+     "e": 26.535,
+     "w": "placa",
+     "a": [
+      "placa"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.535,
+     "e": 26.975,
+     "w": "caliente",
+     "a": [
+      "caliente"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.975,
+     "e": 27.415,
+     "w": "sola",
+     "a": [
+      "sola"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.415,
+     "e": 27.855,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.855,
+     "e": 28.195,
+     "w": "quita",
+     "a": [
+      "quita"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.195,
+     "e": 28.375,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.375,
+     "e": 28.835,
+     "w": "arrugas",
+     "a": [
+      "arrugas"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.835,
+     "e": 28.935,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.935,
+     "e": 29.055,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.055,
+     "e": 29.215,
+     "w": "tela",
+     "a": [
+      "tela"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.215,
+     "e": 29.755,
+     "w": "gruesa.",
+     "a": [
+      "gruesa"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.02,
+     "e": 30.175,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.175,
+     "e": 30.315,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.315,
+     "e": 30.415,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.415,
+     "e": 30.675,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.675,
+     "e": 30.995,
+     "w": "arriba",
+     "a": [
+      "arriba"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.995,
+     "e": 31.355,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.355,
+     "e": 31.895,
+     "w": "depósito",
+     "a": [
+      "depósito"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.895,
+     "e": 32.055,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.055,
+     "e": 32.295,
+     "w": "agua.",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.66,
+     "e": 32.965,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.965,
+     "e": 33.265,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.265,
+     "e": 33.425,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.425,
+     "e": 33.845,
+     "w": "tanque.",
+     "a": [
+      "tanque"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "r6",
+   "sfx": [
+    [
+     "pop",
+     "válvula"
+    ],
+    [
+     "splash",
+     "vapor"
+    ],
+    [
+     "coin",
+     "vapor.",
+     2
+    ]
+   ],
+   "start": 33.99,
+   "dur": 11.79,
+   "text": "Pero el agua tiene que llegar a la placa poquito a poquito. Así que le pones una válvula que deja caer gotas sobre una cámara caliente donde se vuelven vapor al instante. Esa es la cámara de vapor.",
+   "words": [
+    {
+     "t": 34.11,
+     "e": 34.265,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.265,
+     "e": 34.405,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.405,
+     "e": 34.665,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.665,
+     "e": 34.985,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.985,
+     "e": 35.125,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.125,
+     "e": 35.365,
+     "w": "llegar",
+     "a": [
+      "llegar"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.365,
+     "e": 35.505,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.505,
+     "e": 35.585,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.585,
+     "e": 35.905,
+     "w": "placa",
+     "a": [
+      "placa"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.905,
+     "e": 36.425,
+     "w": "poquito",
+     "a": [
+      "poquito"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.425,
+     "e": 36.745,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.745,
+     "e": 37.045,
+     "w": "poquito.",
+     "a": [
+      "poquito"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.45,
+     "e": 37.605,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.605,
+     "e": 37.765,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.765,
+     "e": 37.885,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.885,
+     "e": 38.125,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.125,
+     "e": 38.345,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.345,
+     "e": 38.865,
+     "w": "válvula",
+     "a": [
+      "válvula"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.865,
+     "e": 39.085,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.085,
+     "e": 39.325,
+     "w": "deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.325,
+     "e": 39.645,
+     "w": "caer",
+     "a": [
+      "caer"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.645,
+     "e": 40.105,
+     "w": "gotas",
+     "a": [
+      "gotas"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.105,
+     "e": 40.365,
+     "w": "sobre",
+     "a": [
+      "sobre"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.365,
+     "e": 40.605,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.605,
+     "e": 40.965,
+     "w": "cámara",
+     "a": [
+      "cámara"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.965,
+     "e": 41.505,
+     "w": "caliente",
+     "a": [
+      "caliente"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.505,
+     "e": 41.855,
+     "w": "donde",
+     "a": [
+      "donde"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.855,
+     "e": 42.055,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.055,
+     "e": 42.395,
+     "w": "vuelven",
+     "a": [
+      "vuelven"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.395,
+     "e": 42.755,
+     "w": "vapor",
+     "a": [
+      "vapor"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.755,
+     "e": 43.095,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.095,
+     "e": 43.675,
+     "w": "instante.",
+     "a": [
+      "instante"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.0,
+     "e": 44.385,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.385,
+     "e": 44.625,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.625,
+     "e": 44.745,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.745,
+     "e": 45.065,
+     "w": "cámara",
+     "a": [
+      "cámara"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.065,
+     "e": 45.245,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.245,
+     "e": 45.505,
+     "w": "vapor.",
+     "a": [
+      "vapor"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "r7",
+   "sfx": [
+    [
+     "pop",
+     "hoyitos"
+    ],
+    [
+     "splash",
+     "salga"
+    ],
+    [
+     "coin",
+     "hoyitos.",
+     2
+    ]
+   ],
+   "start": 45.78,
+   "dur": 10.77,
+   "text": "Pero el vapor se queda atrapado adentro. Así que le haces hoyitos a la placa para que el vapor salga directo a la tela, la humedezca y afloje las fibras. Esos son los hoyitos.",
+   "words": [
+    {
+     "t": 45.9,
+     "e": 46.035,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.035,
+     "e": 46.155,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.155,
+     "e": 46.395,
+     "w": "vapor",
+     "a": [
+      "vapor"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.395,
+     "e": 46.735,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.735,
+     "e": 46.975,
+     "w": "queda",
+     "a": [
+      "queda"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.975,
+     "e": 47.555,
+     "w": "atrapado",
+     "a": [
+      "atrapado"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.555,
+     "e": 48.055,
+     "w": "adentro.",
+     "a": [
+      "adentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.32,
+     "e": 48.485,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.485,
+     "e": 48.645,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.645,
+     "e": 48.745,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.745,
+     "e": 49.005,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.005,
+     "e": 49.485,
+     "w": "hoyitos",
+     "a": [
+      "hoyitos"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.485,
+     "e": 49.625,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.625,
+     "e": 49.725,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.725,
+     "e": 50.085,
+     "w": "placa",
+     "a": [
+      "placa"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.085,
+     "e": 50.345,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.345,
+     "e": 50.485,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.485,
+     "e": 50.585,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.585,
+     "e": 50.805,
+     "w": "vapor",
+     "a": [
+      "vapor"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.805,
+     "e": 51.265,
+     "w": "salga",
+     "a": [
+      "salga"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.265,
+     "e": 51.825,
+     "w": "directo",
+     "a": [
+      "directo"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.825,
+     "e": 51.905,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.905,
+     "e": 52.005,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.005,
+     "e": 52.285,
+     "w": "tela,",
+     "a": [
+      "tela"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.285,
+     "e": 52.685,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.685,
+     "e": 53.305,
+     "w": "humedezca",
+     "a": [
+      "humedezca"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.305,
+     "e": 53.565,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.565,
+     "e": 54.025,
+     "w": "afloje",
+     "a": [
+      "afloje"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.025,
+     "e": 54.205,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.205,
+     "e": 54.565,
+     "w": "fibras.",
+     "a": [
+      "fibras"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.98,
+     "e": 55.335,
+     "w": "Esos",
+     "a": [
+      "esos"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.335,
+     "e": 55.675,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.675,
+     "e": 55.815,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.815,
+     "e": 56.215,
+     "w": "hoyitos.",
+     "a": [
+      "hoyitos"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "r8",
+   "sfx": [
+    [
+     "splash",
+     "mancha"
+    ],
+    [
+     "gavel",
+     "seguro"
+    ]
+   ],
+   "start": 56.55,
+   "dur": 10.15,
+   "text": "Pero si la placa todavía está fría, el agua sale líquida y mancha la ropa. Así que muchas planchas tienen un seguro que no deja salir agua hasta que la placa está caliente.",
+   "words": [
+    {
+     "t": 56.67,
+     "e": 56.815,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.815,
+     "e": 56.955,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.955,
+     "e": 57.075,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.075,
+     "e": 57.355,
+     "w": "placa",
+     "a": [
+      "placa"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.355,
+     "e": 57.855,
+     "w": "todavía",
+     "a": [
+      "todavía"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.855,
+     "e": 58.155,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.155,
+     "e": 58.555,
+     "w": "fría,",
+     "a": [
+      "fría"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.935,
+     "e": 58.995,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.995,
+     "e": 59.175,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.175,
+     "e": 59.475,
+     "w": "sale",
+     "a": [
+      "sale"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.475,
+     "e": 60.015,
+     "w": "líquida",
+     "a": [
+      "líquida"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.015,
+     "e": 60.275,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.275,
+     "e": 60.675,
+     "w": "mancha",
+     "a": [
+      "mancha"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.675,
+     "e": 60.795,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.795,
+     "e": 61.155,
+     "w": "ropa.",
+     "a": [
+      "ropa"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.44,
+     "e": 61.595,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.595,
+     "e": 61.755,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.755,
+     "e": 62.055,
+     "w": "muchas",
+     "a": [
+      "muchas"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.055,
+     "e": 62.595,
+     "w": "planchas",
+     "a": [
+      "planchas"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.595,
+     "e": 62.955,
+     "w": "tienen",
+     "a": [
+      "tienen"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.955,
+     "e": 63.135,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.135,
+     "e": 63.515,
+     "w": "seguro",
+     "a": [
+      "seguro"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.515,
+     "e": 63.755,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.755,
+     "e": 64.015,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.015,
+     "e": 64.275,
+     "w": "deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.275,
+     "e": 64.555,
+     "w": "salir",
+     "a": [
+      "salir"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.555,
+     "e": 64.915,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.915,
+     "e": 65.215,
+     "w": "hasta",
+     "a": [
+      "hasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.215,
+     "e": 65.355,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.355,
+     "e": 65.455,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.455,
+     "e": 65.775,
+     "w": "placa",
+     "a": [
+      "placa"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.775,
+     "e": 65.995,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.995,
+     "e": 66.495,
+     "w": "caliente.",
+     "a": [
+      "caliente"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "r9",
+   "sfx": [
+    [
+     "pop",
+     "apagan"
+    ]
+   ],
+   "start": 66.7,
+   "dur": 6.79,
+   "text": "Pero si se te olvida, la plancha se queda prendida. Así que algunas se apagan solas si no las mueves en unos minutos.",
+   "words": [
+    {
+     "t": 66.82,
+     "e": 66.955,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.955,
+     "e": 67.095,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.095,
+     "e": 67.235,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.235,
+     "e": 67.335,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.335,
+     "e": 67.735,
+     "w": "olvida,",
+     "a": [
+      "olvida"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.075,
+     "e": 68.195,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.195,
+     "e": 68.595,
+     "w": "plancha",
+     "a": [
+      "plancha"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.595,
+     "e": 68.775,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.775,
+     "e": 69.035,
+     "w": "queda",
+     "a": [
+      "queda"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.035,
+     "e": 69.635,
+     "w": "prendida.",
+     "a": [
+      "prendida"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.89,
+     "e": 70.055,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.055,
+     "e": 70.235,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.235,
+     "e": 70.575,
+     "w": "algunas",
+     "a": [
+      "algunas"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.575,
+     "e": 70.855,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.855,
+     "e": 71.115,
+     "w": "apagan",
+     "a": [
+      "apagan"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.115,
+     "e": 71.675,
+     "w": "solas",
+     "a": [
+      "solas"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.675,
+     "e": 71.855,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.855,
+     "e": 71.955,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.955,
+     "e": 72.115,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.115,
+     "e": 72.435,
+     "w": "mueves",
+     "a": [
+      "mueves"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.435,
+     "e": 72.595,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.595,
+     "e": 72.735,
+     "w": "unos",
+     "a": [
+      "unos"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.735,
+     "e": 73.135,
+     "w": "minutos.",
+     "a": [
+      "minutos"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "r10",
+   "sfx": [
+    [
+     "splash",
+     "escupen"
+    ],
+    [
+     "coin",
+     "filtrada."
+    ]
+   ],
+   "start": 73.49,
+   "dur": 6.93,
+   "text": "Si tus hoyitos escupen agua sucia, es el sarro del agua de la llave. Llénala con agua filtrada.",
+   "words": [
+    {
+     "t": 73.61,
+     "e": 73.765,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.765,
+     "e": 73.905,
+     "w": "tus",
+     "a": [
+      "tus"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.905,
+     "e": 74.305,
+     "w": "hoyitos",
+     "a": [
+      "hoyitos"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.305,
+     "e": 74.865,
+     "w": "escupen",
+     "a": [
+      "escupen"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.865,
+     "e": 75.065,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.065,
+     "e": 75.545,
+     "w": "sucia,",
+     "a": [
+      "sucia"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.805,
+     "e": 75.965,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.965,
+     "e": 76.105,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.105,
+     "e": 76.545,
+     "w": "sarro",
+     "a": [
+      "sarro"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.545,
+     "e": 76.705,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.705,
+     "e": 76.925,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.925,
+     "e": 77.085,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.085,
+     "e": 77.185,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.185,
+     "e": 77.74,
+     "w": "llave.",
+     "a": [
+      "llave"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.765,
+     "e": 78.145,
+     "w": "Llénala",
+     "a": [
+      "llénala"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.145,
+     "e": 78.405,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.405,
+     "e": 78.605,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.605,
+     "e": 79.145,
+     "w": "filtrada.",
+     "a": [
+      "filtrada"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}

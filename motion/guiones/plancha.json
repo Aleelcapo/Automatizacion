@@ -1,0 +1,16 @@
+{
+ "id": "plancha",
+ "estilo": {"subtitulos": false},
+ "beats": [
+  {"scene": "r1", "text": "Si calientas una placa de metal con una resistencia eléctrica, ya tienes una plancha.", "keys": [], "sfx": [["thud", "placa"], ["pop", "resistencia"], ["coin", "plancha."]]},
+  {"scene": "r2", "text": "Pero la placa se calienta sin parar y quema la ropa.", "keys": [], "sfx": [["thunder", "quema"]]},
+  {"scene": "r3", "text": "Así que le pones dos metales pegados que se doblan con el calor y cortan la corriente cuando llega a la temperatura que eliges. Ese es el termostato.", "keys": [], "sfx": [["pop", "metales"], ["gavel", "cortan"], ["coin", "termostato."]]},
+  {"scene": "r4", "text": "Pero el metal desnudo raspa y se pega a la tela. Así que lo cubres con una capa lisa, antiadherente o de cerámica. Esa es la suela.", "keys": [], "sfx": [["thud", "pega"], ["pop", "capa"], ["coin", "suela."]]},
+  {"scene": "r5", "text": "Pero la placa caliente sola no quita las arrugas de la tela gruesa. Así que le pones arriba un depósito de agua. Ese es el tanque.", "keys": [], "sfx": [["splash", "agua."], ["coin", "tanque."]]},
+  {"scene": "r6", "text": "Pero el agua tiene que llegar a la placa poquito a poquito. Así que le pones una válvula que deja caer gotas sobre una cámara caliente donde se vuelven vapor al instante. Esa es la cámara de vapor.", "keys": [], "sfx": [["pop", "válvula"], ["splash", "vapor"], ["coin", "vapor.", 2]]},
+  {"scene": "r7", "text": "Pero el vapor se queda atrapado adentro. Así que le haces hoyitos a la placa para que el vapor salga directo a la tela, la humedezca y afloje las fibras. Esos son los hoyitos.", "keys": [], "sfx": [["pop", "hoyitos"], ["splash", "salga"], ["coin", "hoyitos.", 2]]},
+  {"scene": "r8", "text": "Pero si la placa todavía está fría, el agua sale líquida y mancha la ropa. Así que muchas planchas tienen un seguro que no deja salir agua hasta que la placa está caliente.", "keys": [], "sfx": [["splash", "mancha"], ["gavel", "seguro"]]},
+  {"scene": "r9", "text": "Pero si se te olvida, la plancha se queda prendida. Así que algunas se apagan solas si no las mueves en unos minutos.", "keys": [], "sfx": [["pop", "apagan"]]},
+  {"scene": "r10", "text": "Si tus hoyitos escupen agua sucia, es el sarro del agua de la llave. Llénala con agua filtrada.", "keys": [], "sfx": [["splash", "escupen"], ["coin", "filtrada."]]}
+ ]
+}
