@@ -1,0 +1,178 @@
+{
+ "id": "olla",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "o1",
+   "text": "Si pones agua y frijoles en una olla y la tapa es bien apretada, ya tienes una olla exprés.",
+   "keys": [],
+   "sfx": [
+    [
+     "splash",
+     "agua"
+    ],
+    [
+     "pop",
+     "frijoles"
+    ],
+    [
+     "thud",
+     "tapa"
+    ],
+    [
+     "coin",
+     "exprés."
+    ]
+   ]
+  },
+  {
+   "scene": "o2",
+   "text": "Pero el vapor no tiene por dónde salir y empuja la tapa hasta que sale volando.",
+   "keys": [],
+   "sfx": [
+    [
+     "pop",
+     "volando."
+    ]
+   ]
+  },
+  {
+   "scene": "o3",
+   "text": "Así que le pones a la tapa unas pestañas que giran y se traban con la olla. Ese es el cierre.",
+   "keys": [],
+   "sfx": [
+    [
+     "pop",
+     "pestañas"
+    ],
+    [
+     "gavel",
+     "traban"
+    ]
+   ]
+  },
+  {
+   "scene": "o4",
+   "text": "Pero el vapor se escapa por la orilla, entre la tapa y la olla.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "o5",
+   "text": "Así que le metes un anillo de hule que se aprieta con la presión. Ese es el empaque.",
+   "keys": [],
+   "sfx": [
+    [
+     "pop",
+     "anillo"
+    ],
+    [
+     "thud",
+     "aprieta"
+    ]
+   ]
+  },
+  {
+   "scene": "o6",
+   "text": "Pero ahora la presión sube y sube… hasta que la olla revienta.",
+   "keys": [],
+   "sfx": [
+    [
+     "thunder",
+     "revienta."
+    ]
+   ]
+  },
+  {
+   "scene": "o7",
+   "text": "Así que le haces un hoyito arriba con un tubito, y encima le pones una pesa. Cuando la presión la levanta, sale un poco de vapor y la pesa vuelve a caer. Esa es la válvula que baila.",
+   "keys": [],
+   "sfx": [
+    [
+     "pop",
+     "tubito,"
+    ],
+    [
+     "thud",
+     "pesa."
+    ],
+    [
+     "gavel",
+     "caer."
+    ]
+   ]
+  },
+  {
+   "scene": "o8",
+   "text": "Pero si un frijol tapa el tubito, la presión vuelve a subir sin control.",
+   "keys": [],
+   "sfx": [
+    [
+     "pop",
+     "frijol"
+    ]
+   ]
+  },
+  {
+   "scene": "o9",
+   "text": "Así que le pones un tapón de hule más blando, que se bota antes de que la olla truene. Esa es la válvula de seguridad.",
+   "keys": [],
+   "sfx": [
+    [
+     "pop",
+     "tapón"
+    ],
+    [
+     "pop",
+     "bota"
+    ]
+   ]
+  },
+  {
+   "scene": "o10",
+   "text": "Pero si abres la olla con presión adentro, el vapor te quema la cara.",
+   "keys": [],
+   "sfx": [
+    [
+     "splash",
+     "quema"
+    ]
+   ]
+  },
+  {
+   "scene": "o11",
+   "text": "Así que la tapa tiene un seguro que no la deja girar mientras haya presión.",
+   "keys": [],
+   "sfx": [
+    [
+     "gavel",
+     "seguro"
+    ]
+   ]
+  },
+  {
+   "scene": "o12",
+   "text": "¿Y para qué tanto? Con presión, el agua no hierve a cien grados: llega a unos ciento veinte, y los frijoles se cuecen en la tercera parte del tiempo.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "tercera"
+    ]
+   ]
+  },
+  {
+   "scene": "o13",
+   "text": "Si tu valvulita deja de bailar y no sale vapor, apaga la olla: el tubito se tapó.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "apaga"
+    ]
+   ]
+  }
+ ]
+}

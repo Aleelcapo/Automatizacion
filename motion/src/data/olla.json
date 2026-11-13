@@ -1,0 +1,2492 @@
+{
+ "id": "olla",
+ "duration": 76.88,
+ "beats": [
+  {
+   "scene": "o1",
+   "sfx": [
+    [
+     "splash",
+     "agua"
+    ],
+    [
+     "pop",
+     "frijoles"
+    ],
+    [
+     "thud",
+     "tapa"
+    ],
+    [
+     "coin",
+     "exprés."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 6.02,
+   "text": "Si pones agua y frijoles en una olla y la tapa es bien apretada, ya tienes una olla exprés.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.285,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.285,
+     "e": 0.545,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.545,
+     "e": 1.005,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.005,
+     "e": 1.185,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.185,
+     "e": 1.585,
+     "w": "frijoles",
+     "a": [
+      "frijoles"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.585,
+     "e": 1.845,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.845,
+     "e": 2.025,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.025,
+     "e": 2.305,
+     "w": "olla",
+     "a": [
+      "olla"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.305,
+     "e": 2.675,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.675,
+     "e": 2.815,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.815,
+     "e": 3.015,
+     "w": "tapa",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.015,
+     "e": 3.195,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.195,
+     "e": 3.555,
+     "w": "bien",
+     "a": [
+      "bien"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.555,
+     "e": 4.175,
+     "w": "apretada,",
+     "a": [
+      "apretada"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.445,
+     "e": 4.565,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.565,
+     "e": 4.885,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.885,
+     "e": 5.105,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.105,
+     "e": 5.305,
+     "w": "olla",
+     "a": [
+      "olla"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.305,
+     "e": 5.605,
+     "w": "exprés.",
+     "a": [
+      "exprés"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "o2",
+   "sfx": [
+    [
+     "pop",
+     "volando."
+    ]
+   ],
+   "start": 6.02,
+   "dur": 5.02,
+   "text": "Pero el vapor no tiene por dónde salir y empuja la tapa hasta que sale volando.",
+   "words": [
+    {
+     "t": 6.14,
+     "e": 6.305,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.305,
+     "e": 6.585,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.585,
+     "e": 6.805,
+     "w": "vapor",
+     "a": [
+      "vapor"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.805,
+     "e": 7.185,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.185,
+     "e": 7.465,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.465,
+     "e": 7.705,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.705,
+     "e": 7.885,
+     "w": "dónde",
+     "a": [
+      "dónde"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.885,
+     "e": 8.305,
+     "w": "salir",
+     "a": [
+      "salir"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.305,
+     "e": 8.685,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.685,
+     "e": 9.165,
+     "w": "empuja",
+     "a": [
+      "empuja"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.165,
+     "e": 9.285,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.285,
+     "e": 9.605,
+     "w": "tapa",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.605,
+     "e": 9.925,
+     "w": "hasta",
+     "a": [
+      "hasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.925,
+     "e": 10.105,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.105,
+     "e": 10.385,
+     "w": "sale",
+     "a": [
+      "sale"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.385,
+     "e": 10.905,
+     "w": "volando.",
+     "a": [
+      "volando"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "o3",
+   "sfx": [
+    [
+     "pop",
+     "pestañas"
+    ],
+    [
+     "gavel",
+     "traban"
+    ]
+   ],
+   "start": 11.04,
+   "dur": 5.94,
+   "text": "Así que le pones a la tapa unas pestañas que giran y se traban con la olla. Ese es el cierre.",
+   "words": [
+    {
+     "t": 11.16,
+     "e": 11.335,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.335,
+     "e": 11.535,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.535,
+     "e": 11.795,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.795,
+     "e": 12.055,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.055,
+     "e": 12.195,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.195,
+     "e": 12.275,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.275,
+     "e": 12.575,
+     "w": "tapa",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.575,
+     "e": 12.855,
+     "w": "unas",
+     "a": [
+      "unas"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.855,
+     "e": 13.435,
+     "w": "pestañas",
+     "a": [
+      "pestañas"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.435,
+     "e": 13.675,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.675,
+     "e": 14.175,
+     "w": "giran",
+     "a": [
+      "giran"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.175,
+     "e": 14.335,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.335,
+     "e": 14.455,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.455,
+     "e": 14.835,
+     "w": "traban",
+     "a": [
+      "traban"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.835,
+     "e": 14.975,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.975,
+     "e": 15.155,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.155,
+     "e": 15.355,
+     "w": "olla.",
+     "a": [
+      "olla"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.7,
+     "e": 16.055,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.055,
+     "e": 16.335,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.335,
+     "e": 16.475,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.475,
+     "e": 17.1,
+     "w": "cierre.",
+     "a": [
+      "cierre"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "o4",
+   "sfx": [],
+   "start": 16.98,
+   "dur": 3.88,
+   "text": "Pero el vapor se escapa por la orilla, entre la tapa y la olla.",
+   "words": [
+    {
+     "t": 17.1,
+     "e": 17.265,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.265,
+     "e": 17.525,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.525,
+     "e": 17.785,
+     "w": "vapor",
+     "a": [
+      "vapor"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.785,
+     "e": 18.025,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.025,
+     "e": 18.425,
+     "w": "escapa",
+     "a": [
+      "escapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.425,
+     "e": 18.665,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.665,
+     "e": 18.805,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.805,
+     "e": 19.125,
+     "w": "orilla,",
+     "a": [
+      "orilla"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.36,
+     "e": 19.605,
+     "w": "entre",
+     "a": [
+      "entre"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.605,
+     "e": 19.785,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.785,
+     "e": 20.085,
+     "w": "tapa",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.085,
+     "e": 20.325,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.325,
+     "e": 20.445,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.445,
+     "e": 20.665,
+     "w": "olla.",
+     "a": [
+      "olla"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "o5",
+   "sfx": [
+    [
+     "pop",
+     "anillo"
+    ],
+    [
+     "thud",
+     "aprieta"
+    ]
+   ],
+   "start": 20.86,
+   "dur": 4.645,
+   "text": "Así que le metes un anillo de hule que se aprieta con la presión. Ese es el empaque.",
+   "words": [
+    {
+     "t": 20.98,
+     "e": 21.155,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.155,
+     "e": 21.375,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.375,
+     "e": 21.615,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.615,
+     "e": 21.915,
+     "w": "metes",
+     "a": [
+      "metes"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.915,
+     "e": 22.075,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.075,
+     "e": 22.355,
+     "w": "anillo",
+     "a": [
+      "anillo"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.355,
+     "e": 22.535,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.535,
+     "e": 22.795,
+     "w": "hule",
+     "a": [
+      "hule"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.795,
+     "e": 22.955,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.955,
+     "e": 23.095,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.095,
+     "e": 23.515,
+     "w": "aprieta",
+     "a": [
+      "aprieta"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.515,
+     "e": 23.675,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.675,
+     "e": 23.795,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.795,
+     "e": 24.175,
+     "w": "presión.",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.505,
+     "e": 24.865,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.865,
+     "e": 25.125,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.125,
+     "e": 25.245,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.245,
+     "e": 25.625,
+     "w": "empaque.",
+     "a": [
+      "empaque"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "o6",
+   "sfx": [
+    [
+     "thunder",
+     "revienta."
+    ]
+   ],
+   "start": 25.505,
+   "dur": 4.725,
+   "text": "Pero ahora la presión sube y sube… hasta que la olla revienta.",
+   "words": [
+    {
+     "t": 25.625,
+     "e": 26.045,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.045,
+     "e": 26.425,
+     "w": "ahora",
+     "a": [
+      "ahora"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.425,
+     "e": 26.685,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.685,
+     "e": 27.045,
+     "w": "presión",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.045,
+     "e": 27.745,
+     "w": "sube",
+     "a": [
+      "sube"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.745,
+     "e": 27.965,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.965,
+     "e": 28.485,
+     "w": "sube…",
+     "a": [
+      "sube"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.485,
+     "e": 28.805,
+     "w": "hasta",
+     "a": [
+      "hasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.805,
+     "e": 28.965,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.965,
+     "e": 29.105,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.105,
+     "e": 29.285,
+     "w": "olla",
+     "a": [
+      "olla"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.285,
+     "e": 30.065,
+     "w": "revienta.",
+     "a": [
+      "revienta"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "o7",
+   "sfx": [
+    [
+     "pop",
+     "tubito,"
+    ],
+    [
+     "thud",
+     "pesa."
+    ],
+    [
+     "gavel",
+     "caer."
+    ]
+   ],
+   "start": 30.23,
+   "dur": 10.99,
+   "text": "Así que le haces un hoyito arriba con un tubito, y encima le pones una pesa. Cuando la presión la levanta, sale un poco de vapor y la pesa vuelve a caer. Esa es la válvula que baila.",
+   "words": [
+    {
+     "t": 30.35,
+     "e": 30.545,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.545,
+     "e": 30.785,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.785,
+     "e": 31.045,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.045,
+     "e": 31.265,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.265,
+     "e": 31.445,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.445,
+     "e": 31.725,
+     "w": "hoyito",
+     "a": [
+      "hoyito"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.725,
+     "e": 32.065,
+     "w": "arriba",
+     "a": [
+      "arriba"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.065,
+     "e": 32.325,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.325,
+     "e": 32.485,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.485,
+     "e": 32.905,
+     "w": "tubito,",
+     "a": [
+      "tubito"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.905,
+     "e": 33.215,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.215,
+     "e": 33.675,
+     "w": "encima",
+     "a": [
+      "encima"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.675,
+     "e": 33.915,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.915,
+     "e": 34.175,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.175,
+     "e": 34.355,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.355,
+     "e": 34.98,
+     "w": "pesa.",
+     "a": [
+      "pesa"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.98,
+     "e": 35.135,
+     "w": "Cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.135,
+     "e": 35.275,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.275,
+     "e": 35.595,
+     "w": "presión",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.595,
+     "e": 35.755,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.755,
+     "e": 36.335,
+     "w": "levanta,",
+     "a": [
+      "levanta"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.335,
+     "e": 36.735,
+     "w": "sale",
+     "a": [
+      "sale"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.735,
+     "e": 36.935,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.935,
+     "e": 37.135,
+     "w": "poco",
+     "a": [
+      "poco"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.135,
+     "e": 37.315,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.315,
+     "e": 37.555,
+     "w": "vapor",
+     "a": [
+      "vapor"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.555,
+     "e": 37.975,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.975,
+     "e": 38.115,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.115,
+     "e": 38.435,
+     "w": "pesa",
+     "a": [
+      "pesa"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.435,
+     "e": 38.795,
+     "w": "vuelve",
+     "a": [
+      "vuelve"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.795,
+     "e": 38.915,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.915,
+     "e": 39.46,
+     "w": "caer.",
+     "a": [
+      "caer"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.46,
+     "e": 39.825,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.825,
+     "e": 40.045,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.045,
+     "e": 40.185,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.185,
+     "e": 40.585,
+     "w": "válvula",
+     "a": [
+      "válvula"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.585,
+     "e": 40.765,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.765,
+     "e": 41.34,
+     "w": "baila.",
+     "a": [
+      "baila"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "o8",
+   "sfx": [
+    [
+     "pop",
+     "frijol"
+    ]
+   ],
+   "start": 41.22,
+   "dur": 4.61,
+   "text": "Pero si un frijol tapa el tubito, la presión vuelve a subir sin control.",
+   "words": [
+    {
+     "t": 41.34,
+     "e": 41.515,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.515,
+     "e": 41.795,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.795,
+     "e": 41.975,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.975,
+     "e": 42.315,
+     "w": "frijol",
+     "a": [
+      "frijol"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.315,
+     "e": 42.635,
+     "w": "tapa",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.635,
+     "e": 42.855,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.855,
+     "e": 43.315,
+     "w": "tubito,",
+     "a": [
+      "tubito"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.675,
+     "e": 43.715,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.715,
+     "e": 44.075,
+     "w": "presión",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.075,
+     "e": 44.555,
+     "w": "vuelve",
+     "a": [
+      "vuelve"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.555,
+     "e": 44.635,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.635,
+     "e": 44.875,
+     "w": "subir",
+     "a": [
+      "subir"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.875,
+     "e": 45.215,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.215,
+     "e": 45.655,
+     "w": "control.",
+     "a": [
+      "control"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "o9",
+   "sfx": [
+    [
+     "pop",
+     "tapón"
+    ],
+    [
+     "pop",
+     "bota"
+    ]
+   ],
+   "start": 45.83,
+   "dur": 7.06,
+   "text": "Así que le pones un tapón de hule más blando, que se bota antes de que la olla truene. Esa es la válvula de seguridad.",
+   "words": [
+    {
+     "t": 45.95,
+     "e": 46.115,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.115,
+     "e": 46.335,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.335,
+     "e": 46.575,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.575,
+     "e": 46.795,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.795,
+     "e": 46.975,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.975,
+     "e": 47.295,
+     "w": "tapón",
+     "a": [
+      "tapón"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.295,
+     "e": 47.435,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.435,
+     "e": 47.675,
+     "w": "hule",
+     "a": [
+      "hule"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.675,
+     "e": 47.975,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.975,
+     "e": 48.415,
+     "w": "blando,",
+     "a": [
+      "blando"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.415,
+     "e": 48.635,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.635,
+     "e": 48.795,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.795,
+     "e": 49.115,
+     "w": "bota",
+     "a": [
+      "bota"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.115,
+     "e": 49.575,
+     "w": "antes",
+     "a": [
+      "antes"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.575,
+     "e": 49.755,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.755,
+     "e": 49.835,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.835,
+     "e": 49.975,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.975,
+     "e": 50.135,
+     "w": "olla",
+     "a": [
+      "olla"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.135,
+     "e": 50.555,
+     "w": "truene.",
+     "a": [
+      "truene"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.555,
+     "e": 51.205,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.205,
+     "e": 51.445,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.445,
+     "e": 51.585,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.585,
+     "e": 52.025,
+     "w": "válvula",
+     "a": [
+      "válvula"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.025,
+     "e": 52.185,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.185,
+     "e": 52.645,
+     "w": "seguridad.",
+     "a": [
+      "seguridad"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "o10",
+   "sfx": [
+    [
+     "splash",
+     "quema"
+    ]
+   ],
+   "start": 52.89,
+   "dur": 4.18,
+   "text": "Pero si abres la olla con presión adentro, el vapor te quema la cara.",
+   "words": [
+    {
+     "t": 53.01,
+     "e": 53.175,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.175,
+     "e": 53.475,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.475,
+     "e": 53.775,
+     "w": "abres",
+     "a": [
+      "abres"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.775,
+     "e": 53.955,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.955,
+     "e": 54.155,
+     "w": "olla",
+     "a": [
+      "olla"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.155,
+     "e": 54.415,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.415,
+     "e": 54.735,
+     "w": "presión",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.735,
+     "e": 55.255,
+     "w": "adentro,",
+     "a": [
+      "adentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.605,
+     "e": 55.645,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.645,
+     "e": 55.885,
+     "w": "vapor",
+     "a": [
+      "vapor"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.885,
+     "e": 56.185,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.185,
+     "e": 56.485,
+     "w": "quema",
+     "a": [
+      "quema"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.485,
+     "e": 56.625,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.625,
+     "e": 56.885,
+     "w": "cara.",
+     "a": [
+      "cara"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "o11",
+   "sfx": [
+    [
+     "gavel",
+     "seguro"
+    ]
+   ],
+   "start": 57.07,
+   "dur": 4.355,
+   "text": "Así que la tapa tiene un seguro que no la deja girar mientras haya presión.",
+   "words": [
+    {
+     "t": 57.19,
+     "e": 57.375,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.375,
+     "e": 57.575,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.575,
+     "e": 57.855,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.855,
+     "e": 58.075,
+     "w": "tapa",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.075,
+     "e": 58.375,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.375,
+     "e": 58.535,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.535,
+     "e": 58.875,
+     "w": "seguro",
+     "a": [
+      "seguro"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.875,
+     "e": 59.135,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.135,
+     "e": 59.395,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.395,
+     "e": 59.515,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.515,
+     "e": 59.735,
+     "w": "deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.735,
+     "e": 60.155,
+     "w": "girar",
+     "a": [
+      "girar"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.155,
+     "e": 60.355,
+     "w": "mientras",
+     "a": [
+      "mientras"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.355,
+     "e": 60.755,
+     "w": "haya",
+     "a": [
+      "haya"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.755,
+     "e": 61.155,
+     "w": "presión.",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "o12",
+   "sfx": [
+    [
+     "coin",
+     "tercera"
+    ]
+   ],
+   "start": 61.425,
+   "dur": 8.925,
+   "text": "¿Y para qué tanto? Con presión, el agua no hierve a cien grados: llega a unos ciento veinte, y los frijoles se cuecen en la tercera parte del tiempo.",
+   "words": [
+    {
+     "t": 61.545,
+     "e": 61.665,
+     "w": "¿Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.665,
+     "e": 61.845,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.845,
+     "e": 62.005,
+     "w": "qué",
+     "a": [
+      "qué"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.005,
+     "e": 62.285,
+     "w": "tanto?",
+     "a": [
+      "tanto"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.75,
+     "e": 62.855,
+     "w": "Con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.855,
+     "e": 63.315,
+     "w": "presión,",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.315,
+     "e": 63.715,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.715,
+     "e": 63.915,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.915,
+     "e": 64.215,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.215,
+     "e": 64.595,
+     "w": "hierve",
+     "a": [
+      "hierve"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.595,
+     "e": 64.755,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.755,
+     "e": 64.855,
+     "w": "cien",
+     "a": [
+      "cien"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.855,
+     "e": 65.415,
+     "w": "grados:",
+     "a": [
+      "grados"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.675,
+     "e": 65.895,
+     "w": "llega",
+     "a": [
+      "llega"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.895,
+     "e": 66.135,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.135,
+     "e": 66.335,
+     "w": "unos",
+     "a": [
+      "unos"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.335,
+     "e": 66.975,
+     "w": "120",
+     "a": [
+      "ciento",
+      "veinte",
+      "120"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.975,
+     "e": 67.415,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.415,
+     "e": 67.555,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.555,
+     "e": 67.935,
+     "w": "frijoles",
+     "a": [
+      "frijoles"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.935,
+     "e": 68.255,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.255,
+     "e": 68.575,
+     "w": "cuecen",
+     "a": [
+      "cuecen"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.575,
+     "e": 68.675,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.675,
+     "e": 68.795,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.795,
+     "e": 69.275,
+     "w": "tercera",
+     "a": [
+      "tercera"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.275,
+     "e": 69.575,
+     "w": "parte",
+     "a": [
+      "parte"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.575,
+     "e": 69.815,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.815,
+     "e": 70.155,
+     "w": "tiempo.",
+     "a": [
+      "tiempo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "o13",
+   "sfx": [
+    [
+     "thud",
+     "apaga"
+    ]
+   ],
+   "start": 70.35,
+   "dur": 6.53,
+   "text": "Si tu valvulita deja de bailar y no sale vapor, apaga la olla: el tubito se tapó.",
+   "words": [
+    {
+     "t": 70.47,
+     "e": 70.615,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.615,
+     "e": 70.715,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.715,
+     "e": 71.275,
+     "w": "valvulita",
+     "a": [
+      "valvulita"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.275,
+     "e": 71.555,
+     "w": "deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.555,
+     "e": 71.715,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.715,
+     "e": 72.195,
+     "w": "bailar",
+     "a": [
+      "bailar"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.195,
+     "e": 72.355,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.355,
+     "e": 72.515,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.515,
+     "e": 72.715,
+     "w": "sale",
+     "a": [
+      "sale"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.715,
+     "e": 73.055,
+     "w": "vapor,",
+     "a": [
+      "vapor"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.445,
+     "e": 73.765,
+     "w": "apaga",
+     "a": [
+      "apaga"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.765,
+     "e": 73.905,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.905,
+     "e": 74.125,
+     "w": "olla:",
+     "a": [
+      "olla"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.505,
+     "e": 74.605,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.605,
+     "e": 75.025,
+     "w": "tubito",
+     "a": [
+      "tubito"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.025,
+     "e": 75.245,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.245,
+     "e": 75.605,
+     "w": "tapó.",
+     "a": [
+      "tapó"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}
