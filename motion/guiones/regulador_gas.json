@@ -1,0 +1,14 @@
+{
+ "id": "regulador_gas",
+ "estilo": {"subtitulos": false},
+ "beats": [
+  {"scene": "g1", "text": "Si conectas una manguera de un tanque de gas a tu estufa, ya tienes estufa de gas, pero el tanque trae el gas a mucha presión, la flama saldría como soplete.", "keys": [], "sfx": [["thud", "tanque"], ["coin", "gas,"], ["thunder", "soplete."]]},
+  {"scene": "g2", "text": "Así que pones en medio una cajita con una tapa de hule adentro, que se infla con la presión y cierra el paso del gas. Ese es el diafragma.", "keys": [], "sfx": [["thud", "cajita"], ["pop", "infla"], ["gavel", "cierra"], ["coin", "diafragma."]]},
+  {"scene": "g3", "text": "Pero si el diafragma cierra todo, a la estufa no le llega nada. Así que le pones encima un resorte que lo empuja hacia abajo. El resorte abre, la presión cierra y quedan en equilibrio. Sale gas suavecito, siempre igual. Ese es el regulador.", "keys": [], "sfx": [["pop", "resorte"], ["thud", "abajo."], ["coin", "regulador."]]},
+  {"scene": "g4", "text": "Pero para que el diafragma se mueva, el aire de arriba tiene que entrar y salir. Así que le haces un ojito a la tapa. Ese es el respiradero.", "keys": [], "sfx": [["pop", "ojito"], ["coin", "respiradero."]]},
+  {"scene": "g5", "text": "Si lo tapas, el aire queda atrapado. El diafragma se traba y la flama sube y baja, o se apaga.", "keys": [], "sfx": [["thud", "tapas,"], ["gavel", "traba"], ["splash", "apaga."]]},
+  {"scene": "g6", "text": "Pero si llueve, el agua se mete por ese ojito. Así que el respiradero siempre debe quedar viendo hacia abajo.", "keys": [], "sfx": [["splash", "agua"], ["pop", "abajo."]]},
+  {"scene": "g7", "text": "Pero si la manguera se rompe, el gas escaparía sin control. Así que algunos reguladores traen un tope que se cierra solo si sale demasiado gas de golpe.", "keys": [], "sfx": [["thunder", "rompe,"], ["gavel", "golpe."]]},
+  {"scene": "g8", "text": "Y el hule se hace duro con los años. Si tu flama baila o hace ruido, revisa que el respiradero no esté tapado. Y si el regulador ya es viejo, cámbialo.", "keys": [], "sfx": [["thud", "duro"], ["pop", "baila"], ["coin", "cámbialo."]]}
+ ]
+}

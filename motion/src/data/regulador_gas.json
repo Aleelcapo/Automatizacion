@@ -1,0 +1,2273 @@
+{
+ "id": "regulador_gas",
+ "duration": 74.21,
+ "beats": [
+  {
+   "scene": "g1",
+   "sfx": [
+    [
+     "thud",
+     "tanque"
+    ],
+    [
+     "coin",
+     "gas,"
+    ],
+    [
+     "thunder",
+     "soplete."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 9.56,
+   "text": "Si conectas una manguera de un tanque de gas a tu estufa, ya tienes estufa de gas, pero el tanque trae el gas a mucha presión, la flama saldría como soplete.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.265,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.265,
+     "e": 0.725,
+     "w": "conectas",
+     "a": [
+      "conectas"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.725,
+     "e": 0.885,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.885,
+     "e": 1.285,
+     "w": "manguera",
+     "a": [
+      "manguera"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.285,
+     "e": 1.445,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.445,
+     "e": 1.565,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.565,
+     "e": 1.905,
+     "w": "tanque",
+     "a": [
+      "tanque"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.905,
+     "e": 2.045,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.045,
+     "e": 2.265,
+     "w": "gas",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.265,
+     "e": 2.405,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.405,
+     "e": 2.485,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.485,
+     "e": 2.965,
+     "w": "estufa,",
+     "a": [
+      "estufa"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.255,
+     "e": 3.415,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.415,
+     "e": 3.775,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.775,
+     "e": 4.215,
+     "w": "estufa",
+     "a": [
+      "estufa"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.215,
+     "e": 4.335,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.335,
+     "e": 4.595,
+     "w": "gas,",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.86,
+     "e": 5.015,
+     "w": "pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.015,
+     "e": 5.355,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.355,
+     "e": 5.715,
+     "w": "tanque",
+     "a": [
+      "tanque"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.715,
+     "e": 6.055,
+     "w": "trae",
+     "a": [
+      "trae"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.055,
+     "e": 6.175,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.175,
+     "e": 6.395,
+     "w": "gas",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.395,
+     "e": 6.595,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.595,
+     "e": 6.955,
+     "w": "mucha",
+     "a": [
+      "mucha"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.955,
+     "e": 7.475,
+     "w": "presión,",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.735,
+     "e": 7.835,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.835,
+     "e": 8.095,
+     "w": "flama",
+     "a": [
+      "flama"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.095,
+     "e": 8.575,
+     "w": "saldría",
+     "a": [
+      "saldría"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.575,
+     "e": 8.815,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.815,
+     "e": 9.395,
+     "w": "soplete.",
+     "a": [
+      "soplete"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "g2",
+   "sfx": [
+    [
+     "thud",
+     "cajita"
+    ],
+    [
+     "pop",
+     "infla"
+    ],
+    [
+     "gavel",
+     "cierra"
+    ],
+    [
+     "coin",
+     "diafragma."
+    ]
+   ],
+   "start": 9.56,
+   "dur": 8.59,
+   "text": "Así que pones en medio una cajita con una tapa de hule adentro, que se infla con la presión y cierra el paso del gas. Ese es el diafragma.",
+   "words": [
+    {
+     "t": 9.68,
+     "e": 9.835,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.835,
+     "e": 9.995,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.995,
+     "e": 10.255,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.255,
+     "e": 10.415,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.415,
+     "e": 10.695,
+     "w": "medio",
+     "a": [
+      "medio"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.695,
+     "e": 11.055,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.055,
+     "e": 11.535,
+     "w": "cajita",
+     "a": [
+      "cajita"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.535,
+     "e": 11.775,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.775,
+     "e": 11.975,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.975,
+     "e": 12.235,
+     "w": "tapa",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.235,
+     "e": 12.435,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.435,
+     "e": 12.655,
+     "w": "hule",
+     "a": [
+      "hule"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.655,
+     "e": 13.135,
+     "w": "adentro,",
+     "a": [
+      "adentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.295,
+     "e": 13.375,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.375,
+     "e": 13.535,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.535,
+     "e": 13.955,
+     "w": "infla",
+     "a": [
+      "infla"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.955,
+     "e": 14.095,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.095,
+     "e": 14.215,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.215,
+     "e": 14.635,
+     "w": "presión",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.635,
+     "e": 14.955,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.955,
+     "e": 15.375,
+     "w": "cierra",
+     "a": [
+      "cierra"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.375,
+     "e": 15.535,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.535,
+     "e": 15.775,
+     "w": "paso",
+     "a": [
+      "paso"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.775,
+     "e": 15.975,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.975,
+     "e": 16.235,
+     "w": "gas.",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.65,
+     "e": 16.975,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.975,
+     "e": 17.335,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.335,
+     "e": 17.475,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.475,
+     "e": 18.015,
+     "w": "diafragma.",
+     "a": [
+      "diafragma"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "g3",
+   "sfx": [
+    [
+     "pop",
+     "resorte"
+    ],
+    [
+     "thud",
+     "abajo."
+    ],
+    [
+     "coin",
+     "regulador."
+    ]
+   ],
+   "start": 18.15,
+   "dur": 15.28,
+   "text": "Pero si el diafragma cierra todo, a la estufa no le llega nada. Así que le pones encima un resorte que lo empuja hacia abajo. El resorte abre, la presión cierra y quedan en equilibrio. Sale gas suavecito, siempre igual. Ese es el regulador.",
+   "words": [
+    {
+     "t": 18.27,
+     "e": 18.435,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.435,
+     "e": 18.715,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.715,
+     "e": 18.795,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.795,
+     "e": 19.315,
+     "w": "diafragma",
+     "a": [
+      "diafragma"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.315,
+     "e": 19.655,
+     "w": "cierra",
+     "a": [
+      "cierra"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.655,
+     "e": 20.015,
+     "w": "todo,",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.385,
+     "e": 20.465,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.465,
+     "e": 20.545,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.545,
+     "e": 20.905,
+     "w": "estufa",
+     "a": [
+      "estufa"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.905,
+     "e": 21.025,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.025,
+     "e": 21.125,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.125,
+     "e": 21.305,
+     "w": "llega",
+     "a": [
+      "llega"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.305,
+     "e": 21.625,
+     "w": "nada.",
+     "a": [
+      "nada"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.94,
+     "e": 22.095,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.095,
+     "e": 22.255,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.255,
+     "e": 22.355,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.355,
+     "e": 22.595,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.595,
+     "e": 23.055,
+     "w": "encima",
+     "a": [
+      "encima"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.055,
+     "e": 23.355,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.355,
+     "e": 23.875,
+     "w": "resorte",
+     "a": [
+      "resorte"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.875,
+     "e": 24.095,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.095,
+     "e": 24.235,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.235,
+     "e": 24.715,
+     "w": "empuja",
+     "a": [
+      "empuja"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.715,
+     "e": 24.915,
+     "w": "hacia",
+     "a": [
+      "hacia"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.915,
+     "e": 25.255,
+     "w": "abajo.",
+     "a": [
+      "abajo"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.255,
+     "e": 25.695,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.695,
+     "e": 26.115,
+     "w": "resorte",
+     "a": [
+      "resorte"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.115,
+     "e": 26.475,
+     "w": "abre,",
+     "a": [
+      "abre"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.875,
+     "e": 26.935,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.935,
+     "e": 27.235,
+     "w": "presión",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.235,
+     "e": 27.655,
+     "w": "cierra",
+     "a": [
+      "cierra"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.655,
+     "e": 27.985,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.985,
+     "e": 28.345,
+     "w": "quedan",
+     "a": [
+      "quedan"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.345,
+     "e": 28.445,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.445,
+     "e": 29.27,
+     "w": "equilibrio.",
+     "a": [
+      "equilibrio"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.385,
+     "e": 29.535,
+     "w": "Sale",
+     "a": [
+      "sale"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.535,
+     "e": 29.685,
+     "w": "gas",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.685,
+     "e": 30.585,
+     "w": "suavecito,",
+     "a": [
+      "suavecito"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.775,
+     "e": 31.215,
+     "w": "siempre",
+     "a": [
+      "siempre"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.215,
+     "e": 31.555,
+     "w": "igual.",
+     "a": [
+      "igual"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.965,
+     "e": 32.225,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.225,
+     "e": 32.595,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.595,
+     "e": 32.715,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.715,
+     "e": 33.235,
+     "w": "regulador.",
+     "a": [
+      "regulador"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "g4",
+   "sfx": [
+    [
+     "pop",
+     "ojito"
+    ],
+    [
+     "coin",
+     "respiradero."
+    ]
+   ],
+   "start": 33.43,
+   "dur": 8.17,
+   "text": "Pero para que el diafragma se mueva, el aire de arriba tiene que entrar y salir. Así que le haces un ojito a la tapa. Ese es el respiradero.",
+   "words": [
+    {
+     "t": 33.55,
+     "e": 33.685,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.685,
+     "e": 34.005,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.005,
+     "e": 34.145,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.145,
+     "e": 34.245,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.245,
+     "e": 34.705,
+     "w": "diafragma",
+     "a": [
+      "diafragma"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.705,
+     "e": 34.905,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.905,
+     "e": 35.305,
+     "w": "mueva,",
+     "a": [
+      "mueva"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.615,
+     "e": 35.735,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.735,
+     "e": 35.915,
+     "w": "aire",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.915,
+     "e": 36.075,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.075,
+     "e": 36.355,
+     "w": "arriba",
+     "a": [
+      "arriba"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.355,
+     "e": 36.655,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.655,
+     "e": 36.815,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.815,
+     "e": 37.175,
+     "w": "entrar",
+     "a": [
+      "entrar"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.175,
+     "e": 37.315,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.315,
+     "e": 37.635,
+     "w": "salir.",
+     "a": [
+      "salir"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.95,
+     "e": 38.105,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.105,
+     "e": 38.265,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.265,
+     "e": 38.365,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.365,
+     "e": 38.605,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.605,
+     "e": 38.905,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.905,
+     "e": 39.265,
+     "w": "ojito",
+     "a": [
+      "ojito"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.265,
+     "e": 39.405,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.405,
+     "e": 39.485,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.485,
+     "e": 39.705,
+     "w": "tapa.",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.105,
+     "e": 40.405,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.405,
+     "e": 40.735,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.735,
+     "e": 40.875,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.875,
+     "e": 41.72,
+     "w": "respiradero.",
+     "a": [
+      "respiradero"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "g5",
+   "sfx": [
+    [
+     "thud",
+     "tapas,"
+    ],
+    [
+     "gavel",
+     "traba"
+    ],
+    [
+     "splash",
+     "apaga."
+    ]
+   ],
+   "start": 41.6,
+   "dur": 6.47,
+   "text": "Si lo tapas, el aire queda atrapado. El diafragma se traba y la flama sube y baja, o se apaga.",
+   "words": [
+    {
+     "t": 41.72,
+     "e": 41.875,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.875,
+     "e": 41.995,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.995,
+     "e": 42.415,
+     "w": "tapas,",
+     "a": [
+      "tapas"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.735,
+     "e": 42.835,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.835,
+     "e": 43.035,
+     "w": "aire",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.035,
+     "e": 43.315,
+     "w": "queda",
+     "a": [
+      "queda"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.315,
+     "e": 43.915,
+     "w": "atrapado.",
+     "a": [
+      "atrapado"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.245,
+     "e": 44.325,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.325,
+     "e": 44.825,
+     "w": "diafragma",
+     "a": [
+      "diafragma"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.825,
+     "e": 45.005,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.005,
+     "e": 45.365,
+     "w": "traba",
+     "a": [
+      "traba"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.365,
+     "e": 45.605,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.605,
+     "e": 45.725,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.725,
+     "e": 46.005,
+     "w": "flama",
+     "a": [
+      "flama"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.005,
+     "e": 46.625,
+     "w": "sube",
+     "a": [
+      "sube"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.625,
+     "e": 46.765,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.765,
+     "e": 47.025,
+     "w": "baja,",
+     "a": [
+      "baja"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.27,
+     "e": 47.435,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.435,
+     "e": 47.515,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.515,
+     "e": 47.815,
+     "w": "apaga.",
+     "a": [
+      "apaga"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "g6",
+   "sfx": [
+    [
+     "splash",
+     "agua"
+    ],
+    [
+     "pop",
+     "abajo."
+    ]
+   ],
+   "start": 48.07,
+   "dur": 6.34,
+   "text": "Pero si llueve, el agua se mete por ese ojito. Así que el respiradero siempre debe quedar viendo hacia abajo.",
+   "words": [
+    {
+     "t": 48.19,
+     "e": 48.325,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.325,
+     "e": 48.485,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.485,
+     "e": 48.885,
+     "w": "llueve,",
+     "a": [
+      "llueve"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.205,
+     "e": 49.305,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.305,
+     "e": 49.525,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.525,
+     "e": 49.745,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.745,
+     "e": 50.105,
+     "w": "mete",
+     "a": [
+      "mete"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.105,
+     "e": 50.345,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.345,
+     "e": 50.505,
+     "w": "ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.505,
+     "e": 50.885,
+     "w": "ojito.",
+     "a": [
+      "ojito"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.885,
+     "e": 51.355,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.355,
+     "e": 51.515,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.515,
+     "e": 51.595,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.595,
+     "e": 52.195,
+     "w": "respiradero",
+     "a": [
+      "respiradero"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.195,
+     "e": 52.575,
+     "w": "siempre",
+     "a": [
+      "siempre"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.575,
+     "e": 53.035,
+     "w": "debe",
+     "a": [
+      "debe"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.035,
+     "e": 53.315,
+     "w": "quedar",
+     "a": [
+      "quedar"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.315,
+     "e": 53.655,
+     "w": "viendo",
+     "a": [
+      "viendo"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.655,
+     "e": 53.855,
+     "w": "hacia",
+     "a": [
+      "hacia"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.855,
+     "e": 54.195,
+     "w": "abajo.",
+     "a": [
+      "abajo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "g7",
+   "sfx": [
+    [
+     "thunder",
+     "rompe,"
+    ],
+    [
+     "gavel",
+     "golpe."
+    ]
+   ],
+   "start": 54.41,
+   "dur": 9.255,
+   "text": "Pero si la manguera se rompe, el gas escaparía sin control. Así que algunos reguladores traen un tope que se cierra solo si sale demasiado gas de golpe.",
+   "words": [
+    {
+     "t": 54.53,
+     "e": 54.665,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.665,
+     "e": 54.805,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.805,
+     "e": 54.925,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.925,
+     "e": 55.265,
+     "w": "manguera",
+     "a": [
+      "manguera"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.265,
+     "e": 55.425,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.425,
+     "e": 55.865,
+     "w": "rompe,",
+     "a": [
+      "rompe"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.175,
+     "e": 56.255,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.255,
+     "e": 56.495,
+     "w": "gas",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.495,
+     "e": 57.175,
+     "w": "escaparía",
+     "a": [
+      "escaparía"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.175,
+     "e": 57.455,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.455,
+     "e": 57.935,
+     "w": "control.",
+     "a": [
+      "control"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.26,
+     "e": 58.415,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.415,
+     "e": 58.575,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.575,
+     "e": 58.875,
+     "w": "algunos",
+     "a": [
+      "algunos"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.875,
+     "e": 59.535,
+     "w": "reguladores",
+     "a": [
+      "reguladores"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.535,
+     "e": 59.955,
+     "w": "traen",
+     "a": [
+      "traen"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.955,
+     "e": 60.075,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.075,
+     "e": 60.455,
+     "w": "tope",
+     "a": [
+      "tope"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.455,
+     "e": 60.595,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.595,
+     "e": 60.735,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.735,
+     "e": 61.075,
+     "w": "cierra",
+     "a": [
+      "cierra"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.075,
+     "e": 61.535,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.535,
+     "e": 61.795,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.795,
+     "e": 62.035,
+     "w": "sale",
+     "a": [
+      "sale"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.035,
+     "e": 62.635,
+     "w": "demasiado",
+     "a": [
+      "demasiado"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.635,
+     "e": 62.955,
+     "w": "gas",
+     "a": [
+      "gas"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.955,
+     "e": 63.095,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.095,
+     "e": 63.375,
+     "w": "golpe.",
+     "a": [
+      "golpe"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "g8",
+   "sfx": [
+    [
+     "thud",
+     "duro"
+    ],
+    [
+     "pop",
+     "baila"
+    ],
+    [
+     "coin",
+     "cámbialo."
+    ]
+   ],
+   "start": 63.665,
+   "dur": 10.545,
+   "text": "Y el hule se hace duro con los años. Si tu flama baila o hace ruido, revisa que el respiradero no esté tapado. Y si el regulador ya es viejo, cámbialo.",
+   "words": [
+    {
+     "t": 63.785,
+     "e": 63.825,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.825,
+     "e": 63.945,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.945,
+     "e": 64.185,
+     "w": "hule",
+     "a": [
+      "hule"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.185,
+     "e": 64.365,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.365,
+     "e": 64.545,
+     "w": "hace",
+     "a": [
+      "hace"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.545,
+     "e": 64.985,
+     "w": "duro",
+     "a": [
+      "duro"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.985,
+     "e": 65.125,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.125,
+     "e": 65.305,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.305,
+     "e": 65.545,
+     "w": "años.",
+     "a": [
+      "años"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.03,
+     "e": 66.185,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.185,
+     "e": 66.285,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.285,
+     "e": 66.585,
+     "w": "flama",
+     "a": [
+      "flama"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.585,
+     "e": 67.205,
+     "w": "baila",
+     "a": [
+      "baila"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.205,
+     "e": 67.365,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.365,
+     "e": 67.545,
+     "w": "hace",
+     "a": [
+      "hace"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.545,
+     "e": 68.025,
+     "w": "ruido,",
+     "a": [
+      "ruido"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.345,
+     "e": 68.725,
+     "w": "revisa",
+     "a": [
+      "revisa"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.725,
+     "e": 68.865,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.865,
+     "e": 68.965,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.965,
+     "e": 69.545,
+     "w": "respiradero",
+     "a": [
+      "respiradero"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.545,
+     "e": 69.785,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.785,
+     "e": 69.985,
+     "w": "esté",
+     "a": [
+      "esté"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.985,
+     "e": 70.485,
+     "w": "tapado.",
+     "a": [
+      "tapado"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.755,
+     "e": 70.855,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.855,
+     "e": 70.915,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.915,
+     "e": 71.035,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.035,
+     "e": 71.515,
+     "w": "regulador",
+     "a": [
+      "regulador"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.515,
+     "e": 71.755,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.755,
+     "e": 71.915,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.915,
+     "e": 72.275,
+     "w": "viejo,",
+     "a": [
+      "viejo"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.555,
+     "e": 72.96,
+     "w": "cámbialo.",
+     "a": [
+      "cámbialo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}
