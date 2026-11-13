@@ -17,6 +17,7 @@ import {DURACION_LLANTA, LlantaVideo} from './tres/Llanta';
 import {DURACION_LICUADORA, LicuadoraVideo} from './tres/Licuadora';
 import {DURACION_PLANCHA, PlanchaVideo} from './tres/Plancha';
 import {DURACION_REGULADOR, ReguladorVideo} from './tres/Regulador';
+import {DURACION_PLUMA, PlumaVideo} from './tres/Pluma';
 
 for (const [archivo, peso] of [
   ['Inter-SemiBold.otf', '600'],
@@ -54,5 +55,6 @@ export const Root: React.FC = () => (
     <Composition id="licuadora" component={LicuadoraVideo} durationInFrames={Math.ceil(DURACION_LICUADORA * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="plancha" component={PlanchaVideo} durationInFrames={Math.ceil(DURACION_PLANCHA * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="regulador-gas" component={ReguladorVideo} durationInFrames={Math.ceil(DURACION_REGULADOR * FPS)} fps={FPS} width={W} height={H} />
+    <Composition id="pluma" component={PlumaVideo} durationInFrames={Math.ceil(DURACION_PLUMA * FPS)} fps={FPS} width={W} height={H} />
   </>
 );

@@ -1,0 +1,16 @@
+{
+ "id": "pluma",
+ "estilo": {"subtitulos": false},
+ "beats": [
+  {"scene": "u1", "text": "Si metes tinta en un tubito de plástico y le pones una punta, ya tienes una pluma.", "keys": [], "sfx": [["splash", "tinta"], ["pop", "punta,"], ["coin", "pluma."]]},
+  {"scene": "u2", "text": "Pero la tinta se sale toda de golpe.", "keys": [], "sfx": [["splash", "golpe."]]},
+  {"scene": "u3", "text": "Así que en la punta pones una bolita de metal que gira. Al rodar sobre el papel, se moja de tinta y deja una línea finita. Esa es la bolita.", "keys": [], "sfx": [["pop", "bolita"], ["coin", "bolita.", 2]]},
+  {"scene": "u4", "text": "Pero conforme gastas tinta, arriba se hace un vacío que la jala hacia atrás y la pluma deja de pintar.", "keys": [], "sfx": [["thud", "pintar."]]},
+  {"scene": "u5", "text": "Así que dejas el tubito abierto por arriba para que entre aire.", "keys": [], "sfx": [["pop", "abierto"]]},
+  {"scene": "u6", "text": "Pero si la tinta es líquida, se derrama por ahí. Así que haces la tinta espesa como pasta para que no escurra.", "keys": [], "sfx": [["splash", "derrama"], ["thud", "espesa"]]},
+  {"scene": "u7", "text": "Pero el tubito va metido dentro del cuerpo de la pluma, que está cerrado y el aire no llega. Así que le haces un ojito al cuerpo, a un lado. Por ahí entra aire y la presión se iguala. Ese es el ojito del cuerpo.", "keys": [], "sfx": [["pop", "ojito"], ["coin", "cuerpo.", 3]]},
+  {"scene": "u8", "text": "Pero el aire seca la tinta de la bolita si la dejas destapada. Así que la tapa cubre la punta para que no se seque.", "keys": [], "sfx": [["thud", "tapa"]]},
+  {"scene": "u9", "text": "¿Y el ojito de la tapa? Muchos niños se tragan las tapas y se les atoran en la garganta. Ese ojito deja pasar aire mientras llega la ayuda. Esa es la tapa de seguridad.", "keys": [], "sfx": [["pop", "ojito"], ["coin", "seguridad."]]},
+  {"scene": "u10", "text": "Si tu pluma deja de escribir y todavía tiene tinta, calienta la punta con tu mano y raya en círculos.", "keys": [], "sfx": [["pop", "círculos."]]}
+ ]
+}

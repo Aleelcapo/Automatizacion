@@ -1,0 +1,2291 @@
+{
+ "id": "pluma",
+ "duration": 69.69,
+ "beats": [
+  {
+   "scene": "u1",
+   "sfx": [
+    [
+     "splash",
+     "tinta"
+    ],
+    [
+     "pop",
+     "punta,"
+    ],
+    [
+     "coin",
+     "pluma."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 4.83,
+   "text": "Si metes tinta en un tubito de plástico y le pones una punta, ya tienes una pluma.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.275,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.275,
+     "e": 0.595,
+     "w": "metes",
+     "a": [
+      "metes"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.595,
+     "e": 0.955,
+     "w": "tinta",
+     "a": [
+      "tinta"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.955,
+     "e": 1.135,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.135,
+     "e": 1.255,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.255,
+     "e": 1.575,
+     "w": "tubito",
+     "a": [
+      "tubito"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.575,
+     "e": 1.735,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.735,
+     "e": 2.235,
+     "w": "plástico",
+     "a": [
+      "plástico"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.235,
+     "e": 2.555,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.555,
+     "e": 2.675,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.675,
+     "e": 2.875,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.875,
+     "e": 3.075,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.075,
+     "e": 3.495,
+     "w": "punta,",
+     "a": [
+      "punta"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.785,
+     "e": 3.885,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.885,
+     "e": 4.165,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.165,
+     "e": 4.345,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.345,
+     "e": 4.665,
+     "w": "pluma.",
+     "a": [
+      "pluma"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "u2",
+   "sfx": [
+    [
+     "splash",
+     "golpe."
+    ]
+   ],
+   "start": 4.83,
+   "dur": 2.37,
+   "text": "Pero la tinta se sale toda de golpe.",
+   "words": [
+    {
+     "t": 4.95,
+     "e": 5.095,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.095,
+     "e": 5.255,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.255,
+     "e": 5.575,
+     "w": "tinta",
+     "a": [
+      "tinta"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.575,
+     "e": 5.815,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.815,
+     "e": 6.115,
+     "w": "sale",
+     "a": [
+      "sale"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.115,
+     "e": 6.455,
+     "w": "toda",
+     "a": [
+      "toda"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.455,
+     "e": 6.695,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.695,
+     "e": 6.975,
+     "w": "golpe.",
+     "a": [
+      "golpe"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "u3",
+   "sfx": [
+    [
+     "pop",
+     "bolita"
+    ],
+    [
+     "coin",
+     "bolita.",
+     2
+    ]
+   ],
+   "start": 7.2,
+   "dur": 8.96,
+   "text": "Así que en la punta pones una bolita de metal que gira. Al rodar sobre el papel, se moja de tinta y deja una línea finita. Esa es la bolita.",
+   "words": [
+    {
+     "t": 7.32,
+     "e": 7.505,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.505,
+     "e": 7.665,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.665,
+     "e": 7.745,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.745,
+     "e": 7.865,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.865,
+     "e": 8.265,
+     "w": "punta",
+     "a": [
+      "punta"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.265,
+     "e": 8.585,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.585,
+     "e": 8.825,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.825,
+     "e": 9.205,
+     "w": "bolita",
+     "a": [
+      "bolita"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.205,
+     "e": 9.365,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.365,
+     "e": 9.665,
+     "w": "metal",
+     "a": [
+      "metal"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.665,
+     "e": 9.885,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.885,
+     "e": 10.205,
+     "w": "gira.",
+     "a": [
+      "gira"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.48,
+     "e": 10.615,
+     "w": "Al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.615,
+     "e": 10.995,
+     "w": "rodar",
+     "a": [
+      "rodar"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.995,
+     "e": 11.215,
+     "w": "sobre",
+     "a": [
+      "sobre"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.215,
+     "e": 11.355,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.355,
+     "e": 11.655,
+     "w": "papel,",
+     "a": [
+      "papel"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.975,
+     "e": 12.055,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.055,
+     "e": 12.315,
+     "w": "moja",
+     "a": [
+      "moja"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.315,
+     "e": 12.455,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.455,
+     "e": 12.875,
+     "w": "tinta",
+     "a": [
+      "tinta"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.875,
+     "e": 13.175,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.175,
+     "e": 13.415,
+     "w": "deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.415,
+     "e": 13.635,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.635,
+     "e": 13.975,
+     "w": "línea",
+     "a": [
+      "línea"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.975,
+     "e": 14.555,
+     "w": "finita.",
+     "a": [
+      "finita"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.86,
+     "e": 15.235,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.235,
+     "e": 15.475,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.475,
+     "e": 15.595,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.595,
+     "e": 15.975,
+     "w": "bolita.",
+     "a": [
+      "bolita"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "u4",
+   "sfx": [
+    [
+     "thud",
+     "pintar."
+    ]
+   ],
+   "start": 16.16,
+   "dur": 6.24,
+   "text": "Pero conforme gastas tinta, arriba se hace un vacío que la jala hacia atrás y la pluma deja de pintar.",
+   "words": [
+    {
+     "t": 16.28,
+     "e": 16.415,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.415,
+     "e": 16.875,
+     "w": "conforme",
+     "a": [
+      "conforme"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.875,
+     "e": 17.235,
+     "w": "gastas",
+     "a": [
+      "gastas"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.235,
+     "e": 17.695,
+     "w": "tinta,",
+     "a": [
+      "tinta"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.015,
+     "e": 18.315,
+     "w": "arriba",
+     "a": [
+      "arriba"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.315,
+     "e": 18.555,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.555,
+     "e": 18.735,
+     "w": "hace",
+     "a": [
+      "hace"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.735,
+     "e": 18.895,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.895,
+     "e": 19.315,
+     "w": "vacío",
+     "a": [
+      "vacío"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.315,
+     "e": 19.495,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.495,
+     "e": 19.635,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.635,
+     "e": 19.915,
+     "w": "jala",
+     "a": [
+      "jala"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.915,
+     "e": 20.155,
+     "w": "hacia",
+     "a": [
+      "hacia"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.155,
+     "e": 20.435,
+     "w": "atrás",
+     "a": [
+      "atrás"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.435,
+     "e": 20.795,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.795,
+     "e": 20.915,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.915,
+     "e": 21.275,
+     "w": "pluma",
+     "a": [
+      "pluma"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.275,
+     "e": 21.655,
+     "w": "deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.655,
+     "e": 21.815,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.815,
+     "e": 22.255,
+     "w": "pintar.",
+     "a": [
+      "pintar"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "u5",
+   "sfx": [
+    [
+     "pop",
+     "abierto"
+    ]
+   ],
+   "start": 22.4,
+   "dur": 3.125,
+   "text": "Así que dejas el tubito abierto por arriba para que entre aire.",
+   "words": [
+    {
+     "t": 22.52,
+     "e": 22.675,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.675,
+     "e": 22.855,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.855,
+     "e": 23.135,
+     "w": "dejas",
+     "a": [
+      "dejas"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.135,
+     "e": 23.295,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.295,
+     "e": 23.655,
+     "w": "tubito",
+     "a": [
+      "tubito"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.655,
+     "e": 24.035,
+     "w": "abierto",
+     "a": [
+      "abierto"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.035,
+     "e": 24.295,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.295,
+     "e": 24.615,
+     "w": "arriba",
+     "a": [
+      "arriba"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.615,
+     "e": 24.925,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.925,
+     "e": 25.085,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.085,
+     "e": 25.325,
+     "w": "entre",
+     "a": [
+      "entre"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.325,
+     "e": 25.645,
+     "w": "aire.",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "u6",
+   "sfx": [
+    [
+     "splash",
+     "derrama"
+    ],
+    [
+     "thud",
+     "espesa"
+    ]
+   ],
+   "start": 25.525,
+   "dur": 6.745,
+   "text": "Pero si la tinta es líquida, se derrama por ahí. Así que haces la tinta espesa como pasta para que no escurra.",
+   "words": [
+    {
+     "t": 25.645,
+     "e": 26.045,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.045,
+     "e": 26.205,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.205,
+     "e": 26.345,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.345,
+     "e": 26.605,
+     "w": "tinta",
+     "a": [
+      "tinta"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.605,
+     "e": 26.785,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.785,
+     "e": 27.205,
+     "w": "líquida,",
+     "a": [
+      "líquida"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.465,
+     "e": 27.545,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.545,
+     "e": 27.965,
+     "w": "derrama",
+     "a": [
+      "derrama"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.965,
+     "e": 28.185,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.185,
+     "e": 28.405,
+     "w": "ahí.",
+     "a": [
+      "ahí"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.69,
+     "e": 28.865,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.865,
+     "e": 29.045,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.045,
+     "e": 29.305,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.305,
+     "e": 29.505,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.505,
+     "e": 29.765,
+     "w": "tinta",
+     "a": [
+      "tinta"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.765,
+     "e": 30.405,
+     "w": "espesa",
+     "a": [
+      "espesa"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.405,
+     "e": 30.695,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.695,
+     "e": 31.115,
+     "w": "pasta",
+     "a": [
+      "pasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.115,
+     "e": 31.425,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.425,
+     "e": 31.565,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.565,
+     "e": 31.705,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.705,
+     "e": 32.39,
+     "w": "escurra.",
+     "a": [
+      "escurra"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "u7",
+   "sfx": [
+    [
+     "pop",
+     "ojito"
+    ],
+    [
+     "coin",
+     "cuerpo.",
+     3
+    ]
+   ],
+   "start": 32.27,
+   "dur": 12.82,
+   "text": "Pero el tubito va metido dentro del cuerpo de la pluma, que está cerrado y el aire no llega. Así que le haces un ojito al cuerpo, a un lado. Por ahí entra aire y la presión se iguala. Ese es el ojito del cuerpo.",
+   "words": [
+    {
+     "t": 32.39,
+     "e": 32.515,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.515,
+     "e": 32.635,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.635,
+     "e": 33.055,
+     "w": "tubito",
+     "a": [
+      "tubito"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.055,
+     "e": 33.255,
+     "w": "va",
+     "a": [
+      "va"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.255,
+     "e": 33.655,
+     "w": "metido",
+     "a": [
+      "metido"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.655,
+     "e": 34.035,
+     "w": "dentro",
+     "a": [
+      "dentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.035,
+     "e": 34.295,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.295,
+     "e": 34.535,
+     "w": "cuerpo",
+     "a": [
+      "cuerpo"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.535,
+     "e": 34.755,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.755,
+     "e": 34.875,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.875,
+     "e": 35.195,
+     "w": "pluma,",
+     "a": [
+      "pluma"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.42,
+     "e": 35.515,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.515,
+     "e": 35.715,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.715,
+     "e": 36.155,
+     "w": "cerrado",
+     "a": [
+      "cerrado"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.155,
+     "e": 36.395,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.395,
+     "e": 36.555,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.555,
+     "e": 36.735,
+     "w": "aire",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.735,
+     "e": 37.115,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.115,
+     "e": 37.415,
+     "w": "llega.",
+     "a": [
+      "llega"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.74,
+     "e": 37.915,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.915,
+     "e": 38.075,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.075,
+     "e": 38.195,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.195,
+     "e": 38.415,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.415,
+     "e": 38.635,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.635,
+     "e": 38.995,
+     "w": "ojito",
+     "a": [
+      "ojito"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.995,
+     "e": 39.135,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.135,
+     "e": 39.575,
+     "w": "cuerpo,",
+     "a": [
+      "cuerpo"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.855,
+     "e": 39.935,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.935,
+     "e": 40.035,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.035,
+     "e": 40.275,
+     "w": "lado.",
+     "a": [
+      "lado"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.63,
+     "e": 40.785,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.785,
+     "e": 41.025,
+     "w": "ahí",
+     "a": [
+      "ahí"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.025,
+     "e": 41.305,
+     "w": "entra",
+     "a": [
+      "entra"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.305,
+     "e": 41.625,
+     "w": "aire",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.625,
+     "e": 41.925,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.925,
+     "e": 42.025,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.025,
+     "e": 42.445,
+     "w": "presión",
+     "a": [
+      "presión"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.445,
+     "e": 42.605,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.605,
+     "e": 43.28,
+     "w": "iguala.",
+     "a": [
+      "iguala"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.28,
+     "e": 43.615,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.615,
+     "e": 43.875,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.875,
+     "e": 44.035,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.035,
+     "e": 44.335,
+     "w": "ojito",
+     "a": [
+      "ojito"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.335,
+     "e": 44.535,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.535,
+     "e": 44.895,
+     "w": "cuerpo.",
+     "a": [
+      "cuerpo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "u8",
+   "sfx": [
+    [
+     "thud",
+     "tapa"
+    ]
+   ],
+   "start": 45.09,
+   "dur": 6.64,
+   "text": "Pero el aire seca la tinta de la bolita si la dejas destapada. Así que la tapa cubre la punta para que no se seque.",
+   "words": [
+    {
+     "t": 45.21,
+     "e": 45.355,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.355,
+     "e": 45.515,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.515,
+     "e": 45.695,
+     "w": "aire",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.695,
+     "e": 46.215,
+     "w": "seca",
+     "a": [
+      "seca"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.215,
+     "e": 46.355,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.355,
+     "e": 46.655,
+     "w": "tinta",
+     "a": [
+      "tinta"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.655,
+     "e": 46.815,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.815,
+     "e": 46.915,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.915,
+     "e": 47.335,
+     "w": "bolita",
+     "a": [
+      "bolita"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.335,
+     "e": 47.535,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.535,
+     "e": 47.655,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.655,
+     "e": 47.895,
+     "w": "dejas",
+     "a": [
+      "dejas"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.895,
+     "e": 48.475,
+     "w": "destapada.",
+     "a": [
+      "destapada"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.77,
+     "e": 48.955,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.955,
+     "e": 49.115,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.115,
+     "e": 49.235,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.235,
+     "e": 49.535,
+     "w": "tapa",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.535,
+     "e": 50.055,
+     "w": "cubre",
+     "a": [
+      "cubre"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.055,
+     "e": 50.195,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.195,
+     "e": 50.595,
+     "w": "punta",
+     "a": [
+      "punta"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.595,
+     "e": 50.835,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.835,
+     "e": 50.995,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.995,
+     "e": 51.135,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.135,
+     "e": 51.275,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.275,
+     "e": 51.595,
+     "w": "seque.",
+     "a": [
+      "seque"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "u9",
+   "sfx": [
+    [
+     "pop",
+     "ojito"
+    ],
+    [
+     "coin",
+     "seguridad."
+    ]
+   ],
+   "start": 51.73,
+   "dur": 10.47,
+   "text": "¿Y el ojito de la tapa? Muchos niños se tragan las tapas y se les atoran en la garganta. Ese ojito deja pasar aire mientras llega la ayuda. Esa es la tapa de seguridad.",
+   "words": [
+    {
+     "t": 51.85,
+     "e": 51.975,
+     "w": "¿Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.975,
+     "e": 52.075,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.075,
+     "e": 52.375,
+     "w": "ojito",
+     "a": [
+      "ojito"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.375,
+     "e": 52.495,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.495,
+     "e": 52.595,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.595,
+     "e": 52.855,
+     "w": "tapa?",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.23,
+     "e": 53.605,
+     "w": "Muchos",
+     "a": [
+      "muchos"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.605,
+     "e": 53.945,
+     "w": "niños",
+     "a": [
+      "niños"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.945,
+     "e": 54.225,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.225,
+     "e": 54.685,
+     "w": "tragan",
+     "a": [
+      "tragan"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.685,
+     "e": 54.865,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.865,
+     "e": 55.345,
+     "w": "tapas",
+     "a": [
+      "tapas"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.345,
+     "e": 55.525,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.525,
+     "e": 55.625,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.625,
+     "e": 55.745,
+     "w": "les",
+     "a": [
+      "les"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.745,
+     "e": 56.205,
+     "w": "atoran",
+     "a": [
+      "atoran"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.205,
+     "e": 56.305,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.305,
+     "e": 56.405,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.405,
+     "e": 56.885,
+     "w": "garganta.",
+     "a": [
+      "garganta"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.2,
+     "e": 57.435,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.435,
+     "e": 57.875,
+     "w": "ojito",
+     "a": [
+      "ojito"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.875,
+     "e": 58.215,
+     "w": "deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.215,
+     "e": 58.515,
+     "w": "pasar",
+     "a": [
+      "pasar"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.515,
+     "e": 58.875,
+     "w": "aire",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.875,
+     "e": 59.195,
+     "w": "mientras",
+     "a": [
+      "mientras"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.195,
+     "e": 59.555,
+     "w": "llega",
+     "a": [
+      "llega"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.555,
+     "e": 59.675,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.675,
+     "e": 59.735,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.735,
+     "e": 60.015,
+     "w": "ayuda.",
+     "a": [
+      "ayuda"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.33,
+     "e": 60.685,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.685,
+     "e": 60.925,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.925,
+     "e": 61.065,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.065,
+     "e": 61.345,
+     "w": "tapa",
+     "a": [
+      "tapa"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.345,
+     "e": 61.505,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.505,
+     "e": 61.925,
+     "w": "seguridad.",
+     "a": [
+      "seguridad"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "u10",
+   "sfx": [
+    [
+     "pop",
+     "círculos."
+    ]
+   ],
+   "start": 62.2,
+   "dur": 7.49,
+   "text": "Si tu pluma deja de escribir y todavía tiene tinta, calienta la punta con tu mano y raya en círculos.",
+   "words": [
+    {
+     "t": 62.32,
+     "e": 62.465,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.465,
+     "e": 62.585,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.585,
+     "e": 62.905,
+     "w": "pluma",
+     "a": [
+      "pluma"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.905,
+     "e": 63.185,
+     "w": "deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.185,
+     "e": 63.345,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.345,
+     "e": 63.98,
+     "w": "escribir",
+     "a": [
+      "escribir"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.98,
+     "e": 64.065,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.065,
+     "e": 64.465,
+     "w": "todavía",
+     "a": [
+      "todavía"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.465,
+     "e": 64.765,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.765,
+     "e": 65.205,
+     "w": "tinta,",
+     "a": [
+      "tinta"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.515,
+     "e": 65.935,
+     "w": "calienta",
+     "a": [
+      "calienta"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.935,
+     "e": 66.035,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.035,
+     "e": 66.375,
+     "w": "punta",
+     "a": [
+      "punta"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.375,
+     "e": 66.535,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.535,
+     "e": 66.655,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.655,
+     "e": 66.935,
+     "w": "mano",
+     "a": [
+      "mano"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.935,
+     "e": 67.255,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.255,
+     "e": 67.635,
+     "w": "raya",
+     "a": [
+      "raya"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.635,
+     "e": 67.775,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.775,
+     "e": 68.195,
+     "w": "círculos.",
+     "a": [
+      "círculos"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}
