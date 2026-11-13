@@ -1,0 +1,2404 @@
+{
+ "id": "licuadora",
+ "duration": 81.71,
+ "beats": [
+  {
+   "scene": "q1",
+   "sfx": [
+    [
+     "thud",
+     "motor"
+    ],
+    [
+     "pop",
+     "cuchillas"
+    ],
+    [
+     "coin",
+     "licuadora."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 4.55,
+   "text": "Si pones un motor abajo y unas cuchillas arriba, ya tienes una licuadora.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.295,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.295,
+     "e": 0.535,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.535,
+     "e": 0.715,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.715,
+     "e": 0.975,
+     "w": "motor",
+     "a": [
+      "motor"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.975,
+     "e": 1.375,
+     "w": "abajo",
+     "a": [
+      "abajo"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.375,
+     "e": 1.755,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.755,
+     "e": 1.955,
+     "w": "unas",
+     "a": [
+      "unas"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.955,
+     "e": 2.355,
+     "w": "cuchillas",
+     "a": [
+      "cuchillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.355,
+     "e": 2.755,
+     "w": "arriba,",
+     "a": [
+      "arriba"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.11,
+     "e": 3.325,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.325,
+     "e": 3.645,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.645,
+     "e": 3.845,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.845,
+     "e": 4.285,
+     "w": "licuadora.",
+     "a": [
+      "licuadora"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "q2",
+   "sfx": [
+    [
+     "splash",
+     "remolino."
+    ]
+   ],
+   "start": 4.55,
+   "dur": 4.61,
+   "text": "Pero unas cuchillas planas solo hacen girar la comida, como remolino.",
+   "words": [
+    {
+     "t": 4.67,
+     "e": 4.855,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.855,
+     "e": 5.275,
+     "w": "unas",
+     "a": [
+      "unas"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.275,
+     "e": 5.715,
+     "w": "cuchillas",
+     "a": [
+      "cuchillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.715,
+     "e": 6.415,
+     "w": "planas",
+     "a": [
+      "planas"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.415,
+     "e": 6.755,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.755,
+     "e": 7.075,
+     "w": "hacen",
+     "a": [
+      "hacen"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.075,
+     "e": 7.575,
+     "w": "girar",
+     "a": [
+      "girar"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.575,
+     "e": 7.715,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.715,
+     "e": 8.075,
+     "w": "comida,",
+     "a": [
+      "comida"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.29,
+     "e": 8.455,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.455,
+     "e": 8.995,
+     "w": "remolino.",
+     "a": [
+      "remolino"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "q3",
+   "sfx": [
+    [
+     "pop",
+     "arriba"
+    ],
+    [
+     "pop",
+     "abajo,"
+    ],
+    [
+     "coin",
+     "cuchillas.",
+     2
+    ]
+   ],
+   "start": 9.16,
+   "dur": 7.76,
+   "text": "Así que doblas unas aspas hacia arriba y otras hacia abajo, para que corten a diferentes alturas. Esas son las cuchillas.",
+   "words": [
+    {
+     "t": 9.28,
+     "e": 9.445,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.445,
+     "e": 9.665,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.665,
+     "e": 10.205,
+     "w": "doblas",
+     "a": [
+      "doblas"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.205,
+     "e": 10.385,
+     "w": "unas",
+     "a": [
+      "unas"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.385,
+     "e": 10.805,
+     "w": "aspas",
+     "a": [
+      "aspas"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.805,
+     "e": 11.065,
+     "w": "hacia",
+     "a": [
+      "hacia"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.065,
+     "e": 11.405,
+     "w": "arriba",
+     "a": [
+      "arriba"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.405,
+     "e": 11.815,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.815,
+     "e": 12.095,
+     "w": "otras",
+     "a": [
+      "otras"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.095,
+     "e": 12.415,
+     "w": "hacia",
+     "a": [
+      "hacia"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.415,
+     "e": 12.755,
+     "w": "abajo,",
+     "a": [
+      "abajo"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.02,
+     "e": 13.155,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.155,
+     "e": 13.295,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.295,
+     "e": 13.735,
+     "w": "corten",
+     "a": [
+      "corten"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.735,
+     "e": 13.835,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.835,
+     "e": 14.135,
+     "w": "diferentes",
+     "a": [
+      "diferentes"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.135,
+     "e": 14.775,
+     "w": "alturas.",
+     "a": [
+      "alturas"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.235,
+     "e": 15.595,
+     "w": "Esas",
+     "a": [
+      "esas"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.595,
+     "e": 15.975,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.975,
+     "e": 16.135,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.135,
+     "e": 16.615,
+     "w": "cuchillas.",
+     "a": [
+      "cuchillas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "q4",
+   "sfx": [
+    [
+     "splash",
+     "sale"
+    ],
+    [
+     "pop",
+     "anillo"
+    ],
+    [
+     "coin",
+     "empaque."
+    ]
+   ],
+   "start": 16.92,
+   "dur": 7.825,
+   "text": "Pero el líquido se sale por donde pasa el eje. Así que le pones un anillo de hule bien apretado alrededor del eje. Ese es el empaque.",
+   "words": [
+    {
+     "t": 17.04,
+     "e": 17.175,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.175,
+     "e": 17.355,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.355,
+     "e": 17.715,
+     "w": "líquido",
+     "a": [
+      "líquido"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.715,
+     "e": 17.915,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.915,
+     "e": 18.195,
+     "w": "sale",
+     "a": [
+      "sale"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.195,
+     "e": 18.375,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.375,
+     "e": 18.575,
+     "w": "donde",
+     "a": [
+      "donde"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.575,
+     "e": 18.895,
+     "w": "pasa",
+     "a": [
+      "pasa"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.895,
+     "e": 19.095,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.095,
+     "e": 19.275,
+     "w": "eje.",
+     "a": [
+      "eje"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.615,
+     "e": 19.755,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.755,
+     "e": 19.995,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.995,
+     "e": 20.235,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.235,
+     "e": 20.495,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.495,
+     "e": 20.675,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.675,
+     "e": 20.975,
+     "w": "anillo",
+     "a": [
+      "anillo"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.975,
+     "e": 21.135,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.135,
+     "e": 21.415,
+     "w": "hule",
+     "a": [
+      "hule"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.415,
+     "e": 21.815,
+     "w": "bien",
+     "a": [
+      "bien"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.815,
+     "e": 22.415,
+     "w": "apretado",
+     "a": [
+      "apretado"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.415,
+     "e": 22.735,
+     "w": "alrededor",
+     "a": [
+      "alrededor"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.735,
+     "e": 23.215,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.215,
+     "e": 23.435,
+     "w": "eje.",
+     "a": [
+      "eje"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.77,
+     "e": 24.085,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.085,
+     "e": 24.385,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.385,
+     "e": 24.505,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.505,
+     "e": 24.865,
+     "w": "empaque.",
+     "a": [
+      "empaque"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "q5",
+   "sfx": [
+    [
+     "splash",
+     "salpica"
+    ],
+    [
+     "pop",
+     "velocidades"
+    ],
+    [
+     "gavel",
+     "pulso,"
+    ]
+   ],
+   "start": 24.745,
+   "dur": 9.805,
+   "text": "Pero si arranca de golpe a toda velocidad, salpica todo. Así que le pones varias velocidades y un botón de pulso, que gira solo mientras lo aprietas.",
+   "words": [
+    {
+     "t": 24.865,
+     "e": 25.525,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.525,
+     "e": 25.705,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.705,
+     "e": 26.085,
+     "w": "arranca",
+     "a": [
+      "arranca"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.085,
+     "e": 26.245,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.245,
+     "e": 26.525,
+     "w": "golpe",
+     "a": [
+      "golpe"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.525,
+     "e": 26.705,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.705,
+     "e": 26.945,
+     "w": "toda",
+     "a": [
+      "toda"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.945,
+     "e": 27.485,
+     "w": "velocidad,",
+     "a": [
+      "velocidad"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.925,
+     "e": 28.405,
+     "w": "salpica",
+     "a": [
+      "salpica"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.405,
+     "e": 28.765,
+     "w": "todo.",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.065,
+     "e": 29.265,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.265,
+     "e": 29.485,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.485,
+     "e": 29.705,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.705,
+     "e": 29.925,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.925,
+     "e": 30.305,
+     "w": "varias",
+     "a": [
+      "varias"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.305,
+     "e": 31.045,
+     "w": "velocidades",
+     "a": [
+      "velocidades"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.045,
+     "e": 31.345,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.345,
+     "e": 31.505,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.505,
+     "e": 31.805,
+     "w": "botón",
+     "a": [
+      "botón"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.805,
+     "e": 31.925,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.925,
+     "e": 32.345,
+     "w": "pulso,",
+     "a": [
+      "pulso"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.53,
+     "e": 32.625,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.625,
+     "e": 32.865,
+     "w": "gira",
+     "a": [
+      "gira"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.865,
+     "e": 33.245,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.245,
+     "e": 33.525,
+     "w": "mientras",
+     "a": [
+      "mientras"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.525,
+     "e": 33.825,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.825,
+     "e": 34.345,
+     "w": "aprietas.",
+     "a": [
+      "aprietas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "q6",
+   "sfx": [
+    [
+     "pop",
+     "costillas"
+    ],
+    [
+     "thud",
+     "frenan"
+    ]
+   ],
+   "start": 34.55,
+   "dur": 10.36,
+   "text": "Pero la comida gira junto con las cuchillas y no se corta. Así que al vaso le haces esquinas o costillas por dentro, que frenan la comida y la regresan a las cuchillas.",
+   "words": [
+    {
+     "t": 34.67,
+     "e": 34.795,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.795,
+     "e": 34.935,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.935,
+     "e": 35.235,
+     "w": "comida",
+     "a": [
+      "comida"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.235,
+     "e": 35.635,
+     "w": "gira",
+     "a": [
+      "gira"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.635,
+     "e": 35.975,
+     "w": "junto",
+     "a": [
+      "junto"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.975,
+     "e": 36.255,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.255,
+     "e": 36.415,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.415,
+     "e": 36.875,
+     "w": "cuchillas",
+     "a": [
+      "cuchillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.875,
+     "e": 37.195,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.195,
+     "e": 37.395,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.395,
+     "e": 37.575,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.575,
+     "e": 37.995,
+     "w": "corta.",
+     "a": [
+      "corta"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.25,
+     "e": 38.425,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.425,
+     "e": 38.625,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.625,
+     "e": 38.925,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.925,
+     "e": 39.325,
+     "w": "vaso",
+     "a": [
+      "vaso"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.325,
+     "e": 39.525,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.525,
+     "e": 39.765,
+     "w": "haces",
+     "a": [
+      "haces"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.765,
+     "e": 40.325,
+     "w": "esquinas",
+     "a": [
+      "esquinas"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.325,
+     "e": 40.625,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.625,
+     "e": 41.105,
+     "w": "costillas",
+     "a": [
+      "costillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.105,
+     "e": 41.365,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.365,
+     "e": 41.705,
+     "w": "dentro,",
+     "a": [
+      "dentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.97,
+     "e": 42.065,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.065,
+     "e": 42.485,
+     "w": "frenan",
+     "a": [
+      "frenan"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.485,
+     "e": 42.625,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.625,
+     "e": 42.925,
+     "w": "comida",
+     "a": [
+      "comida"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.925,
+     "e": 43.265,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.265,
+     "e": 43.385,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.385,
+     "e": 43.925,
+     "w": "regresan",
+     "a": [
+      "regresan"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.925,
+     "e": 44.005,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.005,
+     "e": 44.145,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.145,
+     "e": 44.585,
+     "w": "cuchillas.",
+     "a": [
+      "cuchillas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "q7",
+   "sfx": [
+    [
+     "thunder",
+     "calienta."
+    ],
+    [
+     "pop",
+     "ventilador"
+    ]
+   ],
+   "start": 44.91,
+   "dur": 7.45,
+   "text": "Pero el motor gira tan rápido que se calienta. Así que abajo le pones un ventilador y rejillas en la base, para que respire.",
+   "words": [
+    {
+     "t": 45.03,
+     "e": 45.165,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.165,
+     "e": 45.285,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.285,
+     "e": 45.525,
+     "w": "motor",
+     "a": [
+      "motor"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.525,
+     "e": 45.845,
+     "w": "gira",
+     "a": [
+      "gira"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.845,
+     "e": 46.155,
+     "w": "tan",
+     "a": [
+      "tan"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.155,
+     "e": 46.595,
+     "w": "rápido",
+     "a": [
+      "rápido"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.595,
+     "e": 46.835,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.835,
+     "e": 46.975,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.975,
+     "e": 47.76,
+     "w": "calienta.",
+     "a": [
+      "calienta"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.76,
+     "e": 47.915,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.915,
+     "e": 48.135,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.135,
+     "e": 48.595,
+     "w": "abajo",
+     "a": [
+      "abajo"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.595,
+     "e": 48.915,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.915,
+     "e": 49.175,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.175,
+     "e": 49.335,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.335,
+     "e": 49.915,
+     "w": "ventilador",
+     "a": [
+      "ventilador"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.915,
+     "e": 50.155,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.155,
+     "e": 50.615,
+     "w": "rejillas",
+     "a": [
+      "rejillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.615,
+     "e": 50.815,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.815,
+     "e": 50.935,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.935,
+     "e": 51.215,
+     "w": "base,",
+     "a": [
+      "base"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.45,
+     "e": 51.595,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.595,
+     "e": 51.735,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.735,
+     "e": 52.215,
+     "w": "respire.",
+     "a": [
+      "respire"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "q8",
+   "sfx": [
+    [
+     "thud",
+     "duro."
+    ],
+    [
+     "gavel",
+     "atora"
+    ],
+    [
+     "thunder",
+     "quema."
+    ]
+   ],
+   "start": 52.36,
+   "dur": 6.9,
+   "text": "Pero un día metes algo muy duro. La cuchilla se atora y el motor sigue empujando. Se calienta y se quema.",
+   "words": [
+    {
+     "t": 52.48,
+     "e": 52.595,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.595,
+     "e": 52.795,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.795,
+     "e": 52.995,
+     "w": "día",
+     "a": [
+      "día"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.995,
+     "e": 53.315,
+     "w": "metes",
+     "a": [
+      "metes"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.315,
+     "e": 53.555,
+     "w": "algo",
+     "a": [
+      "algo"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.555,
+     "e": 53.975,
+     "w": "muy",
+     "a": [
+      "muy"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.975,
+     "e": 54.335,
+     "w": "duro.",
+     "a": [
+      "duro"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.635,
+     "e": 54.735,
+     "w": "La",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.735,
+     "e": 55.095,
+     "w": "cuchilla",
+     "a": [
+      "cuchilla"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.095,
+     "e": 55.275,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.275,
+     "e": 55.635,
+     "w": "atora",
+     "a": [
+      "atora"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.635,
+     "e": 55.885,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.885,
+     "e": 56.005,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.005,
+     "e": 56.225,
+     "w": "motor",
+     "a": [
+      "motor"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.225,
+     "e": 56.685,
+     "w": "sigue",
+     "a": [
+      "sigue"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.685,
+     "e": 57.325,
+     "w": "empujando.",
+     "a": [
+      "empujando"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.665,
+     "e": 57.745,
+     "w": "Se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.745,
+     "e": 58.365,
+     "w": "calienta",
+     "a": [
+      "calienta"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.365,
+     "e": 58.615,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.615,
+     "e": 58.775,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.775,
+     "e": 59.075,
+     "w": "quema.",
+     "a": [
+      "quema"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "q9",
+   "sfx": [
+    [
+     "pop",
+     "pieza"
+    ],
+    [
+     "thunder",
+     "barre"
+    ],
+    [
+     "coin",
+     "acoplador."
+    ]
+   ],
+   "start": 59.26,
+   "dur": 10.96,
+   "text": "Así que entre el motor y las cuchillas, pones una pieza de hule o plástico más débil. Si algo se atora, esa pieza se barre primero y el motor se salva. Ese es el acoplador.",
+   "words": [
+    {
+     "t": 59.38,
+     "e": 59.565,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.565,
+     "e": 59.765,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.765,
+     "e": 60.125,
+     "w": "entre",
+     "a": [
+      "entre"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.125,
+     "e": 60.285,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.285,
+     "e": 60.585,
+     "w": "motor",
+     "a": [
+      "motor"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.585,
+     "e": 60.845,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.845,
+     "e": 61.025,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.025,
+     "e": 61.465,
+     "w": "cuchillas,",
+     "a": [
+      "cuchillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.75,
+     "e": 61.925,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.925,
+     "e": 62.145,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.145,
+     "e": 62.525,
+     "w": "pieza",
+     "a": [
+      "pieza"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.525,
+     "e": 62.645,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.645,
+     "e": 62.945,
+     "w": "hule",
+     "a": [
+      "hule"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.945,
+     "e": 63.145,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.145,
+     "e": 63.585,
+     "w": "plástico",
+     "a": [
+      "plástico"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.585,
+     "e": 63.945,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.945,
+     "e": 64.285,
+     "w": "débil.",
+     "a": [
+      "débil"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.57,
+     "e": 64.735,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.735,
+     "e": 64.955,
+     "w": "algo",
+     "a": [
+      "algo"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.955,
+     "e": 65.115,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.115,
+     "e": 65.455,
+     "w": "atora,",
+     "a": [
+      "atora"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.72,
+     "e": 65.925,
+     "w": "esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.925,
+     "e": 66.325,
+     "w": "pieza",
+     "a": [
+      "pieza"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.325,
+     "e": 66.465,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.465,
+     "e": 66.725,
+     "w": "barre",
+     "a": [
+      "barre"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.725,
+     "e": 67.105,
+     "w": "primero",
+     "a": [
+      "primero"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.105,
+     "e": 67.395,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.395,
+     "e": 67.515,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.515,
+     "e": 67.795,
+     "w": "motor",
+     "a": [
+      "motor"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.795,
+     "e": 68.015,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.015,
+     "e": 68.415,
+     "w": "salva.",
+     "a": [
+      "salva"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.71,
+     "e": 69.045,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.045,
+     "e": 69.345,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.345,
+     "e": 69.505,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.505,
+     "e": 69.985,
+     "w": "acoplador.",
+     "a": [
+      "acoplador"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "q10",
+   "sfx": [
+    [
+     "coin",
+     "barato"
+    ]
+   ],
+   "start": 70.22,
+   "dur": 4.095,
+   "text": "Por eso se rompe. Es mucho más barato cambiarlo que comprar otro motor.",
+   "words": [
+    {
+     "t": 70.34,
+     "e": 70.485,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.485,
+     "e": 70.625,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.625,
+     "e": 70.805,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.805,
+     "e": 71.145,
+     "w": "rompe.",
+     "a": [
+      "rompe"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.455,
+     "e": 71.595,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.595,
+     "e": 71.935,
+     "w": "mucho",
+     "a": [
+      "mucho"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.935,
+     "e": 72.135,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.135,
+     "e": 72.495,
+     "w": "barato",
+     "a": [
+      "barato"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.495,
+     "e": 73.115,
+     "w": "cambiarlo",
+     "a": [
+      "cambiarlo"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.115,
+     "e": 73.315,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.315,
+     "e": 73.675,
+     "w": "comprar",
+     "a": [
+      "comprar"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.675,
+     "e": 74.075,
+     "w": "otro",
+     "a": [
+      "otro"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.075,
+     "e": 74.435,
+     "w": "motor.",
+     "a": [
+      "motor"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "q11",
+   "sfx": [
+    [
+     "thud",
+     "giran,"
+    ],
+    [
+     "coin",
+     "acoplador."
+    ]
+   ],
+   "start": 74.315,
+   "dur": 7.395,
+   "text": "Si tu licuadora suena, pero las cuchillas no giran, no está descompuesta, solo cambia el acoplador.",
+   "words": [
+    {
+     "t": 74.435,
+     "e": 74.855,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.855,
+     "e": 74.975,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.975,
+     "e": 75.395,
+     "w": "licuadora",
+     "a": [
+      "licuadora"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.395,
+     "e": 75.915,
+     "w": "suena,",
+     "a": [
+      "suena"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.115,
+     "e": 76.195,
+     "w": "pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.195,
+     "e": 76.355,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.355,
+     "e": 76.775,
+     "w": "cuchillas",
+     "a": [
+      "cuchillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.775,
+     "e": 77.055,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.055,
+     "e": 77.495,
+     "w": "giran,",
+     "a": [
+      "giran"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.745,
+     "e": 77.865,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.865,
+     "e": 78.045,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.045,
+     "e": 78.685,
+     "w": "descompuesta,",
+     "a": [
+      "descompuesta"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.995,
+     "e": 79.255,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 79.255,
+     "e": 79.755,
+     "w": "cambia",
+     "a": [
+      "cambia"
+     ],
+     "k": false
+    },
+    {
+     "t": 79.755,
+     "e": 79.855,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 79.855,
+     "e": 80.335,
+     "w": "acoplador.",
+     "a": [
+      "acoplador"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}

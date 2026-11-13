@@ -1,0 +1,17 @@
+{
+ "id": "licuadora",
+ "estilo": {"subtitulos": false},
+ "beats": [
+  {"scene": "q1", "text": "Si pones un motor abajo y unas cuchillas arriba, ya tienes una licuadora.", "keys": [], "sfx": [["thud", "motor"], ["pop", "cuchillas"], ["coin", "licuadora."]]},
+  {"scene": "q2", "text": "Pero unas cuchillas planas solo hacen girar la comida, como remolino.", "keys": [], "sfx": [["splash", "remolino."]]},
+  {"scene": "q3", "text": "Así que doblas unas aspas hacia arriba y otras hacia abajo, para que corten a diferentes alturas. Esas son las cuchillas.", "keys": [], "sfx": [["pop", "arriba"], ["pop", "abajo,"], ["coin", "cuchillas.", 2]]},
+  {"scene": "q4", "text": "Pero el líquido se sale por donde pasa el eje. Así que le pones un anillo de hule bien apretado alrededor del eje. Ese es el empaque.", "keys": [], "sfx": [["splash", "sale"], ["pop", "anillo"], ["coin", "empaque."]]},
+  {"scene": "q5", "text": "Pero si arranca de golpe a toda velocidad, salpica todo. Así que le pones varias velocidades y un botón de pulso, que gira solo mientras lo aprietas.", "keys": [], "sfx": [["splash", "salpica"], ["pop", "velocidades"], ["gavel", "pulso,"]]},
+  {"scene": "q6", "text": "Pero la comida gira junto con las cuchillas y no se corta. Así que al vaso le haces esquinas o costillas por dentro, que frenan la comida y la regresan a las cuchillas.", "keys": [], "sfx": [["pop", "costillas"], ["thud", "frenan"]]},
+  {"scene": "q7", "text": "Pero el motor gira tan rápido que se calienta. Así que abajo le pones un ventilador y rejillas en la base, para que respire.", "keys": [], "sfx": [["thunder", "calienta."], ["pop", "ventilador"]]},
+  {"scene": "q8", "text": "Pero un día metes algo muy duro. La cuchilla se atora y el motor sigue empujando. Se calienta y se quema.", "keys": [], "sfx": [["thud", "duro."], ["gavel", "atora"], ["thunder", "quema."]]},
+  {"scene": "q9", "text": "Así que entre el motor y las cuchillas, pones una pieza de hule o plástico más débil. Si algo se atora, esa pieza se barre primero y el motor se salva. Ese es el acoplador.", "keys": [], "sfx": [["pop", "pieza"], ["thunder", "barre"], ["coin", "acoplador."]]},
+  {"scene": "q10", "text": "Por eso se rompe. Es mucho más barato cambiarlo que comprar otro motor.", "keys": [], "sfx": [["coin", "barato"]]},
+  {"scene": "q11", "text": "Si tu licuadora suena, pero las cuchillas no giran, no está descompuesta, solo cambia el acoplador.", "keys": [], "sfx": [["thud", "giran,"], ["coin", "acoplador."]]}
+ ]
+}
