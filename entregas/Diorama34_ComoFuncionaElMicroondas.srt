@@ -1,0 +1,88 @@
+1
+00:00:00,000 --> 00:00:02,000
+Tu microondas no calienta la comida
+
+2
+00:00:02,020 --> 00:00:04,040
+desde adentro, y la puerta tiene un
+
+3
+00:00:04,060 --> 00:00:05,280
+truco que te protege.
+
+4
+00:00:05,300 --> 00:00:07,760
+Adentro hay una pieza llamada magnetrón,
+
+5
+00:00:07,780 --> 00:00:09,560
+que dispara ondas invisibles.
+
+6
+00:00:09,680 --> 00:00:11,740
+Esas ondas hacen girar las moléculas
+
+7
+00:00:11,760 --> 00:00:13,680
+de agua de la comida, para un lado y
+
+8
+00:00:13,700 --> 00:00:15,760
+para el otro, miles de millones de veces
+
+9
+00:00:15,780 --> 00:00:16,660
+por segundo.
+
+10
+00:00:16,720 --> 00:00:18,700
+Ese movimiento se convierte en calor,
+
+11
+00:00:18,720 --> 00:00:20,460
+empezando por los primeros centímetros
+
+12
+00:00:20,480 --> 00:00:21,220
+de afuera.
+
+13
+00:00:21,240 --> 00:00:23,180
+El plato gira porque las ondas dejan
+
+14
+00:00:23,200 --> 00:00:25,120
+zonas calientes y zonas frías.
+
+15
+00:00:25,240 --> 00:00:27,400
+Girando, todo se calienta más parejo.
+
+16
+00:00:27,420 --> 00:00:29,240
+Y la puerta tiene una malla de metal
+
+17
+00:00:29,260 --> 00:00:30,640
+con agujeros chiquitos.
+
+18
+00:00:30,660 --> 00:00:32,860
+Las ondas son más grandes que los agujeros,
+
+19
+00:00:32,880 --> 00:00:34,300
+así que no pueden salir.
+
+20
+00:00:34,360 --> 00:00:36,740
+Pero la luz sí, y por eso ves la comida.
+
+21
+00:00:36,900 --> 00:00:38,400
+¿Tú también le das vueltas a la comida
+
+22
+00:00:38,420 --> 00:00:39,020
+a la mitad?
+
