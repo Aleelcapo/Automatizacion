@@ -1,0 +1,80 @@
+1
+00:00:00,000 --> 00:00:02,220
+Cuando metes la llave, en realidad estás
+
+2
+00:00:02,240 --> 00:00:04,520
+acomodando cinco pequeños pernos.
+
+3
+00:00:04,580 --> 00:00:06,380
+Dentro de la cerradura hay un cilindro
+
+4
+00:00:06,400 --> 00:00:08,520
+que gira y encima una fila de pernos
+
+5
+00:00:08,540 --> 00:00:11,240
+partidos en dos, empujados por resortes.
+
+6
+00:00:11,260 --> 00:00:13,180
+Sin llave, la mitad de arriba de cada
+
+7
+00:00:13,200 --> 00:00:15,180
+perno queda trabando el cilindro y no
+
+8
+00:00:15,200 --> 00:00:15,600
+gira.
+
+9
+00:00:15,620 --> 00:00:17,500
+Cada diente de tu llave tiene una altura
+
+10
+00:00:17,520 --> 00:00:20,200
+distinta y empuja cada perno justo hasta
+
+11
+00:00:20,220 --> 00:00:21,360
+donde está el corte.
+
+12
+00:00:21,380 --> 00:00:23,400
+Cuando todos los cortes quedan alineados
+
+13
+00:00:23,420 --> 00:00:25,320
+en la misma línea, el cilindro queda
+
+14
+00:00:25,340 --> 00:00:26,260
+libre y gira.
+
+15
+00:00:26,280 --> 00:00:28,180
+Si usas la llave equivocada, aunque
+
+16
+00:00:28,200 --> 00:00:30,680
+sea un solo perno quede alto o bajo,
+
+17
+00:00:30,780 --> 00:00:32,000
+la puerta no abre.
+
+18
+00:00:32,020 --> 00:00:33,960
+Por eso hay millones de combinaciones
+
+19
+00:00:33,980 --> 00:00:34,840
+distintas.
+
+20
+00:00:34,860 --> 00:00:36,940
+¿Alguna vez te quedaste afuera sin llave?
+
