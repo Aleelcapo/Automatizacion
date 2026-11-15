@@ -53,19 +53,42 @@ for (const [s, n] of [[-1, 1], [1, 2]]) {
   box(.4, .55, .08, '#d9eef8', -s * (DW - .06) / 2, 1.55, 0, { parent: hinge, t: .01 });
   box(.05, .2, .1, '#c9cfd4', -s * (DW - .2), 1.05, .05, { parent: hinge, t: .008 });
   // cuarto
-  const RZ = ZB - .1, RD = 3.2, RW = 3.0, inside = toon('#fbeed0', null, REVEAL ? { emissive: n === 2 ? '#ff2a1a' : '#000000', emissiveIntensity: n === 2 ? .45 : 0, color: n === 1 ? '#8c8778' : '#fbeed0' } : {});
+  const RZ = ZB - .1, RD = 3.2, RW = 3.0, inside = toon('#e6f3f4', null, REVEAL ? { emissive: n === 2 ? '#ff2a1a' : '#000000', emissiveIntensity: n === 2 ? .45 : 0, color: n === 1 ? '#7f8c8e' : '#e6f3f4' } : {});
   const rm = new THREE.Group(); S.add(rm);
   const rp = (w, h, x, y, z, rx, ry, c) => { const m = new THREE.Mesh(new THREE.PlaneGeometry(w, h), c ? toon(c) : inside); m.position.set(x, y, z); m.rotation.set(rx, ry, 0); rm.add(m); return m; };
   rp(RW, HG, cx, HG / 2, RZ - RD, 0, 0);                                   // fondo
   rp(RD, HG, cx - RW / 2, HG / 2, RZ - RD / 2, 0, Math.PI / 2);             // lados
   rp(RD, HG, cx + RW / 2, HG / 2, RZ - RD / 2, 0, -Math.PI / 2);
-  rp(RW, RD, cx, 0, RZ - RD / 2, -Math.PI / 2, 0, '#e8dcc0');               // piso
-  rp(RW, RD, cx, HG, RZ - RD / 2, Math.PI / 2, 0, '#fff7e6');
-  box(RW, .9, .05, '#f1e0b8', cx, .45, RZ - RD + .03, { line: false });     // zócalo del cuarto
-  box(1.0, .7, .06, '#bfe3f5', cx + s * .55, 1.7, RZ - RD + .05, { t: .014 }); // ventana
-  box(1.1, .1, .1, '#f7f9f8', cx + s * .55, 1.3, RZ - RD + .1, { t: .012 });
+  rp(RW, RD, cx, 0, RZ - RD / 2, -Math.PI / 2, 0, '#c9dcdc');               // piso
+  rp(RW, RD, cx, HG, RZ - RD / 2, Math.PI / 2, 0, '#f6fbfb');
+  box(RW, .14, .05, '#7fb3b8', cx, .07, RZ - RD + .03, { line: false });
+  // panel de cabecera con tomas de oxígeno
+  const BX = cx + s * .7, BZ = RZ - 2.0;
+  box(1.3, .22, .1, '#cfd9de', BX, 1.45, RZ - RD + .06, { t: .012 });
+  for (const [k, c] of [[-.4, '#3fa66a'], [-.15, '#f2f2f2'], [.1, '#3a7bd5'], [.35, '#e2453a']]) box(.09, .09, .05, c, BX + k, 1.45, RZ - RD + .13, { t: .008, r: .02 });
+  // monitor de signos vitales en brazo de pared
+  const ecg = tex(512, 384, (x, w, h) => { x.fillStyle = '#0f1d22'; x.fillRect(0, 0, w, h); x.strokeStyle = '#2dff8a'; x.lineWidth = 6; x.beginPath(); let px = 10; x.moveTo(px, 120); for (let k = 0; k < 4; k++) { x.lineTo(px + 40, 120); x.lineTo(px + 52, 60); x.lineTo(px + 64, 170); x.lineTo(px + 76, 120); px += 120; x.lineTo(px, 120); } x.stroke();
+    x.strokeStyle = '#4fd3ff'; x.beginPath(); x.moveTo(10, 250); for (let k = 0; k < 480; k += 8) x.lineTo(10 + k, 250 - Math.abs(Math.sin(k / 25)) * 40); x.stroke();
+    x.font = '800 70px Montserrat'; x.fillStyle = '#2dff8a'; x.fillText(n === 2 ? '118' : '96', 330, 345); x.fillStyle = '#ffd23f'; x.font = '800 44px Montserrat'; x.fillText('SpO2 ' + (n === 2 ? '91' : '98'), 20, 350); });
+  const MX = cx + s * .3, MZ = RZ - RD + .32;
+  box(.04, .04, .28, '#9aa5ab', MX, 2.0, RZ - RD + .17, { t: .006 });
+  box(.6, .45, .1, '#e7ebee', MX, 2.0, MZ, { t: .014 });
+  const scr = new THREE.Mesh(new THREE.PlaneGeometry(.5, .36), new THREE.MeshBasicMaterial({ map: ecg, color: REVEAL && n === 1 ? '#777777' : '#ffffff' })); scr.position.set(MX, 2.0, MZ + .052); rm.add(scr);
+  // gabinete con cruz roja
+  const cross = tex(256, 256, (x, w, h) => { x.fillStyle = '#ffffff'; x.fillRect(0, 0, w, h); x.fillStyle = '#e2453a'; x.fillRect(98, 40, 60, 176); x.fillRect(40, 98, 176, 60); });
+  box(.55, .7, .25, '#f4f7f8', cx + s * 1.1, 2.0, RZ - RD + .14, { t: .014 });
+  const cr = new THREE.Mesh(new THREE.PlaneGeometry(.24, .24), new THREE.MeshBasicMaterial({ map: cross })); cr.position.set(cx + s * 1.1, 2.0, RZ - RD + .27); rm.add(cr);
+  // soporte de suero
+  const IX = cx + s * .15, IZ = RZ - 2.3;
+  box(.035, 1.9, .035, '#aeb8be', IX, .95, IZ, { t: .008 }); box(.4, .03, .03, '#aeb8be', IX, 1.9, IZ, { t: .006 });
+  box(.16, .26, .06, '#cfeaff', IX + .12, 1.72, IZ, { t: .01, r: .04, mat: toon('#cfeaff', null, { transparent: true, opacity: .9 }) });
+  box(.3, .03, .3, '#7b858c', IX, .02, IZ, { t: .008 });
+  // cortina de box
+  box(.04, .04, 2.6, '#c3ccd1', cx - s * 1.4, 2.6, RZ - 1.6, { t: .006 });
+  for (let k = 0; k < 6; k++) box(.08, 1.9, .3, k % 2 ? '#9fd3c4' : '#b6e0d3', cx - s * (1.38 - (k % 2) * .05), 1.6, RZ - 2.8 + k * .26, { t: .01, r: .03 });
   // camilla
   box(.9, .12, 1.9, '#ffffff', cx + s * .75, .7, RZ - 2.0, { t: .014 }); box(.88, .14, .5, '#d6ecf7', cx + s * .75, .82, RZ - 2.75, { t: .012 });
+  box(.04, .22, 1.0, '#c9d2d7', cx + s * .75 - s * .47, .9, RZ - 2.0, { t: .008 });
   for (const [ax, az] of [[-.38, -.85], [.38, -.85], [-.38, .85], [.38, .85]]) box(.05, .62, .05, '#9aa5ab', cx + s * .75 + ax, .32, RZ - 2.0 + az, { t: .008 });
   // cartel con número arriba de la puerta
   const sign = tex(256, 256, (x, w, h) => { x.fillStyle = REVEAL ? (n === 2 ? '#e2453a' : '#8a9496') : '#2f7fd0'; x.beginPath(); x.arc(128, 128, 118, 0, 7); x.fill(); x.lineWidth = 12; x.strokeStyle = INK; x.stroke(); x.fillStyle = '#fff'; x.font = '800 170px Montserrat'; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText(n, 128, 140); });
@@ -118,12 +141,12 @@ window.renderFrame = async () => {
   }
   if (REVEAL) { const [sx, sy] = toScr(DX, 1.0, ZB - .2); X.save(); X.translate(sx, sy); X.rotate(-.1); X.shadowColor = 'rgba(0,0,0,.35)'; X.shadowOffsetY = 8; X.shadowBlur = 12; pill(-200, -55, 400, 110, '#e2453a', 18, 8); X.restore(); X.save(); X.translate(sx, sy); X.rotate(-.1); text('¡INFARTO!', 0, 4, 62, '#fff'); X.restore(); }
   // banda inferior
-  if (REVEAL && Q.get('dato')) { X.save(); X.shadowColor = 'rgba(0,0,0,.3)'; X.shadowOffsetY = -6; X.shadowBlur = 16; pill(-10, 1690, 1100, 260, '#ffffff', 0, 8); X.restore(); }
+  if (REVEAL && !Q.get('nodato')) { X.save(); X.shadowColor = 'rgba(0,0,0,.3)'; X.shadowOffsetY = -6; X.shadowBlur = 16; pill(-10, 1690, 1100, 260, '#ffffff', 0, 8); X.restore(); }
   if (!REVEAL && Q.get('cta')) {
     text('COMENTÁ', 320, 1775, 58); text('1  o  2', 320, 1850, 70, '#2f7fd0');
     X.beginPath(); X.arc(820, 1700, 120, 0, 7); X.fillStyle = '#ffd23f'; X.fill(); X.lineWidth = 9; X.strokeStyle = INK; X.stroke();
     X.beginPath(); X.arc(820, 1700, 98, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * .8); X.lineWidth = 18; X.lineCap = 'round'; X.strokeStyle = '#e2453a'; X.stroke(); text('5', 820, 1708, 120);
-  } else if (REVEAL && Q.get('dato')) { text('En mujeres, el infarto', 540, 1760, 50); text('puede parecer ACIDEZ', 540, 1840, 58, '#e2453a'); }
+  } else if (REVEAL && !Q.get('nodato')) { text('En mujeres, el infarto', 540, 1760, 50); text('puede parecer ACIDEZ', 540, 1840, 58, '#e2453a'); }
   return OUT.toDataURL('image/jpeg', .93);
 };
 await document.fonts.load('800 40px Montserrat'); window.ready = true;
