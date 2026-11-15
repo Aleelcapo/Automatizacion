@@ -46,6 +46,7 @@ async function svgImg(svg) { const img = new Image(); const u = URL.createObject
 const lineAt = t => G.lines.find(l => t >= l.t0 - .3 && t < l.t1 + .45);
 window.renderFrame = async (i) => {
   const t = i / 30, T = G.total;
+  if (new URLSearchParams(location.search).get('bg')) { NURSE.m.visible = DOC.m.visible = false; cam.position.set(.25, 1.55, -3); cam.rotation.set(0, 0, 0); cam.rotateY(.18); cam.rotateX(.04); cam.fov = 50; cam.updateProjectionMatrix(); R.render(S, cam); return R.domElement.toDataURL('image/jpeg', .92); }
   // camilla avanzando por el pasillo (se detiene al final)
   const z = -t * 1.15 + Math.max(0, t - 24) * 1.15;
   const sway = Math.sin(t * 7) * .012;
