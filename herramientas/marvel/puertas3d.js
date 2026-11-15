@@ -73,8 +73,6 @@ for (const [s, n] of [[-1, 1], [1, 2]]) {
   rooms.push({ cx, n, rm });
 }
 // detalles de la sala: banco, planta, dispenser, reloj, luces de techo
-box(1.2, .1, .5, '#e98b4f', 0, .48, ZB + .55, { t: .014 }); box(1.2, .5, .08, '#e98b4f', 0, .78, ZB + .32, { t: .014 });
-for (const x of [-.5, .5]) box(.06, .44, .44, '#7b858c', x, .22, ZB + .55, { t: .01 });
 box(.38, .45, .38, '#d97a4a', WX - .45, .23, ZB + .5, { t: .014 });
 for (let i = 0; i < 7; i++) { const a = i / 7 * Math.PI * 2; const lf = box(.12, .7, .03, '#4fae6c', WX - .45 + Math.cos(a) * .1, .75, ZB + .5 + Math.sin(a) * .1, { t: .01, r: .05 }); lf.rotation.set(Math.sin(a) * .5, a, Math.cos(a) * .5); }
 const clock = tex(256, 256, (x) => { x.fillStyle = '#fff'; x.beginPath(); x.arc(128, 128, 118, 0, 7); x.fill(); x.lineWidth = 14; x.strokeStyle = INK; x.stroke(); x.lineCap = 'round'; x.lineWidth = 12; x.beginPath(); x.moveTo(128, 128); x.lineTo(128, 50); x.moveTo(128, 128); x.lineTo(185, 150); x.stroke(); });
