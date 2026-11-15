@@ -4,7 +4,7 @@ const C = { skin: '#e2aa86', skinS: '#b97c5f', skinD: '#8f5a45', rim: '#f8d6ba',
 const p = (d, fill, w = 5, extra = '') => `<path d="${d}" fill="${fill}" stroke="${L}" stroke-width="${w}" stroke-linejoin="round" stroke-linecap="round" ${extra}/>`;
 const f = (d, fill, extra = '') => `<path d="${d}" fill="${fill}" ${extra}/>`;
 const ln = (d, w = 5, col = L, extra = '') => `<path d="${d}" fill="none" stroke="${col}" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round" ${extra}/>`;
-export function houseSVG() {
+export function houseSVG(opt = {}) {
 let ch = '';
 // ---------- cuerpo: saco, camisa
 ch += p('M230 1920 C220 1500 230 1200 290 1080 C340 1030 420 1010 505 985 L700 990 C780 1010 850 1040 880 1100 C920 1300 920 1600 910 1920 Z', C.blz, 7);
@@ -57,6 +57,8 @@ ch += f('M470 500 C520 476 580 474 620 488 C580 486 530 492 486 512 Z', C.hairH)
 ch += p('M452 520 C470 488 500 470 520 478 C530 456 570 452 590 468 C610 454 650 466 660 490 C680 492 700 510 704 530 C690 515 670 508 652 512 C640 494 612 486 596 496 C580 480 548 482 532 500 C512 492 480 500 452 520 Z', C.hair, 0);
 ch += ln('M452 520 C470 488 500 470 520 478 C530 456 570 452 590 468 C610 454 650 466 660 490 C680 492 700 510 704 530', 7);
 ch += ln('M470 560 C500 540 540 548 560 530 M590 560 C620 548 650 560 668 590 M520 600 C540 585 560 590 575 580', 3.5, C.hairS);
+if (opt.head) return `<defs><clipPath id="faceC"><path id="faceP" d="M432 575 C418 610 408 640 411 658 C420 675 420 690 414 708 C400 735 405 760 414 785 C420 815 426 840 434 862 C440 885 452 905 478 914 C520 918 575 900 618 872 C645 850 662 825 668 798 L676 700 L700 640 C690 560 600 520 520 530 C470 535 440 555 432 575 Z"/></clipPath>
+ <clipPath id="blzC"><path d="M230 1920 C220 1500 230 1200 290 1080 C340 1030 420 1010 505 985 L700 990 C780 1010 850 1040 880 1100 C920 1300 920 1600 910 1920 Z"/></clipPath></defs><g>${ch}</g>`;
 return `<defs><clipPath id="faceC"><path id="faceP" d="M432 575 C418 610 408 640 411 658 C420 675 420 690 414 708 C400 735 405 760 414 785 C420 815 426 840 434 862 C440 885 452 905 478 914 C520 918 575 900 618 872 C645 850 662 825 668 798 L676 700 L700 640 C690 560 600 520 520 530 C470 535 440 555 432 575 Z"/></clipPath>
  <clipPath id="blzC"><path d="M230 1920 C220 1500 230 1200 290 1080 C340 1030 420 1010 505 985 L700 990 C780 1010 850 1040 880 1100 C920 1300 920 1600 910 1920 Z"/></clipPath></defs>` + body + `<g transform="translate(560 930) scale(1.2) translate(-560 -890)">${ch}</g>`;
 }

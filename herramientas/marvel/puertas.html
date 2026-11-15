@@ -3,7 +3,7 @@
 <script type="module">
 import { drawCharacter } from './estilo.js';
 import { EXPR, POSE } from './expr.js';
-import { houseSVG } from './house_draw.js';
+import { houseFull } from './housefull.js';
 const reveal = new URLSearchParams(location.search).get('reveal');
 const L = '#15121a';
 const box = (x, y, w, h, fill, sw = 6, rx = 0, ex = '') => `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${rx}" fill="${fill}" stroke="${L}" stroke-width="${sw}" ${ex}/>`;
@@ -20,11 +20,11 @@ for (const y of [1380, 1520, 1700]) o += `<rect y="${y}" width="1080" height="4"
 o += `<g filter="url(#sh)">${box(70, 190, 940, 150, '#ffffff', 7, 30)}<text x="540" y="262" font-size="56" text-anchor="middle" fill="${L}">¿A QUIÉN ATENDÉS</text><text x="540" y="322" font-size="56" text-anchor="middle" fill="#e2453a">PRIMERO?</text></g>`;
 // puertas
 const doors = [
-  { x: 20, n: 1, who: 'hombre', pose: { face: { ...EXPR.shock, tears: .7, sweat: 1 }, ...POSE.headhold }, chips: ['Brazo fracturado', 'Grita de dolor', 'Sangra'] },
-  { x: 680, n: 2, who: 'madre', pose: { face: { ...EXPR.worried, sweat: 1 }, ...POSE.chin }, chips: ['"Es acidez"', 'Dolor de mandíbula', 'Sudor frío'] },
+  { x: 15, n: 1, who: 'hombre', pose: { face: { ...EXPR.shock, tears: .7, sweat: 1 }, ...POSE.headhold }, chips: ['Brazo fracturado', 'Grita de dolor', 'Sangra'] },
+  { x: 715, n: 2, who: 'madre', pose: { face: { ...EXPR.worried, sweat: 1 }, ...POSE.chin }, chips: ['"Es acidez"', 'Dolor de mandíbula', 'Sudor frío'] },
 ];
 for (const d of doors) {
-  const W = 380, T = 470, B = 1240, cx = d.x + W / 2;
+  const W = 350, T = 470, B = 1240, cx = d.x + W / 2;
   let g = '';
   if (reveal && d.n === 2) g += `<ellipse cx="${cx}" cy="${(T + B) / 2}" rx="380" ry="520" fill="url(#glow)"/>`;
   g += box(d.x - 16, T - 16, W + 32, B - T + 16, '#f4f6f2', 7);                                 // marco
@@ -44,7 +44,7 @@ for (const d of doors) {
   o += `<g filter="url(#sh)">${g}</g>`;
 }
 // House abajo
-o += `<g filter="url(#sh)" transform="translate(148 456) scale(.7)">${houseSVG()}</g>`;
+o += `<g filter="url(#sh)" transform="translate(545 1520) scale(.66)">${houseFull()}</g>`;
 // banda inferior: cuenta regresiva / CTA o dato final
 o += `<g filter="url(#sh)">${box(-10, 1740, 1100, 200, '#ffffff', 7)}`;
 if (!reveal) o += `<text x="330" y="1838" font-size="56" text-anchor="middle" fill="${L}">COMENTÁ <tspan fill="#2f7fd0">1</tspan> o <tspan fill="#2f7fd0">2</tspan></text>
