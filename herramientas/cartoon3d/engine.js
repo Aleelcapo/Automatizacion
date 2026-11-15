@@ -428,7 +428,9 @@ class Character {
     const key = `${expr}|${eyes[0].toFixed(2)}|${eyes[1].toFixed(2)}|${blink}`;
     if (key === this.lastFace) return;
     this.lastFace = key;
-    drawFace(this.faceCanvas.getContext('2d'), { skin: this.skin, expr, eyes, blink, glasses: this.look.glasses, mustache: this.look.mustache, stubble: this.look.stubble, hairColor: this.look.hairColor, blush: this.look.blush });
+    const ph = this.look.photo && window.PHOTOS?.[this.look.photo];
+    if (ph) { const x = this.faceCanvas.getContext('2d'); x.fillStyle = this.skin; x.fillRect(0, 0, 1024, 512); const pw = this.look.photoW || 300, phh = pw * ph.height / ph.width; x.drawImage(ph, 512 - pw * (this.look.photoCx ?? .5), (this.look.photoY ?? 268) - phh * .47, pw, phh); }
+    else drawFace(this.faceCanvas.getContext('2d'), { skin: this.skin, expr, eyes, blink, glasses: this.look.glasses, mustache: this.look.mustache, stubble: this.look.stubble, hairColor: this.look.hairColor, blush: this.look.blush });
     this.faceTex.needsUpdate = true;
   }
   applyArms(H) {
@@ -1550,6 +1552,9 @@ window.init = async (timeline) => {
   OUT = document.createElement('canvas'); OUT.width = W; OUT.height = H; OUTCTX = OUT.getContext('2d');
   document.body.appendChild(OUT);
   // agrupa acciones por objetivo
+  // fotos de cara (look.photo): se cargan antes de crear los personajes
+  window.PHOTOS = {};
+  for (const sc of Object.values(STORY.scenes || {})) for (const a of sc.actors || []) if (a.look?.photo && !PHOTOS[a.look.photo]) { const im = new Image(); im.src = '/' + a.look.photo; await im.decode(); PHOTOS[a.look.photo] = im; }
   TL.byTarget = {};
   for (const a of TL.actions) (TL.byTarget[a.target] ||= []).push(a);
   for (const k in TL.byTarget) TL.byTarget[k].sort((a, b) => a.t - b.t);

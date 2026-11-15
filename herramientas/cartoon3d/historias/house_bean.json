@@ -25,7 +25,11 @@
       "shoes": "#ee7a35",
       "stubble": true,
       "badge": false,
-      "skin": "#efc4a2"
+      "skin": "#b98469",
+      "photo": "house_rostro.png",
+      "photoW": 330,
+      "photoY": 262,
+      "photoCx": 0.47
      },
      "pos": [
       0,
@@ -67,7 +71,7 @@
        0
       ],
       "dist": 2.9,
-      "yaw": 18,
+      "yaw": 6,
       "pitch": 5,
       "move": "hold"
      }
@@ -78,7 +82,7 @@
      "cam": {
       "on": "house",
       "shot": "face",
-      "yaw": 12,
+      "yaw": 2,
       "move": "hold"
      }
     }
