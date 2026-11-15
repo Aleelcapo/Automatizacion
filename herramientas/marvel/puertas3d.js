@@ -118,12 +118,12 @@ window.renderFrame = async () => {
   }
   if (REVEAL) { const [sx, sy] = toScr(DX, 1.0, ZB - .2); X.save(); X.translate(sx, sy); X.rotate(-.1); X.shadowColor = 'rgba(0,0,0,.35)'; X.shadowOffsetY = 8; X.shadowBlur = 12; pill(-200, -55, 400, 110, '#e2453a', 18, 8); X.restore(); X.save(); X.translate(sx, sy); X.rotate(-.1); text('¡INFARTO!', 0, 4, 62, '#fff'); X.restore(); }
   // banda inferior
-  X.save(); X.shadowColor = 'rgba(0,0,0,.3)'; X.shadowOffsetY = -6; X.shadowBlur = 16; pill(-10, 1690, 1100, 260, '#ffffff', 0, 8); X.restore();
-  if (!REVEAL) {
+  if (REVEAL) { X.save(); X.shadowColor = 'rgba(0,0,0,.3)'; X.shadowOffsetY = -6; X.shadowBlur = 16; pill(-10, 1690, 1100, 260, '#ffffff', 0, 8); X.restore(); }
+  if (!REVEAL && Q.get('cta')) {
     text('COMENTÁ', 320, 1775, 58); text('1  o  2', 320, 1850, 70, '#2f7fd0');
     X.beginPath(); X.arc(820, 1700, 120, 0, 7); X.fillStyle = '#ffd23f'; X.fill(); X.lineWidth = 9; X.strokeStyle = INK; X.stroke();
     X.beginPath(); X.arc(820, 1700, 98, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * .8); X.lineWidth = 18; X.lineCap = 'round'; X.strokeStyle = '#e2453a'; X.stroke(); text('5', 820, 1708, 120);
-  } else { text('En mujeres, el infarto', 540, 1760, 50); text('puede parecer ACIDEZ', 540, 1840, 58, '#e2453a'); }
+  } else if (REVEAL) { text('En mujeres, el infarto', 540, 1760, 50); text('puede parecer ACIDEZ', 540, 1840, 58, '#e2453a'); }
   return OUT.toDataURL('image/jpeg', .93);
 };
 await document.fonts.load('800 40px Montserrat'); window.ready = true;
