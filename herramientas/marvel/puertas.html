@@ -20,34 +20,37 @@ for (const y of [1380, 1520, 1700]) o += `<rect y="${y}" width="1080" height="4"
 o += `<g filter="url(#sh)">${box(70, 190, 940, 150, '#ffffff', 7, 30)}<text x="540" y="262" font-size="56" text-anchor="middle" fill="${L}">¿A QUIÉN ATENDÉS</text><text x="540" y="322" font-size="56" text-anchor="middle" fill="#e2453a">PRIMERO?</text></g>`;
 // puertas
 const doors = [
-  { x: 60, n: 1, who: 'hombre', pose: { face: { ...EXPR.shock, tears: .7, sweat: 1 }, ...POSE.headhold }, chips: ['Brazo fracturado', 'Grita de dolor', 'Sangra'] },
-  { x: 570, n: 2, who: 'madre', pose: { face: { ...EXPR.worried, sweat: 1 }, ...POSE.chin }, chips: ['"Es acidez"', 'Dolor de mandíbula', 'Sudor frío'] },
+  { x: 20, n: 1, who: 'hombre', pose: { face: { ...EXPR.shock, tears: .7, sweat: 1 }, ...POSE.headhold }, chips: ['Brazo fracturado', 'Grita de dolor', 'Sangra'] },
+  { x: 680, n: 2, who: 'madre', pose: { face: { ...EXPR.worried, sweat: 1 }, ...POSE.chin }, chips: ['"Es acidez"', 'Dolor de mandíbula', 'Sudor frío'] },
 ];
 for (const d of doors) {
-  const W = 450, T = 470, B = 1240, cx = d.x + W / 2;
+  const W = 380, T = 470, B = 1240, cx = d.x + W / 2;
   let g = '';
   if (reveal && d.n === 2) g += `<ellipse cx="${cx}" cy="${(T + B) / 2}" rx="380" ry="520" fill="url(#glow)"/>`;
   g += box(d.x - 16, T - 16, W + 32, B - T + 16, '#f4f6f2', 7);                                 // marco
   g += `<rect x="${d.x}" y="${T}" width="${W}" height="${B - T}" fill="#fff4dc"/>`;              // interior
   g += `<rect x="${d.x}" y="${T}" width="${W}" height="${(B - T) * .62}" fill="#f6e7c6"/><rect x="${d.x}" y="${T + (B - T) * .62}" width="${W}" height="6" fill="#d9c49c"/>`;
-  g += box(d.x + W - 150, 900, 140, 120, '#cfe3f3', 4, 8) + `<rect x="${d.x + W - 150}" y="1020" width="14" height="210" fill="#9aa"/>`; // camilla al fondo
+  g += box(d.x + (d.n === 1 ? 10 : W - 130), 900, 120, 120, '#cfe3f3', 4, 8) + `<rect x="${d.x + (d.n === 1 ? 10 : W - 130)}" y="1020" width="14" height="210" fill="#9aa"/>`; // camilla al fondo
   g += `<g transform="translate(${cx} 1235) scale(.56)">${drawCharacter(d.who, d.pose)}</g>`;
-  g += `<path d="M${d.x} ${T} L${d.x + 70} ${T + 40} L${d.x + 70} ${B - 30} L${d.x} ${B} Z" fill="#4f8fc7" stroke="${L}" stroke-width="6" stroke-linejoin="round"/><rect x="${d.x + 44}" y="${T + 330}" width="12" height="60" rx="5" fill="#d8dde3" stroke="${L}" stroke-width="3"/>`; // hoja abierta
+  const hx = d.n === 1 ? d.x : d.x + W, hs = d.n === 1 ? 1 : -1;
+  g += `<path d="M${hx} ${T} L${hx + hs * 70} ${T + 40} L${hx + hs * 70} ${B - 30} L${hx} ${B} Z" fill="#4f8fc7" stroke="${L}" stroke-width="6" stroke-linejoin="round"/><rect x="${hx + hs * 50 - 6}" y="${T + 330}" width="12" height="60" rx="5" fill="#d8dde3" stroke="${L}" stroke-width="3"/>`; // hoja abierta
   if (reveal && d.n === 1) g += `<rect x="${d.x}" y="${T}" width="${W}" height="${B - T}" fill="#0b1720" opacity=".45"/>`;
   // número
   const nc = reveal ? (d.n === 2 ? '#e2453a' : '#8a9496') : '#2f7fd0';
   g += `<circle cx="${cx}" cy="${T - 52}" r="56" fill="${nc}" stroke="${L}" stroke-width="7"/><text x="${cx}" y="${T - 28}" font-size="70" text-anchor="middle" fill="#fff">${d.n}</text>`;
   // síntomas
-  d.chips.forEach((t, i) => { const w = t.length * 20 + 40, y = T + 30 + i * 62; g += box(cx - w / 2, y, w, 50, '#ffffff', 4, 25) + `<text x="${cx}" y="${y + 35}" font-size="28" text-anchor="middle" fill="${L}" font-family="Arial, sans-serif" font-weight="bold">${t}</text>`; });
+  d.chips.forEach((t, i) => { const w = t.length * 16 + 36, y = T + 30 + i * 62; g += box(cx - w / 2, y, w, 50, '#ffffff', 4, 25) + `<text x="${cx}" y="${y + 35}" font-size="25" text-anchor="middle" fill="${L}" font-family="Arial, sans-serif" font-weight="bold">${t}</text>`; });
   if (reveal && d.n === 2) g += `<g transform="translate(${cx} 1120) rotate(-6)">${box(-190, -45, 380, 90, '#e2453a', 7, 12)}<text y="20" font-size="52" text-anchor="middle" fill="#fff">¡INFARTO!</text></g>`;
   o += `<g filter="url(#sh)">${g}</g>`;
 }
 // House abajo
-o += `<g filter="url(#sh)" transform="translate(200 1080) scale(.6)">${houseSVG()}</g>`;
-// cuenta regresiva / CTA
-if (!reveal) o += `<g filter="url(#sh)"><circle cx="860" cy="1530" r="120" fill="#ffd23f" stroke="${L}" stroke-width="8"/><path d="M860 1410 A120 120 0 1 1 756 1590" fill="none" stroke="#e2453a" stroke-width="18"/><text x="860" y="1572" font-size="120" text-anchor="middle" fill="${L}">5</text>
-  ${box(700, 1690, 330, 110, '#ffffff', 6, 20)}<text x="865" y="1735" font-size="34" text-anchor="middle" fill="${L}">COMENTÁ</text><text x="865" y="1782" font-size="42" text-anchor="middle" fill="#2f7fd0">1 o 2</text></g>`;
-else o += `<g filter="url(#sh)">${box(690, 1480, 350, 280, '#ffffff', 6, 20)}<text x="865" y="1545" font-size="32" text-anchor="middle" fill="${L}">En mujeres el</text><text x="865" y="1590" font-size="32" text-anchor="middle" fill="${L}">infarto puede</text><text x="865" y="1635" font-size="32" text-anchor="middle" fill="${L}">parecer</text><text x="865" y="1700" font-size="46" text-anchor="middle" fill="#e2453a">ACIDEZ</text></g>`;
+o += `<g filter="url(#sh)" transform="translate(148 456) scale(.7)">${houseSVG()}</g>`;
+// banda inferior: cuenta regresiva / CTA o dato final
+o += `<g filter="url(#sh)">${box(-10, 1740, 1100, 200, '#ffffff', 7)}`;
+if (!reveal) o += `<text x="330" y="1838" font-size="56" text-anchor="middle" fill="${L}">COMENTÁ <tspan fill="#2f7fd0">1</tspan> o <tspan fill="#2f7fd0">2</tspan></text>
+  <circle cx="840" cy="1740" r="110" fill="#ffd23f" stroke="${L}" stroke-width="8"/><path d="M840 1630 A110 110 0 1 1 745 1795" fill="none" stroke="#e2453a" stroke-width="16"/><text x="840" y="1782" font-size="110" text-anchor="middle" fill="${L}">5</text>`;
+else o += `<text x="540" y="1818" font-size="42" text-anchor="middle" fill="${L}">En mujeres el infarto puede parecer</text><text x="540" y="1880" font-size="54" text-anchor="middle" fill="#e2453a">ACIDEZ</text>`;
+o += `</g>`;
 document.getElementById('s').innerHTML = o;
 await document.fonts.ready; window.ready = true;
 </script></body></html>
