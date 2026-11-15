@@ -1,0 +1,88 @@
+1
+00:00:00,000 --> 00:00:02,000
+Cuando cargas combustible, la manguera
+
+2
+00:00:02,020 --> 00:00:04,180
+se corta sola justo cuando el tanque
+
+3
+00:00:04,200 --> 00:00:04,760
+se llena.
+
+4
+00:00:04,780 --> 00:00:06,660
+Y no tiene nada electrónico.
+
+5
+00:00:06,740 --> 00:00:09,100
+Debajo de la estación hay tanques enormes
+
+6
+00:00:09,120 --> 00:00:09,900
+enterrados.
+
+7
+00:00:09,920 --> 00:00:11,860
+Y una bomba sube el combustible hasta
+
+8
+00:00:11,880 --> 00:00:12,660
+el surtidor.
+
+9
+00:00:12,720 --> 00:00:14,820
+En la punta de la pistola hay un agujerito
+
+10
+00:00:14,840 --> 00:00:15,800
+con un tubito.
+
+11
+00:00:15,820 --> 00:00:17,620
+Por donde la pistola chupa aire todo
+
+12
+00:00:17,640 --> 00:00:19,120
+el tiempo mientras carga.
+
+13
+00:00:19,160 --> 00:00:21,140
+Cuando el combustible sube y tapa ese
+
+14
+00:00:21,160 --> 00:00:23,300
+agujerito, ya no puede entrar aire.
+
+15
+00:00:23,340 --> 00:00:24,560
+Se forma un vacío.
+
+16
+00:00:24,600 --> 00:00:26,880
+Y ese vacío tira de una pequeña membrana
+
+17
+00:00:26,900 --> 00:00:28,280
+que destraba el gatillo.
+
+18
+00:00:28,320 --> 00:00:28,480
+¡Clac!
+
+19
+00:00:28,500 --> 00:00:30,860
+La manguera se corta sola, sin chips
+
+20
+00:00:30,880 --> 00:00:32,960
+ni sensores, solo con aire.
+
+21
+00:00:33,060 --> 00:00:34,740
+¿Tú también le das un clic más después
+
+22
+00:00:34,760 --> 00:00:35,660
+de que corta?
+
