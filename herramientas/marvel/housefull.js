@@ -8,7 +8,7 @@ const S = (d, w, col, ex = '') => `<path d="${d}" fill="none" stroke="${col}" st
 const limb = (d, w, fill) => S(d, w + 14, L) + S(d, w, fill);
 const shoe = (x, dir) => P(`M${x - 62 * dir} 0 L${x + 38 * dir} 0 C${x + 44 * dir} -30 ${x + 34 * dir} -62 ${x + 12 * dir} -72 L${x - 26 * dir} -72 C${x - 40 * dir} -46 ${x - 62 * dir} -42 ${x - 68 * dir} -20 Z`, C.shoe, 6) + P(`M${x - 66 * dir} -14 L${x + 40 * dir} -14 L${x + 38 * dir} 0 L${x - 62 * dir} 0 Z`, C.sole, 5);
 const hand = (x, y, r = 0) => `<g transform="translate(${x} ${y}) rotate(${r})">${P('M-26 -30 C-34 -5 -30 30 -10 42 C8 50 28 40 30 18 C32 -2 26 -22 18 -32 Z', C.skin, 6)}${F('M12 -30 C26 -18 30 6 26 24 C20 38 10 44 0 44 C14 30 18 0 12 -30 Z', C.skinS)}${S('M-14 18 L-4 30 M-4 10 L8 24', 3.5, L)}</g>`;
-export function houseFull() {
+export function houseFull(opt = {}) {
   let s = '';
   s += `<ellipse cx="10" cy="4" rx="230" ry="34" fill="#0b1a1e" opacity=".22"/>`;
   // piernas (jean) y pelvis
@@ -36,7 +36,7 @@ export function houseFull() {
   // cuello
   s += P('M-18 -1420 L56 -1420 L64 -1352 C40 -1340 0 -1340 -22 -1352 Z', C.skin, 6) + F('M28 -1420 L56 -1420 L64 -1352 C55 -1346 42 -1344 34 -1344 Z', C.skinS);
   // cabeza (la misma del retrato)
-  s += `<g transform="translate(0 -1385) scale(.58) translate(-560 -914)">${houseSVG({ head: true })}</g>`;
+  s += `<g transform="translate(0 -1385) scale(.58) translate(-560 -914)">${houseSVG({ head: true, mouth: opt.mouth, blink: opt.blink })}</g>`;
   // bastón + manos
   s += S('M-208 -830 L-252 -8', 28, L) + S('M-208 -830 L-252 -8', 16, C.cane) + S('M-202 -830 L-244 -20', 4, C.caneS);
   s += S('M-208 -830 C-212 -880 -170 -905 -140 -872', 28, L) + S('M-208 -830 C-212 -880 -170 -905 -140 -872', 16, C.cane);

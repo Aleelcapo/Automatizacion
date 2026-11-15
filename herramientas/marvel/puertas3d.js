@@ -4,7 +4,8 @@ import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.j
 import { drawCharacter } from './estilo.js';
 import { EXPR, POSE } from './expr.js';
 import { houseFull } from './housefull.js';
-const W = 1080, H = 1920, Q = new URLSearchParams(location.search), REVEAL = !!Q.get('reveal');
+const W = 1080, H = 1920, Q = new URLSearchParams(location.search), REVEAL = !!Q.get('reveal'), VIDEO = !!Q.get('video');
+const TL = VIDEO ? await (await fetch('/puertas_tl.json')).json() : null;
 const INK = '#1b1820';
 const R = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true }); R.setSize(W, H); R.setPixelRatio(1); R.outputColorSpace = THREE.SRGBColorSpace; R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFSoftShadowMap; R.toneMapping = THREE.ACESFilmicToneMapping; R.toneMappingExposure = 1.05;
 const S = new THREE.Scene(); S.background = new THREE.Color('#e9ecea');
@@ -94,7 +95,8 @@ for (const [s, n] of [[-1, 1], [1, 2]]) {
   // cartel con número arriba de la puerta
   const sign = tex(256, 256, (x, w, h) => { x.fillStyle = REVEAL ? (n === 2 ? '#e2453a' : '#8a9496') : '#2f7fd0'; x.beginPath(); x.arc(128, 128, 118, 0, 7); x.fill(); x.lineWidth = 12; x.strokeStyle = INK; x.stroke(); x.fillStyle = '#fff'; x.font = '800 170px Montserrat'; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText(n, 128, 140); });
   const sg = new THREE.Mesh(new THREE.CircleGeometry(.36, 48), new THREE.MeshBasicMaterial({ map: sign, transparent: true })); sg.position.set(cx, DH + .58, ZB + .13); S.add(sg);
-  rooms.push({ cx, n, rm });
+  const glow = new THREE.Mesh(new THREE.CircleGeometry(.5, 48), new THREE.MeshBasicMaterial({ color: '#ffd23f', transparent: true, opacity: 0 })); glow.position.set(cx, DH + .58, ZB + .12); S.add(glow);
+  rooms.push({ cx, n, rm, inside, sg, glow });
 }
 // detalles de la sala: banco, planta, dispenser, reloj, luces de techo
 box(.38, .45, .38, '#d97a4a', WX - .45, .23, ZB + .5, { t: .014 });
@@ -111,17 +113,23 @@ S.traverse(o => { if (o.isMesh) { const hull = o.material === HULL; o.castShadow
 async function svgTex(svg, w, h) { const img = new Image(); const u = URL.createObjectURL(new Blob([svg], { type: 'image/svg+xml' })); await new Promise(r => { img.onload = r; img.src = u; }); const c = document.createElement('canvas'); c.width = w; c.height = h; c.getContext('2d').drawImage(img, 0, 0, w, h); URL.revokeObjectURL(u); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 8; return t; }
 async function person(svgInner, vb, upm, x, z, opts = {}) {
   const [vx, vy, vw, vh] = vb, pw = vw / upm, ph = vh / upm, px = 900, py = Math.round(px * vh / vw);
-  const t = await svgTex(`<svg xmlns="http://www.w3.org/2000/svg" width="${px}" height="${py}" viewBox="${vb.join(' ')}">${svgInner}</svg>`, px, py);
+  const c = document.createElement('canvas'); c.width = px; c.height = py; const cx2 = c.getContext('2d');
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 8;
   const m = new THREE.Mesh(new THREE.PlaneGeometry(pw, ph), new THREE.MeshBasicMaterial({ map: t, transparent: true, alphaTest: .4, color: opts.tint || '#ffffff' }));
-  m.position.set(x + (vx + vw / 2) / upm, -(vy + vh / 2) / upm, z); S.add(m);
+  const base = new THREE.Vector3(x + (vx + vw / 2) / upm, -(vy + vh / 2) / upm, z); m.position.copy(base); S.add(m);
   const sh = new THREE.Mesh(new THREE.CircleGeometry(.36, 32), new THREE.MeshBasicMaterial({ color: '#0d2420', transparent: true, opacity: .22 })); sh.rotation.x = -Math.PI / 2; sh.scale.set(1, .45, 1); sh.position.set(x, .005, z); S.add(sh);
-  return m;
+  const cache = new Map(); let cur = null;
+  const set = async (inner) => { if (inner === cur) return; cur = inner; let img = cache.get(inner);
+    if (!img) { img = new Image(); const u = URL.createObjectURL(new Blob([`<svg xmlns="http://www.w3.org/2000/svg" width="${px}" height="${py}" viewBox="${vb.join(' ')}">${inner}</svg>`], { type: 'image/svg+xml' })); await new Promise(r => { img.onload = r; img.src = u; }); if (cache.size < 60) cache.set(inner, img); }
+    cx2.clearRect(0, 0, px, py); cx2.drawImage(img, 0, 0, px, py); t.needsUpdate = true; };
+  await set(svgInner);
+  return { m, set, base, foot: new THREE.Vector3(x, 0, z) };
 }
 const dim = REVEAL ? '#7d8790' : '#ffffff';
-await person(drawCharacter('hombre', { face: { ...EXPR.shock, tears: .7, sweat: 1 }, ...POSE.headhold }), [-300, -1000, 600, 1010], 540, -DX - .05, ZB - .85, { tint: dim });
-await person(drawCharacter('madre', { face: { ...EXPR.worried, sweat: 1 }, ...POSE.chin }), [-300, -1000, 600, 1010], 540, DX + .05, ZB - .85);
+const P1 = await person(drawCharacter('hombre', { face: { ...EXPR.shock, tears: .7, sweat: 1 }, ...POSE.headhold }), [-300, -1000, 600, 1010], 540, -DX - .05, ZB - .85, { tint: dim });
+const P2 = await person(drawCharacter('madre', { face: { ...EXPR.worried, sweat: 1 }, ...POSE.chin }), [-300, -1000, 600, 1010], 540, DX + .05, ZB - .85);
 // House: cuerpo entero sin la sombra dibujada (la pone el piso)
-await person(houseFull().replace(/<ellipse[^>]*\/>/, ''), [-330, -1700, 640, 1712], 880, 0, ZB + 1.5);
+const HO = await person(houseFull().replace(/<ellipse[^>]*\/>/, ''), [-330, -1700, 640, 1712], 880, 0, ZB + 1.5);
 cam.fov = 60; cam.updateProjectionMatrix(); cam.position.set(.45, 2.0, ZB + 6.7); cam.lookAt(.05, 1.3, ZB);
 // ---------- capa 2D encima: título, síntomas, cuenta regresiva
 const OUT = document.createElement('canvas'); OUT.width = W; OUT.height = H; const X = OUT.getContext('2d');
@@ -129,7 +137,65 @@ const toScr = (x, y, z) => { const v = new THREE.Vector3(x, y, z).project(cam); 
 function pill(x, y, w, h, fill, r, lw = 6) { X.beginPath(); X.roundRect(x, y, w, h, r); X.fillStyle = fill; X.fill(); X.lineWidth = lw; X.strokeStyle = INK; X.stroke(); }
 function text(s, x, y, size, col = INK, align = 'center', stroke = 0) { X.font = `800 ${size}px Montserrat`; X.textAlign = align; X.textBaseline = 'middle'; if (stroke) { X.lineJoin = 'round'; X.lineWidth = stroke; X.strokeStyle = '#ffffff'; X.strokeText(s, x, y); } X.fillStyle = col; X.fillText(s, x, y); }
 const chips = { 1: ['brazo fracturado', 'grita de dolor', 'sangra mucho'], 2: ['"es acidez"', 'le duele la mandíbula', 'sudor frío'] };
-window.renderFrame = async () => {
+
+// ---------- modo video
+const clamp = (x, a, b) => Math.max(a, Math.min(b, x)), lerp = (a, b, k) => a + (b - a) * k, ease = k => k < .5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
+const sm = (a, b, t) => ease(clamp((t - a) / (b - a), 0, 1));
+const pop = (t, t0) => { const k = clamp((t - t0) / .35, 0, 1); return k <= 0 ? 0 : 1 + Math.sin(k * Math.PI) * .25 * (1 - k) - (1 - k) * (1 - Math.min(1, k * 4)); };
+const line = (who, t) => TL && TL.lines.find(l => l.who === who && t >= l.t0 && t < l.t1);
+const mouthOf = (who, t) => { const l = line(who, t); if (!l) return 0; const v = Math.abs(Math.sin(t * 14.5 + who.length)) * (.55 + .45 * Math.abs(Math.sin(t * 3.3))); return Math.round(v * 4) / 4; };
+const blinkAt = (t, seed) => ((t + seed) % 3.7) / 3.7 > .955;
+const shots = [];
+async function renderVideo(i) {
+  const t = i / 30, L = Object.fromEntries(TL.lines.map(l => [l.key, l]));
+  // resaltado de puertas
+  const k1 = Math.max(sm(TL.hl1, TL.hl1 + .25, t) * (1 - sm(TL.hl2, TL.hl2 + .25, t)), line('p1', t) ? .55 : 0, sm(L.f1.t0 + .9, L.f1.t0 + 1.3, t));
+  const k2 = Math.max(sm(TL.hl2, TL.hl2 + .25, t) * (1 - sm(TL.cd0, TL.cd0 + .3, t)), line('p2', t) ? .55 : 0);
+  for (const [r, k] of [[rooms[0], k1], [rooms[1], k2]]) { const pulse = 1 + k * (.22 + .06 * Math.sin(t * 9)); r.sg.scale.setScalar(pulse); r.glow.scale.setScalar(pulse * 1.05); r.glow.material.opacity = k * .9; r.inside.emissive.set('#ffe28a'); r.inside.emissiveIntensity = k * .35; }
+  // personajes
+  const m1 = mouthOf('p1', t), m2 = mouthOf('p2', t), md = mouthOf('doc', t);
+  await P1.set(drawCharacter('hombre', { face: { ...EXPR.shock, mouth: line('p1', t) ? .35 + m1 * .65 : .5, tears: .7, sweat: 1, open: blinkAt(t, .4) ? .05 : 1 }, ...POSE.headhold }));
+  await P2.set(drawCharacter('madre', { face: { ...EXPR.worried, mouth: line('p2', t) ? m2 * .8 : 0, sweat: 1, open: blinkAt(t, 1.9) ? .05 : 1 }, ...POSE.chin }));
+  await HO.set(houseFull({ mouth: md, blink: blinkAt(t, 2.6) }).replace(/<ellipse[^>]*\/>/, ''));
+  const j1 = line('p1', t) ? Math.abs(Math.sin(t * 9)) * .02 : 0; P1.m.position.set(P1.base.x + Math.sin(t * 23) * (line('p1', t) ? .012 : 0), P1.base.y + j1, P1.base.z);
+  const hop = sm(L.q2.t0 + .45, L.q2.t0 + .6, t) * (1 - sm(L.q2.t0 + .6, L.q2.t0 + .85, t)) * .08; HO.m.position.set(HO.base.x, HO.base.y + hop + Math.sin(t * 1.6) * .006, HO.base.z);
+  // cámara
+  const look = new THREE.Vector3(.05, 1.3, ZB), pos = new THREE.Vector3(.45, 2.0, ZB + 6.7);
+  const intro = 1 - sm(0, 1.4, t); pos.z -= intro * 1.4; pos.y -= intro * .2; look.y += intro * .1;
+  const toward = sm(TL.hl1, TL.hl1 + .5, t) * -1 * (1 - sm(TL.hl2, TL.hl2 + .5, t)) + sm(TL.hl2, TL.hl2 + .5, t) * (1 - sm(TL.cd0, TL.cd0 + .8, t));
+  const spk = (line('p1', t) ? -.5 : 0) + (line('p2', t) ? .5 : 0); window._spk = lerp(window._spk ?? 0, spk, .08); if (window._last !== i - 1) window._spk = spk; window._last = i;
+  look.x += toward * .75 + window._spk; pos.x += toward * .3 + window._spk * .3;
+  const q = sm(L.q1.t0 - .2, L.q1.t0 + .8, t) * (1 - sm(L.f1.t0, L.f1.t0 + .8, t)); pos.lerp(new THREE.Vector3(.2, 1.75, ZB + 3.8), q); look.lerp(new THREE.Vector3(0, 1.45, ZB + 1.5), q);
+  const f = sm(L.f1.t0 + .3, L.f1.t1 + .6, t); pos.lerp(new THREE.Vector3(-DX + .15, 1.45, ZB + 1.6), f); look.lerp(new THREE.Vector3(-DX - .1, 1.15, ZB - 1.2), f);
+  cam.position.copy(pos); cam.lookAt(look); cam.rotateZ(Math.sin(t * .8) * .006);
+  R.render(S, cam);
+  X.drawImage(R.domElement, 0, 0);
+  const v = X.createRadialGradient(W / 2, H * .5, H * .3, W / 2, H * .5, H * .8); v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(40,40,30,.18)'); X.fillStyle = v; X.fillRect(0, 0, W, H);
+  // título
+  const tp = pop(t, .1), fadeT = 1 - sm(L.f1.t0, L.f1.t0 + .4, t);
+  if (tp > 0 && fadeT > 0) { X.save(); X.globalAlpha = fadeT; X.translate(540, 190); X.scale(tp, tp); text('¿qué paciente', 0, -40, 68, INK, 'center', 16); text('eliges?', 0, 38, 68, '#e2453a', 'center', 16); X.restore(); }
+  // síntomas: aparecen al resaltar cada puerta
+  const fadeS = 1 - sm(L.q1.t0 - .2, L.q1.t0 + .3, t);
+  for (const { cx, n } of rooms) {
+    const [sx, sy] = toScr(cx, 0, ZB + .5), t0 = n === 1 ? TL.hl1 : TL.hl2;
+    chips[n].forEach((c, k) => { const p = pop(t, t0 + k * .12); if (p <= 0 || fadeS <= 0) return; X.font = '800 34px Montserrat'; const w = X.measureText(c).width + 30, y = sy + 60 + k * 52, x = Math.min(Math.max(sx, w / 2 + 10), W - w / 2 - 10);
+      X.save(); X.globalAlpha = fadeS; X.translate(x, y); X.scale(p, p); text(c, 0, 0, 34, INK, 'center', 11); X.restore(); });
+  }
+  // cuenta regresiva 5..1
+  if (t >= TL.cd0 - .1 && t < TL.cd1 + .5) {
+    const step = (TL.cd1 - TL.cd0) / 5, k = Math.min(4, Math.floor((t - TL.cd0) / step)), num = t >= TL.cd1 ? 0 : 5 - Math.max(0, k);
+    const p = pop(t, TL.cd0 - .1) * (1 + .12 * Math.max(0, 1 - ((t - TL.cd0) % step) / .2)), out = 1 - sm(TL.cd1 + .2, TL.cd1 + .5, t);
+    const cy = 1640, prog = clamp((t - TL.cd0) / (TL.cd1 - TL.cd0), 0, 1);
+    X.save(); X.globalAlpha = out; X.translate(540, cy); X.scale(p, p);
+    X.beginPath(); X.arc(0, 0, 105, 0, 7); X.fillStyle = num === 0 ? '#e2453a' : '#ffd23f'; X.fill(); X.lineWidth = 9; X.strokeStyle = INK; X.stroke();
+    X.beginPath(); X.arc(0, 0, 84, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * (1 - prog)); X.lineWidth = 16; X.lineCap = 'round'; X.strokeStyle = num === 0 ? '#ffffff' : '#e2453a'; X.stroke();
+    text(String(num), 0, 8, 110, num === 0 ? '#ffffff' : INK); X.restore();
+  }
+  // final: fundido a blanco
+  const end = sm(TL.total - .5, TL.total, t); if (end > 0) { X.fillStyle = `rgba(255,255,255,${end})`; X.fillRect(0, 0, W, H); }
+  return OUT.toDataURL('image/jpeg', .9);
+}
+window.renderFrame = async (i) => { if (VIDEO) return renderVideo(i);
   R.render(S, cam);
   X.drawImage(R.domElement, 0, 0);
   // grano de papel suave + viñeta

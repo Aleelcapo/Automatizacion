@@ -1,0 +1,65 @@
+{
+ "total": 19.15,
+ "lines": [
+  {
+   "key": "h1",
+   "who": "doc",
+   "text": "¿Qué paciente eliges?",
+   "t0": 0.35,
+   "t1": 1.581
+  },
+  {
+   "key": "h2",
+   "who": "doc",
+   "text": "¿El uno...",
+   "t0": 1.731,
+   "t1": 2.274
+  },
+  {
+   "key": "h3",
+   "who": "doc",
+   "text": "¿o el dos?",
+   "t0": 2.474,
+   "t1": 3.241
+  },
+  {
+   "key": "p1",
+   "who": "p1",
+   "text": "¡Ay, mi brazo! ¡Se me ve el hueso!",
+   "t0": 3.441,
+   "t1": 5.942
+  },
+  {
+   "key": "p2",
+   "who": "p2",
+   "text": "Es acidez nomás... pero me duele la mandíbula.",
+   "t0": 5.992,
+   "t1": 8.636
+  },
+  {
+   "key": "q1",
+   "who": "doc",
+   "text": "¿Alguien puede llamar a un médico?",
+   "t0": 9.536,
+   "t1": 11.203
+  },
+  {
+   "key": "q2",
+   "who": "doc",
+   "text": "Ah, no. Soy yo.",
+   "t0": 11.753,
+   "t1": 13.975
+  },
+  {
+   "key": "f1",
+   "who": "doc",
+   "text": "Si elegiste el uno, tendrás que resolver lo siguiente...",
+   "t0": 14.675,
+   "t1": 17.75
+  }
+ ],
+ "hl1": 1.8310000000000002,
+ "hl2": 2.724,
+ "cd0": 3.491,
+ "cd1": 8.786
+}
