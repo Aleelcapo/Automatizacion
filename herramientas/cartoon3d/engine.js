@@ -138,6 +138,7 @@ function drawFace(ctx, o) {
   const cx = 512, eyY = 226, sep = 66;
   const look = [(o.eyes?.[0] ?? 0) + (E.look?.[0] ?? 0), (o.eyes?.[1] ?? 0) + (E.look?.[1] ?? 0)];
   ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+  if (o.stubble) { const rr = rng('stub'); ctx.fillStyle = 'rgba(95,75,60,.28)'; ctx.beginPath(); ctx.ellipse(512, 372, 175, 92, 0, 0, 7); ctx.fill(); ctx.fillStyle = 'rgba(70,55,45,.55)'; for (let i = 0; i < 420; i++) { const a = rr() * 6.283, rad = Math.sqrt(rr()); const x = 512 + Math.cos(a) * rad * 170, y = 372 + Math.sin(a) * rad * 88; if (y > 318) ctx.fillRect(x, y, 3, 3); } }
   if (E.blush || o.blush) { ctx.fillStyle = 'rgba(240,110,120,.35)'; for (const s of [-1, 1]) { ctx.beginPath(); ctx.ellipse(cx + s * 100, 286, 30, 15, 0, 0, 7); ctx.fill(); } }
   for (const s of [-1, 1]) {
     const x = cx + s * sep, rx = 27 * E.eye, ry = 37 * E.eye;
@@ -376,7 +377,8 @@ class Character {
     const hc = look.hairColor || '#3b2a20', r = B.head;
     const H = look.hair || 'none';
     const capGeom = (k, tl) => G(`hcap${r},${k},${tl}`, () => new THREE.SphereGeometry(r * k, 40, 16, 0, Math.PI * 2, 0, tl));
-    if (H === 'short' || H === 'bun' || H === 'long' || H === 'part') {
+    if (H === 'messy') { const m = mesh(capGeom(1.05, Math.PI * .36), hc); m.rotation.x = -.38; this.headG.add(m); const rr = rng('messy'); for (let i = 0; i < 18; i++) { const b = sph(.045 + rr() * .02, hc, { thick: .004 }); const th = .25 + rr() * .55, ph = rr() * Math.PI * 2; b.position.setFromSphericalCoords(r * 1.0, th, ph); b.scale.set(1, .7, 1); this.headG.add(b); } for (const sd of [-1, 1]) { const g = sph(.04, '#a59a90', { thick: .004 }); g.scale.set(.5, 1.2, .9); g.position.set(sd * r * .93, r * .12, r * .05); this.headG.add(g); } }
+    else if (H === 'short' || H === 'bun' || H === 'long' || H === 'part') {
       const m = mesh(capGeom(1.04, Math.PI * .36), hc); m.rotation.x = -.38; this.headG.add(m);
       if (H === 'bun') { const b = sph(.085, hc); b.position.set(0, r * .95, -r * .45); this.headG.add(b); }
       if (H === 'long') { const l = mesh(G(`hl${r}`, () => new THREE.CylinderGeometry(r * .95, r * 1.02, r * 1.1, 32, 1, false, Math.PI * .6, Math.PI * .8)), hc); l.position.set(0, -r * .1, 0); this.headG.add(l); }
@@ -426,7 +428,7 @@ class Character {
     const key = `${expr}|${eyes[0].toFixed(2)}|${eyes[1].toFixed(2)}|${blink}`;
     if (key === this.lastFace) return;
     this.lastFace = key;
-    drawFace(this.faceCanvas.getContext('2d'), { skin: this.skin, expr, eyes, blink, glasses: this.look.glasses, mustache: this.look.mustache, hairColor: this.look.hairColor, blush: this.look.blush });
+    drawFace(this.faceCanvas.getContext('2d'), { skin: this.skin, expr, eyes, blink, glasses: this.look.glasses, mustache: this.look.mustache, stubble: this.look.stubble, hairColor: this.look.hairColor, blush: this.look.blush });
     this.faceTex.needsUpdate = true;
   }
   applyArms(H) {
@@ -542,6 +544,10 @@ function updateCharacter(ch, acts, t, cam) {
 
 // ---------------------------------------------------------------- utilería
 const PROPS = {};
+PROPS.cane = (spec) => { const g = new THREE.Group(); const wood = spec.color || '#7a4a2a', hh = spec.h || .86;
+  const st = cyl(.014, .014, hh, wood, { thick: .004 }); st.position.y = hh / 2; g.add(st);
+  const hk = mesh(new THREE.TorusGeometry(.04, .014, 8, 16, Math.PI), wood, { thick: .004 }); hk.position.set(.04, hh, 0); g.add(hk);
+  const tip = cyl(.019, .019, .03, '#222', { outline: false }); tip.position.y = .015; g.add(tip); return g; };
 function propTextPlane(g, w, h, z, draw, res = 512, o = {}) {
   const tex = canvasTex(Math.round(res * w / h), res, draw);
   const p = panel(w, h, tex, o); p.position.z = z; g.add(p); return { plane: p, tex };

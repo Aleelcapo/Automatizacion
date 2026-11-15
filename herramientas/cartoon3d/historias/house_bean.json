@@ -1,0 +1,89 @@
+{
+ "out": "House_bean",
+ "title": "Dr. House estilo muñeco",
+ "voice": "es-MX-JorgeNeural",
+ "rate": "+5%",
+ "look": {
+  "skin": "white",
+  "style": "bean"
+ },
+ "scenes": {
+  "estudio": {
+   "set": {
+    "type": "studio",
+    "color": "#bfe0d6"
+   },
+   "actors": [
+    {
+     "id": "house",
+     "look": {
+      "hair": "messy",
+      "hairColor": "#45302a",
+      "coat": "#676b73",
+      "shirt": "#2e2f37",
+      "pants": "#4f6f9c",
+      "shoes": "#ee7a35",
+      "stubble": true,
+      "badge": false,
+      "skin": "#efc4a2"
+     },
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "rot": 0,
+     "expr": "smug",
+     "pose": "idle"
+    }
+   ],
+   "props": [
+    {
+     "id": "baston",
+     "type": "cane",
+     "pos": [
+      -0.215,
+      0,
+      0.07
+     ],
+     "rz": 0.04,
+     "s": 0.72,
+     "h": 0.5,
+     "color": "#6b3f22"
+    }
+   ]
+  }
+ },
+ "beats": [
+  {
+   "text": "Este es el doctor House, el médico más sarcástico del hospital.",
+   "shots": [
+    {
+     "scene": "estudio",
+     "cam": {
+      "target": [
+       0,
+       0.62,
+       0
+      ],
+      "dist": 2.9,
+      "yaw": 18,
+      "pitch": 5,
+      "move": "hold"
+     }
+    },
+    {
+     "scene": "estudio",
+     "from": "médico",
+     "cam": {
+      "on": "house",
+      "shot": "face",
+      "yaw": 12,
+      "move": "hold"
+     }
+    }
+   ]
+  }
+ ],
+ "captionY": 5
+}
