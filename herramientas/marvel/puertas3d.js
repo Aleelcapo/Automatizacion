@@ -6,6 +6,7 @@ import { EXPR, POSE } from './expr.js';
 import { houseFull } from './housefull.js';
 const W = 1080, H = 1920, Q = new URLSearchParams(location.search), REVEAL = !!Q.get('reveal'), VIDEO = !!Q.get('video');
 const TL = VIDEO ? await (await fetch('/puertas_tl.json')).json() : null;
+await document.fonts.load('800 40px Montserrat');
 const INK = '#1b1820';
 const R = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true }); R.setSize(W, H); R.setPixelRatio(1); R.outputColorSpace = THREE.SRGBColorSpace; R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFSoftShadowMap; R.toneMapping = THREE.ACESFilmicToneMapping; R.toneMappingExposure = 1.05;
 const S = new THREE.Scene(); S.background = new THREE.Color('#e9ecea');
@@ -95,7 +96,8 @@ for (const [s, n] of [[-1, 1], [1, 2]]) {
   // cartel con número arriba de la puerta
   const sign = tex(256, 256, (x, w, h) => { x.fillStyle = REVEAL ? (n === 2 ? '#e2453a' : '#8a9496') : '#2f7fd0'; x.beginPath(); x.arc(128, 128, 118, 0, 7); x.fill(); x.lineWidth = 12; x.strokeStyle = INK; x.stroke(); x.fillStyle = '#fff'; x.font = '800 170px Montserrat'; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText(n, 128, 140); });
   const sg = new THREE.Mesh(new THREE.CircleGeometry(.36, 48), new THREE.MeshBasicMaterial({ map: sign, transparent: true })); sg.position.set(cx, DH + .58, ZB + .13); S.add(sg);
-  const glow = new THREE.Mesh(new THREE.CircleGeometry(.5, 48), new THREE.MeshBasicMaterial({ color: '#ffd23f', transparent: true, opacity: 0 })); glow.position.set(cx, DH + .58, ZB + .12); S.add(glow);
+  const signHL = tex(256, 256, (x) => { x.fillStyle = '#ffc928'; x.beginPath(); x.arc(128, 128, 118, 0, 7); x.fill(); x.lineWidth = 12; x.strokeStyle = INK; x.stroke(); x.fillStyle = INK; x.font = '800 170px Montserrat'; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText(n, 128, 140); });
+  const glow = new THREE.Mesh(new THREE.CircleGeometry(.36, 48), new THREE.MeshBasicMaterial({ map: signHL, transparent: true, opacity: 0 })); glow.position.set(cx, DH + .58, ZB + .135); S.add(glow);
   rooms.push({ cx, n, rm, inside, sg, glow });
 }
 // detalles de la sala: banco, planta, dispenser, reloj, luces de techo
@@ -149,9 +151,9 @@ const shots = [];
 async function renderVideo(i) {
   const t = i / 30, L = Object.fromEntries(TL.lines.map(l => [l.key, l]));
   // resaltado de puertas
-  const k1 = Math.max(sm(TL.hl1, TL.hl1 + .25, t) * (1 - sm(TL.hl2, TL.hl2 + .25, t)), line('p1', t) ? .55 : 0, sm(L.f1.t0 + .9, L.f1.t0 + 1.3, t));
-  const k2 = Math.max(sm(TL.hl2, TL.hl2 + .25, t) * (1 - sm(TL.cd0, TL.cd0 + .3, t)), line('p2', t) ? .55 : 0);
-  for (const [r, k] of [[rooms[0], k1], [rooms[1], k2]]) { const pulse = 1 + k * (.22 + .06 * Math.sin(t * 9)); r.sg.scale.setScalar(pulse); r.glow.scale.setScalar(pulse * 1.05); r.glow.material.opacity = k * .9; r.inside.emissive.set('#ffe28a'); r.inside.emissiveIntensity = k * .35; }
+  const k1 = Math.max(sm(TL.hl1, TL.hl1 + .25, t) * (1 - sm(TL.hl2, TL.hl2 + .25, t)), line('p1', t) ? 1 : 0, sm(L.f1.t0 + .9, L.f1.t0 + 1.3, t));
+  const k2 = Math.max(sm(TL.hl2, TL.hl2 + .25, t) * (1 - sm(TL.cd0, TL.cd0 + .3, t)), line('p2', t) ? 1 : 0);
+  for (const [r, k] of [[rooms[0], k1], [rooms[1], k2]]) { r.glow.material.opacity = k > .5 ? 1 : 0; }
   // personajes
   const m1 = mouthOf('p1', t), m2 = mouthOf('p2', t), md = mouthOf('doc', t);
   await P1.set(drawCharacter('hombre', { face: { ...EXPR.shock, mouth: line('p1', t) ? .35 + m1 * .65 : .5, tears: .7, sweat: 1, open: blinkAt(t, .4) ? .05 : 1 }, ...POSE.headhold }));
@@ -175,10 +177,9 @@ async function renderVideo(i) {
   const tp = pop(t, .1), fadeT = 1 - sm(L.f1.t0, L.f1.t0 + .4, t);
   if (tp > 0 && fadeT > 0) { X.save(); X.globalAlpha = fadeT; X.translate(540, 190); X.scale(tp, tp); text('¿qué paciente', 0, -40, 68, INK, 'center', 16); text('eliges?', 0, 38, 68, '#e2453a', 'center', 16); X.restore(); }
   // síntomas: aparecen al resaltar cada puerta
-  const fadeS = 1 - sm(L.q1.t0 - .2, L.q1.t0 + .3, t);
   for (const { cx, n } of rooms) {
-    const [sx, sy] = toScr(cx, 0, ZB + .5), t0 = n === 1 ? TL.hl1 : TL.hl2;
-    chips[n].forEach((c, k) => { const p = pop(t, t0 + k * .12); if (p <= 0 || fadeS <= 0) return; X.font = '800 34px Montserrat'; const w = X.measureText(c).width + 30, y = sy + 60 + k * 52, x = Math.min(Math.max(sx, w / 2 + 10), W - w / 2 - 10);
+    const ln2 = L[n === 1 ? 'p1' : 'p2'], [sx, sy] = toScr(cx, 0, ZB + .5), t0 = ln2.t0, fadeS = 1 - sm(ln2.t1 + .15, ln2.t1 + .45, t);
+    chips[n].forEach((c, k) => { const p = pop(t, t0 + k * Math.min(.6, (ln2.t1 - ln2.t0) / 4)); if (p <= 0 || fadeS <= 0) return; X.font = '800 34px Montserrat'; const w = X.measureText(c).width + 30, y = sy + 60 + k * 52, x = Math.min(Math.max(sx, w / 2 + 10), W - w / 2 - 10);
       X.save(); X.globalAlpha = fadeS; X.translate(x, y); X.scale(p, p); text(c, 0, 0, 34, INK, 'center', 11); X.restore(); });
   }
   // cuenta regresiva 5..1
