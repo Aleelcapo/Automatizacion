@@ -138,7 +138,7 @@ const OUT = document.createElement('canvas'); OUT.width = W; OUT.height = H; con
 const toScr = (x, y, z) => { const v = new THREE.Vector3(x, y, z).project(cam); return [(v.x + 1) / 2 * W, (1 - v.y) / 2 * H]; };
 function pill(x, y, w, h, fill, r, lw = 6) { X.beginPath(); X.roundRect(x, y, w, h, r); X.fillStyle = fill; X.fill(); X.lineWidth = lw; X.strokeStyle = INK; X.stroke(); }
 function text(s, x, y, size, col = INK, align = 'center', stroke = 0) { X.font = `800 ${size}px Montserrat`; X.textAlign = align; X.textBaseline = 'middle'; if (stroke) { X.lineJoin = 'round'; X.lineWidth = stroke; X.strokeStyle = '#ffffff'; X.strokeText(s, x, y); } X.fillStyle = col; X.fillText(s, x, y); }
-const chips = { 1: ['brazo fracturado', 'grita de dolor', 'sangra mucho'], 2: ['"es acidez"', 'le duele la mandíbula', 'sudor frío'] };
+const chips = VIDEO ? { 1: ['brazo fracturado'], 2: ['le duele la mandíbula'] } : { 1: ['brazo fracturado', 'grita de dolor', 'sangra mucho'], 2: ['"es acidez"', 'le duele la mandíbula', 'sudor frío'] };
 
 // ---------- modo video
 const clamp = (x, a, b) => Math.max(a, Math.min(b, x)), lerp = (a, b, k) => a + (b - a) * k, ease = k => k < .5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
