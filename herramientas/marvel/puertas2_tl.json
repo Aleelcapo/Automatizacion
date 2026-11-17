@@ -1,0 +1,92 @@
+{
+ "total": 39.78,
+ "lines": [
+  {
+   "key": "d1",
+   "who": "doc",
+   "text": "Elegiste el uno. Brazo quebrado.",
+   "t0": 0.4,
+   "t1": 3.172
+  },
+  {
+   "key": "p1",
+   "who": "p1",
+   "text": "¡Doctor, ayúdeme, me duele muchísimo!",
+   "t0": 3.472,
+   "t1": 6.126
+  },
+  {
+   "key": "d2",
+   "who": "doc",
+   "text": "Tranquila. A ver... ¿qué haces primero?",
+   "t0": 6.426,
+   "t1": 9.615
+  },
+  {
+   "key": "oA",
+   "who": "doc",
+   "text": "A: le acomodas el hueso.",
+   "t0": 9.965,
+   "t1": 11.752
+  },
+  {
+   "key": "oB",
+   "who": "doc",
+   "text": "B: le inmovilizas el brazo.",
+   "t0": 12.002,
+   "t1": 13.898
+  },
+  {
+   "key": "oC",
+   "who": "doc",
+   "text": "C: le das agua para calmarla.",
+   "t0": 14.148,
+   "t1": 16.384
+  },
+  {
+   "key": "p1b",
+   "who": "p1",
+   "text": "¡Ay, ay, ay!",
+   "t0": 17.884,
+   "t1": 19.509
+  },
+  {
+   "key": "r1",
+   "who": "doc",
+   "text": "La B.",
+   "t0": 22.184,
+   "t1": 22.656
+  },
+  {
+   "key": "r2",
+   "who": "doc",
+   "text": "Nunca intentes acomodar un hueso: puedes dañar vasos y nervios.",
+   "t0": 22.956,
+   "t1": 26.775
+  },
+  {
+   "key": "r3",
+   "who": "doc",
+   "text": "Se inmoviliza tal como está. Y nada de agua ni comida: quizás necesite cirugía.",
+   "t0": 27.075,
+   "t1": 32.831
+  },
+  {
+   "key": "p2",
+   "who": "p2",
+   "text": "¡Aaay... el pecho!",
+   "t0": 33.931,
+   "t1": 35.128
+  },
+  {
+   "key": "f1",
+   "who": "doc",
+   "text": "Mientras tanto... el de la puerta dos se está infartando.",
+   "t0": 35.478,
+   "t1": 38.58
+  }
+ ],
+ "cd0": 16.684,
+ "cd1": 21.684,
+ "alarm": 33.181
+}

@@ -5,7 +5,8 @@ import { drawCharacter } from './estilo.js';
 import { EXPR, POSE } from './expr.js';
 import { houseFull } from './housefull.js';
 const W = 1080, H = 1920, Q = new URLSearchParams(location.search), REVEAL = !!Q.get('reveal'), VIDEO = !!Q.get('video');
-const TL = VIDEO ? await (await fetch('/puertas_tl.json')).json() : null;
+const V2 = Q.get('video') === '2';
+const TL = VIDEO ? await (await fetch(V2 ? '/puertas2_tl.json' : '/puertas_tl.json')).json() : null;
 await document.fonts.load('800 40px Montserrat');
 const INK = '#1b1820';
 const R = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true }); R.setSize(W, H); R.setPixelRatio(1); R.outputColorSpace = THREE.SRGBColorSpace; R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFSoftShadowMap; R.toneMapping = THREE.ACESFilmicToneMapping; R.toneMappingExposure = 1.05;
@@ -98,7 +99,9 @@ for (const [s, n] of [[-1, 1], [1, 2]]) {
   const sg = new THREE.Mesh(new THREE.CircleGeometry(.36, 48), new THREE.MeshBasicMaterial({ map: sign, transparent: true })); sg.position.set(cx, DH + .58, ZB + .13); S.add(sg);
   const signHL = tex(256, 256, (x) => { x.fillStyle = '#ffc928'; x.beginPath(); x.arc(128, 128, 118, 0, 7); x.fill(); x.lineWidth = 12; x.strokeStyle = INK; x.stroke(); x.fillStyle = INK; x.font = '800 170px Montserrat'; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText(n, 128, 140); });
   const glow = new THREE.Mesh(new THREE.CircleGeometry(.36, 48), new THREE.MeshBasicMaterial({ map: signHL, transparent: true, opacity: 0 })); glow.position.set(cx, DH + .58, ZB + .135); S.add(glow);
-  rooms.push({ cx, n, rm, inside, sg, glow });
+  const signR = tex(256, 256, (x) => { x.fillStyle = '#e2453a'; x.beginPath(); x.arc(128, 128, 118, 0, 7); x.fill(); x.lineWidth = 12; x.strokeStyle = INK; x.stroke(); x.fillStyle = '#fff'; x.font = '800 170px Montserrat'; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText(n, 128, 140); });
+  const red = new THREE.Mesh(new THREE.CircleGeometry(.36, 48), new THREE.MeshBasicMaterial({ map: signR, transparent: true, opacity: 0 })); red.position.set(cx, DH + .58, ZB + .14); S.add(red);
+  rooms.push({ cx, n, rm, inside, sg, glow, red });
 }
 // detalles de la sala: banco, planta, dispenser, reloj, luces de techo
 box(.38, .45, .38, '#d97a4a', WX - .45, .23, ZB + .5, { t: .014 });
@@ -125,7 +128,7 @@ async function person(svgInner, vb, upm, x, z, opts = {}) {
     if (!img) { img = new Image(); const u = URL.createObjectURL(new Blob([`<svg xmlns="http://www.w3.org/2000/svg" width="${px}" height="${py}" viewBox="${vb.join(' ')}">${inner}</svg>`], { type: 'image/svg+xml' })); await new Promise(r => { img.onload = r; img.src = u; }); if (cache.size < 60) cache.set(inner, img); }
     cx2.clearRect(0, 0, px, py); cx2.drawImage(img, 0, 0, px, py); t.needsUpdate = true; };
   await set(svgInner);
-  return { m, set, base, foot: new THREE.Vector3(x, 0, z) };
+  return { m, set, base, sh, foot: new THREE.Vector3(x, 0, z) };
 }
 const dim = REVEAL ? '#7d8790' : '#ffffff';
 const P1 = await person(drawCharacter(VIDEO ? 'madre' : 'hombre', { face: { ...EXPR.shock, tears: .7, sweat: 1 }, ...POSE.headhold }), [-300, -1000, 600, 1010], 540, -DX - .05, ZB - .85, { tint: dim });
@@ -196,7 +199,79 @@ async function renderVideo(i) {
   const end = sm(TL.total - .5, TL.total, t); if (end > 0) { X.fillStyle = `rgba(255,255,255,${end})`; X.fillRect(0, 0, W, H); }
   return OUT.toDataURL('image/jpeg', .9);
 }
-window.renderFrame = async (i) => { if (VIDEO) return renderVideo(i);
+
+// ---------- modo video 2: dentro del cuarto 1
+const OPTS = [['A', 'le acomodas el hueso'], ['B', 'le inmovilizas el brazo'], ['C', 'le das agua']];
+function card(y, letter, label, state, p, alpha) {
+  if (p <= 0) return; X.save(); X.globalAlpha = alpha * (state === 'bad' ? .75 : 1); X.translate(540, y); X.scale(p, p);
+  X.shadowColor = 'rgba(0,0,0,.25)'; X.shadowOffsetY = 6; X.shadowBlur = 10;
+  X.beginPath(); X.roundRect(-420, -56, 840, 112, 30); X.fillStyle = state === 'good' ? '#dff7e8' : '#ffffff'; X.fill(); X.shadowColor = 'transparent';
+  X.lineWidth = state === 'good' ? 10 : 6; X.strokeStyle = state === 'good' ? '#2fbf71' : INK; X.stroke();
+  X.beginPath(); X.arc(-350, 0, 40, 0, 7); X.fillStyle = state === 'good' ? '#2fbf71' : state === 'bad' ? '#e2453a' : '#2f7fd0'; X.fill(); X.lineWidth = 6; X.strokeStyle = INK; X.stroke();
+  text(state === 'good' ? '✓' : state === 'bad' ? '✕' : letter, -350, 4, 50, '#fff');
+  text(label, -285, 2, 44, state === 'bad' ? '#8a9496' : INK, 'left');
+  if (state === 'bad') { X.beginPath(); X.moveTo(-285, 2); X.lineTo(-285 + X.measureText(label).width, 2); X.lineWidth = 6; X.strokeStyle = '#e2453a'; X.stroke(); }
+  X.restore();
+}
+async function renderVideo2(i) {
+  const t = i / 30, L = Object.fromEntries(TL.lines.map(l => [l.key, l])), alarm = t >= TL.alarm;
+  // personajes: la paciente del brazo y House dentro del cuarto 1; el de la mandíbula en el cuarto 2
+  const m1 = mouthOf('p1', t), md = mouthOf('doc', t), m2 = mouthOf('p2', t);
+  await P1.set(drawCharacter('madre', { face: { ...EXPR.shock, mouth: line('p1', t) ? .35 + m1 * .65 : .45, tears: .6, sweat: 1, open: blinkAt(t, .4) ? .05 : 1 }, ...POSE.headhold }));
+  await P2.set(drawCharacter('hombre', { face: { ...(alarm ? EXPR.shock : EXPR.worried), mouth: line('p2', t) ? .4 + m2 * .6 : (alarm ? .5 : 0), sweat: 1, open: blinkAt(t, 1.9) ? .05 : 1 }, ...POSE.chin }));
+  await HO.set(houseFull({ mouth: md, blink: blinkAt(t, 2.6) }).replace(/<ellipse[^>]*\/>/, ''));
+  P1.m.position.set(-1.5, P1.base.y + (line('p1', t) ? Math.abs(Math.sin(t * 9)) * .015 : 0), ZB - 1.6); P1.sh.position.set(-1.5, .005, ZB - 1.6);
+  HO.m.position.set(-.72, HO.base.y, ZB - 1.95); HO.sh.position.set(-.72, .005, ZB - 1.95);
+  P2.m.position.set(P2.base.x + (alarm ? Math.sin(t * 31) * .015 : 0), P2.base.y, P2.base.z);
+  // alarma: cuarto 2 en rojo intermitente
+  const blinkR = alarm && Math.floor((t - TL.alarm) / .25) % 2 === 0;
+  rooms[1].inside.emissive.set('#ff2a1a'); rooms[1].inside.emissiveIntensity = blinkR ? .55 : alarm ? .2 : 0; rooms[1].red.material.opacity = alarm ? 1 : 0;
+  rooms[0].glow.material.opacity = 0;
+  // cámara
+  let pos, look, fov;
+  if (!alarm) {
+    pos = new THREE.Vector3(-.15, 1.62, ZB - .3); look = new THREE.Vector3(-1.1, 1.15, ZB - 2.05); fov = 80;
+    const k0 = 1 - sm(0, 1.6, t); pos.lerp(new THREE.Vector3(-1.2, 1.5, ZB + 1.6), k0); look.lerp(new THREE.Vector3(-1.6, 1.15, ZB - 1.6), k0);
+    const pz = sm(TL.cd0, TL.cd1, t) * (1 - sm(L.r1.t0, L.r1.t0 + .6, t)); pos.lerp(new THREE.Vector3(-.75, 1.55, ZB - .55), pz * .6); look.lerp(new THREE.Vector3(-1.7, 1.25, ZB - 1.6), pz * .6);
+    const tp = line('p1', t) ? -.1 : line('doc', t) ? .1 : 0; window._lk = lerp(window._lk ?? 0, tp, .06); if (window._last2 !== i - 1) window._lk = tp; window._last2 = i; look.x += window._lk;
+    for (const o of [P1.m, HO.m]) o.rotation.y = Math.atan2(pos.x - o.position.x, pos.z - o.position.z);
+  } else {
+    const k = sm(TL.alarm, TL.alarm + 1.2, t), k2 = sm(L.f1.t0, TL.total, t);
+    pos = new THREE.Vector3(.45, 2.0, ZB + 6.7).lerp(new THREE.Vector3(1.0, 1.7, ZB + 4.2), k).lerp(new THREE.Vector3(DX - .1, 1.5, ZB + 2.0), k2);
+    look = new THREE.Vector3(.05, 1.3, ZB).lerp(new THREE.Vector3(DX, 1.4, ZB), k).lerp(new THREE.Vector3(DX + .05, 1.2, ZB - 1.2), k2); fov = 60;
+    for (const o of [P1.m, HO.m]) o.rotation.y = 0;
+  }
+  cam.fov = fov; cam.updateProjectionMatrix(); cam.position.copy(pos); cam.lookAt(look); cam.rotateZ(Math.sin(t * .8) * .006 + (alarm ? Math.sin(t * 40) * .004 : 0));
+  R.render(S, cam);
+  X.drawImage(R.domElement, 0, 0);
+  const v = X.createRadialGradient(W / 2, H * .5, H * .3, W / 2, H * .5, H * .8); v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, alarm ? `rgba(160,0,0,${blinkR ? .35 : .15})` : 'rgba(40,40,30,.18)'); X.fillStyle = v; X.fillRect(0, 0, W, H);
+  // títulos
+  const pa = pop(t, .2) * (1 - sm(L.d2.t0 - .3, L.d2.t0, t));
+  if (pa > 0) { X.save(); X.translate(540, 180); X.scale(pa, pa); text('puerta', -50, 4, 72, INK, 'center', 16); X.beginPath(); X.arc(150, 0, 62, 0, 7); X.fillStyle = '#ffc928'; X.fill(); X.lineWidth = 8; X.strokeStyle = INK; X.stroke(); text('1', 150, 6, 80); X.restore(); }
+  const pt = pop(t, L.d2.t0 + .9) * (1 - sm(TL.alarm - .3, TL.alarm, t));
+  if (pt > 0) { X.save(); X.translate(540, 190); X.scale(pt, pt); text('¿qué haces', 0, -40, 68, INK, 'center', 16); text('primero?', 0, 38, 68, '#e2453a', 'center', 16); X.restore(); }
+  // opciones
+  const fadeC = 1 - sm(TL.alarm - .3, TL.alarm, t);
+  OPTS.forEach(([l, lab], k) => {
+    const key = 'o' + l, st = t < L.r1.t0 ? '' : l === 'B' ? 'good' : (l === 'A' && t >= L.r2.t0) || (l === 'C' && t >= L.r3.t0 + 2.1) ? 'bad' : '';
+    const bump = st && (t - (l === 'B' ? L.r1.t0 : l === 'A' ? L.r2.t0 : L.r3.t0 + 2.1)) < .3 ? 1.08 : 1;
+    card(1200 + k * 145, l, lab, st, pop(t, L[key].t0 - .05) * bump, fadeC);
+  });
+  // conteo
+  if (t >= TL.cd0 - .1 && t < TL.cd1 + .5) {
+    const k = Math.min(4, Math.floor(t - TL.cd0)), num = t >= TL.cd1 ? 0 : 5 - Math.max(0, k);
+    const p = pop(t, TL.cd0 - .1) * (1 + .12 * Math.max(0, 1 - ((t - TL.cd0) % 1) / .2)), out = 1 - sm(TL.cd1 + .2, TL.cd1 + .5, t), prog = clamp(t - TL.cd0, 0, 5) / 5;
+    X.save(); X.globalAlpha = out; X.translate(540, 1700); X.scale(p * .85, p * .85);
+    X.beginPath(); X.arc(0, 0, 105, 0, 7); X.fillStyle = num === 0 ? '#e2453a' : '#ffd23f'; X.fill(); X.lineWidth = 9; X.strokeStyle = INK; X.stroke();
+    X.beginPath(); X.arc(0, 0, 84, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * (1 - prog)); X.lineWidth = 16; X.lineCap = 'round'; X.strokeStyle = num === 0 ? '#ffffff' : '#e2453a'; X.stroke();
+    text(String(num), 0, 8, 110, num === 0 ? '#ffffff' : INK); X.restore();
+  }
+  // alarma
+  if (alarm) { const pa2 = pop(t, TL.alarm + .1); X.save(); X.translate(540, 130); X.rotate(-.04); X.scale(pa2, pa2); text('¡alarma en la', 0, -42, 70, INK, 'center', 16); text('puerta 2!', 0, 40, 76, '#e2453a', 'center', 18); X.restore(); }
+  const end = sm(TL.total - .5, TL.total, t); if (end > 0) { X.fillStyle = `rgba(255,255,255,${end})`; X.fillRect(0, 0, W, H); }
+  return OUT.toDataURL('image/jpeg', .9);
+}
+window.renderFrame = async (i) => { if (V2) return renderVideo2(i); if (VIDEO) return renderVideo(i);
   R.render(S, cam);
   X.drawImage(R.domElement, 0, 0);
   // grano de papel suave + viñeta
