@@ -231,7 +231,7 @@ async function renderVideo2(i) {
   let pos, look, fov;
   if (!alarm) {
     pos = new THREE.Vector3(-.15, 1.62, ZB - .3); look = new THREE.Vector3(-1.1, 1.15, ZB - 2.05); fov = 80;
-    const k0 = 1 - sm(0, 1.6, t); pos.lerp(new THREE.Vector3(-1.2, 1.5, ZB + 1.6), k0); look.lerp(new THREE.Vector3(-1.6, 1.15, ZB - 1.6), k0);
+    const k0 = 1 - sm(0, 1.6, t); pos.lerp(new THREE.Vector3(-1.42, 1.5, ZB - .15), k0); look.lerp(new THREE.Vector3(-1.55, 1.15, ZB - 1.6), k0);
     const pz = sm(TL.cd0, TL.cd1, t) * (1 - sm(L.r1.t0, L.r1.t0 + .6, t)); pos.lerp(new THREE.Vector3(-.75, 1.55, ZB - .55), pz * .6); look.lerp(new THREE.Vector3(-1.7, 1.25, ZB - 1.6), pz * .6);
     const tp = line('p1', t) ? -.1 : line('doc', t) ? .1 : 0; window._lk = lerp(window._lk ?? 0, tp, .06); if (window._last2 !== i - 1) window._lk = tp; window._last2 = i; look.x += window._lk;
     for (const o of [P1.m, HO.m]) o.rotation.y = Math.atan2(pos.x - o.position.x, pos.z - o.position.z);
