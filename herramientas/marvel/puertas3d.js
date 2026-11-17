@@ -128,8 +128,8 @@ async function person(svgInner, vb, upm, x, z, opts = {}) {
   return { m, set, base, foot: new THREE.Vector3(x, 0, z) };
 }
 const dim = REVEAL ? '#7d8790' : '#ffffff';
-const P1 = await person(drawCharacter('hombre', { face: { ...EXPR.shock, tears: .7, sweat: 1 }, ...POSE.headhold }), [-300, -1000, 600, 1010], 540, -DX - .05, ZB - .85, { tint: dim });
-const P2 = await person(drawCharacter('madre', { face: { ...EXPR.worried, sweat: 1 }, ...POSE.chin }), [-300, -1000, 600, 1010], 540, DX + .05, ZB - .85);
+const P1 = await person(drawCharacter(VIDEO ? 'madre' : 'hombre', { face: { ...EXPR.shock, tears: .7, sweat: 1 }, ...POSE.headhold }), [-300, -1000, 600, 1010], 540, -DX - .05, ZB - .85, { tint: dim });
+const P2 = await person(drawCharacter(VIDEO ? 'hombre' : 'madre', { face: { ...EXPR.worried, sweat: 1 }, ...POSE.chin }), [-300, -1000, 600, 1010], 540, DX + .05, ZB - .85);
 // House: cuerpo entero sin la sombra dibujada (la pone el piso)
 const HO = await person(houseFull().replace(/<ellipse[^>]*\/>/, ''), [-330, -1700, 640, 1712], 880, 0, ZB + 1.5);
 cam.fov = 60; cam.updateProjectionMatrix(); cam.position.set(.45, 2.0, ZB + 6.7); cam.lookAt(.05, 1.3, ZB);
@@ -156,8 +156,8 @@ async function renderVideo(i) {
   for (const [r, k] of [[rooms[0], k1], [rooms[1], k2]]) { r.glow.material.opacity = k > .5 ? 1 : 0; }
   // personajes
   const m1 = mouthOf('p1', t), m2 = mouthOf('p2', t), md = mouthOf('doc', t);
-  await P1.set(drawCharacter('hombre', { face: { ...EXPR.shock, mouth: line('p1', t) ? .35 + m1 * .65 : .5, tears: .7, sweat: 1, open: blinkAt(t, .4) ? .05 : 1 }, ...POSE.headhold }));
-  await P2.set(drawCharacter('madre', { face: { ...EXPR.worried, mouth: line('p2', t) ? m2 * .8 : 0, sweat: 1, open: blinkAt(t, 1.9) ? .05 : 1 }, ...POSE.chin }));
+  await P1.set(drawCharacter(VIDEO ? 'madre' : 'hombre', { face: { ...EXPR.shock, mouth: line('p1', t) ? .35 + m1 * .65 : .5, tears: .7, sweat: 1, open: blinkAt(t, .4) ? .05 : 1 }, ...POSE.headhold }));
+  await P2.set(drawCharacter(VIDEO ? 'hombre' : 'madre', { face: { ...EXPR.worried, mouth: line('p2', t) ? m2 * .8 : 0, sweat: 1, open: blinkAt(t, 1.9) ? .05 : 1 }, ...POSE.chin }));
   await HO.set(houseFull({ mouth: md, blink: blinkAt(t, 2.6) }).replace(/<ellipse[^>]*\/>/, ''));
   const j1 = line('p1', t) ? Math.abs(Math.sin(t * 9)) * .02 : 0; P1.m.position.set(P1.base.x + Math.sin(t * 23) * (line('p1', t) ? .012 : 0), P1.base.y + j1, P1.base.z);
   const hop = sm(L.q2.t0 + .45, L.q2.t0 + .6, t) * (1 - sm(L.q2.t0 + .6, L.q2.t0 + .85, t)) * .08; HO.m.position.set(HO.base.x, HO.base.y + hop + Math.sin(t * 1.6) * .006, HO.base.z);
