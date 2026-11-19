@@ -291,17 +291,32 @@ def srt_t(t):
     return f'{int(t // 3600):02d}:{int(t // 60 % 60):02d}:{int(t % 60):02d},{int(t * 1000 % 1000):03d}'
 
 
+def fetch_hd(url, ini, fin, tmp, idx):
+    """Baja solo el tramo [ini, fin] de un playlist HLS (p. ej. VOD de Kick en 1080p)."""
+    seg = os.path.join(tmp, f'hd{idx}.mp4')
+    run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{ini:.2f}', '-t', f'{fin - ini:.2f}', '-i', url,
+         '-c:v', 'libx264', '-preset', 'ultrafast', '-crf', '14', '-c:a', 'aac', '-b:a', '192k', seg])
+    return seg
+
+
 def cmd_cortar(a):
     M = json.load(open(a.momentos))
-    sw, sh, _ = probe(a.video)
     os.makedirs(a.outdir, exist_ok=True)
-    sel = M['momentos']
+    sel = list(enumerate(M['momentos']))
     if a.solo:
         keep = {int(x) for x in a.solo.split(',')}
-        sel = [m for i, m in enumerate(sel, 1) if i in keep]
+        sel = [(i, m) for i, m in sel if i + 1 in keep]
     with tempfile.TemporaryDirectory() as tmp:
-        for i, m in enumerate(sel):
-            render_clip(a.video, m, i, a, sw, sh, tmp)
+        for i, m in sel:
+            if a.hd:                      # tramo en alta calidad; tiempos relativos al tramo
+                seg = fetch_hd(a.hd, m['ini'], m['fin'], tmp, i)
+                m2 = dict(m, ini=0.0, fin=m['fin'] - m['ini'],
+                          nombre=m.get('nombre') or f'clip_{i + 1:02d}_{hms(m["ini"]).replace(":", "-")}')
+                sw, sh, _ = probe(seg)
+                render_clip(seg, m2, i, a, sw, sh, tmp)
+            else:
+                sw, sh, _ = probe(a.video)
+                render_clip(a.video, m, i, a, sw, sh, tmp)
 
 
 def main():
@@ -318,6 +333,7 @@ def main():
     p.add_argument('video'); p.add_argument('--momentos', default='work/momentos.json')
     p.add_argument('--outdir', default='entregas/clips'); p.add_argument('--canal', default='')
     p.add_argument('--cam'); p.add_argument('--modo', choices=['blur', 'split', 'recorte'])
+    p.add_argument('--hd', help='playlist HLS en alta calidad del mismo directo (baja solo los tramos)')
     p.add_argument('--solo', help='índices (1..n) de momentos a renderizar, ej. 1,3,4')
     p.add_argument('--idioma', default='es')
     a = ap.parse_args()
