@@ -255,6 +255,46 @@ def _runs(m, axis):
 
 
 def detect_cam(video, t=1.0, zona=0.4):
+    for sat, bri in ((55, 140), (30, 170), (20, 190)):     # de estricto a permisivo (bordes pastel)
+        r = _detect_cam(video, t, zona, sat, bri)
+        if r:
+            return r
+    return None
+
+
+CAMS_VISTAS = []                                          # cámaras detectadas en esta ejecución
+
+
+def frame_rgb(video, t):
+    sw, sh, _ = probe(video)
+    raw = subprocess.run(['ffmpeg', '-v', 'error', '-ss', f'{t:.2f}', '-i', video, '-frames:v', '1',
+                          '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-'], capture_output=True).stdout
+    return np.frombuffer(raw, np.uint8).reshape(sh, sw, 3).astype(np.int16)
+
+
+def score_cam(im, cam):
+    """Cuánto 'borde' hay justo fuera del rectángulo cam: contraste del marco frente a lo de fuera."""
+    g = im.mean(2)
+    x, y, w, h = cam
+    pad = max(4, int(0.025 * w / 0.95))
+    xa, ya, xb, yb = x - pad, y - pad, x + w + pad, y + h + pad
+    if xa < 3 or ya < 3 or xb >= g.shape[1] - 3 or yb >= g.shape[0] - 3:
+        return 0
+    lines = [abs(g[ya:yb, xa] - g[ya:yb, xa - 3]).mean(), abs(g[ya:yb, xb] - g[ya:yb, xb + 3]).mean(),
+             abs(g[ya, xa:xb] - g[ya - 3, xa:xb]).mean(), abs(g[yb, xa:xb] - g[yb + 3, xa:xb]).mean()]
+    return min(lines)                                      # las 4 líneas deben existir
+
+
+def cam_conocida(video, t):
+    """Si la detección falla, elige entre las posiciones ya vistas la que mejor encaja con el marco."""
+    if not CAMS_VISTAS:
+        return None
+    im = frame_rgb(video, t)
+    best = max(set(CAMS_VISTAS), key=lambda c: score_cam(im, c))
+    return best if score_cam(im, best) > 8 else None
+
+
+def _detect_cam(video, t, zona, sat, bri):
     """Busca la cámara del streamer: un marco de líneas finas de color (borde) a la izquierda o
     derecha del video. Devuelve x,y,w,h del interior o None."""
     sw, sh, _ = probe(video)
@@ -262,7 +302,7 @@ def detect_cam(video, t=1.0, zona=0.4):
                           '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-'], capture_output=True).stdout
     im = np.frombuffer(raw, np.uint8).reshape(sh, sw, 3).astype(np.int16)
     mx, mn = im.max(2), im.min(2)
-    mask = (mx - mn > 55) & (mx > 140)                     # píxeles de color vivo
+    mask = (mx - mn > sat) & (mx > bri)                     # píxeles de color vivo
     best = None
     for x0, x1 in ((0, int(sw * zona)), (int(sw * (1 - zona)), sw)):
         m = mask[:, x0:x1]
@@ -279,8 +319,9 @@ def detect_cam(video, t=1.0, zona=0.4):
             continue
         y0, y1 = rows.min(), rows.max()
         w, h = xb - xa, y1 - y0
-        if h < 0.1 * sh:
-            continue
+        if h < 0.1 * sh or not (0.75 < w / h < 1.35) or w > 0.25 * sw \
+                or (x0 == 0 and xa > 0.08 * sw) or (x0 > 0 and xb < m.shape[1] - 0.08 * sw):
+            continue                                       # descarta paneles anchos (subs, chat)
         pad = max(4, int(0.025 * w))
         cand = (int(xa + x0 + pad), int(y0 + pad), int(w - 2 * pad), int(h - 2 * pad))
         if best is None or w * h > best[2] * best[3]:
@@ -399,10 +440,21 @@ def render_clip(video, m, idx, a, sw, sh, tmp):
     camspec = m.get('cam') or a.cam
     if camspec == 'auto':
         cam = None
-        for tt in (0.5, dur / 2, max(0.5, dur - 2)):
+        tts = [0.5, dur / 2, max(0.5, dur - 2)] + [i * 1.5 for i in range(1, int(dur / 1.5))]
+        for tt in tts:
             cam = detect_cam(video, ini + tt)
             if cam:
                 break
+        if cam:
+            CAMS_VISTAS.append(tuple(cam))
+        else:
+            for c in (getattr(a, 'cam_def', None) or '').split(';'):
+                if c.strip():
+                    CAMS_VISTAS.append(tuple(int(v) for v in c.split(',')))
+            for tt in tts[:3]:
+                cam = cam_conocida(video, ini + tt)
+                if cam:
+                    print(f'  (cámara por posición conocida {cam})'); break
         if not cam:
             print(f'  (sin cámara detectada en {hms(ini)}, se omite)'); return None
     else:
@@ -507,6 +559,7 @@ def main():
     p.add_argument('video'); p.add_argument('--momentos', default='work/momentos.json')
     p.add_argument('--outdir', default='entregas/clips'); p.add_argument('--canal', default='')
     p.add_argument('--cam'); p.add_argument('--modo', choices=['mitad', 'blur', 'split', 'recorte'])
+    p.add_argument('--cam-def', dest='cam_def', help='posiciones x,y,w,h;x,y,w,h a probar si la detección automática falla')
     p.add_argument('--juego', help='zona del juego x,y,w,h (por defecto, el centro del video)')
     p.add_argument('--subs', action='store_true', help='en modo mitad, añade también subtítulos palabra a palabra')
     p.add_argument('--hd', help='playlist HLS en alta calidad del mismo directo (baja solo los tramos)')
