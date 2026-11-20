@@ -1,0 +1,24 @@
+1
+00:00:00,270 --> 00:00:02,070
+Mira, mira el pasto como se quema
+
+2
+00:00:04,210 --> 00:00:06,070
+¡Guau, mira como se va quemando el suelo!
+
+3
+00:00:06,190 --> 00:00:08,410
+Mira, mira, mira, mira, mira, mira, mira, mira, mira, mira, mira, mira
+
+4
+00:00:19,300 --> 00:00:20,360
+¿Cómo llamo a los bomberos?
+
+5
+00:00:27,230 --> 00:00:28,470
+¿Cómo llamo a los bomberos, señores?
+
+6
+00:00:29,710 --> 00:00:31,030
+No veo uno, no puedo, no puedo...
+
