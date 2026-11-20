@@ -2,3 +2,4 @@ entregas/*.zip
 entregas/zip_partes/
 src/
 work/
+__pycache__/
