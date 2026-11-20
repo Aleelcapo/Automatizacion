@@ -14,7 +14,9 @@ Paso 2, renderizar los clips 9:16:
 
     --cam   zona de la cámara del streamer en el video original (px). Con --cam el
             modo por defecto es "split": cámara arriba, juego abajo.
-    --modo  blur    = juego completo al centro sobre fondo desenfocado (por defecto sin cam)
+    --modo  mitad   = cámara arriba 50 %, juego abajo 50 %, título en recuadro blanco con emoji
+                      en el centro (estilo clipper de TikTok; requiere --cam)
+            blur    = juego completo al centro sobre fondo desenfocado (por defecto sin cam)
             recorte = juego recortado a pantalla completa vertical
     Subtítulos grandes palabra a palabra, título gancho arriba y crédito al canal.
 
@@ -233,7 +235,27 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     open(path, 'w').write(hdr + '\n'.join(ev) + '\n')
 
 
-def layout_filter(modo, sw, sh, cam):
+def fit_aspect(x, y, w, h, aspect, sw, sh):
+    """Recorta/expande (x,y,w,h) al aspecto dado, centrado y dentro del frame."""
+    if w / h > aspect:
+        nw = int(h * aspect); x += (w - nw) // 2; w = nw
+    else:
+        nh = int(w / aspect); y += (h - nh) // 2; h = nh
+    x = max(0, min(x, sw - w)); y = max(0, min(y, sh - h))
+    return x // 2 * 2, y // 2 * 2, w // 2 * 2, h // 2 * 2
+
+
+def layout_filter(modo, sw, sh, cam, juego=None):
+    if modo == 'mitad':
+        # estilo clipper TikTok: cámara arriba (50 %), juego abajo (50 %)
+        half = H // 2
+        cx, cy, cw, ch = fit_aspect(*cam, W / half, sw, sh)
+        if juego:
+            gx, gy, gw, gh = fit_aspect(*juego, W / half, sw, sh)
+        else:
+            gh = sh; gw = int(sh * W / half) // 2 * 2; gx = (sw - gw) // 2 // 2 * 2; gy = 0
+        return (f'[0:v]split=2[a][b];[a]crop={cw}:{ch}:{cx}:{cy},scale={W}:{half}:flags=lanczos[top];'
+                f'[b]crop={gw}:{gh}:{gx}:{gy},scale={W}:{half}:flags=lanczos[bot];[top][bot]vstack[v0]'), half + 300
     if modo == 'split':
         cx, cy, cw, ch = cam
         top_h = 700
@@ -260,20 +282,96 @@ def layout_filter(modo, sw, sh, cam):
             f'[bg][fg]overlay=0:(H-h)/2[v0]'), (H + fg_h) // 2 + 170
 
 
+EMOJI_FONT = '/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf'
+TEXT_FONT = '/usr/share/fonts/opentype/inter/Inter-Bold.otf'
+
+
+def is_emoji(c):
+    o = ord(c)
+    return o >= 0x1F000 or 0x2600 <= o <= 0x27BF or o in (0x200D, 0xFE0F) or 0x1F1E6 <= o <= 0x1F1FF
+
+
+def sticker_png(text, path, size=50, max_w=820):
+    """Texto negro en recuadro blanco redondeado, con emojis a color (como los clippers de TikTok)."""
+    from PIL import Image, ImageDraw, ImageFont
+    ft = ImageFont.truetype(TEXT_FONT, size)
+    fe = ImageFont.truetype(EMOJI_FONT, 109)
+    def runs(line):
+        out = []
+        for c in line:
+            e = is_emoji(c)
+            if out and out[-1][0] == e:
+                out[-1][1] += c
+            else:
+                out.append([e, c])
+        return out
+    def width(line):
+        w = 0
+        for e, t in runs(line):
+            w += sum(int(size * 1.15) for c in t if c not in '\u200d\ufe0f') if e else ft.getlength(t)
+        return w
+    lines, cur = [], ''
+    for word in text.split():
+        cand = (cur + ' ' + word).strip()
+        if cur and width(cand) > max_w:
+            lines.append(cur); cur = word
+        else:
+            cur = cand
+    lines.append(cur)
+    lh = int(size * 1.22)
+    padx, pady = 22, 10
+    widths = [width(l) for l in lines]
+    img = Image.new('RGBA', (int(max(widths)) + 2 * padx + 8, lh * len(lines) + 2 * pady + 6), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    for i, (l, lw) in enumerate(zip(lines, widths)):     # recuadro por línea, como TikTok
+        x0 = (img.width - lw) / 2 - padx
+        y0 = i * lh + 2
+        d.rounded_rectangle([x0, y0, x0 + lw + 2 * padx, y0 + lh + 2 * pady - (0 if i == len(lines) - 1 else pady)],
+                            radius=14, fill=(255, 255, 255, 255))
+    for i, (l, lw) in enumerate(zip(lines, widths)):
+        x = (img.width - lw) / 2
+        y = i * lh + pady + 2
+        for e, t in runs(l):
+            if not e:
+                d.text((x, y), t, font=ft, fill=(0, 0, 0, 255)); x += ft.getlength(t)
+                continue
+            for c in t:
+                if c in '\u200d\ufe0f':
+                    continue
+                g = Image.new('RGBA', (136, 128), (0, 0, 0, 0))
+                ImageDraw.Draw(g).text((0, 0), c, font=fe, embedded_color=True)
+                g = g.crop(g.getbbox() or (0, 0, 1, 1)).resize((int(size * 1.05), int(size * 1.05)), Image.LANCZOS)
+                img.alpha_composite(g, (int(x), int(y + size * 0.05)))
+                x += int(size * 1.15)
+    img.save(path)
+    return img.size
+
+
 def render_clip(video, m, idx, a, sw, sh, tmp):
     ini, fin = m['ini'], m['fin']
     dur = fin - ini
     segs, _ = transcribe(video, ini, fin, words=True, lang=a.idioma)
     words = [(s - ini, e - ini, t) for sg in segs for (s, e, t) in sg['w'] if t]
     modo = a.modo or ('split' if a.cam else 'blur')
-    cam = [int(v) for v in a.cam.split(',')] if a.cam else None
-    lf, sub_y = layout_filter(modo, sw, sh, cam)
+    cam = [int(v) for v in (m.get('cam') or a.cam).split(',')] if (m.get('cam') or a.cam) else None
+    juego = [int(v) for v in a.juego.split(',')] if getattr(a, 'juego', None) else None
+    lf, sub_y = layout_filter(modo, sw, sh, cam, juego)
     ass = os.path.join(tmp, f'c{idx}.ass')
-    build_ass(words, dur, m.get('titulo', ''), a.canal, sub_y, ass)
+    sticker = modo == 'mitad'                      # título fijo en recuadro blanco sobre la unión
+    subs = words if (a.subs or not sticker) else []
+    build_ass(subs, dur, '' if sticker else m.get('titulo', ''), a.canal, sub_y, ass)
     name = m.get('nombre') or f'clip_{idx + 1:02d}_{hms(ini).replace(":", "-")}'
     out = os.path.join(a.outdir, name + '.mp4')
-    fc = lf + f';[v0]ass={ass}:fontsdir=/usr/share/fonts/opentype/inter,format=yuv420p[v]'
-    run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{ini:.2f}', '-t', f'{dur:.2f}', '-i', video,
+    inputs = ['-ss', f'{ini:.2f}', '-t', f'{dur:.2f}', '-i', video]
+    fc = lf + f';[v0]ass={ass}:fontsdir=/usr/share/fonts/opentype/inter[v1]'
+    if sticker and m.get('titulo'):
+        png = os.path.join(tmp, f's{idx}.png')
+        sw2, sh2 = sticker_png(m['titulo'], png)
+        inputs += ['-i', png]
+        fc += f';[v1][1:v]overlay=(W-w)/2:{H // 2}-h/2,format=yuv420p[v]'
+    else:
+        fc += ';[v1]format=yuv420p[v]'
+    run(['ffmpeg', '-v', 'error', '-y', *inputs,
          '-filter_complex', fc, '-map', '[v]', '-map', '0:a:0?',
          '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11,afade=t=out:st=%.2f:d=0.4' % max(0, dur - 0.4),
          '-r', '30', '-c:v', 'libx264', '-preset', 'medium', '-crf', '21', '-c:a', 'aac', '-b:a', '160k',
@@ -332,7 +430,9 @@ def main():
     p = sub.add_parser('cortar')
     p.add_argument('video'); p.add_argument('--momentos', default='work/momentos.json')
     p.add_argument('--outdir', default='entregas/clips'); p.add_argument('--canal', default='')
-    p.add_argument('--cam'); p.add_argument('--modo', choices=['blur', 'split', 'recorte'])
+    p.add_argument('--cam'); p.add_argument('--modo', choices=['mitad', 'blur', 'split', 'recorte'])
+    p.add_argument('--juego', help='zona del juego x,y,w,h (por defecto, el centro del video)')
+    p.add_argument('--subs', action='store_true', help='en modo mitad, añade también subtítulos palabra a palabra')
     p.add_argument('--hd', help='playlist HLS en alta calidad del mismo directo (baja solo los tramos)')
     p.add_argument('--solo', help='índices (1..n) de momentos a renderizar, ej. 1,3,4')
     p.add_argument('--idioma', default='es')
