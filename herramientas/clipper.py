@@ -40,7 +40,7 @@ def probe(f):
                                    'stream=width,height:format=duration', '-of', 'json', f])
     d = json.loads(out)
     st = d.get('streams') or [{}]
-    return st[0].get('width'), st[0].get('height'), float(d['format']['duration'])
+    return st[0].get('width'), st[0].get('height'), float(d['format'].get('duration', 0) or 0)
 
 
 # ---------------------------------------------------------------- análisis
@@ -245,6 +245,49 @@ def fit_aspect(x, y, w, h, aspect, sw, sh):
     return x // 2 * 2, y // 2 * 2, w // 2 * 2, h // 2 * 2
 
 
+def _runs(m, axis):
+    """Racha consecutiva más larga de True a lo largo de cada fila/columna."""
+    m = m if axis == 0 else m.T
+    best = np.zeros(m.shape[1], int); cur = np.zeros(m.shape[1], int)
+    for row in m:
+        cur = np.where(row, cur + 1, 0); best = np.maximum(best, cur)
+    return best
+
+
+def detect_cam(video, t=1.0, zona=0.4):
+    """Busca la cámara del streamer: un marco de líneas finas de color (borde) a la izquierda o
+    derecha del video. Devuelve x,y,w,h del interior o None."""
+    sw, sh, _ = probe(video)
+    raw = subprocess.run(['ffmpeg', '-v', 'error', '-ss', f'{t:.2f}', '-i', video, '-frames:v', '1',
+                          '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-'], capture_output=True).stdout
+    im = np.frombuffer(raw, np.uint8).reshape(sh, sw, 3).astype(np.int16)
+    mx, mn = im.max(2), im.min(2)
+    mask = (mx - mn > 55) & (mx > 140)                     # píxeles de color vivo
+    best = None
+    for x0, x1 in ((0, int(sw * zona)), (int(sw * (1 - zona)), sw)):
+        m = mask[:, x0:x1]
+        cr = _runs(m, 0)                                   # columnas con línea vertical larga
+        cols = np.where(cr > 0.12 * sh)[0]
+        if len(cols) < 2:
+            continue
+        xa, xb = cols.min(), cols.max()
+        if xb - xa < 0.06 * sw:
+            continue
+        rr = _runs(m[:, xa:xb + 1], 1)                     # filas con línea horizontal larga
+        rows = np.where(rr > 0.7 * (xb - xa))[0]
+        if len(rows) < 2:
+            continue
+        y0, y1 = rows.min(), rows.max()
+        w, h = xb - xa, y1 - y0
+        if h < 0.1 * sh:
+            continue
+        pad = max(4, int(0.025 * w))
+        cand = (int(xa + x0 + pad), int(y0 + pad), int(w - 2 * pad), int(h - 2 * pad))
+        if best is None or w * h > best[2] * best[3]:
+            best = cand
+    return best
+
+
 def layout_filter(modo, sw, sh, cam, juego=None):
     if modo == 'mitad':
         # estilo clipper TikTok: cámara arriba (50 %), juego abajo (50 %)
@@ -353,7 +396,17 @@ def render_clip(video, m, idx, a, sw, sh, tmp):
     segs, _ = transcribe(video, ini, fin, words=True, lang=a.idioma)
     words = [(s - ini, e - ini, t) for sg in segs for (s, e, t) in sg['w'] if t]
     modo = a.modo or ('split' if a.cam else 'blur')
-    cam = [int(v) for v in (m.get('cam') or a.cam).split(',')] if (m.get('cam') or a.cam) else None
+    camspec = m.get('cam') or a.cam
+    if camspec == 'auto':
+        cam = None
+        for tt in (0.5, dur / 2, max(0.5, dur - 2)):
+            cam = detect_cam(video, ini + tt)
+            if cam:
+                break
+        if not cam:
+            print(f'  (sin cámara detectada en {hms(ini)}, se omite)'); return None
+    else:
+        cam = [int(v) for v in camspec.split(',')] if camspec else None
     juego = [int(v) for v in a.juego.split(',')] if getattr(a, 'juego', None) else None
     lf, sub_y = layout_filter(modo, sw, sh, cam, juego)
     ass = os.path.join(tmp, f'c{idx}.ass')
