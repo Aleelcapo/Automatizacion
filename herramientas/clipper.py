@@ -390,8 +390,31 @@ def srt_t(t):
 
 
 def fetch_hd(url, ini, fin, tmp, idx):
-    """Baja solo el tramo [ini, fin] de un playlist HLS (p. ej. VOD de Kick en 1080p)."""
+    """Baja solo el tramo [ini, fin] de un playlist HLS (VOD de Kick o Twitch en 1080p).
+    Si es un playlist de segmentos fMP4 (Twitch), descarga solo los segmentos necesarios."""
     seg = os.path.join(tmp, f'hd{idx}.mp4')
+    pl = subprocess.run(['curl', '-sSf', url], capture_output=True, text=True).stdout
+    if '#EXT-X-MAP' in pl and '#EXTINF' in pl:
+        base = url.rsplit('/', 1)[0] + '/'
+        init, t, parts = None, 0.0, []
+        lines = pl.splitlines()
+        for i, l in enumerate(lines):
+            if l.startswith('#EXT-X-MAP'):
+                init = l.split('URI="')[1].split('"')[0]
+            elif l.startswith('#EXTINF'):
+                d = float(l.split(':')[1].split(',')[0])
+                if t + d > ini - 1 and t < fin + 1:
+                    parts.append((t, lines[i + 1]))
+                t += d
+        raw = os.path.join(tmp, f'raw{idx}.mp4')
+        with open(raw, 'wb') as fh:
+            for name in [init] + [n for _, n in parts]:
+                fh.write(subprocess.run(['curl', '-sSf', '--retry', '4', base + name],
+                                        capture_output=True, check=True).stdout)
+        off = ini - parts[0][0]
+        run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{off:.2f}', '-t', f'{fin - ini:.2f}', '-i', raw,
+             '-c:v', 'libx264', '-preset', 'ultrafast', '-crf', '14', '-c:a', 'aac', '-b:a', '192k', seg])
+        return seg
     run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{ini:.2f}', '-t', f'{fin - ini:.2f}', '-i', url,
          '-c:v', 'libx264', '-preset', 'ultrafast', '-crf', '14', '-c:a', 'aac', '-b:a', '192k', seg])
     return seg
