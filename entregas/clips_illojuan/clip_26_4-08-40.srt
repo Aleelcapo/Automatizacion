@@ -1,0 +1,8 @@
+1
+00:00:19,150 --> 00:00:22,510
+Para taxi por el contacto puede responder con emojis
+
+2
+00:00:22,510 --> 00:00:28,490
+Estoy bien gracias por la bata me contestará
+
