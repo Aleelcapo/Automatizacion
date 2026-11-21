@@ -19,6 +19,8 @@ import {DURACION_PLANCHA, PlanchaVideo} from './tres/Plancha';
 import {DURACION_REGULADOR, ReguladorVideo} from './tres/Regulador';
 import {DURACION_PLUMA, PlumaVideo} from './tres/Pluma';
 import {DURACION_EXTINTOR, ExtintorVideo} from './tres/Extintor';
+import {DURACION_PRUEBA_BARCO, PruebaBarco} from './ilustra/Barco';
+import {DURACION_PRUEBA_HIPO, PruebaHipo} from './ilustra/Hipo';
 
 for (const [archivo, peso] of [
   ['Inter-SemiBold.otf', '600'],
@@ -57,6 +59,8 @@ export const Root: React.FC = () => (
     <Composition id="plancha" component={PlanchaVideo} durationInFrames={Math.ceil(DURACION_PLANCHA * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="regulador-gas" component={ReguladorVideo} durationInFrames={Math.ceil(DURACION_REGULADOR * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="pluma" component={PlumaVideo} durationInFrames={Math.ceil(DURACION_PLUMA * FPS)} fps={FPS} width={W} height={H} />
+    <Composition id="prueba-barco" component={PruebaBarco} durationInFrames={Math.ceil(DURACION_PRUEBA_BARCO * FPS)} fps={FPS} width={W} height={H} />
+    <Composition id="prueba-hipo" component={PruebaHipo} durationInFrames={Math.ceil(DURACION_PRUEBA_HIPO * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="extintor" component={ExtintorVideo} durationInFrames={Math.ceil(DURACION_EXTINTOR * FPS)} fps={FPS} width={W} height={H} />
   </>
 );
