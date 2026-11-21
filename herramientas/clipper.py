@@ -294,6 +294,15 @@ def cam_conocida(video, t):
     return best if score_cam(im, best) > 8 else None
 
 
+def marca_presente(video, ts, x, y, ref):
+    """True si el parche ref (png) aparece en (x, y) en la mayoría de los instantes ts."""
+    from PIL import Image
+    r = np.asarray(Image.open(ref).convert('RGB')).astype(np.int16)
+    h, w = r.shape[:2]
+    ok = sum(np.abs(frame_rgb(video, t)[y:y + h, x:x + w] - r).mean() < 30 for t in ts)
+    return ok * 2 > len(ts)
+
+
 def _detect_cam(video, t, zona, sat, bri):
     """Busca la cámara del streamer: un marco de líneas finas de color (borde) a la izquierda o
     derecha del video. Devuelve x,y,w,h del interior o None."""
@@ -438,6 +447,13 @@ def render_clip(video, m, idx, a, sw, sh, tmp):
     words = [(s - ini, e - ini, t) for sg in segs for (s, e, t) in sg['w'] if t]
     modo = a.modo or ('split' if a.cam else 'blur')
     camspec = m.get('cam') or a.cam
+    if getattr(a, 'marca', None):                  # overlay fijo: si se ve la marca, cámara fija; si no, cámara completa
+        mx_, my_, ref = a.marca.split(',', 2)
+        if marca_presente(video, [ini + t for t in (1, dur / 2, dur - 1)], int(mx_), int(my_), ref):
+            camspec = a.cam_fija
+        else:
+            camspec, modo = None, 'blur'
+            print(f'  ({hms(ini)}: sin overlay de juego -> pantalla completa con fondo difuminado)')
     if camspec == 'auto':
         cam = None
         tts = [0.5, dur / 2, max(0.5, dur - 2)] + [i * 1.5 for i in range(1, int(dur / 1.5))]
@@ -462,8 +478,8 @@ def render_clip(video, m, idx, a, sw, sh, tmp):
     juego = [int(v) for v in a.juego.split(',')] if getattr(a, 'juego', None) else None
     lf, sub_y = layout_filter(modo, sw, sh, cam, juego)
     ass = os.path.join(tmp, f'c{idx}.ass')
-    sticker = modo == 'mitad'                      # título fijo en recuadro blanco sobre la unión
-    subs = words if (a.subs or not sticker) else []
+    sticker = modo in ('mitad', 'blur')            # título fijo en recuadro blanco (sobre la unión en 'mitad')
+    subs = words if (a.subs or modo != 'mitad') else []
     build_ass(subs, dur, '' if sticker else m.get('titulo', ''), a.canal, sub_y, ass)
     name = m.get('nombre') or f'clip_{idx + 1:02d}_{hms(ini).replace(":", "-")}'
     out = os.path.join(a.outdir, name + '.mp4')
@@ -473,7 +489,11 @@ def render_clip(video, m, idx, a, sw, sh, tmp):
         png = os.path.join(tmp, f's{idx}.png')
         sw2, sh2 = sticker_png(m['titulo'], png)
         inputs += ['-i', png]
-        fc += f';[v1][1:v]overlay=(W-w)/2:{H // 2}-h/2,format=yuv420p[v]'
+        if modo == 'mitad':
+            sy = f'{H // 2}-h/2'
+        else:                                      # encima del video centrado
+            sy = f'{(H - int(W / sw * sh * 1.18)) // 2 - 30}-h'
+        fc += f';[v1][1:v]overlay=(W-w)/2:{sy},format=yuv420p[v]'
     else:
         fc += ';[v1]format=yuv420p[v]'
     run(['ffmpeg', '-v', 'error', '-y', *inputs,
@@ -560,6 +580,8 @@ def main():
     p.add_argument('--outdir', default='entregas/clips'); p.add_argument('--canal', default='')
     p.add_argument('--cam'); p.add_argument('--modo', choices=['mitad', 'blur', 'split', 'recorte'])
     p.add_argument('--cam-def', dest='cam_def', help='posiciones x,y,w,h;x,y,w,h a probar si la detección automática falla')
+    p.add_argument('--marca', help='x,y,plantilla.png: parche del overlay que indica que se está jugando')
+    p.add_argument('--cam-fija', dest='cam_fija', help='x,y,w,h de la cámara cuando se ve la marca')
     p.add_argument('--juego', help='zona del juego x,y,w,h (por defecto, el centro del video)')
     p.add_argument('--subs', action='store_true', help='en modo mitad, añade también subtítulos palabra a palabra')
     p.add_argument('--hd', help='playlist HLS en alta calidad del mismo directo (baja solo los tramos)')
