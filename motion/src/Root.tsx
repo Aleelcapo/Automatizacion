@@ -21,6 +21,7 @@ import {DURACION_PLUMA, PlumaVideo} from './tres/Pluma';
 import {DURACION_EXTINTOR, ExtintorVideo} from './tres/Extintor';
 import {DURACION_PRUEBA_BARCO, PruebaBarco} from './ilustra/Barco';
 import {DURACION_PRUEBA_HIPO, PruebaHipo} from './ilustra/Hipo';
+import {DURACION_PULPO, PulpoVideo} from './ilustra/Pulpo';
 
 for (const [archivo, peso] of [
   ['Inter-SemiBold.otf', '600'],
@@ -61,6 +62,7 @@ export const Root: React.FC = () => (
     <Composition id="pluma" component={PlumaVideo} durationInFrames={Math.ceil(DURACION_PLUMA * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="prueba-barco" component={PruebaBarco} durationInFrames={Math.ceil(DURACION_PRUEBA_BARCO * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="prueba-hipo" component={PruebaHipo} durationInFrames={Math.ceil(DURACION_PRUEBA_HIPO * FPS)} fps={FPS} width={W} height={H} />
+    <Composition id="pulpo" component={PulpoVideo} durationInFrames={Math.ceil(DURACION_PULPO * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="extintor" component={ExtintorVideo} durationInFrames={Math.ceil(DURACION_EXTINTOR * FPS)} fps={FPS} width={W} height={H} />
   </>
 );

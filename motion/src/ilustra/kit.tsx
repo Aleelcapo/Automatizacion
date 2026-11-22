@@ -332,3 +332,124 @@ export const Titulo: React.FC<{texto: string; o: number; y?: number; size?: numb
     {texto}
   </div>
 );
+
+// ---------- geometrías orgánicas ----------
+/** Tubo que se adelgaza (brazos, colas). r(u) con u de 0 a 1. */
+export const tuboAhusado = (pts: THREE.Vector3[], r: (u: number) => number, seg = 64, rad = 14) => {
+  const curva = new THREE.CatmullRomCurve3(pts);
+  const g = new THREE.TubeGeometry(curva, seg, 1, rad, false);
+  const p = g.getAttribute('position');
+  const fr = curva.computeFrenetFrames(seg, false);
+  for (let i = 0; i <= seg; i++) {
+    const u = i / seg;
+    const c = curva.getPointAt(u);
+    for (let j = 0; j <= rad; j++) {
+      const k = i * (rad + 1) + j;
+      const v = new THREE.Vector3(p.getX(k), p.getY(k), p.getZ(k)).sub(c).multiplyScalar(r(u));
+      p.setXYZ(k, c.x + v.x, c.y + v.y, c.z + v.z);
+    }
+  }
+  void fr;
+  g.computeVertexNormals();
+  return g;
+};
+
+/** Cuerpo por secciones a lo largo de X. Cada sección: [x, medioAncho, arriba, abajo, n(superelipse)].
+ *  mitad=true deja solo la mitad z<=0 (corte) y le pone tapa plana en z=0. */
+export const cuerpoSecciones = (sec: [number, number, number, number, number?][], opts: {mitad?: boolean; segX?: number; segA?: number} = {}) => {
+  const segX = opts.segX ?? 120;
+  const segA = opts.segA ?? 48;
+  const xs = sec.map((s) => s[0]);
+  const interp = (x: number, k: number) => {
+    for (let i = 0; i < sec.length - 1; i++) {
+      if (x >= sec[i][0] && x <= sec[i + 1][0]) {
+        const u = (x - sec[i][0]) / (sec[i + 1][0] - sec[i][0]);
+        const s = u * u * (3 - 2 * u) * 0.5 + u * 0.5;
+        return lerp((sec[i][k] as number) ?? 2.4, (sec[i + 1][k] as number) ?? 2.4, s);
+      }
+    }
+    return (sec[sec.length - 1][k] as number) ?? 2.4;
+  };
+  const x0 = xs[0];
+  const x1 = xs[xs.length - 1];
+  const a0 = opts.mitad ? Math.PI / 2 : 0;
+  const a1 = opts.mitad ? (Math.PI * 3) / 2 : Math.PI * 2;
+  const pos: number[] = [];
+  const idx: number[] = [];
+  const pt = (x: number, a: number) => {
+    const w = interp(x, 1);
+    const up = interp(x, 2);
+    const dn = interp(x, 3);
+    const n = interp(x, 4) || 2.4;
+    const c = Math.cos(a);
+    const s = Math.sin(a);
+    const sy = Math.sign(c) * Math.abs(c) ** (2 / n);
+    const sz = Math.sign(s) * Math.abs(s) ** (2 / n);
+    const y = sy >= 0 ? sy * up : sy * dn;
+    return [x, y, -sz * w];
+  };
+  for (let i = 0; i <= segX; i++) {
+    const x = lerp(x0, x1, i / segX);
+    for (let j = 0; j <= segA; j++) pos.push(...pt(x, lerp(a0, a1, j / segA)));
+  }
+  for (let i = 0; i < segX; i++)
+    for (let j = 0; j < segA; j++) {
+      const a = i * (segA + 1) + j;
+      const b = a + segA + 1;
+      idx.push(a, b, a + 1, b, b + 1, a + 1);
+    }
+  if (opts.mitad) {
+    // tapa en z=0: franja entre arriba y abajo
+    const base = pos.length / 3;
+    for (let i = 0; i <= segX; i++) {
+      const x = lerp(x0, x1, i / segX);
+      pos.push(x, interp(x, 2), 0.0005, x, -interp(x, 3), 0.0005);
+    }
+    for (let i = 0; i < segX; i++) {
+      const a = base + i * 2;
+      idx.push(a, a + 2, a + 1, a + 1, a + 2, a + 3);
+    }
+  }
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+  g.setIndex(idx);
+  g.computeVertexNormals();
+  return g;
+};
+
+/** Etiqueta pequeña (como las de la serie): roja para problemas. */
+export const Etiqueta: React.FC<{texto: string; o: number; rojo?: boolean; y?: number; fuente: string; size?: number}> = ({texto, o, rojo, y = 360, fuente, size = 56}) => (
+  <div
+    style={{
+      position: 'absolute',
+      top: y,
+      left: 40,
+      right: 40,
+      textAlign: 'center',
+      fontFamily: fuente,
+      fontWeight: 800,
+      fontSize: size,
+      color: rojo ? '#e0453a' : '#16171c',
+      opacity: o,
+      transform: `translateY(${(1 - o) * 20}px)`,
+      WebkitTextStroke: '11px #ffffff',
+      paintOrder: 'stroke fill',
+      lineHeight: 1.1,
+    }}
+  >
+    {texto}
+  </div>
+);
+
+/** Palabras del guion -> tiempo (n-ésima aparición). */
+export const tiemposPalabras = (datos: any) => {
+  const PAL: {t: number; e: number; w: string; a?: string[]}[] = datos.beats.flatMap((b: any) => b.words);
+  const lim = (x: string) => x.toLowerCase().replace(/[¿?¡!,.…:;"]/g, '');
+  return (w: string, n = 1): number => {
+    const o = lim(w);
+    const hits = PAL.filter((p) => lim(p.w) === o || (p.a ?? []).some((x) => lim(x) === o));
+    const h = hits[n - 1] ?? hits[hits.length - 1];
+    if (!h) throw new Error('palabra no encontrada: ' + w);
+    return h.t;
+  };
+};

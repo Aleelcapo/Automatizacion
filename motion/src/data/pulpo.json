@@ -1,0 +1,1810 @@
+{
+ "id": "pulpo",
+ "duration": 59.44,
+ "beats": [
+  {
+   "scene": "p1",
+   "sfx": [
+    [
+     "gavel",
+     "para"
+    ],
+    [
+     "pop",
+     "dos."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 5.355,
+   "text": "Si a un pulpo se le para un corazón… todavía le quedan dos. Y todo empieza por su sangre.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.295,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.295,
+     "e": 0.395,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.395,
+     "e": 0.515,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.515,
+     "e": 0.875,
+     "w": "pulpo",
+     "a": [
+      "pulpo"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.875,
+     "e": 1.055,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.055,
+     "e": 1.155,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.155,
+     "e": 1.375,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.375,
+     "e": 1.515,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.515,
+     "e": 1.895,
+     "w": "corazón…",
+     "a": [
+      "corazón"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.27,
+     "e": 2.575,
+     "w": "todavía",
+     "a": [
+      "todavía"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.575,
+     "e": 2.775,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.775,
+     "e": 3.055,
+     "w": "quedan",
+     "a": [
+      "quedan"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.055,
+     "e": 3.295,
+     "w": "dos.",
+     "a": [
+      "dos"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.295,
+     "e": 3.635,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.635,
+     "e": 3.895,
+     "w": "todo",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.895,
+     "e": 4.335,
+     "w": "empieza",
+     "a": [
+      "empieza"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.335,
+     "e": 4.595,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.595,
+     "e": 4.735,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.735,
+     "e": 5.075,
+     "w": "sangre.",
+     "a": [
+      "sangre"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p2",
+   "sfx": [
+    [
+     "splash",
+     "azul…"
+    ]
+   ],
+   "start": 5.355,
+   "dur": 6.065,
+   "text": "Su sangre no lleva hierro como la tuya, lleva cobre. Por eso es azul… y carga mucho menos oxígeno.",
+   "words": [
+    {
+     "t": 5.475,
+     "e": 5.555,
+     "w": "Su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.555,
+     "e": 5.855,
+     "w": "sangre",
+     "a": [
+      "sangre"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.855,
+     "e": 6.075,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.075,
+     "e": 6.315,
+     "w": "lleva",
+     "a": [
+      "lleva"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.315,
+     "e": 6.655,
+     "w": "hierro",
+     "a": [
+      "hierro"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.655,
+     "e": 6.815,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.815,
+     "e": 6.955,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.955,
+     "e": 7.375,
+     "w": "tuya,",
+     "a": [
+      "tuya"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.585,
+     "e": 7.845,
+     "w": "lleva",
+     "a": [
+      "lleva"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.845,
+     "e": 8.305,
+     "w": "cobre.",
+     "a": [
+      "cobre"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.685,
+     "e": 8.785,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.785,
+     "e": 8.965,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.965,
+     "e": 9.125,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.125,
+     "e": 9.425,
+     "w": "azul…",
+     "a": [
+      "azul"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.425,
+     "e": 9.775,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.775,
+     "e": 10.075,
+     "w": "carga",
+     "a": [
+      "carga"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.075,
+     "e": 10.475,
+     "w": "mucho",
+     "a": [
+      "mucho"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.475,
+     "e": 10.715,
+     "w": "menos",
+     "a": [
+      "menos"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.715,
+     "e": 11.54,
+     "w": "oxígeno.",
+     "a": [
+      "oxígeno"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p3",
+   "sfx": [
+    [
+     "pop",
+     "chiquito"
+    ],
+    [
+     "coin",
+     "branquiales."
+    ]
+   ],
+   "start": 11.42,
+   "dur": 8.27,
+   "text": "Así que tiene que pasarla con fuerza por las branquias para recargarla. Le pones un corazón chiquito a cada branquia. Esos son los corazones branquiales.",
+   "words": [
+    {
+     "t": 11.54,
+     "e": 11.705,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.705,
+     "e": 11.905,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.905,
+     "e": 12.145,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.145,
+     "e": 12.305,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.305,
+     "e": 12.765,
+     "w": "pasarla",
+     "a": [
+      "pasarla"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.765,
+     "e": 12.965,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.965,
+     "e": 13.265,
+     "w": "fuerza",
+     "a": [
+      "fuerza"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.265,
+     "e": 13.545,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.545,
+     "e": 13.745,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.745,
+     "e": 14.145,
+     "w": "branquias",
+     "a": [
+      "branquias"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.145,
+     "e": 14.385,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.385,
+     "e": 15.085,
+     "w": "recargarla.",
+     "a": [
+      "recargarla"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.405,
+     "e": 15.445,
+     "w": "Le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.445,
+     "e": 15.685,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.685,
+     "e": 15.845,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.845,
+     "e": 16.105,
+     "w": "corazón",
+     "a": [
+      "corazón"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.105,
+     "e": 16.645,
+     "w": "chiquito",
+     "a": [
+      "chiquito"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.645,
+     "e": 16.765,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.765,
+     "e": 16.905,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.905,
+     "e": 17.365,
+     "w": "branquia.",
+     "a": [
+      "branquia"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.685,
+     "e": 18.005,
+     "w": "Esos",
+     "a": [
+      "esos"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.005,
+     "e": 18.245,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.245,
+     "e": 18.425,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.425,
+     "e": 18.885,
+     "w": "corazones",
+     "a": [
+      "corazones"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.885,
+     "e": 19.625,
+     "w": "branquiales.",
+     "a": [
+      "branquiales"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p4",
+   "sfx": [],
+   "start": 19.69,
+   "dur": 5.42,
+   "text": "Pero la sangre sale de las branquias sin fuerza, y no le alcanza para llegar a la punta de los brazos.",
+   "words": [
+    {
+     "t": 19.81,
+     "e": 19.945,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.945,
+     "e": 20.125,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.125,
+     "e": 20.425,
+     "w": "sangre",
+     "a": [
+      "sangre"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.425,
+     "e": 20.785,
+     "w": "sale",
+     "a": [
+      "sale"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.785,
+     "e": 20.945,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.945,
+     "e": 21.085,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.085,
+     "e": 21.485,
+     "w": "branquias",
+     "a": [
+      "branquias"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.485,
+     "e": 21.685,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.685,
+     "e": 22.025,
+     "w": "fuerza,",
+     "a": [
+      "fuerza"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.025,
+     "e": 22.395,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.395,
+     "e": 22.555,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.555,
+     "e": 22.675,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.675,
+     "e": 23.175,
+     "w": "alcanza",
+     "a": [
+      "alcanza"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.175,
+     "e": 23.375,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.375,
+     "e": 23.595,
+     "w": "llegar",
+     "a": [
+      "llegar"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.595,
+     "e": 23.775,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.775,
+     "e": 23.915,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.915,
+     "e": 24.275,
+     "w": "punta",
+     "a": [
+      "punta"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.275,
+     "e": 24.395,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.395,
+     "e": 24.515,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.515,
+     "e": 24.935,
+     "w": "brazos.",
+     "a": [
+      "brazos"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p5",
+   "sfx": [
+    [
+     "thud",
+     "tercer"
+    ],
+    [
+     "coin",
+     "sistémico."
+    ]
+   ],
+   "start": 25.11,
+   "dur": 7.38,
+   "text": "Así que le pones un tercer corazón, más grande, en el centro, que la manda a todo el cuerpo. Ese es el corazón sistémico.",
+   "words": [
+    {
+     "t": 25.23,
+     "e": 25.425,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.425,
+     "e": 25.585,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.585,
+     "e": 25.705,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.705,
+     "e": 25.985,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.985,
+     "e": 26.165,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.165,
+     "e": 26.365,
+     "w": "tercer",
+     "a": [
+      "tercer"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.365,
+     "e": 26.945,
+     "w": "corazón,",
+     "a": [
+      "corazón"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.945,
+     "e": 27.685,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.685,
+     "e": 28.065,
+     "w": "grande,",
+     "a": [
+      "grande"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.065,
+     "e": 28.405,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.405,
+     "e": 28.545,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.545,
+     "e": 28.925,
+     "w": "centro,",
+     "a": [
+      "centro"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.925,
+     "e": 29.225,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.225,
+     "e": 29.365,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.365,
+     "e": 29.665,
+     "w": "manda",
+     "a": [
+      "manda"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.665,
+     "e": 29.765,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.765,
+     "e": 29.925,
+     "w": "todo",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.925,
+     "e": 30.105,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.105,
+     "e": 30.405,
+     "w": "cuerpo.",
+     "a": [
+      "cuerpo"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.79,
+     "e": 31.085,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.085,
+     "e": 31.285,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.285,
+     "e": 31.405,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.405,
+     "e": 31.765,
+     "w": "corazón",
+     "a": [
+      "corazón"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.765,
+     "e": 32.405,
+     "w": "sistémico.",
+     "a": [
+      "sistémico"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p6",
+   "sfx": [
+    [
+     "splash",
+     "chorro,"
+    ],
+    [
+     "gavel",
+     "detiene."
+    ]
+   ],
+   "start": 32.49,
+   "dur": 4.07,
+   "text": "Pero cuando el pulpo nada a chorro, ese corazón central se detiene.",
+   "words": [
+    {
+     "t": 32.61,
+     "e": 32.745,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.745,
+     "e": 32.985,
+     "w": "cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.985,
+     "e": 33.185,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.185,
+     "e": 33.485,
+     "w": "pulpo",
+     "a": [
+      "pulpo"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.485,
+     "e": 33.805,
+     "w": "nada",
+     "a": [
+      "nada"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.805,
+     "e": 34.065,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.065,
+     "e": 34.425,
+     "w": "chorro,",
+     "a": [
+      "chorro"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.715,
+     "e": 34.895,
+     "w": "ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.895,
+     "e": 35.255,
+     "w": "corazón",
+     "a": [
+      "corazón"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.255,
+     "e": 35.755,
+     "w": "central",
+     "a": [
+      "central"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.755,
+     "e": 35.975,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.975,
+     "e": 36.415,
+     "w": "detiene.",
+     "a": [
+      "detiene"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p7",
+   "sfx": [
+    [
+     "pop",
+     "caminar"
+    ]
+   ],
+   "start": 36.56,
+   "dur": 6.25,
+   "text": "Así que casi no nada: prefiere caminar por el fondo con sus brazos, porque nadar lo agota rapidísimo.",
+   "words": [
+    {
+     "t": 36.68,
+     "e": 36.875,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.875,
+     "e": 37.055,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.055,
+     "e": 37.295,
+     "w": "casi",
+     "a": [
+      "casi"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.295,
+     "e": 37.515,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.515,
+     "e": 37.815,
+     "w": "nada:",
+     "a": [
+      "nada"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.125,
+     "e": 38.445,
+     "w": "prefiere",
+     "a": [
+      "prefiere"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.445,
+     "e": 38.805,
+     "w": "caminar",
+     "a": [
+      "caminar"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.805,
+     "e": 39.025,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.025,
+     "e": 39.205,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.205,
+     "e": 39.445,
+     "w": "fondo",
+     "a": [
+      "fondo"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.445,
+     "e": 39.665,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.665,
+     "e": 39.865,
+     "w": "sus",
+     "a": [
+      "sus"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.865,
+     "e": 40.265,
+     "w": "brazos,",
+     "a": [
+      "brazos"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.55,
+     "e": 40.775,
+     "w": "porque",
+     "a": [
+      "porque"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.775,
+     "e": 41.275,
+     "w": "nadar",
+     "a": [
+      "nadar"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.275,
+     "e": 41.575,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.575,
+     "e": 41.815,
+     "w": "agota",
+     "a": [
+      "agota"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.815,
+     "e": 42.575,
+     "w": "rapidísimo.",
+     "a": [
+      "rapidísimo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p8",
+   "sfx": [],
+   "start": 42.81,
+   "dur": 4.45,
+   "text": "Pero con ocho brazos tan largos, un solo cerebro no alcanza a controlar todo.",
+   "words": [
+    {
+     "t": 42.93,
+     "e": 43.065,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.065,
+     "e": 43.225,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.225,
+     "e": 43.465,
+     "w": "ocho",
+     "a": [
+      "ocho"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.465,
+     "e": 43.805,
+     "w": "brazos",
+     "a": [
+      "brazos"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.805,
+     "e": 43.985,
+     "w": "tan",
+     "a": [
+      "tan"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.985,
+     "e": 44.525,
+     "w": "largos,",
+     "a": [
+      "largos"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.76,
+     "e": 44.935,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.935,
+     "e": 45.135,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.135,
+     "e": 45.575,
+     "w": "cerebro",
+     "a": [
+      "cerebro"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.575,
+     "e": 45.775,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.775,
+     "e": 46.215,
+     "w": "alcanza",
+     "a": [
+      "alcanza"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.215,
+     "e": 46.335,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.335,
+     "e": 46.635,
+     "w": "controlar",
+     "a": [
+      "controlar"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.635,
+     "e": 47.015,
+     "w": "todo.",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "p9",
+   "sfx": [
+    [
+     "pop",
+     "neuronas"
+    ],
+    [
+     "coin",
+     "piensan."
+    ]
+   ],
+   "start": 47.26,
+   "dur": 12.18,
+   "text": "Así que dos de cada tres neuronas viven en los brazos. Cada brazo toca, prueba el sabor y decide solo. Ese es el pulpo: tres corazones, sangre azul y brazos que piensan.",
+   "words": [
+    {
+     "t": 47.38,
+     "e": 47.565,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.565,
+     "e": 47.765,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.765,
+     "e": 48.005,
+     "w": "dos",
+     "a": [
+      "dos"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.005,
+     "e": 48.165,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.165,
+     "e": 48.305,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.305,
+     "e": 48.685,
+     "w": "tres",
+     "a": [
+      "tres"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.685,
+     "e": 49.405,
+     "w": "neuronas",
+     "a": [
+      "neuronas"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.53,
+     "e": 49.905,
+     "w": "viven",
+     "a": [
+      "viven"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.905,
+     "e": 50.045,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.045,
+     "e": 50.165,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.165,
+     "e": 50.605,
+     "w": "brazos.",
+     "a": [
+      "brazos"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.0,
+     "e": 51.145,
+     "w": "Cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.145,
+     "e": 51.565,
+     "w": "brazo",
+     "a": [
+      "brazo"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.565,
+     "e": 51.905,
+     "w": "toca,",
+     "a": [
+      "toca"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.195,
+     "e": 52.375,
+     "w": "prueba",
+     "a": [
+      "prueba"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.375,
+     "e": 52.535,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.535,
+     "e": 52.855,
+     "w": "sabor",
+     "a": [
+      "sabor"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.855,
+     "e": 53.235,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.235,
+     "e": 53.515,
+     "w": "decide",
+     "a": [
+      "decide"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.515,
+     "e": 53.975,
+     "w": "solo.",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.31,
+     "e": 54.565,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.565,
+     "e": 54.725,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.725,
+     "e": 54.865,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.865,
+     "e": 55.265,
+     "w": "pulpo:",
+     "a": [
+      "pulpo"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.44,
+     "e": 55.585,
+     "w": "tres",
+     "a": [
+      "tres"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.585,
+     "e": 56.205,
+     "w": "corazones,",
+     "a": [
+      "corazones"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.505,
+     "e": 56.705,
+     "w": "sangre",
+     "a": [
+      "sangre"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.705,
+     "e": 57.005,
+     "w": "azul",
+     "a": [
+      "azul"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.005,
+     "e": 57.265,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.265,
+     "e": 57.585,
+     "w": "brazos",
+     "a": [
+      "brazos"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.585,
+     "e": 57.745,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.745,
+     "e": 58.185,
+     "w": "piensan.",
+     "a": [
+      "piensan"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}

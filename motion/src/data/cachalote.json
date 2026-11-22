@@ -1,0 +1,2213 @@
+{
+ "id": "cachalote",
+ "duration": 73.04,
+ "beats": [
+  {
+   "scene": "c1",
+   "sfx": [
+    [
+     "thunder",
+     "aplastaría"
+    ],
+    [
+     "pop",
+     "propósito."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 7.99,
+   "text": "Si tú bajaras a dos kilómetros bajo el mar, el agua te aplastaría los pulmones. A este animal también… y lo deja pasar a propósito.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.305,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.305,
+     "e": 0.445,
+     "w": "tú",
+     "a": [
+      "tú"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.445,
+     "e": 0.845,
+     "w": "bajaras",
+     "a": [
+      "bajaras"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.845,
+     "e": 1.025,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.025,
+     "e": 1.205,
+     "w": "dos",
+     "a": [
+      "dos"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.205,
+     "e": 1.705,
+     "w": "kilómetros",
+     "a": [
+      "kilómetros"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.705,
+     "e": 1.965,
+     "w": "bajo",
+     "a": [
+      "bajo"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.965,
+     "e": 2.185,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.185,
+     "e": 2.365,
+     "w": "mar,",
+     "a": [
+      "mar"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.685,
+     "e": 2.825,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.825,
+     "e": 3.045,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.045,
+     "e": 3.225,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.225,
+     "e": 3.785,
+     "w": "aplastaría",
+     "a": [
+      "aplastaría"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.785,
+     "e": 4.005,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.005,
+     "e": 4.465,
+     "w": "pulmones.",
+     "a": [
+      "pulmones"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.8,
+     "e": 4.945,
+     "w": "A",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.945,
+     "e": 5.165,
+     "w": "este",
+     "a": [
+      "este"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.165,
+     "e": 5.485,
+     "w": "animal",
+     "a": [
+      "animal"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.485,
+     "e": 5.905,
+     "w": "también…",
+     "a": [
+      "también"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.27,
+     "e": 6.385,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.385,
+     "e": 6.505,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.505,
+     "e": 6.725,
+     "w": "deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.725,
+     "e": 7.065,
+     "w": "pasar",
+     "a": [
+      "pasar"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.065,
+     "e": 7.205,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.205,
+     "e": 7.785,
+     "w": "propósito.",
+     "a": [
+      "propósito"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c2",
+   "sfx": [
+    [
+     "splash",
+     "cachalote:"
+    ]
+   ],
+   "start": 7.99,
+   "dur": 5.855,
+   "text": "Es el cachalote: respira aire como tú, pero caza calamares allá abajo, en la oscuridad total.",
+   "words": [
+    {
+     "t": 8.11,
+     "e": 8.285,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.285,
+     "e": 8.425,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.425,
+     "e": 8.965,
+     "w": "cachalote:",
+     "a": [
+      "cachalote"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.26,
+     "e": 9.685,
+     "w": "respira",
+     "a": [
+      "respira"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.685,
+     "e": 9.905,
+     "w": "aire",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.905,
+     "e": 10.125,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.125,
+     "e": 10.345,
+     "w": "tú,",
+     "a": [
+      "tú"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.59,
+     "e": 10.745,
+     "w": "pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.745,
+     "e": 11.045,
+     "w": "caza",
+     "a": [
+      "caza"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.045,
+     "e": 11.665,
+     "w": "calamares",
+     "a": [
+      "calamares"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.665,
+     "e": 11.865,
+     "w": "allá",
+     "a": [
+      "allá"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.865,
+     "e": 12.225,
+     "w": "abajo,",
+     "a": [
+      "abajo"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.225,
+     "e": 12.605,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.605,
+     "e": 12.685,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.685,
+     "e": 13.185,
+     "w": "oscuridad",
+     "a": [
+      "oscuridad"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.185,
+     "e": 13.545,
+     "w": "total.",
+     "a": [
+      "total"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c3",
+   "sfx": [],
+   "start": 13.845,
+   "dur": 4.205,
+   "text": "Pero allá abajo no hay aire, y tiene que aguantar más de una hora sin respirar.",
+   "words": [
+    {
+     "t": 13.965,
+     "e": 14.105,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.105,
+     "e": 14.345,
+     "w": "allá",
+     "a": [
+      "allá"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.345,
+     "e": 14.685,
+     "w": "abajo",
+     "a": [
+      "abajo"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.685,
+     "e": 14.905,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.905,
+     "e": 15.085,
+     "w": "hay",
+     "a": [
+      "hay"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.085,
+     "e": 15.325,
+     "w": "aire,",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.61,
+     "e": 15.725,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.725,
+     "e": 15.945,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.945,
+     "e": 16.105,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.105,
+     "e": 16.545,
+     "w": "aguantar",
+     "a": [
+      "aguantar"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.545,
+     "e": 16.705,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.705,
+     "e": 16.865,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.865,
+     "e": 17.025,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.025,
+     "e": 17.265,
+     "w": "hora",
+     "a": [
+      "hora"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.265,
+     "e": 17.485,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.485,
+     "e": 18.17,
+     "w": "respirar.",
+     "a": [
+      "respirar"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c4",
+   "sfx": [
+    [
+     "pop",
+     "mioglobina."
+    ],
+    [
+     "coin",
+     "tanque"
+    ]
+   ],
+   "start": 18.05,
+   "dur": 9.04,
+   "text": "Así que guarda el oxígeno en los músculos, pegado a una proteína llamada mioglobina. Tiene tanta que su carne es casi negra. Ese es su tanque de oxígeno.",
+   "words": [
+    {
+     "t": 18.17,
+     "e": 18.375,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.375,
+     "e": 18.535,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.535,
+     "e": 18.935,
+     "w": "guarda",
+     "a": [
+      "guarda"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.935,
+     "e": 19.035,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.035,
+     "e": 19.535,
+     "w": "oxígeno",
+     "a": [
+      "oxígeno"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.535,
+     "e": 19.615,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.615,
+     "e": 19.735,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.735,
+     "e": 20.215,
+     "w": "músculos,",
+     "a": [
+      "músculos"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.55,
+     "e": 20.965,
+     "w": "pegado",
+     "a": [
+      "pegado"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.965,
+     "e": 21.085,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.085,
+     "e": 21.245,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.245,
+     "e": 21.785,
+     "w": "proteína",
+     "a": [
+      "proteína"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.785,
+     "e": 22.345,
+     "w": "llamada",
+     "a": [
+      "llamada"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.345,
+     "e": 23.085,
+     "w": "mioglobina.",
+     "a": [
+      "mioglobina"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.43,
+     "e": 23.615,
+     "w": "Tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.615,
+     "e": 23.915,
+     "w": "tanta",
+     "a": [
+      "tanta"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.915,
+     "e": 24.175,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.175,
+     "e": 24.335,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.335,
+     "e": 24.575,
+     "w": "carne",
+     "a": [
+      "carne"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.575,
+     "e": 24.775,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.775,
+     "e": 24.875,
+     "w": "casi",
+     "a": [
+      "casi"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.875,
+     "e": 25.335,
+     "w": "negra.",
+     "a": [
+      "negra"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.335,
+     "e": 25.795,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.795,
+     "e": 26.015,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.015,
+     "e": 26.135,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.135,
+     "e": 26.455,
+     "w": "tanque",
+     "a": [
+      "tanque"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.455,
+     "e": 26.575,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.575,
+     "e": 27.21,
+     "w": "oxígeno.",
+     "a": [
+      "oxígeno"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c5",
+   "sfx": [],
+   "start": 27.09,
+   "dur": 2.68,
+   "text": "Pero el cuerpo se gasta ese oxígeno muy rápido.",
+   "words": [
+    {
+     "t": 27.21,
+     "e": 27.355,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.355,
+     "e": 27.495,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.495,
+     "e": 27.775,
+     "w": "cuerpo",
+     "a": [
+      "cuerpo"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.775,
+     "e": 28.015,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.015,
+     "e": 28.275,
+     "w": "gasta",
+     "a": [
+      "gasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.275,
+     "e": 28.495,
+     "w": "ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.495,
+     "e": 29.035,
+     "w": "oxígeno",
+     "a": [
+      "oxígeno"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.035,
+     "e": 29.215,
+     "w": "muy",
+     "a": [
+      "muy"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.215,
+     "e": 29.595,
+     "w": "rápido.",
+     "a": [
+      "rápido"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c6",
+   "sfx": [
+    [
+     "thud",
+     "frena"
+    ],
+    [
+     "thud",
+     "dos"
+    ],
+    [
+     "coin",
+     "buceo."
+    ]
+   ],
+   "start": 29.77,
+   "dur": 11.33,
+   "text": "Así que, al bajar, el corazón se frena muchísimo y la sangre solo va al cerebro y al corazón. En la ballena azul se han medido apenas dos latidos por minuto. Ese es el reflejo de buceo.",
+   "words": [
+    {
+     "t": 29.89,
+     "e": 30.105,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.105,
+     "e": 30.365,
+     "w": "que,",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.365,
+     "e": 30.695,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.695,
+     "e": 31.135,
+     "w": "bajar,",
+     "a": [
+      "bajar"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.475,
+     "e": 31.515,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.515,
+     "e": 31.875,
+     "w": "corazón",
+     "a": [
+      "corazón"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.875,
+     "e": 32.095,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.095,
+     "e": 32.375,
+     "w": "frena",
+     "a": [
+      "frena"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.375,
+     "e": 32.755,
+     "w": "muchísimo",
+     "a": [
+      "muchísimo"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.755,
+     "e": 33.215,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.215,
+     "e": 33.335,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.335,
+     "e": 33.635,
+     "w": "sangre",
+     "a": [
+      "sangre"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.635,
+     "e": 33.915,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.915,
+     "e": 34.135,
+     "w": "va",
+     "a": [
+      "va"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.135,
+     "e": 34.255,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.255,
+     "e": 34.775,
+     "w": "cerebro",
+     "a": [
+      "cerebro"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.775,
+     "e": 34.955,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.955,
+     "e": 35.055,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.055,
+     "e": 35.495,
+     "w": "corazón.",
+     "a": [
+      "corazón"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.91,
+     "e": 36.045,
+     "w": "En",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.045,
+     "e": 36.145,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.145,
+     "e": 36.525,
+     "w": "ballena",
+     "a": [
+      "ballena"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.525,
+     "e": 36.865,
+     "w": "azul",
+     "a": [
+      "azul"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.865,
+     "e": 37.105,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.105,
+     "e": 37.185,
+     "w": "han",
+     "a": [
+      "han"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.185,
+     "e": 37.505,
+     "w": "medido",
+     "a": [
+      "medido"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.505,
+     "e": 37.705,
+     "w": "apenas",
+     "a": [
+      "apenas"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.705,
+     "e": 38.085,
+     "w": "dos",
+     "a": [
+      "dos"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.085,
+     "e": 38.565,
+     "w": "latidos",
+     "a": [
+      "latidos"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.565,
+     "e": 38.805,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.805,
+     "e": 39.225,
+     "w": "minuto.",
+     "a": [
+      "minuto"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.45,
+     "e": 39.705,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.705,
+     "e": 39.925,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.925,
+     "e": 40.065,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.065,
+     "e": 40.465,
+     "w": "reflejo",
+     "a": [
+      "reflejo"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.465,
+     "e": 40.605,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.605,
+     "e": 41.065,
+     "w": "buceo.",
+     "a": [
+      "buceo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c7",
+   "sfx": [
+    [
+     "thunder",
+     "aplastarían…"
+    ]
+   ],
+   "start": 41.1,
+   "dur": 9.56,
+   "text": "Pero a dos kilómetros el agua aprieta con la fuerza de doscientas atmósferas. Unos pulmones llenos de aire se aplastarían… y el nitrógeno se le metería a la sangre.",
+   "words": [
+    {
+     "t": 41.22,
+     "e": 41.385,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.385,
+     "e": 41.505,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.505,
+     "e": 41.665,
+     "w": "dos",
+     "a": [
+      "dos"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.665,
+     "e": 42.225,
+     "w": "kilómetros",
+     "a": [
+      "kilómetros"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.225,
+     "e": 42.445,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.445,
+     "e": 42.625,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.625,
+     "e": 43.045,
+     "w": "aprieta",
+     "a": [
+      "aprieta"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.045,
+     "e": 43.245,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.245,
+     "e": 43.385,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.385,
+     "e": 43.685,
+     "w": "fuerza",
+     "a": [
+      "fuerza"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.685,
+     "e": 43.885,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.885,
+     "e": 44.185,
+     "w": "200",
+     "a": [
+      "doscientas",
+      "200"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.185,
+     "e": 45.185,
+     "w": "atmósferas.",
+     "a": [
+      "atmósferas"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.495,
+     "e": 45.755,
+     "w": "Unos",
+     "a": [
+      "unos"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.755,
+     "e": 46.135,
+     "w": "pulmones",
+     "a": [
+      "pulmones"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.135,
+     "e": 46.535,
+     "w": "llenos",
+     "a": [
+      "llenos"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.535,
+     "e": 46.715,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.715,
+     "e": 46.935,
+     "w": "aire",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.935,
+     "e": 47.155,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.155,
+     "e": 47.795,
+     "w": "aplastarían…",
+     "a": [
+      "aplastarían"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.08,
+     "e": 48.215,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.215,
+     "e": 48.375,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.375,
+     "e": 49.17,
+     "w": "nitrógeno",
+     "a": [
+      "nitrógeno"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.17,
+     "e": 49.305,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.305,
+     "e": 49.425,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.425,
+     "e": 49.885,
+     "w": "metería",
+     "a": [
+      "metería"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.885,
+     "e": 50.005,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.005,
+     "e": 50.065,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.065,
+     "e": 50.445,
+     "w": "sangre.",
+     "a": [
+      "sangre"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c8",
+   "sfx": [
+    [
+     "pop",
+     "colapsen"
+    ]
+   ],
+   "start": 50.66,
+   "dur": 9.09,
+   "text": "Así que deja que sus pulmones se colapsen a propósito, y sus costillas se doblan sin romperse. Sin aire en los pulmones, el nitrógeno casi no pasa a la sangre.",
+   "words": [
+    {
+     "t": 50.78,
+     "e": 50.965,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.965,
+     "e": 51.145,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.145,
+     "e": 51.385,
+     "w": "deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.385,
+     "e": 51.565,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.565,
+     "e": 51.725,
+     "w": "sus",
+     "a": [
+      "sus"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.725,
+     "e": 52.165,
+     "w": "pulmones",
+     "a": [
+      "pulmones"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.165,
+     "e": 52.365,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.365,
+     "e": 52.885,
+     "w": "colapsen",
+     "a": [
+      "colapsen"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.885,
+     "e": 53.005,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.005,
+     "e": 53.565,
+     "w": "propósito,",
+     "a": [
+      "propósito"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.565,
+     "e": 53.835,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.835,
+     "e": 53.995,
+     "w": "sus",
+     "a": [
+      "sus"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.995,
+     "e": 54.475,
+     "w": "costillas",
+     "a": [
+      "costillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.475,
+     "e": 54.655,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.655,
+     "e": 55.075,
+     "w": "doblan",
+     "a": [
+      "doblan"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.075,
+     "e": 55.215,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.215,
+     "e": 55.835,
+     "w": "romperse.",
+     "a": [
+      "romperse"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.195,
+     "e": 56.335,
+     "w": "Sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.335,
+     "e": 56.555,
+     "w": "aire",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.555,
+     "e": 56.695,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.695,
+     "e": 56.795,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.795,
+     "e": 57.335,
+     "w": "pulmones,",
+     "a": [
+      "pulmones"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.675,
+     "e": 57.755,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.755,
+     "e": 58.315,
+     "w": "nitrógeno",
+     "a": [
+      "nitrógeno"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.315,
+     "e": 58.475,
+     "w": "casi",
+     "a": [
+      "casi"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.475,
+     "e": 58.755,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.755,
+     "e": 59.055,
+     "w": "pasa",
+     "a": [
+      "pasa"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.055,
+     "e": 59.235,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.235,
+     "e": 59.275,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.275,
+     "e": 59.595,
+     "w": "sangre.",
+     "a": [
+      "sangre"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c9",
+   "sfx": [
+    [
+     "splash",
+     "sube,"
+    ]
+   ],
+   "start": 59.75,
+   "dur": 2.95,
+   "text": "Pero cuando sube, tiene que recargar todo de golpe.",
+   "words": [
+    {
+     "t": 59.87,
+     "e": 59.975,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.975,
+     "e": 60.215,
+     "w": "cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.215,
+     "e": 60.735,
+     "w": "sube,",
+     "a": [
+      "sube"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.735,
+     "e": 61.025,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.025,
+     "e": 61.205,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.205,
+     "e": 61.725,
+     "w": "recargar",
+     "a": [
+      "recargar"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.725,
+     "e": 62.005,
+     "w": "todo",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.005,
+     "e": 62.245,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.245,
+     "e": 62.545,
+     "w": "golpe.",
+     "a": [
+      "golpe"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "c10",
+   "sfx": [
+    [
+     "splash",
+     "soplo"
+    ],
+    [
+     "coin",
+     "apagado."
+    ]
+   ],
+   "start": 62.7,
+   "dur": 10.34,
+   "text": "Así que en cada respiro cambia casi todo el aire de sus pulmones. Ese es el cachalote: un tanque de oxígeno que bucea con el corazón casi apagado.",
+   "words": [
+    {
+     "t": 62.82,
+     "e": 63.045,
+     "w": "Así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.045,
+     "e": 63.245,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.245,
+     "e": 63.385,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.385,
+     "e": 63.605,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.605,
+     "e": 64.245,
+     "w": "respiro",
+     "a": [
+      "respiro"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.245,
+     "e": 64.735,
+     "w": "cambia",
+     "a": [
+      "cambia"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.735,
+     "e": 65.035,
+     "w": "casi",
+     "a": [
+      "casi"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.035,
+     "e": 65.495,
+     "w": "todo",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.495,
+     "e": 65.715,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.715,
+     "e": 65.915,
+     "w": "aire",
+     "a": [
+      "aire"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.915,
+     "e": 66.075,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.075,
+     "e": 66.215,
+     "w": "sus",
+     "a": [
+      "sus"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.215,
+     "e": 66.775,
+     "w": "pulmones.",
+     "a": [
+      "pulmones"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.16,
+     "e": 67.495,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.495,
+     "e": 67.675,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.675,
+     "e": 67.795,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.795,
+     "e": 68.395,
+     "w": "cachalote:",
+     "a": [
+      "cachalote"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.695,
+     "e": 68.835,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.835,
+     "e": 69.175,
+     "w": "tanque",
+     "a": [
+      "tanque"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.175,
+     "e": 69.275,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.275,
+     "e": 69.795,
+     "w": "oxígeno",
+     "a": [
+      "oxígeno"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.795,
+     "e": 69.855,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.855,
+     "e": 70.235,
+     "w": "bucea",
+     "a": [
+      "bucea"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.235,
+     "e": 70.355,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.355,
+     "e": 70.455,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.455,
+     "e": 70.855,
+     "w": "corazón",
+     "a": [
+      "corazón"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.855,
+     "e": 71.135,
+     "w": "casi",
+     "a": [
+      "casi"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.135,
+     "e": 71.735,
+     "w": "apagado.",
+     "a": [
+      "apagado"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}
