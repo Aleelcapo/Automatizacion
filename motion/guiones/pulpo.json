@@ -6,18 +6,22 @@
  "beats": [
   {
    "scene": "p1",
-   "text": "Si a un cuerpo blando le metes sangre y un músculo que la empuje, ya tienes un pulpo con corazón.",
+   "text": "Si a un pulpo se le para un corazón… todavía le quedan dos. Y todo empieza por su sangre.",
    "keys": [],
    "sfx": [
     [
+     "gavel",
+     "para"
+    ],
+    [
      "pop",
-     "corazón."
+     "dos."
     ]
    ]
   },
   {
    "scene": "p2",
-   "text": "Pero su sangre no lleva hierro como la tuya, lleva cobre. Por eso es azul… y carga mucho menos oxígeno.",
+   "text": "Su sangre no lleva hierro como la tuya, lleva cobre. Por eso es azul… y carga mucho menos oxígeno.",
    "keys": [],
    "sfx": [
     [
