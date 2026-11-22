@@ -1,0 +1,130 @@
+{
+ "id": "cachalote",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "c1",
+   "text": "Si tomas un mamífero que respira aire y lo mandas a cazar calamares a dos kilómetros de profundidad, ya tienes un cachalote.",
+   "keys": [],
+   "sfx": [
+    [
+     "splash",
+     "cachalote."
+    ]
+   ]
+  },
+  {
+   "scene": "c2",
+   "text": "Pero allá abajo no hay aire, y tiene que aguantar más de una hora sin respirar.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "c3",
+   "text": "Así que guarda el oxígeno en los músculos, pegado a una proteína llamada mioglobina. Tiene tanta que su carne es casi negra. Ese es su tanque de oxígeno.",
+   "keys": [],
+   "sfx": [
+    [
+     "pop",
+     "mioglobina."
+    ],
+    [
+     "coin",
+     "tanque"
+    ]
+   ]
+  },
+  {
+   "scene": "c4",
+   "text": "Pero el corazón sigue latiendo y se gasta ese oxígeno muy rápido.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "c5",
+   "text": "Así que, al bajar, el corazón se frena muchísimo. En la ballena azul se han medido apenas dos latidos por minuto.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "frena"
+    ],
+    [
+     "thud",
+     "dos"
+    ]
+   ]
+  },
+  {
+   "scene": "c6",
+   "text": "Pero la piel y los músculos siguen pidiendo sangre.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "c7",
+   "text": "Así que cierra el paso de la sangre a casi todo el cuerpo y solo la manda al cerebro y al corazón. Ese es el reflejo de buceo.",
+   "keys": [],
+   "sfx": [
+    [
+     "gavel",
+     "cierra"
+    ],
+    [
+     "coin",
+     "buceo."
+    ]
+   ]
+  },
+  {
+   "scene": "c8",
+   "text": "Pero a dos kilómetros el agua aprieta con la fuerza de doscientas atmósferas. Unos pulmones llenos de aire se aplastarían… y el nitrógeno se le metería a la sangre.",
+   "keys": [],
+   "sfx": [
+    [
+     "thunder",
+     "aplastarían…"
+    ]
+   ]
+  },
+  {
+   "scene": "c9",
+   "text": "Así que deja que sus pulmones se colapsen a propósito, y sus costillas se doblan sin romperse. Sin aire en los pulmones, el nitrógeno casi no pasa a la sangre.",
+   "keys": [],
+   "sfx": [
+    [
+     "pop",
+     "colapsen"
+    ]
+   ]
+  },
+  {
+   "scene": "c10",
+   "text": "Pero cuando sube, tiene que recargar todo de golpe.",
+   "keys": [],
+   "sfx": [
+    [
+     "whoosh",
+     "sube,"
+    ]
+   ]
+  },
+  {
+   "scene": "c11",
+   "text": "Así que en cada respiro cambia casi todo el aire de sus pulmones; tú, apenas una parte. Ese es el soplo del cachalote: un tanque de oxígeno que bucea con el corazón casi apagado.",
+   "keys": [],
+   "sfx": [
+    [
+     "splash",
+     "soplo"
+    ],
+    [
+     "coin",
+     "apagado."
+    ]
+   ]
+  }
+ ]
+}

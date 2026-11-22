@@ -1,0 +1,113 @@
+{
+ "id": "pulpo",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "p1",
+   "text": "Si a un cuerpo blando le metes sangre y un músculo que la empuje, ya tienes un pulpo con corazón.",
+   "keys": [],
+   "sfx": [
+    [
+     "pop",
+     "corazón."
+    ]
+   ]
+  },
+  {
+   "scene": "p2",
+   "text": "Pero su sangre no lleva hierro como la tuya, lleva cobre. Por eso es azul… y carga mucho menos oxígeno.",
+   "keys": [],
+   "sfx": [
+    [
+     "splash",
+     "azul…"
+    ]
+   ]
+  },
+  {
+   "scene": "p3",
+   "text": "Así que tiene que pasarla con fuerza por las branquias para recargarla. Le pones un corazón chiquito a cada branquia. Esos son los corazones branquiales.",
+   "keys": [],
+   "sfx": [
+    [
+     "pop",
+     "chiquito"
+    ],
+    [
+     "coin",
+     "branquiales."
+    ]
+   ]
+  },
+  {
+   "scene": "p4",
+   "text": "Pero la sangre sale de las branquias sin fuerza, y no le alcanza para llegar a la punta de los brazos.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "p5",
+   "text": "Así que le pones un tercer corazón, más grande, en el centro, que la manda a todo el cuerpo. Ese es el corazón sistémico.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "tercer"
+    ],
+    [
+     "coin",
+     "sistémico."
+    ]
+   ]
+  },
+  {
+   "scene": "p6",
+   "text": "Pero cuando el pulpo nada a chorro, ese corazón central se detiene.",
+   "keys": [],
+   "sfx": [
+    [
+     "whoosh",
+     "chorro,"
+    ],
+    [
+     "gavel",
+     "detiene."
+    ]
+   ]
+  },
+  {
+   "scene": "p7",
+   "text": "Así que casi no nada: prefiere caminar por el fondo con sus brazos, porque nadar lo agota rapidísimo.",
+   "keys": [],
+   "sfx": [
+    [
+     "pop",
+     "caminar"
+    ]
+   ]
+  },
+  {
+   "scene": "p8",
+   "text": "Pero con ocho brazos tan largos, un solo cerebro no alcanza a controlar todo.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "p9",
+   "text": "Así que dos de cada tres neuronas viven en los brazos. Cada brazo toca, prueba el sabor y decide solo. Ese es el pulpo: tres corazones, sangre azul y brazos que piensan.",
+   "keys": [],
+   "sfx": [
+    [
+     "pop",
+     "neuronas"
+    ],
+    [
+     "coin",
+     "piensan."
+    ]
+   ]
+  }
+ ]
+}
