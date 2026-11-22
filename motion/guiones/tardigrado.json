@@ -1,0 +1,68 @@
+{
+ "id": "tardigrado",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "tar1",
+   "text": "Este animal sobrevivió al vacío del espacio… y mide menos de un milímetro.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "tar2",
+   "text": "Es el tardígrado, el oso de agua. Vive en el musgo, dentro de una gotita de agua.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "tar3",
+   "text": "Pero el musgo se seca, y sin agua cualquier célula se rompe.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "tar4",
+   "text": "Así que se encoge, mete las patas y saca casi toda el agua de su cuerpo. Queda como un barrilito seco. Ese es el estado de tonel.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "tar5",
+   "text": "Pero sin agua, las piezas de sus células se pegan y se deshacen.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "tar6",
+   "text": "Así que llena sus células de unas proteínas que se vuelven gel, casi como vidrio, y dejan todo quieto en su lugar.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "tar7",
+   "text": "Pero allá afuera también hay radiación que rompe el ADN.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "tar8",
+   "text": "Así que fabrica una proteína que se pega a su ADN y lo cubre como un escudo. Se llama Dsup: suprime el daño.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "tar9",
+   "text": "Pero ¿y si el agua tarda en volver?",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "tar10",
+   "text": "Así que puede esperar así por años, sin comer y casi sin gastar nada. Y cuando le cae una gota, se hincha y se pone a caminar como si nada. Ese es el tardígrado: un animal que se apaga… y se vuelve a prender.",
+   "keys": [],
+   "sfx": []
+  }
+ ]
+}

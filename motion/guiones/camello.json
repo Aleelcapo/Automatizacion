@@ -1,0 +1,68 @@
+{
+ "id": "camello",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "cam1",
+   "text": "La joroba del camello no guarda agua… y aun así aguanta más de una semana sin tomar, en pleno desierto.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam2",
+   "text": "La joroba es grasa: su reserva de comida.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam3",
+   "text": "Pero si esa grasa estuviera repartida por todo el cuerpo, sería como traer un abrigo en el desierto.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam4",
+   "text": "Así que la junta toda arriba, en un solo lugar, y el resto del cuerpo puede soltar el calor. Esa es la joroba.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam5",
+   "text": "Pero sudar para enfriarse gasta muchísima agua.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam6",
+   "text": "Así que deja que su cuerpo se caliente durante el día, varios grados, y suelta ese calor en la noche fría, sin sudar.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam7",
+   "text": "Pero cada vez que respira, el aire se lleva agua.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam8",
+   "text": "Así que su nariz tiene conductos enrollados que enfrían el aire al salir y atrapan la humedad antes de que se escape.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam9",
+   "text": "Pero cuando por fin encuentra agua, toma más de cien litros en unos minutos… y eso reventaría tus glóbulos rojos.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam10",
+   "text": "Así que sus glóbulos rojos son ovalados y elásticos: se inflan sin romperse, y cuando le falta agua, siguen pasando por las venas más delgadas. Ese es el camello: no carga agua… la ahorra.",
+   "keys": [],
+   "sfx": []
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "id": "camaron_mantis",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "cam1",
+   "text": "Este animal pega tan rápido que el agua alrededor forma burbujas que revientan con calor… y hasta con un destello de luz.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam2",
+   "text": "Es el camarón mantis, y su puño acelera como una bala.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam3",
+   "text": "Pero un músculo, por sí solo, no se mueve tan rápido.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam4",
+   "text": "Así que carga su brazo como una resortera: un resorte en forma de silla de montar se aprieta, y un seguro lo detiene. Cuando suelta el seguro, toda la energía sale de golpe.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam5",
+   "text": "Pero el golpe es tan rápido que el agua no alcanza a seguirlo, y detrás del puño se forman burbujas.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam6",
+   "text": "Así que pega dos veces: una con el puño… y otra cuando la burbuja revienta. Esa es la cavitación.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam7",
+   "text": "Pero pegarle a conchas duras miles de veces rompería cualquier puño.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam8",
+   "text": "Así que su puño está hecho de capas en espiral, como escalera de caracol. Cuando se agrieta, la grieta da vueltas y no avanza.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam9",
+   "text": "Pero de nada sirve el golpe si no ves bien a quién le pegas.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "cam10",
+   "text": "Así que tiene ojos que se mueven cada uno por su lado, y ven luz que tú no puedes ver, como la ultravioleta. Ese es el camarón mantis: un boxeador con puños de bala.",
+   "keys": [],
+   "sfx": []
+  }
+ ]
+}

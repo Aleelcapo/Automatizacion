@@ -1,0 +1,80 @@
+{
+ "id": "escarabajo_bombardero",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "esc1",
+   "text": "Este escarabajo dispara un chorro hirviendo, a cien grados… por la parte de atrás.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "esc2",
+   "text": "Es el escarabajo bombardero.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "esc3",
+   "text": "Pero guardar algo hirviendo dentro del cuerpo lo cocinaría a él.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "esc4",
+   "text": "Así que guarda los ingredientes fríos, en una bolsa: agua oxigenada y otra sustancia llamada hidroquinona.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "esc5",
+   "text": "Pero juntos, así nomás, no hacen nada.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "esc6",
+   "text": "Así que tiene una cámara aparte, de paredes duras, con enzimas que los hacen reaccionar de golpe.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "esc7",
+   "text": "Pero la reacción es tan violenta que calienta todo a cien grados y lo vuelve gas.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "esc8",
+   "text": "Así que el chorro sale disparado con un tronido, y además arde y apesta.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "esc9",
+   "text": "Pero si soltara todo de una vez, la cámara se reventaría.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "esc10",
+   "text": "Así que dispara en pulsos, cientos por segundo: entra un poquito, explota, sale; entra otro, explota, sale.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "esc11",
+   "text": "Pero ¿cómo apunta?",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "esc12",
+   "text": "Así que gira la punta del cuerpo como una torreta y puede disparar hacia atrás, a los lados… y hasta por encima de su espalda. Ese es el escarabajo bombardero: un lanzallamas químico del tamaño de tu uña.",
+   "keys": [],
+   "sfx": []
+  }
+ ]
+}

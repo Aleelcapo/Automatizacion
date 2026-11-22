@@ -1,0 +1,80 @@
+{
+ "id": "anguila_electrica",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "ang1",
+   "text": "Este pez puede soltar más de ochocientos voltios… y ni siquiera es una anguila.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ang2",
+   "text": "Es la anguila eléctrica, de los ríos de Sudamérica.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ang3",
+   "text": "Pero una célula de tu cuerpo apenas hace una chispa diminuta, de una décima de voltio.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ang4",
+   "text": "Así que apila miles de células planas, una tras otra, como pilas en una linterna. Esos son los electrocitos.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ang5",
+   "text": "Pero si la corriente se fuera por todo su cuerpo, se dañaría ella misma.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ang6",
+   "text": "Así que casi todo su cuerpo es órgano eléctrico, y sus órganos vitales van apretados en la parte de enfrente.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ang7",
+   "text": "Pero en el agua lodosa no ve casi nada.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ang8",
+   "text": "Así que suelta descargas chiquitas, como un radar, y siente cómo cambia la corriente cuando hay algo cerca.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ang9",
+   "text": "Pero los peces se esconden quietos en el lodo.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ang10",
+   "text": "Así que suelta dos descargas fuertes que hacen que el pez escondido se sacuda… y se delate. Luego lo paraliza.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ang11",
+   "text": "Pero en el agua la corriente se dispersa.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ang12",
+   "text": "Así que, si se siente en peligro, salta fuera del agua, pega la barbilla a su enemigo y le manda la corriente directo. Esa es la anguila eléctrica.",
+   "keys": [],
+   "sfx": []
+  }
+ ]
+}

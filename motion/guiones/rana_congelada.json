@@ -1,0 +1,68 @@
+{
+ "id": "rana_congelada",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "ran1",
+   "text": "Esta rana se congela entera en invierno: su corazón se detiene… y en primavera vuelve a latir.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ran2",
+   "text": "Es la rana de bosque, de Canadá y Alaska.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ran3",
+   "text": "Pero cuando el agua se congela dentro de una célula, forma cristales que la rompen como vidrio.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ran4",
+   "text": "Así que deja que el hielo se forme afuera de las células, entre ellas, y no adentro.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ran5",
+   "text": "Pero ese hielo de afuera le jala el agua a las células, y se encogen hasta morir.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ran6",
+   "text": "Así que su hígado suelta montones de azúcar a la sangre y la reparte por todo el cuerpo. Ese azúcar mantiene el agua dentro de las células. Ese es su anticongelante.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ran7",
+   "text": "Pero congelada no respira, el corazón no late y la sangre no se mueve.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ran8",
+   "text": "Así que sus células aguantan semanas casi sin oxígeno, como en pausa.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ran9",
+   "text": "Pero cuando llega la primavera, todo tiene que volver a arrancar.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ran10",
+   "text": "Así que se descongela, y lo primero que vuelve es el latido del corazón. Esa es la rana de bosque: con casi dos terceras partes de su agua hecha hielo… y sigue viva.",
+   "keys": [],
+   "sfx": []
+  }
+ ]
+}

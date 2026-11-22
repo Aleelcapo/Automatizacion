@@ -1,0 +1,68 @@
+{
+ "id": "colibri",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "col1",
+   "text": "El corazón de este pájaro late más de mil veces por minuto… y en la noche casi se apaga.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "col2",
+   "text": "Es el colibrí, y pesa lo mismo que una moneda.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "col3",
+   "text": "Pero para quedarse quieto en el aire tiene que batir las alas más de cincuenta veces por segundo.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "col4",
+   "text": "Así que sus alas no solo suben y bajan: dibujan un ocho y empujan aire hacia abajo en la ida y en la vuelta.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "col5",
+   "text": "Pero ese aleteo gasta energía como casi ningún otro animal.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "col6",
+   "text": "Así que toma néctar, que es casi pura azúcar, y la quema en minutos. Come cada pocos minutos, todo el día.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "col7",
+   "text": "Pero para quemar tanta azúcar necesita oxígeno, y rápido.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "col8",
+   "text": "Así que su corazón late a más de mil por minuto, y respira cientos de veces por minuto.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "col9",
+   "text": "Pero en la noche no puede comer, y a ese ritmo se moriría de hambre antes del amanecer.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "col10",
+   "text": "Así que entra en un sueño profundo: baja su temperatura, el corazón cae a unas cincuenta veces por minuto y gasta muchísimo menos. Ese es el letargo. Ese es el colibrí: un motor a toda velocidad que cada noche se pone en pausa.",
+   "keys": [],
+   "sfx": []
+  }
+ ]
+}
