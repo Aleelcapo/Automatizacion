@@ -1,6 +1,7 @@
 #!/bin/bash
 # Cola HQ (escala 2) en trozos de 360 cuadros. Un trozo o un armado por llamada.
 cd /home/user/Automatizacion/motion
+find /tmp -maxdepth 1 -name "remotion-webpack-bundle-*" -mmin +150 -exec rm -rf {} + 2>/dev/null
 export REMOTION_BROWSER=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell
 LISTA="pulpo:pulpo:27_Naturaleza_Pulpo cachalote:cachalote:28_Naturaleza_Cachalote"
 TROZO=360

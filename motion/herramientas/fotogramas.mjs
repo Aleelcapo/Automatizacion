@@ -3,6 +3,7 @@
 import {bundle} from '@remotion/bundler';
 import {renderStill, selectComposition} from '@remotion/renderer';
 import path from 'node:path';
+import fs from 'node:fs';
 const [comp, dir, escala, ...segs] = process.argv.slice(2);
 const serveUrl = await bundle({entryPoint: path.resolve('src/index.ts')});
 const browserExecutable = process.env.REMOTION_BROWSER;
@@ -12,3 +13,4 @@ for (const s of segs) {
   await renderStill({composition, serveUrl, frame, output: `${dir}/f_${String(s).padStart(5, '0')}.png`, scale: parseFloat(escala), browserExecutable, chromiumOptions: {gl: 'swangle'}});
   console.log('ok', s);
 }
+fs.rmSync(serveUrl, {recursive: true, force: true});

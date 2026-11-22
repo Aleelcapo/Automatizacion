@@ -372,8 +372,8 @@ export const cuerpoSecciones = (sec: [number, number, number, number, number?][]
   };
   const x0 = xs[0];
   const x1 = xs[xs.length - 1];
-  const a0 = opts.mitad ? Math.PI / 2 : 0;
-  const a1 = opts.mitad ? (Math.PI * 3) / 2 : Math.PI * 2;
+  const a0 = 0;
+  const a1 = opts.mitad ? Math.PI : Math.PI * 2;
   const pos: number[] = [];
   const idx: number[] = [];
   const pt = (x: number, a: number) => {
