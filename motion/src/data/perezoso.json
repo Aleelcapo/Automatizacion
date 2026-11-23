@@ -1,0 +1,2220 @@
+{
+ "id": "perezoso",
+ "duration": 75.29,
+ "beats": [
+  {
+   "scene": "perezoso1",
+   "sfx": [
+    [
+     "coin",
+     "perezoso."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 11.35,
+   "text": "Si tu tío Claudio vuelve de Costa Rica y te regala un peluche que se mueve en cámara lenta, con una sonrisa eterna y unas uñas larguísimas… felicidades, tienes un perezoso.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.295,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.295,
+     "e": 0.395,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.395,
+     "e": 0.575,
+     "w": "tío",
+     "a": [
+      "tío"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.575,
+     "e": 1.075,
+     "w": "Claudio",
+     "a": [
+      "claudio"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.075,
+     "e": 1.495,
+     "w": "vuelve",
+     "a": [
+      "vuelve"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.495,
+     "e": 1.635,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.635,
+     "e": 1.935,
+     "w": "Costa",
+     "a": [
+      "costa"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.935,
+     "e": 2.255,
+     "w": "Rica",
+     "a": [
+      "rica"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.255,
+     "e": 2.515,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.515,
+     "e": 2.635,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.635,
+     "e": 2.935,
+     "w": "regala",
+     "a": [
+      "regala"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.935,
+     "e": 3.135,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.135,
+     "e": 3.515,
+     "w": "peluche",
+     "a": [
+      "peluche"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.515,
+     "e": 3.735,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.735,
+     "e": 3.875,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.875,
+     "e": 4.195,
+     "w": "mueve",
+     "a": [
+      "mueve"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.195,
+     "e": 4.395,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.395,
+     "e": 4.675,
+     "w": "cámara",
+     "a": [
+      "cámara"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.675,
+     "e": 5.175,
+     "w": "lenta,",
+     "a": [
+      "lenta"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.175,
+     "e": 5.535,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.535,
+     "e": 5.735,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.735,
+     "e": 6.315,
+     "w": "sonrisa",
+     "a": [
+      "sonrisa"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.315,
+     "e": 6.855,
+     "w": "eterna",
+     "a": [
+      "eterna"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.855,
+     "e": 7.115,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.115,
+     "e": 7.335,
+     "w": "unas",
+     "a": [
+      "unas"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.335,
+     "e": 7.675,
+     "w": "uñas",
+     "a": [
+      "uñas"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.675,
+     "e": 8.675,
+     "w": "larguísimas…",
+     "a": [
+      "larguísimas"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.01,
+     "e": 9.615,
+     "w": "felicidades,",
+     "a": [
+      "felicidades"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.01,
+     "e": 10.295,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.295,
+     "e": 10.555,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.555,
+     "e": 11.095,
+     "w": "perezoso.",
+     "a": [
+      "perezoso"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "perezoso2",
+   "sfx": [],
+   "start": 11.35,
+   "dur": 2.92,
+   "text": "Lo pones en el sillón, le das plátano y listo.",
+   "words": [
+    {
+     "t": 11.47,
+     "e": 11.595,
+     "w": "Lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.595,
+     "e": 11.815,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.815,
+     "e": 12.015,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.015,
+     "e": 12.135,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.135,
+     "e": 12.64,
+     "w": "sillón,",
+     "a": [
+      "sillón"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.695,
+     "e": 12.775,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.775,
+     "e": 12.955,
+     "w": "das",
+     "a": [
+      "das"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.955,
+     "e": 13.375,
+     "w": "plátano",
+     "a": [
+      "plátano"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.375,
+     "e": 13.725,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.725,
+     "e": 14.39,
+     "w": "listo.",
+     "a": [
+      "listo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "perezoso3",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 14.27,
+   "dur": 3.58,
+   "text": "Pero a los días lo ves con la panza hinchada y sin moverse.",
+   "words": [
+    {
+     "t": 14.39,
+     "e": 14.525,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.525,
+     "e": 14.645,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.645,
+     "e": 14.805,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.805,
+     "e": 15.025,
+     "w": "días",
+     "a": [
+      "días"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.025,
+     "e": 15.445,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.445,
+     "e": 15.625,
+     "w": "ves",
+     "a": [
+      "ves"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.625,
+     "e": 15.785,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.785,
+     "e": 15.965,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.965,
+     "e": 16.365,
+     "w": "panza",
+     "a": [
+      "panza"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.365,
+     "e": 16.845,
+     "w": "hinchada",
+     "a": [
+      "hinchada"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.845,
+     "e": 17.005,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.005,
+     "e": 17.185,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.185,
+     "e": 17.585,
+     "w": "moverse.",
+     "a": [
+      "moverse"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "perezoso4",
+   "sfx": [
+    [
+     "stamp",
+     "selva."
+    ]
+   ],
+   "start": 17.85,
+   "dur": 12.945,
+   "text": "Es que come hojas, y su estómago es como el de una vaca: tiene varias partes y tarda semanas en digerir. El plátano le fermenta en la panza y lo enferma. Esa es su comida: hojas de los árboles de su selva.",
+   "words": [
+    {
+     "t": 17.97,
+     "e": 18.125,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.125,
+     "e": 18.265,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.265,
+     "e": 18.565,
+     "w": "come",
+     "a": [
+      "come"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.565,
+     "e": 19.085,
+     "w": "hojas,",
+     "a": [
+      "hojas"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.085,
+     "e": 19.365,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.365,
+     "e": 19.485,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.485,
+     "e": 19.945,
+     "w": "estómago",
+     "a": [
+      "estómago"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.945,
+     "e": 20.205,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.205,
+     "e": 20.405,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.405,
+     "e": 20.565,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.565,
+     "e": 20.685,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.685,
+     "e": 20.845,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.845,
+     "e": 21.51,
+     "w": "vaca:",
+     "a": [
+      "vaca"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.51,
+     "e": 21.725,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.725,
+     "e": 22.045,
+     "w": "varias",
+     "a": [
+      "varias"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.045,
+     "e": 22.545,
+     "w": "partes",
+     "a": [
+      "partes"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.545,
+     "e": 22.925,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.925,
+     "e": 23.145,
+     "w": "tarda",
+     "a": [
+      "tarda"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.145,
+     "e": 23.765,
+     "w": "semanas",
+     "a": [
+      "semanas"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.765,
+     "e": 24.045,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.045,
+     "e": 24.485,
+     "w": "digerir.",
+     "a": [
+      "digerir"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.74,
+     "e": 24.885,
+     "w": "El",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.885,
+     "e": 25.285,
+     "w": "plátano",
+     "a": [
+      "plátano"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.285,
+     "e": 25.465,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.465,
+     "e": 25.985,
+     "w": "fermenta",
+     "a": [
+      "fermenta"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.985,
+     "e": 26.065,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.065,
+     "e": 26.165,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.165,
+     "e": 26.565,
+     "w": "panza",
+     "a": [
+      "panza"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.565,
+     "e": 26.825,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.825,
+     "e": 26.905,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.905,
+     "e": 27.385,
+     "w": "enferma.",
+     "a": [
+      "enferma"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.385,
+     "e": 27.955,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.955,
+     "e": 28.095,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.095,
+     "e": 28.215,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.215,
+     "e": 28.575,
+     "w": "comida:",
+     "a": [
+      "comida"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.82,
+     "e": 29.145,
+     "w": "hojas",
+     "a": [
+      "hojas"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.145,
+     "e": 29.325,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.325,
+     "e": 29.445,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.445,
+     "e": 29.825,
+     "w": "árboles",
+     "a": [
+      "árboles"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.825,
+     "e": 30.005,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.005,
+     "e": 30.145,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.145,
+     "e": 30.505,
+     "w": "selva.",
+     "a": [
+      "selva"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "perezoso5",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 30.795,
+   "dur": 4.15,
+   "text": "Pero no se queda en el sillón: se cuelga de la cortina, boca abajo.",
+   "words": [
+    {
+     "t": 30.915,
+     "e": 30.935,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.935,
+     "e": 31.115,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.115,
+     "e": 31.275,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.275,
+     "e": 31.495,
+     "w": "queda",
+     "a": [
+      "queda"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.495,
+     "e": 31.675,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.675,
+     "e": 31.775,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.775,
+     "e": 32.135,
+     "w": "sillón:",
+     "a": [
+      "sillón"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.395,
+     "e": 32.595,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.595,
+     "e": 32.995,
+     "w": "cuelga",
+     "a": [
+      "cuelga"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.995,
+     "e": 33.135,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.135,
+     "e": 33.235,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.235,
+     "e": 33.755,
+     "w": "cortina,",
+     "a": [
+      "cortina"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.975,
+     "e": 34.235,
+     "w": "boca",
+     "a": [
+      "boca"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.235,
+     "e": 34.635,
+     "w": "abajo.",
+     "a": [
+      "abajo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "perezoso6",
+   "sfx": [
+    [
+     "stamp",
+     "casa."
+    ]
+   ],
+   "start": 34.945,
+   "dur": 9.775,
+   "text": "Es que vive colgado. Sus órganos están pegados a sus costillas, para que colgando no le aplasten los pulmones. Necesita ramas para colgarse. Esa es su casa.",
+   "words": [
+    {
+     "t": 35.065,
+     "e": 35.165,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.165,
+     "e": 35.325,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.325,
+     "e": 35.585,
+     "w": "vive",
+     "a": [
+      "vive"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.585,
+     "e": 36.145,
+     "w": "colgado.",
+     "a": [
+      "colgado"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.42,
+     "e": 36.575,
+     "w": "Sus",
+     "a": [
+      "sus"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.575,
+     "e": 37.075,
+     "w": "órganos",
+     "a": [
+      "órganos"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.075,
+     "e": 37.355,
+     "w": "están",
+     "a": [
+      "están"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.355,
+     "e": 37.855,
+     "w": "pegados",
+     "a": [
+      "pegados"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.855,
+     "e": 37.995,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.995,
+     "e": 38.155,
+     "w": "sus",
+     "a": [
+      "sus"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.155,
+     "e": 38.655,
+     "w": "costillas,",
+     "a": [
+      "costillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.0,
+     "e": 39.135,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.135,
+     "e": 39.275,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.275,
+     "e": 39.715,
+     "w": "colgando",
+     "a": [
+      "colgando"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.715,
+     "e": 40.055,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.055,
+     "e": 40.175,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.175,
+     "e": 40.535,
+     "w": "aplasten",
+     "a": [
+      "aplasten"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.535,
+     "e": 40.735,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.735,
+     "e": 41.195,
+     "w": "pulmones.",
+     "a": [
+      "pulmones"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.6,
+     "e": 42.155,
+     "w": "Necesita",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.155,
+     "e": 42.675,
+     "w": "ramas",
+     "a": [
+      "ramas"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.675,
+     "e": 42.855,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.855,
+     "e": 43.455,
+     "w": "colgarse.",
+     "a": [
+      "colgarse"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.71,
+     "e": 44.055,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.055,
+     "e": 44.195,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.195,
+     "e": 44.355,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.355,
+     "e": 44.595,
+     "w": "casa.",
+     "a": [
+      "casa"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "perezoso7",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 44.72,
+   "dur": 2.97,
+   "text": "Pero una semana entera… y no va al baño.",
+   "words": [
+    {
+     "t": 44.84,
+     "e": 45.015,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.015,
+     "e": 45.295,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.295,
+     "e": 45.675,
+     "w": "semana",
+     "a": [
+      "semana"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.675,
+     "e": 46.275,
+     "w": "entera…",
+     "a": [
+      "entera"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.275,
+     "e": 46.575,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.575,
+     "e": 46.795,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.795,
+     "e": 46.955,
+     "w": "va",
+     "a": [
+      "va"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.955,
+     "e": 47.115,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.115,
+     "e": 47.455,
+     "w": "baño.",
+     "a": [
+      "baño"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "perezoso8",
+   "sfx": [],
+   "start": 47.69,
+   "dur": 4.725,
+   "text": "Es que hace popó una sola vez por semana. Y para eso, baja del árbol hasta el suelo.",
+   "words": [
+    {
+     "t": 47.81,
+     "e": 47.945,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.945,
+     "e": 48.065,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.065,
+     "e": 48.245,
+     "w": "hace",
+     "a": [
+      "hace"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.245,
+     "e": 48.665,
+     "w": "popó",
+     "a": [
+      "popó"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.665,
+     "e": 49.005,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.005,
+     "e": 49.325,
+     "w": "sola",
+     "a": [
+      "sola"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.325,
+     "e": 49.525,
+     "w": "vez",
+     "a": [
+      "vez"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.525,
+     "e": 49.785,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.785,
+     "e": 50.125,
+     "w": "semana.",
+     "a": [
+      "semana"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.125,
+     "e": 50.415,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.415,
+     "e": 50.595,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.595,
+     "e": 50.855,
+     "w": "eso,",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.855,
+     "e": 51.355,
+     "w": "baja",
+     "a": [
+      "baja"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.355,
+     "e": 51.575,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.575,
+     "e": 51.855,
+     "w": "árbol",
+     "a": [
+      "árbol"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.855,
+     "e": 52.135,
+     "w": "hasta",
+     "a": [
+      "hasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.135,
+     "e": 52.255,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.255,
+     "e": 52.535,
+     "w": "suelo.",
+     "a": [
+      "suelo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "perezoso9",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 52.415,
+   "dur": 2.475,
+   "text": "Pero en tu casa lo ves temblando.",
+   "words": [
+    {
+     "t": 52.535,
+     "e": 52.995,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.995,
+     "e": 53.135,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.135,
+     "e": 53.275,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.275,
+     "e": 53.555,
+     "w": "casa",
+     "a": [
+      "casa"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.555,
+     "e": 53.855,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.855,
+     "e": 54.055,
+     "w": "ves",
+     "a": [
+      "ves"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.055,
+     "e": 54.675,
+     "w": "temblando.",
+     "a": [
+      "temblando"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "perezoso10",
+   "sfx": [],
+   "start": 54.89,
+   "dur": 8.045,
+   "text": "Es que su cuerpo es más frío que el tuyo, y gasta tan poca energía que no puede calentarse solo. Necesita calor todo el tiempo.",
+   "words": [
+    {
+     "t": 55.01,
+     "e": 55.115,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.115,
+     "e": 55.235,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.235,
+     "e": 55.415,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.415,
+     "e": 55.735,
+     "w": "cuerpo",
+     "a": [
+      "cuerpo"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.735,
+     "e": 55.935,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.935,
+     "e": 56.155,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.155,
+     "e": 56.555,
+     "w": "frío",
+     "a": [
+      "frío"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.555,
+     "e": 56.695,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.695,
+     "e": 56.815,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.815,
+     "e": 57.31,
+     "w": "tuyo,",
+     "a": [
+      "tuyo"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.31,
+     "e": 57.405,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.405,
+     "e": 57.745,
+     "w": "gasta",
+     "a": [
+      "gasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.745,
+     "e": 58.025,
+     "w": "tan",
+     "a": [
+      "tan"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.025,
+     "e": 58.405,
+     "w": "poca",
+     "a": [
+      "poca"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.405,
+     "e": 58.865,
+     "w": "energía",
+     "a": [
+      "energía"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.865,
+     "e": 59.185,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.185,
+     "e": 59.345,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.345,
+     "e": 59.625,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.625,
+     "e": 60.225,
+     "w": "calentarse",
+     "a": [
+      "calentarse"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.225,
+     "e": 60.525,
+     "w": "solo.",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.86,
+     "e": 61.455,
+     "w": "Necesita",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.455,
+     "e": 61.735,
+     "w": "calor",
+     "a": [
+      "calor"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.735,
+     "e": 62.135,
+     "w": "todo",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.135,
+     "e": 62.395,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.395,
+     "e": 62.695,
+     "w": "tiempo.",
+     "a": [
+      "tiempo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "perezoso11",
+   "sfx": [
+    [
+     "coin",
+     "selva."
+    ]
+   ],
+   "start": 62.935,
+   "dur": 12.355,
+   "text": "Ahora sí, tienes un perezoso. Pero en casi todos los países es ilegal tenerlo, y por cada perezoso que llega a una casa, muchos mueren en el camino. Su lugar… es la selva.",
+   "words": [
+    {
+     "t": 63.055,
+     "e": 63.335,
+     "w": "Ahora",
+     "a": [
+      "ahora"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.335,
+     "e": 63.635,
+     "w": "sí,",
+     "a": [
+      "sí"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.83,
+     "e": 64.125,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.125,
+     "e": 64.405,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.405,
+     "e": 64.925,
+     "w": "perezoso.",
+     "a": [
+      "perezoso"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.3,
+     "e": 65.455,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.455,
+     "e": 65.575,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.575,
+     "e": 65.715,
+     "w": "casi",
+     "a": [
+      "casi"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.715,
+     "e": 66.075,
+     "w": "todos",
+     "a": [
+      "todos"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.075,
+     "e": 66.315,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.315,
+     "e": 66.755,
+     "w": "países",
+     "a": [
+      "países"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.755,
+     "e": 67.135,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.135,
+     "e": 67.615,
+     "w": "ilegal",
+     "a": [
+      "ilegal"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.615,
+     "e": 68.115,
+     "w": "tenerlo,",
+     "a": [
+      "tenerlo"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.405,
+     "e": 68.485,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.485,
+     "e": 68.645,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.645,
+     "e": 68.865,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.865,
+     "e": 69.425,
+     "w": "perezoso",
+     "a": [
+      "perezoso"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.425,
+     "e": 69.605,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.605,
+     "e": 69.825,
+     "w": "llega",
+     "a": [
+      "llega"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.825,
+     "e": 70.005,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.005,
+     "e": 70.125,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.125,
+     "e": 70.445,
+     "w": "casa,",
+     "a": [
+      "casa"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.885,
+     "e": 71.125,
+     "w": "muchos",
+     "a": [
+      "muchos"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.125,
+     "e": 71.625,
+     "w": "mueren",
+     "a": [
+      "mueren"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.625,
+     "e": 71.785,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.785,
+     "e": 71.905,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.905,
+     "e": 72.165,
+     "w": "camino.",
+     "a": [
+      "camino"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.595,
+     "e": 72.735,
+     "w": "Su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.735,
+     "e": 73.075,
+     "w": "lugar…",
+     "a": [
+      "lugar"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.075,
+     "e": 73.475,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.475,
+     "e": 73.635,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.635,
+     "e": 74.015,
+     "w": "selva.",
+     "a": [
+      "selva"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}

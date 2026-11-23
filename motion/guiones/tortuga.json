@@ -1,0 +1,120 @@
+{
+ "id": "tortuga",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "tortuga1",
+   "text": "Si tu tío Claudio vuelve de Estados Unidos y te regala una tortuguita del tamaño de una moneda, con dos rayas rojas a los lados de la cabeza… felicidades, tienes una tortuga de orejas rojas.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "rojas."
+    ]
+   ]
+  },
+  {
+   "scene": "tortuga2",
+   "text": "La pones en un tupper con un poquito de agua y una palmerita de plástico, y listo.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "tortuga3",
+   "text": "Pero a los meses ves que el caparazón se le está pelando y le salen manchas blancas.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "tortuga4",
+   "text": "Es que necesita salir del agua y secarse completita bajo una lámpara de calor y de luz ultravioleta. Si nunca se seca, le salen hongos en el caparazón. Ese es su sol.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "sol."
+    ]
+   ]
+  },
+  {
+   "scene": "tortuga5",
+   "text": "Pero le das su comida fuera del agua y no se la come.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "tortuga6",
+   "text": "Es que no tiene saliva para tragar. Necesita estar dentro del agua para comer. Ese es su comedor.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "comedor."
+    ]
+   ]
+  },
+  {
+   "scene": "tortuga7",
+   "text": "Pero el agua siempre huele feo, por más que la cambies.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "tortuga8",
+   "text": "Es que come, hace popó y vive en la misma agua. Necesita un filtro fuerte y mucha más agua.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "tortuga9",
+   "text": "Pero la tortuguita ya no es tortuguita.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "tortuga10",
+   "text": "Es que crece hasta treinta centímetros, y puede vivir más de treinta años. Ese tupper ahora es un acuario enorme.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "tortuga11",
+   "text": "Y aquí viene lo importante: muchísima gente, cuando ya no puede con ella, la suelta en un lago. Y ahí se come la comida de las tortugas que ya vivían ahí y las desplaza. Por eso en muchos países es una plaga.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "tortuga12",
+   "text": "Ahora sí, tienes una tortuga feliz. Pero es para toda la vida… no para soltarla.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "soltarla."
+    ]
+   ]
+  }
+ ]
+}

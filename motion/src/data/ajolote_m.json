@@ -1,0 +1,2302 @@
+{
+ "id": "ajolote_m",
+ "duration": 75.42,
+ "beats": [
+  {
+   "scene": "ajolote_m1",
+   "sfx": [
+    [
+     "coin",
+     "ajolote."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 10.285,
+   "text": "Si tu tío Claudio vuelve de México y te regala un bichito rosado, que sonríe todo el tiempo y tiene como plumitas en la cabeza… felicidades, tienes un ajolote.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.315,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.315,
+     "e": 0.435,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.435,
+     "e": 0.595,
+     "w": "tío",
+     "a": [
+      "tío"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.595,
+     "e": 1.095,
+     "w": "Claudio",
+     "a": [
+      "claudio"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.095,
+     "e": 1.475,
+     "w": "vuelve",
+     "a": [
+      "vuelve"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.475,
+     "e": 1.615,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.615,
+     "e": 2.035,
+     "w": "México",
+     "a": [
+      "méxico"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.035,
+     "e": 2.315,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.315,
+     "e": 2.435,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.435,
+     "e": 2.755,
+     "w": "regala",
+     "a": [
+      "regala"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.755,
+     "e": 2.915,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.915,
+     "e": 3.315,
+     "w": "bichito",
+     "a": [
+      "bichito"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.315,
+     "e": 3.915,
+     "w": "rosado,",
+     "a": [
+      "rosado"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.915,
+     "e": 4.215,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.215,
+     "e": 4.815,
+     "w": "sonríe",
+     "a": [
+      "sonríe"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.815,
+     "e": 5.055,
+     "w": "todo",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.055,
+     "e": 5.315,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.315,
+     "e": 5.675,
+     "w": "tiempo",
+     "a": [
+      "tiempo"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.675,
+     "e": 5.895,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.895,
+     "e": 6.095,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.095,
+     "e": 6.315,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.315,
+     "e": 6.935,
+     "w": "plumitas",
+     "a": [
+      "plumitas"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.935,
+     "e": 7.115,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.115,
+     "e": 7.215,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.215,
+     "e": 7.595,
+     "w": "cabeza…",
+     "a": [
+      "cabeza"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.935,
+     "e": 8.515,
+     "w": "felicidades,",
+     "a": [
+      "felicidades"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.055,
+     "e": 9.435,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.435,
+     "e": 9.595,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.595,
+     "e": 10.075,
+     "w": "ajolote.",
+     "a": [
+      "ajolote"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "ajolote_m2",
+   "sfx": [],
+   "start": 10.285,
+   "dur": 4.915,
+   "text": "Lo pones en una pecera con piedritas de colores, una lámpara bien fuerte y listo.",
+   "words": [
+    {
+     "t": 10.405,
+     "e": 10.505,
+     "w": "Lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.505,
+     "e": 10.745,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.745,
+     "e": 10.945,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.945,
+     "e": 11.085,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.085,
+     "e": 11.445,
+     "w": "pecera",
+     "a": [
+      "pecera"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.445,
+     "e": 11.665,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.665,
+     "e": 12.205,
+     "w": "piedritas",
+     "a": [
+      "piedritas"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.205,
+     "e": 12.325,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.325,
+     "e": 12.725,
+     "w": "colores,",
+     "a": [
+      "colores"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.025,
+     "e": 13.165,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.165,
+     "e": 13.505,
+     "w": "lámpara",
+     "a": [
+      "lámpara"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.505,
+     "e": 13.805,
+     "w": "bien",
+     "a": [
+      "bien"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.805,
+     "e": 14.205,
+     "w": "fuerte",
+     "a": [
+      "fuerte"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.205,
+     "e": 14.625,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.625,
+     "e": 15.32,
+     "w": "listo.",
+     "a": [
+      "listo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "ajolote_m3",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 15.2,
+   "dur": 3.72,
+   "text": "Pero a los días notas que no come y anda con la panza hinchada.",
+   "words": [
+    {
+     "t": 15.32,
+     "e": 15.465,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.465,
+     "e": 15.565,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.565,
+     "e": 15.725,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.725,
+     "e": 15.925,
+     "w": "días",
+     "a": [
+      "días"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.925,
+     "e": 16.505,
+     "w": "notas",
+     "a": [
+      "notas"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.505,
+     "e": 16.685,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.685,
+     "e": 16.865,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.865,
+     "e": 17.205,
+     "w": "come",
+     "a": [
+      "come"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.205,
+     "e": 17.505,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.505,
+     "e": 17.685,
+     "w": "anda",
+     "a": [
+      "anda"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.685,
+     "e": 17.885,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.885,
+     "e": 17.985,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.985,
+     "e": 18.305,
+     "w": "panza",
+     "a": [
+      "panza"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.305,
+     "e": 18.725,
+     "w": "hinchada.",
+     "a": [
+      "hinchada"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "ajolote_m4",
+   "sfx": [
+    [
+     "stamp",
+     "piso."
+    ]
+   ],
+   "start": 18.92,
+   "dur": 11.485,
+   "text": "Es que el ajolote come chupando todo lo que tiene enfrente, de golpe. Se traga las piedritas y se le tapan las tripas. Por eso el fondo va limpio o con arena muy fina. Ese es su piso.",
+   "words": [
+    {
+     "t": 19.04,
+     "e": 19.165,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.165,
+     "e": 19.285,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.285,
+     "e": 19.425,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.425,
+     "e": 19.885,
+     "w": "ajolote",
+     "a": [
+      "ajolote"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.885,
+     "e": 20.185,
+     "w": "come",
+     "a": [
+      "come"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.185,
+     "e": 20.745,
+     "w": "chupando",
+     "a": [
+      "chupando"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.745,
+     "e": 21.105,
+     "w": "todo",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.105,
+     "e": 21.325,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.325,
+     "e": 21.445,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.445,
+     "e": 21.665,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.665,
+     "e": 22.145,
+     "w": "enfrente,",
+     "a": [
+      "enfrente"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.455,
+     "e": 22.615,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.615,
+     "e": 22.855,
+     "w": "golpe.",
+     "a": [
+      "golpe"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.28,
+     "e": 23.445,
+     "w": "Se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.445,
+     "e": 23.705,
+     "w": "traga",
+     "a": [
+      "traga"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.705,
+     "e": 23.845,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.845,
+     "e": 24.505,
+     "w": "piedritas",
+     "a": [
+      "piedritas"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.505,
+     "e": 24.665,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.665,
+     "e": 24.785,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.785,
+     "e": 24.905,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.905,
+     "e": 25.225,
+     "w": "tapan",
+     "a": [
+      "tapan"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.225,
+     "e": 25.365,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.365,
+     "e": 25.805,
+     "w": "tripas.",
+     "a": [
+      "tripas"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.13,
+     "e": 26.255,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.255,
+     "e": 26.495,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.495,
+     "e": 26.695,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.695,
+     "e": 26.895,
+     "w": "fondo",
+     "a": [
+      "fondo"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.895,
+     "e": 27.095,
+     "w": "va",
+     "a": [
+      "va"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.095,
+     "e": 27.555,
+     "w": "limpio",
+     "a": [
+      "limpio"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.555,
+     "e": 27.775,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.775,
+     "e": 27.955,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.955,
+     "e": 28.135,
+     "w": "arena",
+     "a": [
+      "arena"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.135,
+     "e": 28.535,
+     "w": "muy",
+     "a": [
+      "muy"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.535,
+     "e": 29.18,
+     "w": "fina.",
+     "a": [
+      "fina"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.18,
+     "e": 29.465,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.465,
+     "e": 29.665,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.665,
+     "e": 29.825,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.825,
+     "e": 30.125,
+     "w": "piso.",
+     "a": [
+      "piso"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "ajolote_m5",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 30.405,
+   "dur": 3.335,
+   "text": "Pero luego notas que las plumitas de la cabeza se le encogen.",
+   "words": [
+    {
+     "t": 30.525,
+     "e": 30.565,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.565,
+     "e": 30.885,
+     "w": "luego",
+     "a": [
+      "luego"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.885,
+     "e": 31.305,
+     "w": "notas",
+     "a": [
+      "notas"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.305,
+     "e": 31.445,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.445,
+     "e": 31.605,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.605,
+     "e": 32.085,
+     "w": "plumitas",
+     "a": [
+      "plumitas"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.085,
+     "e": 32.225,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.225,
+     "e": 32.325,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.325,
+     "e": 32.685,
+     "w": "cabeza",
+     "a": [
+      "cabeza"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.685,
+     "e": 32.945,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.945,
+     "e": 33.045,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.045,
+     "e": 33.425,
+     "w": "encogen.",
+     "a": [
+      "encogen"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "ajolote_m6",
+   "sfx": [],
+   "start": 33.74,
+   "dur": 13.81,
+   "text": "Es que esas plumitas son sus branquias: respira por ahí. Si el agua está sucia, se le queman y se encogen. Cuando están grandes y esponjadas, está feliz. Por eso necesita un filtro suave y cambiarle parte del agua cada semana.",
+   "words": [
+    {
+     "t": 33.86,
+     "e": 33.975,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.975,
+     "e": 34.115,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.115,
+     "e": 34.315,
+     "w": "esas",
+     "a": [
+      "esas"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.315,
+     "e": 34.875,
+     "w": "plumitas",
+     "a": [
+      "plumitas"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.875,
+     "e": 35.155,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.155,
+     "e": 35.415,
+     "w": "sus",
+     "a": [
+      "sus"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.415,
+     "e": 35.935,
+     "w": "branquias:",
+     "a": [
+      "branquias"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.335,
+     "e": 36.855,
+     "w": "respira",
+     "a": [
+      "respira"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.855,
+     "e": 37.055,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.055,
+     "e": 37.255,
+     "w": "ahí.",
+     "a": [
+      "ahí"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.55,
+     "e": 37.715,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.715,
+     "e": 37.835,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.835,
+     "e": 37.975,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.975,
+     "e": 38.215,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.215,
+     "e": 38.635,
+     "w": "sucia,",
+     "a": [
+      "sucia"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.855,
+     "e": 38.975,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.975,
+     "e": 39.075,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.075,
+     "e": 39.455,
+     "w": "queman",
+     "a": [
+      "queman"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.455,
+     "e": 39.675,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.675,
+     "e": 39.795,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.795,
+     "e": 40.175,
+     "w": "encogen.",
+     "a": [
+      "encogen"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.51,
+     "e": 40.615,
+     "w": "Cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.615,
+     "e": 40.875,
+     "w": "están",
+     "a": [
+      "están"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.875,
+     "e": 41.375,
+     "w": "grandes",
+     "a": [
+      "grandes"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.375,
+     "e": 41.575,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.575,
+     "e": 42.175,
+     "w": "esponjadas,",
+     "a": [
+      "esponjadas"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.435,
+     "e": 42.755,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.755,
+     "e": 43.055,
+     "w": "feliz.",
+     "a": [
+      "feliz"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.39,
+     "e": 43.515,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.515,
+     "e": 43.755,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.755,
+     "e": 44.095,
+     "w": "necesita",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.095,
+     "e": 44.415,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.415,
+     "e": 44.715,
+     "w": "filtro",
+     "a": [
+      "filtro"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.715,
+     "e": 45.135,
+     "w": "suave",
+     "a": [
+      "suave"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.135,
+     "e": 45.395,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.395,
+     "e": 45.835,
+     "w": "cambiarle",
+     "a": [
+      "cambiarle"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.835,
+     "e": 46.155,
+     "w": "parte",
+     "a": [
+      "parte"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.155,
+     "e": 46.395,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.395,
+     "e": 46.635,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.635,
+     "e": 46.935,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.935,
+     "e": 47.375,
+     "w": "semana.",
+     "a": [
+      "semana"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "ajolote_m7",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 47.55,
+   "dur": 2.765,
+   "text": "Pero en verano lo ves flotando, sin ganas de nada.",
+   "words": [
+    {
+     "t": 47.67,
+     "e": 47.815,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.815,
+     "e": 47.995,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.995,
+     "e": 48.295,
+     "w": "verano",
+     "a": [
+      "verano"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.295,
+     "e": 48.475,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.475,
+     "e": 48.635,
+     "w": "ves",
+     "a": [
+      "ves"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.635,
+     "e": 49.255,
+     "w": "flotando,",
+     "a": [
+      "flotando"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.515,
+     "e": 49.695,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.695,
+     "e": 50.095,
+     "w": "ganas",
+     "a": [
+      "ganas"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.095,
+     "e": 50.195,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.195,
+     "e": 50.435,
+     "w": "nada.",
+     "a": [
+      "nada"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "ajolote_m8",
+   "sfx": [
+    [
+     "stamp",
+     "temperatura."
+    ]
+   ],
+   "start": 50.315,
+   "dur": 7.575,
+   "text": "Es que viene de lagos fríos. Arriba de veinte grados se estresa, y con más calor se enferma. Esa es su temperatura.",
+   "words": [
+    {
+     "t": 50.435,
+     "e": 50.865,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.865,
+     "e": 51.005,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.005,
+     "e": 51.265,
+     "w": "viene",
+     "a": [
+      "viene"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.265,
+     "e": 51.425,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.425,
+     "e": 51.765,
+     "w": "lagos",
+     "a": [
+      "lagos"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.765,
+     "e": 52.265,
+     "w": "fríos.",
+     "a": [
+      "fríos"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.64,
+     "e": 53.015,
+     "w": "Arriba",
+     "a": [
+      "arriba"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.015,
+     "e": 53.115,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.115,
+     "e": 53.295,
+     "w": "20",
+     "a": [
+      "veinte",
+      "20"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.295,
+     "e": 53.835,
+     "w": "grados",
+     "a": [
+      "grados"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.835,
+     "e": 54.055,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.055,
+     "e": 54.595,
+     "w": "estresa,",
+     "a": [
+      "estresa"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.595,
+     "e": 54.765,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.765,
+     "e": 54.945,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.945,
+     "e": 55.165,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.165,
+     "e": 55.445,
+     "w": "calor",
+     "a": [
+      "calor"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.445,
+     "e": 55.705,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.705,
+     "e": 56.185,
+     "w": "enferma.",
+     "a": [
+      "enferma"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.465,
+     "e": 56.785,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.785,
+     "e": 56.925,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.925,
+     "e": 57.065,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.065,
+     "e": 57.465,
+     "w": "temperatura.",
+     "a": [
+      "temperatura"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "ajolote_m9",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 57.89,
+   "dur": 3.975,
+   "text": "Pero cuando lo quieres agarrar, se te resbala y le queda la piel marcada.",
+   "words": [
+    {
+     "t": 58.01,
+     "e": 58.145,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.145,
+     "e": 58.385,
+     "w": "cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.385,
+     "e": 58.545,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.545,
+     "e": 58.745,
+     "w": "quieres",
+     "a": [
+      "quieres"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.745,
+     "e": 59.325,
+     "w": "agarrar,",
+     "a": [
+      "agarrar"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.525,
+     "e": 59.605,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.605,
+     "e": 59.725,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.725,
+     "e": 60.345,
+     "w": "resbala",
+     "a": [
+      "resbala"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.345,
+     "e": 60.505,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.505,
+     "e": 60.605,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.605,
+     "e": 60.765,
+     "w": "queda",
+     "a": [
+      "queda"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.765,
+     "e": 60.925,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.925,
+     "e": 61.145,
+     "w": "piel",
+     "a": [
+      "piel"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.145,
+     "e": 61.685,
+     "w": "marcada.",
+     "a": [
+      "marcada"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "ajolote_m10",
+   "sfx": [],
+   "start": 61.865,
+   "dur": 6.175,
+   "text": "Es que su piel tiene una capa de baba que lo protege, y tus manos se la quitan. Se mira, pero no se toca.",
+   "words": [
+    {
+     "t": 61.985,
+     "e": 62.105,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.105,
+     "e": 62.205,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.205,
+     "e": 62.365,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.365,
+     "e": 62.605,
+     "w": "piel",
+     "a": [
+      "piel"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.605,
+     "e": 62.945,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.945,
+     "e": 63.125,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.125,
+     "e": 63.445,
+     "w": "capa",
+     "a": [
+      "capa"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.445,
+     "e": 63.565,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.565,
+     "e": 63.805,
+     "w": "baba",
+     "a": [
+      "baba"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.805,
+     "e": 64.005,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.005,
+     "e": 64.145,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.145,
+     "e": 64.645,
+     "w": "protege,",
+     "a": [
+      "protege"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.645,
+     "e": 64.835,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.835,
+     "e": 64.975,
+     "w": "tus",
+     "a": [
+      "tus"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.975,
+     "e": 65.295,
+     "w": "manos",
+     "a": [
+      "manos"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.295,
+     "e": 65.575,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.575,
+     "e": 65.675,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.675,
+     "e": 65.995,
+     "w": "quitan.",
+     "a": [
+      "quitan"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.34,
+     "e": 66.515,
+     "w": "Se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.515,
+     "e": 66.775,
+     "w": "mira,",
+     "a": [
+      "mira"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.775,
+     "e": 67.145,
+     "w": "pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.145,
+     "e": 67.385,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.385,
+     "e": 67.565,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.565,
+     "e": 67.805,
+     "w": "toca.",
+     "a": [
+      "toca"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "ajolote_m11",
+   "sfx": [
+    [
+     "coin",
+     "crecer."
+    ]
+   ],
+   "start": 68.04,
+   "dur": 7.38,
+   "text": "Ahora sí, tienes un ajolote feliz. Y lo más raro: si se lastima una pata… le vuelve a crecer.",
+   "words": [
+    {
+     "t": 68.16,
+     "e": 68.405,
+     "w": "Ahora",
+     "a": [
+      "ahora"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.405,
+     "e": 68.685,
+     "w": "sí,",
+     "a": [
+      "sí"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.89,
+     "e": 69.155,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.155,
+     "e": 69.395,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.395,
+     "e": 69.815,
+     "w": "ajolote",
+     "a": [
+      "ajolote"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.815,
+     "e": 70.095,
+     "w": "feliz.",
+     "a": [
+      "feliz"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.41,
+     "e": 70.515,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.515,
+     "e": 70.635,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.635,
+     "e": 70.835,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.835,
+     "e": 71.175,
+     "w": "raro:",
+     "a": [
+      "raro"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.445,
+     "e": 71.545,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.545,
+     "e": 71.705,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.705,
+     "e": 72.085,
+     "w": "lastima",
+     "a": [
+      "lastima"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.085,
+     "e": 72.285,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.285,
+     "e": 72.685,
+     "w": "pata…",
+     "a": [
+      "pata"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.045,
+     "e": 73.145,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.145,
+     "e": 73.565,
+     "w": "vuelve",
+     "a": [
+      "vuelve"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.565,
+     "e": 73.645,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.645,
+     "e": 74.045,
+     "w": "crecer.",
+     "a": [
+      "crecer"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}

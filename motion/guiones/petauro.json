@@ -1,0 +1,119 @@
+{
+ "id": "petauro",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "petauro1",
+   "text": "Si tu tío Claudio vuelve de Australia y te regala un ratoncito con ojos enormes, una raya negra en la espalda y piel entre las patas, como una capa… felicidades, tienes un petauro del azúcar.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "azúcar."
+    ]
+   ]
+  },
+  {
+   "scene": "petauro2",
+   "text": "Lo metes en una jaula chiquita, le das semillas y listo.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "petauro3",
+   "text": "Pero en la noche lo oyes ladrar como un perrito.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "petauro4",
+   "text": "Es que es nocturno y vive en grupo. Ese ladrido es para llamar a los suyos. Si vive solo, se deprime y hasta se arranca el pelo. Necesita al menos otro petauro. Esa es su familia.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "familia."
+    ]
+   ]
+  },
+  {
+   "scene": "petauro5",
+   "text": "Pero lo sacas de la jaula y se lanza desde la cortina… volando.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "petauro6",
+   "text": "Es que esa piel entre sus patas es un paracaídas. Abre los brazos y planea de árbol en árbol, hasta cincuenta metros. Por eso necesita una jaula alta y mucho espacio. Ese es su cielo.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "cielo."
+    ]
+   ]
+  },
+  {
+   "scene": "petauro7",
+   "text": "Pero no come las semillas.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "petauro8",
+   "text": "Es que en la naturaleza toma la savia dulce de los árboles, néctar de flores… y come insectos. Por eso se llama del azúcar. Esa es su comida.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "comida."
+    ]
+   ]
+  },
+  {
+   "scene": "petauro9",
+   "text": "Pero un día le ves algo moviéndose en la panza.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "petauro10",
+   "text": "Es que es un marsupial, como el canguro: las crías crecen en una bolsita que tiene en la panza.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "petauro11",
+   "text": "Ahora sí, tienes un petauro feliz. Planea, ladra… y lleva a sus bebés en una bolsa.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "bolsa."
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2268 @@
+{
+ "id": "erizo",
+ "duration": 80.62,
+ "beats": [
+  {
+   "scene": "erizo1",
+   "sfx": [
+    [
+     "coin",
+     "erizo."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 9.42,
+   "text": "Si tu tío Claudio vuelve de África y te regala una bolita llena de espinas, con nariz de botón y patitas chiquitas… felicidades, tienes un erizo.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.295,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.295,
+     "e": 0.415,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.415,
+     "e": 0.595,
+     "w": "tío",
+     "a": [
+      "tío"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.595,
+     "e": 1.055,
+     "w": "Claudio",
+     "a": [
+      "claudio"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.055,
+     "e": 1.475,
+     "w": "vuelve",
+     "a": [
+      "vuelve"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.475,
+     "e": 1.615,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.615,
+     "e": 1.975,
+     "w": "África",
+     "a": [
+      "áfrica"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.975,
+     "e": 2.295,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.295,
+     "e": 2.395,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.395,
+     "e": 2.695,
+     "w": "regala",
+     "a": [
+      "regala"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.695,
+     "e": 2.895,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.895,
+     "e": 3.315,
+     "w": "bolita",
+     "a": [
+      "bolita"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.315,
+     "e": 3.735,
+     "w": "llena",
+     "a": [
+      "llena"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.735,
+     "e": 3.855,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.855,
+     "e": 4.295,
+     "w": "espinas,",
+     "a": [
+      "espinas"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.295,
+     "e": 4.725,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.725,
+     "e": 5.045,
+     "w": "nariz",
+     "a": [
+      "nariz"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.045,
+     "e": 5.165,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.165,
+     "e": 5.565,
+     "w": "botón",
+     "a": [
+      "botón"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.565,
+     "e": 5.765,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.765,
+     "e": 6.145,
+     "w": "patitas",
+     "a": [
+      "patitas"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.145,
+     "e": 6.705,
+     "w": "chiquitas…",
+     "a": [
+      "chiquitas"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.03,
+     "e": 7.695,
+     "w": "felicidades,",
+     "a": [
+      "felicidades"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.18,
+     "e": 8.635,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.635,
+     "e": 8.855,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.855,
+     "e": 9.195,
+     "w": "erizo.",
+     "a": [
+      "erizo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "erizo2",
+   "sfx": [],
+   "start": 9.42,
+   "dur": 3.945,
+   "text": "Lo pones en una caja en tu cuarto, le das croquetas de gato y listo.",
+   "words": [
+    {
+     "t": 9.54,
+     "e": 9.675,
+     "w": "Lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.675,
+     "e": 9.895,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.895,
+     "e": 10.095,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.095,
+     "e": 10.235,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.235,
+     "e": 10.515,
+     "w": "caja",
+     "a": [
+      "caja"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.515,
+     "e": 10.655,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.655,
+     "e": 10.735,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.735,
+     "e": 11.035,
+     "w": "cuarto,",
+     "a": [
+      "cuarto"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.335,
+     "e": 11.415,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.415,
+     "e": 11.595,
+     "w": "das",
+     "a": [
+      "das"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.595,
+     "e": 12.055,
+     "w": "croquetas",
+     "a": [
+      "croquetas"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.055,
+     "e": 12.175,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.175,
+     "e": 12.475,
+     "w": "gato",
+     "a": [
+      "gato"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.475,
+     "e": 12.775,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.775,
+     "e": 13.41,
+     "w": "listo.",
+     "a": [
+      "listo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "erizo3",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 13.365,
+   "dur": 3.845,
+   "text": "Pero en la noche no te deja dormir: corre y corre sin parar.",
+   "words": [
+    {
+     "t": 13.485,
+     "e": 13.565,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.565,
+     "e": 13.725,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.725,
+     "e": 13.825,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.825,
+     "e": 14.085,
+     "w": "noche",
+     "a": [
+      "noche"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.085,
+     "e": 14.445,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.445,
+     "e": 14.625,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.625,
+     "e": 14.865,
+     "w": "deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.865,
+     "e": 15.165,
+     "w": "dormir:",
+     "a": [
+      "dormir"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.54,
+     "e": 15.975,
+     "w": "corre",
+     "a": [
+      "corre"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.975,
+     "e": 16.135,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.135,
+     "e": 16.455,
+     "w": "corre",
+     "a": [
+      "corre"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.455,
+     "e": 16.695,
+     "w": "sin",
+     "a": [
+      "sin"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.695,
+     "e": 16.975,
+     "w": "parar.",
+     "a": [
+      "parar"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "erizo4",
+   "sfx": [
+    [
+     "stamp",
+     "gimnasio."
+    ]
+   ],
+   "start": 17.21,
+   "dur": 10.34,
+   "text": "Es que es nocturno. De día duerme, y de noche, en la naturaleza, camina kilómetros buscando insectos. Necesita una rueda grande para correr. Ese es su gimnasio.",
+   "words": [
+    {
+     "t": 17.33,
+     "e": 17.485,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.485,
+     "e": 17.625,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.625,
+     "e": 17.785,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.785,
+     "e": 18.425,
+     "w": "nocturno.",
+     "a": [
+      "nocturno"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.69,
+     "e": 18.855,
+     "w": "De",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.855,
+     "e": 19.055,
+     "w": "día",
+     "a": [
+      "día"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.055,
+     "e": 19.475,
+     "w": "duerme,",
+     "a": [
+      "duerme"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.475,
+     "e": 19.715,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.715,
+     "e": 19.835,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.835,
+     "e": 20.095,
+     "w": "noche,",
+     "a": [
+      "noche"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.4,
+     "e": 20.535,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.535,
+     "e": 20.635,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.635,
+     "e": 21.195,
+     "w": "naturaleza,",
+     "a": [
+      "naturaleza"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.495,
+     "e": 21.795,
+     "w": "camina",
+     "a": [
+      "camina"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.795,
+     "e": 22.555,
+     "w": "kilómetros",
+     "a": [
+      "kilómetros"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.555,
+     "e": 22.915,
+     "w": "buscando",
+     "a": [
+      "buscando"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.915,
+     "e": 23.83,
+     "w": "insectos.",
+     "a": [
+      "insectos"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.83,
+     "e": 24.265,
+     "w": "Necesita",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.265,
+     "e": 24.445,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.445,
+     "e": 24.785,
+     "w": "rueda",
+     "a": [
+      "rueda"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.785,
+     "e": 25.265,
+     "w": "grande",
+     "a": [
+      "grande"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.265,
+     "e": 25.505,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.505,
+     "e": 25.805,
+     "w": "correr.",
+     "a": [
+      "correr"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.15,
+     "e": 26.475,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.475,
+     "e": 26.735,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.735,
+     "e": 26.895,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.895,
+     "e": 27.415,
+     "w": "gimnasio.",
+     "a": [
+      "gimnasio"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "erizo5",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 27.55,
+   "dur": 3.29,
+   "text": "Pero cuando lo quieres cargar, se hace bolita y te pica.",
+   "words": [
+    {
+     "t": 27.67,
+     "e": 27.795,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.795,
+     "e": 28.035,
+     "w": "cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.035,
+     "e": 28.215,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.215,
+     "e": 28.435,
+     "w": "quieres",
+     "a": [
+      "quieres"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.435,
+     "e": 28.915,
+     "w": "cargar,",
+     "a": [
+      "cargar"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.13,
+     "e": 29.315,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.315,
+     "e": 29.475,
+     "w": "hace",
+     "a": [
+      "hace"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.475,
+     "e": 29.935,
+     "w": "bolita",
+     "a": [
+      "bolita"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.935,
+     "e": 30.195,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.195,
+     "e": 30.335,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.335,
+     "e": 30.635,
+     "w": "pica.",
+     "a": [
+      "pica"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "erizo6",
+   "sfx": [],
+   "start": 30.84,
+   "dur": 9.31,
+   "text": "Es que tiene un músculo en la espalda que lo cierra como una pelota, con todas las espinas hacia afuera. Si se siente seguro, se abre solito. Déjalo que te huela primero.",
+   "words": [
+    {
+     "t": 30.96,
+     "e": 31.065,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.065,
+     "e": 31.185,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.185,
+     "e": 31.385,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.385,
+     "e": 31.545,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.545,
+     "e": 31.925,
+     "w": "músculo",
+     "a": [
+      "músculo"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.925,
+     "e": 32.065,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.065,
+     "e": 32.165,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.165,
+     "e": 32.565,
+     "w": "espalda",
+     "a": [
+      "espalda"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.565,
+     "e": 32.705,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.705,
+     "e": 32.825,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.825,
+     "e": 33.125,
+     "w": "cierra",
+     "a": [
+      "cierra"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.125,
+     "e": 33.405,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.405,
+     "e": 33.645,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.645,
+     "e": 34.025,
+     "w": "pelota,",
+     "a": [
+      "pelota"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.28,
+     "e": 34.445,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.445,
+     "e": 34.805,
+     "w": "todas",
+     "a": [
+      "todas"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.805,
+     "e": 35.045,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.045,
+     "e": 35.465,
+     "w": "espinas",
+     "a": [
+      "espinas"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.465,
+     "e": 35.705,
+     "w": "hacia",
+     "a": [
+      "hacia"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.705,
+     "e": 36.085,
+     "w": "afuera.",
+     "a": [
+      "afuera"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.38,
+     "e": 36.515,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.515,
+     "e": 36.635,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.635,
+     "e": 36.875,
+     "w": "siente",
+     "a": [
+      "siente"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.875,
+     "e": 37.255,
+     "w": "seguro,",
+     "a": [
+      "seguro"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.595,
+     "e": 37.695,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.695,
+     "e": 37.895,
+     "w": "abre",
+     "a": [
+      "abre"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.895,
+     "e": 38.355,
+     "w": "solito.",
+     "a": [
+      "solito"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.745,
+     "e": 39.065,
+     "w": "Déjalo",
+     "a": [
+      "déjalo"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.065,
+     "e": 39.185,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.185,
+     "e": 39.305,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.305,
+     "e": 39.525,
+     "w": "huela",
+     "a": [
+      "huela"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.525,
+     "e": 39.905,
+     "w": "primero.",
+     "a": [
+      "primero"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "erizo7",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 40.15,
+   "dur": 3.9,
+   "text": "Pero un día lo ves echándose saliva espumosa sobre las espinas.",
+   "words": [
+    {
+     "t": 40.27,
+     "e": 40.415,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.415,
+     "e": 40.635,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.635,
+     "e": 40.835,
+     "w": "día",
+     "a": [
+      "día"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.095,
+     "e": 41.175,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.175,
+     "e": 41.295,
+     "w": "ves",
+     "a": [
+      "ves"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.295,
+     "e": 41.855,
+     "w": "echándose",
+     "a": [
+      "echándose"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.855,
+     "e": 42.275,
+     "w": "saliva",
+     "a": [
+      "saliva"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.275,
+     "e": 42.875,
+     "w": "espumosa",
+     "a": [
+      "espumosa"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.875,
+     "e": 43.115,
+     "w": "sobre",
+     "a": [
+      "sobre"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.115,
+     "e": 43.335,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.335,
+     "e": 43.735,
+     "w": "espinas.",
+     "a": [
+      "espinas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "erizo8",
+   "sfx": [],
+   "start": 44.05,
+   "dur": 7.24,
+   "text": "Es que cuando huele algo nuevo, lo mastica, hace espuma y se la unta en el cuerpo. Nadie sabe bien por qué… pero es normal.",
+   "words": [
+    {
+     "t": 44.17,
+     "e": 44.305,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.305,
+     "e": 44.385,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.385,
+     "e": 44.605,
+     "w": "cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.605,
+     "e": 45.025,
+     "w": "huele",
+     "a": [
+      "huele"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.025,
+     "e": 45.245,
+     "w": "algo",
+     "a": [
+      "algo"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.245,
+     "e": 45.545,
+     "w": "nuevo,",
+     "a": [
+      "nuevo"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.885,
+     "e": 45.965,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.965,
+     "e": 46.565,
+     "w": "mastica,",
+     "a": [
+      "mastica"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.815,
+     "e": 47.015,
+     "w": "hace",
+     "a": [
+      "hace"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.015,
+     "e": 47.475,
+     "w": "espuma",
+     "a": [
+      "espuma"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.475,
+     "e": 47.695,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.695,
+     "e": 47.815,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.815,
+     "e": 47.935,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.935,
+     "e": 48.255,
+     "w": "unta",
+     "a": [
+      "unta"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.255,
+     "e": 48.335,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.335,
+     "e": 48.435,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.435,
+     "e": 48.755,
+     "w": "cuerpo.",
+     "a": [
+      "cuerpo"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.1,
+     "e": 49.395,
+     "w": "Nadie",
+     "a": [
+      "nadie"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.395,
+     "e": 49.615,
+     "w": "sabe",
+     "a": [
+      "sabe"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.615,
+     "e": 49.855,
+     "w": "bien",
+     "a": [
+      "bien"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.855,
+     "e": 50.075,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.075,
+     "e": 50.275,
+     "w": "qué…",
+     "a": [
+      "qué"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.5,
+     "e": 50.655,
+     "w": "pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.655,
+     "e": 50.775,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.775,
+     "e": 51.095,
+     "w": "normal.",
+     "a": [
+      "normal"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "erizo9",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 51.29,
+   "dur": 3.72,
+   "text": "Pero en invierno lo encuentras quieto, frío… como dormido.",
+   "words": [
+    {
+     "t": 51.41,
+     "e": 51.565,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.565,
+     "e": 51.705,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.705,
+     "e": 52.125,
+     "w": "invierno",
+     "a": [
+      "invierno"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.125,
+     "e": 52.385,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.385,
+     "e": 52.865,
+     "w": "encuentras",
+     "a": [
+      "encuentras"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.865,
+     "e": 53.57,
+     "w": "quieto,",
+     "a": [
+      "quieto"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.57,
+     "e": 53.985,
+     "w": "frío…",
+     "a": [
+      "frío"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.165,
+     "e": 54.325,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.325,
+     "e": 54.845,
+     "w": "dormido.",
+     "a": [
+      "dormido"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "erizo10",
+   "sfx": [
+    [
+     "stamp",
+     "temperatura."
+    ]
+   ],
+   "start": 55.01,
+   "dur": 12.885,
+   "text": "Es que, si tiene frío, intenta hibernar. Pero el erizo africano no está hecho para eso, y puede no despertar. Necesita estar siempre calientito, entre veinticuatro y veintinueve grados. Esa es su temperatura.",
+   "words": [
+    {
+     "t": 55.13,
+     "e": 55.285,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.285,
+     "e": 55.465,
+     "w": "que,",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.465,
+     "e": 55.785,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.785,
+     "e": 56.025,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.025,
+     "e": 56.405,
+     "w": "frío,",
+     "a": [
+      "frío"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.665,
+     "e": 57.065,
+     "w": "intenta",
+     "a": [
+      "intenta"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.065,
+     "e": 57.465,
+     "w": "hibernar.",
+     "a": [
+      "hibernar"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.84,
+     "e": 57.985,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.985,
+     "e": 58.165,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.165,
+     "e": 58.385,
+     "w": "erizo",
+     "a": [
+      "erizo"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.385,
+     "e": 58.865,
+     "w": "africano",
+     "a": [
+      "africano"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.865,
+     "e": 59.145,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.145,
+     "e": 59.385,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.385,
+     "e": 59.665,
+     "w": "hecho",
+     "a": [
+      "hecho"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.665,
+     "e": 59.885,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.885,
+     "e": 60.145,
+     "w": "eso,",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.145,
+     "e": 60.445,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.445,
+     "e": 60.745,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.745,
+     "e": 61.065,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.065,
+     "e": 61.665,
+     "w": "despertar.",
+     "a": [
+      "despertar"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.94,
+     "e": 62.375,
+     "w": "Necesita",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.375,
+     "e": 62.635,
+     "w": "estar",
+     "a": [
+      "estar"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.635,
+     "e": 62.995,
+     "w": "siempre",
+     "a": [
+      "siempre"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.995,
+     "e": 63.835,
+     "w": "calientito,",
+     "a": [
+      "calientito"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.065,
+     "e": 64.285,
+     "w": "entre",
+     "a": [
+      "entre"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.285,
+     "e": 64.805,
+     "w": "24",
+     "a": [
+      "veinticuatro",
+      "24"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.805,
+     "e": 65.185,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.185,
+     "e": 65.685,
+     "w": "29",
+     "a": [
+      "veintinueve",
+      "29"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.685,
+     "e": 66.4,
+     "w": "grados.",
+     "a": [
+      "grados"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.405,
+     "e": 66.725,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.725,
+     "e": 66.945,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.945,
+     "e": 67.065,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.065,
+     "e": 67.505,
+     "w": "temperatura.",
+     "a": [
+      "temperatura"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "erizo11",
+   "sfx": [],
+   "start": 67.895,
+   "dur": 5.42,
+   "text": "Y cuidado con las croquetas: engorda fácil. Lo suyo son insectos y comida especial.",
+   "words": [
+    {
+     "t": 68.015,
+     "e": 68.095,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.095,
+     "e": 68.415,
+     "w": "cuidado",
+     "a": [
+      "cuidado"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.415,
+     "e": 68.675,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.675,
+     "e": 68.835,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.835,
+     "e": 69.355,
+     "w": "croquetas:",
+     "a": [
+      "croquetas"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.685,
+     "e": 70.245,
+     "w": "engorda",
+     "a": [
+      "engorda"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.245,
+     "e": 70.565,
+     "w": "fácil.",
+     "a": [
+      "fácil"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.965,
+     "e": 71.185,
+     "w": "Lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.185,
+     "e": 71.405,
+     "w": "suyo",
+     "a": [
+      "suyo"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.405,
+     "e": 71.545,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.545,
+     "e": 72.145,
+     "w": "insectos",
+     "a": [
+      "insectos"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.145,
+     "e": 72.305,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.305,
+     "e": 72.665,
+     "w": "comida",
+     "a": [
+      "comida"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.665,
+     "e": 72.965,
+     "w": "especial.",
+     "a": [
+      "especial"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "erizo12",
+   "sfx": [
+    [
+     "coin",
+     "amigo."
+    ]
+   ],
+   "start": 73.315,
+   "dur": 7.305,
+   "text": "Ahora sí, tienes un erizo feliz. Corre de noche, se unta saliva… y es tu mejor amigo.",
+   "words": [
+    {
+     "t": 73.435,
+     "e": 73.695,
+     "w": "Ahora",
+     "a": [
+      "ahora"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.695,
+     "e": 73.995,
+     "w": "sí,",
+     "a": [
+      "sí"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.205,
+     "e": 74.465,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.465,
+     "e": 74.725,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.725,
+     "e": 75.025,
+     "w": "erizo",
+     "a": [
+      "erizo"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.025,
+     "e": 75.425,
+     "w": "feliz.",
+     "a": [
+      "feliz"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.785,
+     "e": 76.045,
+     "w": "Corre",
+     "a": [
+      "corre"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.045,
+     "e": 76.165,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.165,
+     "e": 76.465,
+     "w": "noche,",
+     "a": [
+      "noche"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.465,
+     "e": 76.925,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.925,
+     "e": 77.205,
+     "w": "unta",
+     "a": [
+      "unta"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.205,
+     "e": 77.725,
+     "w": "saliva…",
+     "a": [
+      "saliva"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.725,
+     "e": 78.085,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.085,
+     "e": 78.325,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.325,
+     "e": 78.485,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.485,
+     "e": 78.845,
+     "w": "mejor",
+     "a": [
+      "mejor"
+     ],
+     "k": false
+    },
+    {
+     "t": 78.845,
+     "e": 79.125,
+     "w": "amigo.",
+     "a": [
+      "amigo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}

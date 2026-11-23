@@ -1,0 +1,2127 @@
+{
+ "id": "petauro",
+ "duration": 73.04,
+ "beats": [
+  {
+   "scene": "petauro1",
+   "sfx": [
+    [
+     "coin",
+     "azúcar."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 12.13,
+   "text": "Si tu tío Claudio vuelve de Australia y te regala un ratoncito con ojos enormes, una raya negra en la espalda y piel entre las patas, como una capa… felicidades, tienes un petauro del azúcar.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.305,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.305,
+     "e": 0.445,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.445,
+     "e": 0.625,
+     "w": "tío",
+     "a": [
+      "tío"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.625,
+     "e": 1.125,
+     "w": "Claudio",
+     "a": [
+      "claudio"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.125,
+     "e": 1.485,
+     "w": "vuelve",
+     "a": [
+      "vuelve"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.485,
+     "e": 1.605,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.605,
+     "e": 2.025,
+     "w": "Australia",
+     "a": [
+      "australia"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.025,
+     "e": 2.385,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.385,
+     "e": 2.505,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.505,
+     "e": 2.805,
+     "w": "regala",
+     "a": [
+      "regala"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.805,
+     "e": 2.965,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.965,
+     "e": 3.525,
+     "w": "ratoncito",
+     "a": [
+      "ratoncito"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.525,
+     "e": 3.805,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.805,
+     "e": 4.025,
+     "w": "ojos",
+     "a": [
+      "ojos"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.025,
+     "e": 4.825,
+     "w": "enormes,",
+     "a": [
+      "enormes"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.105,
+     "e": 5.225,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.225,
+     "e": 5.485,
+     "w": "raya",
+     "a": [
+      "raya"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.485,
+     "e": 5.845,
+     "w": "negra",
+     "a": [
+      "negra"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.845,
+     "e": 5.945,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.945,
+     "e": 6.045,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.045,
+     "e": 6.505,
+     "w": "espalda",
+     "a": [
+      "espalda"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.505,
+     "e": 6.725,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.725,
+     "e": 6.985,
+     "w": "piel",
+     "a": [
+      "piel"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.985,
+     "e": 7.245,
+     "w": "entre",
+     "a": [
+      "entre"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.245,
+     "e": 7.465,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.465,
+     "e": 8.05,
+     "w": "patas,",
+     "a": [
+      "patas"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.05,
+     "e": 8.225,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.225,
+     "e": 8.465,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.465,
+     "e": 8.905,
+     "w": "capa…",
+     "a": [
+      "capa"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.11,
+     "e": 9.795,
+     "w": "felicidades,",
+     "a": [
+      "felicidades"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.22,
+     "e": 10.465,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.465,
+     "e": 10.685,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.685,
+     "e": 11.365,
+     "w": "petauro",
+     "a": [
+      "petauro"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.365,
+     "e": 11.525,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.525,
+     "e": 11.925,
+     "w": "azúcar.",
+     "a": [
+      "azúcar"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "petauro2",
+   "sfx": [],
+   "start": 12.13,
+   "dur": 3.41,
+   "text": "Lo metes en una jaula chiquita, le das semillas y listo.",
+   "words": [
+    {
+     "t": 12.25,
+     "e": 12.375,
+     "w": "Lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.375,
+     "e": 12.675,
+     "w": "metes",
+     "a": [
+      "metes"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.675,
+     "e": 12.795,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.795,
+     "e": 12.935,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.935,
+     "e": 13.255,
+     "w": "jaula",
+     "a": [
+      "jaula"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.255,
+     "e": 13.715,
+     "w": "chiquita,",
+     "a": [
+      "chiquita"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.015,
+     "e": 14.095,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.095,
+     "e": 14.215,
+     "w": "das",
+     "a": [
+      "das"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.215,
+     "e": 14.635,
+     "w": "semillas",
+     "a": [
+      "semillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.635,
+     "e": 15.025,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.025,
+     "e": 15.66,
+     "w": "listo.",
+     "a": [
+      "listo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "petauro3",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 15.54,
+   "dur": 3.0,
+   "text": "Pero en la noche lo oyes ladrar como un perrito.",
+   "words": [
+    {
+     "t": 15.66,
+     "e": 15.815,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.815,
+     "e": 15.935,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.935,
+     "e": 16.055,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.055,
+     "e": 16.355,
+     "w": "noche",
+     "a": [
+      "noche"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.355,
+     "e": 16.775,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.775,
+     "e": 16.995,
+     "w": "oyes",
+     "a": [
+      "oyes"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.995,
+     "e": 17.435,
+     "w": "ladrar",
+     "a": [
+      "ladrar"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.435,
+     "e": 17.715,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.715,
+     "e": 17.875,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.875,
+     "e": 18.355,
+     "w": "perrito.",
+     "a": [
+      "perrito"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "petauro4",
+   "sfx": [
+    [
+     "stamp",
+     "familia."
+    ]
+   ],
+   "start": 18.54,
+   "dur": 11.78,
+   "text": "Es que es nocturno y vive en grupo. Ese ladrido es para llamar a los suyos. Si vive solo, se deprime y hasta se arranca el pelo. Necesita al menos otro petauro. Esa es su familia.",
+   "words": [
+    {
+     "t": 18.66,
+     "e": 18.805,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.805,
+     "e": 18.945,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.945,
+     "e": 19.065,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.065,
+     "e": 19.83,
+     "w": "nocturno",
+     "a": [
+      "nocturno"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.83,
+     "e": 19.945,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.945,
+     "e": 20.165,
+     "w": "vive",
+     "a": [
+      "vive"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.165,
+     "e": 20.365,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.365,
+     "e": 20.605,
+     "w": "grupo.",
+     "a": [
+      "grupo"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.045,
+     "e": 21.225,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.225,
+     "e": 21.665,
+     "w": "ladrido",
+     "a": [
+      "ladrido"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.665,
+     "e": 21.905,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.905,
+     "e": 22.085,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.085,
+     "e": 22.425,
+     "w": "llamar",
+     "a": [
+      "llamar"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.425,
+     "e": 22.485,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.485,
+     "e": 22.625,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.625,
+     "e": 23.32,
+     "w": "suyos.",
+     "a": [
+      "suyos"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.32,
+     "e": 23.485,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.485,
+     "e": 23.645,
+     "w": "vive",
+     "a": [
+      "vive"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.645,
+     "e": 24.025,
+     "w": "solo,",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.305,
+     "e": 24.405,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.405,
+     "e": 24.865,
+     "w": "deprime",
+     "a": [
+      "deprime"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.865,
+     "e": 25.145,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.145,
+     "e": 25.365,
+     "w": "hasta",
+     "a": [
+      "hasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.365,
+     "e": 25.545,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.545,
+     "e": 25.985,
+     "w": "arranca",
+     "a": [
+      "arranca"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.985,
+     "e": 26.105,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.105,
+     "e": 26.365,
+     "w": "pelo.",
+     "a": [
+      "pelo"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.71,
+     "e": 27.215,
+     "w": "Necesita",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.215,
+     "e": 27.375,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.375,
+     "e": 27.595,
+     "w": "menos",
+     "a": [
+      "menos"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.595,
+     "e": 28.055,
+     "w": "otro",
+     "a": [
+      "otro"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.055,
+     "e": 28.615,
+     "w": "petauro.",
+     "a": [
+      "petauro"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.91,
+     "e": 29.275,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.275,
+     "e": 29.515,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.515,
+     "e": 29.675,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.675,
+     "e": 30.095,
+     "w": "familia.",
+     "a": [
+      "familia"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "petauro5",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 30.32,
+   "dur": 4.04,
+   "text": "Pero lo sacas de la jaula y se lanza desde la cortina… volando.",
+   "words": [
+    {
+     "t": 30.44,
+     "e": 30.585,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.585,
+     "e": 30.745,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.745,
+     "e": 31.025,
+     "w": "sacas",
+     "a": [
+      "sacas"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.025,
+     "e": 31.145,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.145,
+     "e": 31.245,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.245,
+     "e": 31.545,
+     "w": "jaula",
+     "a": [
+      "jaula"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.545,
+     "e": 31.845,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.845,
+     "e": 32.005,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.005,
+     "e": 32.405,
+     "w": "lanza",
+     "a": [
+      "lanza"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.405,
+     "e": 32.585,
+     "w": "desde",
+     "a": [
+      "desde"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.585,
+     "e": 32.785,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.785,
+     "e": 33.245,
+     "w": "cortina…",
+     "a": [
+      "cortina"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.565,
+     "e": 34.065,
+     "w": "volando.",
+     "a": [
+      "volando"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "petauro6",
+   "sfx": [
+    [
+     "stamp",
+     "cielo."
+    ]
+   ],
+   "start": 34.36,
+   "dur": 12.32,
+   "text": "Es que esa piel entre sus patas es un paracaídas. Abre los brazos y planea de árbol en árbol, hasta cincuenta metros. Por eso necesita una jaula alta y mucho espacio. Ese es su cielo.",
+   "words": [
+    {
+     "t": 34.48,
+     "e": 34.615,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.615,
+     "e": 34.755,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.755,
+     "e": 34.975,
+     "w": "esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.975,
+     "e": 35.215,
+     "w": "piel",
+     "a": [
+      "piel"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.215,
+     "e": 35.435,
+     "w": "entre",
+     "a": [
+      "entre"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.435,
+     "e": 35.655,
+     "w": "sus",
+     "a": [
+      "sus"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.655,
+     "e": 36.055,
+     "w": "patas",
+     "a": [
+      "patas"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.055,
+     "e": 36.295,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.295,
+     "e": 36.435,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.435,
+     "e": 37.175,
+     "w": "paracaídas.",
+     "a": [
+      "paracaídas"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.48,
+     "e": 37.715,
+     "w": "Abre",
+     "a": [
+      "abre"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.715,
+     "e": 37.895,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.895,
+     "e": 38.295,
+     "w": "brazos",
+     "a": [
+      "brazos"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.295,
+     "e": 38.575,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.575,
+     "e": 38.995,
+     "w": "planea",
+     "a": [
+      "planea"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.995,
+     "e": 39.175,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.175,
+     "e": 39.535,
+     "w": "árbol",
+     "a": [
+      "árbol"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.535,
+     "e": 39.695,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.695,
+     "e": 39.995,
+     "w": "árbol,",
+     "a": [
+      "árbol"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.2,
+     "e": 40.455,
+     "w": "hasta",
+     "a": [
+      "hasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.455,
+     "e": 41.015,
+     "w": "50",
+     "a": [
+      "cincuenta",
+      "50"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.015,
+     "e": 41.535,
+     "w": "metros.",
+     "a": [
+      "metros"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.06,
+     "e": 42.205,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.205,
+     "e": 42.405,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.405,
+     "e": 42.885,
+     "w": "necesita",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.885,
+     "e": 43.065,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.065,
+     "e": 43.405,
+     "w": "jaula",
+     "a": [
+      "jaula"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.405,
+     "e": 43.825,
+     "w": "alta",
+     "a": [
+      "alta"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.825,
+     "e": 44.145,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.145,
+     "e": 44.505,
+     "w": "mucho",
+     "a": [
+      "mucho"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.505,
+     "e": 44.925,
+     "w": "espacio.",
+     "a": [
+      "espacio"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.33,
+     "e": 45.665,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.665,
+     "e": 45.965,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.965,
+     "e": 46.145,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.145,
+     "e": 46.445,
+     "w": "cielo.",
+     "a": [
+      "cielo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "petauro7",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 46.68,
+   "dur": 1.67,
+   "text": "Pero no come las semillas.",
+   "words": [
+    {
+     "t": 46.8,
+     "e": 46.965,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.965,
+     "e": 47.145,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.145,
+     "e": 47.445,
+     "w": "come",
+     "a": [
+      "come"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.445,
+     "e": 47.605,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.605,
+     "e": 48.005,
+     "w": "semillas.",
+     "a": [
+      "semillas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "petauro8",
+   "sfx": [
+    [
+     "stamp",
+     "comida."
+    ]
+   ],
+   "start": 48.35,
+   "dur": 9.165,
+   "text": "Es que en la naturaleza toma la savia dulce de los árboles, néctar de flores… y come insectos. Por eso se llama del azúcar. Esa es su comida.",
+   "words": [
+    {
+     "t": 48.47,
+     "e": 48.605,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.605,
+     "e": 48.685,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.685,
+     "e": 48.785,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.785,
+     "e": 48.885,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.885,
+     "e": 49.485,
+     "w": "naturaleza",
+     "a": [
+      "naturaleza"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.485,
+     "e": 49.825,
+     "w": "toma",
+     "a": [
+      "toma"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.825,
+     "e": 49.985,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.985,
+     "e": 50.385,
+     "w": "savia",
+     "a": [
+      "savia"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.385,
+     "e": 50.765,
+     "w": "dulce",
+     "a": [
+      "dulce"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.765,
+     "e": 50.905,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.905,
+     "e": 51.005,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.005,
+     "e": 51.485,
+     "w": "árboles,",
+     "a": [
+      "árboles"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.485,
+     "e": 52.265,
+     "w": "néctar",
+     "a": [
+      "néctar"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.265,
+     "e": 52.365,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.365,
+     "e": 52.725,
+     "w": "flores…",
+     "a": [
+      "flores"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.725,
+     "e": 53.125,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.125,
+     "e": 53.385,
+     "w": "come",
+     "a": [
+      "come"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.385,
+     "e": 54.41,
+     "w": "insectos.",
+     "a": [
+      "insectos"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.485,
+     "e": 54.525,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.525,
+     "e": 54.765,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.765,
+     "e": 54.965,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.965,
+     "e": 55.205,
+     "w": "llama",
+     "a": [
+      "llama"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.205,
+     "e": 55.385,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.385,
+     "e": 55.765,
+     "w": "azúcar.",
+     "a": [
+      "azúcar"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.095,
+     "e": 56.455,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.455,
+     "e": 56.675,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.675,
+     "e": 56.835,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.835,
+     "e": 57.195,
+     "w": "comida.",
+     "a": [
+      "comida"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "petauro9",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 57.515,
+   "dur": 2.75,
+   "text": "Pero un día le ves algo moviéndose en la panza.",
+   "words": [
+    {
+     "t": 57.635,
+     "e": 57.675,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.675,
+     "e": 57.895,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.895,
+     "e": 58.115,
+     "w": "día",
+     "a": [
+      "día"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.115,
+     "e": 58.415,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.415,
+     "e": 58.575,
+     "w": "ves",
+     "a": [
+      "ves"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.575,
+     "e": 58.855,
+     "w": "algo",
+     "a": [
+      "algo"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.855,
+     "e": 59.475,
+     "w": "moviéndose",
+     "a": [
+      "moviéndose"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.475,
+     "e": 59.575,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.575,
+     "e": 59.695,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.695,
+     "e": 60.34,
+     "w": "panza.",
+     "a": [
+      "panza"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "petauro10",
+   "sfx": [],
+   "start": 60.265,
+   "dur": 5.605,
+   "text": "Es que es un marsupial, como el canguro: las crías crecen en una bolsita que tiene en la panza.",
+   "words": [
+    {
+     "t": 60.385,
+     "e": 60.505,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.505,
+     "e": 60.645,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.645,
+     "e": 60.805,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.805,
+     "e": 60.945,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.945,
+     "e": 61.605,
+     "w": "marsupial,",
+     "a": [
+      "marsupial"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.845,
+     "e": 62.005,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.005,
+     "e": 62.145,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.145,
+     "e": 62.565,
+     "w": "canguro:",
+     "a": [
+      "canguro"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.925,
+     "e": 63.045,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.045,
+     "e": 63.445,
+     "w": "crías",
+     "a": [
+      "crías"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.445,
+     "e": 63.905,
+     "w": "crecen",
+     "a": [
+      "crecen"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.905,
+     "e": 64.045,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.045,
+     "e": 64.185,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.185,
+     "e": 64.705,
+     "w": "bolsita",
+     "a": [
+      "bolsita"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.705,
+     "e": 64.865,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.865,
+     "e": 65.085,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.085,
+     "e": 65.225,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.225,
+     "e": 65.325,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.325,
+     "e": 65.725,
+     "w": "panza.",
+     "a": [
+      "panza"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "petauro11",
+   "sfx": [
+    [
+     "coin",
+     "bolsa."
+    ]
+   ],
+   "start": 65.87,
+   "dur": 7.17,
+   "text": "Ahora sí, tienes un petauro feliz. Planea, ladra… y lleva a sus bebés en una bolsa.",
+   "words": [
+    {
+     "t": 65.99,
+     "e": 66.285,
+     "w": "Ahora",
+     "a": [
+      "ahora"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.285,
+     "e": 66.605,
+     "w": "sí,",
+     "a": [
+      "sí"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.82,
+     "e": 67.055,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.055,
+     "e": 67.315,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.315,
+     "e": 67.955,
+     "w": "petauro",
+     "a": [
+      "petauro"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.955,
+     "e": 68.215,
+     "w": "feliz.",
+     "a": [
+      "feliz"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.635,
+     "e": 69.155,
+     "w": "Planea,",
+     "a": [
+      "planea"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.435,
+     "e": 69.915,
+     "w": "ladra…",
+     "a": [
+      "ladra"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.915,
+     "e": 70.205,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.205,
+     "e": 70.425,
+     "w": "lleva",
+     "a": [
+      "lleva"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.425,
+     "e": 70.545,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.545,
+     "e": 70.685,
+     "w": "sus",
+     "a": [
+      "sus"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.685,
+     "e": 71.045,
+     "w": "bebés",
+     "a": [
+      "bebés"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.045,
+     "e": 71.205,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.205,
+     "e": 71.345,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.345,
+     "e": 71.745,
+     "w": "bolsa.",
+     "a": [
+      "bolsa"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}

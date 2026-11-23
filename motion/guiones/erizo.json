@@ -1,0 +1,120 @@
+{
+ "id": "erizo",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "erizo1",
+   "text": "Si tu tío Claudio vuelve de África y te regala una bolita llena de espinas, con nariz de botón y patitas chiquitas… felicidades, tienes un erizo.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "erizo."
+    ]
+   ]
+  },
+  {
+   "scene": "erizo2",
+   "text": "Lo pones en una caja en tu cuarto, le das croquetas de gato y listo.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "erizo3",
+   "text": "Pero en la noche no te deja dormir: corre y corre sin parar.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "erizo4",
+   "text": "Es que es nocturno. De día duerme, y de noche, en la naturaleza, camina kilómetros buscando insectos. Necesita una rueda grande para correr. Ese es su gimnasio.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "gimnasio."
+    ]
+   ]
+  },
+  {
+   "scene": "erizo5",
+   "text": "Pero cuando lo quieres cargar, se hace bolita y te pica.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "erizo6",
+   "text": "Es que tiene un músculo en la espalda que lo cierra como una pelota, con todas las espinas hacia afuera. Si se siente seguro, se abre solito. Déjalo que te huela primero.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "erizo7",
+   "text": "Pero un día lo ves echándose saliva espumosa sobre las espinas.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "erizo8",
+   "text": "Es que cuando huele algo nuevo, lo mastica, hace espuma y se la unta en el cuerpo. Nadie sabe bien por qué… pero es normal.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "erizo9",
+   "text": "Pero en invierno lo encuentras quieto, frío… como dormido.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "erizo10",
+   "text": "Es que, si tiene frío, intenta hibernar. Pero el erizo africano no está hecho para eso, y puede no despertar. Necesita estar siempre calientito, entre veinticuatro y veintinueve grados. Esa es su temperatura.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "temperatura."
+    ]
+   ]
+  },
+  {
+   "scene": "erizo11",
+   "text": "Y cuidado con las croquetas: engorda fácil. Lo suyo son insectos y comida especial.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "erizo12",
+   "text": "Ahora sí, tienes un erizo feliz. Corre de noche, se unta saliva… y es tu mejor amigo.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "amigo."
+    ]
+   ]
+  }
+ ]
+}

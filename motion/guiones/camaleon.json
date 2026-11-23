@@ -1,0 +1,114 @@
+{
+ "id": "camaleon",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "camaleon1",
+   "text": "Si tu tío Claudio vuelve de Madagascar y te regala una lagartija que cambia de color, con ojos que se mueven cada uno por su lado y una cola enrollada como resorte… felicidades, tienes un camaleón.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "camaleón."
+    ]
+   ]
+  },
+  {
+   "scene": "camaleon2",
+   "text": "Lo pones en una pecera de vidrio, le pones un platito de agua y listo.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "camaleon3",
+   "text": "Pero a los días notas que tiene los ojos hundidos, y nunca lo ves tomar agua.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "camaleon4",
+   "text": "Es que no sabe tomar del plato: para él, el agua quieta no existe. Toma las gotas que caen de las hojas. Por eso necesita que le rocíes las plantas o un goteo, como si lloviera. Esa es su agua.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "agua."
+    ]
+   ]
+  },
+  {
+   "scene": "camaleon5",
+   "text": "Pero cada vez que lo agarras, se pone oscuro.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "camaleon6",
+   "text": "Es que cambiar de color no es solo para esconderse: es para hablar. En su piel tiene cristales diminutos, y cuando los junta o los separa, rebotan otros colores. Oscuro quiere decir estrés. Se mira, pero no se toca.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "camaleon7",
+   "text": "Pero en esa pecera de vidrio se la pasa peleando con su reflejo.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "camaleon8",
+   "text": "Es que vive solo en los árboles, y si ve otro camaleón, cree que es un rival. Necesita una jaula de malla, alta y llena de ramas. Esa es su casa.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "casa."
+    ]
+   ]
+  },
+  {
+   "scene": "camaleon9",
+   "text": "Pero un día le pones un grillo y desaparece.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "camaleon10",
+   "text": "Es que su lengua sale disparada a más del doble de largo de su cuerpo, más rápido de lo que tu ojo puede ver.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "camaleon11",
+   "text": "Ahora sí, tienes un camaleón feliz. Y si lo ves verde brillante… es que está tranquilo.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "tranquilo."
+    ]
+   ]
+  }
+ ]
+}

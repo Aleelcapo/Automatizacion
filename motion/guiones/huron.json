@@ -1,0 +1,126 @@
+{
+ "id": "huron",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "huron1",
+   "text": "Si tu tío Claudio vuelve de España y te regala un animal largo como una media, con antifaz en la cara y que no deja de moverse… felicidades, tienes un hurón.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "hurón."
+    ]
+   ]
+  },
+  {
+   "scene": "huron2",
+   "text": "Lo dejas suelto en tu casa, le das croquetas de perro y listo.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "huron3",
+   "text": "Pero a los días te faltan las llaves, un calcetín y el control de la tele.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "huron4",
+   "text": "Es que en la naturaleza los hurones esconden su comida en un rincón para después. Todo lo que le gusta se lo lleva a su escondite. Busca debajo del sillón: ese es su tesoro.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "huron5",
+   "text": "Pero tu casa empieza a oler raro.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "huron6",
+   "text": "Es que su piel tiene glándulas que sueltan un olor a almizcle. Por eso hay que lavarle la cama seguido, pero no a él: si lo bañas mucho, huele más.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "huron7",
+   "text": "Pero lo ves saltando de lado, con la boca abierta y chocando con todo.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "huron8",
+   "text": "Es que no está loco: es su baile de guerra, así juega cuando está feliz.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "huron9",
+   "text": "Pero las croquetas de perro le caen mal.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "huron10",
+   "text": "Es que solo come carne. Su intestino es tan cortito que digiere en tres o cuatro horas, y necesita comer muchas veces al día. Esa es su comida.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "comida."
+    ]
+   ]
+  },
+  {
+   "scene": "huron11",
+   "text": "Pero después de jugar, se duerme… y no despierta en horas.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "huron12",
+   "text": "Es que duerme hasta dieciocho horas al día. Y cuidado con el calor: no suda, y arriba de treinta grados se puede morir.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "huron13",
+   "text": "Ahora sí, tienes un hurón feliz. Ladrón, oloroso y bailarín.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "bailarín."
+    ]
+   ]
+  }
+ ]
+}

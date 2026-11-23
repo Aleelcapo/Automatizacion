@@ -1,0 +1,2190 @@
+{
+ "id": "guacamayo",
+ "duration": 77.62,
+ "beats": [
+  {
+   "scene": "guacamayo1",
+   "sfx": [
+    [
+     "coin",
+     "guacamayo."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 12.29,
+   "text": "Si tu tío Claudio vuelve de Brasil y te regala un pájaro enorme, rojo, azul y amarillo, con una cola larguísima y un pico que parece un abrelatas… felicidades, tienes un guacamayo.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.295,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.295,
+     "e": 0.415,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.415,
+     "e": 0.595,
+     "w": "tío",
+     "a": [
+      "tío"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.595,
+     "e": 1.075,
+     "w": "Claudio",
+     "a": [
+      "claudio"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.075,
+     "e": 1.475,
+     "w": "vuelve",
+     "a": [
+      "vuelve"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.475,
+     "e": 1.615,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.615,
+     "e": 1.935,
+     "w": "Brasil",
+     "a": [
+      "brasil"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.935,
+     "e": 2.255,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.255,
+     "e": 2.375,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.375,
+     "e": 2.695,
+     "w": "regala",
+     "a": [
+      "regala"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.695,
+     "e": 2.895,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.895,
+     "e": 3.375,
+     "w": "pájaro",
+     "a": [
+      "pájaro"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.375,
+     "e": 3.975,
+     "w": "enorme,",
+     "a": [
+      "enorme"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.245,
+     "e": 4.765,
+     "w": "rojo,",
+     "a": [
+      "rojo"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.965,
+     "e": 5.265,
+     "w": "azul",
+     "a": [
+      "azul"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.265,
+     "e": 5.465,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.465,
+     "e": 5.905,
+     "w": "amarillo,",
+     "a": [
+      "amarillo"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.245,
+     "e": 6.285,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.285,
+     "e": 6.485,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.485,
+     "e": 6.705,
+     "w": "cola",
+     "a": [
+      "cola"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.705,
+     "e": 7.625,
+     "w": "larguísima",
+     "a": [
+      "larguísima"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.625,
+     "e": 7.805,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.805,
+     "e": 7.945,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.945,
+     "e": 8.305,
+     "w": "pico",
+     "a": [
+      "pico"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.305,
+     "e": 8.425,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.425,
+     "e": 8.745,
+     "w": "parece",
+     "a": [
+      "parece"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.745,
+     "e": 9.135,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.135,
+     "e": 9.525,
+     "w": "abrelatas…",
+     "a": [
+      "abrelatas"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.76,
+     "e": 10.385,
+     "w": "felicidades,",
+     "a": [
+      "felicidades"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.78,
+     "e": 11.065,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.065,
+     "e": 11.445,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.445,
+     "e": 12.065,
+     "w": "guacamayo.",
+     "a": [
+      "guacamayo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "guacamayo2",
+   "sfx": [],
+   "start": 12.29,
+   "dur": 3.6,
+   "text": "Lo metes en una jaula, le pones semillas de girasol y listo.",
+   "words": [
+    {
+     "t": 12.41,
+     "e": 12.535,
+     "w": "Lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.535,
+     "e": 12.815,
+     "w": "metes",
+     "a": [
+      "metes"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.815,
+     "e": 12.935,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.935,
+     "e": 13.075,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.075,
+     "e": 13.455,
+     "w": "jaula,",
+     "a": [
+      "jaula"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.735,
+     "e": 13.815,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.815,
+     "e": 14.075,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.075,
+     "e": 14.455,
+     "w": "semillas",
+     "a": [
+      "semillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.455,
+     "e": 14.615,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.615,
+     "e": 15.095,
+     "w": "girasol",
+     "a": [
+      "girasol"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.095,
+     "e": 15.385,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.385,
+     "e": 16.01,
+     "w": "listo.",
+     "a": [
+      "listo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "guacamayo3",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 15.89,
+   "dur": 3.53,
+   "text": "Pero a las seis de la mañana te despierta gritando como alarma.",
+   "words": [
+    {
+     "t": 16.01,
+     "e": 16.145,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.145,
+     "e": 16.265,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.265,
+     "e": 16.325,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.325,
+     "e": 16.645,
+     "w": "6",
+     "a": [
+      "seis",
+      "6"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.645,
+     "e": 16.805,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.805,
+     "e": 16.885,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.885,
+     "e": 17.205,
+     "w": "mañana",
+     "a": [
+      "mañana"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.205,
+     "e": 17.445,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.445,
+     "e": 17.985,
+     "w": "despierta",
+     "a": [
+      "despierta"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.985,
+     "e": 18.565,
+     "w": "gritando",
+     "a": [
+      "gritando"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.565,
+     "e": 18.825,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.825,
+     "e": 19.265,
+     "w": "alarma.",
+     "a": [
+      "alarma"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "guacamayo4",
+   "sfx": [
+    [
+     "stamp",
+     "hablarte."
+    ]
+   ],
+   "start": 19.42,
+   "dur": 10.25,
+   "text": "Es que en la selva viven en bandadas, y al amanecer y al atardecer se gritan para saber dónde está cada uno. Si está solo, te está buscando a ti. Esa es su forma de hablarte.",
+   "words": [
+    {
+     "t": 19.54,
+     "e": 19.675,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.675,
+     "e": 19.795,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.795,
+     "e": 19.895,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.895,
+     "e": 20.015,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.015,
+     "e": 20.395,
+     "w": "selva",
+     "a": [
+      "selva"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.395,
+     "e": 20.735,
+     "w": "viven",
+     "a": [
+      "viven"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.735,
+     "e": 20.875,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.875,
+     "e": 21.375,
+     "w": "bandadas,",
+     "a": [
+      "bandadas"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.375,
+     "e": 21.715,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.715,
+     "e": 21.855,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.855,
+     "e": 22.335,
+     "w": "amanecer",
+     "a": [
+      "amanecer"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.335,
+     "e": 22.455,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.455,
+     "e": 22.575,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.575,
+     "e": 23.115,
+     "w": "atardecer",
+     "a": [
+      "atardecer"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.115,
+     "e": 23.415,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.415,
+     "e": 23.815,
+     "w": "gritan",
+     "a": [
+      "gritan"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.815,
+     "e": 24.075,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.075,
+     "e": 24.395,
+     "w": "saber",
+     "a": [
+      "saber"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.395,
+     "e": 24.655,
+     "w": "dónde",
+     "a": [
+      "dónde"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.655,
+     "e": 25.015,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.015,
+     "e": 25.215,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.215,
+     "e": 25.515,
+     "w": "uno.",
+     "a": [
+      "uno"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.82,
+     "e": 25.955,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.955,
+     "e": 26.155,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.155,
+     "e": 26.455,
+     "w": "solo,",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.695,
+     "e": 26.775,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.775,
+     "e": 26.955,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.955,
+     "e": 27.195,
+     "w": "buscando",
+     "a": [
+      "buscando"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.195,
+     "e": 27.515,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.515,
+     "e": 27.595,
+     "w": "ti.",
+     "a": [
+      "ti"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.595,
+     "e": 28.265,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.265,
+     "e": 28.465,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.465,
+     "e": 28.625,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.625,
+     "e": 28.925,
+     "w": "forma",
+     "a": [
+      "forma"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.925,
+     "e": 29.085,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.085,
+     "e": 29.485,
+     "w": "hablarte.",
+     "a": [
+      "hablarte"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "guacamayo5",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 29.67,
+   "dur": 4.79,
+   "text": "Pero a la semana notas que muerde todo: la jaula, los cables, la mesa.",
+   "words": [
+    {
+     "t": 29.79,
+     "e": 29.925,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.925,
+     "e": 30.025,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.025,
+     "e": 30.105,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.105,
+     "e": 30.425,
+     "w": "semana",
+     "a": [
+      "semana"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.425,
+     "e": 30.945,
+     "w": "notas",
+     "a": [
+      "notas"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.945,
+     "e": 31.065,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.065,
+     "e": 31.485,
+     "w": "muerde",
+     "a": [
+      "muerde"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.485,
+     "e": 31.825,
+     "w": "todo:",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.21,
+     "e": 32.355,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.355,
+     "e": 32.835,
+     "w": "jaula,",
+     "a": [
+      "jaula"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.035,
+     "e": 33.155,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.155,
+     "e": 33.575,
+     "w": "cables,",
+     "a": [
+      "cables"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.895,
+     "e": 33.975,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.975,
+     "e": 34.58,
+     "w": "mesa.",
+     "a": [
+      "mesa"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "guacamayo6",
+   "sfx": [],
+   "start": 34.46,
+   "dur": 7.4,
+   "text": "Es que su pico no para de crecer, como tus uñas. Necesita romper madera para gastarlo. Esos son sus juguetes.",
+   "words": [
+    {
+     "t": 34.58,
+     "e": 34.695,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.695,
+     "e": 34.815,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.815,
+     "e": 34.975,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.975,
+     "e": 35.275,
+     "w": "pico",
+     "a": [
+      "pico"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.275,
+     "e": 35.535,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.535,
+     "e": 35.815,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.815,
+     "e": 35.975,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.975,
+     "e": 36.435,
+     "w": "crecer,",
+     "a": [
+      "crecer"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.63,
+     "e": 36.795,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.795,
+     "e": 36.995,
+     "w": "tus",
+     "a": [
+      "tus"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.995,
+     "e": 37.335,
+     "w": "uñas.",
+     "a": [
+      "uñas"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.79,
+     "e": 38.315,
+     "w": "Necesita",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.315,
+     "e": 38.755,
+     "w": "romper",
+     "a": [
+      "romper"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.755,
+     "e": 39.215,
+     "w": "madera",
+     "a": [
+      "madera"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.215,
+     "e": 39.435,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.435,
+     "e": 39.975,
+     "w": "gastarlo.",
+     "a": [
+      "gastarlo"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.3,
+     "e": 40.625,
+     "w": "Esos",
+     "a": [
+      "esos"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.625,
+     "e": 40.965,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.965,
+     "e": 41.145,
+     "w": "sus",
+     "a": [
+      "sus"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.145,
+     "e": 41.705,
+     "w": "juguetes.",
+     "a": [
+      "juguetes"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "guacamayo7",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 41.86,
+   "dur": 2.57,
+   "text": "Pero no puede comer solo semillas de girasol.",
+   "words": [
+    {
+     "t": 41.98,
+     "e": 42.115,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.115,
+     "e": 42.275,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.275,
+     "e": 42.515,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.515,
+     "e": 42.855,
+     "w": "comer",
+     "a": [
+      "comer"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.855,
+     "e": 43.175,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.175,
+     "e": 43.575,
+     "w": "semillas",
+     "a": [
+      "semillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.575,
+     "e": 43.775,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.775,
+     "e": 44.255,
+     "w": "girasol.",
+     "a": [
+      "girasol"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "guacamayo8",
+   "sfx": [],
+   "start": 44.43,
+   "dur": 17.32,
+   "text": "Es que son pura grasa. En la selva come frutas, nueces y semillas duras… y hasta lame tierra de las orillas de los ríos. Esa tierra le ayuda con los venenos de algunas semillas. Por eso come frutas, verduras y comida especial. Nada de aguacate ni chocolate: lo pueden matar.",
+   "words": [
+    {
+     "t": 44.55,
+     "e": 44.665,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.665,
+     "e": 44.785,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.785,
+     "e": 44.945,
+     "w": "son",
+     "a": [
+      "son"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.945,
+     "e": 45.345,
+     "w": "pura",
+     "a": [
+      "pura"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.345,
+     "e": 45.705,
+     "w": "grasa.",
+     "a": [
+      "grasa"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.04,
+     "e": 46.155,
+     "w": "En",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.155,
+     "e": 46.275,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.275,
+     "e": 46.635,
+     "w": "selva",
+     "a": [
+      "selva"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.635,
+     "e": 46.935,
+     "w": "come",
+     "a": [
+      "come"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.935,
+     "e": 47.495,
+     "w": "frutas,",
+     "a": [
+      "frutas"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.795,
+     "e": 48.195,
+     "w": "nueces",
+     "a": [
+      "nueces"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.195,
+     "e": 48.475,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.475,
+     "e": 48.835,
+     "w": "semillas",
+     "a": [
+      "semillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.835,
+     "e": 49.375,
+     "w": "duras…",
+     "a": [
+      "duras"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.68,
+     "e": 49.815,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.815,
+     "e": 50.055,
+     "w": "hasta",
+     "a": [
+      "hasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.055,
+     "e": 50.375,
+     "w": "lame",
+     "a": [
+      "lame"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.375,
+     "e": 50.755,
+     "w": "tierra",
+     "a": [
+      "tierra"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.755,
+     "e": 50.955,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.955,
+     "e": 51.095,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.095,
+     "e": 51.375,
+     "w": "orillas",
+     "a": [
+      "orillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.375,
+     "e": 51.555,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.555,
+     "e": 51.675,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.675,
+     "e": 52.055,
+     "w": "ríos.",
+     "a": [
+      "ríos"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.38,
+     "e": 52.615,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.615,
+     "e": 52.895,
+     "w": "tierra",
+     "a": [
+      "tierra"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.895,
+     "e": 53.115,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.115,
+     "e": 53.375,
+     "w": "ayuda",
+     "a": [
+      "ayuda"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.375,
+     "e": 53.575,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.575,
+     "e": 53.735,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.735,
+     "e": 54.095,
+     "w": "venenos",
+     "a": [
+      "venenos"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.095,
+     "e": 54.215,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.215,
+     "e": 54.415,
+     "w": "algunas",
+     "a": [
+      "algunas"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.415,
+     "e": 54.955,
+     "w": "semillas.",
+     "a": [
+      "semillas"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.955,
+     "e": 55.465,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.465,
+     "e": 55.725,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.725,
+     "e": 56.025,
+     "w": "come",
+     "a": [
+      "come"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.025,
+     "e": 56.605,
+     "w": "frutas,",
+     "a": [
+      "frutas"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.805,
+     "e": 57.225,
+     "w": "verduras",
+     "a": [
+      "verduras"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.225,
+     "e": 57.525,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.525,
+     "e": 57.885,
+     "w": "comida",
+     "a": [
+      "comida"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.885,
+     "e": 58.205,
+     "w": "especial.",
+     "a": [
+      "especial"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.65,
+     "e": 58.965,
+     "w": "Nada",
+     "a": [
+      "nada"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.965,
+     "e": 59.165,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.165,
+     "e": 59.625,
+     "w": "aguacate",
+     "a": [
+      "aguacate"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.625,
+     "e": 59.765,
+     "w": "ni",
+     "a": [
+      "ni"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.765,
+     "e": 60.145,
+     "w": "chocolate:",
+     "a": [
+      "chocolate"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.52,
+     "e": 60.705,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.705,
+     "e": 61.045,
+     "w": "pueden",
+     "a": [
+      "pueden"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.045,
+     "e": 61.465,
+     "w": "matar.",
+     "a": [
+      "matar"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "guacamayo9",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 61.75,
+   "dur": 2.435,
+   "text": "Pero lo más importante no es la comida.",
+   "words": [
+    {
+     "t": 61.87,
+     "e": 62.015,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.015,
+     "e": 62.135,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.135,
+     "e": 62.295,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.295,
+     "e": 62.835,
+     "w": "importante",
+     "a": [
+      "importante"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.835,
+     "e": 63.255,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.255,
+     "e": 63.455,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.455,
+     "e": 63.575,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.575,
+     "e": 63.875,
+     "w": "comida.",
+     "a": [
+      "comida"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "guacamayo10",
+   "sfx": [],
+   "start": 64.185,
+   "dur": 6.375,
+   "text": "Es que un guacamayo puede vivir más de sesenta años. Más que tu tío… y a lo mejor más que tú.",
+   "words": [
+    {
+     "t": 64.305,
+     "e": 64.385,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.385,
+     "e": 64.525,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.525,
+     "e": 64.665,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.665,
+     "e": 65.225,
+     "w": "guacamayo",
+     "a": [
+      "guacamayo"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.225,
+     "e": 65.545,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.545,
+     "e": 65.845,
+     "w": "vivir",
+     "a": [
+      "vivir"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.845,
+     "e": 66.145,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.145,
+     "e": 66.345,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.345,
+     "e": 66.805,
+     "w": "60",
+     "a": [
+      "sesenta",
+      "60"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.805,
+     "e": 67.345,
+     "w": "años.",
+     "a": [
+      "años"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.8,
+     "e": 68.095,
+     "w": "Más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.095,
+     "e": 68.215,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.215,
+     "e": 68.355,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.355,
+     "e": 68.635,
+     "w": "tío…",
+     "a": [
+      "tío"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.065,
+     "e": 69.105,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.105,
+     "e": 69.165,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.165,
+     "e": 69.245,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.245,
+     "e": 69.565,
+     "w": "mejor",
+     "a": [
+      "mejor"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.565,
+     "e": 69.965,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.965,
+     "e": 70.185,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.185,
+     "e": 70.365,
+     "w": "tú.",
+     "a": [
+      "tú"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "guacamayo11",
+   "sfx": [
+    [
+     "coin",
+     "nietos."
+    ]
+   ],
+   "start": 70.56,
+   "dur": 7.06,
+   "text": "Ahora sí, tienes un guacamayo feliz. Y prepárate: probablemente lo hereden tus nietos.",
+   "words": [
+    {
+     "t": 70.68,
+     "e": 70.955,
+     "w": "Ahora",
+     "a": [
+      "ahora"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.955,
+     "e": 71.235,
+     "w": "sí,",
+     "a": [
+      "sí"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.45,
+     "e": 71.705,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.705,
+     "e": 72.085,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.085,
+     "e": 72.665,
+     "w": "guacamayo",
+     "a": [
+      "guacamayo"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.665,
+     "e": 72.965,
+     "w": "feliz.",
+     "a": [
+      "feliz"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.335,
+     "e": 73.415,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.415,
+     "e": 73.895,
+     "w": "prepárate:",
+     "a": [
+      "prepárate"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.475,
+     "e": 75.075,
+     "w": "probablemente",
+     "a": [
+      "probablemente"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.075,
+     "e": 75.315,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.315,
+     "e": 75.695,
+     "w": "hereden",
+     "a": [
+      "hereden"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.695,
+     "e": 75.815,
+     "w": "tus",
+     "a": [
+      "tus"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.815,
+     "e": 76.215,
+     "w": "nietos.",
+     "a": [
+      "nietos"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}

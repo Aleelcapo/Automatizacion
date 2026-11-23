@@ -1,0 +1,2385 @@
+{
+ "id": "tortuga",
+ "duration": 79.07,
+ "beats": [
+  {
+   "scene": "tortuga1",
+   "sfx": [
+    [
+     "coin",
+     "rojas."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 11.51,
+   "text": "Si tu tío Claudio vuelve de Estados Unidos y te regala una tortuguita del tamaño de una moneda, con dos rayas rojas a los lados de la cabeza… felicidades, tienes una tortuga de orejas rojas.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.305,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.305,
+     "e": 0.425,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.425,
+     "e": 0.605,
+     "w": "tío",
+     "a": [
+      "tío"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.605,
+     "e": 1.065,
+     "w": "Claudio",
+     "a": [
+      "claudio"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.065,
+     "e": 1.485,
+     "w": "vuelve",
+     "a": [
+      "vuelve"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.485,
+     "e": 1.625,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.625,
+     "e": 1.905,
+     "w": "Estados",
+     "a": [
+      "estados"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.905,
+     "e": 2.385,
+     "w": "Unidos",
+     "a": [
+      "unidos"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.385,
+     "e": 2.705,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.705,
+     "e": 2.825,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.825,
+     "e": 3.125,
+     "w": "regala",
+     "a": [
+      "regala"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.125,
+     "e": 3.345,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.345,
+     "e": 4.045,
+     "w": "tortuguita",
+     "a": [
+      "tortuguita"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.045,
+     "e": 4.225,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.225,
+     "e": 4.685,
+     "w": "tamaño",
+     "a": [
+      "tamaño"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.685,
+     "e": 4.825,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.825,
+     "e": 5.025,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.025,
+     "e": 5.425,
+     "w": "moneda,",
+     "a": [
+      "moneda"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.425,
+     "e": 5.755,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.755,
+     "e": 6.015,
+     "w": "dos",
+     "a": [
+      "dos"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.015,
+     "e": 6.375,
+     "w": "rayas",
+     "a": [
+      "rayas"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.375,
+     "e": 6.775,
+     "w": "rojas",
+     "a": [
+      "rojas"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.775,
+     "e": 6.955,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.955,
+     "e": 7.075,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.075,
+     "e": 7.275,
+     "w": "lados",
+     "a": [
+      "lados"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.275,
+     "e": 7.455,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.455,
+     "e": 7.555,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.555,
+     "e": 7.895,
+     "w": "cabeza…",
+     "a": [
+      "cabeza"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.23,
+     "e": 8.825,
+     "w": "felicidades,",
+     "a": [
+      "felicidades"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.35,
+     "e": 9.635,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.635,
+     "e": 9.795,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.795,
+     "e": 10.295,
+     "w": "tortuga",
+     "a": [
+      "tortuga"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.295,
+     "e": 10.475,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.475,
+     "e": 10.815,
+     "w": "orejas",
+     "a": [
+      "orejas"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.815,
+     "e": 11.215,
+     "w": "rojas.",
+     "a": [
+      "rojas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "tortuga2",
+   "sfx": [],
+   "start": 11.51,
+   "dur": 4.54,
+   "text": "La pones en un tupper con un poquito de agua y una palmerita de plástico, y listo.",
+   "words": [
+    {
+     "t": 11.63,
+     "e": 11.755,
+     "w": "La",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.755,
+     "e": 11.955,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.955,
+     "e": 12.135,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.135,
+     "e": 12.275,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.275,
+     "e": 12.575,
+     "w": "tupper",
+     "a": [
+      "tupper"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.575,
+     "e": 12.815,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.815,
+     "e": 12.935,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.935,
+     "e": 13.195,
+     "w": "poquito",
+     "a": [
+      "poquito"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.195,
+     "e": 13.475,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.475,
+     "e": 13.735,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.735,
+     "e": 14.015,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.015,
+     "e": 14.155,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.155,
+     "e": 14.635,
+     "w": "palmerita",
+     "a": [
+      "palmerita"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.635,
+     "e": 14.755,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.755,
+     "e": 15.215,
+     "w": "plástico,",
+     "a": [
+      "plástico"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.215,
+     "e": 15.535,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.535,
+     "e": 16.17,
+     "w": "listo.",
+     "a": [
+      "listo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "tortuga3",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 16.05,
+   "dur": 4.84,
+   "text": "Pero a los meses ves que el caparazón se le está pelando y le salen manchas blancas.",
+   "words": [
+    {
+     "t": 16.17,
+     "e": 16.315,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.315,
+     "e": 16.435,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.435,
+     "e": 16.595,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.595,
+     "e": 16.955,
+     "w": "meses",
+     "a": [
+      "meses"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.955,
+     "e": 17.315,
+     "w": "ves",
+     "a": [
+      "ves"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.315,
+     "e": 17.495,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.495,
+     "e": 17.615,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.615,
+     "e": 18.115,
+     "w": "caparazón",
+     "a": [
+      "caparazón"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.115,
+     "e": 18.295,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.295,
+     "e": 18.375,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.375,
+     "e": 18.615,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.615,
+     "e": 19.095,
+     "w": "pelando",
+     "a": [
+      "pelando"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.095,
+     "e": 19.355,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.355,
+     "e": 19.435,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.435,
+     "e": 19.755,
+     "w": "salen",
+     "a": [
+      "salen"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.755,
+     "e": 20.075,
+     "w": "manchas",
+     "a": [
+      "manchas"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.075,
+     "e": 20.655,
+     "w": "blancas.",
+     "a": [
+      "blancas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "tortuga4",
+   "sfx": [
+    [
+     "stamp",
+     "sol."
+    ]
+   ],
+   "start": 20.89,
+   "dur": 10.445,
+   "text": "Es que necesita salir del agua y secarse completita bajo una lámpara de calor y de luz ultravioleta. Si nunca se seca, le salen hongos en el caparazón. Ese es su sol.",
+   "words": [
+    {
+     "t": 21.01,
+     "e": 21.145,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.145,
+     "e": 21.265,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.265,
+     "e": 21.745,
+     "w": "necesita",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.745,
+     "e": 22.125,
+     "w": "salir",
+     "a": [
+      "salir"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.125,
+     "e": 22.365,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.365,
+     "e": 22.665,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.665,
+     "e": 22.865,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.865,
+     "e": 23.245,
+     "w": "secarse",
+     "a": [
+      "secarse"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.245,
+     "e": 24.145,
+     "w": "completita",
+     "a": [
+      "completita"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.145,
+     "e": 24.365,
+     "w": "bajo",
+     "a": [
+      "bajo"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.365,
+     "e": 24.645,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.645,
+     "e": 24.985,
+     "w": "lámpara",
+     "a": [
+      "lámpara"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.985,
+     "e": 25.145,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.145,
+     "e": 25.425,
+     "w": "calor",
+     "a": [
+      "calor"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.425,
+     "e": 25.685,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.685,
+     "e": 25.805,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.805,
+     "e": 25.965,
+     "w": "luz",
+     "a": [
+      "luz"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.965,
+     "e": 26.685,
+     "w": "ultravioleta.",
+     "a": [
+      "ultravioleta"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.96,
+     "e": 27.135,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.135,
+     "e": 27.375,
+     "w": "nunca",
+     "a": [
+      "nunca"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.375,
+     "e": 27.575,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.575,
+     "e": 27.895,
+     "w": "seca,",
+     "a": [
+      "seca"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.895,
+     "e": 28.215,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.215,
+     "e": 28.555,
+     "w": "salen",
+     "a": [
+      "salen"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.555,
+     "e": 28.875,
+     "w": "hongos",
+     "a": [
+      "hongos"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.875,
+     "e": 29.015,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.015,
+     "e": 29.115,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.115,
+     "e": 29.635,
+     "w": "caparazón.",
+     "a": [
+      "caparazón"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.985,
+     "e": 30.285,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.285,
+     "e": 30.605,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.605,
+     "e": 30.785,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.785,
+     "e": 31.085,
+     "w": "sol.",
+     "a": [
+      "sol"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "tortuga5",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 31.335,
+   "dur": 2.995,
+   "text": "Pero le das su comida fuera del agua y no se la come.",
+   "words": [
+    {
+     "t": 31.455,
+     "e": 31.535,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.535,
+     "e": 31.675,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.675,
+     "e": 31.815,
+     "w": "das",
+     "a": [
+      "das"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.815,
+     "e": 32.015,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.015,
+     "e": 32.295,
+     "w": "comida",
+     "a": [
+      "comida"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.295,
+     "e": 32.615,
+     "w": "fuera",
+     "a": [
+      "fuera"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.615,
+     "e": 32.855,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.855,
+     "e": 33.115,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.115,
+     "e": 33.395,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.395,
+     "e": 33.555,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.555,
+     "e": 33.715,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.715,
+     "e": 33.815,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.815,
+     "e": 34.075,
+     "w": "come.",
+     "a": [
+      "come"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "tortuga6",
+   "sfx": [
+    [
+     "stamp",
+     "comedor."
+    ]
+   ],
+   "start": 34.33,
+   "dur": 6.08,
+   "text": "Es que no tiene saliva para tragar. Necesita estar dentro del agua para comer. Ese es su comedor.",
+   "words": [
+    {
+     "t": 34.45,
+     "e": 34.575,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.575,
+     "e": 34.695,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.695,
+     "e": 34.835,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.835,
+     "e": 35.095,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.095,
+     "e": 35.555,
+     "w": "saliva",
+     "a": [
+      "saliva"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.555,
+     "e": 35.775,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.775,
+     "e": 36.155,
+     "w": "tragar.",
+     "a": [
+      "tragar"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.465,
+     "e": 36.985,
+     "w": "Necesita",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.985,
+     "e": 37.245,
+     "w": "estar",
+     "a": [
+      "estar"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.245,
+     "e": 37.745,
+     "w": "dentro",
+     "a": [
+      "dentro"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.745,
+     "e": 37.985,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.985,
+     "e": 38.225,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.225,
+     "e": 38.445,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.445,
+     "e": 38.705,
+     "w": "comer.",
+     "a": [
+      "comer"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.04,
+     "e": 39.375,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.375,
+     "e": 39.655,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.655,
+     "e": 39.835,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.835,
+     "e": 40.275,
+     "w": "comedor.",
+     "a": [
+      "comedor"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "tortuga7",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 40.41,
+   "dur": 3.06,
+   "text": "Pero el agua siempre huele feo, por más que la cambies.",
+   "words": [
+    {
+     "t": 40.53,
+     "e": 40.695,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.695,
+     "e": 40.835,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.835,
+     "e": 41.015,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.015,
+     "e": 41.395,
+     "w": "siempre",
+     "a": [
+      "siempre"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.395,
+     "e": 41.795,
+     "w": "huele",
+     "a": [
+      "huele"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.795,
+     "e": 42.175,
+     "w": "feo,",
+     "a": [
+      "feo"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.175,
+     "e": 42.355,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.355,
+     "e": 42.555,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.555,
+     "e": 42.675,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.675,
+     "e": 42.795,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.795,
+     "e": 43.155,
+     "w": "cambies.",
+     "a": [
+      "cambies"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "tortuga8",
+   "sfx": [],
+   "start": 43.47,
+   "dur": 6.45,
+   "text": "Es que come, hace popó y vive en la misma agua. Necesita un filtro fuerte y mucha más agua.",
+   "words": [
+    {
+     "t": 43.59,
+     "e": 43.725,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.725,
+     "e": 43.865,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.865,
+     "e": 44.225,
+     "w": "come,",
+     "a": [
+      "come"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.605,
+     "e": 44.745,
+     "w": "hace",
+     "a": [
+      "hace"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.745,
+     "e": 45.205,
+     "w": "popó",
+     "a": [
+      "popó"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.205,
+     "e": 45.505,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.505,
+     "e": 45.785,
+     "w": "vive",
+     "a": [
+      "vive"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.785,
+     "e": 46.005,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.005,
+     "e": 46.105,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.105,
+     "e": 46.325,
+     "w": "misma",
+     "a": [
+      "misma"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.325,
+     "e": 46.705,
+     "w": "agua.",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.04,
+     "e": 47.505,
+     "w": "Necesita",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.505,
+     "e": 47.665,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.665,
+     "e": 47.965,
+     "w": "filtro",
+     "a": [
+      "filtro"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.965,
+     "e": 48.405,
+     "w": "fuerte",
+     "a": [
+      "fuerte"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.405,
+     "e": 48.745,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.745,
+     "e": 49.205,
+     "w": "mucha",
+     "a": [
+      "mucha"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.205,
+     "e": 49.405,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.405,
+     "e": 49.745,
+     "w": "agua.",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "tortuga9",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 49.92,
+   "dur": 2.64,
+   "text": "Pero la tortuguita ya no es tortuguita.",
+   "words": [
+    {
+     "t": 50.04,
+     "e": 50.195,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.195,
+     "e": 50.315,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.315,
+     "e": 51.015,
+     "w": "tortuguita",
+     "a": [
+      "tortuguita"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.015,
+     "e": 51.255,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.255,
+     "e": 51.495,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.495,
+     "e": 51.715,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.715,
+     "e": 52.415,
+     "w": "tortuguita.",
+     "a": [
+      "tortuguita"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "tortuga10",
+   "sfx": [],
+   "start": 52.56,
+   "dur": 7.545,
+   "text": "Es que crece hasta treinta centímetros, y puede vivir más de treinta años. Ese tupper ahora es un acuario enorme.",
+   "words": [
+    {
+     "t": 52.68,
+     "e": 52.785,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.785,
+     "e": 52.925,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.925,
+     "e": 53.245,
+     "w": "crece",
+     "a": [
+      "crece"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.245,
+     "e": 53.465,
+     "w": "hasta",
+     "a": [
+      "hasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.465,
+     "e": 53.905,
+     "w": "30",
+     "a": [
+      "treinta",
+      "30"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.905,
+     "e": 54.685,
+     "w": "centímetros,",
+     "a": [
+      "centímetros"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.685,
+     "e": 55.025,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.025,
+     "e": 55.245,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.245,
+     "e": 55.525,
+     "w": "vivir",
+     "a": [
+      "vivir"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.525,
+     "e": 55.845,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.845,
+     "e": 56.025,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.025,
+     "e": 56.425,
+     "w": "30",
+     "a": [
+      "treinta",
+      "30"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.425,
+     "e": 56.865,
+     "w": "años.",
+     "a": [
+      "años"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.32,
+     "e": 57.515,
+     "w": "Ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.515,
+     "e": 57.895,
+     "w": "tupper",
+     "a": [
+      "tupper"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.895,
+     "e": 58.275,
+     "w": "ahora",
+     "a": [
+      "ahora"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.275,
+     "e": 58.475,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.475,
+     "e": 58.615,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.615,
+     "e": 59.035,
+     "w": "acuario",
+     "a": [
+      "acuario"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.035,
+     "e": 59.675,
+     "w": "enorme.",
+     "a": [
+      "enorme"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "tortuga11",
+   "sfx": [],
+   "start": 60.105,
+   "dur": 12.445,
+   "text": "Y aquí viene lo importante: muchísima gente, cuando ya no puede con ella, la suelta en un lago. Y ahí se come la comida de las tortugas que ya vivían ahí y las desplaza. Por eso en muchos países es una plaga.",
+   "words": [
+    {
+     "t": 60.225,
+     "e": 60.245,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.245,
+     "e": 60.425,
+     "w": "aquí",
+     "a": [
+      "aquí"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.425,
+     "e": 60.725,
+     "w": "viene",
+     "a": [
+      "viene"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.725,
+     "e": 60.845,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.845,
+     "e": 61.225,
+     "w": "importante:",
+     "a": [
+      "importante"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.845,
+     "e": 62.385,
+     "w": "muchísima",
+     "a": [
+      "muchísima"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.385,
+     "e": 62.725,
+     "w": "gente,",
+     "a": [
+      "gente"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.925,
+     "e": 63.145,
+     "w": "cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.145,
+     "e": 63.385,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.385,
+     "e": 63.525,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.525,
+     "e": 63.745,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.745,
+     "e": 63.965,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.965,
+     "e": 64.165,
+     "w": "ella,",
+     "a": [
+      "ella"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.485,
+     "e": 64.585,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.585,
+     "e": 65.045,
+     "w": "suelta",
+     "a": [
+      "suelta"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.045,
+     "e": 65.165,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.165,
+     "e": 65.285,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.285,
+     "e": 65.625,
+     "w": "lago.",
+     "a": [
+      "lago"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.025,
+     "e": 66.085,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.085,
+     "e": 66.265,
+     "w": "ahí",
+     "a": [
+      "ahí"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.265,
+     "e": 66.545,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.545,
+     "e": 66.765,
+     "w": "come",
+     "a": [
+      "come"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.765,
+     "e": 66.885,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.885,
+     "e": 67.165,
+     "w": "comida",
+     "a": [
+      "comida"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.165,
+     "e": 67.345,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.345,
+     "e": 67.505,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.505,
+     "e": 67.945,
+     "w": "tortugas",
+     "a": [
+      "tortugas"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.945,
+     "e": 68.145,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.145,
+     "e": 68.365,
+     "w": "ya",
+     "a": [
+      "ya"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.365,
+     "e": 68.765,
+     "w": "vivían",
+     "a": [
+      "vivían"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.765,
+     "e": 68.985,
+     "w": "ahí",
+     "a": [
+      "ahí"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.985,
+     "e": 69.265,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.265,
+     "e": 69.405,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.405,
+     "e": 69.905,
+     "w": "desplaza.",
+     "a": [
+      "desplaza"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.22,
+     "e": 70.355,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.355,
+     "e": 70.595,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.595,
+     "e": 70.755,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.755,
+     "e": 70.975,
+     "w": "muchos",
+     "a": [
+      "muchos"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.975,
+     "e": 71.435,
+     "w": "países",
+     "a": [
+      "países"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.435,
+     "e": 71.775,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.775,
+     "e": 71.975,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.975,
+     "e": 72.355,
+     "w": "plaga.",
+     "a": [
+      "plaga"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "tortuga12",
+   "sfx": [
+    [
+     "coin",
+     "soltarla."
+    ]
+   ],
+   "start": 72.55,
+   "dur": 6.52,
+   "text": "Ahora sí, tienes una tortuga feliz. Pero es para toda la vida… no para soltarla.",
+   "words": [
+    {
+     "t": 72.67,
+     "e": 72.905,
+     "w": "Ahora",
+     "a": [
+      "ahora"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.905,
+     "e": 73.185,
+     "w": "sí,",
+     "a": [
+      "sí"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.37,
+     "e": 73.635,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.635,
+     "e": 73.895,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.895,
+     "e": 74.355,
+     "w": "tortuga",
+     "a": [
+      "tortuga"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.355,
+     "e": 74.655,
+     "w": "feliz.",
+     "a": [
+      "feliz"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.96,
+     "e": 75.155,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.155,
+     "e": 75.395,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.395,
+     "e": 75.635,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.635,
+     "e": 75.915,
+     "w": "toda",
+     "a": [
+      "toda"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.915,
+     "e": 76.115,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.115,
+     "e": 76.355,
+     "w": "vida…",
+     "a": [
+      "vida"
+     ],
+     "k": false
+    },
+    {
+     "t": 76.74,
+     "e": 77.005,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.005,
+     "e": 77.225,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 77.225,
+     "e": 77.805,
+     "w": "soltarla.",
+     "a": [
+      "soltarla"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}

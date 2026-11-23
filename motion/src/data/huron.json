@@ -1,0 +1,2341 @@
+{
+ "id": "huron",
+ "duration": 76.77,
+ "beats": [
+  {
+   "scene": "huron1",
+   "sfx": [
+    [
+     "coin",
+     "hurón."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 10.275,
+   "text": "Si tu tío Claudio vuelve de España y te regala un animal largo como una media, con antifaz en la cara y que no deja de moverse… felicidades, tienes un hurón.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.315,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.315,
+     "e": 0.435,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.435,
+     "e": 0.615,
+     "w": "tío",
+     "a": [
+      "tío"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.615,
+     "e": 1.095,
+     "w": "Claudio",
+     "a": [
+      "claudio"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.095,
+     "e": 1.515,
+     "w": "vuelve",
+     "a": [
+      "vuelve"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.515,
+     "e": 1.635,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.635,
+     "e": 2.015,
+     "w": "España",
+     "a": [
+      "españa"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.015,
+     "e": 2.315,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.315,
+     "e": 2.435,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.435,
+     "e": 2.735,
+     "w": "regala",
+     "a": [
+      "regala"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.735,
+     "e": 2.915,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.915,
+     "e": 3.195,
+     "w": "animal",
+     "a": [
+      "animal"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.195,
+     "e": 3.715,
+     "w": "largo",
+     "a": [
+      "largo"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.715,
+     "e": 4.055,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.055,
+     "e": 4.275,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.275,
+     "e": 4.615,
+     "w": "media,",
+     "a": [
+      "media"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.875,
+     "e": 4.975,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.975,
+     "e": 5.515,
+     "w": "antifaz",
+     "a": [
+      "antifaz"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.515,
+     "e": 5.715,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.715,
+     "e": 5.835,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.835,
+     "e": 6.095,
+     "w": "cara",
+     "a": [
+      "cara"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.095,
+     "e": 6.335,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.335,
+     "e": 6.495,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.495,
+     "e": 6.755,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.755,
+     "e": 7.055,
+     "w": "deja",
+     "a": [
+      "deja"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.055,
+     "e": 7.195,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.195,
+     "e": 7.925,
+     "w": "moverse…",
+     "a": [
+      "moverse"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.925,
+     "e": 8.525,
+     "w": "felicidades,",
+     "a": [
+      "felicidades"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.04,
+     "e": 9.475,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.475,
+     "e": 9.715,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.715,
+     "e": 10.015,
+     "w": "hurón.",
+     "a": [
+      "hurón"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "huron2",
+   "sfx": [],
+   "start": 10.275,
+   "dur": 3.615,
+   "text": "Lo dejas suelto en tu casa, le das croquetas de perro y listo.",
+   "words": [
+    {
+     "t": 10.395,
+     "e": 10.475,
+     "w": "Lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.475,
+     "e": 10.735,
+     "w": "dejas",
+     "a": [
+      "dejas"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.735,
+     "e": 11.075,
+     "w": "suelto",
+     "a": [
+      "suelto"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.075,
+     "e": 11.215,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.215,
+     "e": 11.315,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.315,
+     "e": 11.575,
+     "w": "casa,",
+     "a": [
+      "casa"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.955,
+     "e": 12.035,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.035,
+     "e": 12.195,
+     "w": "das",
+     "a": [
+      "das"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.195,
+     "e": 12.635,
+     "w": "croquetas",
+     "a": [
+      "croquetas"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.635,
+     "e": 12.755,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.755,
+     "e": 13.095,
+     "w": "perro",
+     "a": [
+      "perro"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.095,
+     "e": 13.375,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.375,
+     "e": 13.735,
+     "w": "listo.",
+     "a": [
+      "listo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "huron3",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 13.89,
+   "dur": 4.41,
+   "text": "Pero a los días te faltan las llaves, un calcetín y el control de la tele.",
+   "words": [
+    {
+     "t": 14.01,
+     "e": 14.155,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.155,
+     "e": 14.275,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.275,
+     "e": 14.415,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.415,
+     "e": 14.675,
+     "w": "días",
+     "a": [
+      "días"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.675,
+     "e": 14.975,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.975,
+     "e": 15.315,
+     "w": "faltan",
+     "a": [
+      "faltan"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.315,
+     "e": 15.515,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.515,
+     "e": 15.855,
+     "w": "llaves,",
+     "a": [
+      "llaves"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.195,
+     "e": 16.335,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.335,
+     "e": 16.875,
+     "w": "calcetín",
+     "a": [
+      "calcetín"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.875,
+     "e": 17.135,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.135,
+     "e": 17.255,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.255,
+     "e": 17.595,
+     "w": "control",
+     "a": [
+      "control"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.595,
+     "e": 17.735,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.735,
+     "e": 17.855,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.855,
+     "e": 18.075,
+     "w": "tele.",
+     "a": [
+      "tele"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "huron4",
+   "sfx": [],
+   "start": 18.3,
+   "dur": 10.47,
+   "text": "Es que en la naturaleza los hurones esconden su comida en un rincón para después. Todo lo que le gusta se lo lleva a su escondite. Busca debajo del sillón: ese es su tesoro.",
+   "words": [
+    {
+     "t": 18.42,
+     "e": 18.555,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.555,
+     "e": 18.715,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.715,
+     "e": 18.955,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.955,
+     "e": 19.075,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.075,
+     "e": 19.735,
+     "w": "naturaleza",
+     "a": [
+      "naturaleza"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.735,
+     "e": 19.995,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.995,
+     "e": 20.335,
+     "w": "hurones",
+     "a": [
+      "hurones"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.335,
+     "e": 20.815,
+     "w": "esconden",
+     "a": [
+      "esconden"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.815,
+     "e": 21.055,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.055,
+     "e": 21.355,
+     "w": "comida",
+     "a": [
+      "comida"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.355,
+     "e": 21.535,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.535,
+     "e": 21.655,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.655,
+     "e": 22.135,
+     "w": "rincón",
+     "a": [
+      "rincón"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.135,
+     "e": 22.475,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.475,
+     "e": 22.795,
+     "w": "después.",
+     "a": [
+      "después"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.36,
+     "e": 23.495,
+     "w": "Todo",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.495,
+     "e": 23.735,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.735,
+     "e": 23.835,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.835,
+     "e": 23.955,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.955,
+     "e": 24.215,
+     "w": "gusta",
+     "a": [
+      "gusta"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.215,
+     "e": 24.475,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.475,
+     "e": 24.595,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.595,
+     "e": 24.815,
+     "w": "lleva",
+     "a": [
+      "lleva"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.815,
+     "e": 24.955,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.955,
+     "e": 25.015,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.015,
+     "e": 25.515,
+     "w": "escondite.",
+     "a": [
+      "escondite"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.86,
+     "e": 26.195,
+     "w": "Busca",
+     "a": [
+      "busca"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.195,
+     "e": 26.495,
+     "w": "debajo",
+     "a": [
+      "debajo"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.495,
+     "e": 26.695,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.695,
+     "e": 27.035,
+     "w": "sillón:",
+     "a": [
+      "sillón"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.365,
+     "e": 27.685,
+     "w": "ese",
+     "a": [
+      "ese"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.685,
+     "e": 28.005,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.005,
+     "e": 28.165,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.165,
+     "e": 28.545,
+     "w": "tesoro.",
+     "a": [
+      "tesoro"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "huron5",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 28.77,
+   "dur": 2.11,
+   "text": "Pero tu casa empieza a oler raro.",
+   "words": [
+    {
+     "t": 28.89,
+     "e": 29.025,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.025,
+     "e": 29.205,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.205,
+     "e": 29.465,
+     "w": "casa",
+     "a": [
+      "casa"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.465,
+     "e": 29.825,
+     "w": "empieza",
+     "a": [
+      "empieza"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.825,
+     "e": 30.125,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.125,
+     "e": 30.305,
+     "w": "oler",
+     "a": [
+      "oler"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.305,
+     "e": 30.705,
+     "w": "raro.",
+     "a": [
+      "raro"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "huron6",
+   "sfx": [],
+   "start": 30.88,
+   "dur": 8.7,
+   "text": "Es que su piel tiene glándulas que sueltan un olor a almizcle. Por eso hay que lavarle la cama seguido, pero no a él: si lo bañas mucho, huele más.",
+   "words": [
+    {
+     "t": 31.0,
+     "e": 31.115,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.115,
+     "e": 31.235,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.235,
+     "e": 31.415,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.415,
+     "e": 31.655,
+     "w": "piel",
+     "a": [
+      "piel"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.655,
+     "e": 32.015,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.015,
+     "e": 32.495,
+     "w": "glándulas",
+     "a": [
+      "glándulas"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.495,
+     "e": 32.715,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.715,
+     "e": 33.115,
+     "w": "sueltan",
+     "a": [
+      "sueltan"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.115,
+     "e": 33.255,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.255,
+     "e": 33.515,
+     "w": "olor",
+     "a": [
+      "olor"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.515,
+     "e": 33.825,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.825,
+     "e": 34.135,
+     "w": "almizcle.",
+     "a": [
+      "almizcle"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.42,
+     "e": 34.565,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.565,
+     "e": 34.805,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.805,
+     "e": 35.045,
+     "w": "hay",
+     "a": [
+      "hay"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.045,
+     "e": 35.165,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.165,
+     "e": 35.525,
+     "w": "lavarle",
+     "a": [
+      "lavarle"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.525,
+     "e": 35.665,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.665,
+     "e": 35.845,
+     "w": "cama",
+     "a": [
+      "cama"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.845,
+     "e": 36.345,
+     "w": "seguido,",
+     "a": [
+      "seguido"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.63,
+     "e": 36.785,
+     "w": "pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.785,
+     "e": 36.985,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.985,
+     "e": 37.125,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.125,
+     "e": 37.285,
+     "w": "él:",
+     "a": [
+      "él"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.6,
+     "e": 37.765,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.765,
+     "e": 37.885,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.885,
+     "e": 38.105,
+     "w": "bañas",
+     "a": [
+      "bañas"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.105,
+     "e": 38.485,
+     "w": "mucho,",
+     "a": [
+      "mucho"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.745,
+     "e": 39.045,
+     "w": "huele",
+     "a": [
+      "huele"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.045,
+     "e": 39.265,
+     "w": "más.",
+     "a": [
+      "más"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "huron7",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 39.58,
+   "dur": 4.14,
+   "text": "Pero lo ves saltando de lado, con la boca abierta y chocando con todo.",
+   "words": [
+    {
+     "t": 39.7,
+     "e": 39.845,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.845,
+     "e": 39.985,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.985,
+     "e": 40.125,
+     "w": "ves",
+     "a": [
+      "ves"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.125,
+     "e": 40.705,
+     "w": "saltando",
+     "a": [
+      "saltando"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.705,
+     "e": 40.885,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.885,
+     "e": 41.165,
+     "w": "lado,",
+     "a": [
+      "lado"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.345,
+     "e": 41.465,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.465,
+     "e": 41.585,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.585,
+     "e": 41.805,
+     "w": "boca",
+     "a": [
+      "boca"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.805,
+     "e": 42.345,
+     "w": "abierta",
+     "a": [
+      "abierta"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.345,
+     "e": 42.465,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.465,
+     "e": 42.985,
+     "w": "chocando",
+     "a": [
+      "chocando"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.985,
+     "e": 43.185,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.185,
+     "e": 43.465,
+     "w": "todo.",
+     "a": [
+      "todo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "huron8",
+   "sfx": [],
+   "start": 43.72,
+   "dur": 4.54,
+   "text": "Es que no está loco: es su baile de guerra, así juega cuando está feliz.",
+   "words": [
+    {
+     "t": 43.84,
+     "e": 43.955,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.955,
+     "e": 44.095,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.095,
+     "e": 44.235,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.235,
+     "e": 44.435,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.435,
+     "e": 44.795,
+     "w": "loco:",
+     "a": [
+      "loco"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.16,
+     "e": 45.355,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.355,
+     "e": 45.515,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.515,
+     "e": 45.795,
+     "w": "baile",
+     "a": [
+      "baile"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.795,
+     "e": 45.955,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.955,
+     "e": 46.255,
+     "w": "guerra,",
+     "a": [
+      "guerra"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.59,
+     "e": 46.855,
+     "w": "así",
+     "a": [
+      "así"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.855,
+     "e": 47.275,
+     "w": "juega",
+     "a": [
+      "juega"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.275,
+     "e": 47.455,
+     "w": "cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.455,
+     "e": 47.775,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.775,
+     "e": 48.055,
+     "w": "feliz.",
+     "a": [
+      "feliz"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "huron9",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 48.26,
+   "dur": 2.25,
+   "text": "Pero las croquetas de perro le caen mal.",
+   "words": [
+    {
+     "t": 48.38,
+     "e": 48.515,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.515,
+     "e": 48.695,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.695,
+     "e": 49.155,
+     "w": "croquetas",
+     "a": [
+      "croquetas"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.155,
+     "e": 49.295,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.295,
+     "e": 49.635,
+     "w": "perro",
+     "a": [
+      "perro"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.635,
+     "e": 49.815,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.815,
+     "e": 50.075,
+     "w": "caen",
+     "a": [
+      "caen"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.075,
+     "e": 50.275,
+     "w": "mal.",
+     "a": [
+      "mal"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "huron10",
+   "sfx": [
+    [
+     "stamp",
+     "comida."
+    ]
+   ],
+   "start": 50.51,
+   "dur": 9.095,
+   "text": "Es que solo come carne. Su intestino es tan cortito que digiere en tres o cuatro horas, y necesita comer muchas veces al día. Esa es su comida.",
+   "words": [
+    {
+     "t": 50.63,
+     "e": 50.775,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.775,
+     "e": 50.895,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.895,
+     "e": 51.175,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.175,
+     "e": 51.475,
+     "w": "come",
+     "a": [
+      "come"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.475,
+     "e": 51.815,
+     "w": "carne.",
+     "a": [
+      "carne"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.17,
+     "e": 52.295,
+     "w": "Su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.295,
+     "e": 52.775,
+     "w": "intestino",
+     "a": [
+      "intestino"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.775,
+     "e": 52.995,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.995,
+     "e": 53.175,
+     "w": "tan",
+     "a": [
+      "tan"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.175,
+     "e": 53.735,
+     "w": "cortito",
+     "a": [
+      "cortito"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.735,
+     "e": 53.995,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.995,
+     "e": 54.355,
+     "w": "digiere",
+     "a": [
+      "digiere"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.355,
+     "e": 54.575,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.575,
+     "e": 54.795,
+     "w": "tres",
+     "a": [
+      "tres"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.795,
+     "e": 54.955,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.955,
+     "e": 55.275,
+     "w": "cuatro",
+     "a": [
+      "cuatro"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.275,
+     "e": 55.595,
+     "w": "horas,",
+     "a": [
+      "horas"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.595,
+     "e": 55.885,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.885,
+     "e": 56.245,
+     "w": "necesita",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.245,
+     "e": 56.565,
+     "w": "comer",
+     "a": [
+      "comer"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.565,
+     "e": 57.065,
+     "w": "muchas",
+     "a": [
+      "muchas"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.065,
+     "e": 57.385,
+     "w": "veces",
+     "a": [
+      "veces"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.385,
+     "e": 57.625,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.625,
+     "e": 57.845,
+     "w": "día.",
+     "a": [
+      "día"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.18,
+     "e": 58.535,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.535,
+     "e": 58.755,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.755,
+     "e": 58.915,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.915,
+     "e": 59.275,
+     "w": "comida.",
+     "a": [
+      "comida"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "huron11",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 59.605,
+   "dur": 3.87,
+   "text": "Pero después de jugar, se duerme… y no despierta en horas.",
+   "words": [
+    {
+     "t": 59.725,
+     "e": 59.765,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.765,
+     "e": 60.105,
+     "w": "después",
+     "a": [
+      "después"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.105,
+     "e": 60.245,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.245,
+     "e": 60.565,
+     "w": "jugar,",
+     "a": [
+      "jugar"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.565,
+     "e": 61.005,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.005,
+     "e": 61.66,
+     "w": "duerme…",
+     "a": [
+      "duerme"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.66,
+     "e": 61.795,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.795,
+     "e": 61.995,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.995,
+     "e": 62.695,
+     "w": "despierta",
+     "a": [
+      "despierta"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.695,
+     "e": 62.875,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.875,
+     "e": 63.075,
+     "w": "horas.",
+     "a": [
+      "horas"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "huron12",
+   "sfx": [],
+   "start": 63.475,
+   "dur": 7.445,
+   "text": "Es que duerme hasta dieciocho horas al día. Y cuidado con el calor: no suda, y arriba de treinta grados se puede morir.",
+   "words": [
+    {
+     "t": 63.595,
+     "e": 63.715,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.715,
+     "e": 63.855,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.855,
+     "e": 64.195,
+     "w": "duerme",
+     "a": [
+      "duerme"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.195,
+     "e": 64.415,
+     "w": "hasta",
+     "a": [
+      "hasta"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.415,
+     "e": 65.075,
+     "w": "18",
+     "a": [
+      "dieciocho",
+      "18"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.075,
+     "e": 65.455,
+     "w": "horas",
+     "a": [
+      "horas"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.455,
+     "e": 65.735,
+     "w": "al",
+     "a": [
+      "al"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.735,
+     "e": 65.995,
+     "w": "día.",
+     "a": [
+      "día"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.385,
+     "e": 66.425,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.425,
+     "e": 66.745,
+     "w": "cuidado",
+     "a": [
+      "cuidado"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.745,
+     "e": 67.005,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.005,
+     "e": 67.125,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.125,
+     "e": 67.365,
+     "w": "calor:",
+     "a": [
+      "calor"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.845,
+     "e": 68.005,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.005,
+     "e": 68.425,
+     "w": "suda,",
+     "a": [
+      "suda"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.71,
+     "e": 68.825,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.825,
+     "e": 69.125,
+     "w": "arriba",
+     "a": [
+      "arriba"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.125,
+     "e": 69.305,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.305,
+     "e": 69.585,
+     "w": "30",
+     "a": [
+      "treinta",
+      "30"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.585,
+     "e": 70.145,
+     "w": "grados",
+     "a": [
+      "grados"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.145,
+     "e": 70.305,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.305,
+     "e": 70.565,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.565,
+     "e": 71.04,
+     "w": "morir.",
+     "a": [
+      "morir"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "huron13",
+   "sfx": [
+    [
+     "coin",
+     "bailarín."
+    ]
+   ],
+   "start": 70.92,
+   "dur": 5.85,
+   "text": "Ahora sí, tienes un hurón feliz. Ladrón, oloroso y bailarín.",
+   "words": [
+    {
+     "t": 71.04,
+     "e": 71.285,
+     "w": "Ahora",
+     "a": [
+      "ahora"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.285,
+     "e": 71.605,
+     "w": "sí,",
+     "a": [
+      "sí"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.82,
+     "e": 72.075,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.075,
+     "e": 72.355,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.355,
+     "e": 72.615,
+     "w": "hurón",
+     "a": [
+      "hurón"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.615,
+     "e": 72.935,
+     "w": "feliz.",
+     "a": [
+      "feliz"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.305,
+     "e": 73.865,
+     "w": "Ladrón,",
+     "a": [
+      "ladrón"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.02,
+     "e": 74.605,
+     "w": "oloroso",
+     "a": [
+      "oloroso"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.605,
+     "e": 74.925,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.925,
+     "e": 75.465,
+     "w": "bailarín.",
+     "a": [
+      "bailarín"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "id": "guacamayo",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "guacamayo1",
+   "text": "Si tu tío Claudio vuelve de Brasil y te regala un pájaro enorme, rojo, azul y amarillo, con una cola larguísima y un pico que parece un abrelatas… felicidades, tienes un guacamayo.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "guacamayo."
+    ]
+   ]
+  },
+  {
+   "scene": "guacamayo2",
+   "text": "Lo metes en una jaula, le pones semillas de girasol y listo.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "guacamayo3",
+   "text": "Pero a las seis de la mañana te despierta gritando como alarma.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "guacamayo4",
+   "text": "Es que en la selva viven en bandadas, y al amanecer y al atardecer se gritan para saber dónde está cada uno. Si está solo, te está buscando a ti. Esa es su forma de hablarte.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "hablarte."
+    ]
+   ]
+  },
+  {
+   "scene": "guacamayo5",
+   "text": "Pero a la semana notas que muerde todo: la jaula, los cables, la mesa.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "guacamayo6",
+   "text": "Es que su pico no para de crecer, como tus uñas. Necesita romper madera para gastarlo. Esos son sus juguetes.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "guacamayo7",
+   "text": "Pero no puede comer solo semillas de girasol.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "guacamayo8",
+   "text": "Es que son pura grasa. En la selva come frutas, nueces y semillas duras… y hasta lame tierra de las orillas de los ríos. Esa tierra le ayuda con los venenos de algunas semillas. Por eso come frutas, verduras y comida especial. Nada de aguacate ni chocolate: lo pueden matar.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "guacamayo9",
+   "text": "Pero lo más importante no es la comida.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "guacamayo10",
+   "text": "Es que un guacamayo puede vivir más de sesenta años. Más que tu tío… y a lo mejor más que tú.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "guacamayo11",
+   "text": "Ahora sí, tienes un guacamayo feliz. Y prepárate: probablemente lo hereden tus nietos.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "nietos."
+    ]
+   ]
+  }
+ ]
+}

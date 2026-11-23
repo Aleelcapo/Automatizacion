@@ -1,0 +1,119 @@
+{
+ "id": "iguana",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "iguana1",
+   "text": "Si tu tío Claudio vuelve de Costa Rica y te regala una lagartija verde, con picos en la espalda y una papada que le cuelga del cuello… felicidades, tienes una iguana.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "iguana."
+    ]
+   ]
+  },
+  {
+   "scene": "iguana2",
+   "text": "La pones en una pecera chiquita, junto a la ventana, le das grillos y listo.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "iguana3",
+   "text": "Pero a los meses ves que camina raro y que se le doblan las patas.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "iguana4",
+   "text": "Es que para tener huesos fuertes necesita calcio, y para usar el calcio necesita vitamina D. Y esa la fabrica con la luz del sol… pero el vidrio de la ventana bloquea justo la luz que necesita. Por eso lleva una lámpara especial, de luz ultravioleta. Ese es su sol.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "sol."
+    ]
+   ]
+  },
+  {
+   "scene": "iguana5",
+   "text": "Pero tampoco come grillos.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "iguana6",
+   "text": "Es que de grande come puras plantas: hojas verdes, flores y frutas. Demasiada carne le daña los riñones. Esa es su comida.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "comida."
+    ]
+   ]
+  },
+  {
+   "scene": "iguana7",
+   "text": "Pero aunque come, se queda quieta y no digiere nada.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "iguana8",
+   "text": "Es que su cuerpo no hace calor propio. Necesita calentarse a más de treinta grados para que su panza funcione. Por eso lleva una lámpara de calor y una rama para asolearse. Esa es su playa.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "playa."
+    ]
+   ]
+  },
+  {
+   "scene": "iguana9",
+   "text": "Pero un día la agarras de la cola… y se te queda la cola en la mano.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "iguana10",
+   "text": "Es que la suelta a propósito para escapar de los depredadores. Le vuelve a crecer, pero nunca igual.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "iguana11",
+   "text": "Y ahora sí, tienes una iguana feliz. Solo que esa pecera chiquita no va a alcanzar: de grande puede medir casi dos metros.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "metros."
+    ]
+   ]
+  }
+ ]
+}

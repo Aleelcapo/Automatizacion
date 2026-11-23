@@ -1,0 +1,114 @@
+{
+ "id": "perezoso",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "perezoso1",
+   "text": "Si tu tío Claudio vuelve de Costa Rica y te regala un peluche que se mueve en cámara lenta, con una sonrisa eterna y unas uñas larguísimas… felicidades, tienes un perezoso.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "perezoso."
+    ]
+   ]
+  },
+  {
+   "scene": "perezoso2",
+   "text": "Lo pones en el sillón, le das plátano y listo.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "perezoso3",
+   "text": "Pero a los días lo ves con la panza hinchada y sin moverse.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "perezoso4",
+   "text": "Es que come hojas, y su estómago es como el de una vaca: tiene varias partes y tarda semanas en digerir. El plátano le fermenta en la panza y lo enferma. Esa es su comida: hojas de los árboles de su selva.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "selva."
+    ]
+   ]
+  },
+  {
+   "scene": "perezoso5",
+   "text": "Pero no se queda en el sillón: se cuelga de la cortina, boca abajo.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "perezoso6",
+   "text": "Es que vive colgado. Sus órganos están pegados a sus costillas, para que colgando no le aplasten los pulmones. Necesita ramas para colgarse. Esa es su casa.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "casa."
+    ]
+   ]
+  },
+  {
+   "scene": "perezoso7",
+   "text": "Pero una semana entera… y no va al baño.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "perezoso8",
+   "text": "Es que hace popó una sola vez por semana. Y para eso, baja del árbol hasta el suelo.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "perezoso9",
+   "text": "Pero en tu casa lo ves temblando.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "perezoso10",
+   "text": "Es que su cuerpo es más frío que el tuyo, y gasta tan poca energía que no puede calentarse solo. Necesita calor todo el tiempo.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "perezoso11",
+   "text": "Ahora sí, tienes un perezoso. Pero en casi todos los países es ilegal tenerlo, y por cada perezoso que llega a una casa, muchos mueren en el camino. Su lugar… es la selva.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "selva."
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2391 @@
+{
+ "id": "camaleon",
+ "duration": 77.27,
+ "beats": [
+  {
+   "scene": "camaleon1",
+   "sfx": [
+    [
+     "coin",
+     "camaleón."
+    ]
+   ],
+   "start": 0.0,
+   "dur": 12.15,
+   "text": "Si tu tío Claudio vuelve de Madagascar y te regala una lagartija que cambia de color, con ojos que se mueven cada uno por su lado y una cola enrollada como resorte… felicidades, tienes un camaleón.",
+   "words": [
+    {
+     "t": 0.12,
+     "e": 0.295,
+     "w": "Si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.295,
+     "e": 0.435,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.435,
+     "e": 0.635,
+     "w": "tío",
+     "a": [
+      "tío"
+     ],
+     "k": false
+    },
+    {
+     "t": 0.635,
+     "e": 1.095,
+     "w": "Claudio",
+     "a": [
+      "claudio"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.095,
+     "e": 1.515,
+     "w": "vuelve",
+     "a": [
+      "vuelve"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.515,
+     "e": 1.655,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 1.655,
+     "e": 2.355,
+     "w": "Madagascar",
+     "a": [
+      "madagascar"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.355,
+     "e": 2.555,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.555,
+     "e": 2.675,
+     "w": "te",
+     "a": [
+      "te"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.675,
+     "e": 2.975,
+     "w": "regala",
+     "a": [
+      "regala"
+     ],
+     "k": false
+    },
+    {
+     "t": 2.975,
+     "e": 3.175,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.175,
+     "e": 3.855,
+     "w": "lagartija",
+     "a": [
+      "lagartija"
+     ],
+     "k": false
+    },
+    {
+     "t": 3.855,
+     "e": 4.035,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.035,
+     "e": 4.455,
+     "w": "cambia",
+     "a": [
+      "cambia"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.455,
+     "e": 4.595,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 4.595,
+     "e": 4.875,
+     "w": "color,",
+     "a": [
+      "color"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.14,
+     "e": 5.305,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.305,
+     "e": 5.485,
+     "w": "ojos",
+     "a": [
+      "ojos"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.485,
+     "e": 5.725,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.725,
+     "e": 5.845,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 5.845,
+     "e": 6.145,
+     "w": "mueven",
+     "a": [
+      "mueven"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.145,
+     "e": 6.465,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.465,
+     "e": 6.745,
+     "w": "uno",
+     "a": [
+      "uno"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.745,
+     "e": 6.965,
+     "w": "por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 6.965,
+     "e": 7.105,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.105,
+     "e": 7.365,
+     "w": "lado",
+     "a": [
+      "lado"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.365,
+     "e": 7.645,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.645,
+     "e": 7.865,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 7.865,
+     "e": 8.105,
+     "w": "cola",
+     "a": [
+      "cola"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.105,
+     "e": 8.745,
+     "w": "enrollada",
+     "a": [
+      "enrollada"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.745,
+     "e": 8.985,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 8.985,
+     "e": 9.465,
+     "w": "resorte…",
+     "a": [
+      "resorte"
+     ],
+     "k": false
+    },
+    {
+     "t": 9.78,
+     "e": 10.395,
+     "w": "felicidades,",
+     "a": [
+      "felicidades"
+     ],
+     "k": false
+    },
+    {
+     "t": 10.85,
+     "e": 11.135,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.135,
+     "e": 11.395,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 11.395,
+     "e": 11.975,
+     "w": "camaleón.",
+     "a": [
+      "camaleón"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "camaleon2",
+   "sfx": [],
+   "start": 12.15,
+   "dur": 4.05,
+   "text": "Lo pones en una pecera de vidrio, le pones un platito de agua y listo.",
+   "words": [
+    {
+     "t": 12.27,
+     "e": 12.395,
+     "w": "Lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.395,
+     "e": 12.635,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.635,
+     "e": 12.835,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.835,
+     "e": 12.975,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 12.975,
+     "e": 13.295,
+     "w": "pecera",
+     "a": [
+      "pecera"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.295,
+     "e": 13.475,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 13.475,
+     "e": 13.815,
+     "w": "vidrio,",
+     "a": [
+      "vidrio"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.065,
+     "e": 14.145,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.145,
+     "e": 14.385,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.385,
+     "e": 14.565,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.565,
+     "e": 14.905,
+     "w": "platito",
+     "a": [
+      "platito"
+     ],
+     "k": false
+    },
+    {
+     "t": 14.905,
+     "e": 15.085,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.085,
+     "e": 15.365,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.365,
+     "e": 15.685,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 15.685,
+     "e": 16.32,
+     "w": "listo.",
+     "a": [
+      "listo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "camaleon3",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 16.2,
+   "dur": 4.43,
+   "text": "Pero a los días notas que tiene los ojos hundidos, y nunca lo ves tomar agua.",
+   "words": [
+    {
+     "t": 16.32,
+     "e": 16.465,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.465,
+     "e": 16.565,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.565,
+     "e": 16.725,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.725,
+     "e": 16.945,
+     "w": "días",
+     "a": [
+      "días"
+     ],
+     "k": false
+    },
+    {
+     "t": 16.945,
+     "e": 17.545,
+     "w": "notas",
+     "a": [
+      "notas"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.545,
+     "e": 17.685,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.685,
+     "e": 17.905,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 17.905,
+     "e": 18.085,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.085,
+     "e": 18.325,
+     "w": "ojos",
+     "a": [
+      "ojos"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.325,
+     "e": 18.885,
+     "w": "hundidos,",
+     "a": [
+      "hundidos"
+     ],
+     "k": false
+    },
+    {
+     "t": 18.885,
+     "e": 19.245,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.245,
+     "e": 19.525,
+     "w": "nunca",
+     "a": [
+      "nunca"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.525,
+     "e": 19.765,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.765,
+     "e": 19.905,
+     "w": "ves",
+     "a": [
+      "ves"
+     ],
+     "k": false
+    },
+    {
+     "t": 19.905,
+     "e": 20.165,
+     "w": "tomar",
+     "a": [
+      "tomar"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.165,
+     "e": 20.465,
+     "w": "agua.",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "camaleon4",
+   "sfx": [
+    [
+     "stamp",
+     "agua."
+    ]
+   ],
+   "start": 20.63,
+   "dur": 12.07,
+   "text": "Es que no sabe tomar del plato: para él, el agua quieta no existe. Toma las gotas que caen de las hojas. Por eso necesita que le rocíes las plantas o un goteo, como si lloviera. Esa es su agua.",
+   "words": [
+    {
+     "t": 20.75,
+     "e": 20.875,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.875,
+     "e": 20.995,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 20.995,
+     "e": 21.235,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.235,
+     "e": 21.635,
+     "w": "sabe",
+     "a": [
+      "sabe"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.635,
+     "e": 21.895,
+     "w": "tomar",
+     "a": [
+      "tomar"
+     ],
+     "k": false
+    },
+    {
+     "t": 21.895,
+     "e": 22.115,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.115,
+     "e": 22.475,
+     "w": "plato:",
+     "a": [
+      "plato"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.8,
+     "e": 22.975,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 22.975,
+     "e": 23.275,
+     "w": "él,",
+     "a": [
+      "él"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.275,
+     "e": 23.595,
+     "w": "el",
+     "a": [
+      "el"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.595,
+     "e": 23.795,
+     "w": "agua",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    },
+    {
+     "t": 23.795,
+     "e": 24.275,
+     "w": "quieta",
+     "a": [
+      "quieta"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.275,
+     "e": 24.475,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 24.475,
+     "e": 24.955,
+     "w": "existe.",
+     "a": [
+      "existe"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.22,
+     "e": 25.395,
+     "w": "Toma",
+     "a": [
+      "toma"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.395,
+     "e": 25.615,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.615,
+     "e": 25.975,
+     "w": "gotas",
+     "a": [
+      "gotas"
+     ],
+     "k": false
+    },
+    {
+     "t": 25.975,
+     "e": 26.135,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.135,
+     "e": 26.435,
+     "w": "caen",
+     "a": [
+      "caen"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.435,
+     "e": 26.515,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.515,
+     "e": 26.695,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.695,
+     "e": 26.995,
+     "w": "hojas.",
+     "a": [
+      "hojas"
+     ],
+     "k": false
+    },
+    {
+     "t": 26.995,
+     "e": 27.505,
+     "w": "Por",
+     "a": [
+      "por"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.505,
+     "e": 27.765,
+     "w": "eso",
+     "a": [
+      "eso"
+     ],
+     "k": false
+    },
+    {
+     "t": 27.765,
+     "e": 28.225,
+     "w": "necesita",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.225,
+     "e": 28.445,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.445,
+     "e": 28.565,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.565,
+     "e": 28.885,
+     "w": "rocíes",
+     "a": [
+      "rocíes"
+     ],
+     "k": false
+    },
+    {
+     "t": 28.885,
+     "e": 29.105,
+     "w": "las",
+     "a": [
+      "las"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.105,
+     "e": 29.645,
+     "w": "plantas",
+     "a": [
+      "plantas"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.645,
+     "e": 29.845,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 29.845,
+     "e": 30.025,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.025,
+     "e": 30.465,
+     "w": "goteo,",
+     "a": [
+      "goteo"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.465,
+     "e": 30.715,
+     "w": "como",
+     "a": [
+      "como"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.715,
+     "e": 30.875,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 30.875,
+     "e": 31.255,
+     "w": "lloviera.",
+     "a": [
+      "lloviera"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.57,
+     "e": 31.945,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 31.945,
+     "e": 32.085,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.085,
+     "e": 32.245,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.245,
+     "e": 32.525,
+     "w": "agua.",
+     "a": [
+      "agua"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "camaleon5",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 32.7,
+   "dur": 2.82,
+   "text": "Pero cada vez que lo agarras, se pone oscuro.",
+   "words": [
+    {
+     "t": 32.82,
+     "e": 32.965,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 32.965,
+     "e": 33.305,
+     "w": "cada",
+     "a": [
+      "cada"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.305,
+     "e": 33.545,
+     "w": "vez",
+     "a": [
+      "vez"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.545,
+     "e": 33.705,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.705,
+     "e": 33.805,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 33.805,
+     "e": 34.285,
+     "w": "agarras,",
+     "a": [
+      "agarras"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.285,
+     "e": 34.665,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.665,
+     "e": 34.885,
+     "w": "pone",
+     "a": [
+      "pone"
+     ],
+     "k": false
+    },
+    {
+     "t": 34.885,
+     "e": 35.325,
+     "w": "oscuro.",
+     "a": [
+      "oscuro"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "camaleon6",
+   "sfx": [],
+   "start": 35.52,
+   "dur": 13.72,
+   "text": "Es que cambiar de color no es solo para esconderse: es para hablar. En su piel tiene cristales diminutos, y cuando los junta o los separa, rebotan otros colores. Oscuro quiere decir estrés. Se mira, pero no se toca.",
+   "words": [
+    {
+     "t": 35.64,
+     "e": 35.765,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.765,
+     "e": 35.865,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 35.865,
+     "e": 36.225,
+     "w": "cambiar",
+     "a": [
+      "cambiar"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.225,
+     "e": 36.365,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.365,
+     "e": 36.625,
+     "w": "color",
+     "a": [
+      "color"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.625,
+     "e": 36.945,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 36.945,
+     "e": 37.105,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.105,
+     "e": 37.305,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.305,
+     "e": 37.525,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 37.525,
+     "e": 38.165,
+     "w": "esconderse:",
+     "a": [
+      "esconderse"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.43,
+     "e": 38.615,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.615,
+     "e": 38.855,
+     "w": "para",
+     "a": [
+      "para"
+     ],
+     "k": false
+    },
+    {
+     "t": 38.855,
+     "e": 39.215,
+     "w": "hablar.",
+     "a": [
+      "hablar"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.55,
+     "e": 39.675,
+     "w": "En",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.675,
+     "e": 39.835,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 39.835,
+     "e": 40.095,
+     "w": "piel",
+     "a": [
+      "piel"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.095,
+     "e": 40.455,
+     "w": "tiene",
+     "a": [
+      "tiene"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.455,
+     "e": 40.975,
+     "w": "cristales",
+     "a": [
+      "cristales"
+     ],
+     "k": false
+    },
+    {
+     "t": 40.975,
+     "e": 41.655,
+     "w": "diminutos,",
+     "a": [
+      "diminutos"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.655,
+     "e": 41.975,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 41.975,
+     "e": 42.155,
+     "w": "cuando",
+     "a": [
+      "cuando"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.155,
+     "e": 42.355,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.355,
+     "e": 42.815,
+     "w": "junta",
+     "a": [
+      "junta"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.815,
+     "e": 42.975,
+     "w": "o",
+     "a": [
+      "o"
+     ],
+     "k": false
+    },
+    {
+     "t": 42.975,
+     "e": 43.095,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.095,
+     "e": 43.595,
+     "w": "separa,",
+     "a": [
+      "separa"
+     ],
+     "k": false
+    },
+    {
+     "t": 43.595,
+     "e": 44.275,
+     "w": "rebotan",
+     "a": [
+      "rebotan"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.275,
+     "e": 44.475,
+     "w": "otros",
+     "a": [
+      "otros"
+     ],
+     "k": false
+    },
+    {
+     "t": 44.475,
+     "e": 44.935,
+     "w": "colores.",
+     "a": [
+      "colores"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.33,
+     "e": 45.775,
+     "w": "Oscuro",
+     "a": [
+      "oscuro"
+     ],
+     "k": false
+    },
+    {
+     "t": 45.775,
+     "e": 46.075,
+     "w": "quiere",
+     "a": [
+      "quiere"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.075,
+     "e": 46.435,
+     "w": "decir",
+     "a": [
+      "decir"
+     ],
+     "k": false
+    },
+    {
+     "t": 46.435,
+     "e": 47.115,
+     "w": "estrés.",
+     "a": [
+      "estrés"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.57,
+     "e": 47.755,
+     "w": "Se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.755,
+     "e": 47.975,
+     "w": "mira,",
+     "a": [
+      "mira"
+     ],
+     "k": false
+    },
+    {
+     "t": 47.975,
+     "e": 48.345,
+     "w": "pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.345,
+     "e": 48.605,
+     "w": "no",
+     "a": [
+      "no"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.605,
+     "e": 48.805,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 48.805,
+     "e": 49.025,
+     "w": "toca.",
+     "a": [
+      "toca"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "camaleon7",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 49.24,
+   "dur": 3.355,
+   "text": "Pero en esa pecera de vidrio se la pasa peleando con su reflejo.",
+   "words": [
+    {
+     "t": 49.36,
+     "e": 49.515,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.515,
+     "e": 49.655,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.655,
+     "e": 49.815,
+     "w": "esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 49.815,
+     "e": 50.155,
+     "w": "pecera",
+     "a": [
+      "pecera"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.155,
+     "e": 50.335,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.335,
+     "e": 50.675,
+     "w": "vidrio",
+     "a": [
+      "vidrio"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.675,
+     "e": 50.895,
+     "w": "se",
+     "a": [
+      "se"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.895,
+     "e": 50.995,
+     "w": "la",
+     "a": [
+      "la"
+     ],
+     "k": false
+    },
+    {
+     "t": 50.995,
+     "e": 51.195,
+     "w": "pasa",
+     "a": [
+      "pasa"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.195,
+     "e": 51.855,
+     "w": "peleando",
+     "a": [
+      "peleando"
+     ],
+     "k": false
+    },
+    {
+     "t": 51.855,
+     "e": 52.055,
+     "w": "con",
+     "a": [
+      "con"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.055,
+     "e": 52.215,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 52.215,
+     "e": 52.715,
+     "w": "reflejo.",
+     "a": [
+      "reflejo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "camaleon8",
+   "sfx": [
+    [
+     "stamp",
+     "casa."
+    ]
+   ],
+   "start": 52.595,
+   "dur": 9.57,
+   "text": "Es que vive solo en los árboles, y si ve otro camaleón, cree que es un rival. Necesita una jaula de malla, alta y llena de ramas. Esa es su casa.",
+   "words": [
+    {
+     "t": 52.715,
+     "e": 53.085,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.085,
+     "e": 53.225,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.225,
+     "e": 53.425,
+     "w": "vive",
+     "a": [
+      "vive"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.425,
+     "e": 53.785,
+     "w": "solo",
+     "a": [
+      "solo"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.785,
+     "e": 53.965,
+     "w": "en",
+     "a": [
+      "en"
+     ],
+     "k": false
+    },
+    {
+     "t": 53.965,
+     "e": 54.065,
+     "w": "los",
+     "a": [
+      "los"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.065,
+     "e": 54.505,
+     "w": "árboles,",
+     "a": [
+      "árboles"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.505,
+     "e": 54.845,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.845,
+     "e": 54.985,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 54.985,
+     "e": 55.145,
+     "w": "ve",
+     "a": [
+      "ve"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.145,
+     "e": 55.325,
+     "w": "otro",
+     "a": [
+      "otro"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.325,
+     "e": 55.905,
+     "w": "camaleón,",
+     "a": [
+      "camaleón"
+     ],
+     "k": false
+    },
+    {
+     "t": 55.905,
+     "e": 56.285,
+     "w": "cree",
+     "a": [
+      "cree"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.285,
+     "e": 56.485,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.485,
+     "e": 56.645,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.645,
+     "e": 56.765,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 56.765,
+     "e": 57.005,
+     "w": "rival.",
+     "a": [
+      "rival"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.46,
+     "e": 57.955,
+     "w": "Necesita",
+     "a": [
+      "necesita"
+     ],
+     "k": false
+    },
+    {
+     "t": 57.955,
+     "e": 58.115,
+     "w": "una",
+     "a": [
+      "una"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.115,
+     "e": 58.475,
+     "w": "jaula",
+     "a": [
+      "jaula"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.475,
+     "e": 58.615,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.615,
+     "e": 58.955,
+     "w": "malla,",
+     "a": [
+      "malla"
+     ],
+     "k": false
+    },
+    {
+     "t": 58.955,
+     "e": 59.455,
+     "w": "alta",
+     "a": [
+      "alta"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.455,
+     "e": 59.755,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 59.755,
+     "e": 60.075,
+     "w": "llena",
+     "a": [
+      "llena"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.075,
+     "e": 60.195,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.195,
+     "e": 60.655,
+     "w": "ramas.",
+     "a": [
+      "ramas"
+     ],
+     "k": false
+    },
+    {
+     "t": 60.985,
+     "e": 61.265,
+     "w": "Esa",
+     "a": [
+      "esa"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.265,
+     "e": 61.385,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.385,
+     "e": 61.505,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 61.505,
+     "e": 61.765,
+     "w": "casa.",
+     "a": [
+      "casa"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "camaleon9",
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ],
+   "start": 62.165,
+   "dur": 2.67,
+   "text": "Pero un día le pones un grillo y desaparece.",
+   "words": [
+    {
+     "t": 62.285,
+     "e": 62.305,
+     "w": "Pero",
+     "a": [
+      "pero"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.305,
+     "e": 62.485,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.485,
+     "e": 62.725,
+     "w": "día",
+     "a": [
+      "día"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.725,
+     "e": 62.985,
+     "w": "le",
+     "a": [
+      "le"
+     ],
+     "k": false
+    },
+    {
+     "t": 62.985,
+     "e": 63.265,
+     "w": "pones",
+     "a": [
+      "pones"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.265,
+     "e": 63.445,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.445,
+     "e": 63.785,
+     "w": "grillo",
+     "a": [
+      "grillo"
+     ],
+     "k": false
+    },
+    {
+     "t": 63.785,
+     "e": 64.075,
+     "w": "y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 64.075,
+     "e": 64.93,
+     "w": "desaparece.",
+     "a": [
+      "desaparece"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "camaleon10",
+   "sfx": [],
+   "start": 64.835,
+   "dur": 5.905,
+   "text": "Es que su lengua sale disparada a más del doble de largo de su cuerpo, más rápido de lo que tu ojo puede ver.",
+   "words": [
+    {
+     "t": 64.955,
+     "e": 65.035,
+     "w": "Es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.035,
+     "e": 65.155,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.155,
+     "e": 65.315,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.315,
+     "e": 65.675,
+     "w": "lengua",
+     "a": [
+      "lengua"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.675,
+     "e": 65.935,
+     "w": "sale",
+     "a": [
+      "sale"
+     ],
+     "k": false
+    },
+    {
+     "t": 65.935,
+     "e": 66.555,
+     "w": "disparada",
+     "a": [
+      "disparada"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.555,
+     "e": 66.695,
+     "w": "a",
+     "a": [
+      "a"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.695,
+     "e": 66.895,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 66.895,
+     "e": 67.095,
+     "w": "del",
+     "a": [
+      "del"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.095,
+     "e": 67.435,
+     "w": "doble",
+     "a": [
+      "doble"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.435,
+     "e": 67.555,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.555,
+     "e": 67.775,
+     "w": "largo",
+     "a": [
+      "largo"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.775,
+     "e": 67.935,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 67.935,
+     "e": 68.075,
+     "w": "su",
+     "a": [
+      "su"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.075,
+     "e": 68.435,
+     "w": "cuerpo,",
+     "a": [
+      "cuerpo"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.65,
+     "e": 68.875,
+     "w": "más",
+     "a": [
+      "más"
+     ],
+     "k": false
+    },
+    {
+     "t": 68.875,
+     "e": 69.295,
+     "w": "rápido",
+     "a": [
+      "rápido"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.295,
+     "e": 69.495,
+     "w": "de",
+     "a": [
+      "de"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.495,
+     "e": 69.575,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.575,
+     "e": 69.695,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.695,
+     "e": 69.855,
+     "w": "tu",
+     "a": [
+      "tu"
+     ],
+     "k": false
+    },
+    {
+     "t": 69.855,
+     "e": 70.095,
+     "w": "ojo",
+     "a": [
+      "ojo"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.095,
+     "e": 70.335,
+     "w": "puede",
+     "a": [
+      "puede"
+     ],
+     "k": false
+    },
+    {
+     "t": 70.335,
+     "e": 70.86,
+     "w": "ver.",
+     "a": [
+      "ver"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  },
+  {
+   "scene": "camaleon11",
+   "sfx": [
+    [
+     "coin",
+     "tranquilo."
+    ]
+   ],
+   "start": 70.74,
+   "dur": 6.53,
+   "text": "Ahora sí, tienes un camaleón feliz. Y si lo ves verde brillante… es que está tranquilo.",
+   "words": [
+    {
+     "t": 70.86,
+     "e": 71.155,
+     "w": "Ahora",
+     "a": [
+      "ahora"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.155,
+     "e": 71.495,
+     "w": "sí,",
+     "a": [
+      "sí"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.495,
+     "e": 71.885,
+     "w": "tienes",
+     "a": [
+      "tienes"
+     ],
+     "k": false
+    },
+    {
+     "t": 71.885,
+     "e": 72.125,
+     "w": "un",
+     "a": [
+      "un"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.125,
+     "e": 72.665,
+     "w": "camaleón",
+     "a": [
+      "camaleón"
+     ],
+     "k": false
+    },
+    {
+     "t": 72.665,
+     "e": 72.945,
+     "w": "feliz.",
+     "a": [
+      "feliz"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.29,
+     "e": 73.395,
+     "w": "Y",
+     "a": [
+      "y"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.395,
+     "e": 73.495,
+     "w": "si",
+     "a": [
+      "si"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.495,
+     "e": 73.635,
+     "w": "lo",
+     "a": [
+      "lo"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.635,
+     "e": 73.815,
+     "w": "ves",
+     "a": [
+      "ves"
+     ],
+     "k": false
+    },
+    {
+     "t": 73.815,
+     "e": 74.155,
+     "w": "verde",
+     "a": [
+      "verde"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.155,
+     "e": 74.755,
+     "w": "brillante…",
+     "a": [
+      "brillante"
+     ],
+     "k": false
+    },
+    {
+     "t": 74.755,
+     "e": 75.115,
+     "w": "es",
+     "a": [
+      "es"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.115,
+     "e": 75.255,
+     "w": "que",
+     "a": [
+      "que"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.255,
+     "e": 75.455,
+     "w": "está",
+     "a": [
+      "está"
+     ],
+     "k": false
+    },
+    {
+     "t": 75.455,
+     "e": 75.995,
+     "w": "tranquilo.",
+     "a": [
+      "tranquilo"
+     ],
+     "k": false
+    }
+   ],
+   "escena": null
+  }
+ ],
+ "estilo": {
+  "subtitulos": false
+ }
+}

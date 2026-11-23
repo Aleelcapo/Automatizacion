@@ -1,0 +1,114 @@
+{
+ "id": "ajolote_m",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "ajolote_m1",
+   "text": "Si tu tío Claudio vuelve de México y te regala un bichito rosado, que sonríe todo el tiempo y tiene como plumitas en la cabeza… felicidades, tienes un ajolote.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "ajolote."
+    ]
+   ]
+  },
+  {
+   "scene": "ajolote_m2",
+   "text": "Lo pones en una pecera con piedritas de colores, una lámpara bien fuerte y listo.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ajolote_m3",
+   "text": "Pero a los días notas que no come y anda con la panza hinchada.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "ajolote_m4",
+   "text": "Es que el ajolote come chupando todo lo que tiene enfrente, de golpe. Se traga las piedritas y se le tapan las tripas. Por eso el fondo va limpio o con arena muy fina. Ese es su piso.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "piso."
+    ]
+   ]
+  },
+  {
+   "scene": "ajolote_m5",
+   "text": "Pero luego notas que las plumitas de la cabeza se le encogen.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "ajolote_m6",
+   "text": "Es que esas plumitas son sus branquias: respira por ahí. Si el agua está sucia, se le queman y se encogen. Cuando están grandes y esponjadas, está feliz. Por eso necesita un filtro suave y cambiarle parte del agua cada semana.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ajolote_m7",
+   "text": "Pero en verano lo ves flotando, sin ganas de nada.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "ajolote_m8",
+   "text": "Es que viene de lagos fríos. Arriba de veinte grados se estresa, y con más calor se enferma. Esa es su temperatura.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "temperatura."
+    ]
+   ]
+  },
+  {
+   "scene": "ajolote_m9",
+   "text": "Pero cuando lo quieres agarrar, se te resbala y le queda la piel marcada.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "Pero"
+    ]
+   ]
+  },
+  {
+   "scene": "ajolote_m10",
+   "text": "Es que su piel tiene una capa de baba que lo protege, y tus manos se la quitan. Se mira, pero no se toca.",
+   "keys": [],
+   "sfx": []
+  },
+  {
+   "scene": "ajolote_m11",
+   "text": "Ahora sí, tienes un ajolote feliz. Y lo más raro: si se lastima una pata… le vuelve a crecer.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "crecer."
+    ]
+   ]
+  }
+ ]
+}
