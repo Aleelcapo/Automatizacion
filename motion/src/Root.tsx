@@ -32,6 +32,7 @@ import {DURACION_ERIZO, ErizoVideo} from './ilustra/Erizo';
 import {DURACION_TORTUGA, TortugaVideo} from './ilustra/Tortuga';
 import {DURACION_PEREZOSO, PerezosoVideo} from './ilustra/Perezoso';
 import {DURACION_HURON, HuronVideo} from './ilustra/Huron';
+import {DURACION_PETAURO, PetauroVideo} from './ilustra/Petauro';
 
 for (const [archivo, peso] of [
   ['Inter-SemiBold.otf', '600'],
@@ -83,6 +84,7 @@ export const Root: React.FC = () => (
     <Composition id="tortuga" component={TortugaVideo} durationInFrames={Math.ceil(DURACION_TORTUGA * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="perezoso" component={PerezosoVideo} durationInFrames={Math.ceil(DURACION_PEREZOSO * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="huron" component={HuronVideo} durationInFrames={Math.ceil(DURACION_HURON * FPS)} fps={FPS} width={W} height={H} />
+    <Composition id="petauro" component={PetauroVideo} durationInFrames={Math.ceil(DURACION_PETAURO * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="extintor" component={ExtintorVideo} durationInFrames={Math.ceil(DURACION_EXTINTOR * FPS)} fps={FPS} width={W} height={H} />
   </>
 );
