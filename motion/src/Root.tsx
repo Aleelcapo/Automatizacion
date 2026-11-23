@@ -26,6 +26,7 @@ import {CachaloteVideo, DURACION_CACHALOTE} from './ilustra/Cachalote';
 import {DURACION_TUCAN, TucanVideo} from './ilustra/Tucan';
 import {AjoloteVideo, DURACION_AJOLOTE} from './ilustra/Ajolote';
 import {DURACION_GUACAMAYO, GuacamayoVideo} from './ilustra/Guacamayo';
+import {DURACION_IGUANA, IguanaVideo} from './ilustra/Iguana';
 
 for (const [archivo, peso] of [
   ['Inter-SemiBold.otf', '600'],
@@ -71,6 +72,7 @@ export const Root: React.FC = () => (
     <Composition id="tucan" component={TucanVideo} durationInFrames={Math.ceil(DURACION_TUCAN * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="ajolote2" component={AjoloteVideo} durationInFrames={Math.ceil(DURACION_AJOLOTE * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="guacamayo" component={GuacamayoVideo} durationInFrames={Math.ceil(DURACION_GUACAMAYO * FPS)} fps={FPS} width={W} height={H} />
+    <Composition id="iguana" component={IguanaVideo} durationInFrames={Math.ceil(DURACION_IGUANA * FPS)} fps={FPS} width={W} height={H} />
     <Composition id="extintor" component={ExtintorVideo} durationInFrames={Math.ceil(DURACION_EXTINTOR * FPS)} fps={FPS} width={W} height={H} />
   </>
 );
