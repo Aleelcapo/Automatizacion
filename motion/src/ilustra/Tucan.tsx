@@ -4,7 +4,7 @@ import {mergeGeometries} from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import {AbsoluteFill, Audio, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {ThreeCanvas} from '@remotion/three';
 import datos from '../data/tucan.json';
-import {Camara, G, Luces, P, Papel, Pose, caja, canvasTex, cil, cl, cuerpoSecciones, esf, lerp, poseCamara, r, rnd, tiemposPalabras, ventana} from './kit';
+import {Camara, G, Luces, P, Papel, Pose, caja, canvasTex, cil, cl, cuerpoSecciones, esf, lerp, poseCamara, r, rnd, suave, texNube, tiemposPalabras, tuboAhusado, ventana} from './kit';
 import {FUENTE} from '../serie/tema';
 
 export const DURACION_TUCAN = (datos as any).duration as number;
@@ -226,20 +226,62 @@ const Pico: React.FC<{t: number; escala: number; corte: number}> = ({t, escala, 
 };
 
 // ---------- tucán ----------
-const Ojo: React.FC<{z: number}> = ({z}) => (
+const Ojo: React.FC<{z: number; cierre?: number}> = ({z, cierre = 1}) => (
   <group position={[0.07, 0.03, z]} rotation={[Math.PI / 2, 0, 0]}>
     <P geo={cil(0.075, 0.075, 0.02, 24)} color="#4fb7e6" linea={0} silueta={1.6} sombra={false} />
     <P geo={cil(0.05, 0.05, 0.024, 24)} color="#ff9a2e" linea={0} silueta={0} sombra={false} />
     <P geo={esf(0.036, 16)} color="#121216" position={[0, Math.sign(z) * 0.012, 0]} linea={0} silueta={0} sombra={false} />
     <P geo={esf(0.012, 8)} color="#ffffff" position={[0.012, Math.sign(z) * 0.04, -0.012]} linea={0} silueta={0} sombra={false} />
+    {cierre < 0.99 && <P geo={caja(0.17, 0.03, 0.1)} color={NEGRO} position={[0, Math.sign(z) * 0.035, -(0.085 - (1 - cierre) * 0.075)]} linea={0} silueta={0} sombra={false} />}
   </group>
 );
 
-const Tucan: React.FC<{t: number; picoEsc?: number; pechoEsc?: number; cabeza?: number; corte?: number}> = ({t, picoEsc = 1, pechoEsc = 1, cabeza = 0, corte = 0}) => {
+const geoMedia = (rr: number, s: number) => G(`media|${rr}|${s}`, () => new THREE.SphereGeometry(rr, s, Math.round(s * 0.66), Math.PI, Math.PI));
+const geoTapaC = (rr: number) => G(`tapaC|${rr}`, () => new THREE.CircleGeometry(rr, 40));
+
+// vasos sanguíneos del pico (cara +z)
+const caraZ = (x: number, yRel: number) => {
+  const [w, up, dn] = perfil(x);
+  const h = yRel >= 0 ? up : dn;
+  const k = Math.min(0.97, Math.abs(yRel) / Math.max(h, 1e-3));
+  return w * Math.pow(1 - Math.pow(k, 2.2), 1 / 2.2) + 0.004;
+};
+const RUTAS: [number, number][][] = [
+  [[0.14, 0.02], [0.3, 0.03], [0.5, 0.02], [0.7, 0.0], [0.84, -0.005]],
+  [[0.2, 0.0], [0.35, 0.07], [0.55, 0.07], [0.72, 0.04]],
+  [[0.22, 0.0], [0.38, -0.05], [0.58, -0.035], [0.76, -0.02]],
+  [[0.4, 0.07], [0.5, 0.1], [0.62, 0.08]],
+  [[0.45, -0.04], [0.55, -0.055], [0.66, -0.03]],
+];
+const geoVasos = () =>
+  mergeGeometries(
+    RUTAS.map((ruta, i) =>
+      tuboAhusado(
+        ruta.map(([x, y]) => new THREE.Vector3(x, y + curva(x), caraZ(x, y))),
+        (u) => (i === 0 ? 0.011 : 0.008) * (1 - 0.5 * u),
+        40,
+        6,
+      ),
+    ),
+  );
+
+const Tucan: React.FC<{
+  t: number;
+  picoEsc?: number;
+  pechoEsc?: number;
+  cabeza?: number;
+  corte?: number;
+  corteCuerpo?: boolean;
+  hierro?: number;
+  higado?: number;
+  vasos?: number; // 1 = calor (rojo), -1 = frío
+  ojos?: number; // 1 abiertos, 0.3 cansado
+}> = ({t, picoEsc = 1, pechoEsc = 1, cabeza = 0, corte = 0, corteCuerpo = false, hierro = 0, higado = 0, vasos = 0, ojos = 1}) => {
   const resp = Math.sin(t * 2.2) * 0.012;
+  const vg = G('vasosPico', geoVasos);
+  const colHig = new THREE.Color('#a0352f').lerp(new THREE.Color('#3b1a12'), higado).getStyle();
   return (
     <group>
-      {/* patas */}
       {[-1, 1].map((s) => (
         <group key={s} position={[0.02, 0, s * 0.09]}>
           <P geo={cil(0.022, 0.022, 0.22, 8)} color="#5a7fd6" position={[0, 0.11, 0]} linea={0} silueta={1.6} />
@@ -247,23 +289,53 @@ const Tucan: React.FC<{t: number; picoEsc?: number; pechoEsc?: number; cabeza?: 
         </group>
       ))}
       <group position={[0, resp, 0]}>
-        {/* cola */}
         <P geo={caja(0.5, 0.05, 0.17)} color={NEGRO} position={[-0.42, 0.3, 0]} rotation={[0, 0, 0.75]} umbral={40} />
         <P geo={esf(0.1, 16)} color="#e5352c" position={[-0.2, 0.25, 0]} scale={[1, 0.7, 1.2]} linea={0} />
-        {/* cuerpo */}
-        <P geo={esf(0.3, 28)} color={NEGRO} position={[-0.02, 0.5, 0]} scale={[1, 1.35, 1]} rotation={[0, 0, -0.25]} linea={0} />
-        {/* alas */}
-        {[-1, 1].map((s) => (
-          <P key={s} geo={esf(0.26, 20)} color="#17181e" position={[-0.1, 0.5, s * 0.25]} scale={[1.15, 1.2, 0.28]} rotation={[0, 0, -0.45]} linea={0} />
-        ))}
-        {/* pecho */}
-        <P geo={esf(0.2, 24)} color={PECHO} position={[0.16, 0.7, 0]} scale={[0.6 * pechoEsc, 1.05 * pechoEsc, 1.15 * pechoEsc]} linea={0} silueta={1.8} />
-        {/* cabeza */}
+        {!corteCuerpo ? (
+          <>
+            <P geo={esf(0.3, 28)} color={NEGRO} position={[-0.02, 0.5, 0]} scale={[1, 1.35, 1]} rotation={[0, 0, -0.25]} linea={0} />
+            {[-1, 1].map((s) => (
+              <P key={s} geo={esf(0.26, 20)} color="#17181e" position={[-0.1, 0.5, s * 0.25]} scale={[1.15, 1.2, 0.28]} rotation={[0, 0, -0.45]} linea={0} />
+            ))}
+            <P geo={esf(0.2, 24)} color={PECHO} position={[0.16, 0.7, 0]} scale={[0.6 * pechoEsc, 1.05 * pechoEsc, 1.15 * pechoEsc]} linea={0} silueta={1.8} />
+          </>
+        ) : (
+          <>
+            <group position={[-0.02, 0.5, 0]} scale={[1, 1.35, 1]} rotation={[0, 0, -0.25]}>
+              <P geo={geoMedia(0.3, 28)} color={NEGRO} linea={0} silueta={2} doble />
+              <P geo={geoTapaC(0.3)} color="#f2a39b" position={[0, 0, 0.001]} linea={0} silueta={0} />
+              <P geo={geoTapaC(0.27)} color="#e98b84" position={[0, 0, 0.002]} linea={0} silueta={0} />
+            </group>
+            <P geo={esf(0.26, 20)} color="#17181e" position={[-0.1, 0.5, -0.25]} scale={[1.15, 1.2, 0.28]} rotation={[0, 0, -0.45]} linea={0} />
+            <group position={[0.16, 0.7, 0]} scale={[0.6, 1.05, 1.15]}>
+              <P geo={geoMedia(0.2, 24)} color={PECHO} linea={0} silueta={0} doble />
+            </group>
+            {/* tubo digestivo */}
+            <P geo={G('tripa', () => tuboAhusado([new THREE.Vector3(0.14, 0.86, 0), new THREE.Vector3(0.12, 0.7, 0), new THREE.Vector3(0.0, 0.52, 0), new THREE.Vector3(-0.08, 0.38, 0), new THREE.Vector3(-0.16, 0.3, 0)], () => 0.028, 40, 10))} color="#f5c9a0" linea={0} silueta={1.6} />
+            {/* hígado */}
+            <P geo={esf(0.1, 24)} color={colHig} position={[0.07, 0.5, 0]} scale={[1.25 * (1 + 0.15 * higado), 0.85 * (1 + 0.15 * higado), 0.5]} linea={0} silueta={2} />
+            {/* corazón */}
+            <P geo={esf(0.05, 16)} color="#e0413a" position={[0.08, 0.68, 0]} scale={[1, 1.1, 0.6]} linea={0} silueta={1.6} />
+            {/* hierro */}
+            {Array.from({length: 34}, (_, i) => {
+              const k = hierro * 34 - i;
+              if (k <= 0) return null;
+              const u = cl(k / 3);
+              const ini = new THREE.Vector3(0.02, 0.56, 0.03);
+              const fin = new THREE.Vector3(0.07 + (rnd(i) - 0.5) * 0.2, 0.5 + (rnd(i + 5) - 0.5) * 0.12, 0.045);
+              const p = ini.lerp(fin, suave(u));
+              return <P key={i} geo={esf(0.011, 8)} color="#c4561e" position={[p.x, p.y, p.z]} linea={0} silueta={1} sombra={false} />;
+            })}
+          </>
+        )}
         <group position={[0.1, 0.9, 0]} rotation={[0, 0, cabeza]}>
           <P geo={esf(0.2, 28)} color={NEGRO} linea={0} />
           <P geo={esf(0.13, 20)} color={PECHO} position={[0.07, -0.08, 0]} scale={[0.8, 0.8, 1.3]} linea={0} silueta={0} />
-          <Ojo z={0.17} />
-          <Ojo z={-0.17} />
+          <Ojo z={0.17} cierre={ojos} />
+          <Ojo z={-0.17} cierre={ojos} />
+          <group scale={[picoEsc, picoEsc, picoEsc]}>
+            {vasos !== 0 && corte < 0.01 && <P geo={vg} color={vasos > 0 ? '#e3221c' : '#6f86b5'} scale={[1, 1, vasos > 0 ? 1 : 0.985]} linea={0} silueta={vasos > 0 ? 1.4 : 0.8} sombra={false} />}
+          </group>
           <Pico t={t} escala={picoEsc} corte={corte} />
         </group>
       </group>
@@ -468,6 +540,289 @@ const Semillas: React.FC<{t: number}> = ({t}) => {
   );
 };
 
+// ---------- extras ----------
+const ev2 = {
+  esponja: T('esponja'),
+  no2: T('no', 2),
+  romper: T('romper'),
+  suyo: T('suyo'),
+  fruta: T('fruta:'),
+  agarra2: T('agarra', 2),
+  punta: T('punta,'),
+  lanza: T('lanza'),
+  traga: T('traga'),
+  comida: T('comida.'),
+  pero3: T('pero', 3),
+  naranja: T('naranja', 2),
+  todos: T('todos'),
+  enferma: T('enferma.'),
+  cuerpo: T('cuerpo'),
+  hierro: T('hierro'),
+  acido: T('ácido'),
+  acumula: T('acumula'),
+  matar: T('matar.'),
+  papaya: T('papaya,'),
+  melon: T('melón'),
+  especial: T('especial'),
+  pero4: T('pero', 4),
+  golpeando: T('golpeando'),
+  vuela: T('vuela:'),
+  saltando: T('saltando'),
+  rama1: T('rama', 1),
+  rama2: T('rama', 2),
+  larga: T('larga,'),
+  palos: T('palos'),
+  casa: T('casa.'),
+  pero5: T('pero', 5),
+  calor: T('calor'),
+  tocas: T('tocas'),
+  caliente: T('caliente.'),
+  es5: T('aire') - 1.1,
+  aire: T('aire'),
+  manda: T('manda'),
+  radiador: T('radiador'),
+  frio: T('frío,'),
+  corta: T('corta'),
+  ahora: T('ahora'),
+  feliz: T('feliz.'),
+  pregunta: T('pregúntale'),
+  trajo: T('trajo…'),
+  selva: T('selva'),
+  permiso: T('permiso'),
+  trafico: T('tráfico'),
+};
+
+const Halo: React.FC<{pos: [number, number, number]; o: number; escala: number; color?: string}> = ({pos, o, escala, color = '#ffd27a'}) => {
+  if (o <= 0.01) return null;
+  return (
+    <sprite position={pos} scale={[escala, escala, 1]}>
+      <spriteMaterial map={texNube()} color={color} transparent opacity={o} depthWrite={false} blending={THREE.AdditiveBlending} />
+    </sprite>
+  );
+};
+
+let _ondas: THREE.CanvasTexture | null = null;
+const texOndas = () => {
+  if (_ondas) return _ondas;
+  _ondas = canvasTex(128, 256, (g) => {
+    g.clearRect(0, 0, 128, 256);
+    g.lineWidth = 9;
+    g.lineCap = 'round';
+    for (const x0 of [30, 64, 98]) {
+      g.strokeStyle = '#16171c';
+      g.lineWidth = 14;
+      g.beginPath();
+      for (let y = 230; y > 30; y -= 4) g.lineTo(x0 + Math.sin(y / 22) * 10, y);
+      g.stroke();
+      g.strokeStyle = '#ff8a2a';
+      g.lineWidth = 8;
+      g.beginPath();
+      for (let y = 230; y > 30; y -= 4) g.lineTo(x0 + Math.sin(y / 22) * 10, y);
+      g.stroke();
+    }
+  });
+  _ondas.wrapS = _ondas.wrapT = THREE.ClampToEdgeWrapping;
+  return _ondas;
+};
+let _copo: THREE.CanvasTexture | null = null;
+const texCopo = () => {
+  if (_copo) return _copo;
+  _copo = canvasTex(64, 64, (g) => {
+    g.clearRect(0, 0, 64, 64);
+    g.translate(32, 32);
+    for (let k = 0; k < 6; k++) {
+      g.rotate(Math.PI / 3);
+      g.strokeStyle = '#16171c';
+      g.lineWidth = 7;
+      g.beginPath();
+      g.moveTo(0, 0);
+      g.lineTo(0, 26);
+      g.stroke();
+      g.strokeStyle = '#ffffff';
+      g.lineWidth = 4;
+      g.beginPath();
+      g.moveTo(0, 0);
+      g.lineTo(0, 25);
+      g.stroke();
+    }
+  });
+  _copo.wrapS = _copo.wrapT = THREE.ClampToEdgeWrapping;
+  return _copo;
+};
+let _estrella: THREE.CanvasTexture | null = null;
+const texEstrella = () => {
+  if (_estrella) return _estrella;
+  _estrella = canvasTex(128, 128, (g) => {
+    g.clearRect(0, 0, 128, 128);
+    g.beginPath();
+    for (let k = 0; k < 16; k++) {
+      const a = (k / 16) * Math.PI * 2;
+      const rr = k % 2 ? 26 : 58;
+      g.lineTo(64 + Math.cos(a) * rr, 64 + Math.sin(a) * rr);
+    }
+    g.closePath();
+    g.fillStyle = '#ffe14d';
+    g.fill();
+    g.strokeStyle = '#16171c';
+    g.lineWidth = 6;
+    g.stroke();
+  });
+  _estrella.wrapS = _estrella.wrapT = THREE.ClampToEdgeWrapping;
+  return _estrella;
+};
+const Sprite: React.FC<{tex: THREE.Texture; pos: [number, number, number]; escala: [number, number]; o: number; rot?: number}> = ({tex, pos, escala, o, rot = 0}) =>
+  o <= 0.01 ? null : (
+    <sprite position={pos} scale={[escala[0], escala[1], 1]}>
+      <spriteMaterial map={tex} transparent opacity={o} depthWrite={false} rotation={rot} />
+    </sprite>
+  );
+
+// punta del pico en el mundo
+const puntaPico = (base: [number, number, number], rotY: number, s: number, cabeza: number, picoEsc = 1, u = 1) => {
+  const lx = lerp(BX0, BX1, u) * picoEsc;
+  const ly = curva(lerp(BX0, BX1, u)) * picoEsc;
+  const hx = lx * Math.cos(cabeza) - ly * Math.sin(cabeza) + 0.1;
+  const hy = lx * Math.sin(cabeza) + ly * Math.cos(cabeza) + 0.9;
+  return new THREE.Vector3(base[0] + hx * s * Math.cos(rotY), base[1] + hy * s, base[2] - hx * s * Math.sin(rotY));
+};
+
+// ---------- plato de comida ----------
+const Plato: React.FC<{tipo: 'fruta' | 'naranja' | 'mix'; quedan: number}> = ({tipo, quedan}) => (
+  <group>
+    <P geo={cil(0.17, 0.12, 0.08, 28)} color="#f4f1ea" position={[0, 0.04, 0]} />
+    {Array.from({length: 10}, (_, i) => {
+      if (i >= quedan) return null;
+      const a = rnd(i + 2) * Math.PI * 2;
+      const d = rnd(i + 4) * 0.1;
+      const p: [number, number, number] = [Math.cos(a) * d, 0.1 + rnd(i) * 0.02, Math.sin(a) * d];
+      if (tipo === 'naranja') return <P key={i} geo={G('gajo', () => new THREE.CylinderGeometry(0.055, 0.055, 0.025, 16, 1, false, 0, Math.PI))} color="#ff9a1a" position={p} rotation={[Math.PI / 2, 0, a]} />;
+      const col = tipo === 'fruta' ? '#ffa62b' : ['#ffa62b', '#c9e98a', '#a26b35'][i % 3];
+      return <P key={i} geo={caja(0.05, 0.05, 0.05)} color={col} position={p} rotation={[rnd(i) * 2, rnd(i + 1) * 2, 0]} />;
+    })}
+  </group>
+);
+
+// ---------- aviario (jaula larga) ----------
+const AV: [number, number, number] = [7.4, 0, 0];
+const AVW = 2.3;
+const AVD = 1.1;
+const AV0 = 0.55;
+const AVH = 2.0;
+const PERCHAS: [number, number][] = [
+  [-0.72, 0.42],
+  [-0.2, 0.98],
+  [0.38, 0.6],
+  [0.7, 1.32],
+];
+const Aviario: React.FC = () => {
+  const barras = useMemo(() => {
+    const gs: THREE.BufferGeometry[] = [];
+    const add = (x: number, z: number) => {
+      const g = new THREE.CylinderGeometry(0.007, 0.007, AVH, 5);
+      g.translate(x, AV0 + AVH / 2, z);
+      gs.push(g);
+    };
+    for (let x = -AVW / 2; x <= AVW / 2 + 0.001; x += 0.09) add(x, -AVD / 2);
+    for (let z = -AVD / 2; z <= AVD / 2 + 0.001; z += 0.09) {
+      add(-AVW / 2, z);
+      add(AVW / 2, z);
+    }
+    return mergeGeometries(gs);
+  }, []);
+  const NEG = '#2a2b31';
+  return (
+    <group>
+      {[-1, 1].map((sx) =>
+        [-1, 1].map((sz) => <P key={`${sx}${sz}`} geo={caja(0.07, AV0 + AVH, 0.07)} color={NEG} position={[(sx * AVW) / 2, (AV0 + AVH) / 2, (sz * AVD) / 2]} />),
+      )}
+      <P geo={caja(AVW + 0.08, 0.1, AVD + 0.08)} color={NEG} position={[0, AV0 - 0.05, 0]} />
+      <P geo={caja(AVW - 0.05, 0.03, AVD - 0.05)} color="#f3efe4" position={[0, AV0 + 0.015, 0]} linea={0} />
+      <P geo={caja(AVW + 0.08, 0.07, AVD + 0.08)} color={NEG} position={[0, AV0 + AVH, 0]} />
+      <P geo={caja(AVW + 0.02, 0.04, AVD + 0.02)} color="#3a3b42" position={[0, 0.22, 0]} linea={0} />
+      <P geo={barras} color={NEG} linea={0} silueta={0.9} sombra={false} />
+      {PERCHAS.map(([x, y], i) => (
+        <group key={i}>
+          <P geo={cil(0.025, 0.025, 0.62, 10)} color={MADERA} position={[x, AV0 + y, -0.05]} rotation={[0, 0, Math.PI / 2]} />
+          <P geo={cil(0.02, 0.02, AVD / 2, 8)} color="#8a5a34" position={[x, AV0 + y, -AVD / 4 - 0.05]} rotation={[Math.PI / 2, 0, 0]} linea={0} />
+        </group>
+      ))}
+      {[-0.5, 0.0].map((x) => (
+        <P key={x} geo={cil(0.09, 0.07, 0.07, 20)} color="#f4f1ea" position={[x, AV0 + 0.07, 0.25]} />
+      ))}
+      <P geo={cil(0.18, 0.16, 0.05, 28)} color="#7fc6e8" position={[0.65, AV0 + 0.06, 0.2]} linea={0} />
+    </group>
+  );
+};
+const posPercha = (i: number): [number, number, number] => [AV[0] + PERCHAS[i][0] + 0.05, AV0 + PERCHAS[i][1] + 0.022, -0.05];
+const SALTOS: [number, number, number][] = [
+  // tiempo, desde, hasta
+  [ev2.saltando - 0.1, 0, 1],
+  [ev2.rama1 - 0.05, 1, 3],
+  [ev2.rama2 + 0.05, 3, 2],
+  [ev2.palos - 0.2, 2, 0],
+  [ev2.palos + 0.7, 0, 1],
+  [ev2.casa - 0.6, 1, 2],
+];
+const enAviario = (t: number) => {
+  let pos = posPercha(0);
+  let mira = 1;
+  for (const [t0, a, b] of SALTOS) {
+    if (t < t0) break;
+    const u = cl((t - t0) / 0.45);
+    const A = posPercha(a);
+    const B = posPercha(b);
+    pos = [lerp(A[0], B[0], u), lerp(A[1], B[1], u) + Math.sin(u * Math.PI) * 0.35, lerp(A[2], B[2], u)];
+    mira = B[0] >= A[0] ? 1 : -1;
+  }
+  return {pos, rotY: mira > 0 ? -0.45 : Math.PI + 0.45};
+};
+
+// ---------- mano y maleta ----------
+const Mano: React.FC<{desde: THREE.Vector3; hasta: THREE.Vector3}> = ({desde, hasta}) => {
+  const dir = hasta.clone().sub(desde);
+  const L = dir.length();
+  const q = new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0, 1, 0), dir.clone().normalize());
+  const e = new THREE.Euler().setFromQuaternion(q);
+  const mid = desde.clone().add(hasta).multiplyScalar(0.5);
+  return (
+    <group>
+      <group position={[mid.x, mid.y, mid.z]} rotation={[e.x, e.y, e.z]}>
+        <P geo={cil(0.04, 0.05, L, 14)} color="#f2b48c" umbral={40} />
+      </group>
+      <P geo={esf(0.055, 14)} color="#f2b48c" position={[hasta.x, hasta.y, hasta.z]} scale={[1, 0.8, 1.1]} linea={0} />
+    </group>
+  );
+};
+
+const Maleta: React.FC<{abre: number; t: number}> = ({abre, t}) => (
+  <group>
+    <P geo={caja(0.8, 0.2, 0.5)} color="#7a4a2c" position={[0, 0.1, 0]} />
+    <P geo={caja(0.82, 0.04, 0.52)} color="#c8a36a" position={[0, 0.12, 0]} linea={0} />
+    <group position={[0, 0.2, -0.25]} rotation={[-abre * 1.9, 0, 0]}>
+      <P geo={caja(0.8, 0.12, 0.5)} color="#8a5634" position={[0, 0.06, 0.25]} />
+      <P geo={caja(0.2, 0.12, 0.01)} color="#e0453a" position={[-0.18, 0.06, 0.505]} linea={0} />
+      <P geo={caja(0.16, 0.1, 0.01)} color="#3fae4a" position={[0.2, 0.06, 0.505]} linea={0} />
+    </group>
+    {abre > 0.3 &&
+      Array.from({length: 10}, (_, i) => {
+        const dt = (t - ev2.trajo) * 0.8 - i * 0.07;
+        if (dt < 0) return null;
+        return (
+          <P
+            key={i}
+            geo={G('plumaG', () => new THREE.SphereGeometry(0.05, 10, 8))}
+            color={i % 3 === 0 ? PECHO : NEGRO}
+            position={[(rnd(i) - 0.5) * 0.7 * dt + Math.sin(t * 3 + i) * 0.05, 0.22 + dt * 0.9 - dt * dt * 0.5, (rnd(i + 3) - 0.3) * 0.4 * dt]}
+            scale={[1.6, 0.25, 0.6]}
+            rotation={[t * 2 + i, i, t + i]}
+            linea={0}
+            silueta={1.2}
+          />
+        );
+      })}
+  </group>
+);
+
 // ---------- escena ----------
 const MESA_X = 0.2;
 const POSES: Pose[] = [
@@ -480,11 +835,72 @@ const POSES: Pose[] = [
   [ev.pero - 0.1, [JAULA[0] + 0.2, 1.65, 2.6], [JAULA[0] + 0.2, 1.35, 0], 36],
 ];
 
+// tiros (cortes duros)
+const TIRO = {
+  pico: ev.es - 0.1,
+  mesa: ev2.suyo - 0.35,
+  dentro: ev2.cuerpo - 0.45,
+  mesa2: ev2.papaya - 0.75,
+  jaula2: ev2.pero4 - 0.1,
+  aviario: ev2.vuela - 1.1,
+  calor: ev2.pero5 - 0.1,
+  aire: ev2.es5,
+  final: ev2.ahora - 0.15,
+  tio: ev2.pregunta - 0.35,
+};
+const TUC_MESA: [number, number, number] = [MESA_X - 0.25, 0.99, 0];
+const ROT_MESA = -0.5;
+const S_MESA = 0.6;
+const TUC_JAULA: [number, number, number] = [JAULA[0] - 0.02, JAULA[1] + 0.155, 0];
+
+const camPor = (t: number) => {
+  const V = (x: number, y: number, z: number) => new THREE.Vector3(x, y, z);
+  if (t < TIRO.pico) return poseCamara(t, POSES, 0.9);
+  if (t < TIRO.mesa) {
+    const d = t - ev.es;
+    return {pos: V(2.45, 1.92 + d * 0.01, 2.21 - d * 0.06), obj: V(3.32, 1.78, 0.14), fov: 31};
+  }
+  if (t < TIRO.dentro) {
+    const d = t - TIRO.mesa;
+    const arriba = ventana(t, ev2.lanza - 0.2, ev2.comida - 0.3, 0.4);
+    return {pos: V(MESA_X + 0.5 - d * 0.02, 1.8 + arriba * 0.2, 2.8 - d * 0.03), obj: V(MESA_X + 0.1, 1.5 + arriba * 0.25, 0), fov: 36};
+  }
+  if (t < TIRO.mesa2) {
+    const d = t - TIRO.dentro;
+    const c = V(TUC_MESA[0] - 0.01, 1.3, 0);
+    return {pos: V(c.x - 1.0 + d * 0.01, c.y + 0.28, c.z + 1.85 - d * 0.03), obj: V(c.x + 0.02, c.y + 0.08, c.z), fov: 36};
+  }
+  if (t < TIRO.jaula2) {
+    const d = t - TIRO.mesa2;
+    return {pos: V(MESA_X + 0.25 + d * 0.03, 1.75, 2.6), obj: V(MESA_X - 0.05, 1.42, 0), fov: 36};
+  }
+  if (t < TIRO.aviario) return {pos: V(JAULA[0] + 0.45, 1.72, 2.1), obj: V(JAULA[0] + 0.2, 1.55, 0), fov: 36};
+  if (t < TIRO.calor) {
+    const d = t - TIRO.aviario;
+    return {pos: V(AV[0] + 0.1, 1.9, 5.0 - d * 0.05), obj: V(AV[0] + 0.05, 1.5, 0), fov: 40};
+  }
+  if (t < TIRO.aire) {
+    const p = posPercha(2);
+    return {pos: V(p[0] - 0.2, p[1] + 0.55, 1.9), obj: V(p[0] + 0.2, p[1] + 0.42, 0), fov: 34};
+  }
+  if (t < TIRO.final) {
+    const p = posPercha(2);
+    const c = puntaPico(p, -0.45, 0.5, 0, 1, 0.5);
+    const d = t - TIRO.aire;
+    return {pos: V(c.x - 0.72, c.y + 0.12, c.z + 1.5 - d * 0.015), obj: V(c.x - 0.04, c.y + 0.02, c.z), fov: 31};
+  }
+  if (t < TIRO.tio) {
+    const d = t - TIRO.final;
+    return {pos: V(AV[0] + 0.1, 1.85, 4.6 - d * 0.08), obj: V(AV[0] + 0.1, 1.5, 0), fov: 40};
+  }
+  const d = t - TIRO.tio;
+  return {pos: V(MESA_X - 0.25, 2.0, 4.9 - d * 0.06), obj: V(MESA_X - 0.25, 1.55, 0), fov: 40};
+};
+
 const Escena: React.FC<{t: number}> = ({t}) => {
-  const primerPlano = t > ev.es - 0.1;
-  const {pos, obj, fov} = primerPlano
-    ? {pos: new THREE.Vector3(2.45, 1.92 + (t - ev.es) * 0.01, 2.21 - (t - ev.es) * 0.06), obj: new THREE.Vector3(3.32, 1.78, 0.14), fov: 31}
-    : poseCamara(t, POSES, 0.9);
+  const {pos, obj, fov} = camPor(t);
+  const intro = t < TIRO.mesa;
+  const primerPlano = t > TIRO.pico && t < TIRO.mesa;
   // tío
   const camina = r(t, 0, 2.2);
   const tioX = lerp(-3.4, MESA_X - 1.35, camina);
@@ -497,31 +913,75 @@ const Escena: React.FC<{t: number}> = ({t}) => {
   const cajonMesa: [number, number, number] = [MESA_X - 0.05, 0.99, 0];
   const cp: [number, number, number] = [lerp(cajonEnMano[0], cajonMesa[0], deja), lerp(cajonEnMano[1], cajonMesa[1], deja), 0];
   const tapa = r(t, ev.pajaro - 0.35, 0.45);
-  // tucán en el cajón
   const sale = r(t, ev.pajaro - 0.2, 0.35);
   const rebote = Math.sin(cl((t - ev.pajaro + 0.2) / 0.5) * Math.PI) * 0.12;
-  const enJaula = t > ev.metes - 0.35;
+  const enJaula = t > ev.metes - 0.35 && t < TIRO.mesa;
   const picoEsc = 1 + 0.28 * ventana(t, ev.gigante - 0.1, ev.juguete - 0.1, 0.25) - 0.12 * ventana(t, ev.juguete, ev.felicidades, 0.12) * (0.5 + 0.5 * Math.sin(t * 28));
   const pechoEsc = 1 + 0.15 * ventana(t, ev.pecho - 0.05, ev.pico - 0.1, 0.2);
-  // cabeza: agarra y tira
   const ciclo = t > ev.agarra && t < ev.agarra + 9 * 0.17 + 0.2 ? Math.sin(((t - ev.agarra) / 0.17) * Math.PI) : 0;
-  const cabeza = enJaula ? -0.35 * Math.max(0, ciclo) + 0.35 * Math.max(0, -ciclo) : 0.05 * Math.sin(t * 1.7);
-  const corte = r(t, ev.hueco - 0.2, 0.55);
+  const cabezaJ = enJaula ? -0.35 * Math.max(0, ciclo) + 0.35 * Math.max(0, -ciclo) : 0.05 * Math.sin(t * 1.7);
+  const corte = r(t, ev.hueco - 0.2, 0.55) * (1 - r(t, ev2.no2 - 0.35, 0.45));
+  // semilla que no puede romper
+  const apretar = ventana(t, ev2.romper - 0.1, ev2.romper + 0.3, 0.1);
+
+  // ---- mesa (fruta, naranja, hierro, comida buena)
+  const enMesa = t >= TIRO.mesa && t < TIRO.jaula2;
+  let cabezaM = 0.04 * Math.sin(t * 1.7);
+  if (t < TIRO.dentro) {
+    cabezaM -= 0.42 * ventana(t, ev2.agarra2 - 0.45, ev2.agarra2 + 0.25, 0.25);
+    cabezaM += 0.55 * ventana(t, ev2.lanza - 0.1, ev2.traga + 0.5, 0.2);
+    cabezaM -= 0.38 * ventana(t, ev2.naranja + 0.6, ev2.naranja + 1.1, 0.2);
+    cabezaM -= 0.5 * r(t, ev2.enferma - 0.15, 0.4);
+  } else if (t >= TIRO.mesa2) {
+    const k = Math.max(0, Math.sin((t - TIRO.mesa2) * 3.2));
+    cabezaM = -0.4 * k * k * k * k;
+  }
+  const ojosM = t > ev2.enferma - 0.2 && t < TIRO.mesa2 ? 0.35 : 1;
+  const fruta = (() => {
+    if (t < ev2.agarra2 - 0.1) return null;
+    if (t < ev2.lanza) return puntaPico(TUC_MESA, ROT_MESA, S_MESA, cabezaM, 1, 0.97);
+    const A = puntaPico(TUC_MESA, ROT_MESA, S_MESA, 0.2, 1, 0.97);
+    const B = puntaPico(TUC_MESA, ROT_MESA, S_MESA, 0.55, 1, 0.12);
+    const u = cl((t - ev2.lanza) / (ev2.traga + 0.25 - ev2.lanza));
+    if (u >= 1) return null;
+    return new THREE.Vector3(lerp(A.x, B.x, u), lerp(A.y, B.y, u) + Math.sin(u * Math.PI) * 0.55, lerp(A.z, B.z, u));
+  })();
+  const tipoPlato = t >= TIRO.mesa2 ? 'mix' : t > ev2.naranja - 0.2 ? 'naranja' : 'fruta';
+  const quedan = t >= TIRO.mesa2 ? 10 - Math.floor(cl((t - TIRO.mesa2) / 4) * 4) : t > ev2.naranja - 0.2 ? 7 : t > ev2.agarra2 ? 7 : 8;
+  // hierro
+  const hierro = cl((t - ev2.hierro) / 5.5) * 0.45 + cl((t - ev2.acido) / 2.6) * 0.55;
+  const higado = r(t, ev2.acumula - 0.1, 1.0);
+  const pulsa = t > ev2.matar - 0.1 ? 0.5 + 0.5 * Math.sin(t * 14) : 0;
+
+  // ---- jaula: golpes
+  const enJaula2 = t >= TIRO.jaula2 && t < TIRO.aviario;
+  const golpe = t > ev2.golpeando - 0.1 ? Math.max(0, Math.sin((t - ev2.golpeando) * Math.PI * 2.6)) : 0;
+
+  // ---- aviario
+  const av = enAviario(t);
+  const enAv = t >= TIRO.aviario;
+  const calor = t >= TIRO.calor && t < TIRO.aire;
+  const vasos = t >= TIRO.aire && t < TIRO.final ? (t > ev2.frio - 0.1 ? -1 : t > ev2.manda - 0.2 ? 1 : 0) : calor && t > ev2.caliente - 0.2 ? 1 : 0;
+  const tioFinal = t >= TIRO.tio;
+
   return (
     <>
       <Camara pos={pos} obj={obj} fov={fov} />
-      <Luces dir={[-0.55, 1, 0.55]} area={7} centro={[1, 0, 0]} amb={1.0} sol={0.62} />
-      <mesh rotation={[-Math.PI / 2, 0, 0]} receiveShadow>
-        <planeGeometry args={[40, 30]} />
+      <Luces dir={[-0.55, 1, 0.55]} area={7} centro={[enAv && !tioFinal ? AV[0] : 1, 0, 0]} amb={1.0} sol={calor ? 0.85 : 0.62} />
+      <mesh rotation={[-Math.PI / 2, 0, 0]} receiveShadow position={[3, 0, 0]}>
+        <planeGeometry args={[46, 30]} />
         <meshToonMaterial color="#ffffff" map={texPasto()} />
       </mesh>
       <Pasto />
+      <group position={[7, 0, 0]}>
+        <Pasto />
+      </group>
       <Casa />
       <group position={[MESA_X, 0, 0]}>
         <Mesa />
       </group>
-      {!primerPlano && <Poste />}
-      {t < ev.metes + 6 && (
+      {(t < TIRO.pico || enJaula2) && <Poste />}
+      {t < TIRO.pico && (
         <group position={cp}>
           <Cajon tapa={tapa} />
         </group>
@@ -531,28 +991,126 @@ const Escena: React.FC<{t: number}> = ({t}) => {
           <Tio t={t} anda={anda} brazos={1 - deja} saluda={saluda} />
         </group>
       )}
-      {!enJaula && sale > 0.01 && (
+      {t < ev.metes - 0.35 && sale > 0.01 && (
         <group position={[cajonMesa[0], 0.99 + lerp(0.05, 0.42, sale) + rebote, 0]} rotation={[0, -0.55, 0]} scale={0.6}>
-          <Tucan t={t} picoEsc={picoEsc} pechoEsc={pechoEsc} cabeza={cabeza} />
+          <Tucan t={t} picoEsc={picoEsc} pechoEsc={pechoEsc} cabeza={cabezaJ} />
         </group>
       )}
-      {!primerPlano && (
+      {((t < TIRO.pico) || enJaula2) && (
         <group position={JAULA}>
           <Jaula />
         </group>
       )}
       {enJaula && (
-        <group position={[JAULA[0] - 0.02, JAULA[1] + 0.155, 0]} rotation={[0, -0.45, 0]} scale={0.5}>
-          <Tucan t={t} cabeza={cabeza} corte={corte} />
+        <group position={TUC_JAULA} rotation={[0, -0.45, 0]} scale={0.5}>
+          <Tucan t={t} cabeza={cabezaJ} corte={corte} picoEsc={1 - apretar * 0.05} />
         </group>
       )}
-      {!primerPlano && <Semillas t={t} />}
+      {t < TIRO.pico && <Semillas t={t} />}
+      {primerPlano && t > ev2.no2 - 0.1 && (() => {
+        const tip = puntaPico(TUC_JAULA, -0.45, 0.5, 0, 1, 0.94);
+        const dt = t - (ev2.romper + 0.25);
+        const p = dt < 0 ? tip : new THREE.Vector3(tip.x + dt * 1.5, tip.y + dt * 1.2 - dt * dt * 4, tip.z + dt * 0.8);
+        return <P geo={esf(0.022, 10)} color="#8a5b2a" position={[p.x, p.y, p.z]} scale={[1.4, 0.9, 1]} linea={0} silueta={1.6} />;
+      })()}
+      {primerPlano && <Sprite tex={texEstrella()} pos={puntaPico(TUC_JAULA, -0.45, 0.5, 0, 1, 0.96).toArray() as [number, number, number]} escala={[0.12, 0.12]} o={ventana(t, ev2.romper - 0.05, ev2.romper + 0.35, 0.08)} rot={t * 3} />}
+
+      {/* ---- mesa ---- */}
+      {enMesa && (
+        <>
+          <group position={TUC_MESA} rotation={[0, ROT_MESA, 0]} scale={S_MESA}>
+            <Tucan
+              t={t}
+              cabeza={cabezaM}
+              ojos={ojosM}
+              corteCuerpo={t >= TIRO.dentro && t < TIRO.mesa2}
+              hierro={hierro}
+              higado={Math.min(1, higado + pulsa * 0.3)}
+            />
+          </group>
+          {t < TIRO.dentro || t >= TIRO.mesa2 ? (
+            <group position={[MESA_X + 0.33, 0.99, 0.22]}>
+              <Plato tipo={tipoPlato as any} quedan={quedan} />
+            </group>
+          ) : null}
+          {fruta && <P geo={caja(0.05, 0.05, 0.05)} color="#ffa62b" position={[fruta.x, fruta.y, fruta.z]} rotation={[t * 6, t * 4, 0]} />}
+          <Halo pos={[TUC_MESA[0] + 0.05, 1.3, 0.1]} o={pulsa * 0.5 * (t < TIRO.mesa2 ? 1 : 0)} escala={0.6} color="#ff3020" />
+        </>
+      )}
+
+      {/* ---- jaula chica: golpes ---- */}
+      {enJaula2 && (
+        <>
+          <group position={[TUC_JAULA[0] + golpe * 0.05, TUC_JAULA[1], TUC_JAULA[2]]} rotation={[0, -0.45, 0]} scale={0.5}>
+            <Tucan t={t} cabeza={-0.15 * golpe} ojos={golpe > 0.8 ? 0.4 : 1} />
+          </group>
+          <Sprite tex={texEstrella()} pos={[JAULA[0] + 0.36, JAULA[1] + 0.52, 0.18]} escala={[0.14, 0.14]} o={golpe > 0.85 ? 1 : 0} rot={t * 5} />
+        </>
+      )}
+
+      {/* ---- aviario ---- */}
+      {enAv && (
+        <group position={AV}>
+          <Aviario />
+        </group>
+      )}
+      {enAv && !tioFinal && (
+        <group position={av.pos} rotation={[0, av.rotY, 0]} scale={0.5}>
+          <Tucan t={t} vasos={vasos} cabeza={t >= TIRO.final ? 0.08 * Math.sin(t * 5) : 0} ojos={calor && t > ev2.caliente ? 0.6 : 1} />
+        </group>
+      )}
+      {calor && (() => {
+        const p = posPercha(2);
+        const tip = puntaPico(p, -0.45, 0.5, 0, 1, 0.7);
+        const u = r(t, ev2.tocas - 0.5, 0.5) * (1 - r(t, ev2.caliente + 0.15, 0.3));
+        const hasta = tip.clone().add(new THREE.Vector3(0.02, 0.035, 0.04));
+        const desde = hasta.clone().add(new THREE.Vector3(1.4, 0.2, 0.9));
+        const mano = desde.clone().lerp(hasta, u);
+        return (
+          <>
+            {u > 0.01 && <Mano desde={desde} hasta={mano} />}
+            <Halo pos={tip.toArray() as [number, number, number]} o={r(t, ev2.caliente - 0.2, 0.3) * 0.7} escala={0.5} color="#ff5a20" />
+          </>
+        );
+      })()}
+      {t >= TIRO.aire && t < TIRO.final && (() => {
+        const p = posPercha(2);
+        const calorO = ventana(t, ev2.manda - 0.2, ev2.frio - 0.1, 0.3);
+        const frioO = r(t, ev2.frio - 0.1, 0.3);
+        return (
+          <>
+            {[0.35, 0.55, 0.75].map((u, i) => {
+              const b = puntaPico(p, -0.45, 0.5, 0, 1, u);
+              const ph = ((t * 0.7 + i * 0.33) % 1);
+              return <Sprite key={i} tex={texOndas()} pos={[b.x, b.y + 0.08 + ph * 0.22, b.z + 0.02]} escala={[0.08, 0.16]} o={calorO * Math.sin(ph * Math.PI)} />;
+            })}
+            <Halo pos={puntaPico(p, -0.45, 0.5, 0, 1, 0.5).toArray() as [number, number, number]} o={calorO * 0.45} escala={0.6} color="#ff6a2a" />
+            {Array.from({length: 16}, (_, i) => {
+              const c = puntaPico(p, -0.45, 0.5, 0, 1, 0.5);
+              const y = c.y + 0.45 - (((t - ev2.frio) * 0.18 + rnd(i)) % 1) * 0.8;
+              return <Sprite key={'c' + i} tex={texCopo()} pos={[c.x - 0.35 + rnd(i + 2) * 0.7, y, c.z + 0.1 + rnd(i + 4) * 0.25]} escala={[0.07, 0.07]} o={frioO} rot={t + i} />;
+            })}
+          </>
+        );
+      })()}
+
+      {/* ---- final: el tío ---- */}
+      {tioFinal && (
+        <>
+          <group position={[MESA_X - 1.05, 0, 0.2]} rotation={[0, 0.35, 0]}>
+            <Tio t={t} anda={0} brazos={0} saluda={0} />
+          </group>
+          <group position={[MESA_X + 0.1, 0.99, 0]} rotation={[0, -0.2, 0]}>
+            <Maleta abre={r(t, ev2.trajo - 0.35, 0.4)} t={t} />
+          </group>
+        </>
+      )}
     </>
   );
 };
 
 // ---------- capa 2D ----------
-const ROJAS = new Set(['amazonas', 'negro', 'amarillo', 'naranja', 'gigante', 'juguete', 'felicidades', 'tucán', 'canario', 'semillas', 'listo', 'nada', 'tira', 'enorme', 'hueco', 'pico', 'fruta', 'comida', 'hierro', 'hígado', 'matar', 'casa', 'caliente', 'tráfico']);
+const ROJAS = new Set(['amazonas', 'negro', 'amarillo', 'naranja', 'gigante', 'juguete', 'felicidades', 'tucán', 'canario', 'semillas', 'listo', 'nada', 'tira', 'enorme', 'hueco', 'pico', 'fruta', 'comida', 'hierro', 'hígado', 'matar', 'casa', 'caliente', 'tráfico', 'esponja', 'romper', 'arriba', 'entera', 'enferma', 'ácido', 'papaya', 'melón', 'especial', 'barrotes', 'vuela', 'saltando', 'larga', 'calor', 'aire', 'acondicionado', 'sangre', 'radiador', 'frío', 'feliz', 'permiso', 'animales']);
 const limpia = (w: string) => w.toLowerCase().replace(/[¿?¡!,.…:;"]/g, '');
 type Pal = {t: number; e: number; w: string};
 const PALABRAS: Pal[] = (datos as any).beats.flatMap((b: any) => b.words);
@@ -603,6 +1161,161 @@ const Subtitulo: React.FC<{t: number}> = ({t}) => {
 };
 
 const ICONOS: Record<string, React.ReactNode> = {
+  fruta: (
+    <g>
+      <path d="M50 22 C74 22 84 44 78 66 C72 86 28 86 22 66 C16 44 26 22 50 22Z" fill="#ff9a2e" stroke="#16171c" strokeWidth={4} />
+      <ellipse cx={50} cy={56} rx={10} ry={18} fill="#2b2b2b" />
+      <path d="M50 22 C52 14 58 10 64 10" fill="none" stroke="#3fae4a" strokeWidth={5} />
+    </g>
+  ),
+  arriba: (
+    <g>
+      <rect x={38} y={56} width={24} height={24} rx={4} fill="#ffa62b" stroke="#16171c" strokeWidth={4} />
+      <path d="M50 48 L50 14 M36 28 L50 14 L64 28" fill="none" stroke="#16171c" strokeWidth={6} strokeLinecap="round" strokeLinejoin="round" />
+    </g>
+  ),
+  naranja: (
+    <g>
+      <circle cx={50} cy={52} r={32} fill="#ff9a1a" stroke="#16171c" strokeWidth={4} />
+      <circle cx={50} cy={52} r={22} fill="#ffc15a" />
+      {[0, 1, 2, 3, 4, 5].map((k) => (
+        <path key={k} d={`M50 52 L${50 + Math.cos((k / 6) * Math.PI * 2) * 22} ${52 + Math.sin((k / 6) * Math.PI * 2) * 22}`} stroke="#ff9a1a" strokeWidth={3} />
+      ))}
+    </g>
+  ),
+  enfermo: (
+    <g>
+      <circle cx={50} cy={50} r={32} fill="#b9e07a" stroke="#16171c" strokeWidth={4} />
+      <path d="M34 42 L44 42 M56 42 L66 42" stroke="#16171c" strokeWidth={5} strokeLinecap="round" />
+      <path d="M36 66 C44 58 56 58 64 66" fill="none" stroke="#16171c" strokeWidth={5} strokeLinecap="round" />
+    </g>
+  ),
+  hierro: (
+    <g>
+      <rect x={20} y={30} width={60} height={44} rx={8} fill="#9aa2ad" stroke="#16171c" strokeWidth={4} />
+      <text x={50} y={62} textAnchor="middle" fontSize={30} fontWeight={900} fontFamily={FUENTE} fill="#16171c">
+        Fe
+      </text>
+    </g>
+  ),
+  higado: <path d="M16 46 C20 24 60 20 84 30 C90 44 74 70 52 74 C36 76 26 70 22 62 C14 58 14 52 16 46Z" fill="#8a2f2a" stroke="#16171c" strokeWidth={4} />,
+  calavera: (
+    <g>
+      <path d="M50 16 C30 16 20 30 20 46 C20 58 28 62 32 64 L32 78 L68 78 L68 64 C72 62 80 58 80 46 C80 30 70 16 50 16Z" fill="#fff" stroke="#16171c" strokeWidth={4} />
+      <circle cx={38} cy={46} r={8} fill="#16171c" />
+      <circle cx={62} cy={46} r={8} fill="#16171c" />
+      <path d="M44 78 L44 70 M56 78 L56 70" stroke="#16171c" strokeWidth={3} />
+    </g>
+  ),
+  melon: (
+    <g>
+      <path d="M14 50 A36 36 0 0 0 86 50Z" fill="#9bd36a" stroke="#16171c" strokeWidth={4} />
+      <path d="M22 50 A28 28 0 0 0 78 50Z" fill="#f6c27a" />
+    </g>
+  ),
+  pellet: (
+    <g>
+      {[[34, 40], [58, 36], [46, 58], [68, 60], [30, 64]].map(([x, y], i) => (
+        <rect key={i} x={x - 8} y={y - 6} width={16} height={12} rx={5} fill={['#c98a4a', '#e05a3a', '#7fb84a'][i % 3]} stroke="#16171c" strokeWidth={3} />
+      ))}
+    </g>
+  ),
+  golpe: (
+    <g>
+      <path d="M50 10 L58 38 L88 30 L64 52 L84 78 L54 66 L44 92 L38 64 L10 70 L32 50 L14 26 L42 36Z" fill="#ffe14d" stroke="#16171c" strokeWidth={4} />
+    </g>
+  ),
+  alas: (
+    <g>
+      <path d="M50 60 C36 36 20 30 8 32 C16 48 30 62 50 64Z" fill="#23242c" stroke="#16171c" strokeWidth={3} />
+      <path d="M50 60 C64 36 80 30 92 32 C84 48 70 62 50 64Z" fill="#23242c" stroke="#16171c" strokeWidth={3} />
+      <ellipse cx={50} cy={62} rx={8} ry={14} fill="#ffe066" stroke="#16171c" strokeWidth={3} />
+    </g>
+  ),
+  saltar: (
+    <g>
+      <path d="M14 76 C24 30 46 30 50 60 C56 30 78 30 86 76" fill="none" stroke="#16171c" strokeWidth={5} strokeDasharray="7 6" strokeLinecap="round" />
+      <rect x={6} y={76} width={22} height={6} fill="#b87a45" />
+      <rect x={40} y={60} width={22} height={6} fill="#b87a45" />
+      <rect x={74} y={76} width={22} height={6} fill="#b87a45" />
+    </g>
+  ),
+  jaulaLarga: (
+    <g fill="none" stroke="#2a2b31" strokeWidth={4}>
+      <rect x={10} y={26} width={80} height={52} />
+      {[22, 34, 46, 58, 70, 82].map((x) => (
+        <path key={x} d={`M${x} 26 L${x} 78`} strokeWidth={2} />
+      ))}
+      <path d="M10 84 L10 90 M90 84 L90 90" />
+    </g>
+  ),
+  palos: (
+    <g>
+      {[[20, 30], [50, 56], [30, 76], [62, 38]].map(([x, y], i) => (
+        <rect key={i} x={x} y={y} width={28} height={7} rx={3} fill="#b87a45" stroke="#16171c" strokeWidth={3} />
+      ))}
+    </g>
+  ),
+  casa: (
+    <g>
+      <path d="M16 48 L50 18 L84 48" fill="#e0453a" stroke="#16171c" strokeWidth={4} strokeLinejoin="round" />
+      <rect x={26} y={46} width={48} height={36} fill="#f6e3b4" stroke="#16171c" strokeWidth={4} />
+      <rect x={43} y={60} width={14} height={22} fill="#8a5634" />
+    </g>
+  ),
+  sol: (
+    <g>
+      {Array.from({length: 8}, (_, k) => (
+        <path key={k} d={`M${50 + Math.cos((k / 8) * Math.PI * 2) * 30} ${50 + Math.sin((k / 8) * Math.PI * 2) * 30} L${50 + Math.cos((k / 8) * Math.PI * 2) * 42} ${50 + Math.sin((k / 8) * Math.PI * 2) * 42}`} stroke="#ff9a1a" strokeWidth={6} strokeLinecap="round" />
+      ))}
+      <circle cx={50} cy={50} r={22} fill="#ffd23a" stroke="#16171c" strokeWidth={4} />
+    </g>
+  ),
+  mano: (
+    <g>
+      <path d="M30 86 L30 50 C30 44 38 44 38 50 L38 26 C38 20 46 20 46 26 L46 22 C46 16 54 16 54 22 L54 28 C54 22 62 22 62 28 L62 40 C62 34 70 34 70 40 L70 66 C70 78 62 86 52 86Z" fill="#f2b48c" stroke="#16171c" strokeWidth={4} strokeLinejoin="round" />
+    </g>
+  ),
+  termometro: (
+    <g>
+      <rect x={42} y={12} width={16} height={56} rx={8} fill="#fff" stroke="#16171c" strokeWidth={4} />
+      <rect x={46} y={26} width={8} height={44} fill="#e0453a" />
+      <circle cx={50} cy={74} r={14} fill="#e0453a" stroke="#16171c" strokeWidth={4} />
+    </g>
+  ),
+  aire: (
+    <g>
+      <rect x={12} y={28} width={76} height={30} rx={6} fill="#f4f6f8" stroke="#16171c" strokeWidth={4} />
+      <path d="M20 50 L80 50" stroke="#16171c" strokeWidth={3} />
+      <path d="M30 66 C26 72 34 76 30 84 M50 66 C46 72 54 76 50 84 M70 66 C66 72 74 76 70 84" fill="none" stroke="#4fb7e6" strokeWidth={4} strokeLinecap="round" />
+    </g>
+  ),
+  copo: (
+    <g stroke="#4fb7e6" strokeWidth={6} strokeLinecap="round">
+      {[0, 1, 2].map((k) => (
+        <path key={k} d={`M${50 + Math.cos((k / 3) * Math.PI) * 34} ${50 + Math.sin((k / 3) * Math.PI) * 34} L${50 - Math.cos((k / 3) * Math.PI) * 34} ${50 - Math.sin((k / 3) * Math.PI) * 34}`} />
+      ))}
+    </g>
+  ),
+  sangre: <path d="M50 14 C62 34 76 48 76 64 C76 80 64 88 50 88 C36 88 24 80 24 64 C24 48 38 34 50 14Z" fill="#e0302a" stroke="#16171c" strokeWidth={4} />,
+  radiador: (
+    <g>
+      <rect x={14} y={24} width={72} height={52} rx={4} fill="#c3c7cf" stroke="#16171c" strokeWidth={4} />
+      {[24, 34, 44, 54, 64, 74].map((x) => (
+        <path key={x} d={`M${x} 30 L${x} 70`} stroke="#5d6068" strokeWidth={4} />
+      ))}
+    </g>
+  ),
+  corazon: <path d="M50 84 C20 62 12 46 18 34 C24 22 42 20 50 36 C58 20 76 22 82 34 C88 46 80 62 50 84Z" fill="#e0453a" stroke="#16171c" strokeWidth={4} />,
+  maleta: (
+    <g>
+      <rect x={14} y={34} width={72} height={46} rx={6} fill="#8a5634" stroke="#16171c" strokeWidth={4} />
+      <path d="M38 34 L38 24 L62 24 L62 34" fill="none" stroke="#16171c" strokeWidth={5} />
+      <rect x={22} y={46} width={18} height={12} fill="#e0453a" />
+      <rect x={58} y={56} width={16} height={12} fill="#3fae4a" />
+    </g>
+  ),
+
   hoja: (
     <g>
       <path d="M50 12 C80 25 84 62 50 88 C16 62 20 25 50 12Z" fill="#3fae4a" stroke="#16171c" strokeWidth={4} />
@@ -721,6 +1434,20 @@ const IZQ: Ic[] = [
   [ev.jaula - 0.05, 'jaula', 'jaula de canario', 'ok', ev.listo],
   [ev.dias - 0.05, 'calendario', 'a los días'],
   [ev.pico2 - 0.05, 'pico', 'pico enorme'],
+  [ev2.esponja - 0.05, 'panal', 'esponja dura'],
+  [ev2.fruta - 0.05, 'fruta', 'fruta'],
+  [ev2.naranja - 0.05, 'naranja', 'naranja'],
+  [ev2.hierro - 0.05, 'hierro', 'hierro'],
+  [ev2.acumula - 0.05, 'higado', 'hígado'],
+  [ev2.papaya - 0.05, 'fruta', 'papaya', 'ok', ev2.papaya + 0.3],
+  [ev2.pero4 + 0.2, 'jaula', 'jaula chica', 'no', ev2.golpeando],
+  [ev2.vuela - 0.3, 'alas', 'casi no vuela', 'no', ev2.vuela + 0.2],
+  [ev2.larga - 0.4, 'jaulaLarga', 'jaula larga', 'ok', ev2.larga + 0.2],
+  [ev2.calor - 0.1, 'sol', 'día de calor'],
+  [ev2.aire - 0.05, 'aire', 'aire acondicionado'],
+  [ev2.frio - 0.05, 'copo', 'frío'],
+  [ev2.feliz - 0.3, 'corazon', 'tucán feliz', 'ok', ev2.feliz + 0.1],
+  [ev2.pregunta - 0.05, 'maleta', '¿cómo lo trajo?'],
 ];
 const DER: Ic[] = [
   [ev.pajaro - 0.05, 'pluma', 'pájaro negro'],
@@ -730,6 +1457,26 @@ const DER: Ic[] = [
   [ev.no - 0.05, 'plato', 'no come', 'no', ev.no + 0.25],
   [ev.agarra + 0.6, 'tirar', 'las tira', 'no', ev.tira],
   [ev.hueco - 0.05, 'panal', 'hueco por dentro'],
+  [ev2.romper - 0.1, 'semillas', 'romper semillas', 'no', ev2.romper + 0.3],
+  [ev2.lanza - 0.05, 'arriba', 'la lanza arriba'],
+  [ev2.comida - 0.1, 'plato', 'su comida', 'ok', ev2.comida + 0.15],
+  [ev2.todos - 0.05, 'calendario', 'todos los días'],
+  [ev2.enferma - 0.05, 'enfermo', 'se enferma', 'no', ev2.enferma + 0.2],
+  [ev2.acido - 0.05, 'naranja', 'lo ácido'],
+  [ev2.matar - 0.1, 'calavera', 'lo puede matar', 'no', ev2.matar + 0.15],
+  [ev2.melon - 0.05, 'melon', 'melón', 'ok', ev2.melon + 0.3],
+  [ev2.especial - 0.05, 'pellet', 'comida especial', 'ok', ev2.especial + 0.3],
+  [ev2.golpeando - 0.05, 'golpe', 'se golpea'],
+  [ev2.saltando - 0.05, 'saltar', 'salta de rama en rama'],
+  [ev2.palos - 0.05, 'palos', 'palos a distintas alturas'],
+  [ev2.casa - 0.15, 'casa', 'su casa', 'ok', ev2.casa + 0.15],
+  [ev2.tocas - 0.05, 'mano', 'lo tocas'],
+  [ev2.caliente - 0.05, 'termometro', 'caliente'],
+  [ev2.manda - 0.05, 'sangre', 'manda sangre'],
+  [ev2.radiador - 0.05, 'radiador', 'radiador'],
+  [ev2.corta - 0.05, 'sangre', 'corta la sangre', 'no', ev2.corta + 0.3],
+  [ev2.ahora + 0.4, '', ''],
+  [ev2.selva - 0.1, 'hoja', 'sin permiso', 'no', ev2.permiso + 0.1],
 ];
 
 const Marca: React.FC<{tipo: 'ok' | 'no'; o: number}> = ({tipo, o}) => (
@@ -782,6 +1529,45 @@ const Confeti: React.FC<{t: number}> = ({t}) => {
   );
 };
 
+const Sello: React.FC<{t: number}> = ({t}) => {
+  const a = cl((t - ev2.trafico + 0.1) / 0.25);
+  if (a <= 0) return null;
+  return (
+    <div style={{position: 'absolute', top: 700, left: 0, right: 0, display: 'flex', justifyContent: 'center', opacity: Math.min(1, a * 1.5)}}>
+      <div
+        style={{
+          transform: `rotate(-9deg) scale(${lerp(2.2, 1, a)})`,
+          border: '12px solid #e0302a',
+          borderRadius: 26,
+          padding: '18px 40px',
+          background: 'rgba(255,255,255,0.88)',
+          fontFamily: FUENTE,
+          fontWeight: 900,
+          fontSize: 96,
+          lineHeight: 1,
+          color: '#e0302a',
+          textAlign: 'center',
+          letterSpacing: -2,
+        }}
+      >
+        TRÁFICO
+        <div style={{fontSize: 56, letterSpacing: 0}}>de animales</div>
+      </div>
+    </div>
+  );
+};
+
+const Gota: React.FC<{t: number}> = ({t}) => {
+  const o = ventana(t, ev2.pregunta + 0.3, 99, 0.3);
+  if (o <= 0) return null;
+  const y = 640 + ((t * 0.6) % 1) * 60;
+  return (
+    <svg width={70} height={100} viewBox="0 0 70 100" style={{position: 'absolute', left: 230, top: y, opacity: o}}>
+      <path d="M35 6 C46 30 60 46 60 64 C60 82 48 92 35 92 C22 92 10 82 10 64 C10 46 24 30 35 6Z" fill="#7fd0ff" stroke="#16171c" strokeWidth={5} />
+    </svg>
+  );
+};
+
 export const TucanVideo: React.FC = () => {
   const frame = useCurrentFrame();
   const {fps, width, height} = useVideoConfig();
@@ -792,7 +1578,12 @@ export const TucanVideo: React.FC = () => {
         <Escena t={t} />
       </ThreeCanvas>
       <Papel grano={0.18} manchas={0.12} />
+      <div style={{position: 'absolute', inset: 0, background: '#ff9a3a', mixBlendMode: 'multiply', opacity: 0.22 * (t >= TIRO.calor && t < TIRO.aire ? r(t, TIRO.calor, 0.6) : 0) + 0.16 * ventana(t, ev2.manda - 0.2, ev2.frio - 0.1, 0.3)}} />
+      <div style={{position: 'absolute', inset: 0, background: '#7fb6ff', mixBlendMode: 'multiply', opacity: 0.25 * ventana(t, ev2.frio - 0.1, TIRO.final, 0.3)}} />
+      <div style={{position: 'absolute', inset: 0, background: '#ff2a1a', mixBlendMode: 'multiply', opacity: t > ev2.matar - 0.1 && t < TIRO.mesa2 ? 0.12 + 0.1 * Math.sin(t * 14) : 0}} />
       <Confeti t={t} />
+      <Sello t={t} />
+      <Gota t={t} />
       <Subtitulo t={t} />
       <Ranura t={t} lista={IZQ} x={250} />
       <Ranura t={t} lista={DER} x={830} />
