@@ -1,0 +1,162 @@
+{
+ "id": "tucan",
+ "estilo": {
+  "subtitulos": false
+ },
+ "beats": [
+  {
+   "scene": "tuc1",
+   "text": "Si tu tío Claudio vuelve del Amazonas y te regala un pájaro negro, con el pecho amarillo y un pico naranja gigante que parece de juguete…",
+   "keys": [],
+   "sfx": [
+    [
+     "pop",
+     "pájaro"
+    ]
+   ]
+  },
+  {
+   "scene": "tuc2",
+   "text": "felicidades, tienes un tucán.",
+   "keys": [],
+   "sfx": [
+    [
+     "coin",
+     "tucán."
+    ]
+   ]
+  },
+  {
+   "scene": "tuc3",
+   "text": "Lo metes en la jaula del canario, le pones semillas y listo.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "jaula"
+    ]
+   ]
+  },
+  {
+   "scene": "tuc4",
+   "text": "Pero a los días notas que no come nada: agarra las semillas… y las tira.",
+   "keys": [],
+   "sfx": [
+    [
+     "drop",
+     "tira."
+    ]
+   ]
+  },
+  {
+   "scene": "tuc5",
+   "text": "Es que su pico es enorme, pero por dentro es casi hueco, como una esponja dura. No sirve para romper semillas.",
+   "keys": [],
+   "sfx": [
+    [
+     "pop",
+     "hueco,"
+    ]
+   ]
+  },
+  {
+   "scene": "tuc6",
+   "text": "Lo suyo es la fruta: la agarra con la punta, la lanza hacia arriba y se la traga entera. Esa es su comida.",
+   "keys": [],
+   "sfx": [
+    [
+     "pop",
+     "arriba"
+    ]
+   ]
+  },
+  {
+   "scene": "tuc7",
+   "text": "Pero no cualquier fruta. Si le das naranja todos los días, se enferma.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "enferma."
+    ]
+   ]
+  },
+  {
+   "scene": "tuc8",
+   "text": "Es que su cuerpo guarda el hierro y no lo suelta, y lo ácido hace que absorba todavía más. Se le acumula en el hígado… y lo puede matar.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "matar."
+    ]
+   ]
+  },
+  {
+   "scene": "tuc9",
+   "text": "Por eso come papaya, melón y comida especial con poco hierro.",
+   "keys": [],
+   "sfx": [
+    [
+     "pop",
+     "papaya,"
+    ]
+   ]
+  },
+  {
+   "scene": "tuc10",
+   "text": "Pero en la jaula se la pasa golpeando el pico contra los barrotes.",
+   "keys": [],
+   "sfx": [
+    [
+     "thud",
+     "barrotes."
+    ]
+   ]
+  },
+  {
+   "scene": "tuc11",
+   "text": "Es que casi no vuela: va saltando de rama en rama. Necesita una jaula larga, con palos a distintas alturas. Esa es su casa.",
+   "keys": [],
+   "sfx": [
+    [
+     "stamp",
+     "casa."
+    ]
+   ]
+  },
+  {
+   "scene": "tuc12",
+   "text": "Pero un día de calor le tocas el pico… y está caliente.",
+   "keys": [],
+   "sfx": [
+    [
+     "drop",
+     "caliente."
+    ]
+   ]
+  },
+  {
+   "scene": "tuc13",
+   "text": "Es que su pico es su aire acondicionado: le manda sangre para soltar el calor, como el radiador de un carro. Y cuando hace frío, le corta la sangre para no perderlo.",
+   "keys": [],
+   "sfx": [
+    [
+     "splash",
+     "frío,"
+    ]
+   ]
+  },
+  {
+   "scene": "tuc14",
+   "text": "Ahora sí, tienes un tucán feliz. Pero antes de celebrar, pregúntale a tu tío cómo lo trajo… porque sacarlo de la selva sin permiso es tráfico de animales.",
+   "keys": [],
+   "sfx": [
+    [
+     "gavel",
+     "tráfico"
+    ]
+   ]
+  }
+ ]
+}
