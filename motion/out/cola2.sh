@@ -3,7 +3,7 @@
 cd /home/user/Automatizacion/motion
 find /tmp -maxdepth 1 -name "remotion-webpack-bundle-*" -mmin +150 -exec rm -rf {} + 2>/dev/null
 export REMOTION_BROWSER=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell
-LISTA="tucan:tucan:29_Mascotas_Tucan ajolote2:ajolote2:30_Mascotas_Ajolote guacamayo:guacamayo:31_Mascotas_Guacamayo iguana:iguana:32_Mascotas_Iguana camaleon:camaleon:33_Mascotas_Camaleon"
+LISTA="tucan:tucan:29_Mascotas_Tucan ajolote2:ajolote2:30_Mascotas_Ajolote guacamayo:guacamayo:31_Mascotas_Guacamayo iguana:iguana:32_Mascotas_Iguana camaleon:camaleon:33_Mascotas_Camaleon erizo:erizo:34_Mascotas_Erizo"
 TROZO=360
 for item in $LISTA; do
   IFS=: read c d n <<< "$item"
